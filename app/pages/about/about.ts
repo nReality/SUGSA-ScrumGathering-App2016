@@ -27,7 +27,7 @@ class PopoverPage {
   templateUrl: 'build/pages/about/about.html'
 })
 export class AboutPage {
-  conferenceDate = '2047-05-17';
+  conferenceDate = '2016-08-22';
 
   constructor(private nav: NavController) {}
 
