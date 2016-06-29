@@ -1,46 +1,56 @@
-<ion-header>
-  <ion-navbar>
-    <button menuToggle>
-      <ion-icon name="menu"></ion-icon>
-    </button>
-    <ion-title>About</ion-title>
-    <ion-buttons end>
-      <button (click)="presentPopover($event)">
-        <ion-icon name="more"></ion-icon>
-      </button>
-    </ion-buttons>
-  </ion-navbar>
-</ion-header>
+
+<ion-navbar *navbar>
+  <button menuToggle>
+    <ion-icon name="menu"></ion-icon>
+  </button>
+  <ion-title>About</ion-title>
+</ion-navbar>
 
 <ion-content>
   <div class="about-header">
-    <img src="img/ionic-logo-white.svg">
+    <img src="img/Agile-Africa-2016-logo.png">
   </div>
   <div padding class="about-info">
-    <h4>Ionic Conference</h4>
+    <h3>Agile Africa Conference</h3>
 
     <ion-list no-lines>
       <ion-item>
         <ion-icon name="calendar" item-left></ion-icon>
         <ion-label>Date</ion-label>
-        <ion-datetime displayFormat="MMM DD, YYYY" [(ngModel)]="conferenceDate"></ion-datetime>
+        <ion-datetime displayFormat="MMM DD, YYYY" [(ngModel)]="conferenceDate"></ion-datetime>        
       </ion-item>
 
       <ion-item>
         <ion-icon name="pin" item-left></ion-icon>
         <ion-label>Location</ion-label>
-        <ion-label text-right>Madison, WI</ion-label>
+        <ion-label text-right>Johannesburg, South Africa</ion-label>
       </ion-item>
     </ion-list>
 
     <p>
-      The Ionic Conference is a one-day conference featuring talks from the
-      Ionic team. It is focused on Ionic applications being built with
-      Ionic 2. This includes migrating apps from Ionic 1 to Ionic 2,
-      Angular concepts, Webpack, Sass, and many other technologies used
-      in Ionic 2. Tickets are completely sold out, and we’re expecting
-      more than 1000 developers – making this the largest Ionic
-      conference ever!
+      Agile Africa is an annual conference where African software professionals meet to uncover better ways of working and developing software.
+      You will get the chance to hear leading international and local speakers and, more importantly, interact with professionals from various software development communities.
     </p>
+    <p>
+      The 2016 conference will build on <a href="http://2015.agileafricaconf.com/">last year’s</a> success to create an engaging memorable event.
+    </p>
+    <br/>
+    <p>
+      <strong>Talks</strong> - leading international and local speakers will challenge us with the latest ideas in the Agile world (the Long Grass track), as well as cover crucial fundamentals that we seem to have neglected (the Short Grass track). Topics will grow our understanding of knowledge work and what it takes to build good software.
+    </p>
+    <br/>
+    <p>
+      <strong>Interactive Space</strong> - Engage with the speakers and other delegates – even challenge their ideas – in our Indaba Room alongside the talks. It will have a fishbowl, open spaces, lean coffee as ways to make interaction fun and comfortable. If your introvert kicks in, just listening in on a debate over a good coffee is equally rewarding.
+    </p>
+    <br/>
+    <p>
+      <strong>Workshops</strong> - 24 August, the day after the conference, we will host a few handpicked speaker workshops. Don’t miss this opportunity to get a deeper grasp on ideas and practice in applying them with leading mentors. Note that workshops are optional additions to your conference.
+    </p>
+    <br/><br/>
+    <div class="about-sponsor">
+      <h4>This app is proudly sponsored by</h4><br/>
+      <img src="img/nreality-logo.png"><br/>
+      <a href="http://www.nreality.com">nReality.com</a>
+    </div>
   </div>
 </ion-content>
