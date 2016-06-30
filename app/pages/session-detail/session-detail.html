@@ -6,6 +6,7 @@
 
 <ion-content padding>
   <h1>{{session.name}}</h1>
+  <rating-stars></rating-stars>
 
   <h4 *ngFor="let speaker of session.speakers">
     {{speaker.name}}
@@ -17,5 +18,5 @@
 
   <p>{{session.location}}</p>
 
-  <p>{{session.description}}</p>
+  <p>{{session.description}}</p>  
 </ion-content>
