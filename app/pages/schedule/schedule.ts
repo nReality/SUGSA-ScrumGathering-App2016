@@ -20,8 +20,7 @@ export class SchedulePage {
   queryText = '';
   segment = 'all';
   excludeTracks = [];
-  shownSessions = [];
-  groups = [];
+  days = [];
 
   constructor(
     private app: App,
@@ -45,8 +44,7 @@ export class SchedulePage {
     this.scheduleList && this.scheduleList.closeSlidingItems();
 
     this.confData.getTimeline(this.dayIndex, this.queryText, this.excludeTracks, this.segment).then(data => {
-      this.shownSessions = data.shownSessions;
-      this.groups = data.groups;
+      this.days = data;
     });
   }
 
