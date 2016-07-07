@@ -73,15 +73,10 @@
               "timeEnd": "12:00 pm",
               "tracks": [
                   "Building the right thing",
-                    "Building the thing right",
+                    "Building thing right",
                     "People and organisational culture",
                     "Quality Early and Testing",
-                    "Agile UX and Interaction Design",
-                    "Iterative Development and Lean Startup",
-                    "Practices and Tools",
-                    "Evolutionary Design",
-                    "Meaningful Innovation",
-                    "Design Thinking"
+                    "Agile UX and Interaction Design"
               ]
             },
             {
@@ -92,11 +87,7 @@
               "timeStart": "11:30 am",
               "timeEnd": "12:00 pm",
               "tracks": [
-                    "Learning orginisation",
                     "People and organisational culture",
-                    "Experience report",
-                    "Scale",
-                    "Practices and Tools",
                     "Leadership"
                     ]
             }
@@ -121,16 +112,11 @@
               "timeStart": "12:10 pm",
               "timeEnd": "12:25 pm",
               "tracks": [
-                        "Learning orginisation",
                         "Building the right thing",
-                        "Building the thing right",
-                        "Craftsmanship and apprenticeship",
+                        "Building thing right",
                         "People and organisational culture",
                         "Quality Early and Testing",
-                        "Iterative Development and Lean Startup",
-                        "Practices and Tools",
-                        "Leadership",
-                        "Evolutionary Design"
+                        "Leadership"
                         ]
             },
             {
@@ -141,15 +127,11 @@
               "timeStart": "12:10 pm",
               "timeEnd": "12:25 pm",
               "tracks": [
-                  "Learning orginisation",
                   "Building the right thing",
-                  "Building the thing right",
+                  "Building thing right",
                   "People and organisational culture",
-                  "Experience report",
                   "Agile UX and Interaction Design",
-                  "Iterative Development and Lean Startup",
-                  "Leadership",
-                  "Evolutionary Design"
+                  "Leadership"
                 ]
             },
             {
@@ -181,9 +163,7 @@
               "timeStart": "1:50 pm",
               "timeEnd": "2:20 pm",
               "tracks": [
-                "Learning orginisation",
-                "People and organisational culture",
-                "Practices and Tools"
+                "People and organisational culture"
                 ]
             },
             {
@@ -194,13 +174,10 @@
               "timeStart": "1:50 pm",
               "timeEnd": "2:20 pm",
               "tracks": [
-                "Learning orginisation",
                 "Building the right thing",
-                "Building the thing right",
+                "Building thing right",
                 "People and organisational culture",
-                "Experience report",
-                "Leadership",
-                "Evolutionary Design"
+                "Leadership"
                 ]
             }
           ]
@@ -225,8 +202,7 @@
               "timeEnd": "3:00 pm",
               "tracks": [
                 "DevOps and Continuous Delivery",
-                "People and organisational culture",
-                "Iterative Development and Lean Startup"
+                "People and organisational culture"
                 ]
             },
             {
@@ -238,8 +214,7 @@
               "timeEnd": "3:00 pm",
               "tracks": [
                 "People and organisational culture",
-                "Quality Early and Testing",
-                "Practices and Tools"
+                "Quality Early and Testing"
                 ]
             }
           ]
@@ -262,10 +237,7 @@
               "speakerNames": ["Angie Doyle"],
               "timeStart": "3:30 pm",
               "timeEnd": "3:45 pm",
-              "tracks": [
-                "Craftsmanship and apprenticeship",
-                "Practices and Tools"
-                ]
+              "tracks": [""]
             },
             {
               "name": "Fish ponds and Agile",
@@ -275,11 +247,7 @@
               "timeStart": "3:30 pm",
               "timeEnd": "3:45 pm",
               "tracks": [
-                "People",
-                "Teams",
-                "Organisations",
-                "Culture",
-                "Working environment",
+                "People and organisational culture",
                 "Leadership"
                 ]
             },
@@ -350,13 +318,7 @@
               "timeStart": "10:20 am",
               "timeEnd": "10:50 am",
               "tracks": [
-                "Learning orginisation",
-                "Craftsmanship and apprenticeship",
-                "People",
-                "Teams",
-                "Organisations",
-                "Culture",
-                "Working environment",
+                "People and organisational culture",
                 "Leadership"
               ]
             },
@@ -369,13 +331,8 @@
               "timeEnd": "10:50 am",
               "tracks": [
                 "DevOps and Continuous Delivery",
-                "People",
-                "Teams",
-                "Organisations",
-                "Culture",
-                "Working environment",
-                "Quality Early and Testing",
-                "Practices and Tools"
+                "People and organisational culture",
+                "Quality Early and Testing"
               ]
             },
             {
@@ -400,9 +357,7 @@
               "timeEnd": "11:50 am",
               "tracks": [
                 "Building the right thing",
-                "Agile UX and Interaction Design",
-                "Iterative Development and Lean Startup",
-                "Practices and Tools"
+                "Agile UX and Interaction Design"
               ]
             },
             {
@@ -415,9 +370,7 @@
               "tracks": [
                 "Building thing right",
                 "DevOps and Continuous Delivery",
-                "Quality Early and Testing",
-                "Iterative Development and Lean Startup",
-                "Practices and Tools"
+                "Quality Early and Testing"
               ]
             },
             {
@@ -441,13 +394,7 @@
               "timeStart": "12:00 pm",
               "timeEnd": "12:30 pm",
               "tracks": [
-                "People",
-                "Teams",
-                "Organisations",
-                "Culture",
-                "Working environment",
-                "Experience report",
-                "Flow"
+                "People and organisational culture"
               ]
             },
             {
@@ -459,12 +406,7 @@
               "timeEnd": "12:30 pm",
               "tracks": [
                 "Building the right thing",
-                "People",
-                "Teams",
-                "Organisations",
-                "Culture",
-                "Working environment",
-                "Practices and Tools"
+                "People and organisational culture"
               ]
             },
             {
@@ -496,13 +438,7 @@
               "timeStart": "13:40 pm",
               "timeEnd": "14:10 pm",
               "tracks": [
-                "Learning orginisation",
-                "People",
-                "Teams",
-                "Organisations",
-                "Culture",
-                "Working environment",
-                "Experience report",
+                "People and organisational culture",
                 "Leadership"
               ]
             },
@@ -514,14 +450,10 @@
               "timeStart": "13:40 pm",
               "timeEnd": "14:10 pm",
               "tracks": [
-                "Learning orginisation",
+                "People and organisational culture",
                 "Building the right thing",
-                "Building the thing right",
-                "DevOps and Continuous Delivery",
-                "Craftsmanship and apprenticeship",
-                "Iterative Development and Lean Startup",
-                "Practices and Tools",
-                "Evolutionary Design"
+                "Building thing right",
+                "DevOps and Continuous Delivery"
               ]
             }
           ]
@@ -544,7 +476,7 @@
               "description": "Ten inter-dependent teams, four Scrum Masters and two months to pull them all together to make the launch of what was to become Discovery Vitality’s most successful product to date: Vitality Active Rewards. No pressure. This talk will start by outlining the organisational structure of the agile and non-agile teams involved in the delivery of Active Rewards. The scaled agile approach followed will then be shared, specifically highlighting techniques utilised to help coordinate and synchronise the teams towards constant value delivery in order to make the very tight launch deadline. The benefits realised and lessons learnt from techniques such as joint release and sprint planning and daily Scrum of Scrum ceremonies will be presented, together with further planned improvements to our scaled agile implementation.",
               "timeStart": "14:15 pm",
               "timeEnd": "14:30 pm",
-              "tracks": ["Admin & Food"]
+              "tracks": [""]
             },
             {
               "name": "An automated testers dream",
@@ -573,13 +505,7 @@
               "timeStart": "14:35 pm",
               "timeEnd": "14:50 pm",
               "tracks": [
-                "Learning orginisation",
-                "People",
-                "Teams",
-                "Organisations",
-                "Culture",
-                "Working environment",
-                "Practices and Tools"
+                "People and organisational culture"
               ]
             },
             {
@@ -590,16 +516,8 @@
               "timeStart": "14:35 pm",
               "timeEnd": "14:50 pm",
               "tracks": [
-                "Learning orginisation",
-                "People",
-                "Teams",
-                "Organisations",
-                "Culture",
-                "Working environment",
-                "Practices and Tools",
-                "Leadership",
-                "Evolutionary Design",
-                "Coaching"
+                "People and organisational culture",
+                "Leadership"
               ]
             },
             {
@@ -645,13 +563,8 @@
               "timeStart": "16:00 pm",
               "timeEnd": "16:30 pm",
               "tracks": [
-                "Learning orginisation",
+                "People and organisational culture",
                 "Building the right thing",
-                "People",
-                "Teams",
-                "Organisations",
-                "Culture",
-                "Working environment",
                 "Leadership"
               ]
             },
@@ -676,13 +589,6 @@
       "profilePic": "img/speakers/bear.jpg",
       "twitter": "ionicframework",
       "about": "Burt is a Bear.",
-      "location": "Everywhere"
-    },
-    {
-      "name": "Charlie Cheetah",
-      "profilePic": "img/speakers/cheetah.jpg",
-      "twitter": "ionicframework",
-      "about": "Charlie is a Cheetah.",
       "location": "Everywhere"
     }
   ],
