@@ -9,10 +9,10 @@
           "sessions": [
             {
               "name": "Registration",
+              "location": "Ballroom",
               "timeStart": "8:30 am",
-              "timeEnd": "9:30 am",
-              "location": "Main hallway",
-              "tracks": ["Food"]
+              "timeEnd": "9:00 am",
+              "tracks": ["Admin & Food"]
             }
           ]
         },
@@ -21,19 +21,19 @@
           "sessions": [
             {
               "name": "Welcome",
-              "location": "Main hallway",
-              "description": "Description to come here...",
+              "location": "Ballroom",
+              "description": "For more information about the Agile Africa conference and our sponsors, please see the about page.",
               "speakerNames": ["Jacques de Vos"],
               "timeStart": "9:00 am",
-              "timeEnd": "9:30 am",
-              "tracks": [""]
+              "timeEnd": "9:20 am",
+              "tracks": ["Admin & Food"]
             },
             {
-              "name": "Learning Stories",
-              "location": "Main Room",
+              "name": "A Learning Continent",
+              "location": "Ballroom",
               "description": "Description to come here...",
               "speakerNames": ["CodeX/WeThinkCode"],
-              "timeStart": "9:30 am",
+              "timeStart": "9:20 am",
               "timeEnd": "10:00 am",
               "tracks": [""]
             }
@@ -44,12 +44,12 @@
           "sessions": [
             {
               "name": "Keynote Talk",
-              "location": "Main Room",
+              "location": "Ballroom",
               "description": "Description to come here...",
               "speakerNames": ["Henrik Kniberg"],
               "timeStart": "10:00 am",
               "timeEnd": "11:00 am",
-              "tracks": [""]
+              "tracks": ["Keynote"]
             }
           ]
         },
@@ -58,53 +58,107 @@
           "sessions": [
                         {
               "name":"Tea and Move",
-              "location":"All locations",              
-              "description": "Description to come here...",
-              "speakerNames": [""],
+              "location":"Indaba Tree Room",
+              "description": "Remember to visit our sponsors' webpages.",
               "timeStart": "11:00 am",
               "timeEnd": "11:30 am",
-              "tracks": [""]
+              "tracks": ["Admin & Food"]
             },
             {
               "name": "UX by Wire",
-              "description": "Designing the Most Loved product",
-              "location": "Main Room",              
+              "description": "This presentation introduces a simple philosophical paradigm: “UX by Wire”.  UX by Wire is driven by the core principles Designing to Learn (D2L) vs Learning to Design (L2D) and design thinking. Through story telling, a series of challenges and learns learnt from                       various products attempting to integrate UX will be shared during the presentation.  The presenters will describe the unique experiences in the transition of marrying UX to agile in the operating model. Also, the presenters will share common themes such as abductive                    reasoning, guerrilla testing, RITE, leaner research design, visibility of outputs, task breakdown and increased collaboration across the feature teams towards the delivery of Most Loved Product (MLP). ",
+              "location": "Ballroom",
               "speakerNames": ["Job Mashapa", "Farai Madzima"],
               "timeStart": "11:30 am",
-              "timeEnd": "12:10 am",
-              "tracks": [""]
+              "timeEnd": "12:00 pm",
+              "tracks": [
+                  "Building the right thing",
+                    "Building the thing right",
+                    "People and organisational culture",
+                    "Quality Early and Testing",
+                    "Agile UX and Interaction Design",
+                    "Iterative Development and Lean Startup",
+                    "Practices and Tools",
+                    "Evolutionary Design",
+                    "Meaningful Innovation",
+                    "Design Thinking"
+              ]
+            },
+            {
+              "name": "Attack Strategies for Taming Legacy Code",
+              "description": "The toughest agile journey is the one with a legacy code base.  Define legacy as you wish, but the pain of trying to maintain consistent flow when we touch code after the first or umpteenth release into production is very real.  By far, legacy code is the biggest                       inhibitor to high efficiency in software delivery.  In this talk, I will cover various constraints that slow us down when working with legacy code.  I follow this up with a few strategies that I use to bring a legacy code base under control. Along the way, I also will                  point out techniques that promised a lot and failed me miserably (and why).  I wrap up the talk with an honest statement of what it takes to implement it, without the false promises of silver bullets, magic wands, evangelism and idealism.",
+              "location": "Gala Room",
+              "speakerNames": ["Aslam Khan"],
+              "timeStart": "11:30 am",
+              "timeEnd": "12:00 pm",
+              "tracks": [
+                    "Learning orginisation",
+                    "People and organisational culture",
+                    "Experience report",
+                    "Scale",
+                    "Practices and Tools",
+                    "Leadership"
+                    ]
             }
           ]
         },
         {
           "time": "12:00 pm",
-          "sessions": [            
+          "sessions": [
             {
-              "name": "Quick Move",
+              "name": "Move and Stretch",
               "location": "All locations",
-              "description": "Description to come here...",
-              "speakerNames": [""],
+              "description": "Remember to visit our sponsors' webpages.",
+              "timeStart": "12:00 pm",
+              "timeEnd": "12:10 pm",
+              "tracks": ["Admin & Food"]
+            },
+            {
+              "name": "Why we owe so much to Dr Deming",
+              "location": "Ballroom",
+              "description": "When it comes to quality, lean and production systems, so much of what we've learnt over the past few decades stems from one man. Someone who was virtually unknown in his own country until a documentary aired in 1980.  After 35 years, that documentary has finally been                  released into the public domain which will hopefully shed some light and fame onto the person responsible for turning around Japanese business after the 2nd World War. That man is Dr Deming. This talk runs through the history of what happened after World War 2 and who                  it is so relevant to everyone in the Agile, Lean, etc... world. Practical advice is pulled from original works dating back 6o years and applied to current business & software development problems.",
+              "speakerNames": ["Simon Stewart"],
               "timeStart": "12:10 pm",
-              "timeEnd": "12:15 pm",
-              "tracks": [""]
+              "timeEnd": "12:25 pm",
+              "tracks": [
+                        "Learning orginisation",
+                        "Building the right thing",
+                        "Building the thing right",
+                        "Craftsmanship and apprenticeship",
+                        "People and organisational culture",
+                        "Quality Early and Testing",
+                        "Iterative Development and Lean Startup",
+                        "Practices and Tools",
+                        "Leadership",
+                        "Evolutionary Design"
+                        ]
             },
             {
-              "name": "Travelling light",
-              "location": "Main Room",
-              "description": "The pros and perils of lean documentation",
-              "speakerNames": ["Angie Doyle"],
-              "timeStart": "12:15 pm",
-              "timeEnd": "12:30 pm",
-              "tracks": [""]
+              "name": "Exploring the Options with PopcornFlow",
+              "location": "Gala Room",
+              "description": "We all get attached to our solutions. This makes us feel comfortable and secure. It becomes our rock. As product developers we become so immersed in the solution that we lose the perspective required to do the right thing. At worst we fail miserably and don't learn; at best we fail to break out of the status quo and lose out on the chance to innovate. What we want is to succeed by converging on the best possible path! Let's use PopcornFlow to: Make the problem and it's impact visible, Think of the options that address the problem, Explore those options to find the best one.",
+              "speakerNames": ["Austin Fagan"],
+              "timeStart": "12:10 pm",
+              "timeEnd": "12:25 pm",
+              "tracks": [
+                  "Learning orginisation",
+                  "Building the right thing",
+                  "Building the thing right",
+                  "People and organisational culture",
+                  "Experience report",
+                  "Agile UX and Interaction Design",
+                  "Iterative Development and Lean Startup",
+                  "Leadership",
+                  "Evolutionary Design"
+                ]
             },
             {
-              "name": "Lunch",
-              "location": "Main Room",
-              "description": "Description to come here...",
-              "speakerNames": [""],
-              "timeStart": "12:30 am",
-              "timeEnd": "1:30 pm",
-              "tracks": [""]
+              "name": "Lunch and Discussions",
+              "location": "Indaba Tree Room",
+              "description": "Remember to visit our sponsors' webpages.",
+              "timeStart": "12:25 pm",
+              "timeEnd": "1:00 pm",
+              "tracks": ["Admin & Food"]
             }
           ]
         },
@@ -115,73 +169,127 @@
               "name": "Poster Session",
               "location": "Indaba Tree Room",
               "description": "See posters",
-              "speakerNames": ["Lionel Lion", "Gino Giraffe"],
-              "timeStart": "1:30 pm",
+              "timeStart": "1:00 pm",
               "timeEnd": "1:50 pm",
-              "tracks": [""]
+              "tracks": ["Poster"]
             },
             {
-              "name": "Is anyone there?",
-              "location": "Main Room",
-              "description": "Dealing with distributed teams",
+              "name": "Is anyone there? - Dealing with distributed teams",
+              "location": "Ballroom",
+              "description": "In the ideal perfect world there will be rainbows and unicorns and teams that all sit together. In reality most teams have to deal with distribution in one form or another. For some its team members spread across a building, for others its team members in other parts   of the world in different time zones. Can Agile work for these teams?",
               "speakerNames": ["Samantha Laing", "Karen Greaves"],
               "timeStart": "1:50 pm",
               "timeEnd": "2:20 pm",
-              "tracks": [""]
+              "tracks": [
+                "Learning orginisation",
+                "People and organisational culture",
+                "Practices and Tools"
+                ]
+            },
+            {
+              "name": "Business vs IT",
+              "location": "Gala Room",
+              "description": "In the ideal perfect world there will be rainbows and unicorns and teams that all sit together. In reality most teams have to deal with distribution in one form or another. For some its team members spread across a building, for others its team members in other parts   of the world in different time zones. Can Agile work for these teams?",
+              "speakerNames": ["Kevin Trethewey"],
+              "timeStart": "1:50 pm",
+              "timeEnd": "2:20 pm",
+              "tracks": [
+                "Learning orginisation",
+                "Building the right thing",
+                "Building the thing right",
+                "People and organisational culture",
+                "Experience report",
+                "Leadership",
+                "Evolutionary Design"
+                ]
             }
           ]
         },
         {
           "time": "2:00 pm",
-          "sessions": [          
+          "sessions": [
             {
               "name": "Move and Stretch",
               "location": "All locations",
-              "description": "",
+              "description": "Remember to visit our sponsors' webpages.",
               "timeStart": "2:20 pm",
-              "timeEnd": "2:40 pm",
-              "tracks": ["Food"]
+              "timeEnd": "2:30 pm",
+              "tracks": ["Admin & Food"]
             },
             {
-              "name": "DevOps",
-              "location": "Main Room",
-              "description": "A lean definition",
+              "name": "DevOps - A lean definition",
+              "location": "Ballroom",
+              "description": "The definition of DevOps has become mired in the tooling and practices that are normally associated with DevOps as opposed to the intent of DevOps itself. This talk attempts to reframe and reorient the definition of DevOps back into it's original Lean and Agile context in a simple and concise manner.",
               "speakerNames": ["Julian Exenberger"],
-              "timeStart": "2:40 pm",
-              "timeEnd": "3:20 pm",
-              "tracks": [""]
+              "timeStart": "2:30 pm",
+              "timeEnd": "3:00 pm",
+              "tracks": [
+                "DevOps and Continuous Delivery",
+                "People and organisational culture",
+                "Iterative Development and Lean Startup"
+                ]
+            },
+            {
+              "name": "Specification by example",
+              "location": "Gala Room",
+              "description": "Have you ever had to read through tests and you can't understand them? Or you are too tired of going through testing abstracts that mean nothing to you? And you wish that there was an easier way to understand the tests functionality? Have you wished there was one single source of truth for a project that could be used for the clients, business analysts and development team? Specification by example could be what you are looking for. It is a testing architecture which can be used by all the stakeholders of a project to understand how a system works and the examples of scenarios expected.",
+              "speakerNames": ["Ann Mwangi"],
+              "timeStart": "2:30 pm",
+              "timeEnd": "3:00 pm",
+              "tracks": [
+                "People and organisational culture",
+                "Quality Early and Testing",
+                "Practices and Tools"
+                ]
             }
           ]
         },
         {
           "time": "3:00 pm",
-          "sessions": [            
+          "sessions": [
             {
-              "name": "Quick Move",
-              "location": "Main Room",
-              "description": "Description to come here...",
-              "speakerNames": [""],
-              "timeStart": "3:20 pm",
-              "timeEnd": "3:25 pm",
-              "tracks": [""]
+              "name": "Tea and Move",
+              "location": "Indaba Tree Room",
+              "description": "Remember to visit our sponsors' webpages.",
+              "timeStart": "3:00 pm",
+              "timeEnd": "3:30 pm",
+              "tracks": ["Admin & Food"]
             },
             {
-              "name": "Active Agile",
-              "location": "Main Room",
-              "description": "The story of a rewarding scaled agile implementation",
-              "speakerNames": ["Justin Doyle"],
-              "timeStart": "3:25 pm",
-              "timeEnd": "3:40 pm",
-              "tracks": [""]
+              "name": "Travelling light – The pros and perils of lean documentation",
+              "location": "Ballroom",
+              "description": "Have you ever been on a long haul overseas trip, where you loaded your hand luggage with items like laptops, books and electronic devices – just to make sure that you weren’t bored on the flight? Only to be left trudging around airport duty free shops while waiting for connecting flight, wondering why you feel like you packed bricks in your backpack. Projects carry a lot of baggage too… documentation. Someone has to create it, someone has to read it, someone has to sign it, someone has to (or is meant to) maintain it, and eventually someone needs to identify if it is still valuable. That’s a lot of work for something we might not even use! Agile approaches value working software over comprehensive documentation. But what does that really mean? ",
+              "speakerNames": ["Angie Doyle"],
+              "timeStart": "3:30 pm",
+              "timeEnd": "3:45 pm",
+              "tracks": [
+                "Craftsmanship and apprenticeship",
+                "Practices and Tools"
+                ]
+            },
+            {
+              "name": "Fish ponds and Agile",
+              "location": "Gala Room",
+              "description": "The adoption of Agile in majority of South African companies, specifically larger ones, is non effective. Primary reason is that the main focus is at the team level and mainly the practices. Values and principles extend beyond the team, and without support from the greater organisation, majority of these are difficult to adopt.",
+              "speakerNames": ["Dillon Weyer"],
+              "timeStart": "3:30 pm",
+              "timeEnd": "3:45 pm",
+              "tracks": [
+                "People",
+                "Teams",
+                "Organisations",
+                "Culture",
+                "Working environment",
+                "Leadership"
+                ]
             },
             {
               "name": "Move and Stretch",
-              "location": "Main Room",
-              "description": "",
-              "speakerNames": [""],
-              "timeStart": "3:40 pm",
-              "timeEnd": "3:50 pm",
-              "tracks": [""]
+              "location": "All locations",
+              "description": "Remember to visit our sponsors' webpages.",
+              "timeStart": "3:45 pm",
+              "timeEnd": "4:00 pm",
+              "tracks": ["Admin & Food"]
             }
           ]
         },
@@ -189,12 +297,370 @@
           "time": "4:00 pm",
           "sessions":[
             {
-              "name": "Self-selection",
-              "location": "Main Room",
+              "name": "Keynote: Self-selection",
+              "location": "Ballroom",
               "description": "",
               "speakerNames": ["Sandy Mamoli"],
-              "timeStart": "3:50 pm",
-              "timeEnd": "4:50 pm",
+              "timeStart": "4:00 pm",
+              "timeEnd": "???? pm",
+              "tracks": [""]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2016-08-23",
+      "groups": [
+        {
+          "time": "9:00 am",
+          "sessions": [
+            {
+              "name": "Announcements",
+              "location": "Ballroom",
+              "timeStart": "9:00 am",
+              "timeEnd": "9:10 am",
+              "tracks": ["Admin & Food"]
+            },
+            {
+              "name": "Keynote: Why does Yesterday’s Best Practice Become Tomorrow’s Antipattern?",
+              "location": "Ballroom",
+              "speakers": "Neal Ford",
+              "timeStart": "9:10 am",
+              "timeEnd": "10:10 am",
+              "tracks": [""]
+            }
+          ]
+        },
+        {
+          "time": "10:00",
+          "sessions": [
+            {
+              "name": "Move and Stretch",
+              "location": "All locations",
+              "timeStart": "10:10 am",
+              "timeEnd": "10:20 am",
+              "tracks": ["Admin & Food"]
+            },
+            {
+              "name": "Unlocking ScrumMastery through the ScrumMaster Academy",
+              "location": "Ballroom",
+              "speakers": "Biase De Gregorio",
+              "description": "This talk focuses on how we solved this problem by creating a sustainable learning opportunity for internal staff to become great ScrumMasters through a focused, 13 - and then a 10 -  week programme called the ScrumMaster Academy. We used the pilot programme as an experiment by providing training, coaching and mentoring 16 ScrumMaster apprentices through a Coaching Collective.",
+              "timeStart": "10:20 am",
+              "timeEnd": "10:50 am",
+              "tracks": [
+                "Learning orginisation",
+                "Craftsmanship and apprenticeship",
+                "People",
+                "Teams",
+                "Organisations",
+                "Culture",
+                "Working environment",
+                "Leadership"
+              ]
+            },
+            {
+              "name": "Behavior Driven develop your Agile Projects",
+              "location": "Gala Room",
+              "speakers": "Rory Preddy",
+              "description": "JBehave is a framework for Behavior-Driven Development (BDD). BDD is an evolution of test-driven development (TDD) and acceptance-test driven design. It shifts the vocabulary from being test-based to behavior-based, and positions itself as a design philosophy. BDD revolves around the concept of a Story, which represents an automatically executable increment of business functionality. At its core a Story comprises of one or more Scenarios, each of which represents a concrete example of the behavior of the system. Scenarios are written in Given, When, Then format, also known as Gherkin: Given/When/Then is a very powerful idiom, that allows for virtually any requirement to be described. Join me as we use a Continuous Build pipeline to automate a Businesses requirements.",
+              "timeStart": "10:20 am",
+              "timeEnd": "10:50 am",
+              "tracks": [
+                "DevOps and Continuous Delivery",
+                "People",
+                "Teams",
+                "Organisations",
+                "Culture",
+                "Working environment",
+                "Quality Early and Testing",
+                "Practices and Tools"
+              ]
+            },
+            {
+              "name": "Tea and Move",
+              "location": "Indaba Tree Room",
+              "description": "Remember to visit our sponsors' webpages.",
+              "timeStart": "10:20 am",
+              "timeEnd": "10:50 am",
+              "tracks": ["Admin & Food"]
+            }
+          ]
+        },
+        {
+          "time": "11:00 am",
+          "sessions": [
+            {
+              "name": "Agilising Product Design, it's not about the process, it's about people",
+              "location": "Ballroom",
+              "speakers": "Rob Enslin",
+              "description": "Designing the right product (over designing it right) has never been more salient now than ever. Do it the 'Agile' way is not going to cut it, nor will defining the Product MVP either, understanding what people need and what problems the Product will help solve does cut it. My 30-min talk will cover the most important phase of Product Design - the problem definition and strategy phase. I'll talk about iterative style approaches, context awareness, and customer definition work.",
+              "timeStart": "11:20 am",
+              "timeEnd": "11:50 am",
+              "tracks": [
+                "Building the right thing",
+                "Agile UX and Interaction Design",
+                "Iterative Development and Lean Startup",
+                "Practices and Tools"
+              ]
+            },
+            {
+              "name": "Demystifying Continuous Delivery",
+              "location": "Gala Room",
+              "speakers": "Kelvin Mutuma",
+              "description": "Most of us using continuous integration and deployment think of it as something complicated, buggy and often hard to set up. If you’re currently using build tools but unsure how it works, this talk will demystify the CI/CD for you. I’ll start by showing different tools, then we will discuss the challenges we found when using them. We will dive into the layers of how an example CI/CD tool is built and we will end up showing how the actual build is run, tested or deployed. When you understand the system, you’ll know the limitations and how to overcome them.",
+              "timeStart": "11:20 am",
+              "timeEnd": "11:50 am",
+              "tracks": [
+                "Building thing right",
+                "DevOps and Continuous Delivery",
+                "Quality Early and Testing",
+                "Iterative Development and Lean Startup",
+                "Practices and Tools"
+              ]
+            },
+            {
+              "name": "Move and Stretch",
+              "location": "All locations",
+              "description": "Remember to visit our sponsors' webpages.",
+              "timeStart": "11:50 am",
+              "timeEnd": "12:00 pm",
+              "tracks": ["Admin & Food"]
+            }
+          ]
+        },
+        {
+          "time": "12:00 pm",
+          "sessions": [
+            {
+              "name": "A corporate South African success story",
+              "location": "Ballroom",
+              "speakers": "Candice Mesk",
+              "description": "In this session I’m going to walk you through the practices adopted by this team to make mob programming possible and why I feel these practices led them to achieve such a dramatic improvement in delivery time. I will also briefly present some of the supporting data, and explain how it was collected.",
+              "timeStart": "12:00 pm",
+              "timeEnd": "12:30 pm",
+              "tracks": [
+                "People",
+                "Teams",
+                "Organisations",
+                "Culture",
+                "Working environment",
+                "Experience report",
+                "Flow"
+              ]
+            },
+            {
+              "name": "Requirements Engineering for Agile Product Owners: Hunting Value with Structured Conversations",
+              "location": "Gala Room",
+              "speakers": "Pavel Dabrytski",
+              "description": "Hunting value through conversations. This is a skill that helps product owners when working with stakeholders, analysts and requirements engineers. Start with identifying your project partners, and use seven product dimensions (user, interface, activities, data, control, environment and quality attributes) to uncover correct requirements for your product. Understand how you can use it to focus on value, deliver value and optimise value.",
+              "timeStart": "12:00 pm",
+              "timeEnd": "12:30 pm",
+              "tracks": [
+                "Building the right thing",
+                "People",
+                "Teams",
+                "Organisations",
+                "Culture",
+                "Working environment",
+                "Practices and Tools"
+              ]
+            },
+            {
+              "name": "Lunch and Discussions",
+              "location": "Indaba Tree Room",
+              "description": "Remember to visit our sponsors' webpages.",
+              "timeStart": "12:30 pm",
+              "timeEnd": "13:00 pm",
+              "tracks": ["Admin & Food"]
+            }
+          ]
+        },
+        {
+          "time": "13:00 am",
+          "sessions": [
+            {
+              "name": "Posters",
+              "location": "Indaba Tree Room",
+              "description": "See posters.",
+              "timeStart": "13:00 am",
+              "timeEnd": "???? am",
+              "tracks": [""]
+            },
+            {
+              "name": "Pivoting Without Pain is Impossible",
+              "location": "Ballroom",
+              "speakers": "Nyaradzai Samushonga",
+              "description": "Pivoting has become a ubiquitous term in agile circles to refer to a decisive change in plan or strategy.  It is rightfully regarded as the very embodiment of being agile.  But pivoting is oh so painful, and an incredibly daunting thought.  Yet, to remain religiously beholden to the original path is folly. In this talk, I will share the series of pivot points on a project that spanned two years, and the ultimate operational transformation that was achieved; far exceeding expectations.  But it did not come without the drama and pain at a team and organisational level.  There is also the brutality of honesty and the loneliness of courageous leadership needed to see the pivot through.",
+              "timeStart": "13:40 pm",
+              "timeEnd": "14:10 pm",
+              "tracks": [
+                "Learning orginisation",
+                "People",
+                "Teams",
+                "Organisations",
+                "Culture",
+                "Working environment",
+                "Experience report",
+                "Leadership"
+              ]
+            },
+            {
+              "name": "Evolution of software systems",
+              "location": "Gala Room",
+              "speakers": "Joshua Lewis",
+              "description": "When they are first created, software systems generally have a consistent internal model and structure, which the authors consider a good solution for the problem at hand, considering their context, knowledge and expertise at the time. Over time, this internal structure generally loses its consistency due to a sequence of mutations made to satisfy new requirements. These mutations generally make further changes to the software more difficult, longer to make, and introduce great risk. What often happens is after enough time, developers start recommending a complete rewrite.",
+              "timeStart": "13:40 pm",
+              "timeEnd": "14:10 pm",
+              "tracks": [
+                "Learning orginisation",
+                "Building the right thing",
+                "Building the thing right",
+                "DevOps and Continuous Delivery",
+                "Craftsmanship and apprenticeship",
+                "Iterative Development and Lean Startup",
+                "Practices and Tools",
+                "Evolutionary Design"
+              ]
+            }
+          ]
+        },
+        {
+          "time": "14:00 am",
+          "sessions": [
+            {
+              "name": "Move and Stretch",
+              "location": "All locations",
+              "description": "Remember to visit our sponsors' webpages.",
+              "timeStart": "14:10 pm",
+              "timeEnd": "14:15 pm",
+              "tracks": ["Admin & Food"]
+            },
+            {
+              "name": "Active Agile: The story of a rewarding scaled agile implementation",
+              "location": "Ballroom",
+              "speakers": "Justin Doyle",
+              "description": "Ten inter-dependent teams, four Scrum Masters and two months to pull them all together to make the launch of what was to become Discovery Vitality’s most successful product to date: Vitality Active Rewards. No pressure. This talk will start by outlining the organisational structure of the agile and non-agile teams involved in the delivery of Active Rewards. The scaled agile approach followed will then be shared, specifically highlighting techniques utilised to help coordinate and synchronise the teams towards constant value delivery in order to make the very tight launch deadline. The benefits realised and lessons learnt from techniques such as joint release and sprint planning and daily Scrum of Scrum ceremonies will be presented, together with further planned improvements to our scaled agile implementation.",
+              "timeStart": "14:15 pm",
+              "timeEnd": "14:30 pm",
+              "tracks": ["Admin & Food"]
+            },
+            {
+              "name": "An automated testers dream",
+              "location": "Gala Room",
+              "speakers": "Paul Lloyd",
+              "description": "This presentation is a story (albeit an unfinished story) that starts with a dream - an automated testers dream. The dream of automation is about pressing a button and letting a machine do the work for you… It is about machines and programs doing jobs that you do, but faster and more efficiently. The rest of the story is about my attempts to make that dream a reality – and the journey of successes, challenges and experiences in that process. The story is about my experiences and experiments with test automation, how we integrated them into the build stack and how we were able to enhance testing along with the productivity of the software development team. This presentation will unpack and highlight the processes, challenges and successes that our testing team has been working on for the last 3 Years",
+              "timeStart": "14:15 pm",
+              "timeEnd": "14:30 pm",
+              "tracks": [
+                "DevOps and Continuous Delivery"
+              ]
+            },
+            {
+              "name": "Move and Stretch",
+              "location": "All locations",
+              "description": "Remember to visit our sponsors' webpages.",
+              "timeStart": "14:30 pm",
+              "timeEnd": "14:35 pm",
+              "tracks": ["Admin & Food"]
+            },
+            {
+              "name": "Harnessing your greatest tool, your brain, better.",
+              "location": "Ballroom",
+              "speakers": "Theodore Carl Bohnen",
+              "description": "A master craftsman is more than just his/her tools; he/she does however handle them with the years of experience hard earned. In this talk I will speak about our greatest tool, the brain and how to use it more effectively in developing software.",
+              "timeStart": "14:35 pm",
+              "timeEnd": "14:50 pm",
+              "tracks": [
+                "Learning orginisation",
+                "People",
+                "Teams",
+                "Organisations",
+                "Culture",
+                "Working environment",
+                "Practices and Tools"
+              ]
+            },
+            {
+              "name": "Herding the herd - a coaches perspective",
+              "location": "Gala Room",
+              "speakers": "Theodore Carl Bohnen",
+              "description": "how do you manage learning in self organising systems?",
+              "timeStart": "14:35 pm",
+              "timeEnd": "14:50 pm",
+              "tracks": [
+                "Learning orginisation",
+                "People",
+                "Teams",
+                "Organisations",
+                "Culture",
+                "Working environment",
+                "Practices and Tools",
+                "Leadership",
+                "Evolutionary Design",
+                "Coaching"
+              ]
+            },
+            {
+              "name": "Tea and Move",
+              "location": "Indaba Tree Room",
+              "description": "Remember to visit our sponsors' webpages.",
+              "timeStart": "14:50 pm",
+              "timeEnd": "15:20 pm",
+              "tracks": ["Admin & Food"]
+            }
+          ]
+        },
+        {
+          "time": "15:00 am",
+          "sessions": [
+            {
+              "name": "Leader transformation - a side effect of an agile transition",
+              "location": "Ballroom",
+              "speakers": ["Subash Sharma", "Felicity Brady"],
+              "description": "There are many organisations that are attempting to transform from their traditional ways of working towards agile and as such, experience transformation in each part of the organisation. One key aspect is the behavioral transformation that occurs within leaders of the organization. This talk will cover the reflections, transformations, political dynamics and fears of one such leader during our organisations move towards agile. We will also talk about the views of this leaders team and their observations of his transformation.",
+              "timeStart": "15:20 pm",
+              "timeEnd": "15:00 pm",
+              "tracks": ["Leadership"]
+            },
+            {
+              "name": "Move and Stretch",
+              "location": "All locations",
+              "description": "Remember to visit our sponsors' webpages.",
+              "timeStart": "15:50 pm",
+              "timeEnd": "16:00 pm",
+              "tracks": ["Admin & Food"]
+            }
+          ]
+        },
+        {
+          "time": "16:00 am",
+          "sessions": [
+            {
+              "name": "Lead with needs",
+              "location": "Ballroom",
+              "speakers": ["Danie Roux", "Kevin Trethewey"],
+              "description": "As a software industry, we suck at providing what matters most to the true customer of what we create. In our human work systems we argue about process, technology and people matters. Day to day, week to week, we get caught up in the minutiae and lose sight of what it is we should really be doing. What really matters, is this: To lead with needs. In this session Kevin and Danie will explore what needs are, how to separate them from wants and how to connect them to the day to day activities that we call software development. Only when needs are explored and used as the ultimate measurement of any change in the system will the system become healthier.",
+              "timeStart": "16:00 pm",
+              "timeEnd": "16:30 pm",
+              "tracks": [
+                "Learning orginisation",
+                "Building the right thing",
+                "People",
+                "Teams",
+                "Organisations",
+                "Culture",
+                "Working environment",
+                "Leadership"
+              ]
+            },
+            {
+              "name": "Retro & Thanks",
+              "location": "Ballroom",
+              "description": "",
+              "timeStart": "16:30 pm",
+              "timeEnd": "???? pm",
               "tracks": [""]
             }
           ]
