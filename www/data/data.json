@@ -12,7 +12,7 @@
               "location": "Ballroom",
               "timeStart": "8:30 am",
               "timeEnd": "9:00 am",
-              "tracks": ["Admin & Food"]
+              "tracks": ["Admin"]
             }
           ]
         },
@@ -26,13 +26,16 @@
               "speakerNames": ["Jacques de Vos"],
               "timeStart": "9:00 am",
               "timeEnd": "9:20 am",
-              "tracks": ["Admin & Food"]
+              "tracks": ["Admin"]
             },
             {
               "name": "A Learning Continent",
               "location": "Ballroom",
-              "description": "Description to come here...",
-              "speakerNames": ["CodeX/WeThinkCode"],
+              "description": "codeX and WeThinkCode strive to give back to the community. Come join us to see what they have in-store for software in  Africa.",
+              "speakerNames": [
+                  "codeX",
+                  "WeThinkCode"
+                ],
               "timeStart": "9:20 am",
               "timeEnd": "10:00 am",
               "tracks": [""]
@@ -45,7 +48,7 @@
             {
               "name": "Keynote Talk",
               "location": "Ballroom",
-              "description": "Description to come here...",
+              "description": "Come learn about the difference Agile made at businesses like Spotify and Lego.\n\n Also the alignment issues they had faced; how to get a bunch of autonomous teams to move in the same direction. \n\n Henrik will also talk about agile scaling in general and how individuals have to learn and adapt as businesses changes.",
               "speakerNames": ["Henrik Kniberg"],
               "timeStart": "10:00 am",
               "timeEnd": "11:00 am",
@@ -150,7 +153,7 @@
             {
               "name": "Poster Session",
               "location": "Indaba Tree Room",
-              "description": "See posters",
+              "description": "Building Grand Master Engineering Teams\n\nBring it and we shall test! (The context-driven way)\n\nLike dew from the morning sky: Ex post facto agilification of cloud based spiral processes\n\nMy Dev team is brilliantly Agile, but how do I get the rest of the Organisation to see the light?",
               "timeStart": "1:00 pm",
               "timeEnd": "1:50 pm",
               "tracks": ["Poster"]
@@ -586,11 +589,82 @@
   "speakers": [
     {
       "name": "Jacques de Vos",
-      "profilePic": "img/speakers/bear.jpg",
-      "twitter": "ionicframework",
-      "about": "Burt is a Bear.",
-      "location": "Everywhere"
-    }
+      "profilePic": "img/speakers/jacques-head.jpg",
+      "twitter": "@jacdevos",
+       "about": "nReality founder and dev coach.\nAlways amazed by the limitless potential of tech but also enchanted by our unsolvable puzzles.\nI coach, code, listen and speak."
+     },
+     {
+       "name": "codeX",
+       "profilePic": "img/speakers/codeX-logo.jpg",
+       "twitter": "@project_codeX",
+        "about": "codeX is a full-time apprenticeship 9 to 5, every weekday. Very quickly, you'll build real projects for real companies. You might even get paid for them as you grow your skills, and commit to working for our partners for a time at the end (if they want to hire you).\n\n codeX guides you and gives you a safe space to experiment and grow.\nThere are no formal classes, though you’ll learn industry standard programming languages like Java, PHP, Python, and Javascript. In order to build your projects, you'll be guided through online content with a developer mentor always available to help.\n\ncodeX complements the learn-by-doing approach with daily coding exercises (katas) and talks with industry professionals and mentors so you gain context for your programming knowledge in computer science and business.\n\nBut we only invest in people who invest in themselves."
+      },
+      {
+        "name": "WeThinkCode",
+        "profilePic": "img/speakers/wethinkcode-logo.jpeg",
+        "twitter": "@wethinkcode",
+         "about": "WeThinkCode_ is a new kind of institution dedicated to adress the IT skills gap.\n\n Our mission is to source and develop Africa's future digital talent. We are democratising education, by making our applications open and accessible to all brilliant minds, regardless of previous education or financial means. \n\nStudents pay no tuition, and we partner with corporates, foundations and individuals to sponsor students. We provide corporates access to world-class software engineers. \n\nIf you would like more information on how to get involved, please contact us on sponsor@wethinkcode.co.za"
+       },
+       {
+         "name": "Henrik Kniberg",
+         "profilePic": "img/speakers/henrik-head.jpg",
+         "twitter": "@henrikkniberg",
+          "about": "Henrik Kniberg is an Agile/Lean coach at Crisp in Stockholm, working primarily with Lego and Spotify. He enjoys helping companies succeed with both the technical and human sides of software development. During the past 15 years he has been CTO of 3 Swedish IT companies and helped many more get started with Agile and Lean software development.\n\nHenrik is former board member of the Agile Alliance and works regularly with Mary Poppendieck, Jeff Sutherland, Alistair Cockburn, and other thought leaders. He is the author of “Scrum and XP from the Trenches” and “ Kanban and Scrum, making the most of both” and “Lean from the Trenches“. These books are available in over 12 languages, have over 500,000 readers, and are used as primary guide to Agile and Lean software development by hundreds of companies worldwide.­"
+        },
+        {
+          "name": "Job Mashapa",
+          "profilePic": "img/speakers/job-head.jpg",
+          "twitter": "",
+           "about": "Being a Service Design & User Experience practitioner, Dr, Job Mashapa has seen Agile – Scrum methodologies being practiced in a variety of projects. With practical and academic experience in ICT4D projects, UX, Internet of Things (IoT) and most importantly, real-life technological innovations his view is radically entrenched in disruptive meaningful innovation. Job empathizes with users and strongly upholds user centricity as an overarching principle for converting users into moving advertising billboards through the creation of products with an “addictive” user experience.\n\nJob, holds a PhD in Information Technology with precise interest in User Experience and Change Management. He has international experience in implementing Information and Communication Technologies for Development (ICT4D) projects across the continent. Job is currently working with Freethinking Business Consultants in the capacity of Snr Service Design and User Experience Consultants. Furthermore he is appointed as a Research Associate at Nelson Mandela Metropolitan University."
+         },
+         {
+           "name": "Farai Madzima",
+           "profilePic": "img/speakers/farai-head.jpg",
+           "twitter": "@farai_uxguy",
+            "about": "Farai Madzima, Head of Experience Design, Standard Bank Group\n\n Farai has designed banking apps used every day by people across Africa. Currently he leads Standard Bank’s talented team of designers and researchers in Johannesburg. Their ambition: to make money matters simpler to understand, and simpler to manage.\n\n Farai’s also works to prepare the wider Standard Bank Group to embrace design as a way to do better business. Not just as a way to improve service delivery.\n\n During his time in the UK, Farai designed digital products for BBC, Audi and the Virgin group. Now based in South Africa, he organises the Pixel Up! conference which brings designer from around the world to share ideas in South Africa."
+          },
+          {
+            "name": "Aslam Khan",
+            "profilePic": "img/speakers/aslam-head.jpeg",
+            "twitter": "@aslamkhn",
+             "about": "African software developer. By birth. By choice. For life."
+           },
+           {
+             "name": "Simon Stewart",
+             "profilePic": "img/speakers/simon-head.JPG",
+             "twitter": "",
+              "about": "I run the JavaScript in South Africa conference and am a frequent speaker at tech conferences.\n\n Also run a training (CodeSkills) and a technology consulting (Broken Keyboards Software) business."
+            },
+            {
+              "name": "Austin Fagan",
+              "profilePic": "img/speakers/austin-head.jpeg",
+              "twitter": "@austin_fagan",
+               "about": "I have been facilitating change in teams for the last 10 years as a Scrum Master and agile coach.\n\n I am passionate about finding new ways of building great collaboration and awesome products."
+             },
+             {
+               "name": "Samantha Laing",
+               "profilePic": "img/speakers/samantha-head.jpg",
+               "twitter": "@samlaing",
+                "about": "My personal motto is ‘be brave’, and I embody this by taking on challenges one small step at a time.\n\nMost of my career has been in the IT industry, specifically Software Development.\n Nowadays I find myself guiding and mentoring others with a passion for agile. \n\nThis year my focus has been on experimenting and learning from my failures (and successes) – what a great journey so far."
+              },
+              {
+                "name": "Karen Greaves",
+                "profilePic": "img/speakers/karen-head.jpeg",
+                "twitter": "@karen_greaves",
+                 "about": "We spend so much of our lives at work, yet so many people don't enjoy their jobs.\n\nI perform best when I love my job, and I think this is true for everyone. \nI believe the best way to engage people at work is to make sure they are having fun, making a difference, and getting better at the things they do.\n\n I help people build great teams and deliver great software.\n\nMy entire career has been in software development, with a significant focus on agile approaches, and enough experience with waterfall to understand it's limitations.\n I've worked with XP, Scrum and Kanban in many different environments. \n\nToday I train and coach individuals and teams in being agile."
+               },
+               {
+                 "name": "Kevin Trethewey",
+                 "profilePic": "img/speakers/kevin-head.png",
+                 "twitter": "@KevinTrethewey",
+                  "about": "Founded Driven in 2008, and since then has grown it into a local consultancy with an international reputation.\n\n His specific fields of interest include creating learning organisations, optimising organisations for flow of value,\n and understanding how to assist awesome people to better understand and change messy work systems."
+                },
+                {
+                  "name": "Shanaaz Trethewey",
+                  "profilePic": "img/speakers/shanaaz-head.jpg",
+                  "twitter": "@shanaazbt",
+                   "about": "As a chartered accountant Shanaaz followed a journey of being an auditor, an investment banker, an executive assistant and ultimately a business owner.\n\n Passionate about people, growing and being authentic, she is energised by forward momentum and taking action."
+                 }
   ],
 
 
