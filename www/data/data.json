@@ -38,7 +38,7 @@
                 ],
               "timeStart": "9:20 am",
               "timeEnd": "10:00 am",
-              "tracks": [""]
+              "tracks": ["People and organisational culture"]
             }
           ]
         },
@@ -46,9 +46,9 @@
           "time": "10:00 am",
           "sessions": [
             {
-              "name": "Keynote Talk",
+              "name": "Keynote: Alignment at scale",
               "location": "Ballroom",
-              "description": "Come learn about the difference Agile made at businesses like Spotify and Lego.\n\n Also the alignment issues they had faced; how to get a bunch of autonomous teams to move in the same direction. \n\n Henrik will also talk about agile scaling in general and how individuals have to learn and adapt as businesses changes.",
+              "description": "Come learn about the difference Agile made at businesses like Spotify and Lego.\n\nAlso the alignment issues they had faced; how to get a bunch of autonomous teams to move in the same direction.\n\nHenrik will also talk about agile scaling in general and how individuals have to learn and adapt as businesses changes.",
               "speakerNames": ["Henrik Kniberg"],
               "timeStart": "10:00 am",
               "timeEnd": "11:00 am",
@@ -59,17 +59,17 @@
         {
           "time": "11:00 am",
           "sessions": [
-                        {
+            {
               "name":"Tea and Move",
               "location":"Indaba Tree Room",
               "description": "Remember to visit our sponsors' webpages.",
               "timeStart": "11:00 am",
               "timeEnd": "11:30 am",
-              "tracks": ["Admin & Food"]
+              "tracks": ["Food"]
             },
             {
-              "name": "UX by Wire",
-              "description": "This presentation introduces a simple philosophical paradigm: “UX by Wire”.  UX by Wire is driven by the core principles Designing to Learn (D2L) vs Learning to Design (L2D) and design thinking. Through story telling, a series of challenges and learns learnt from                       various products attempting to integrate UX will be shared during the presentation.  The presenters will describe the unique experiences in the transition of marrying UX to agile in the operating model. Also, the presenters will share common themes such as abductive                    reasoning, guerrilla testing, RITE, leaner research design, visibility of outputs, task breakdown and increased collaboration across the feature teams towards the delivery of Most Loved Product (MLP). ",
+              "name": "UX by Wire - Designing the Most Loved product",
+              "description": "This presentation introduces a simple philosophical paradigm: “UX by Wire”.  UX by Wire is driven by the core principles Designing to Learn (D2L) vs Learning to Design (L2D) and design thinking.\n\nThrough story telling, a series of challenges and learns learnt from various products attempting to integrate UX will be shared during the presentation.\n\nThe presenters will describe the unique experiences in the transition of marrying UX to agile in the operating model. Also, the presenters will share common themes such as abductive                    reasoning, guerrilla testing, RITE, leaner research design, visibility of outputs, task breakdown and increased collaboration across the feature teams towards the delivery of Most Loved Product (MLP). ",
               "location": "Ballroom",
               "speakerNames": ["Job Mashapa", "Farai Madzima"],
               "timeStart": "11:30 am",
@@ -84,7 +84,7 @@
             },
             {
               "name": "Attack Strategies for Taming Legacy Code",
-              "description": "The toughest agile journey is the one with a legacy code base.  Define legacy as you wish, but the pain of trying to maintain consistent flow when we touch code after the first or umpteenth release into production is very real.  By far, legacy code is the biggest                       inhibitor to high efficiency in software delivery.  In this talk, I will cover various constraints that slow us down when working with legacy code.  I follow this up with a few strategies that I use to bring a legacy code base under control. Along the way, I also will                  point out techniques that promised a lot and failed me miserably (and why).  I wrap up the talk with an honest statement of what it takes to implement it, without the false promises of silver bullets, magic wands, evangelism and idealism.",
+              "description": "The toughest agile journey is the one with a legacy code base.\n\nDefine legacy as you wish, but the pain of trying to maintain consistent flow when we touch code after the first or umpteenth release into production is very real.  By far, legacy code is the biggest inhibitor to high efficiency in software delivery.\n\nIn this talk, I will cover various constraints that slow us down when working with legacy code.  I follow this up with a few strategies that I use to bring a legacy code base under control. Along the way, I also will point out techniques that promised a lot and failed me miserably (and why). \n\nI wrap up the talk with an honest statement of what it takes to implement it, without the false promises of silver bullets, magic wands, evangelism and idealism.",
               "location": "Gala Room",
               "speakerNames": ["Aslam Khan"],
               "timeStart": "11:30 am",
@@ -101,19 +101,19 @@
           "sessions": [
             {
               "name": "Move and Stretch",
-              "location": "All locations",
+              "location": "All Rooms",
               "description": "Remember to visit our sponsors' webpages.",
               "timeStart": "12:00 pm",
               "timeEnd": "12:10 pm",
-              "tracks": ["Admin & Food"]
+              "tracks": ["Food"]
             },
             {
               "name": "Why we owe so much to Dr Deming",
               "location": "Ballroom",
-              "description": "When it comes to quality, lean and production systems, so much of what we've learnt over the past few decades stems from one man. Someone who was virtually unknown in his own country until a documentary aired in 1980.  After 35 years, that documentary has finally been                  released into the public domain which will hopefully shed some light and fame onto the person responsible for turning around Japanese business after the 2nd World War. That man is Dr Deming. This talk runs through the history of what happened after World War 2 and who                  it is so relevant to everyone in the Agile, Lean, etc... world. Practical advice is pulled from original works dating back 6o years and applied to current business & software development problems.",
+              "description": "When it comes to quality, lean and production systems, so much of what we've learnt over the past few decades stems from one man. Someone who was virtually unknown in his own country until a documentary aired in 1980. \n\nAfter 35 years, that documentary has finally been released into the public domain which will hopefully shed some light and fame onto the person responsible for turning around Japanese business after the 2nd World War.\n\nThat man is Dr Deming.\n\nThis talk runs through the history of what happened after World War 2 and who it is so relevant to everyone in the Agile, Lean, etc... world.\n\nPractical advice is pulled from original works dating back 6o years and applied to current business & software development problems.",
               "speakerNames": ["Simon Stewart"],
               "timeStart": "12:10 pm",
-              "timeEnd": "12:25 pm",
+              "timeEnd": "12:30 pm",
               "tracks": [
                         "Building the right thing",
                         "Building thing right",
@@ -125,10 +125,10 @@
             {
               "name": "Exploring the Options with PopcornFlow",
               "location": "Gala Room",
-              "description": "We all get attached to our solutions. This makes us feel comfortable and secure. It becomes our rock. As product developers we become so immersed in the solution that we lose the perspective required to do the right thing. At worst we fail miserably and don't learn; at best we fail to break out of the status quo and lose out on the chance to innovate. What we want is to succeed by converging on the best possible path! Let's use PopcornFlow to: Make the problem and it's impact visible, Think of the options that address the problem, Explore those options to find the best one.",
+              "description": "We all get attached to our solutions. This makes us feel comfortable and secure. It becomes our rock.\n\nAs product developers we become so immersed in the solution that we lose the perspective required to do the right thing. At worst we fail miserably and don't learn; at best we fail to break out of the status quo and lose out on the chance to innovate.\n\nWhat we want is to succeed by converging on the best possible path!\n\nLet's use PopcornFlow to: Make the problem and it's impact visible, Think of the options that address the problem, Explore those options to find the best one.",
               "speakerNames": ["Austin Fagan"],
               "timeStart": "12:10 pm",
-              "timeEnd": "12:25 pm",
+              "timeEnd": "12:30 pm",
               "tracks": [
                   "Building the right thing",
                   "Building thing right",
@@ -141,9 +141,9 @@
               "name": "Lunch and Discussions",
               "location": "Indaba Tree Room",
               "description": "Remember to visit our sponsors' webpages.",
-              "timeStart": "12:25 pm",
-              "timeEnd": "1:00 pm",
-              "tracks": ["Admin & Food"]
+              "timeStart": "12:30 pm",
+              "timeEnd": "1:30 pm",
+              "tracks": ["Food"]
             }
           ]
         },
@@ -154,14 +154,27 @@
               "name": "Poster Session",
               "location": "Indaba Tree Room",
               "description": "Building Grand Master Engineering Teams\n\nBring it and we shall test! (The context-driven way)\n\nLike dew from the morning sky: Ex post facto agilification of cloud based spiral processes\n\nMy Dev team is brilliantly Agile, but how do I get the rest of the Organisation to see the light?",
+              "speakerNames": ["Jovanka Damjanovic", "Derek Chung", "Louise Perold", "Sindi Gumede", "Yusuf Kaloo"],
               "timeStart": "1:00 pm",
               "timeEnd": "1:50 pm",
               "tracks": ["Poster"]
             },
             {
+              "name": "Workshop: Making Retros Work",
+              "location": "Marathon Room",
+              "description": "Do your retros really get to the core of the problem? Is the team getting better each sprint they complete? Is everyone pulling their weight? Being just a ScrumMaster isn’t too difficult. Being a really great ScrumMaster, one who helps move a team to the highest performance levels possible, is much harder and much more elusive.\n\nYou need to understand and appreciate people, know how to provide the space and circumstances for each individual in the team to thrive as well as the team, and bring about a culture of collaboration, accountability, introspection, trust and honesty. The retro is where much of this happens.\n\nEnsuring good retros is a process. You need some coaching and some facilitation skills in order to do your part well. From Sprint to Sprint you need to build the trust and honesty in the team and you need to help everyone to develop important skills such as clear communication and assertiveness without aggression.\n\nThis workshop is highly interactive and experiential. Come dressed comfortably and ready to move around. It is designed for Scrum Masters who have had a few months experience to start finding their feet or new Scrum Masters who are very keen to start strong.",
+              "speakerNames": ["Alison Gitelson"],
+              "timeStart": "1:00 pm",
+              "timeEnd": "3:30 pm",
+              "tracks": [
+                "Workshop",
+                "People and organisational culture"
+              ]
+            },
+            {
               "name": "Is anyone there? - Dealing with distributed teams",
               "location": "Ballroom",
-              "description": "In the ideal perfect world there will be rainbows and unicorns and teams that all sit together. In reality most teams have to deal with distribution in one form or another. For some its team members spread across a building, for others its team members in other parts   of the world in different time zones. Can Agile work for these teams?",
+              "description": "In the ideal perfect world there will be rainbows and unicorns and teams that all sit together.\n\nIn reality most teams have to deal with distribution in one form or another. For some its team members spread across a building, for others its team members in other parts of the world in different time zones.\n\nCan Agile work for these teams?",
               "speakerNames": ["Samantha Laing", "Karen Greaves"],
               "timeStart": "1:50 pm",
               "timeEnd": "2:20 pm",
@@ -172,8 +185,8 @@
             {
               "name": "Business vs IT",
               "location": "Gala Room",
-              "description": "In the ideal perfect world there will be rainbows and unicorns and teams that all sit together. In reality most teams have to deal with distribution in one form or another. For some its team members spread across a building, for others its team members in other parts   of the world in different time zones. Can Agile work for these teams?",
-              "speakerNames": ["Kevin Trethewey"],
+              "description": "Husband and wife team Kevin and Shanaaz Trethewey have some differences. In this session we are going to focus on the one where Shanaaz, as a chartered accountant, comes from a classically taught business background. Kevin, having never really paid attention to formal education, is a self taught software craftsman.\n\nThis difference shows up in how they choose to approach daily business life. Shanaaz could easily tell you what frustrates her about \"techies\". Kevin could make a list of everything that business people just don't understand.\n\nBut then they decided being married wasn't enough stress and they decided to work together. In a business that Kevin founded.\n\nAlong the way they have learned some valuable lessons.\n\nToday they will extract some of them. In playing them back to you they will show you how the default separation of the work of Business from the work of IT is no longer appropriate in today's world.",
+              "speakerNames": ["Kevin Trethewey", "Shanaaz Trethewey"],
               "timeStart": "1:50 pm",
               "timeEnd": "2:20 pm",
               "tracks": [
@@ -190,16 +203,16 @@
           "sessions": [
             {
               "name": "Move and Stretch",
-              "location": "All locations",
+              "location": "All Rooms",
               "description": "Remember to visit our sponsors' webpages.",
               "timeStart": "2:20 pm",
               "timeEnd": "2:30 pm",
-              "tracks": ["Admin & Food"]
+              "tracks": ["Food"]
             },
             {
               "name": "DevOps - A lean definition",
               "location": "Ballroom",
-              "description": "The definition of DevOps has become mired in the tooling and practices that are normally associated with DevOps as opposed to the intent of DevOps itself. This talk attempts to reframe and reorient the definition of DevOps back into it's original Lean and Agile context in a simple and concise manner.",
+              "description": "The definition of DevOps has become mired in the tooling and practices that are normally associated with DevOps as opposed to the intent of DevOps itself.\n\nThis talk attempts to reframe and reorient the definition of DevOps back into it's original Lean and Agile context in a simple and concise manner.",
               "speakerNames": ["Julian Exenberger"],
               "timeStart": "2:30 pm",
               "timeEnd": "3:00 pm",
@@ -211,7 +224,7 @@
             {
               "name": "Specification by example",
               "location": "Gala Room",
-              "description": "Have you ever had to read through tests and you can't understand them? Or you are too tired of going through testing abstracts that mean nothing to you? And you wish that there was an easier way to understand the tests functionality? Have you wished there was one single source of truth for a project that could be used for the clients, business analysts and development team? Specification by example could be what you are looking for. It is a testing architecture which can be used by all the stakeholders of a project to understand how a system works and the examples of scenarios expected.",
+              "description": "Have you ever had to read through tests and you can't understand them? Or you are too tired of going through testing abstracts that mean nothing to you? And you wish that there was an easier way to understand the tests functionality? Have you wished there was one single source of truth for a project that could be used for the clients, business analysts and development team?\n\nSpecification by example could be what you are looking for.\n\nIt is a testing architecture which can be used by all the stakeholders of a project to understand how a system works and the examples of scenarios expected.",
               "speakerNames": ["Ann Mwangi"],
               "timeStart": "2:30 pm",
               "timeEnd": "3:00 pm",
@@ -231,21 +244,24 @@
               "description": "Remember to visit our sponsors' webpages.",
               "timeStart": "3:00 pm",
               "timeEnd": "3:30 pm",
-              "tracks": ["Admin & Food"]
+              "tracks": ["Food"]
             },
             {
               "name": "Travelling light – The pros and perils of lean documentation",
               "location": "Ballroom",
-              "description": "Have you ever been on a long haul overseas trip, where you loaded your hand luggage with items like laptops, books and electronic devices – just to make sure that you weren’t bored on the flight? Only to be left trudging around airport duty free shops while waiting for connecting flight, wondering why you feel like you packed bricks in your backpack. Projects carry a lot of baggage too… documentation. Someone has to create it, someone has to read it, someone has to sign it, someone has to (or is meant to) maintain it, and eventually someone needs to identify if it is still valuable. That’s a lot of work for something we might not even use! Agile approaches value working software over comprehensive documentation. But what does that really mean? ",
+              "description": "Have you ever been on a long haul overseas trip, where you loaded your hand luggage with items like laptops, books and electronic devices – just to make sure that you weren’t bored on the flight? Only to be left trudging around airport duty free shops while waiting for a connecting flight, wondering why you feel like you packed bricks in your backpack…\n\nProjects carry a lot of baggage too… documentation. Someone has to create it, someone has to read it, someone has to sign it, someone has to (or is meant to) maintain it, and eventually someone needs to identify if it is still valuable. That’s a lot of work for something we might not even use!\n\nAgile approaches value working software over comprehensive documentation. But what does that really mean?",
               "speakerNames": ["Angie Doyle"],
               "timeStart": "3:30 pm",
               "timeEnd": "3:45 pm",
-              "tracks": [""]
+              "tracks": [
+                "Building the right thing",
+                "Building thing right"
+              ]
             },
             {
               "name": "Fish ponds and Agile",
               "location": "Gala Room",
-              "description": "The adoption of Agile in majority of South African companies, specifically larger ones, is non effective. Primary reason is that the main focus is at the team level and mainly the practices. Values and principles extend beyond the team, and without support from the greater organisation, majority of these are difficult to adopt.",
+              "description": "The adoption of Agile in majority of South African companies, specifically larger ones, is non effective.\n\nPrimary reason is that the main focus is at the team level and mainly the practices.\n\nValues and principles extend beyond the team, and without support from the greater organisation, majority of these are difficult to adopt.",
               "speakerNames": ["Dillon Weyer"],
               "timeStart": "3:30 pm",
               "timeEnd": "3:45 pm",
@@ -256,11 +272,11 @@
             },
             {
               "name": "Move and Stretch",
-              "location": "All locations",
+              "location": "All Rooms",
               "description": "Remember to visit our sponsors' webpages.",
               "timeStart": "3:45 pm",
               "timeEnd": "4:00 pm",
-              "tracks": ["Admin & Food"]
+              "tracks": ["Food"]
             }
           ]
         },
@@ -270,11 +286,15 @@
             {
               "name": "Keynote: Self-selection",
               "location": "Ballroom",
-              "description": "",
+              "description": "\"My current passion is self-selection. I like creating teams by trusting people who do the actual work to design the best possible teams.\n\nI believe that trusting people to choose who to work with and what to work on creates not only great teams but also great organisations.\n\nI have now done that with several companies and have some stories to tell.\"",
               "speakerNames": ["Sandy Mamoli"],
-              "timeStart": "4:00 pm",
-              "timeEnd": "???? pm",
-              "tracks": [""]
+              "timeStart": "16:00 pm",
+              "timeEnd": "17:00 pm",
+              "tracks": [
+                "People and organisational culture",
+                "Leadership",
+                "Keynote"
+              ]
             }
           ]
         }
@@ -291,15 +311,16 @@
               "location": "Ballroom",
               "timeStart": "9:00 am",
               "timeEnd": "9:10 am",
-              "tracks": ["Admin & Food"]
+              "tracks": ["Admin"]
             },
             {
               "name": "Keynote: Why does Yesterday’s Best Practice Become Tomorrow’s Antipattern?",
               "location": "Ballroom",
-              "speakers": "Neal Ford",
+              "description": "This talk is aimed at the general audience with some software development experience and a few embarrassments.\n\nIt also includes some of Neal's latest thoughts on evolutionary architecture.",
+              "speakerNames": ["Neal Ford"],
               "timeStart": "9:10 am",
               "timeEnd": "10:10 am",
-              "tracks": [""]
+              "tracks": ["Keynote"]
             }
           ]
         },
@@ -308,16 +329,16 @@
           "sessions": [
             {
               "name": "Move and Stretch",
-              "location": "All locations",
+              "location": "All Rooms",
               "timeStart": "10:10 am",
               "timeEnd": "10:20 am",
-              "tracks": ["Admin & Food"]
+              "tracks": ["Food"]
             },
             {
-              "name": "Unlocking ScrumMastery through the ScrumMaster Academy",
+              "name": "Unlocking ScrumMastery",
               "location": "Ballroom",
-              "speakers": "Biase De Gregorio",
-              "description": "This talk focuses on how we solved this problem by creating a sustainable learning opportunity for internal staff to become great ScrumMasters through a focused, 13 - and then a 10 -  week programme called the ScrumMaster Academy. We used the pilot programme as an experiment by providing training, coaching and mentoring 16 ScrumMaster apprentices through a Coaching Collective.",
+              "speakerNames": ["Biase De Gregorio"],
+              "description": "How do you go about creating good to great ScrumMasters in a large financial services organisation beyond sending them on a 2-day certification course?\n\nIn the beginning of 2015, I was provided the opportunity to assist a large financial institution with their Agile adoption. I was contracted directly to the Agile Adoption team that was formed to drive out training, coaching, change management, team mobilisation and other services.\n\nI remember the one conversation vividly with the head of the Agile adoption team, 3 months into my engagement. He was looking at creating the opportunity for 500 ScrumMasters in the organisation.\n\nThis talk focuses on how we solved this problem by creating a sustainable learning opportunity for internal staff to become great ScrumMasters through a focused, 13 - and then a 10 -  week programme called the ScrumMaster Academy. We used the pilot programme as an experiment by providing training, coaching and mentoring 16 ScrumMaster apprentices through a Coaching Collective. ",
               "timeStart": "10:20 am",
               "timeEnd": "10:50 am",
               "tracks": [
@@ -328,8 +349,8 @@
             {
               "name": "Behavior Driven develop your Agile Projects",
               "location": "Gala Room",
-              "speakers": "Rory Preddy",
-              "description": "JBehave is a framework for Behavior-Driven Development (BDD). BDD is an evolution of test-driven development (TDD) and acceptance-test driven design. It shifts the vocabulary from being test-based to behavior-based, and positions itself as a design philosophy. BDD revolves around the concept of a Story, which represents an automatically executable increment of business functionality. At its core a Story comprises of one or more Scenarios, each of which represents a concrete example of the behavior of the system. Scenarios are written in Given, When, Then format, also known as Gherkin: Given/When/Then is a very powerful idiom, that allows for virtually any requirement to be described. Join me as we use a Continuous Build pipeline to automate a Businesses requirements.",
+              "speakerNames": ["Rory Preddy"],
+              "description": "JBehave is a framework for Behavior-Driven Development (BDD). BDD is an evolution of test-driven development (TDD) and acceptance-test driven design, It shifts the vocabulary from being test-based to behavior-based, and positions itself as a design philosophy.\n\nBDD revolves around the concept of a Story, which represents an automatically executable increment of business functionality.\n\nAt its core a Story comprises of one or more Scenarios, each of which represents a concrete example of the behavior of the system.\n\nScenarios are written in Given, When, Then format, also known as Gherkin: Given/When/Then is a very powerful idiom, that allows for virtually any requirement to be described.\n\nJoin me as we use a Continuous Build pipeline to automate a Businesses requirements.",
               "timeStart": "10:20 am",
               "timeEnd": "10:50 am",
               "tracks": [
@@ -339,12 +360,26 @@
               ]
             },
             {
+              "name": "Test planning in Agile projects",
+              "location": "Marathon Room",
+              "speakerNames": ["Carsten Feilberg"],
+              "description": "In this full-day tutorial we will take a deep dive into test planning on agile projects, with the outset of a SCRUM-setup (but we can include other setups as well). We will investigate which elements of a test plan are important in different contexts, how we find out what the context is, and of course also find out why and if a plan is needed at all.\n\nVery often test plans are created starting with a copy of the test plan from the last project. In some cases the origin of the test plan can be tracked back more than a decade, and to ways of organising the work that does not even contemplate agile practices and also mandating work which has little to no relevance in the current project. These monsters of the past often resemble a modern age dinosaur: huge, slow and tough to digest, even one mouthful at a time.\n\nIn SCRUM there is no tester role, no test manager role, simply a development team, a scrum master and a product owner (and some stakeholders, of course). So - who should create the test plan? And do we really need one? There’s no options in SCRUM in my opinion; the team will have to do it. Having the developer role does not mean that jobs and obligations like testing just vanish, nor does ‘developer’ mean ‘programmer’ only.\n\nYet again, the question remains of when to create the plan and how to plan beyond the sprint - if that’s even possible, given that in SCRUM you do not know if the next sprint will in fact be authorised! However, working in short sprints does not mean that we shouldn’t anticipate the future or prepare for it. Testing is essential, but of course only for testing the right things. Having the test plan as the anchor point for all test-related information and activities, both for individual sprints as well as for the product overall will allow us to focus on the important stuff.\n\nIn order to let the participants learn the skilfull art of planning and in particular planning testing without spending unnecessary and valuable time and efforts - the vital thing is still to use time on testing, not on planning - we will work on a realistic project setup, complete with  executables, user stories, sprints and all. We will use this setup to create a good, solid and beyond all: useful, test plan (or perhaps more than one!!) and see how it will fit into the next sprint. ",
+              "timeStart": "10:20 am",
+              "timeEnd": "12:50 am",
+              "tracks": [
+                "Building the right thing",
+                "Building thing right",
+                "DevOps and Continuous Delivery",
+                "Quality Early and Testing"
+              ]
+            },
+            {
               "name": "Tea and Move",
               "location": "Indaba Tree Room",
               "description": "Remember to visit our sponsors' webpages.",
-              "timeStart": "10:20 am",
-              "timeEnd": "10:50 am",
-              "tracks": ["Admin & Food"]
+              "timeStart": "10:50 am",
+              "timeEnd": "11:20 am",
+              "tracks": ["Food"]
             }
           ]
         },
@@ -352,10 +387,10 @@
           "time": "11:00 am",
           "sessions": [
             {
-              "name": "Agilising Product Design, it's not about the process, it's about people",
+              "name": "Agilising Product Design",
               "location": "Ballroom",
-              "speakers": "Rob Enslin",
-              "description": "Designing the right product (over designing it right) has never been more salient now than ever. Do it the 'Agile' way is not going to cut it, nor will defining the Product MVP either, understanding what people need and what problems the Product will help solve does cut it. My 30-min talk will cover the most important phase of Product Design - the problem definition and strategy phase. I'll talk about iterative style approaches, context awareness, and customer definition work.",
+              "speakerNames": ["Rob Enslin"],
+              "description": "Designing the right product (over designing it right) has never been more salient now than ever.\n\nDo it the 'Agile' way is not going to cut it, nor will defining the Product MVP either, understanding what people need and what problems the Product will help solve does cut it.\n\nMy 30-min talk will cover the most important phase of Product Design - the problem definition and strategy phase. I'll talk about iterative style approaches, context awareness, and customer definition work.",
               "timeStart": "11:20 am",
               "timeEnd": "11:50 am",
               "tracks": [
@@ -366,8 +401,8 @@
             {
               "name": "Demystifying Continuous Delivery",
               "location": "Gala Room",
-              "speakers": "Kelvin Mutuma",
-              "description": "Most of us using continuous integration and deployment think of it as something complicated, buggy and often hard to set up. If you’re currently using build tools but unsure how it works, this talk will demystify the CI/CD for you. I’ll start by showing different tools, then we will discuss the challenges we found when using them. We will dive into the layers of how an example CI/CD tool is built and we will end up showing how the actual build is run, tested or deployed. When you understand the system, you’ll know the limitations and how to overcome them.",
+              "speakerNames": ["Kelvin Mutuma"],
+              "description": "Most of us using continuous integration and deployment think of it as something complicated, buggy and often hard to set up.\n\nIf you’re currently using build tools but unsure how it works, this talk will demystify the CI/CD for you.\n\nI’ll start by showing different tools, then we will discuss the challenges we found when using them.\n\nWe will dive into the layers of how an example CI/CD tool is built and we will end up showing how the actual build is run, tested or deployed.\n\nWhen you understand the system, you’ll know the limitations and how to overcome them.",
               "timeStart": "11:20 am",
               "timeEnd": "11:50 am",
               "tracks": [
@@ -378,11 +413,11 @@
             },
             {
               "name": "Move and Stretch",
-              "location": "All locations",
+              "location": "All Rooms",
               "description": "Remember to visit our sponsors' webpages.",
               "timeStart": "11:50 am",
               "timeEnd": "12:00 pm",
-              "tracks": ["Admin & Food"]
+              "tracks": ["Food"]
             }
           ]
         },
@@ -392,8 +427,8 @@
             {
               "name": "A corporate South African success story",
               "location": "Ballroom",
-              "speakers": "Candice Mesk",
-              "description": "In this session I’m going to walk you through the practices adopted by this team to make mob programming possible and why I feel these practices led them to achieve such a dramatic improvement in delivery time. I will also briefly present some of the supporting data, and explain how it was collected.",
+              "speakerNames": ["Candice Mesk"],
+              "description": "How we reduced delivery time by 30% using Mob Programming: A corporate South African Success Story\n\nWhat would happen if your team worked on the single most important deliverable all the time until it was done? Is this even possible? What would the effects be?\n\nOver the last year I’ve worked with a team that has done just that. Not only did they work on the single most important deliverable all the time, but in doing so reduced delivery time by 30%. In addition to this, the team dramatically reduced key man dependencies. All this was achieved using a controversial practice called mob programming.\n\nIn this session I’m going to walk you through the practices adopted by this team to make mob programming possible and why I feel these practices led them to achieve such a dramatic improvement in delivery time. I will also briefly present some of the supporting data, and explain how it was collected.\n\nBy the end of the session you’ll have an idea of what mob programming is as well as some of the practical challenges a team faces when adopting it and the payback of getting it right.",
               "timeStart": "12:00 pm",
               "timeEnd": "12:30 pm",
               "tracks": [
@@ -401,10 +436,10 @@
               ]
             },
             {
-              "name": "Requirements Engineering for Agile Product Owners: Hunting Value with Structured Conversations",
+              "name": "Requirements Engineering for Agile Product Owners",
               "location": "Gala Room",
-              "speakers": "Pavel Dabrytski",
-              "description": "Hunting value through conversations. This is a skill that helps product owners when working with stakeholders, analysts and requirements engineers. Start with identifying your project partners, and use seven product dimensions (user, interface, activities, data, control, environment and quality attributes) to uncover correct requirements for your product. Understand how you can use it to focus on value, deliver value and optimise value.",
+              "speakerNames": ["Pavel Dabrytski"],
+              "description": "Hunting value through conversations.\n\nThis is a skill that helps product owners when working with stakeholders, analysts and requirements engineers.\n\nStart with identifying your project partners, and use seven product dimensions (user, interface, activities, data, control, environment and quality attributes) to uncover correct requirements for your product. Understand how you can use it to focus on value, deliver value and optimise value.\n\nUnfortunately all too often, many product owners do much of their work alone. This session is intended to help product owners and business analysts create better requirements and to help them have richer and more powerful conversations. It is based on the work of Ellen Gottesdiener and Mary Gorman’s “Discover to Deliver”.\n\nAs a bonus, after the session participants can join a specifically designed dojo at Indaba Tree interactive space to experience the power of the conversation structured to hunt value. ",
               "timeStart": "12:00 pm",
               "timeEnd": "12:30 pm",
               "tracks": [
@@ -416,9 +451,9 @@
               "name": "Lunch and Discussions",
               "location": "Indaba Tree Room",
               "description": "Remember to visit our sponsors' webpages.",
-              "timeStart": "12:30 pm",
-              "timeEnd": "13:00 pm",
-              "tracks": ["Admin & Food"]
+              "timeStart": "12:00 pm",
+              "timeEnd": "1:30 pm",
+              "tracks": ["Food"]
             }
           ]
         },
@@ -426,20 +461,39 @@
           "time": "13:00 am",
           "sessions": [
             {
-              "name": "Posters",
-              "location": "Indaba Tree Room",
-              "description": "See posters.",
-              "timeStart": "13:00 am",
-              "timeEnd": "???? am",
-              "tracks": [""]
+              "name": "Fishbowl",
+              "location": "Ballroom",
+              "speakerNames": ["Henrik Kniberg"],
+              "description": "Join us for this fun interactive session with Henrik.",
+              "timeStart": "1:00 pm",
+              "timeEnd": "2:00 pm",
+              "tracks": ["Fishbowl"]
             },
+            {
+              "name": "Subtleties of Success for Self Organising Teams",
+              "location": "Marathon Room",
+              "speakerNames": ["Cindy Carless", "Louise Perold"],
+              "description": "Do you feel like everyone on your team is waiting for direction or permission to act?\n\nHow does a team transition from traditional project management based delivery to agile self-organizing success?\n\nHaving experienced the challenges in these situations we would like to share some insights, models and practical ideas for ways to become more aware, communicate differently and harness the power of positive interactions.\n\nWe will be drawing from our experience as coaches, testers, team leads and team members in a variety of project contexts.\n\nThe 1 day workshop will include 2 improv exercises, an experiential exercise and a safe environment to practice 3 conversation and communication models (DESC, Time to Think and NVC). Each exercise will be followed by a group reflection and debrief.\n\nThis session is targeted at anyone who is interested in understanding and adapting the way they participate in, and contribute to, a self-organising team.",
+              "timeStart": "1:00 pm",
+              "timeEnd": "3:30 pm",
+              "tracks": [
+                "Workshop",
+                "Leadership",
+                "People and organisational culture"
+              ]
+            }
+          ]
+        },
+        {
+          "time": "2:00 pm",
+          "sessions": [
             {
               "name": "Pivoting Without Pain is Impossible",
               "location": "Ballroom",
-              "speakers": "Nyaradzai Samushonga",
-              "description": "Pivoting has become a ubiquitous term in agile circles to refer to a decisive change in plan or strategy.  It is rightfully regarded as the very embodiment of being agile.  But pivoting is oh so painful, and an incredibly daunting thought.  Yet, to remain religiously beholden to the original path is folly. In this talk, I will share the series of pivot points on a project that spanned two years, and the ultimate operational transformation that was achieved; far exceeding expectations.  But it did not come without the drama and pain at a team and organisational level.  There is also the brutality of honesty and the loneliness of courageous leadership needed to see the pivot through.",
-              "timeStart": "13:40 pm",
-              "timeEnd": "14:10 pm",
+              "speakerNames": ["Nyaradzai Samushonga"],
+              "description": "Pivoting has become a ubiquitous term in agile circles to refer to a decisive change in plan or strategy.  It is rightfully regarded as the very embodiment of being agile.  But pivoting is oh so painful, and an incredibly daunting thought.  Yet, to remain religiously beholden to the original path is folly.\n\nIn this talk, I will share the series of pivot points on a project that spanned two years, and the ultimate operational transformation that was achieved; far exceeding expectations.  But it did not come without the drama and pain at a team and organisational level.  There is also the brutality of honesty and the loneliness of courageous leadership needed to see the pivot through.\n\nIf nothing else, this talk will give you the courage to pivot, and the fortitude to endure the guaranteed pain before revelling in the success.",
+              "timeStart": "2:00 pm",
+              "timeEnd": "2:30 pm",
               "tracks": [
                 "People and organisational culture",
                 "Leadership"
@@ -449,64 +503,74 @@
               "name": "Evolution of software systems",
               "location": "Gala Room",
               "speakers": "Joshua Lewis",
-              "description": "When they are first created, software systems generally have a consistent internal model and structure, which the authors consider a good solution for the problem at hand, considering their context, knowledge and expertise at the time. Over time, this internal structure generally loses its consistency due to a sequence of mutations made to satisfy new requirements. These mutations generally make further changes to the software more difficult, longer to make, and introduce great risk. What often happens is after enough time, developers start recommending a complete rewrite.",
-              "timeStart": "13:40 pm",
-              "timeEnd": "14:10 pm",
+              "description": "When they are first created, software systems generally have a consistent internal model and structure, which the authors consider a good solution for the problem at hand, considering their context, knowledge and expertise at the time.\n\nOver time, this internal structure generally loses its consistency due to a sequence of mutations made to satisfy new requirements.\n\nThese mutations generally make further changes to the software more difficult, longer to make, and introduce great risk. What often happens is after enough time, developers start recommending a complete rewrite.",
+              "timeStart": "2:00 pm",
+              "timeEnd": "2:30 pm",
               "tracks": [
                 "People and organisational culture",
                 "Building the right thing",
                 "Building thing right",
                 "DevOps and Continuous Delivery"
               ]
-            }
-          ]
-        },
-        {
-          "time": "14:00 am",
-          "sessions": [
-            {
-              "name": "Move and Stretch",
-              "location": "All locations",
-              "description": "Remember to visit our sponsors' webpages.",
-              "timeStart": "14:10 pm",
-              "timeEnd": "14:15 pm",
-              "tracks": ["Admin & Food"]
             },
             {
-              "name": "Active Agile: The story of a rewarding scaled agile implementation",
+              "name": "Move and Stretch",
+              "location": "All Rooms",
+              "description": "Remember to visit our sponsors' webpages.",
+              "timeStart": "2:30 pm",
+              "timeEnd": "2:40 pm",
+              "tracks": ["Food"]
+            },
+            {
+              "name": "Active Agile: Scaled agile implementation",
               "location": "Ballroom",
-              "speakers": "Justin Doyle",
-              "description": "Ten inter-dependent teams, four Scrum Masters and two months to pull them all together to make the launch of what was to become Discovery Vitality’s most successful product to date: Vitality Active Rewards. No pressure. This talk will start by outlining the organisational structure of the agile and non-agile teams involved in the delivery of Active Rewards. The scaled agile approach followed will then be shared, specifically highlighting techniques utilised to help coordinate and synchronise the teams towards constant value delivery in order to make the very tight launch deadline. The benefits realised and lessons learnt from techniques such as joint release and sprint planning and daily Scrum of Scrum ceremonies will be presented, together with further planned improvements to our scaled agile implementation.",
-              "timeStart": "14:15 pm",
-              "timeEnd": "14:30 pm",
-              "tracks": [""]
+              "speakerNames": ["Justin Doyle"],
+              "description": "Ten inter-dependent teams, four Scrum Masters and two months to pull them all together to make the launch of what was to become Discovery Vitality’s most successful product to date: Vitality Active Rewards.\n\nNo pressure.\n\nThis talk will start by outlining the organisational structure of the agile and non-agile teams involved in the delivery of Active Rewards.\n\nThe scaled agile approach followed will then be shared, specifically highlighting techniques utilised to help coordinate and synchronise the teams towards constant value delivery in order to make the very tight launch deadline.\n\nThe benefits realised and lessons learnt from techniques such as joint release and sprint planning and daily Scrum of Scrum ceremonies will be presented, together with further planned improvements to our scaled agile implementation.",
+              "timeStart": "2:40 pm",
+              "timeEnd": "2:55 pm",
+              "tracks": ["Agile UX and Interaction Design"]
             },
             {
               "name": "An automated testers dream",
               "location": "Gala Room",
-              "speakers": "Paul Lloyd",
-              "description": "This presentation is a story (albeit an unfinished story) that starts with a dream - an automated testers dream. The dream of automation is about pressing a button and letting a machine do the work for you… It is about machines and programs doing jobs that you do, but faster and more efficiently. The rest of the story is about my attempts to make that dream a reality – and the journey of successes, challenges and experiences in that process. The story is about my experiences and experiments with test automation, how we integrated them into the build stack and how we were able to enhance testing along with the productivity of the software development team. This presentation will unpack and highlight the processes, challenges and successes that our testing team has been working on for the last 3 Years",
-              "timeStart": "14:15 pm",
-              "timeEnd": "14:30 pm",
+              "speakerNames": ["Paul Lloyd"],
+              "description": "This presentation is a story (albeit an unfinished story) that starts with a dream - an automated testers dream.\n\nThe dream of automation is about pressing a button and letting a machine do the work for you… It is about machines and programs doing jobs that you do, but faster and more efficiently.\n\nThe rest of the story is about my attempts to make that dream a reality – and the journey of successes, challenges and experiences in that process.\n\nThe story is about my experiences and experiments with test automation, how we integrated them into the build stack and how we were able to enhance testing along with the productivity of the software development team.\n\nThis presentation will unpack and highlight the processes, challenges and successes that our testing team has been working on for the last 3 Years.",
+              "timeStart": "2:40 pm",
+              "timeEnd": "2:55 pm",
               "tracks": [
                 "DevOps and Continuous Delivery"
               ]
             },
             {
-              "name": "Move and Stretch",
-              "location": "All locations",
+              "name": "Tea and Move",
+              "location": "All Rooms",
               "description": "Remember to visit our sponsors' webpages.",
-              "timeStart": "14:30 pm",
-              "timeEnd": "14:35 pm",
-              "tracks": ["Admin & Food"]
+              "timeStart": "2:55 pm",
+              "timeEnd": "3:20 pm",
+              "tracks": ["Food"]
+            }
+          ]
+        },
+        {
+          "time": "3:00 pm",
+          "sessions": [
+            {
+              "name": "Leader transformation - a side effect of an agile transition",
+              "location": "Ballroom",
+              "speakerNames": ["Subash Sharma", "Felicity Brady"],
+              "description": "There are many organisations that are attempting to transform from their traditional ways of working towards agile and as such, experience transformation in each part of the organisation.\n\nOne key aspect is the behavioral transformation that occurs within leaders of the organization.\n\nThis talk will cover the reflections, transformations, political dynamics and fears of one such leader during our organisations move towards agile.\n\nWe will also talk about the views of this leaders team and their observations of his transformation.",
+              "timeStart": "3:20 pm",
+              "timeEnd": "3:00 pm",
+              "tracks": ["Leadership"]
             },
+
             {
               "name": "Harnessing your greatest tool, your brain, better.",
-              "location": "Ballroom",
-              "speakers": "Theodore Carl Bohnen",
-              "description": "A master craftsman is more than just his/her tools; he/she does however handle them with the years of experience hard earned. In this talk I will speak about our greatest tool, the brain and how to use it more effectively in developing software.",
-              "timeStart": "14:35 pm",
-              "timeEnd": "14:50 pm",
+              "location": "Gala Room",
+              "speakerNames": ["Theodore Carl Bohnen"],
+              "description": "A master craftsman is more than just his/her tools; he/she does however handle them with the years of experience hard earned.\n\nIn this talk I will speak about our greatest tool, the brain and how to use it more effectively in developing software.",
+              "timeStart": "3:20 pm",
+              "timeEnd": "3:50 pm",
               "tracks": [
                 "People and organisational culture"
               ]
@@ -514,44 +578,22 @@
             {
               "name": "Herding the herd - a coaches perspective",
               "location": "Gala Room",
-              "speakers": "Theodore Carl Bohnen",
-              "description": "how do you manage learning in self organising systems?",
-              "timeStart": "14:35 pm",
-              "timeEnd": "14:50 pm",
+              "speakerNames": ["Henk Viljoen"],
+              "description": "How do you manage learning in self organising systems?",
+              "timeStart": "3:20 pm",
+              "timeEnd": "3:50 pm",
               "tracks": [
                 "People and organisational culture",
                 "Leadership"
               ]
             },
             {
-              "name": "Tea and Move",
-              "location": "Indaba Tree Room",
-              "description": "Remember to visit our sponsors' webpages.",
-              "timeStart": "14:50 pm",
-              "timeEnd": "15:20 pm",
-              "tracks": ["Admin & Food"]
-            }
-          ]
-        },
-        {
-          "time": "15:00 am",
-          "sessions": [
-            {
-              "name": "Leader transformation - a side effect of an agile transition",
-              "location": "Ballroom",
-              "speakers": ["Subash Sharma", "Felicity Brady"],
-              "description": "There are many organisations that are attempting to transform from their traditional ways of working towards agile and as such, experience transformation in each part of the organisation. One key aspect is the behavioral transformation that occurs within leaders of the organization. This talk will cover the reflections, transformations, political dynamics and fears of one such leader during our organisations move towards agile. We will also talk about the views of this leaders team and their observations of his transformation.",
-              "timeStart": "15:20 pm",
-              "timeEnd": "15:00 pm",
-              "tracks": ["Leadership"]
-            },
-            {
               "name": "Move and Stretch",
-              "location": "All locations",
+              "location": "All Rooms",
               "description": "Remember to visit our sponsors' webpages.",
-              "timeStart": "15:50 pm",
-              "timeEnd": "16:00 pm",
-              "tracks": ["Admin & Food"]
+              "timeStart": "3:50 pm",
+              "timeEnd": "4:00 pm",
+              "tracks": ["Food"]
             }
           ]
         },
@@ -561,10 +603,10 @@
             {
               "name": "Lead with needs",
               "location": "Ballroom",
-              "speakers": ["Danie Roux", "Kevin Trethewey"],
-              "description": "As a software industry, we suck at providing what matters most to the true customer of what we create. In our human work systems we argue about process, technology and people matters. Day to day, week to week, we get caught up in the minutiae and lose sight of what it is we should really be doing. What really matters, is this: To lead with needs. In this session Kevin and Danie will explore what needs are, how to separate them from wants and how to connect them to the day to day activities that we call software development. Only when needs are explored and used as the ultimate measurement of any change in the system will the system become healthier.",
-              "timeStart": "16:00 pm",
-              "timeEnd": "16:30 pm",
+              "speakerNames": ["Danie Roux", "Kevin Trethewey"],
+              "description": "As a software industry, we suck at providing what matters most to the true customer of what we create.\n\nIn our human work systems we argue about process, technology and people matters. Day to day, week to week, we get caught up in the minutiae and lose sight of what it is we should really be doing.\n\nWhat really matters, is this: To lead with needs.\n\nIn this session Kevin and Danie will explore what needs are, how to separate them from wants and how to connect them to the day to day activities that we call software development. Only when needs are explored and used as the ultimate measurement of any change in the system will the system become healthier.",
+              "timeStart": "4:00 pm",
+              "timeEnd": "4:30 pm",
               "tracks": [
                 "People and organisational culture",
                 "Building the right thing",
@@ -574,9 +616,9 @@
             {
               "name": "Retro & Thanks",
               "location": "Ballroom",
-              "description": "",
+              "description": "Thank you for attending the Agile Africa conference with us this year.\n\nIf you have any comments or feedback on the talks, please feel free to give them on the session pages of the app.",
               "timeStart": "16:30 pm",
-              "timeEnd": "???? pm",
+              "timeEnd": "17:00 pm",
               "tracks": [""]
             }
           ]
@@ -591,56 +633,87 @@
       "name": "Jacques de Vos",
       "profilePic": "img/speakers/jacques-head.jpg",
       "twitter": "@jacdevos",
-       "about": "nReality founder and dev coach.\nAlways amazed by the limitless potential of tech but also enchanted by our unsolvable puzzles.\nI coach, code, listen and speak."
+       "about": "nReality founder and dev coach.\n\nAlways amazed by the limitless potential of tech but also enchanted by our unsolvable puzzles.\n\nAs founder and CEO of nReality, a boutique software engineering consultancy, my recent focus has been on coaching software engineering teams and businesses of all shapes and sizes. We look at how to excel at building the right stuff, well, which touches on a variety of areas like culture, engineering practices, processes, architecture and development skills. \n\nI also actively develop mobile-focused software products, incorporating all platforms.\n\nI coach, code, listen and speak."
      },
      {
        "name": "codeX",
        "profilePic": "img/speakers/codeX-logo.jpg",
        "twitter": "@project_codeX",
-        "about": "codeX is a full-time apprenticeship 9 to 5, every weekday. Very quickly, you'll build real projects for real companies. You might even get paid for them as you grow your skills, and commit to working for our partners for a time at the end (if they want to hire you).\n\n codeX guides you and gives you a safe space to experiment and grow.\nThere are no formal classes, though you’ll learn industry standard programming languages like Java, PHP, Python, and Javascript. In order to build your projects, you'll be guided through online content with a developer mentor always available to help.\n\ncodeX complements the learn-by-doing approach with daily coding exercises (katas) and talks with industry professionals and mentors so you gain context for your programming knowledge in computer science and business.\n\nBut we only invest in people who invest in themselves."
+        "about": "codeX is a full-time apprenticeship 9 to 5, every weekday. Very quickly, you'll build real projects for real companies. You might even get paid for them as you grow your skills, and commit to working for our partners for a time at the end (if they want to hire you).\n\ncodeX guides you and gives you a safe space to experiment and grow.\nThere are no formal classes, though you’ll learn industry standard programming languages like Java, PHP, Python, and Javascript. In order to build your projects, you'll be guided through online content with a developer mentor always available to help.\n\ncodeX complements the learn-by-doing approach with daily coding exercises (katas) and talks with industry professionals and mentors so you gain context for your programming knowledge in computer science and business.\n\nBut we only invest in people who invest in themselves."
       },
       {
         "name": "WeThinkCode",
         "profilePic": "img/speakers/wethinkcode-logo.jpeg",
         "twitter": "@wethinkcode",
-         "about": "WeThinkCode_ is a new kind of institution dedicated to adress the IT skills gap.\n\n Our mission is to source and develop Africa's future digital talent. We are democratising education, by making our applications open and accessible to all brilliant minds, regardless of previous education or financial means. \n\nStudents pay no tuition, and we partner with corporates, foundations and individuals to sponsor students. We provide corporates access to world-class software engineers. \n\nIf you would like more information on how to get involved, please contact us on sponsor@wethinkcode.co.za"
+         "about": "WeThinkCode_ is a new kind of institution dedicated to adress the IT skills gap.\n\nOur mission is to source and develop Africa's future digital talent. We are democratising education, by making our applications open and accessible to all brilliant minds, regardless of previous education or financial means. \n\nStudents pay no tuition, and we partner with corporates, foundations and individuals to sponsor students. We provide corporates access to world-class software engineers. \n\nIf you would like more information on how to get involved, please contact us on sponsor@wethinkcode.co.za"
        },
        {
          "name": "Henrik Kniberg",
          "profilePic": "img/speakers/henrik-head.jpg",
          "twitter": "@henrikkniberg",
-          "about": "Henrik Kniberg is an Agile/Lean coach at Crisp in Stockholm, working primarily with Lego and Spotify. He enjoys helping companies succeed with both the technical and human sides of software development. During the past 15 years he has been CTO of 3 Swedish IT companies and helped many more get started with Agile and Lean software development.\n\nHenrik is former board member of the Agile Alliance and works regularly with Mary Poppendieck, Jeff Sutherland, Alistair Cockburn, and other thought leaders. He is the author of “Scrum and XP from the Trenches” and “ Kanban and Scrum, making the most of both” and “Lean from the Trenches“. These books are available in over 12 languages, have over 500,000 readers, and are used as primary guide to Agile and Lean software development by hundreds of companies worldwide.­"
+          "about": "Henrik Kniberg is an Agile/Lean coach at Crisp in Stockholm, working primarily with Lego and Spotify. He enjoys helping companies succeed with both the technical and human sides of software development.\n\nDuring the past 15 years he has been CTO of 3 Swedish IT companies and helped many more get started with Agile and Lean software development.\n\nHenrik is former board member of the Agile Alliance and works regularly with Mary Poppendieck, Jeff Sutherland, Alistair Cockburn, and other thought leaders. He is the author of “Scrum and XP from the Trenches” and “ Kanban and Scrum, making the most of both” and “Lean from the Trenches“.\n\nThese books are available in over 12 languages, have over 500,000 readers, and are used as primary guide to Agile and Lean software development by hundreds of companies worldwide.­"
         },
         {
           "name": "Job Mashapa",
           "profilePic": "img/speakers/job-head.jpg",
-          "twitter": "",
-           "about": "Being a Service Design & User Experience practitioner, Dr, Job Mashapa has seen Agile – Scrum methodologies being practiced in a variety of projects. With practical and academic experience in ICT4D projects, UX, Internet of Things (IoT) and most importantly, real-life technological innovations his view is radically entrenched in disruptive meaningful innovation. Job empathizes with users and strongly upholds user centricity as an overarching principle for converting users into moving advertising billboards through the creation of products with an “addictive” user experience.\n\nJob, holds a PhD in Information Technology with precise interest in User Experience and Change Management. He has international experience in implementing Information and Communication Technologies for Development (ICT4D) projects across the continent. Job is currently working with Freethinking Business Consultants in the capacity of Snr Service Design and User Experience Consultants. Furthermore he is appointed as a Research Associate at Nelson Mandela Metropolitan University."
+          "twitter": "@AgileAfricaConf",
+           "about": "Being a Service Design & User Experience practitioner, Dr, Job Mashapa has seen Agile – Scrum methodologies being practiced in a variety of projects.\n\nWith practical and academic experience in ICT4D projects, UX, Internet of Things (IoT) and most importantly, real-life technological innovations his view is radically entrenched in disruptive meaningful innovation.\n\nJob empathizes with users and strongly upholds user centricity as an overarching principle for converting users into moving advertising billboards through the creation of products with an “addictive” user experience.\n\nJob, holds a PhD in Information Technology with precise interest in User Experience and Change Management. He has international experience in implementing Information and Communication Technologies for Development (ICT4D) projects across the continent.\n\nJob is currently working with Freethinking Business Consultants in the capacity of Snr Service Design and User Experience Consultants. Furthermore he is appointed as a Research Associate at Nelson Mandela Metropolitan University."
          },
          {
            "name": "Farai Madzima",
            "profilePic": "img/speakers/farai-head.jpg",
            "twitter": "@farai_uxguy",
-            "about": "Farai Madzima, Head of Experience Design, Standard Bank Group\n\n Farai has designed banking apps used every day by people across Africa. Currently he leads Standard Bank’s talented team of designers and researchers in Johannesburg. Their ambition: to make money matters simpler to understand, and simpler to manage.\n\n Farai’s also works to prepare the wider Standard Bank Group to embrace design as a way to do better business. Not just as a way to improve service delivery.\n\n During his time in the UK, Farai designed digital products for BBC, Audi and the Virgin group. Now based in South Africa, he organises the Pixel Up! conference which brings designer from around the world to share ideas in South Africa."
+            "about": "Farai Madzima, Head of Experience Design, Standard Bank Group.\n\nFarai has designed banking apps used every day by people across Africa. Currently he leads Standard Bank’s talented team of designers and researchers in Johannesburg. Their ambition: to make money matters simpler to understand, and simpler to manage.\n\nFarai’s also works to prepare the wider Standard Bank Group to embrace design as a way to do better business. Not just as a way to improve service delivery.\n\nDuring his time in the UK, Farai designed digital products for BBC, Audi and the Virgin group. Now based in South Africa, he organises the Pixel Up! conference which brings designer from around the world to share ideas in South Africa."
           },
           {
             "name": "Aslam Khan",
             "profilePic": "img/speakers/aslam-head.jpeg",
             "twitter": "@aslamkhn",
-             "about": "African software developer. By birth. By choice. For life."
+             "about": "Aslam has been building software for long enough to make peace with the fact that software design is ridiculously difficult.\n\nAfter 20 odd years, he still finds a way to work at the extremes - lines of code and strategy. Most teams he works with will tell of his off the wall experiments in agile software development.\n\nHe is the author of Grokking Functional Programming.\n\nAfrican software developer. By birth. By choice. For life."
            },
            {
              "name": "Simon Stewart",
              "profilePic": "img/speakers/simon-head.JPG",
-             "twitter": "",
-              "about": "I run the JavaScript in South Africa conference and am a frequent speaker at tech conferences.\n\n Also run a training (CodeSkills) and a technology consulting (Broken Keyboards Software) business."
+             "twitter": "@AgileAfricaConf",
+              "about": "I run the JavaScript in South Africa conference and am a frequent speaker at tech conferences.\n\nAlso run a training (CodeSkills) and a technology consulting (Broken Keyboards Software) business."
             },
             {
               "name": "Austin Fagan",
               "profilePic": "img/speakers/austin-head.jpeg",
               "twitter": "@austin_fagan",
-               "about": "I have been facilitating change in teams for the last 10 years as a Scrum Master and agile coach.\n\n I am passionate about finding new ways of building great collaboration and awesome products."
+               "about": "I have been facilitating change in teams for the last 10 years as a Scrum Master and agile coach.\n\nI am passionate about finding new ways of building great collaboration and awesome products."
              },
+             {
+               "name": "Jovanka Damjanovic",
+               "profilePic": "img/speakers/jovanka-head.jpg",
+               "twitter": "@jovankad",
+                "about": "Information Technology professional with over 25 years of experience gained in South Africa and Montenegro predominantly in Financial Services and Software Consultancy.\n\nAgile and DevOps Evangelist.\n\nCurrent position:  Head Engineering, IT Transformation Office, Standard Bank."
+              },
+              {
+                "name": "Louise Perold",
+                "profilePic": "img/speakers/louise-head.jpg",
+                "twitter": "@lperold",
+                 "about": "Testing is not just a career to me, it is a massive part of who I am.\n\nBuilding the testing community in South Africa is super important to me. I am the co-organiser of Let’s Test South Africa and the founder and co-organiser of the Joburg Software Testers Meetup.\n\nPrevious conference talks include Let’s Test in Sweden, Copenhagen Context, DevconfZA and CAST in North America and I served as the co-program chair for CAST 2013.\n\nAs Director and Consultant at House of Test South Africa, I continue to look for opportunities to work with awesome people and partner with friends whom I respect to promote the craft of testing."
+               },
+               {
+                 "name": "Sindi Gumede",
+                 "profilePic": "img/speakers/no-image-head.png",
+                 "twitter": "@AgileAfricaConf",
+                  "about": "I grew up in Soshanguve with my sisters and my gogo. It was hard but I was good at school so I became the very first child in my family who went to varsity with help of a grant.\n\nAfter my IT degree I started working from ground level as a Java and .Net coder and I am passionate about making everything agile especially with the cloud services.\n\nOne day in the future I like to be a scrum master or software manager or CIO. Therefore I am hoping to make the next step into my future at this conference."
+                },
+                {
+                  "name": "Yusuf Kaloo",
+                  "profilePic": "img/speakers/yusuf-head.jpg",
+                  "twitter": "@AgileAfricaConf",
+                   "about": "Scrum Master/Agile Coach in a corporate environment.\n\nAbsolutely love adding Value, while I despise waste."
+                 },
+                 {
+                   "name": "Alison Gitelson",
+                   "profilePic": "img/speakers/alison-head.jpeg",
+                   "twitter": "@AlisonGitelson",
+                    "about": "Alison Gitelson is a facilitator, speaker and management growth enabler. She combines her extensive, practical, business background with a deep understanding of human behaviour. This rare combination blends human needs with business needs.\n\nAlison brings clarity and mastery to the art of effective people management. She focuses on the key areas of communication, individualized management, engagement, embracing diversity and conflict resolution. She enables Leader-managers to increase productivity, quality and profitability.\n\nHer customized workshops & talks are well received as informative, engaging and practical."
+                  },
+
              {
                "name": "Samantha Laing",
                "profilePic": "img/speakers/samantha-head.jpg",
@@ -651,30 +724,167 @@
                 "name": "Karen Greaves",
                 "profilePic": "img/speakers/karen-head.jpeg",
                 "twitter": "@karen_greaves",
-                 "about": "We spend so much of our lives at work, yet so many people don't enjoy their jobs.\n\nI perform best when I love my job, and I think this is true for everyone. \nI believe the best way to engage people at work is to make sure they are having fun, making a difference, and getting better at the things they do.\n\n I help people build great teams and deliver great software.\n\nMy entire career has been in software development, with a significant focus on agile approaches, and enough experience with waterfall to understand it's limitations.\n I've worked with XP, Scrum and Kanban in many different environments. \n\nToday I train and coach individuals and teams in being agile."
+                 "about": "We spend so much of our lives at work, yet so many people don't enjoy their jobs.\n\nI perform best when I love my job, and I think this is true for everyone. \nI believe the best way to engage people at work is to make sure they are having fun, making a difference, and getting better at the things they do.\n\nI help people build great teams and deliver great software.\n\nMy entire career has been in software development, with a significant focus on agile approaches, and enough experience with waterfall to understand it's limitations.\n I've worked with XP, Scrum and Kanban in many different environments. \n\nToday I train and coach individuals and teams in being agile."
                },
                {
                  "name": "Kevin Trethewey",
                  "profilePic": "img/speakers/kevin-head.png",
                  "twitter": "@KevinTrethewey",
-                  "about": "Founded Driven in 2008, and since then has grown it into a local consultancy with an international reputation.\n\n His specific fields of interest include creating learning organisations, optimising organisations for flow of value,\n and understanding how to assist awesome people to better understand and change messy work systems."
+                  "about": "Founded Driven in 2008, and since then has grown it into a local consultancy with an international reputation.\n\nHis specific fields of interest include creating learning organisations, optimising organisations for flow of value,\n and understanding how to assist awesome people to better understand and change messy work systems."
                 },
                 {
                   "name": "Shanaaz Trethewey",
                   "profilePic": "img/speakers/shanaaz-head.jpg",
                   "twitter": "@shanaazbt",
-                   "about": "As a chartered accountant Shanaaz followed a journey of being an auditor, an investment banker, an executive assistant and ultimately a business owner.\n\n Passionate about people, growing and being authentic, she is energised by forward momentum and taking action."
-                 }
+                   "about": "As a chartered accountant Shanaaz followed a journey of being an auditor, an investment banker, an executive assistant and ultimately a business owner.\n\nPassionate about people, growing and being authentic, she is energised by forward momentum and taking action."
+                 },
+                 {
+                   "name": "Julian Exenberger",
+                   "profilePic": "img/speakers/no-image-head.png",
+                   "twitter": "@AgileAfricaConf",
+                    "about": "I am a seasoned - some would say grizzled, maybe even scarred - veteran of the South African Software industry.\n\nIn my 16 years I have been fortunate enough to play the role of everything from a part time system admin for a small startup, to hacking out websites, to Consulting, to Solutions Architect on large projects for large corporates.\n\nUltimately my passion is to build great systems with great technology for my customers and I like to be in the trenches leading from the front."
+                  },
+                  {
+                    "name": "Ann Mwangi",
+                    "profilePic": "img/speakers/ann-head.jpg",
+                    "twitter": "@AnnWMwangi",
+                     "about": "I have been a developer with Thoughtworks for more than 2 years now, I was keen to understand how collaboration between all the stakeholders of a system could be achieved. As part of that, I decided to take on a testers role for a while to understand the challenges that testers face.\n\nThe experience gained as a tester is the background of this talk. In addition, I love working with people while presenting, facilitating and coaching."
+                   },
+                   {
+                     "name": "Angie Doyle",
+                     "profilePic": "img/speakers/angie-head.jpg",
+                     "twitter": "@Doyle_Angie",
+                      "about": "Angie is an Agile Coach, Trainer and Consultant at IQ Business in South Africa. She has more than 19 years’ experience in the Financial Services industry and has been a practicing business analyst for the past 12 years.\n\nPrior to becoming a consultant, Angie worked in the business process outsourcing industry where she pursued ways to make businesses more effective, more efficient and more capable of adapting to an ever-changing environment. So when she was introduced to Agile a few years later, it was a perfect fit! \n\nShe now devotes her time to anything related to Agile transformation, with a focus on the role of the Agile Product Owner and Agile Business Analyst."
+                    },
+                    {
+                      "name": "Dillon Weyer",
+                      "profilePic": "img/speakers/dillon-head.jpg",
+                      "twitter": "@dmweyer",
+                       "about": "I have over 8 years experience in Agile. I have helped teams and business both local and internationally in the e-commerce, financial, telecoms and insurance industries.\n\nI am also an Agile trainer, and recently created a Kanban Fundamentals training course.\n\nI have been part of the Johannesburg Scrum User Group South Africa organising committee for three years.\n\nI am a proud father of two amazing boys. I love fly fishing and cooking."
+                     },
+                     {
+                       "name": "Sandy Mamoli",
+                       "profilePic": "img/speakers/sandy-head.jpeg",
+                       "twitter": "@smamol",
+                        "about": "Director of All Things Agile at http://Nomad8.com.\n\nAuthor of Creating Great Teams - How Self-Selection Lets People Excel."
+                      },
+                      {
+                        "name": "Neal Ford",
+                        "profilePic": "img/speakers/neal-head.jpg",
+                        "twitter": "@neal4d",
+                         "about": "Neal Ford is Director, Software Architect, and Meme Wrangler at ThoughtWorks, a global IT consultancy with a focus on end-to-end software development and delivery.\n\nHe is also the designer and developer of applications, articles, video/DVD presentations, and author and/or editor of an increasingly large number of books spanning a variety of subjects and technologies, including the most recent Presentation Patterns.\n\nHis professional focus includes designing and building of large-scale enterprise applications. He is also an internationally acclaimed speaker, speaking at over 300 developer conferences worldwide, delivering more than 2000 presentations."
+                       },
+                       {
+                         "name": "Biase De Gregorio",
+                         "profilePic": "img/speakers/biase-head.jpeg",
+                         "twitter": "@Biased77",
+                          "about": "I am currently an Associate Partner at IQ Business leading the Agile service offering called agility@IQ that provides Agile training, coaching and consulting.\n\nSince 2002, I have been involved in project and programme management with a focus on project delivery and processes implementing software solutions for our customers.\n\nSince 2010, I have been building our Agile offering and personally trained over 2000 delegates on Agile.\n\nI have also been involved in both large and smaller scale agile transformations.\n\nI have also had the opportunity to present both locally and internationally on relevant Agile topics that I am passionate about."
+                        },
+                        {
+                          "name": "Rory Preddy",
+                          "profilePic": "img/speakers/rory-head.png",
+                          "twitter": "@rorypreddy",
+                           "about": "Rory has worked in many of the blue chip companies in Johannesburg.\n\nA Java Developer since 2001 he is a Oracle Certified Java Programmer , has his Honours BSc and is a Scrum.org Certified Master.\n\nRory is lucky enough to work full time in R&D at BBD which gives him an unparalleled insight into industry movement.\n\nHe is a co-organizer of the Jozi-JUG, General Manager of Jug-Africa and is a passionate Java Evangelist."
+                         },
+                         {
+                           "name": "Carsten Feilberg",
+                           "profilePic": "img/speakers/carsten-head.JPG",
+                           "twitter": "@Carsten_F",
+                            "about": "Carsten Feilberg has been testing and managing testing for more than 16 years, working on various projects covering the fields of insurance, pensions, public administration, retail and other back office systems as well as a couple of websites.\n\nWith more than 22 years as a consultant in IT his experience ranges from one-person do-it-all projects to being delivery and test manager on a 70+ system migration project involving almost 100 persons.\n\nHe is also a well known blogger, a certified ScrumMaster, presenter on conferences and a strong advocate for context-driven testing.\n\nHe is living and working in Denmark as a consultant at the danish chapter of swedish based House of Test."
+                          },
+                          {
+                            "name": "Rob Enslin",
+                            "profilePic": "img/speakers/rob-head.png",
+                            "twitter": "@robenslin",
+                             "about": "Rob (Enslin) works for ThoughtWorks, a software development company, based in Braamfontein.\n\nRob leads the Experience Design (UX) and Product Design practice in Pan-Africa ensuring the products and services are human friendly.\n\nWhen not working in the field with clients he's running and organising UX Joburg, a local design meet up or teaching his colleagues product design essentials."
+                           },
+                           {
+                             "name": "Kelvin Mutuma",
+                             "profilePic": "img/speakers/kelvin-head.jpg",
+                             "twitter": "@kelvinmutuma",
+                              "about": "I work as a service engineer at GitLab Inc where we leverage Git to build tools for collaboration of software development teams.\n\nPrior to this I worked as a lead systems engineer at abacus.co.ke which involved building tools for analysis of the Kenyan stock market to enable traders to make timely and informed trades on the Nairobi Securities Exchange."
+                            },
+                            {
+                              "name": "Candice Mesk",
+                              "profilePic": "img/speakers/candice-head.jpeg",
+                              "twitter": "@candicemesk",
+                               "about": "Candice Mesk is a software developer turned systems coach who is passionate about learning and growth, and a proud member of the Driven Alliance.\n\nDuring the day she helps people in teams and management positions understand how their work \"works\", and in her spare time she is an active member of the community through being an organiser of the largest independent developer user group in the country (http://www.meetup.com/DeveloperUG/), being on the organising committee of several IT-related conferences (past and present) and her contribution to a community outreach programme, Sisonke Rising (www.sisonkerising.com) powered by the Driven Alliance."
+                             },
+                             {
+                               "name": "Pavel Dabrytski",
+                               "profilePic": "img/speakers/pavel-head.jpg",
+                               "twitter": "@PavelDabrytski",
+                                "about": "Pavel Dabrytski is an agile coach and trainer from South Africa.\n\nHe helps organizations implement Agile sustainably through mentoring and coaching.\n\nOver the past years, Pavel worked with major financial organizations and retail giants improving their organisational processes.\n\nHe also helped organise multiple international conferences in Cape Town and Johannesburg.\n\nPavel is a seasoned presenter who spoke at events in Paris, Prague, Shanghai, Bangalore, Atlanta as well as in South Africa.\n\nCurrently, he explores topics on lean thinking, organisational culture change, and financial models behind Agile projects."
+                              },
+                              {
+                                "name": "Cindy Carless",
+                                "profilePic": "img/speakers/cindy-head.jpg",
+                                "twitter": "@ccarless",
+                                 "about": "Cindy Carless has studied NLP with the long-term goal of becoming a life coach.\n\nShe is devoted to coaching and uses her coaching skills vibrantly and successfully in software testing, where she finds many opportunities to apply her coaching skills to add value to other testers and project team members.\n\nShe draws on her diverse career over nearly 30 years. Starting out in accounting and financial management she has touched upon several roles in IT, such as implementation consultant, business analyst and project manager.\n\nShe works presently as a coach in the testing industry in South Africa, and is also a renowned trainer and facilitator, subscribing to the context-driven school of testing."
+                               },
+                               {
+                                 "name": "Nyaradzai Samushonga",
+                                 "profilePic": "img/speakers/nyaradzai-head.jpg",
+                                 "twitter": "@nyarisam",
+                                  "about": "Nyari's journey is rather interesting. From auditing to agile software development to organisational transformation - it is marked in itself with pivotal moments.  Now finding herself as one of the cogs in the ThoughtWorks Pan Africa leadership team, Nyari consistently demonstrates her ability to adapt and guide organisations to do the same.\n\nPart of her adaptability is her sharp assessment of key levers in each situation that empowers teams to work with just the right balance of freedom and boundaries, resulting in delivery well beyond their own expectations.\n\nMostly though, Nyaradzai is humble enough to remember her beginnings and expansive enough to know her possibilities.  That makes for a leader rooted with the people, and having an audacity to attempt the impossible."
+                                },
+                                {
+                                  "name": "Joshua Lewis",
+                                  "profilePic": "img/speakers/joshua-head.jpg",
+                                  "twitter": "@joshilewis",
+                                   "about": "Joshua Lewis has been a developer for over a decade, 2 years of which has been as a coach.\n\nHe has spoken at several local conferences and community groups on a range of topics.\n\nJoshua lectures part-time at a post-grad level for the JCSE and Wits University"
+                                 },
+                                 {
+                                   "name": "Justin Doyle",
+                                   "profilePic": "img/speakers/justin-head.jpg",
+                                   "twitter": "@AgileAfricaConf",
+                                    "about": "Justin Doyle is an Agile Coach at Discovery Vitality. Joining the company in 2012 as a Scrum Master and later moving into a coaching role, he has worked to drive the adoption of Agile across the division.\n\nIn an era of constant innovation Justin firmly believes that organisations need to have the flexibility to approach problems creatively in order to deliver better solutions. This is where his passion for agile first started: by getting business and systems teams to work closely together in a transparent and open environment, both sides can better understand the needs, requirements, risks and complexities of the other, helping them to stay focused on the primary goal of delivering value."
+                                  },
+                                  {
+                                    "name": "Paul Lloyd",
+                                    "profilePic": "img/speakers/paul-head.jpg",
+                                    "twitter": "@AgileAfricaConf",
+                                     "about": "Paul Lloyd is a tester, trainer, avid reader and cyclist.\n\nA Qualified tester with over ten years’ experience. His testing experience has been on all types of hardware and software, in many environments which include Automated Teller Machines, Point of Sale/Service devices, high speed document Scanners, Mobile devices, Server, Web and Desktop applications.\n\nAs a Certified Technical Trainer, Paul has also given training on software products in diverse fields such as, the Swedish and South African Air forces, Petroleum Plants, Training institutions and Qualifications boards.\n\nHe is continually reading and trying to find new ways to test and manage software teams effectively. His passion lies in implementing and managing automated test processes."
+                                   },
+                                   {
+                                     "name": "Subash Sharma",
+                                     "profilePic": "img/speakers/subash-head.jpg",
+                                     "twitter": "@AgileAfricaConf",
+                                      "about": "Subash Sharma is currently the Chief Operating Officer for the technology division of Barclays Africa.\n\nSubash has lead the transformation of a non-technology business unit from its traditional functional silo based operating model to product aligned high performance teams, based on the foundations of agile, lean and employee engagement.\n\nHe has a passion for leadership development, in particular leadership in a world of 10X disruption."
+                                    },
+                                    {
+                                      "name": "Felicity Brady",
+                                      "profilePic": "img/speakers/felicity-head.jpg",
+                                      "twitter": "@AgileAfricaConf",
+                                       "about": "Felicity Brady is currently growing into the role of agile coach while attempting to transform the operations of a business unit in Barclays Africa to agile.\n\nFelicity has a significant background in implementing change and business operations serving various roles in different industries.\n\nHer passion is working with future leaders and developing teams to their fullest potential."
+                                     },
+                                     {
+                                       "name": "Theodore Carl Bohnen",
+                                       "profilePic": "img/speakers/no-image-head.png",
+                                       "twitter": "@AgileAfricaConf",
+                                        "about": "My name's Theo and I am passionate about Software Development, people and learning; I get excited by sharing what I've learnt and even better, learning from others.\n\nI've been doing software development professionally for 8 years in various roles."
+                                      },
+                                      {
+                                        "name": "Henk Viljoen",
+                                        "profilePic": "img/speakers/henk-head.jpg",
+                                        "twitter": "@AgileAfricaConf",
+                                         "about": "From pathology to people, Henk is an Ambassador for Good,  with the self-proclaimed title of Chief Happiness Officer at MMI, one of South Africa’s leading insurance companies he currently serves as coach and mentor.\n\nHenk is a practical results-driven professional who believes that people are key to success. Being fascinated by Whole Brain Thinking and its potential in organisational transformation, he applies his background in biological science, teaching and business in making this happen.\n\nHenk lives in Centurion with his wife Elmare and their four kids, three rhode island hens, two dogs, two cats and an african grey."
+                                       },
+                                       {
+                                         "name": "Danie Roux",
+                                         "profilePic": "img/speakers/danie-head.png",
+                                         "twitter": "@danieroux",
+                                          "about": "Known in the industry as a good guy to have a conversation with, Danie has a habit of improving both the macro and micro flow within systems.\n\nDanie asks Why and How value is created."
+                                        }
   ],
 
 
   "map": [
     {
       "name": "Wanderers Golf Club",
-      "lat": -26.135266,
-      "lng": 28.053804,
+      "lat": -26.13314747,
+      "lng": 28.051572,
       "center": true
     }
   ]
-
 }
