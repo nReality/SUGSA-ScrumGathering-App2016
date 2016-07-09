@@ -18,7 +18,6 @@ export class SpeakerDetailPage {
   }
 
   goToSpeakerTwitter(speaker) {
-    console.log("test");
     window.open(`https://twitter.com/${speaker.twitter}`);
   }
 }
