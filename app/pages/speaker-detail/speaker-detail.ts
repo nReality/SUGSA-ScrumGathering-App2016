@@ -16,4 +16,9 @@ export class SpeakerDetailPage {
   goToSessionDetail(session) {
     this.nav.push(SessionDetailPage, session);
   }
+
+  goToSpeakerTwitter(speaker) {
+    console.log("test");
+    window.open(`https://twitter.com/${speaker.twitter}`);
+  }
 }
