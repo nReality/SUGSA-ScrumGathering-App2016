@@ -1,6 +1,11 @@
 
 .speaker-list-web {
 
+
+ion-card.speaker  {
+  width: 400px;
+}
+
   ion-card.speaker ion-card-header .item {
     padding: 12px;
   }

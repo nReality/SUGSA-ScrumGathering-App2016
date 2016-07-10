@@ -1,6 +1,10 @@
 
 
-<ion-content class="outer-content speaker-list-web">
+<ion-content center class="outer-content speaker-list-web">
+
+  <ion-grid center>
+  <ion-row center wrap>
+
   <ion-card *ngFor="let speaker of speakers" class="speaker">
 
     <ion-card-header>
@@ -32,4 +36,6 @@
 
 
   </ion-card>
+</ion-row>
+</ion-grid>
 </ion-content>
