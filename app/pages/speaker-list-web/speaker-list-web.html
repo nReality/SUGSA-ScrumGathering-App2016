@@ -7,8 +7,12 @@
 
   <ion-card *ngFor="let speaker of speakers" class="speaker">
 
-    <ion-card-header>
+
+
+
+    <ion-card-content class="outer-content">
       <button ion-item (click)="goToSpeakerDetail(speaker)">
+
         <ion-avatar item-left>
           <img [src]="speaker.profilePic">
         </ion-avatar>
@@ -19,12 +23,6 @@
           Tweet
         </button>
       </button>
-
-
-    </ion-card-header>
-
-
-    <ion-card-content class="outer-content">
       <ion-list>
         <button ion-item *ngFor="let session of speaker.sessions" (click)="goToSessionDetail(session)">
           <h3>{{session.name}}</h3>

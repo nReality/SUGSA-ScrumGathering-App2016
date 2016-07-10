@@ -5,6 +5,7 @@ import {ConferenceData} from './providers/conference-data';
 import {UserData} from './providers/user-data';
 import {AccountPage} from './pages/account/account';
 import {TabsPage} from './pages/tabs/tabs';
+import {SpeakerListWebPage} from './pages/speaker-list-web/speaker-list-web';
 import {LoginPage} from './pages/login/login';
 import {SignupPage} from './pages/signup/signup';
 import {TutorialPage} from './pages/tutorial/tutorial';
@@ -42,6 +43,7 @@ class ConferenceApp {
     { title: 'Signup', component: SignupPage, icon: 'person-add' }
   ];
   rootPage: any = TabsPage;
+  altrootPage: any = SpeakerListWebPage;
 
   constructor(
     private events: Events,

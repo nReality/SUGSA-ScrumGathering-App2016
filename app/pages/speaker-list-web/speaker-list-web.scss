@@ -6,6 +6,11 @@ ion-card.speaker  {
   width: 400px;
 }
 
+ion-card.speaker img {
+  max-width: 80px;
+    max-height: 80px;
+  border-radius: 50%;
+}
   ion-card.speaker ion-card-header .item {
     padding: 12px;
   }

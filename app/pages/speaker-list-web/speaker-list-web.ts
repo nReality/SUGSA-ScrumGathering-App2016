@@ -29,7 +29,8 @@ export class SpeakerListWebPage {
   }
 
   goToSpeakerTwitter(speaker) {
-    //window.open(`https://twitter.com/${speaker.twitter}`);
+  setTimeout(function(){ window.open(`https://twitter.com/${speaker.twitter}`); }, 0);
+
       //this.nav.push(SpeakerDetailPage, speaker.name);
   }
 
