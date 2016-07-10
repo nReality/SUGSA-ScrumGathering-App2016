@@ -24,8 +24,8 @@
         </button>
       </button>
       <ion-list>
-        <button ion-item *ngFor="let session of speaker.sessions" (click)="goToSessionDetail(session)">
-          <h3>{{session.name}}</h3>
+        <button text-wrap wrap ion-item *ngFor="let session of speaker.sessions" (click)="goToSessionDetail(session)">
+          <h3 wrap>{{session.name}}</h3>
         </button>
 
       </ion-list>
