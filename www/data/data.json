@@ -2,7 +2,7 @@
 
   "schedule": [
     {
-      "date": "2016-08-22",
+      "date": "Monday 22 August",
       "groups": [
         {
           "time": "8:00 am",
@@ -301,7 +301,7 @@
       ]
     },
     {
-      "date": "2016-08-23",
+      "date": "Tuesday 23 August",
       "groups": [
         {
           "time": "9:00 am",

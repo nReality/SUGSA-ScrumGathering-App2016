@@ -1,0 +1,35 @@
+
+
+<ion-content class="outer-content speaker-list-web">
+  <ion-card *ngFor="let speaker of speakers" class="speaker">
+
+    <ion-card-header>
+      <button ion-item (click)="goToSpeakerDetail(speaker)">
+        <ion-avatar item-left>
+          <img [src]="speaker.profilePic">
+        </ion-avatar>
+        <h2> {{speaker.name}}</h2>
+
+        <button twitter (click)="goToSpeakerTwitter(speaker)" clear item-right>
+          <ion-icon name="logo-twitter"></ion-icon>
+          Tweet
+        </button>
+      </button>
+
+
+    </ion-card-header>
+
+
+    <ion-card-content class="outer-content">
+      <ion-list>
+        <button ion-item *ngFor="let session of speaker.sessions" (click)="goToSessionDetail(session)">
+          <h3>{{session.name}}</h3>
+        </button>
+
+      </ion-list>
+    </ion-card-content>
+
+
+
+  </ion-card>
+</ion-content>

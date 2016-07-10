@@ -41,15 +41,15 @@ export class ConferenceData {
       day.groups.forEach(group => {
         // loop through each session in the timeline group
         group.sessions.forEach(session => {
-          this.processSession(data, session);
+          this.processSession(data, session, day.date);
         });
       });
     });
 
     return data;
   }
-
-  processSession(data, session) {
+  processSession(data, session, date) {
+    session.date = date
     // loop through each speaker and load the speaker data
     // using the speaker name as the key
     session.speakers = [];
