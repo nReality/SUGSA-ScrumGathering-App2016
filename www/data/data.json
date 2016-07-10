@@ -29,7 +29,7 @@
               "tracks": ["Admin"]
             },
             {
-              "name": "A Learning Continent",
+              "name": "A Learning Continent - unlocking African opportunities",
               "location": "Ballroom",
               "description": "codeX and WeThinkCode strive to give back to the community. Come join us to see what they have in-store for software in  Africa.",
               "speakerNames": [
@@ -461,7 +461,7 @@
           "time": "12:00 pm",
           "sessions": [
             {
-              "name": "A corporate South African success story",
+              "name": "How we reduced delivery time by 30% using Mob Programming: A corporate South African success story",
               "location": "Ballroom",
               "speakerNames": ["Candice Mesk"],
               "description": "How we reduced delivery time by 30% using Mob Programming: A corporate South African Success Story\n\nWhat would happen if your team worked on the single most important deliverable all the time until it was done? Is this even possible? What would the effects be?\n\nOver the last year I’ve worked with a team that has done just that. Not only did they work on the single most important deliverable all the time, but in doing so reduced delivery time by 30%. In addition to this, the team dramatically reduced key man dependencies. All this was achieved using a controversial practice called mob programming.\n\nIn this session I’m going to walk you through the practices adopted by this team to make mob programming possible and why I feel these practices led them to achieve such a dramatic improvement in delivery time. I will also briefly present some of the supporting data, and explain how it was collected.\n\nBy the end of the session you’ll have an idea of what mob programming is as well as some of the practical challenges a team faces when adopting it and the payback of getting it right.",
@@ -538,7 +538,7 @@
             {
               "name": "Evolution of software systems",
               "location": "Gala Room",
-              "speakers": "Joshua Lewis",
+              "speakerNames": ["Joshua Lewis"],
               "description": "When they are first created, software systems generally have a consistent internal model and structure, which the authors consider a good solution for the problem at hand, considering their context, knowledge and expertise at the time.\n\nOver time, this internal structure generally loses its consistency due to a sequence of mutations made to satisfy new requirements.\n\nThese mutations generally make further changes to the software more difficult, longer to make, and introduce great risk. What often happens is after enough time, developers start recommending a complete rewrite.",
               "timeStart": "2:00 pm",
               "timeEnd": "2:30 pm",
@@ -615,7 +615,7 @@
               "name": "Herding the herd - a coaches perspective",
               "location": "Gala Room",
               "speakerNames": ["Henk Viljoen"],
-              "description": "How do you manage learning in self organising systems?",
+              "description": "So I bought my friend an elephant for his room....he did not want to talk about it. How does intrinsic frameworks shape agile journeys? What is the significance in value systems? Are values the glue that makes things happen?",
               "timeStart": "3:20 pm",
               "timeEnd": "3:50 pm",
               "tracks": [
@@ -681,7 +681,7 @@
         "name": "WeThinkCode",
         "profilePic": "img/speakers/wethinkcode-logo.jpeg",
         "twitter": "@wethinkcode",
-         "about": "WeThinkCode_ is a new kind of institution dedicated to adress the IT skills gap.\n\nOur mission is to source and develop Africa's future digital talent. We are democratising education, by making our applications open and accessible to all brilliant minds, regardless of previous education or financial means. \n\nStudents pay no tuition, and we partner with corporates, foundations and individuals to sponsor students. We provide corporates access to world-class software engineers. \n\nIf you would like more information on how to get involved, please contact us on sponsor@wethinkcode.co.za"
+         "about": "WeThinkCode is a new kind of institution dedicated to adress the IT skills gap.\n\nOur mission is to source and develop Africa's future digital talent. We are democratising education, by making our applications open and accessible to all brilliant minds, regardless of previous education or financial means. \n\nStudents pay no tuition, and we partner with corporates, foundations and individuals to sponsor students. We provide corporates access to world-class software engineers. \n\nIf you would like more information on how to get involved, please contact us on sponsor@wethinkcode.co.za"
        },
        {
          "name": "Henrik Kniberg",
