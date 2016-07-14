@@ -9,11 +9,15 @@
 
   <ion-divider>
     <ion-item no-lines>
-      <rating-stars></rating-stars>
+      <div class="stars">
+        <star *ngFor="let star of stars" [active]="star <= _rating" (rate)="onRate($event)" [position]="star">
+        </star>
+      </div>
     </ion-item>
     <ion-item>
-      <ion-input type="text" placeholder="Comment"></ion-input>
+      <ion-input type="text" placeholder="Comment" [(ngModel)]="comment"></ion-input>
     </ion-item>
+    <button class="button-light" (click)="postRating()">Rate</button>
   </ion-divider>
   <br>
 
