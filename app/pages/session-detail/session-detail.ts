@@ -17,10 +17,13 @@ export class SessionDetailPage {
   @Input() rating: number;
   @Output() rate = new EventEmitter();
   _rating = this.rating;
+  ratingsRef: any;
 
   constructor(private navParams: NavParams) {
     this.session = navParams.data;
     const count = this.starCount < 0 ? 5 : this.starCount;
+
+    this.ratingsRef = firebase.database().ref('Ratings');
   }
 
   onRate(star) {
@@ -28,7 +31,8 @@ export class SessionDetailPage {
     this._rating = star;
   }
 
-  postRating(){
-    firebase.database().ref(this.session.name).push({value: this._rating, comment:this.comment});
+  postRating(session){
+    this.ratingsRef.push({session:session.name, deviceID: 123456, value: this._rating, comment:this.comment});
+    alert("Thank you. Your feedback has been received.");
   }
 }

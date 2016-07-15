@@ -17,7 +17,7 @@
     <ion-item>
       <ion-input type="text" placeholder="Comment" [(ngModel)]="comment"></ion-input>
     </ion-item>
-    <button class="button-light" (click)="postRating()">Rate</button>
+    <button class="button-light" (click)="postRating(session)" [hidden]= "_rating === 0">Rate</button>
   </ion-divider>
   <br>
 

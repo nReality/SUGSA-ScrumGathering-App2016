@@ -70,13 +70,12 @@ class ConferenceApp {
 
     this.listenToLoginEvents();
 
-    console.log('triggered');
-
     var config = {
       apiKey: "AIzaSyBzrmscE2IFlQJ_IQZ3D-yWki3c5H7bCtE",
       authDomain: "agile-africa.firebaseapp.com",
       databaseURL: "https://agile-africa.firebaseio.com",
       storageBucket: "agile-africa.appspot.com",
+      setPersistenceEnabled: true,
     };
 
     firebase.initializeApp(config);
