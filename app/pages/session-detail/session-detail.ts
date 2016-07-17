@@ -14,7 +14,7 @@ export class SessionDetailPage {
   comment:string = "";
 
   @Input() starCount: number;
-  @Input() rating: number;
+  @Input() rating: number = 0;
   @Output() rate = new EventEmitter();
   _rating = this.rating;
   ratingsRef: any;
