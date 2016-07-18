@@ -30,9 +30,9 @@
 </ion-header>
 
 <ion-content class="schedule">
-  <ion-list #scheduleList [hidden]="days.length === 0">
+  <ion-list #scheduleList>
 
-    <ion-item-group *ngFor="let day of days" [hidden]="day.hide">
+    <ion-item-group *ngFor="let day of days">
       <ion-item-divider sticky class="date-group">
         {{day.date}}
       </ion-item-divider>
@@ -65,14 +65,16 @@
       </ion-item-sliding>
 
     </ion-item-group>
+
+    <ion-list-header [hidden]="day.shownSessions > 0">
+        No Sessions Found.
+    </ion-list-header>
+
   </ion-item-group>
 
   </ion-list>
 
-  <!--<ion-list-header >
-    --Fix this to only show when no sessions returned.
-      No Sessions Found
-  </ion-list-header>-->
+
 
 
 </ion-content>
