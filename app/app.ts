@@ -54,6 +54,15 @@ class ConferenceApp {
     platform: Platform,
     confData: ConferenceData
   ) {
+    var config = {
+      apiKey: "AIzaSyBzrmscE2IFlQJ_IQZ3D-yWki3c5H7bCtE",
+      authDomain: "agile-africa.firebaseapp.com",
+      databaseURL: "https://agile-africa.firebaseio.com",
+      storageBucket: "agile-africa.appspot.com"      
+    };
+
+    firebase.initializeApp(config);
+
     // Call any initial plugins when ready
     platform.ready().then(() => {
       StatusBar.styleDefault();
@@ -69,16 +78,6 @@ class ConferenceApp {
     });
 
     this.listenToLoginEvents();
-
-    var config = {
-      apiKey: "AIzaSyBzrmscE2IFlQJ_IQZ3D-yWki3c5H7bCtE",
-      authDomain: "agile-africa.firebaseapp.com",
-      databaseURL: "https://agile-africa.firebaseio.com",
-      storageBucket: "agile-africa.appspot.com",
-      setPersistenceEnabled: true,
-    };
-
-    firebase.initializeApp(config);
   }
 
   openPage(page: PageObj) {
