@@ -194,7 +194,16 @@
                   "timeStart": "1:00 pm",
                   "timeEnd": "1:50 pm",
                   "tracks": ["Poster"]
-                  },
+                },
+                {
+                  "name": "Poster: Levelling the Playing Field - Willingness of our younger generation to learn",
+                  "location": "Indaba Tree Room",
+                  "description": "Jemma created \"Levelling the Playing Field\", a 5 day course that is designed using only free online resoures, to help students to continue working after the course.\n\nWhat Jemma would like to achive is a partnership between the computer programming and underprivileged communities.\n\n\"Coding is a cheap skill to learn if you have the right people available to you.\"\n\nThis poster session will hopefully expose the attendees to the willingness of our younger generation to learn and improve their circumstances.\n\nWe have some real talent hidden away in the informal settlements of South Africa and Jemma would really love to expose it.",
+                  "speakerNames": ["Jemma Chait"],
+                  "timeStart": "1:00 pm",
+                  "timeEnd": "1:50 pm",
+                  "tracks": ["Poster"]
+                },
             {
               "name": "Workshop: Making Retros Work",
               "location": "Marathon Room",
@@ -923,6 +932,12 @@
                                          "profilePic": "img/speakers/danie-head.png",
                                          "twitter": "@danieroux",
                                           "about": "Known in the industry as a good guy to have a conversation with, Danie has a habit of improving both the macro and micro flow within systems.\n\nDanie asks Why and How value is created."
+                                        },
+                                        {
+                                          "name": "Jemma Chait",
+                                          "profilePic": "img/speakers/jemma-head.jpg",
+                                          "twitter": "@AgileAfricaConf",
+                                          "about": "I'm in my final year of Electrical Engineering (specialising in Information Engineering) at Wits.\n\nI teach part time at a community outreach programme for high school students from Alexandra. This programme is designed to bridge the gap between the severely lacking education system within Alexandra and that of private schools.\n\nI'm currently the grade 10 physical science teacher there but I spend a lot of time with the other grades in their computer lessons.\n\nI come from a very privileged background, one where I've always had a lot of support from my family, both financially and emotionally.My biggest wish would be to give these children support like I have received. "
                                         }
   ],
 
