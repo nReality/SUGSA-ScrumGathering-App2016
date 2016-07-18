@@ -1,5 +1,6 @@
 import {Component, Input, Output, OnInit, EventEmitter} from '@angular/core';
 import {NavParams, Storage, LocalStorage, Alert, NavController} from 'ionic-angular';
+import {SpeakerDetailPage} from '../speaker-detail/speaker-detail';
 import {Device} from 'ionic-native';
 import { Star } from './star';
 
@@ -65,5 +66,9 @@ export class SessionDetailPage {
     });
 
     this.nav.present(postMessage);
+  }
+
+  goToSpeakerDetail(speakerName: string) {
+    this.nav.push(SpeakerDetailPage, speakerName);
   }
 }
