@@ -146,8 +146,8 @@ export class ConferenceData {
   getSpeakers() {
     return this.load().then(data => {
       return data.speakers.sort((a, b) => {
-        let aName = a.name.split(' ').pop();
-        let bName = b.name.split(' ').pop();
+        let aName = a.name.split(' ').shift();
+        let bName = b.name.split(' ').shift();        
         return aName.localeCompare(bName);
       });
     });
