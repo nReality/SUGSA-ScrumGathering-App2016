@@ -1,5 +1,6 @@
 import {Component, Input, Output, OnInit, EventEmitter} from '@angular/core';
 import {NavParams, Storage, LocalStorage, Alert, NavController} from 'ionic-angular';
+import {Device} from 'ionic-native';
 import { Star } from './star';
 
 import * as firebase from 'firebase';
@@ -50,7 +51,7 @@ export class SessionDetailPage {
   }
 
   postRating(session){
-    this.ratingsRef.push({session:session.name, deviceID: 123456, value: this._rating, comment:this.comment});
+    this.ratingsRef.push({session:session.name, deviceID: Device.device.uuid || "Web", value: this._rating, comment:this.comment});
     this.local.set(session.name, JSON.stringify({value: this._rating, comment: this.comment}));
 
     this.showSuccess();
