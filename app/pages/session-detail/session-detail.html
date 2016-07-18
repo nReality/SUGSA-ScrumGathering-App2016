@@ -21,15 +21,16 @@
   </ion-divider>
   <br>
 
-  <h4 *ngFor="let speaker of session.speakers" (click)="goToSpeakerDetail(speaker)">
+  <h3 text-center *ngFor="let speaker of session.speakers" (click)="goToSpeakerDetail(speaker)">
     {{speaker.name}}
-  </h4>
+  </h3>
 
-  <p>
+  <p text-center>
     {{session.date}}    {{session.timeStart}} - {{session.timeEnd}}
   </p>
 
-  <h6>{{session.location}}</h6>
-
-  <p class="session-description">{{session.description}}</p>
+  <ion-card>
+    <ion-card-header>{{session.location}}</ion-card-header>
+    <ion-card-content>{{session.description}}</ion-card-content>
+  </ion-card>
 </ion-content>
