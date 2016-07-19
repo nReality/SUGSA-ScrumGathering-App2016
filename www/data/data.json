@@ -688,7 +688,7 @@
       },
       {
         "name": "WeThinkCode",
-        "profilePic": "img/speakers/wethinkcode-logo.jpeg",
+        "profilePic": "img/speakers/wethinkcode-logo.jpg",
         "twitter": "@wethinkcode",
          "about": "WeThinkCode is a new kind of institution dedicated to adress the IT skills gap.\n\nOur mission is to source and develop Africa's future digital talent. We are democratising education, by making our applications open and accessible to all brilliant minds, regardless of previous education or financial means. \n\nStudents pay no tuition, and we partner with corporates, foundations and individuals to sponsor students. We provide corporates access to world-class software engineers. \n\nIf you would like more information on how to get involved, please contact us on sponsor@wethinkcode.co.za"
        },
@@ -712,7 +712,7 @@
           },
           {
             "name": "Aslam Khan",
-            "profilePic": "img/speakers/aslam-head.jpeg",
+            "profilePic": "img/speakers/aslam-head.jpg",
             "twitter": "@aslamkhn",
              "about": "Aslam has been building software for long enough to make peace with the fact that software design is ridiculously difficult.\n\nAfter 20 odd years, he still finds a way to work at the extremes - lines of code and strategy. Most teams he works with will tell of his off the wall experiments in agile software development.\n\nHe is the author of Grokking Functional Programming.\n\nAfrican software developer. By birth. By choice. For life."
            },
@@ -724,7 +724,7 @@
             },
             {
               "name": "Austin Fagan",
-              "profilePic": "img/speakers/austin-head.jpeg",
+              "profilePic": "img/speakers/austin-head.jpg",
               "twitter": "@austin_fagan",
                "about": "I have been facilitating change in teams for the last 10 years as a Scrum Master and agile coach.\n\nI am passionate about finding new ways of building great collaboration and awesome products."
              },
@@ -754,7 +754,7 @@
                  },
                  {
                    "name": "Elizabeth-Anne Marinakis",
-                   "profilePic": "img/speakers/Elizabeth-Anne-head.png",
+                   "profilePic": "img/speakers/Elizabeth-Anne-head.jpg",
                    "twitter": "@AgileAfricaConf",
                     "about": "Elizabeth is passionate in finding new ways in doing work and being in a project delivery environment, she needs to assist this organization to stay ahead in terms of project delivery methodologies. Agile has allowed Elizabeth to renew her passion of teaching by providing her with a platform to learn new ways of working which enables her to provide better leadership to product teams."
                   },
@@ -766,7 +766,7 @@
                  },
                  {
                    "name": "Alison Gitelson",
-                   "profilePic": "img/speakers/alison-head.jpeg",
+                   "profilePic": "img/speakers/alison-head.jpg",
                    "twitter": "@AlisonGitelson",
                     "about": "Alison Gitelson is a facilitator, speaker and management growth enabler. She combines her extensive, practical, business background with a deep understanding of human behaviour. This rare combination blends human needs with business needs.\n\nAlison brings clarity and mastery to the art of effective people management. She focuses on the key areas of communication, individualized management, engagement, embracing diversity and conflict resolution. She enables Leader-managers to increase productivity, quality and profitability.\n\nHer customized workshops & talks are well received as informative, engaging and practical."
                   },
@@ -779,13 +779,13 @@
               },
               {
                 "name": "Karen Greaves",
-                "profilePic": "img/speakers/karen-head.jpeg",
+                "profilePic": "img/speakers/karen-head.jpg",
                 "twitter": "@karen_greaves",
                  "about": "We spend so much of our lives at work, yet so many people don't enjoy their jobs.\n\nI perform best when I love my job, and I think this is true for everyone. \nI believe the best way to engage people at work is to make sure they are having fun, making a difference, and getting better at the things they do.\n\nI help people build great teams and deliver great software.\n\nMy entire career has been in software development, with a significant focus on agile approaches, and enough experience with waterfall to understand it's limitations.\n I've worked with XP, Scrum and Kanban in many different environments. \n\nToday I train and coach individuals and teams in being agile."
                },
                {
                  "name": "Kevin Trethewey",
-                 "profilePic": "img/speakers/kevin-head.png",
+                 "profilePic": "img/speakers/kevin-head.jpg",
                  "twitter": "@KevinTrethewey",
                   "about": "Founded Driven in 2008, and since then has grown it into a local consultancy with an international reputation.\n\nHis specific fields of interest include creating learning organisations, optimising organisations for flow of value,\n and understanding how to assist awesome people to better understand and change messy work systems."
                 },
@@ -821,7 +821,7 @@
                      },
                      {
                        "name": "Sandy Mamoli",
-                       "profilePic": "img/speakers/sandy-head.jpeg",
+                       "profilePic": "img/speakers/sandy-head.jpg",
                        "twitter": "@smamol",
                         "about": "Director of All Things Agile at http://Nomad8.com.\n\nAuthor of Creating Great Teams - How Self-Selection Lets People Excel."
                       },
@@ -833,13 +833,13 @@
                        },
                        {
                          "name": "Biase De Gregorio",
-                         "profilePic": "img/speakers/biase-head.jpeg",
+                         "profilePic": "img/speakers/biase-head.jpg",
                          "twitter": "@Biased77",
                           "about": "I am currently an Associate Partner at IQ Business leading the Agile service offering called agility@IQ that provides Agile training, coaching and consulting.\n\nSince 2002, I have been involved in project and programme management with a focus on project delivery and processes implementing software solutions for our customers.\n\nSince 2010, I have been building our Agile offering and personally trained over 2000 delegates on Agile.\n\nI have also been involved in both large and smaller scale agile transformations.\n\nI have also had the opportunity to present both locally and internationally on relevant Agile topics that I am passionate about."
                         },
                         {
                           "name": "Rory Preddy",
-                          "profilePic": "img/speakers/rory-head.png",
+                          "profilePic": "img/speakers/rory-head.jpg",
                           "twitter": "@rorypreddy",
                            "about": "Rory has worked in many of the blue chip companies in Johannesburg.\n\nA Java Developer since 2001 he is a Oracle Certified Java Programmer , has his Honours BSc and is a Scrum.org Certified Master.\n\nRory is lucky enough to work full time in R&D at BBD which gives him an unparalleled insight into industry movement.\n\nHe is a co-organizer of the Jozi-JUG, General Manager of Jug-Africa and is a passionate Java Evangelist."
                          },
@@ -851,7 +851,7 @@
                           },
                           {
                             "name": "Rob Enslin",
-                            "profilePic": "img/speakers/rob-head.png",
+                            "profilePic": "img/speakers/rob-head.jpg",
                             "twitter": "@robenslin",
                              "about": "Rob (Enslin) works for ThoughtWorks, a software development company, based in Braamfontein.\n\nRob leads the Experience Design (UX) and Product Design practice in Pan-Africa ensuring the products and services are human friendly.\n\nWhen not working in the field with clients he's running and organising UX Joburg, a local design meet up or teaching his colleagues product design essentials."
                            },
@@ -863,7 +863,7 @@
                             },
                             {
                               "name": "Candice Mesk",
-                              "profilePic": "img/speakers/candice-head.jpeg",
+                              "profilePic": "img/speakers/candice-head.jpg",
                               "twitter": "@candicemesk",
                                "about": "Candice Mesk is a software developer turned systems coach who is passionate about learning and growth, and a proud member of the Driven Alliance.\n\nDuring the day she helps people in teams and management positions understand how their work \"works\", and in her spare time she is an active member of the community through being an organiser of the largest independent developer user group in the country (http://www.meetup.com/DeveloperUG/), being on the organising committee of several IT-related conferences (past and present) and her contribution to a community outreach programme, Sisonke Rising (www.sisonkerising.com) powered by the Driven Alliance."
                              },
@@ -917,7 +917,7 @@
                                      },
                                      {
                                        "name": "Theo Bohnen",
-                                       "profilePic": "img/speakers/theo-head.png",
+                                       "profilePic": "img/speakers/theo-head.jpg",
                                        "twitter": "@AgileAfricaConf",
                                         "about": "My name's Theo and I am passionate about Software Development, people and learning; I get excited by sharing what I've learnt and even better, learning from others.\n\nI've been doing software development professionally for 8 years in various roles."
                                       },
@@ -929,7 +929,7 @@
                                        },
                                        {
                                          "name": "Danie Roux",
-                                         "profilePic": "img/speakers/danie-head.png",
+                                         "profilePic": "img/speakers/danie-head.jpg",
                                          "twitter": "@danieroux",
                                           "about": "Known in the industry as a good guy to have a conversation with, Danie has a habit of improving both the macro and micro flow within systems.\n\nDanie asks Why and How value is created."
                                         },
