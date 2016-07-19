@@ -32,5 +32,6 @@
   <ion-card>
     <ion-card-header>{{session.location}}</ion-card-header>
     <ion-card-content>{{session.description}}</ion-card-content>
+    <button clear twitter (click)="goToTwitter(session.name)"><ion-icon name="logo-twitter"></ion-icon>Tweet</button>
   </ion-card>
 </ion-content>
