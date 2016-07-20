@@ -1,6 +1,6 @@
 <ion-header>
   <ion-navbar no-border-bottom>
-    
+
     <ion-segment [(ngModel)]="segment" (ionChange)="updateSchedule()">
       <ion-segment-button value="all">
         All
@@ -36,7 +36,7 @@
 
       <ion-item-group *ngFor="let group of day.groups" [hidden]="group.hide">
 
-        <ion-item-divider sticky>
+        <ion-item-divider sticky class="time-group">
           {{group.time}}
         </ion-item-divider>
 
