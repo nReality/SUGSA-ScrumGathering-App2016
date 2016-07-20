@@ -1,10 +1,10 @@
 {
-  "name": "ionic-conference-app",
-  "description": "Ionic Conference App",
+  "name": "AgileAfricaConf-app",
+  "description": "Information for the Agile Africa conference, held on 22-23 August.",
   "license": "Apache-2.0",
   "repository": {
     "type": "git",
-    "url": "https://github.com/driftyco/ionic-conference-app.git"
+    "url": "https://github.com/nReality/AgileAfricaConf-app.git"
   },
   "dependencies": {
     "@angular/common": "^2.0.0-rc.3",
