@@ -123,7 +123,7 @@ export class ConferenceData {
     // exclude tracks then this session passes the track test
     let matchesTracks = false;
     session.tracks.forEach(trackName => {
-      if (excludeTracks.indexOf(trackName) === -1) {
+      if (excludeTracks.indexOf(trackName) === -1 && trackName != "") {
         matchesTracks = true;
       }
     });
@@ -147,7 +147,7 @@ export class ConferenceData {
     return this.load().then(data => {
       return data.speakers.sort((a, b) => {
         let aName = a.name.split(' ').shift();
-        let bName = b.name.split(' ').shift();        
+        let bName = b.name.split(' ').shift();
         return aName.localeCompare(bName);
       });
     });
