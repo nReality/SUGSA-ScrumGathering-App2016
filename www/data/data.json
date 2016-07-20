@@ -12,7 +12,7 @@
               "location": "Ballroom",
               "timeStart": "8:30 am",
               "timeEnd": "9:00 am",
-              "tracks": ["Admin"]
+              "tracks": [""]
             }
           ]
         },
@@ -26,7 +26,7 @@
               "speakerNames": ["Jacques de Vos"],
               "timeStart": "9:00 am",
               "timeEnd": "9:20 am",
-              "tracks": ["Admin"]
+              "tracks": [""]
             }
           ]
         },
@@ -57,7 +57,7 @@
               "speakerNames": ["Henrik Kniberg"],
               "timeStart": "10:00 am",
               "timeEnd": "11:00 am",
-              "tracks": ["Keynote"]
+              "tracks": [""]
             }
           ]
         },
@@ -86,7 +86,7 @@
               "timeEnd": "12:00 pm",
               "tracks": [
                   "Building the right thing",
-                    "Building thing right",
+                    "Building the thing right",
                     "People and organisational culture",
                     "Quality Early and Testing",
                     "Agile UX and Interaction Design"
@@ -131,7 +131,7 @@
               "timeEnd": "12:30 pm",
               "tracks": [
                         "Building the right thing",
-                        "Building thing right",
+                        "Building the thing right",
                         "People and organisational culture",
                         "Quality Early and Testing",
                         "Leadership"
@@ -146,7 +146,7 @@
               "timeEnd": "12:30 pm",
               "tracks": [
                   "Building the right thing",
-                  "Building thing right",
+                  "Building the thing right",
                   "People and organisational culture",
                   "Agile UX and Interaction Design",
                   "Leadership"
@@ -176,9 +176,7 @@
               "description": "See list at bottom of session list.",
               "timeStart": "1:00 pm",
               "timeEnd": "1:50 pm",
-              "tracks": [
-                "Posters"
-              ]
+              "tracks": [""]
             },
             {
               "name": "Workshop: Making Retros Work (ends at 3:30pm)",
@@ -188,7 +186,6 @@
               "timeStart": "1:00 pm",
               "timeEnd": "3:30 pm",
               "tracks": [
-                "Workshop",
                 "People and organisational culture"
               ]
             }
@@ -204,9 +201,7 @@
               "speakerNames": ["Samantha Laing", "Karen Greaves"],
               "timeStart": "1:50 pm",
               "timeEnd": "2:20 pm",
-              "tracks": [
-                "People and organisational culture"
-                ]
+              "tracks": ["People and organisational culture"]
             },
             {
               "name": "Business vs IT",
@@ -217,7 +212,7 @@
               "timeEnd": "2:20 pm",
               "tracks": [
                 "Building the right thing",
-                "Building thing right",
+                "Building the thing right",
                 "People and organisational culture",
                 "Leadership"
                 ]
@@ -291,7 +286,7 @@
               "timeEnd": "3:45 pm",
               "tracks": [
                 "Building the right thing",
-                "Building thing right"
+                "Building the thing right"
               ]
             },
             {
@@ -333,8 +328,7 @@
               "timeEnd": "5:00 pm",
               "tracks": [
                 "People and organisational culture",
-                "Leadership",
-                "Keynote"
+                "Leadership"
               ]
             }
           ]
@@ -352,7 +346,7 @@
               "location": "Ballroom",
               "timeStart": "9:00 am",
               "timeEnd": "9:10 am",
-              "tracks": ["Admin"]
+              "tracks": [""]
             }
           ]
         },
@@ -366,7 +360,7 @@
               "speakerNames": ["Neal Ford"],
               "timeStart": "9:10 am",
               "timeEnd": "10:10 am",
-              "tracks": ["Keynote"]
+              "tracks": [""]
             }
           ]
         },
@@ -419,7 +413,7 @@
               "timeEnd": "12:50 am",
               "tracks": [
                 "Building the right thing",
-                "Building thing right",
+                "Building the thing right",
                 "DevOps and Continuous Delivery",
                 "Quality Early and Testing"
               ]
@@ -462,7 +456,7 @@
               "timeStart": "11:20 am",
               "timeEnd": "11:50 am",
               "tracks": [
-                "Building thing right",
+                "Building the thing right",
                 "DevOps and Continuous Delivery",
                 "Quality Early and Testing"
               ]
@@ -535,9 +529,7 @@
               "description": "See list at bottom of session list.",
               "timeStart": "1:00 pm",
               "timeEnd": "1:50 pm",
-              "tracks": [
-                "Posters"
-              ]
+              "tracks": [""]
             },
             {
               "name": "Fishbowl",
@@ -546,7 +538,7 @@
               "description": "Join us for this fun interactive session with Henrik.",
               "timeStart": "1:00 pm",
               "timeEnd": "2:00 pm",
-              "tracks": ["Fishbowl"]
+              "tracks": [""]
             },
             {
               "name": "Workshop: Subtleties of Success for Self Organising Teams (ends at 3:30pm)",
@@ -555,8 +547,7 @@
               "description": "Do you feel like everyone on your team is waiting for direction or permission to act?\n\nHow does a team transition from traditional project management based delivery to agile self-organizing success?\n\nHaving experienced the challenges in these situations we would like to share some insights, models and practical ideas for ways to become more aware, communicate differently and harness the power of positive interactions.\n\nWe will be drawing from our experience as coaches, testers, team leads and team members in a variety of project contexts.\n\nThe 1 day workshop will include 2 improv exercises, an experiential exercise and a safe environment to practice 3 conversation and communication models (DESC, Time to Think and NVC). Each exercise will be followed by a group reflection and debrief.\n\nThis session is targeted at anyone who is interested in understanding and adapting the way they participate in, and contribute to, a self-organising team.",
               "timeStart": "1:00 pm",
               "timeEnd": "3:30 pm",
-              "tracks": [
-                "Workshop",
+              "tracks": [                
                 "Leadership",
                 "People and organisational culture"
               ]
@@ -588,7 +579,7 @@
               "tracks": [
                 "People and organisational culture",
                 "Building the right thing",
-                "Building thing right",
+                "Building the thing right",
                 "DevOps and Continuous Delivery"
               ]
             }
