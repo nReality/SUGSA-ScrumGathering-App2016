@@ -2,10 +2,10 @@
 
   "schedule": [
     {
-      "date": "Monday 22 August",
+      "date": "Day 1 - 22 August",
       "groups": [
         {
-          "time": "8:00 am",
+          "time": "8:30 am",
           "sessions": [
             {
               "name": "Registration",
@@ -27,7 +27,12 @@
               "timeStart": "9:00 am",
               "timeEnd": "9:20 am",
               "tracks": ["Admin"]
-            },
+            }
+          ]
+        },
+        {
+          "time": "9:20 am",
+          "sessions": [
             {
               "name": "A Learning Continent - unlocking African opportunities",
               "location": "Ballroom",
@@ -66,7 +71,12 @@
               "timeStart": "11:00 am",
               "timeEnd": "11:30 am",
               "tracks": ["Food"]
-            },
+            }
+          ]
+        },
+        {
+          "time": "11:30 am",
+          "sessions": [
             {
               "name": "UX by Wire - Designing the Most Loved product",
               "description": "This presentation introduces a simple philosophical paradigm: “UX by Wire”.  UX by Wire is driven by the core principles Designing to Learn (D2L) vs Learning to Design (L2D) and design thinking.\n\nThrough story telling, a series of challenges and learns learnt from various products attempting to integrate UX will be shared during the presentation.\n\nThe presenters will describe the unique experiences in the transition of marrying UX to agile in the operating model. Also, the presenters will share common themes such as abductive                    reasoning, guerrilla testing, RITE, leaner research design, visibility of outputs, task breakdown and increased collaboration across the feature teams towards the delivery of Most Loved Product (MLP). ",
@@ -106,7 +116,12 @@
               "timeStart": "12:00 pm",
               "timeEnd": "12:10 pm",
               "tracks": ["Food"]
-            },
+            }
+          ]
+        },
+        {
+          "time": "12:10 pm",
+          "sessions": [
             {
               "name": "Why we owe so much to Dr Deming",
               "location": "Ballroom",
@@ -136,7 +151,12 @@
                   "Agile UX and Interaction Design",
                   "Leadership"
                 ]
-            },
+            }
+          ]
+        },
+        {
+          "time": "12:30 pm",
+          "sessions": [
             {
               "name": "Lunch and Discussions",
               "location": "Indaba Tree Room",
@@ -151,61 +171,17 @@
           "time": "1:00 pm",
           "sessions": [
             {
-              "name": "Poster: Building Grand Master Engineering Teams",
+              "name": "Posters",
               "location": "Indaba Tree Room",
-              "description": "Very early on our DevOps transformation journey we realised the need to invest in engineering practices as a key in building high velocity IT. Towards this end we developed the toolkit ‘Continuum’.   Continuum provides a structure for assessing the current level of engineering practices and establishing a clear path for improvement. It encourages ownership and enables every team to establish fit to purpose improvement track. It encompasses various engineering capabilities and skills that we believe we need to master to become high performing IT.   Even though it was developed to fit our needs we believe it can be very useful for any other IT organisation on a DevOps journey." ,
-              "speakerNames": ["Jovanka Damjanovic", "Derek Chung"],
+              "description": "See list at bottom of session list.",
               "timeStart": "1:00 pm",
               "timeEnd": "1:50 pm",
-              "tracks": ["Poster"]
+              "tracks": [
+                "Posters"
+              ]
             },
-              {
-                "name": "Poster: Bring it and we shall test! (The context-driven way)",
-                "location": "Indaba Tree Room",
-                "description": "What is context-driven testing? You are about to find out! Bring your app, your device, your cool toy, your pen..... whatever you would like us to test, we shall do so.... and in doing so, demonstrate what context-driven testing means for us and how we are able to use oracles and heuristics to test anything, anywhere, anytime. ",
-                "speakerNames": ["Louise Perold"],
-                "timeStart": "1:00 pm",
-                "timeEnd": "1:50 pm",
-                "tracks": ["Poster"]
-              },
-              {
-                "name": "Poster: Like dew from the morning sky: Ex post facto agilification of cloud based spiral processes",
-                "location": "Indaba Tree Room",
-                "description": "Many experts would agree that, had it not been for congestion control, the evaluation of web browsers might never have occurred. In this context the technology in ex post facto agilification of cloud based waterfall spirals effectively addresses the discriminator causing the system by applying an eraseable scrum cycle. This technology will thus provide the stakeholders with a novel paradigm. Whereas other solutions to the scenario, such as the well-known longitudinal iterations, do not address the discriminator in an efficient manner, our proposed approach turns the knowledge-based communication 'sledgehammer' into a pair of 'scissors'. The successful development of ex post facto agilification of cloud based waterfall spirals can thus result in numerous spinoffs, for the benefit especially of small-to-medium size enterprises (SME). This is because the typically deployed VHF is from a developer's point of view simply a Boolean system, which can thus be easily managed as such. By analogy it is interesting to see that both active networks, as well as virtual machines, show a promising similarity of collaborating efficiently in this manner, too, although the usual scrumification methods for cloud based processes are hardly applicable in such cases. This is in contrast to Kanban. In other words: The development of the paradigm for integration into the traditional approaches paves the way to a new frontier of agilification, with cloud based spiral processes at the centre of all activities. Once the first step is taken, the advantages this development will become clearly evident. See the figures in the upload. All in all, this presentation should be great for junior to senior managers and developers inside SME companies who want to take cloud based agilification to the next level ('morning dew') but are not sure where to get started. In particular also women leaders and female developers, as well as people from previously disadvantaged communities, can benefit from the experience. Especially for those delegates the poster talk shall be organised as follows: For starters, the morning dew paradigm will be motivated and explained in fresh words and easy to understand terminology. Thereby the work is placed into context with prior work (and failures!) in this area. To address the obstacles, some stubborn old myths of the trade will be disproved in the light of newest hands-on experiences. In the end, we conclude with ample space for further questions and answers.",
-                "speakerNames": ["Sindi Gumede"],
-                "timeStart": "1:00 pm",
-                "timeEnd": "1:50 pm",
-                "tracks": ["Poster"]
-              },
-              {
-                "name": "Poster: My Dev team is brilliantly Agile, but how do I get the rest of the Organisation to see the light?",
-                "location": "Indaba Tree Room",
-                "description": "Congratulations. You have created a self organising, self managing team. They understand sustainable pace, have predictable velocity, have met every sprint commitment.... but your product STILL gets shelved, or people are still reluctant to embrace a new way of working.\nYour dev team is brilliantly Agile, but every other team around you is still stuck in a waterfall mindset. This talk will share some of the tools and techniques used in a very fast paced environment to evangelize the spread of Agile in the broader organisation.\nAs a development team, we believe in Agile methods but we aren't always equipped to have the right discussions to support our beliefs. Some of the tools that this talk will touch on is :\nExec level prioritization \nNormalized story points ( and the dangers)\nCost per story point\nCost of delay\nCost of internal dependencies\nCost of building the wrong product\nCost of estimation ( just tell me how long it will take)\nHow to work WITH a Project Manager\nHow to extract maximum value from your ceremonies\nCost and time projections (do you really want us to build that)\nTailoring your structures to enable delivery",
-                "speakerNames": ["Yusuf Kaloo"],
-                "timeStart": "1:00 pm",
-                "timeEnd": "1:50 pm",
-                "tracks": ["Poster"]
-                },
-                {
-                  "name": "Poster: Agile transformation from a traditional banking environment to mirror that of a modern day technology company",
-                  "location": "Indaba Tree Room",
-                  "description": "This is a story from a crazy goal that exco had, 'become agile', and what we did. Becoming agile is not as simple as 1,2,3 and we are unique because most of our teams are not software development teams. Parts worked very well and others that really did not pan out. Following the agile spirit of transparency. We want to share our journey",
-                  "speakerNames": ["Seshyn Munsamy","Elizabeth-Anne Marinakis"],
-                  "timeStart": "1:00 pm",
-                  "timeEnd": "1:50 pm",
-                  "tracks": ["Poster"]
-                },
-                {
-                  "name": "Poster: Levelling the Playing Field - Willingness of our younger generation to learn",
-                  "location": "Indaba Tree Room",
-                  "description": "Jemma created \"Levelling the Playing Field\", a 5 day course that is designed using only free online resoures, to help students to continue working after the course.\n\nWhat Jemma would like to achive is a partnership between the computer programming and underprivileged communities.\n\n\"Coding is a cheap skill to learn if you have the right people available to you.\"\n\nThis poster session will hopefully expose the attendees to the willingness of our younger generation to learn and improve their circumstances.\n\nWe have some real talent hidden away in the informal settlements of South Africa and Jemma would really love to expose it.",
-                  "speakerNames": ["Jemma Chait"],
-                  "timeStart": "1:00 pm",
-                  "timeEnd": "1:50 pm",
-                  "tracks": ["Poster"]
-                },
             {
-              "name": "Workshop: Making Retros Work",
+              "name": "Workshop: Making Retros Work (ends at 3:30pm)",
               "location": "Marathon Room",
               "description": "Do your retros really get to the core of the problem? Is the team getting better each sprint they complete? Is everyone pulling their weight? Being just a ScrumMaster isn’t too difficult. Being a really great ScrumMaster, one who helps move a team to the highest performance levels possible, is much harder and much more elusive.\n\nYou need to understand and appreciate people, know how to provide the space and circumstances for each individual in the team to thrive as well as the team, and bring about a culture of collaboration, accountability, introspection, trust and honesty. The retro is where much of this happens.\n\nEnsuring good retros is a process. You need some coaching and some facilitation skills in order to do your part well. From Sprint to Sprint you need to build the trust and honesty in the team and you need to help everyone to develop important skills such as clear communication and assertiveness without aggression.\n\nThis workshop is highly interactive and experiential. Come dressed comfortably and ready to move around. It is designed for Scrum Masters who have had a few months experience to start finding their feet or new Scrum Masters who are very keen to start strong.",
               "speakerNames": ["Alison Gitelson"],
@@ -215,7 +191,12 @@
                 "Workshop",
                 "People and organisational culture"
               ]
-            },
+            }
+          ]
+        },
+        {
+          "time": "1:50 pm",
+          "sessions": [
             {
               "name": "Is anyone there? - Dealing with distributed teams",
               "location": "Ballroom",
@@ -244,7 +225,7 @@
           ]
         },
         {
-          "time": "2:00 pm",
+          "time": "2:20 pm",
           "sessions": [
             {
               "name": "Move and Stretch",
@@ -253,7 +234,12 @@
               "timeStart": "2:20 pm",
               "timeEnd": "2:30 pm",
               "tracks": ["Food"]
-            },
+            }
+          ]
+        },
+        {
+          "time": "2:30 pm",
+          "sessions": [
             {
               "name": "DevOps - A lean definition",
               "location": "Ballroom",
@@ -290,7 +276,12 @@
               "timeStart": "3:00 pm",
               "timeEnd": "3:30 pm",
               "tracks": ["Food"]
-            },
+            }
+          ]
+        },
+        {
+          "time": "3:30 pm",
+          "sessions": [
             {
               "name": "Travelling light – The pros and perils of lean documentation",
               "location": "Ballroom",
@@ -314,7 +305,12 @@
                 "People and organisational culture",
                 "Leadership"
                 ]
-            },
+            }
+          ]
+        },
+        {
+          "time": "3:45 pm",
+          "sessions": [
             {
               "name": "Move and Stretch",
               "location": "All Rooms",
@@ -333,8 +329,8 @@
               "location": "Ballroom",
               "description": "\"My current passion is self-selection. I like creating teams by trusting people who do the actual work to design the best possible teams.\n\nI believe that trusting people to choose who to work with and what to work on creates not only great teams but also great organisations.\n\nI have now done that with several companies and have some stories to tell.\"",
               "speakerNames": ["Sandy Mamoli"],
-              "timeStart": "16:00 pm",
-              "timeEnd": "17:00 pm",
+              "timeStart": "4:00 pm",
+              "timeEnd": "5:00 pm",
               "tracks": [
                 "People and organisational culture",
                 "Leadership",
@@ -346,7 +342,7 @@
       ]
     },
     {
-      "date": "Tuesday 23 August",
+      "date": "Day 2 - 23 August",
       "groups": [
         {
           "time": "9:00 am",
@@ -357,7 +353,12 @@
               "timeStart": "9:00 am",
               "timeEnd": "9:10 am",
               "tracks": ["Admin"]
-            },
+            }
+          ]
+        },
+        {
+          "time": "9:10 am",
+          "sessions": [
             {
               "name": "Keynote: Why does Yesterday’s Best Practice Become Tomorrow’s Antipattern?",
               "location": "Ballroom",
@@ -370,7 +371,7 @@
           ]
         },
         {
-          "time": "10:00",
+          "time": "10:10",
           "sessions": [
             {
               "name": "Move and Stretch",
@@ -378,7 +379,12 @@
               "timeStart": "10:10 am",
               "timeEnd": "10:20 am",
               "tracks": ["Food"]
-            },
+            }
+          ]
+        },
+        {
+          "time": "10:20",
+          "sessions": [
             {
               "name": "Unlocking ScrumMastery",
               "location": "Ballroom",
@@ -405,7 +411,7 @@
               ]
             },
             {
-              "name": "Workshop: Test planning in Agile projects",
+              "name": "Workshop: Test planning in Agile projects (ends at 12:50)",
               "location": "Marathon Room",
               "speakerNames": ["Carsten Feilberg"],
               "description": "In this full-day tutorial we will take a deep dive into test planning on agile projects, with the outset of a SCRUM-setup (but we can include other setups as well). We will investigate which elements of a test plan are important in different contexts, how we find out what the context is, and of course also find out why and if a plan is needed at all.\n\nVery often test plans are created starting with a copy of the test plan from the last project. In some cases the origin of the test plan can be tracked back more than a decade, and to ways of organising the work that does not even contemplate agile practices and also mandating work which has little to no relevance in the current project. These monsters of the past often resemble a modern age dinosaur: huge, slow and tough to digest, even one mouthful at a time.\n\nIn SCRUM there is no tester role, no test manager role, simply a development team, a scrum master and a product owner (and some stakeholders, of course). So - who should create the test plan? And do we really need one? There’s no options in SCRUM in my opinion; the team will have to do it. Having the developer role does not mean that jobs and obligations like testing just vanish, nor does ‘developer’ mean ‘programmer’ only.\n\nYet again, the question remains of when to create the plan and how to plan beyond the sprint - if that’s even possible, given that in SCRUM you do not know if the next sprint will in fact be authorised! However, working in short sprints does not mean that we shouldn’t anticipate the future or prepare for it. Testing is essential, but of course only for testing the right things. Having the test plan as the anchor point for all test-related information and activities, both for individual sprints as well as for the product overall will allow us to focus on the important stuff.\n\nIn order to let the participants learn the skilfull art of planning and in particular planning testing without spending unnecessary and valuable time and efforts - the vital thing is still to use time on testing, not on planning - we will work on a realistic project setup, complete with  executables, user stories, sprints and all. We will use this setup to create a good, solid and beyond all: useful, test plan (or perhaps more than one!!) and see how it will fit into the next sprint. ",
@@ -417,7 +423,12 @@
                 "DevOps and Continuous Delivery",
                 "Quality Early and Testing"
               ]
-            },
+            }
+          ]
+        },
+        {
+          "time": "10:50",
+          "sessions": [
             {
               "name": "Tea and Move",
               "location": "Indaba Tree Room",
@@ -429,7 +440,7 @@
           ]
         },
         {
-          "time": "11:00 am",
+          "time": "11:20 am",
           "sessions": [
             {
               "name": "Agilising Product Design",
@@ -503,8 +514,31 @@
           ]
         },
         {
-          "time": "13:00 am",
+          "time": "12:30 pm",
           "sessions": [
+            {
+              "name": "Lunch and Discussions",
+              "location": "Indaba Tree Room",
+              "description": "Remember to visit our sponsors' webpages.",
+              "timeStart": "12:30 pm",
+              "timeEnd": "1:00 pm",
+              "tracks": ["Food"]
+            }
+          ]
+        },
+        {
+          "time": "1:00 am",
+          "sessions": [
+            {
+              "name": "Posters",
+              "location": "Indaba Tree Room",
+              "description": "See list at bottom of session list.",
+              "timeStart": "1:00 pm",
+              "timeEnd": "1:50 pm",
+              "tracks": [
+                "Posters"
+              ]
+            },
             {
               "name": "Fishbowl",
               "location": "Ballroom",
@@ -515,7 +549,7 @@
               "tracks": ["Fishbowl"]
             },
             {
-              "name": "Workshop: Subtleties of Success for Self Organising Teams",
+              "name": "Workshop: Subtleties of Success for Self Organising Teams (ends at 3:30pm)",
               "location": "Marathon Room",
               "speakerNames": ["Cindy Carless", "Louise Perold"],
               "description": "Do you feel like everyone on your team is waiting for direction or permission to act?\n\nHow does a team transition from traditional project management based delivery to agile self-organizing success?\n\nHaving experienced the challenges in these situations we would like to share some insights, models and practical ideas for ways to become more aware, communicate differently and harness the power of positive interactions.\n\nWe will be drawing from our experience as coaches, testers, team leads and team members in a variety of project contexts.\n\nThe 1 day workshop will include 2 improv exercises, an experiential exercise and a safe environment to practice 3 conversation and communication models (DESC, Time to Think and NVC). Each exercise will be followed by a group reflection and debrief.\n\nThis session is targeted at anyone who is interested in understanding and adapting the way they participate in, and contribute to, a self-organising team.",
@@ -557,7 +591,12 @@
                 "Building thing right",
                 "DevOps and Continuous Delivery"
               ]
-            },
+            }
+          ]
+        },
+        {
+          "time": "2:30 pm",
+          "sessions": [
             {
               "name": "Move and Stretch",
               "location": "All Rooms",
@@ -565,7 +604,12 @@
               "timeStart": "2:30 pm",
               "timeEnd": "2:40 pm",
               "tracks": ["Food"]
-            },
+            }
+          ]
+        },
+        {
+          "time": "2:40 pm",
+          "sessions": [
             {
               "name": "Active Agile: Scaled agile implementation",
               "location": "Ballroom",
@@ -585,7 +629,12 @@
               "tracks": [
                 "DevOps and Continuous Delivery"
               ]
-            },
+            }
+          ]
+        },
+        {
+          "time": "2:55 pm",
+          "sessions": [
             {
               "name": "Tea and Move",
               "location": "All Rooms",
@@ -597,7 +646,7 @@
           ]
         },
         {
-          "time": "3:00 pm",
+          "time": "3:20 pm",
           "sessions": [
             {
               "name": "Leader transformation - a side effect of an agile transition",
@@ -605,10 +654,9 @@
               "speakerNames": ["Subash Sharma", "Felicity Brady"],
               "description": "There are many organisations that are attempting to transform from their traditional ways of working towards agile and as such, experience transformation in each part of the organisation.\n\nOne key aspect is the behavioral transformation that occurs within leaders of the organization.\n\nThis talk will cover the reflections, transformations, political dynamics and fears of one such leader during our organisations move towards agile.\n\nWe will also talk about the views of this leaders team and their observations of his transformation.",
               "timeStart": "3:20 pm",
-              "timeEnd": "3:00 pm",
+              "timeEnd": "3:50 pm",
               "tracks": ["Leadership"]
             },
-
             {
               "name": "Harnessing your greatest tool, your brain, better.",
               "location": "Gala Room",
@@ -631,7 +679,12 @@
                 "People and organisational culture",
                 "Leadership"
               ]
-            },
+            }
+          ]
+        },
+        {
+          "time": "3:50 pm",
+          "sessions": [
             {
               "name": "Move and Stretch",
               "location": "All Rooms",
@@ -643,7 +696,7 @@
           ]
         },
         {
-          "time": "16:00 am",
+          "time": "4:00 pm",
           "sessions": [
             {
               "name": "Lead with needs",
@@ -657,7 +710,12 @@
                 "Building the right thing",
                 "Leadership"
               ]
-            },
+            }
+          ]
+        },
+        {
+          "time": "4:30 pm",
+          "sessions": [
             {
               "name": "Retro & Thanks",
               "location": "Ballroom",
@@ -665,6 +723,70 @@
               "timeStart": "16:30 pm",
               "timeEnd": "17:00 pm",
               "tracks": [""]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "date": "Posters",
+      "groups": [
+        {
+          "time": "11:00 pm",
+          "sessions": [
+            {
+              "name": "Poster: Building Grand Master Engineering Teams",
+              "location": "Indaba Tree Room",
+              "description": "Very early on our DevOps transformation journey we realised the need to invest in engineering practices as a key in building high velocity IT. Towards this end we developed the toolkit ‘Continuum’.   Continuum provides a structure for assessing the current level of engineering practices and establishing a clear path for improvement. It encourages ownership and enables every team to establish fit to purpose improvement track. It encompasses various engineering capabilities and skills that we believe we need to master to become high performing IT.   Even though it was developed to fit our needs we believe it can be very useful for any other IT organisation on a DevOps journey." ,
+              "speakerNames": ["Jovanka Damjanovic", "Derek Chung"],
+              "timeStart": "1:00 pm",
+              "timeEnd": "1:50 pm",
+              "tracks": ["Poster"]
+            },
+            {
+              "name": "Poster: Bring it and we shall test! (The context-driven way)",
+              "location": "Indaba Tree Room",
+              "description": "What is context-driven testing? You are about to find out! Bring your app, your device, your cool toy, your pen..... whatever you would like us to test, we shall do so.... and in doing so, demonstrate what context-driven testing means for us and how we are able to use oracles and heuristics to test anything, anywhere, anytime. ",
+              "speakerNames": ["Louise Perold"],
+              "timeStart": "1:00 pm",
+              "timeEnd": "1:50 pm",
+              "tracks": ["Poster"]
+            },
+            {
+              "name": "Poster: Like dew from the morning sky: Ex post facto agilification of cloud based spiral processes",
+              "location": "Indaba Tree Room",
+              "description": "Many experts would agree that, had it not been for congestion control, the evaluation of web browsers might never have occurred. In this context the technology in ex post facto agilification of cloud based waterfall spirals effectively addresses the discriminator causing the system by applying an eraseable scrum cycle. This technology will thus provide the stakeholders with a novel paradigm. Whereas other solutions to the scenario, such as the well-known longitudinal iterations, do not address the discriminator in an efficient manner, our proposed approach turns the knowledge-based communication 'sledgehammer' into a pair of 'scissors'. The successful development of ex post facto agilification of cloud based waterfall spirals can thus result in numerous spinoffs, for the benefit especially of small-to-medium size enterprises (SME). This is because the typically deployed VHF is from a developer's point of view simply a Boolean system, which can thus be easily managed as such. By analogy it is interesting to see that both active networks, as well as virtual machines, show a promising similarity of collaborating efficiently in this manner, too, although the usual scrumification methods for cloud based processes are hardly applicable in such cases. This is in contrast to Kanban. In other words: The development of the paradigm for integration into the traditional approaches paves the way to a new frontier of agilification, with cloud based spiral processes at the centre of all activities. Once the first step is taken, the advantages this development will become clearly evident. See the figures in the upload. All in all, this presentation should be great for junior to senior managers and developers inside SME companies who want to take cloud based agilification to the next level ('morning dew') but are not sure where to get started. In particular also women leaders and female developers, as well as people from previously disadvantaged communities, can benefit from the experience. Especially for those delegates the poster talk shall be organised as follows: For starters, the morning dew paradigm will be motivated and explained in fresh words and easy to understand terminology. Thereby the work is placed into context with prior work (and failures!) in this area. To address the obstacles, some stubborn old myths of the trade will be disproved in the light of newest hands-on experiences. In the end, we conclude with ample space for further questions and answers.",
+              "speakerNames": ["Sindi Gumede"],
+              "timeStart": "1:00 pm",
+              "timeEnd": "1:50 pm",
+              "tracks": ["Poster"]
+            },
+            {
+              "name": "Poster: My Dev team is brilliantly Agile, but how do I get the rest of the Organisation to see the light?",
+              "location": "Indaba Tree Room",
+              "description": "Congratulations. You have created a self organising, self managing team. They understand sustainable pace, have predictable velocity, have met every sprint commitment.... but your product STILL gets shelved, or people are still reluctant to embrace a new way of working.\nYour dev team is brilliantly Agile, but every other team around you is still stuck in a waterfall mindset. This talk will share some of the tools and techniques used in a very fast paced environment to evangelize the spread of Agile in the broader organisation.\nAs a development team, we believe in Agile methods but we aren't always equipped to have the right discussions to support our beliefs. Some of the tools that this talk will touch on is :\nExec level prioritization \nNormalized story points ( and the dangers)\nCost per story point\nCost of delay\nCost of internal dependencies\nCost of building the wrong product\nCost of estimation ( just tell me how long it will take)\nHow to work WITH a Project Manager\nHow to extract maximum value from your ceremonies\nCost and time projections (do you really want us to build that)\nTailoring your structures to enable delivery",
+              "speakerNames": ["Yusuf Kaloo"],
+              "timeStart": "1:00 pm",
+              "timeEnd": "1:50 pm",
+              "tracks": ["Poster"]
+            },
+            {
+              "name": "Poster: Agile transformation from a traditional banking environment to mirror that of a modern day technology company",
+              "location": "Indaba Tree Room",
+              "description": "This is a story from a crazy goal that exco had, 'become agile', and what we did. Becoming agile is not as simple as 1,2,3 and we are unique because most of our teams are not software development teams. Parts worked very well and others that really did not pan out. Following the agile spirit of transparency. We want to share our journey",
+              "speakerNames": ["Seshyn Munsamy","Elizabeth-Anne Marinakis"],
+              "timeStart": "1:00 pm",
+              "timeEnd": "1:50 pm",
+              "tracks": ["Poster"]
+            },
+            {
+              "name": "Poster: Levelling the Playing Field - Willingness of our younger generation to learn",
+              "location": "Indaba Tree Room",
+              "description": "Jemma created \"Levelling the Playing Field\", a 5 day course that is designed using only free online resoures, to help students to continue working after the course.\n\nWhat Jemma would like to achive is a partnership between the computer programming and underprivileged communities.\n\n\"Coding is a cheap skill to learn if you have the right people available to you.\"\n\nThis poster session will hopefully expose the attendees to the willingness of our younger generation to learn and improve their circumstances.\n\nWe have some real talent hidden away in the informal settlements of South Africa and Jemma would really love to expose it.",
+              "speakerNames": ["Jemma Chait"],
+              "timeStart": "1:00 pm",
+              "timeEnd": "1:50 pm",
+              "tracks": ["Poster"]
             }
           ]
         }

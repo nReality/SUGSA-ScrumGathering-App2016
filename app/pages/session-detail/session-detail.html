@@ -21,9 +21,11 @@
   </ion-divider>
   <br>
 
-  <h3 text-center *ngFor="let speaker of session.speakers" (click)="goToSpeakerDetail(speaker)">
-    {{speaker.name}}
-  </h3>
+  <center>
+    <button light outline class="speaker-button" *ngFor="let speaker of session.speakers" (click)="goToSpeakerDetail(speaker)">
+      {{speaker.name}}
+    </button>
+  </center>
 
   <p text-center>
     {{session.date}}    {{session.timeStart}} - {{session.timeEnd}}
