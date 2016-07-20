@@ -1,0 +1,77 @@
+
+<ion-navbar *navbar>
+  <button menuToggle>
+    <ion-icon name="menu"></ion-icon>
+  </button>
+  <ion-title>About</ion-title>
+</ion-navbar>
+
+<ion-content>
+  <div class="about-header">
+    <img src="img/Agile-Africa-2016-logo.png">
+  </div>
+  <div padding class="about-info">
+    <h3>Agile Africa Conference</h3>
+
+    <ion-list no-lines>
+      <ion-item>
+        <ion-icon name="calendar" item-left></ion-icon>
+        <ion-label>Date</ion-label>
+        <ion-datetime displayFormat="MMM DD, YYYY" [(ngModel)]="conferenceDate"></ion-datetime>
+      </ion-item>
+
+      <ion-item>
+        <ion-icon name="pin" item-left></ion-icon>
+        <ion-label>Location</ion-label>
+        <ion-label text-right>Johannesburg, South Africa</ion-label>
+      </ion-item>
+    </ion-list>
+
+    <p>
+      Agile Africa is an annual conference where African software professionals meet to uncover better ways of working and developing software.
+      You will get the chance to hear leading international and local speakers and, more importantly, interact with professionals from various software development communities.
+    </p>
+    <p>
+      The 2016 conference will build on <a href="http://2015.agileafricaconf.com/">last year’s</a> success to create an engaging memorable event.
+    </p>
+    <br/>
+    <p>
+      <strong>Talks</strong> - leading international and local speakers will challenge us with the latest ideas in the Agile world (the Long Grass track), as well as cover crucial fundamentals that we seem to have neglected (the Short Grass track). Topics will grow our understanding of knowledge work and what it takes to build good software.
+    </p>
+    <br/>
+    <p>
+      <strong>Interactive Space</strong> - Engage with the speakers and other delegates – even challenge their ideas – in our Indaba Room alongside the talks. It will have a fishbowl, open spaces, lean coffee as ways to make interaction fun and comfortable. If your introvert kicks in, just listening in on a debate over a good coffee is equally rewarding.
+    </p>
+    <br/>
+    <p>
+      <strong>Workshops</strong> - 24 August, the day after the conference, we will host a few handpicked speaker workshops. Don’t miss this opportunity to get a deeper grasp on ideas and practice in applying them with leading mentors. Note that workshops are optional additions to your conference.
+    </p>
+    <br/><br/>
+    <div class="about-sponsor">
+
+      <h4>Title Sponsor</h4>
+      <a href="http://www.jcse.org.za/">
+          <img src="img/sponsors/jcse-logo.png">
+      </a>
+
+      <h4>Diamond Sponsors</h4>
+      <a href="https://www.thoughtworks.com/">
+        <img src="img/sponsors/thoughtworks-logo.png"><br />
+      </a>
+      <a href="http://www.bbd.co.za/">
+        <img src="img/sponsors/bbd-logo.png">
+      </a>
+
+      <h4>Gold Sponsors</h4>
+      <a href="http://www.iqbusiness.co.za/">
+        <img src="img/sponsors/iqbusiness-logo.png">
+      </a>
+
+      <h4>Silver Sponsors</h4>
+      <a href="http://www.nreality.com/">
+        <img src="img/sponsors/nReality-dark.png">
+      </a>
+
+    </div>
+  </div>
+</ion-content>
