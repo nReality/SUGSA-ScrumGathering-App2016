@@ -1,9 +1,6 @@
 <ion-header>
   <ion-navbar no-border-bottom>
-    <button menuToggle>
-      <ion-icon name="menu"></ion-icon>
-    </button>
-
+    
     <ion-segment [(ngModel)]="segment" (ionChange)="updateSchedule()">
       <ion-segment-button value="all">
         All
