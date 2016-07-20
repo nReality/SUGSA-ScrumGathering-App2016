@@ -7,39 +7,40 @@
   </ion-navbar>
 </ion-header>
 
-<ion-content class="outer-content speaker-list">
+<ion-content center class="outer-content speaker-list">
+
+  <ion-grid center>
+  <ion-row center wrap>
+
   <ion-card *ngFor="let speaker of speakers" class="speaker">
 
-    <ion-card-header>
-      <ion-item>
+
+
+
+    <ion-card-content class="outer-content">
+      <button ion-item (click)="goToSpeakerDetail(speaker)">
+
         <ion-avatar item-left>
           <img [src]="speaker.profilePic">
         </ion-avatar>
-        {{speaker.name}}
-      </ion-item>
-    </ion-card-header>
+        <h2> {{speaker.name}}</h2>
 
-    <ion-card-content class="outer-content">
+        <button twitter (click)="goToSpeakerTwitter(speaker)" clear item-right>
+          <ion-icon name="logo-twitter"></ion-icon>
+          Tweet
+        </button>
+      </button>
       <ion-list>
-        <button ion-item *ngFor="let session of speaker.sessions" (click)="goToSessionDetail(session)">
-          <h3>{{session.name}}</h3>
+        <button text-wrap wrap ion-item *ngFor="let session of speaker.sessions" (click)="goToSessionDetail(session)">
+          <h3 wrap>{{session.name}}</h3>
         </button>
-        <button ion-item (click)="goToSpeakerDetail(speaker)">
-          <h3>About {{speaker.name}}</h3>
-        </button>
+
       </ion-list>
     </ion-card-content>
 
-    <ion-item>
-      <button twitter (click)="goToSpeakerTwitter(speaker)" clear item-left>
-        <ion-icon name="logo-twitter"></ion-icon>
-        Tweet
-      </button>
-      <button share (click)="openSpeakerShare(speaker)" clear item-right>
-        <ion-icon name="share"></ion-icon>
-        Share
-      </button>
-    </ion-item>
+
 
   </ion-card>
+</ion-row>
+</ion-grid>
 </ion-content>
