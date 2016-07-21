@@ -31,8 +31,8 @@
   <h6 text-center>{{session.timeStart}} - {{session.timeEnd}}</h6>
 
   <ion-card>
+  <button clear twitter (click)="goToTwitter(session.speakers)"><ion-icon name="logo-twitter"></ion-icon>Tweet</button>
     <ion-card-header>{{session.location}}</ion-card-header>
     <ion-card-content>{{session.description}}</ion-card-content>
-    <button clear twitter (click)="goToTwitter(session.name)"><ion-icon name="logo-twitter"></ion-icon>Tweet</button>
   </ion-card>
 </ion-content>

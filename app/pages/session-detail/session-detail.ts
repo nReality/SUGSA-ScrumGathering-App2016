@@ -3,6 +3,7 @@ import {NavParams, Storage, LocalStorage, Alert, NavController} from 'ionic-angu
 import {SpeakerDetailPage} from '../speaker-detail/speaker-detail';
 import {Device} from 'ionic-native';
 import { Star } from './star';
+import {TweetShare} from '../../providers/tweet-share';
 
 import * as firebase from 'firebase';
 
@@ -22,7 +23,8 @@ export class SessionDetailPage {
   @Output() rate = new EventEmitter();
   _rating = this.rating;
 
-  constructor(private navParams: NavParams, nav: NavController) {
+  constructor(private navParams: NavParams, nav: NavController, private tweetShare: TweetShare) {
+    this.tweetShare = tweetShare;
     this.session = navParams.data;
     this.nav = nav;
 
@@ -72,8 +74,13 @@ export class SessionDetailPage {
     this.nav.push(SpeakerDetailPage, speakerName);
   }
 
-  goToTwitter(sessionName) {
-    window.open(`https://twitter.com/share?text=` + sessionName);
+  goToTwitter(speakers) {
+    var speakerstring = ""
+    for (var speaker of speakers) {
+        speakerstring += speaker.twitter + " "
+    }
+    //window.open(`https://twitter.com/share?text=` + sessionName);
+      this.tweetShare.shareViaTwitter("." + speakerstring+" #AgileAfrica2016",null,null)
   }
 
 

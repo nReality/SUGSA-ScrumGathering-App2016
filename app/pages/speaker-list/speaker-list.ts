@@ -4,6 +4,7 @@ import {ConferenceData} from '../../providers/conference-data';
 import {SpeakerDetailPage} from '../speaker-detail/speaker-detail';
 import {SessionDetailPage} from '../session-detail/session-detail';
 
+import {TweetShare} from '../../providers/tweet-share';
 
 @Component({
   templateUrl: 'build/pages/speaker-list/speaker-list.html'
@@ -12,7 +13,8 @@ export class SpeakerListPage {
   actionSheet: ActionSheet;
   speakers = [];
 
-  constructor(private nav: NavController, confData: ConferenceData) {
+  constructor(private nav: NavController, confData: ConferenceData, private tweetShare: TweetShare) {
+        this.tweetShare = tweetShare;
     confData.getSpeakers().then(speakers => {
       this.speakers = speakers;
     });
@@ -27,7 +29,7 @@ export class SpeakerListPage {
   }
 
   goToSpeakerTwitter(speaker) {
-    window.open(`https://twitter.com/${speaker.twitter}`);
+    this.tweetShare.shareViaTwitter("."+speaker.twitter+" #AgileAfrica2016",null,null);
   }
 
   openSpeakerShare(speaker) {

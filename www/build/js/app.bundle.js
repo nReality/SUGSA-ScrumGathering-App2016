@@ -587,16 +587,19 @@ var ionic_angular_1 = require('ionic-angular');
 var speaker_detail_1 = require('../speaker-detail/speaker-detail');
 var ionic_native_1 = require('ionic-native');
 var star_1 = require('./star');
+var tweet_share_1 = require('../../providers/tweet-share');
 var firebase = require('firebase');
 var SessionDetailPage = (function () {
-    function SessionDetailPage(navParams, nav) {
+    function SessionDetailPage(navParams, nav, tweetShare) {
         this.navParams = navParams;
+        this.tweetShare = tweetShare;
         this.stars = [1, 2, 3, 4, 5];
         this.comment = "";
         this.nav = null;
         this.rating = 0;
         this.rate = new core_1.EventEmitter();
         this._rating = this.rating;
+        this.tweetShare = tweetShare;
         this.session = navParams.data;
         this.nav = nav;
         this.initializeStorage();
@@ -636,8 +639,14 @@ var SessionDetailPage = (function () {
     SessionDetailPage.prototype.goToSpeakerDetail = function (speakerName) {
         this.nav.push(speaker_detail_1.SpeakerDetailPage, speakerName);
     };
-    SessionDetailPage.prototype.goToTwitter = function (sessionName) {
-        window.open("https://twitter.com/share?text=" + sessionName);
+    SessionDetailPage.prototype.goToTwitter = function (speakers) {
+        var speakerstring = "";
+        for (var _i = 0, speakers_1 = speakers; _i < speakers_1.length; _i++) {
+            var speaker = speakers_1[_i];
+            speakerstring += speaker.twitter + " ";
+        }
+        //window.open(`https://twitter.com/share?text=` + sessionName);
+        this.tweetShare.shareViaTwitter("." + speakerstring + " #AgileAfrica2016", null, null);
     };
     __decorate([
         core_1.Input(), 
@@ -652,13 +661,13 @@ var SessionDetailPage = (function () {
             templateUrl: 'build/pages/session-detail/session-detail.html',
             directives: [star_1.Star]
         }), 
-        __metadata('design:paramtypes', [ionic_angular_1.NavParams, ionic_angular_1.NavController])
+        __metadata('design:paramtypes', [ionic_angular_1.NavParams, ionic_angular_1.NavController, tweet_share_1.TweetShare])
     ], SessionDetailPage);
     return SessionDetailPage;
 }());
 exports.SessionDetailPage = SessionDetailPage;
 
-},{"../speaker-detail/speaker-detail":13,"./star":10,"@angular/core":166,"firebase":344,"ionic-angular":432,"ionic-native":459}],10:[function(require,module,exports){
+},{"../../providers/tweet-share":18,"../speaker-detail/speaker-detail":13,"./star":10,"@angular/core":166,"firebase":344,"ionic-angular":432,"ionic-native":459}],10:[function(require,module,exports){
 "use strict";
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -883,11 +892,14 @@ var ionic_angular_1 = require('ionic-angular');
 var conference_data_1 = require('../../providers/conference-data');
 var speaker_detail_1 = require('../speaker-detail/speaker-detail');
 var session_detail_1 = require('../session-detail/session-detail');
+var tweet_share_1 = require('../../providers/tweet-share');
 var SpeakerListPage = (function () {
-    function SpeakerListPage(nav, confData) {
+    function SpeakerListPage(nav, confData, tweetShare) {
         var _this = this;
         this.nav = nav;
+        this.tweetShare = tweetShare;
         this.speakers = [];
+        this.tweetShare = tweetShare;
         confData.getSpeakers().then(function (speakers) {
             _this.speakers = speakers;
         });
@@ -899,7 +911,7 @@ var SpeakerListPage = (function () {
         this.nav.push(speaker_detail_1.SpeakerDetailPage, speakerName);
     };
     SpeakerListPage.prototype.goToSpeakerTwitter = function (speaker) {
-        window.open("https://twitter.com/" + speaker.twitter);
+        this.tweetShare.shareViaTwitter("." + speaker.twitter + " #AgileAfrica2016", null, null);
     };
     SpeakerListPage.prototype.openSpeakerShare = function (speaker) {
         var actionSheet = ionic_angular_1.ActionSheet.create({
@@ -935,13 +947,13 @@ var SpeakerListPage = (function () {
         core_1.Component({
             templateUrl: 'build/pages/speaker-list/speaker-list.html'
         }), 
-        __metadata('design:paramtypes', [ionic_angular_1.NavController, conference_data_1.ConferenceData])
+        __metadata('design:paramtypes', [ionic_angular_1.NavController, conference_data_1.ConferenceData, tweet_share_1.TweetShare])
     ], SpeakerListPage);
     return SpeakerListPage;
 }());
 exports.SpeakerListPage = SpeakerListPage;
 
-},{"../../providers/conference-data":17,"../session-detail/session-detail":9,"../speaker-detail/speaker-detail":13,"@angular/core":166,"ionic-angular":432}],16:[function(require,module,exports){
+},{"../../providers/conference-data":17,"../../providers/tweet-share":18,"../session-detail/session-detail":9,"../speaker-detail/speaker-detail":13,"@angular/core":166,"ionic-angular":432}],16:[function(require,module,exports){
 "use strict";
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
