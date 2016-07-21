@@ -77,7 +77,7 @@
           "sessions": [
             {
               "name": "Tea and Move",
-              "location": "Indaba Tree Room",
+              "location": "Indaba Tree",
               "description": "Remember to visit our sponsors' webpages.",
               "timeStart": "11:00 am",
               "timeEnd": "11:30 am",
@@ -182,7 +182,7 @@
           "sessions": [
             {
               "name": "Lunch and Discussions",
-              "location": "Indaba Tree Room",
+              "location": "Indaba Tree",
               "description": "Remember to visit our sponsors' webpages.",
               "timeStart": "12:30 pm",
               "timeEnd": "1:30 pm",
@@ -197,7 +197,7 @@
           "sessions": [
             {
               "name": "Posters",
-              "location": "Indaba Tree Room",
+              "location": "Indaba Tree",
               "description": "See list at bottom of session list.",
               "timeStart": "1:00 pm",
               "timeEnd": "1:50 pm",
@@ -207,7 +207,7 @@
             },
             {
               "name": "Workshop: Making Retros Work (ends at 3:30pm)",
-              "location": "Marathon Room",
+              "location": "Boundary Room",
               "description": "Do your retros really get to the core of the problem? Is the team getting better each sprint they complete? Is everyone pulling their weight? Being just a ScrumMaster isn’t too difficult. Being a really great ScrumMaster, one who helps move a team to the highest performance levels possible, is much harder and much more elusive.\n\nYou need to understand and appreciate people, know how to provide the space and circumstances for each individual in the team to thrive as well as the team, and bring about a culture of collaboration, accountability, introspection, trust and honesty. The retro is where much of this happens.\n\nEnsuring good retros is a process. You need some coaching and some facilitation skills in order to do your part well. From Sprint to Sprint you need to build the trust and honesty in the team and you need to help everyone to develop important skills such as clear communication and assertiveness without aggression.\n\nThis workshop is highly interactive and experiential. Come dressed comfortably and ready to move around. It is designed for Scrum Masters who have had a few months experience to start finding their feet or new Scrum Masters who are very keen to start strong.",
               "speakerNames": [
                 "Alison Gitelson"
@@ -308,7 +308,7 @@
           "sessions": [
             {
               "name": "Tea and Move",
-              "location": "Indaba Tree Room",
+              "location": "Indaba Tree",
               "description": "Remember to visit our sponsors' webpages.",
               "timeStart": "3:00 pm",
               "timeEnd": "3:30 pm",
@@ -468,7 +468,7 @@
             },
             {
               "name": "Workshop: Test planning in Agile projects (ends at 12:50)",
-              "location": "Marathon Room",
+              "location": "Boundary Room",
               "speakerNames": [
                 "Carsten Feilberg"
               ],
@@ -489,7 +489,7 @@
           "sessions": [
             {
               "name": "Tea and Move",
-              "location": "Indaba Tree Room",
+              "location": "Indaba Tree",
               "description": "Remember to visit our sponsors' webpages.",
               "timeStart": "10:50 am",
               "timeEnd": "11:20 am",
@@ -574,7 +574,7 @@
             },
             {
               "name": "Lunch and Discussions",
-              "location": "Indaba Tree Room",
+              "location": "Indaba Tree",
               "description": "Remember to visit our sponsors' webpages.",
               "timeStart": "12:00 pm",
               "timeEnd": "1:30 pm",
@@ -589,7 +589,7 @@
           "sessions": [
             {
               "name": "Lunch and Discussions",
-              "location": "Indaba Tree Room",
+              "location": "Indaba Tree",
               "description": "Remember to visit our sponsors' webpages.",
               "timeStart": "12:30 pm",
               "timeEnd": "1:00 pm",
@@ -604,7 +604,7 @@
           "sessions": [
             {
               "name": "Posters",
-              "location": "Indaba Tree Room",
+              "location": "Indaba Tree",
               "description": "See list at bottom of session list.",
               "timeStart": "1:00 pm",
               "timeEnd": "1:50 pm",
@@ -627,7 +627,7 @@
             },
             {
               "name": "Workshop: Subtleties of Success for Self Organising Teams (ends at 3:30pm)",
-              "location": "Marathon Room",
+              "location": "Boundary Room",
               "speakerNames": [
                 "Cindy Carless",
                 "Louise Perold"
@@ -842,7 +842,7 @@
           "sessions": [
             {
               "name": "Poster: Building Grand Master Engineering Teams",
-              "location": "Indaba Tree Room",
+              "location": "Indaba Tree",
               "description": "Very early on our DevOps transformation journey we realised the need to invest in engineering practices as a key in building high velocity IT. Towards this end we developed the toolkit ‘Continuum’.   Continuum provides a structure for assessing the current level of engineering practices and establishing a clear path for improvement. It encourages ownership and enables every team to establish fit to purpose improvement track. It encompasses various engineering capabilities and skills that we believe we need to master to become high performing IT.   Even though it was developed to fit our needs we believe it can be very useful for any other IT organisation on a DevOps journey.",
               "speakerNames": [
                 "Jovanka Damjanovic",
@@ -856,7 +856,7 @@
             },
             {
               "name": "Poster: Bring it and we shall test! (The context-driven way)",
-              "location": "Indaba Tree Room",
+              "location": "Indaba Tree",
               "description": "What is context-driven testing? You are about to find out! Bring your app, your device, your cool toy, your pen..... whatever you would like us to test, we shall do so.... and in doing so, demonstrate what context-driven testing means for us and how we are able to use oracles and heuristics to test anything, anywhere, anytime. ",
               "speakerNames": [
                 "Louise Perold"
@@ -869,7 +869,7 @@
             },
             {
               "name": "Poster: Like dew from the morning sky: Ex post facto agilification of cloud based spiral processes",
-              "location": "Indaba Tree Room",
+              "location": "Indaba Tree",
               "description": "Many experts would agree that, had it not been for congestion control, the evaluation of web browsers might never have occurred. In this context the technology in ex post facto agilification of cloud based waterfall spirals effectively addresses the discriminator causing the system by applying an eraseable scrum cycle. This technology will thus provide the stakeholders with a novel paradigm. Whereas other solutions to the scenario, such as the well-known longitudinal iterations, do not address the discriminator in an efficient manner, our proposed approach turns the knowledge-based communication 'sledgehammer' into a pair of 'scissors'. The successful development of ex post facto agilification of cloud based waterfall spirals can thus result in numerous spinoffs, for the benefit especially of small-to-medium size enterprises (SME). This is because the typically deployed VHF is from a developer's point of view simply a Boolean system, which can thus be easily managed as such. By analogy it is interesting to see that both active networks, as well as virtual machines, show a promising similarity of collaborating efficiently in this manner, too, although the usual scrumification methods for cloud based processes are hardly applicable in such cases. This is in contrast to Kanban. In other words: The development of the paradigm for integration into the traditional approaches paves the way to a new frontier of agilification, with cloud based spiral processes at the centre of all activities. Once the first step is taken, the advantages this development will become clearly evident. See the figures in the upload. All in all, this presentation should be great for junior to senior managers and developers inside SME companies who want to take cloud based agilification to the next level ('morning dew') but are not sure where to get started. In particular also women leaders and female developers, as well as people from previously disadvantaged communities, can benefit from the experience. Especially for those delegates the poster talk shall be organised as follows: For starters, the morning dew paradigm will be motivated and explained in fresh words and easy to understand terminology. Thereby the work is placed into context with prior work (and failures!) in this area. To address the obstacles, some stubborn old myths of the trade will be disproved in the light of newest hands-on experiences. In the end, we conclude with ample space for further questions and answers.",
               "speakerNames": [
                 "Sindi Gumede"
@@ -882,7 +882,7 @@
             },
             {
               "name": "Poster: My Dev team is brilliantly Agile, but how do I get the rest of the Organisation to see the light?",
-              "location": "Indaba Tree Room",
+              "location": "Indaba Tree",
               "description": "Congratulations. You have created a self organising, self managing team. They understand sustainable pace, have predictable velocity, have met every sprint commitment.... but your product STILL gets shelved, or people are still reluctant to embrace a new way of working.\nYour dev team is brilliantly Agile, but every other team around you is still stuck in a waterfall mindset. This talk will share some of the tools and techniques used in a very fast paced environment to evangelize the spread of Agile in the broader organisation.\nAs a development team, we believe in Agile methods but we aren't always equipped to have the right discussions to support our beliefs. Some of the tools that this talk will touch on is :\nExec level prioritization \nNormalized story points ( and the dangers)\nCost per story point\nCost of delay\nCost of internal dependencies\nCost of building the wrong product\nCost of estimation ( just tell me how long it will take)\nHow to work WITH a Project Manager\nHow to extract maximum value from your ceremonies\nCost and time projections (do you really want us to build that)\nTailoring your structures to enable delivery",
               "speakerNames": [
                 "Yusuf Kaloo"
@@ -895,7 +895,7 @@
             },
             {
               "name": "Poster: Agile transformation from a traditional banking environment to mirror that of a modern day technology company",
-              "location": "Indaba Tree Room",
+              "location": "Indaba Tree",
               "description": "This is a story from a crazy goal that exco had, 'become agile', and what we did. Becoming agile is not as simple as 1,2,3 and we are unique because most of our teams are not software development teams. Parts worked very well and others that really did not pan out. Following the agile spirit of transparency. We want to share our journey",
               "speakerNames": [
                 "Seshyn Munsamy",
@@ -909,7 +909,7 @@
             },
             {
               "name": "Poster: Levelling the Playing Field - Willingness of our younger generation to learn",
-              "location": "Indaba Tree Room",
+              "location": "Indaba Tree",
               "description": "Jemma created \"Levelling the Playing Field\", a 5 day course that is designed using only free online resoures, to help students to continue working after the course.\n\nWhat Jemma would like to achive is a partnership between the computer programming and underprivileged communities.\n\n\"Coding is a cheap skill to learn if you have the right people available to you.\"\n\nThis poster session will hopefully expose the attendees to the willingness of our younger generation to learn and improve their circumstances.\n\nWe have some real talent hidden away in the informal settlements of South Africa and Jemma would really love to expose it.",
               "speakerNames": [
                 "Jemma Chait"
@@ -971,7 +971,7 @@
     {
       "name": "Simon Stewart",
       "profilePic": "img/speakers/simon-head.JPG",
-      "twitter": "@AgileAfricaConf",
+      "twitter": "@simonstewart",
       "about": "I run the JavaScript in South Africa conference and am a frequent speaker at tech conferences.\n\nAlso run a training (CodeSkills) and a technology consulting (Broken Keyboards Software) business."
     },
     {
@@ -1151,7 +1151,7 @@
     {
       "name": "Paul Lloyd",
       "profilePic": "img/speakers/paul-head.jpg",
-      "twitter": "@AgileAfricaConf",
+      "twitter": "@floydus100",
       "about": "Paul Lloyd is a tester, trainer, avid reader and cyclist.\n\nA Qualified tester with over ten years’ experience. His testing experience has been on all types of hardware and software, in many environments which include Automated Teller Machines, Point of Sale/Service devices, high speed document Scanners, Mobile devices, Server, Web and Desktop applications.\n\nAs a Certified Technical Trainer, Paul has also given training on software products in diverse fields such as, the Swedish and South African Air forces, Petroleum Plants, Training institutions and Qualifications boards.\n\nHe is continually reading and trying to find new ways to test and manage software teams effectively. His passion lies in implementing and managing automated test processes."
     },
     {
@@ -1169,7 +1169,7 @@
     {
       "name": "Theo Bohnen",
       "profilePic": "img/speakers/theo-head.jpg",
-      "twitter": "@AgileAfricaConf",
+      "twitter": "@tbohnenJnr",
       "about": "My name's Theo and I am passionate about Software Development, people and learning; I get excited by sharing what I've learnt and even better, learning from others.\n\nI've been doing software development professionally for 8 years in various roles."
     },
     {
