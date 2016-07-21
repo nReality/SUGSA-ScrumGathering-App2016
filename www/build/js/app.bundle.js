@@ -503,6 +503,9 @@ var SchedulePage = (function () {
         // now present the alert on top of all other content
         this.nav.present(alert);
     };
+    SchedulePage.prototype.locationNoSpaces = function (location) {
+        return (!location) ? '' : location.replace(/ /g, '');
+    };
     __decorate([
         core_1.ViewChild('scheduleList', { read: ionic_angular_1.List }), 
         __metadata('design:type', ionic_angular_1.List)

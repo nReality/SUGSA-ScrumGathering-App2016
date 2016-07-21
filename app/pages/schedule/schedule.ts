@@ -123,4 +123,8 @@ export class SchedulePage {
     // now present the alert on top of all other content
     this.nav.present(alert);
   }
+
+  locationNoSpaces(location){    
+    return (!location) ? '' : location.replace(/ /g, '');
+  }
 }
