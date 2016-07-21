@@ -129,7 +129,6 @@
           "sessions": [
             {
               "name": "Move and Stretch",
-              "location": "All Rooms",
               "description": "Remember to visit our sponsors' webpages.",
               "timeStart": "12:00 pm",
               "timeEnd": "12:10 pm",
@@ -262,7 +261,6 @@
           "sessions": [
             {
               "name": "Move and Stretch",
-              "location": "All Rooms",
               "description": "Remember to visit our sponsors' webpages.",
               "timeStart": "2:20 pm",
               "timeEnd": "2:30 pm",
@@ -358,7 +356,6 @@
           "sessions": [
             {
               "name": "Move and Stretch",
-              "location": "All Rooms",
               "description": "Remember to visit our sponsors' webpages.",
               "timeStart": "3:45 pm",
               "timeEnd": "4:00 pm",
@@ -429,7 +426,6 @@
           "sessions": [
             {
               "name": "Move and Stretch",
-              "location": "All Rooms",
               "timeStart": "10:10 am",
               "timeEnd": "10:20 am",
               "tracks": [
@@ -537,7 +533,6 @@
             },
             {
               "name": "Move and Stretch",
-              "location": "All Rooms",
               "description": "Remember to visit our sponsors' webpages.",
               "timeStart": "11:50 am",
               "timeEnd": "12:00 pm",
@@ -687,7 +682,6 @@
           "sessions": [
             {
               "name": "Move and Stretch",
-              "location": "All Rooms",
               "description": "Remember to visit our sponsors' webpages.",
               "timeStart": "2:30 pm",
               "timeEnd": "2:40 pm",
@@ -733,7 +727,6 @@
           "sessions": [
             {
               "name": "Tea and Move",
-              "location": "All Rooms",
               "description": "Remember to visit our sponsors' webpages.",
               "timeStart": "2:55 pm",
               "timeEnd": "3:20 pm",
@@ -794,7 +787,6 @@
           "sessions": [
             {
               "name": "Move and Stretch",
-              "location": "All Rooms",
               "description": "Remember to visit our sponsors' webpages.",
               "timeStart": "3:50 pm",
               "timeEnd": "4:00 pm",
