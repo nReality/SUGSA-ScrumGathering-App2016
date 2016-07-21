@@ -130,7 +130,7 @@ export class ConferenceData {
     // exclude tracks then this session passes the track test
     let matchesTracks = false;
     session.tracks.forEach(trackName => {
-      if (excludeTracks.indexOf(trackName) === -1 && trackName != "") {
+      if (excludeTracks.indexOf(trackName) === -1) {
         matchesTracks = true;
       }
     });

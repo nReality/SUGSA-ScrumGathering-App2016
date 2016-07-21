@@ -1085,7 +1085,7 @@ var ConferenceData = (function () {
         // exclude tracks then this session passes the track test
         var matchesTracks = false;
         session.tracks.forEach(function (trackName) {
-            if (excludeTracks.indexOf(trackName) === -1 && trackName != "") {
+            if (excludeTracks.indexOf(trackName) === -1) {
                 matchesTracks = true;
             }
         });
