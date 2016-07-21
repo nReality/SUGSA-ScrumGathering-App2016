@@ -3,6 +3,7 @@ import {ionicBootstrap, Events, Platform, Nav, MenuController} from 'ionic-angul
 import {StatusBar, Splashscreen} from 'ionic-native';
 import {ConferenceData} from './providers/conference-data';
 import {UserData} from './providers/user-data';
+import {TweetShare} from './providers/tweet-share';
 import {AccountPage} from './pages/account/account';
 import {TabsPage} from './pages/tabs/tabs';
 import {SpeakerListWebPage} from './pages/speaker-list-web/speaker-list-web';
@@ -129,7 +130,7 @@ class ConferenceApp {
 // See the theming docs for the default values:
 // http://ionicframework.com/docs/v2/theming/platform-specific-styles/
 
-ionicBootstrap(ConferenceApp, [ConferenceData, UserData], {
+ionicBootstrap(ConferenceApp, [ConferenceData, UserData, TweetShare], {
   tabbarPlacement: 'bottom',
   prodMode : true
 });

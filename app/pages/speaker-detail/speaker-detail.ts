@@ -1,7 +1,9 @@
 import {Component} from '@angular/core';
 import {NavController, NavParams, Page} from 'ionic-angular';
 import {SessionDetailPage} from '../session-detail/session-detail';
+import {Platform} from 'ionic-angular';
 
+import {TweetShare} from '../../providers/tweet-share';
 
 @Component({
   templateUrl: 'build/pages/speaker-detail/speaker-detail.html'
@@ -9,7 +11,9 @@ import {SessionDetailPage} from '../session-detail/session-detail';
 export class SpeakerDetailPage {
   speaker: any;
 
-  constructor(private nav: NavController, private navParams: NavParams) {
+  constructor(private nav: NavController, private navParams: NavParams, private tweetShare: TweetShare) {
+
+        this.tweetShare = tweetShare;
     this.speaker = this.navParams.data;
   }
 
@@ -18,6 +22,7 @@ export class SpeakerDetailPage {
   }
 
   goToSpeakerTwitter(speaker) {
-    window.open(`https://twitter.com/${speaker.twitter}`);
+  //  window.open(`https://twitter.com/${speaker.twitter}`);
+    this.tweetShare.shareViaTwitter("."+speaker.twitter+" #AgileAfrica2016",null,null)
   }
 }

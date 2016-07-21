@@ -18,10 +18,7 @@
         </ion-avatar>
         <h2> {{speaker.name}}</h2>
 
-        <button twitter (click)="goToSpeakerTwitter(speaker)" clear item-right>
-          <ion-icon name="logo-twitter"></ion-icon>
-          Tweet
-        </button>
+
       </button>
       <ion-list no-lines>
         <button text-wrap wrap ion-item *ngFor="let session of speaker.sessions" (click)="goToSessionDetail(session)">
