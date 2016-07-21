@@ -45,8 +45,7 @@
           <button ion-item (click)="goToSessionDetail(session)">
             <h3>{{session.name}}</h3>
             <p>
-              {{session.timeStart}} &mdash;
-              {{session.timeEnd}}:
+              <span  *ngIf="session.speakerNames">{{session.speakerNames}} in</span>
               {{session.location}}
             </p>
           </button>

@@ -1,6 +1,6 @@
 <ion-header>
   <ion-navbar no-border-bottom>
-    
+
     <ion-segment [(ngModel)]="segment" (ionChange)="updateSchedule()">
       <ion-segment-button value="all">
         All
@@ -36,7 +36,7 @@
 
       <ion-item-group *ngFor="let group of day.groups" [hidden]="group.hide">
 
-        <ion-item-divider sticky>
+        <ion-item-divider sticky class="time-group">
           {{group.time}}
         </ion-item-divider>
 
@@ -45,8 +45,7 @@
           <button ion-item (click)="goToSessionDetail(session)">
             <h3>{{session.name}}</h3>
             <p>
-              {{session.timeStart}} &mdash;
-              {{session.timeEnd}}:
+              <span  *ngIf="session.speakerNames">{{session.speakerNames}} in</span>
               {{session.location}}
             </p>
           </button>
