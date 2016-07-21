@@ -55,10 +55,10 @@ class ConferenceApp {
     confData: ConferenceData
   ) {
     var config = {
-      apiKey: "AIzaSyCa5rSBIleu6RdR8J2oi__kVhFHvqaofW4",
-      authDomain: "agileafricaconf.firebaseapp.com",
-      databaseURL: "https://agileafricaconf.firebaseio.com",
-      storageBucket: "agileafricaconf.appspot.com",
+      apiKey: "AIzaSyBzrmscE2IFlQJ_IQZ3D-yWki3c5H7bCtE",
+      authDomain: "agile-africa.firebaseapp.com",
+      databaseURL: "https://agile-africa.firebaseio.com",
+      storageBucket: "agile-africa.appspot.com"
     };
 
     firebase.initializeApp(config);
@@ -130,5 +130,6 @@ class ConferenceApp {
 // http://ionicframework.com/docs/v2/theming/platform-specific-styles/
 
 ionicBootstrap(ConferenceApp, [ConferenceData, UserData], {
-  tabbarPlacement: 'bottom'
+  tabbarPlacement: 'bottom',
+  prodMode : true
 });
