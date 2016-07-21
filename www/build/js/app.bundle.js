@@ -355,6 +355,7 @@ var ScheduleFilterPage = (function () {
         this.navParams = navParams;
         this.viewCtrl = viewCtrl;
         this.tracks = [];
+        this.locations = [];
         // passed in array of track names that should be excluded (unchecked)
         var excludedTrackNames = this.navParams.data;
         this.confData.getTracks().then(function (trackNames) {
@@ -362,6 +363,13 @@ var ScheduleFilterPage = (function () {
                 _this.tracks.push({
                     name: trackName,
                     isChecked: (excludedTrackNames.indexOf(trackName) === -1)
+                });
+            });
+        });
+        this.confData.getLocations().then(function (locationNames) {
+            locationNames.forEach(function (locationName) {
+                _this.locations.push({
+                    name: locationName
                 });
             });
         });
@@ -381,6 +389,9 @@ var ScheduleFilterPage = (function () {
         // using the injected ViewController this page
         // can "dismiss" itself and pass back data
         this.viewCtrl.dismiss(data);
+    };
+    ScheduleFilterPage.prototype.locationNoSpaces = function (location) {
+        return (!location) ? '' : location.replace(/ /g, '');
     };
     ScheduleFilterPage = __decorate([
         core_1.Component({
@@ -616,7 +627,6 @@ var SessionDetailPage = (function () {
         this.nav.push(speaker_detail_1.SpeakerDetailPage, speakerName);
     };
     SessionDetailPage.prototype.goToTwitter = function (sessionName) {
-        console.log('triggered');
         window.open("https://twitter.com/share?text=" + sessionName);
     };
     __decorate([
@@ -988,6 +998,7 @@ var ConferenceData = (function () {
         // build up the data by linking speakers to sessions
         var _this = this;
         data.tracks = [];
+        data.locations = [];
         // loop through each day in the schedule
         data.schedule.forEach(function (day) {
             // loop through each timeline group in the day
@@ -1021,6 +1032,11 @@ var ConferenceData = (function () {
                     data.tracks.push(track);
                 }
             });
+        }
+        if (session.location) {
+            if (data.locations.indexOf(session.location) < 0) {
+                data.locations.push(session.location);
+            }
         }
     };
     ConferenceData.prototype.getTimeline = function (dayIndex, queryText, excludeTracks, segment) {
@@ -1099,6 +1115,11 @@ var ConferenceData = (function () {
     ConferenceData.prototype.getTracks = function () {
         return this.load().then(function (data) {
             return data.tracks.sort();
+        });
+    };
+    ConferenceData.prototype.getLocations = function () {
+        return this.load().then(function (data) {
+            return data.locations;
         });
     };
     ConferenceData.prototype.getMap = function () {

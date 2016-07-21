@@ -72,8 +72,7 @@ export class SessionDetailPage {
     this.nav.push(SpeakerDetailPage, speakerName);
   }
 
-  goToTwitter(sessionName) {
-    console.log('triggered');
+  goToTwitter(sessionName) {    
     window.open(`https://twitter.com/share?text=` + sessionName);
   }
 }

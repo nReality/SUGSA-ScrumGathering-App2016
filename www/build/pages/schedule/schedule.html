@@ -40,7 +40,7 @@
           {{group.time}}
         </ion-item-divider>
 
-        <ion-item-sliding *ngFor="let session of group.sessions" #slidingItem [attr.room]="locationNoSpaces(session.location) | lowercase" [hidden]="session.hide">
+        <ion-item-sliding *ngFor="let session of group.sessions" #slidingItem [attr.location]="locationNoSpaces(session.location) | lowercase" [hidden]="session.hide">
 
           <button ion-item (click)="goToSessionDetail(session)">
             <h3>{{session.name}}</h3>

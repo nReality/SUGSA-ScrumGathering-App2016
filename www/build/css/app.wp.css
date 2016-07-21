@@ -11125,20 +11125,24 @@ body {
 .map-page #map.show-map {
   opacity: 1; }
 
-.schedule ion-item-sliding[room=ionic] ion-label {
+.schedule ion-item-sliding[location=ionic] ion-label {
   border-left: 2px solid #EF6327;
   padding-left: 10px; }
 
-.schedule ion-item-sliding[room=ballroom] ion-label {
-  border-left: 2px solid #000066;
+.schedule ion-item-sliding[location=ballroom] ion-label {
+  border-left: 2px solid #cfe2f3;
   padding-left: 10px; }
 
-.schedule ion-item-sliding[room=indabatreeroom] ion-label {
-  border-left: 2px solid #006600;
+.schedule ion-item-sliding[location=indabatree] ion-label {
+  border-left: 2px solid #d5a6bd;
   padding-left: 10px; }
 
-.schedule ion-item-sliding[room=galaroom] ion-label {
-  border-left: 2px solid #AC282B;
+.schedule ion-item-sliding[location=galaroom] ion-label {
+  border-left: 2px solid #b6d7a8;
+  padding-left: 10px; }
+
+.schedule ion-item-sliding[location=boundaryroom] ion-label {
+  border-left: 2px solid #fce5cd;
   padding-left: 10px; }
 
 .date-group {
@@ -11158,7 +11162,7 @@ body {
 .reset-filters {
   color: #f53d3d; }
 
-ion-item[track=ionic] .dot {
+ion-item[location=ionic] .dot {
   height: 10px;
   display: inline-block;
   width: 10px;
@@ -11166,27 +11170,35 @@ ion-item[track=ionic] .dot {
   border-radius: 5px;
   margin-right: 10px; }
 
-ion-item[track=ballroom] .dot {
+ion-item[location=ballroom] .dot {
   height: 10px;
   display: inline-block;
   width: 10px;
-  background-color: #000066;
+  background-color: #cfe2f3;
   border-radius: 5px;
   margin-right: 10px; }
 
-ion-item[track=indabatreeroom] .dot {
+ion-item[location=indabatree] .dot {
   height: 10px;
   display: inline-block;
   width: 10px;
-  background-color: #006600;
+  background-color: #d5a6bd;
   border-radius: 5px;
   margin-right: 10px; }
 
-ion-item[track=galaroom] .dot {
+ion-item[location=galaroom] .dot {
   height: 10px;
   display: inline-block;
   width: 10px;
-  background-color: #AC282B;
+  background-color: #b6d7a8;
+  border-radius: 5px;
+  margin-right: 10px; }
+
+ion-item[location=boundaryroom] .dot {
+  height: 10px;
+  display: inline-block;
+  width: 10px;
+  background-color: #fce5cd;
   border-radius: 5px;
   margin-right: 10px; }
 

@@ -8,6 +8,7 @@ import {ConferenceData} from '../../providers/conference-data';
 })
 export class ScheduleFilterPage {
   tracks: Array<{name: string, isChecked: boolean}> = [];
+  locations: Array<{name: string}> = [];
 
   constructor(
     private confData: ConferenceData,
@@ -24,6 +25,16 @@ export class ScheduleFilterPage {
           name: trackName,
           isChecked: (excludedTrackNames.indexOf(trackName) === -1)
         });
+      });
+
+    });
+
+    this.confData.getLocations().then((locationNames: string[]) => {
+
+      locationNames.forEach(locationName => {
+          this.locations.push({
+            name: locationName
+          });
       });
 
     });
@@ -46,5 +57,9 @@ export class ScheduleFilterPage {
     // using the injected ViewController this page
     // can "dismiss" itself and pass back data
     this.viewCtrl.dismiss(data);
+  }
+
+  locationNoSpaces(location){    
+    return (!location) ? '' : location.replace(/ /g, '');
   }
 }

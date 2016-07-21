@@ -34,6 +34,7 @@ export class ConferenceData {
     // build up the data by linking speakers to sessions
 
     data.tracks = [];
+    data.locations = [];
 
     // loop through each day in the schedule
     data.schedule.forEach(day => {
@@ -70,6 +71,12 @@ export class ConferenceData {
           data.tracks.push(track);
         }
       });
+    }
+
+    if (session.location){
+      if (data.locations.indexOf(session.location) < 0) {
+        data.locations.push(session.location);
+      }
     }
   }
 
@@ -156,6 +163,12 @@ export class ConferenceData {
   getTracks() {
     return this.load().then(data => {
       return data.tracks.sort();
+    });
+  }
+
+  getLocations() {
+    return this.load().then(data => {
+      return data.locations;
     });
   }
 

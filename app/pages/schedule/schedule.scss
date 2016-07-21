@@ -1,8 +1,9 @@
 $categories: (
  ionic: color($colors, primary),
- ballroom: #000066,
- indabatreeroom: #006600,
- galaroom: #AC282B,
+ ballroom: #cfe2f3,
+ indabatree: #d5a6bd,
+ galaroom: #b6d7a8,
+ boundaryroom: #fce5cd,
 );
 
 @function auxiliary-categories() {
@@ -10,8 +11,8 @@ $categories: (
 }
 
 .schedule {
-  @each $room, $value in auxiliary-categories() {
-   ion-item-sliding[room=#{$room}] ion-label {
+  @each $location, $value in auxiliary-categories() {
+   ion-item-sliding[location=#{$location}] ion-label {
      border-left: 2px solid $value;
      padding-left: 10px;
    }
