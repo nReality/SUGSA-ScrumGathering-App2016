@@ -27,9 +27,9 @@
 </ion-header>
 
 <ion-content class="schedule">
-  <ion-list #scheduleList>
+  <ion-list #scheduleList [virtualScroll]="days">
 
-    <ion-item-group *ngFor="let day of days">
+    <ion-item-group *virtualItem="let day">
       <ion-item-divider sticky class="date-group">
         {{day.date}}
       </ion-item-divider>

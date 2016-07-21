@@ -6,13 +6,10 @@
 
 <ion-content center class="outer-content speaker-list">
 
-  <ion-grid center>
-  <ion-row center wrap>
+  <ion-list center [virtualScroll]="speakers">
+  <ion-item center wrap *virtualItem="let speaker">
 
-  <ion-card *ngFor="let speaker of speakers" class="speaker">
-
-
-
+  <ion-card class="speaker">
 
     <ion-card-content class="outer-content">
       <button ion-item (click)="goToSpeakerDetail(speaker)">
@@ -35,9 +32,7 @@
       </ion-list>
     </ion-card-content>
 
-
-
   </ion-card>
-</ion-row>
-</ion-grid>
+</ion-item>
+</ion-list>
 </ion-content>
