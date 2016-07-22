@@ -138,6 +138,21 @@ export class ConferenceData {
         if (session.name.toLowerCase().indexOf(queryWord) > -1) {
           matchesQueryText = true;
         }
+
+        if (session.location != null && session.location.toLowerCase().indexOf(queryWord) > -1) {
+          matchesQueryText = true;
+        }
+
+        if (session.date != null && session.date.toLowerCase().indexOf(queryWord) > -1) {
+          matchesQueryText = true;
+        }
+
+        session.speakers.forEach(speaker => {
+          if (speaker.name != null && speaker.name.toLowerCase().indexOf(queryWord) > -1) {
+            matchesQueryText = true;
+          }
+        });
+
       });
     } else {
       // if there are no query words then this session passes the query test
