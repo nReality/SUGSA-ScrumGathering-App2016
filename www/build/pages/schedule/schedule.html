@@ -1,7 +1,6 @@
 <ion-header>
   <ion-navbar no-border-bottom>
 
-      <ion-title>Schedule</ion-title>
 <!--
     <ion-segment [(ngModel)]="segment" (ionChange)="updateSchedule()">
       <ion-segment-button value="all">
@@ -13,6 +12,11 @@
     </ion-segment>
 -->
 
+<ion-searchbar primary
+               [(ngModel)]="queryText"
+               (ionInput)="updateSchedule()"
+               placeholder="Search program schedule">
+</ion-searchbar>
     <ion-buttons end>
       <button (click)="presentFilter()">
         <ion-icon ios="ios-options-outline" md="md-options"></ion-icon>
@@ -20,16 +24,26 @@
     </ion-buttons>
   </ion-navbar>
 
-  <ion-toolbar no-border-top>
-    <ion-searchbar primary
-                   [(ngModel)]="queryText"
-                   (ionInput)="updateSchedule()"
-                   placeholder="Search">
-    </ion-searchbar>
+  <ion-toolbar class="toggletoolbar" no-border-top>
+
+    <table width="100%">
+      <tr>
+        <td class="scheduletoggle" width="25%"><button class="scheduletogglebutton" small block [color]="'ballroom'">Ballroom</button></td>
+        <td class="scheduletoggle" width="25%"><button outline class="scheduletogglebutton" small block [color]="'galaroom'">Gala</button></td>
+        <td class="scheduletoggle" width="25%"><button class="scheduletogglebutton" small block [color]="'boundaryroom'">Boundary</button></td>
+        <td class="scheduletoggle" width="25%"><button outline class="scheduletogglebutton" small block [color]="'indabatree'">Indaba</button></td>
+      </tr>
+    </table>
   </ion-toolbar>
 </ion-header>
 
-<ion-content class="schedule">
+
+
+
+
+<ion-content class="schedule" >
+
+
   <ion-list #scheduleList [virtualScroll]="flatGroups">
         <ion-item no-lines *virtualItem="let group" [hidden]="group.hide">
         <ion-item-content class="time-group">
@@ -72,4 +86,16 @@
 -->
 
   </ion-list>
+
 </ion-content>
+
+<ion-footer>
+
+    <table width="100%">
+    <tr>
+      <td class="daytoggle" colspan="2"><button (click)="toggleDay(confData.data.schedule[0].date)" class="scheduletogglebutton" [outline]="confData.data.schedule[0].hide" small block >{{confData.data.schedule[0].date}}</button></td>
+      <td class="daytoggle" colspan="2"><button (click)="toggleDay(confData.data.schedule[1].date)" class="scheduletogglebutton" [outline]="confData.data.schedule[1].hide" small block >{{confData.data.schedule[1].date}}</button></td>
+    </tr>
+    </table>
+
+</ion-footer>

@@ -437,9 +437,23 @@ var SchedulePage = (function () {
         this.queryText = '';
         this.segment = 'all';
         this.excludeTracks = [];
-        this.days = [];
+        this.excludeLocations = [];
+        this.excludeDays = [];
         this.flatGroups = [];
     }
+    SchedulePage.prototype.toggleDay = function (dateString) {
+        var _this = this;
+        this.excludeDays = [];
+        this.confData.data.schedule.forEach(function (day) {
+            if (day.date == dateString) {
+                day.hide = !day.hide;
+            }
+            if (day.hide) {
+                _this.excludeDays.push(day.date);
+            }
+        });
+        this.updateSchedule();
+    };
     SchedulePage.prototype.ionViewDidEnter = function () {
         this.app.setTitle('Schedule');
     };
@@ -450,7 +464,7 @@ var SchedulePage = (function () {
         var _this = this;
         // Close any open sliding items when the schedule updates
         this.scheduleList && this.scheduleList.closeSlidingItems();
-        this.confData.getTimeline(this.dayIndex, this.queryText, this.excludeTracks, this.segment).then(function (data) {
+        this.confData.getTimeline(this.dayIndex, this.queryText, this.excludeTracks, this.excludeLocations, this.excludeDays, this.segment).then(function (data) {
             _this.flatGroups = data;
         });
     };
@@ -1078,10 +1092,12 @@ var ConferenceData = (function () {
             }
         }
     };
-    ConferenceData.prototype.getTimeline = function (dayIndex, queryText, excludeTracks, segment) {
+    ConferenceData.prototype.getTimeline = function (dayIndex, queryText, excludeTracks, excludeLocations, excludeDays, segment) {
         var _this = this;
         if (queryText === void 0) { queryText = ''; }
         if (excludeTracks === void 0) { excludeTracks = []; }
+        if (excludeLocations === void 0) { excludeLocations = []; }
+        if (excludeDays === void 0) { excludeDays = []; }
         if (segment === void 0) { segment = 'all'; }
         return this.load().then(function (data) {
             var days = [];
@@ -1097,7 +1113,7 @@ var ConferenceData = (function () {
                     group.hide = true;
                     group.sessions.forEach(function (session) {
                         // check if this session should show or not
-                        _this.filterSession(session, queryWords, excludeTracks, segment);
+                        _this.filterSession(session, queryWords, excludeTracks, excludeLocations, excludeDays, segment);
                         if (!session.hide) {
                             // if this session is not hidden then this group should show
                             group.hide = false;
@@ -1118,7 +1134,7 @@ var ConferenceData = (function () {
             return flatGroups;
         });
     };
-    ConferenceData.prototype.filterSession = function (session, queryWords, excludeTracks, segment) {
+    ConferenceData.prototype.filterSession = function (session, queryWords, excludeTracks, excludeLocations, excludeDays, segment) {
         var matchesQueryText = false;
         if (queryWords.length) {
             // of any query word is in the session name than it passes the query test
@@ -1151,6 +1167,14 @@ var ConferenceData = (function () {
                 matchesTracks = true;
             }
         });
+        var matchesLocation = false;
+        if (session.location != null && excludeLocations.indexOf(session.location) === -1) {
+            matchesLocation = true;
+        }
+        var matchesDay = false;
+        if (session.date != null && excludeDays.indexOf(session.date) === -1) {
+            matchesDay = true;
+        }
         // if the segement is 'favorites', but session is not a user favorite
         // then this session does not pass the segment test
         var matchesSegment = false;
@@ -1163,7 +1187,7 @@ var ConferenceData = (function () {
             matchesSegment = true;
         }
         // all tests must be true if it should not be hidden
-        session.hide = !(matchesQueryText && matchesTracks && matchesSegment);
+        session.hide = !(matchesQueryText && matchesTracks && matchesSegment && matchesDay);
     };
     ConferenceData.prototype.getSpeakers = function () {
         return this.load().then(function (data) {

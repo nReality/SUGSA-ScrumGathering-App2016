@@ -84,7 +84,7 @@ export class ConferenceData {
     }
   }
 
-  getTimeline(dayIndex, queryText = '', excludeTracks = [], segment = 'all') {
+  getTimeline(dayIndex, queryText = '', excludeTracks = [], excludeLocations = [], excludeDays = [], segment = 'all') {
     return this.load().then(data => {
 
       let days = [];
@@ -103,7 +103,7 @@ export class ConferenceData {
 
         group.sessions.forEach(session => {
           // check if this session should show or not
-          this.filterSession(session, queryWords, excludeTracks, segment);
+          this.filterSession(session, queryWords, excludeTracks, excludeLocations, excludeDays, segment);
 
           if (!session.hide) {
             // if this session is not hidden then this group should show
@@ -129,7 +129,7 @@ export class ConferenceData {
     });
   }
 
-  filterSession(session, queryWords, excludeTracks, segment) {
+  filterSession(session, queryWords, excludeTracks, excludeLocations, excludeDays, segment) {
 
     let matchesQueryText = false;
     if (queryWords.length) {
@@ -159,6 +159,7 @@ export class ConferenceData {
       matchesQueryText = true;
     }
 
+
     // if any of the sessions tracks are not in the
     // exclude tracks then this session passes the track test
     let matchesTracks = false;
@@ -167,6 +168,17 @@ export class ConferenceData {
         matchesTracks = true;
       }
     });
+
+    let matchesLocation = false;
+    if (session.location != null && excludeLocations.indexOf(session.location) ===-1){
+      matchesLocation = true;
+    }
+
+    let matchesDay = false;
+    if (session.date != null && excludeDays.indexOf(session.date) ===-1){
+      matchesDay = true;
+    }
+
 
     // if the segement is 'favorites', but session is not a user favorite
     // then this session does not pass the segment test
@@ -180,7 +192,7 @@ export class ConferenceData {
     }
 
     // all tests must be true if it should not be hidden
-    session.hide = !(matchesQueryText && matchesTracks && matchesSegment);
+    session.hide = !(matchesQueryText && matchesTracks && matchesSegment && matchesDay);
   }
 
   getSpeakers() {

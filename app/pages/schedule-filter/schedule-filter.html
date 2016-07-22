@@ -16,16 +16,17 @@
 
 <ion-content class="outer-content">
 
+<!--
   <ion-card>
     <ion-item *ngFor="let location of locations" [attr.location]="locationNoSpaces(location.name) | lowercase">
       <span item-left class="dot"></span>
       <ion-label>{{location.name}}</ion-label>
     </ion-item>
   </ion-card>
-
+-->
   <ion-list>
 
-    <ion-item *ngFor="let track of tracks" [hidden]="track.name === ''">      
+    <ion-item *ngFor="let track of tracks" [hidden]="track.name === ''">
       <ion-label>{{track.name}}</ion-label>
       <ion-toggle [(ngModel)]="track.isChecked" secondary></ion-toggle>
     </ion-item>

@@ -17,10 +17,12 @@ export class SchedulePage {
   @ViewChild('scheduleList', {read: List}) scheduleList: List;
 
   dayIndex = 0;
+
   queryText = '';
   segment = 'all';
   excludeTracks = [];
-  days = [];
+  excludeLocations = [];
+  excludeDays = [];
   flatGroups = [];
 
   constructor(
@@ -31,7 +33,18 @@ export class SchedulePage {
   ) {
 
   }
-
+  toggleDay(dateString){
+    this.excludeDays = [];
+    this.confData.data.schedule.forEach(day => {
+      if (day.date == dateString){
+        day.hide = !day.hide;
+      }
+      if (day.hide){
+        this.excludeDays.push(day.date);
+      }
+    });
+    this.updateSchedule();
+  }
   ionViewDidEnter() {
     this.app.setTitle('Schedule');
   }
@@ -40,11 +53,12 @@ export class SchedulePage {
     this.updateSchedule();
   }
 
+
   updateSchedule() {
     // Close any open sliding items when the schedule updates
     this.scheduleList && this.scheduleList.closeSlidingItems();
 
-    this.confData.getTimeline(this.dayIndex, this.queryText, this.excludeTracks, this.segment).then(data => {
+    this.confData.getTimeline(this.dayIndex, this.queryText, this.excludeTracks, this.excludeLocations, this.excludeDays, this.segment).then(data => {
       this.flatGroups = data;
     });
   }
