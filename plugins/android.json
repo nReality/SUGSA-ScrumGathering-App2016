@@ -8,13 +8,16 @@
     },
     "installed_plugins": {
         "cordova-plugin-splashscreen": {
-            "PACKAGE_NAME": "io.ionic.conference"
+            "PACKAGE_NAME": "com.ionicframework.ionic2sampleapps715992"
         },
         "cordova-plugin-whitelist": {
-            "PACKAGE_NAME": "io.ionic.conference"
+            "PACKAGE_NAME": "com.ionicframework.ionic2sampleapps715992"
         },
         "cordova-plugin-x-socialsharing": {
-            "PACKAGE_NAME": "com.nreality.AgileAfricaConf"
+            "PACKAGE_NAME": "com.ionicframework.ionic2sampleapps715992"
+        },
+        "cordova-plugin-ignore-lint-translation": {
+            "PACKAGE_NAME": "com.ionicframework.ionic2sampleapps715992"
         }
     },
     "dependent_plugins": {}

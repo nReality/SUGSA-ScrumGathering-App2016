@@ -23,5 +23,13 @@
         },
         "is_top_level": true,
         "variables": {}
+    },
+    "cordova-plugin-ignore-lint-translation": {
+        "source": {
+            "type": "registry",
+            "id": "cordova-plugin-ignore-lint-translation"
+        },
+        "is_top_level": true,
+        "variables": {}
     }
 }
