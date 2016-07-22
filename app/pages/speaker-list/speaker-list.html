@@ -6,11 +6,11 @@
 
 <ion-content center class="outer-content speaker-list">
 
-  <ion-list center [virtualScroll]="speakers">
+  <ion-list no-lines center [virtualScroll]="speakers">
   <ion-item class="speaker" center wrap *virtualItem="let speaker">
 
 
-    <ion-item-content class="outer-content">
+    <ion-item-content >
       <button ion-item (click)="goToSpeakerDetail(speaker)">
 
         <ion-avatar item-left>
@@ -23,7 +23,7 @@
           Tweet
         </button>
       </button>
-      <ion-list no-lines>
+      <ion-list >
         <button text-wrap wrap ion-item *ngFor="let session of speaker.sessions" (click)="goToSessionDetail(session)">
           <h3 wrap>{{session.name}}</h3>
         </button>

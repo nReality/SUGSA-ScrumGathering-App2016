@@ -35,13 +35,17 @@ export class ConferenceData {
 
     data.tracks = [];
     data.locations = [];
-
+    data.flatGroups = [];
     // loop through each day in the schedule
     data.schedule.forEach(day => {
       // loop through each timeline group in the day
       day.groups.forEach(group => {
+        data.flatGroups.push(group);
+
+
         // loop through each session in the timeline group
         group.sessions.forEach(session => {
+
           this.processSession(data, session, day.date);
         });
       });
@@ -84,8 +88,12 @@ export class ConferenceData {
     return this.load().then(data => {
 
       let days = [];
+      let flatGroups = [];
 
       data.schedule.forEach(day => {
+        var groupForDay : any = {};
+        groupForDay.time = day.date
+        flatGroups.push(groupForDay);
       day.shownSessions = 0;
       queryText = queryText.toLowerCase().replace(/,|\.|-/g, ' ');
       let queryWords = queryText.split(' ').filter(w => !!w.trim().length);
@@ -100,14 +108,19 @@ export class ConferenceData {
           if (!session.hide) {
             // if this session is not hidden then this group should show
             group.hide = false;
-            day.shownSessions++;
+            if(flatGroups.indexOf(group)==-1){
+
+
+              flatGroups.push(group);
+              day.shownSessions++;
+            }
           }
         });
       });
       days.push(day);
     });
 
-      return days;
+      return flatGroups;
     });
   }
 

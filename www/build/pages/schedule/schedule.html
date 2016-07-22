@@ -27,14 +27,14 @@
 </ion-header>
 
 <ion-content class="schedule">
-  <ion-list #scheduleList [virtualScroll]="days">
-
-    <ion-item-group *virtualItem="let day">
-      <ion-item-divider sticky class="date-group">
-        {{day.date}}
-      </ion-item-divider>
-
-      <ion-item-group *ngFor="let group of day.groups" [hidden]="group.hide">
+  <ion-list #scheduleList [virtualScroll]="flatGroups">
+        <ion-item no-lines *virtualItem="let group" [hidden]="group.hide">
+        <ion-item-content class="time-group">
+<!--
+        <ion-item-divider sticky class="date-group">
+          {{group.scheduleHeader}}
+        </ion-item-divider>
+-->
 
         <ion-item-divider sticky class="time-group">
           {{group.time}}
@@ -60,14 +60,13 @@
           </ion-item-options>
 
         </ion-item-sliding>
-
-      </ion-item-group>
-
+</ion-item-content>
+      </ion-item>
+<!--
     <ion-list-header [hidden]="day.shownSessions > 0">
         No Sessions Found.
     </ion-list-header>
-
-  </ion-item-group>
+-->
 
   </ion-list>
 </ion-content>

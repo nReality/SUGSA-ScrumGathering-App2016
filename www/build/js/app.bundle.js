@@ -438,6 +438,7 @@ var SchedulePage = (function () {
         this.segment = 'all';
         this.excludeTracks = [];
         this.days = [];
+        this.flatGroups = [];
     }
     SchedulePage.prototype.ionViewDidEnter = function () {
         this.app.setTitle('Schedule');
@@ -450,7 +451,7 @@ var SchedulePage = (function () {
         // Close any open sliding items when the schedule updates
         this.scheduleList && this.scheduleList.closeSlidingItems();
         this.confData.getTimeline(this.dayIndex, this.queryText, this.excludeTracks, this.segment).then(function (data) {
-            _this.days = data;
+            _this.flatGroups = data;
         });
     };
     SchedulePage.prototype.presentFilter = function () {
@@ -1033,10 +1034,12 @@ var ConferenceData = (function () {
         var _this = this;
         data.tracks = [];
         data.locations = [];
+        data.flatGroups = [];
         // loop through each day in the schedule
         data.schedule.forEach(function (day) {
             // loop through each timeline group in the day
             day.groups.forEach(function (group) {
+                data.flatGroups.push(group);
                 // loop through each session in the timeline group
                 group.sessions.forEach(function (session) {
                     _this.processSession(data, session, day.date);
@@ -1080,7 +1083,11 @@ var ConferenceData = (function () {
         if (segment === void 0) { segment = 'all'; }
         return this.load().then(function (data) {
             var days = [];
+            var flatGroups = [];
             data.schedule.forEach(function (day) {
+                var groupForDay = {};
+                groupForDay.time = day.date;
+                flatGroups.push(groupForDay);
                 day.shownSessions = 0;
                 queryText = queryText.toLowerCase().replace(/,|\.|-/g, ' ');
                 var queryWords = queryText.split(' ').filter(function (w) { return !!w.trim().length; });
@@ -1092,13 +1099,16 @@ var ConferenceData = (function () {
                         if (!session.hide) {
                             // if this session is not hidden then this group should show
                             group.hide = false;
-                            day.shownSessions++;
+                            if (flatGroups.indexOf(group) == -1) {
+                                flatGroups.push(group);
+                                day.shownSessions++;
+                            }
                         }
                     });
                 });
                 days.push(day);
             });
-            return days;
+            return flatGroups;
         });
     };
     ConferenceData.prototype.filterSession = function (session, queryWords, excludeTracks, segment) {

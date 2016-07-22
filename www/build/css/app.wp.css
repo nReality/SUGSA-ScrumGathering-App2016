@@ -11145,6 +11145,18 @@ body {
   border-left: 2px solid #fce5cd;
   padding-left: 10px; }
 
+ion-label {
+  margin: 3px; }
+
+.item-inner {
+  padding: 0; }
+
+.virtual-scroll {
+  margin-bottom: 100px; }
+
+.scroll-content {
+  margin-bottom: 100px; }
+
 .date-group {
   text-align: center;
   font-size: 20px;
@@ -11215,14 +11227,17 @@ ion-item[location=boundaryroom] .dot {
 
 .speaker-list {
   background-color: white; }
-  .speaker-list ion-card.speaker ion-card-header .item {
-    padding: 12px; }
-  .speaker-list ion-card.speaker ion-card-content .list {
+  .speaker-list ion-label {
     margin: 0; }
-  .speaker-list ion-card.speaker ion-card-header,
-  .speaker-list ion-card.speaker ion-card-content,
-  .speaker-list ion-card.speaker ion-card-content .list ion-item-content {
+  .speaker-list .item-inner {
     padding: 0; }
+  .speaker-list .virtual-scroll {
+    margin-bottom: 500px; }
+  .speaker-list .speaker {
+    margin: 0;
+    padding: 0;
+    background-color: #f7f7f7;
+    width: 100%; }
 
 .speaker-list-web ion-card.speaker {
   width: 350px; }

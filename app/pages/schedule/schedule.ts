@@ -21,6 +21,7 @@ export class SchedulePage {
   segment = 'all';
   excludeTracks = [];
   days = [];
+  flatGroups = [];
 
   constructor(
     private app: App,
@@ -44,7 +45,7 @@ export class SchedulePage {
     this.scheduleList && this.scheduleList.closeSlidingItems();
 
     this.confData.getTimeline(this.dayIndex, this.queryText, this.excludeTracks, this.segment).then(data => {
-      this.days = data;
+      this.flatGroups = data;
     });
   }
 
@@ -124,7 +125,7 @@ export class SchedulePage {
     this.nav.present(alert);
   }
 
-  locationNoSpaces(location){    
+  locationNoSpaces(location){
     return (!location) ? '' : location.replace(/ /g, '');
   }
 }

@@ -18,7 +18,19 @@ $categories: (
    }
   }
 }
+ion-label{
+  margin: 3px;
+}
+.item-inner{
+  padding: 0;
+}
 
+.virtual-scroll{
+  margin-bottom: 100px;
+}
+.scroll-content{
+  margin-bottom: 100px;
+}
 .date-group{
   text-align: center;
   font-size: 20px;
