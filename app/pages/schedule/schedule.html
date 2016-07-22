@@ -28,10 +28,10 @@
 
     <table width="100%">
       <tr>
-        <td class="scheduletoggle" width="25%"><button class="scheduletogglebutton" small block [color]="'ballroom'">Ballroom</button></td>
-        <td class="scheduletoggle" width="25%"><button outline class="scheduletogglebutton" small block [color]="'galaroom'">Gala</button></td>
-        <td class="scheduletoggle" width="25%"><button class="scheduletogglebutton" small block [color]="'boundaryroom'">Boundary</button></td>
-        <td class="scheduletoggle" width="25%"><button outline class="scheduletogglebutton" small block [color]="'indabatree'">Indaba</button></td>
+        <td class="scheduletoggle" width="25%"><button (click)="toggleLocation(locations[0].name)" [outline]="locations[0].hide" class="scheduletogglebutton" small block [color]="'ballroom'">Ballroom</button></td>
+        <td class="scheduletoggle" width="25%"><button (click)="toggleLocation(locations[2].name)" [outline]="locations[2].hide" outline class="scheduletogglebutton" small block [color]="'galaroom'">Gala</button></td>
+        <td class="scheduletoggle" width="25%"><button (click)="toggleLocation(locations[3].name)" [outline]="locations[3].hide" class="scheduletogglebutton" small block [color]="'boundaryroom'">Workshop</button></td>
+        <td class="scheduletoggle" width="25%"><button (click)="toggleLocation(locations[1].name)" [outline]="locations[1].hide" outline class="scheduletogglebutton" small block [color]="'indabatree'">Indaba</button></td>
       </tr>
     </table>
   </ion-toolbar>

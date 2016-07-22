@@ -192,7 +192,7 @@ export class ConferenceData {
     }
 
     // all tests must be true if it should not be hidden
-    session.hide = !(matchesQueryText && matchesTracks && matchesSegment && matchesDay);
+    session.hide = !(matchesQueryText && matchesTracks && matchesSegment && matchesDay && matchesLocation);
   }
 
   getSpeakers() {

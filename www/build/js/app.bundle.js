@@ -429,6 +429,7 @@ var schedule_filter_1 = require('../schedule-filter/schedule-filter');
 var session_detail_1 = require('../session-detail/session-detail');
 var SchedulePage = (function () {
     function SchedulePage(app, nav, confData, user) {
+        var _this = this;
         this.app = app;
         this.nav = nav;
         this.confData = confData;
@@ -438,9 +439,29 @@ var SchedulePage = (function () {
         this.segment = 'all';
         this.excludeTracks = [];
         this.excludeLocations = [];
+        this.locations = [];
         this.excludeDays = [];
         this.flatGroups = [];
+        this.confData.data.locations.forEach(function (locationName) {
+            _this.locations.push({
+                name: locationName,
+                hide: false
+            });
+        });
     }
+    SchedulePage.prototype.toggleLocation = function (locationName) {
+        var _this = this;
+        this.excludeLocations = [];
+        this.locations.forEach(function (location) {
+            if (location.name == locationName) {
+                location.hide = !location.hide;
+            }
+            if (location.hide) {
+                _this.excludeLocations.push(location.name);
+            }
+        });
+        this.updateSchedule();
+    };
     SchedulePage.prototype.toggleDay = function (dateString) {
         var _this = this;
         this.excludeDays = [];
@@ -1187,7 +1208,7 @@ var ConferenceData = (function () {
             matchesSegment = true;
         }
         // all tests must be true if it should not be hidden
-        session.hide = !(matchesQueryText && matchesTracks && matchesSegment && matchesDay);
+        session.hide = !(matchesQueryText && matchesTracks && matchesSegment && matchesDay && matchesLocation);
     };
     ConferenceData.prototype.getSpeakers = function () {
         return this.load().then(function (data) {

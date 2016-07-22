@@ -27,7 +27,7 @@
     "cordova-plugin-ignore-lint-translation": {
         "source": {
             "type": "registry",
-            "id": "cordova-plugin-ignore-lint-translation"
+            "id": "cordova-plugin-ignore-lint-translation@~0.0.1"
         },
         "is_top_level": true,
         "variables": {}

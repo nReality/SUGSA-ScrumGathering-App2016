@@ -22,6 +22,7 @@ export class SchedulePage {
   segment = 'all';
   excludeTracks = [];
   excludeLocations = [];
+  locations: Array<{name: string,hide: boolean}> = [];
   excludeDays = [];
   flatGroups = [];
 
@@ -32,7 +33,28 @@ export class SchedulePage {
     private user: UserData
   ) {
 
+    this.confData.data.locations.forEach(locationName => {
+
+          this.locations.push({
+            name: locationName,
+            hide: false
+          });
+    });
+
   }
+  toggleLocation(locationName){
+    this.excludeLocations = [];
+    this.locations.forEach(location => {
+      if (location.name == locationName){
+        location.hide = !location.hide;
+      }
+      if (location.hide){
+        this.excludeLocations.push(location.name);
+      }
+    });
+    this.updateSchedule();
+  }
+
   toggleDay(dateString){
     this.excludeDays = [];
     this.confData.data.schedule.forEach(day => {

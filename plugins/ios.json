@@ -15,6 +15,9 @@
         },
         "cordova-plugin-x-socialsharing": {
             "PACKAGE_NAME": "com.ionicframework.ionic2sampleapps715992"
+        },
+        "cordova-plugin-ignore-lint-translation": {
+            "PACKAGE_NAME": "com.ionicframework.ionic2sampleapps715992"
         }
     },
     "dependent_plugins": {}
