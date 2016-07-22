@@ -11523,6 +11523,9 @@ body {
 .time-group {
   background-color: #f7f7f7; }
 
+.virtual-position {
+  width: 100%; }
+
 .session-description {
   white-space: pre-wrap; }
 
