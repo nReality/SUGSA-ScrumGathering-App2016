@@ -1126,6 +1126,17 @@ var ConferenceData = (function () {
                 if (session.name.toLowerCase().indexOf(queryWord) > -1) {
                     matchesQueryText = true;
                 }
+                if (session.location != null && session.location.toLowerCase().indexOf(queryWord) > -1) {
+                    matchesQueryText = true;
+                }
+                if (session.date != null && session.date.toLowerCase().indexOf(queryWord) > -1) {
+                    matchesQueryText = true;
+                }
+                session.speakers.forEach(function (speaker) {
+                    if (speaker.name != null && speaker.name.toLowerCase().indexOf(queryWord) > -1) {
+                        matchesQueryText = true;
+                    }
+                });
             });
         }
         else {
