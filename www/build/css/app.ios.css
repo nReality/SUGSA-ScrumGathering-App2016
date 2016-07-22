@@ -10039,6 +10039,9 @@ button.scheduletogglebutton {
   border-left: 4px solid #ff9999;
   padding-left: 10px; }
 
+.schedule ion-item {
+  padding: 0px; }
+
 ion-label {
   margin: 3px; }
 
@@ -10049,6 +10052,9 @@ date-group {
   text-align: center;
   font-size: 20px;
   background-color: #f2f2f2; }
+
+ion-footer {
+  background-color: white; }
 
 .time-group {
   background-color: #f7f7f7; }
