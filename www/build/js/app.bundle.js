@@ -902,6 +902,8 @@ var SpeakerListPage = (function () {
         this.speakers = [];
         this.tweetShare = tweetShare;
         confData.getSpeakers().then(function (speakers) {
+            var emptyObjectAtEndToHelpWithiOSScrollIssue = {};
+            speakers.push(emptyObjectAtEndToHelpWithiOSScrollIssue);
             _this.speakers = speakers;
         });
     }
@@ -912,7 +914,7 @@ var SpeakerListPage = (function () {
         this.nav.push(speaker_detail_1.SpeakerDetailPage, speakerName);
     };
     SpeakerListPage.prototype.goToSpeakerTwitter = function (speaker) {
-        this.tweetShare.shareViaTwitter("." + speaker.twitter + " #AgileAfrica2016", null, null);
+        this.tweetShare.shareViaTwitter("." + speaker.twitter + " #AgileAfrica", null, null);
     };
     SpeakerListPage.prototype.openSpeakerShare = function (speaker) {
         var actionSheet = ionic_angular_1.ActionSheet.create({
@@ -1108,6 +1110,11 @@ var ConferenceData = (function () {
                 });
                 days.push(day);
             });
+            var emptyObjectAtEndToHelpWithiOSScrollIssue = {};
+            flatGroups.push(emptyObjectAtEndToHelpWithiOSScrollIssue);
+            flatGroups.push(emptyObjectAtEndToHelpWithiOSScrollIssue);
+            flatGroups.push(emptyObjectAtEndToHelpWithiOSScrollIssue);
+            flatGroups.push(emptyObjectAtEndToHelpWithiOSScrollIssue);
             return flatGroups;
         });
     };

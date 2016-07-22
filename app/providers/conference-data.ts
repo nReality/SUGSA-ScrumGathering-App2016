@@ -119,7 +119,12 @@ export class ConferenceData {
       });
       days.push(day);
     });
+    var emptyObjectAtEndToHelpWithiOSScrollIssue : any = {};
 
+    flatGroups.push(emptyObjectAtEndToHelpWithiOSScrollIssue);
+        flatGroups.push(emptyObjectAtEndToHelpWithiOSScrollIssue);
+        flatGroups.push(emptyObjectAtEndToHelpWithiOSScrollIssue);
+        flatGroups.push(emptyObjectAtEndToHelpWithiOSScrollIssue);
       return flatGroups;
     });
   }
