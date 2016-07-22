@@ -80,7 +80,7 @@ export class SessionDetailPage {
         speakerstring += speaker.twitter + " "
     }
     //window.open(`https://twitter.com/share?text=` + sessionName);
-      this.tweetShare.shareViaTwitter("." + speakerstring+" #AgileAfrica2016",null,null)
+      this.tweetShare.shareViaTwitter("." + speakerstring+" #AgileAfrica",null,null)
   }
 
 
