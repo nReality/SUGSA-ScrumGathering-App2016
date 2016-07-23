@@ -8,7 +8,7 @@
           "sessions": [
             {
               "name": "Registration",
-              "location": "Ballroom",
+              "location": "Indaba Tree",
               "timeStart": "8:30 am",
               "timeEnd": "9:00 am",
               "tracks": [
@@ -21,7 +21,7 @@
           "time": "9:00 am",
           "sessions": [
             {
-              "name": "Welcome",
+              "name": "Welcome to Agile Africa 2016",
               "location": "Ballroom",
               "description": "For more information about the Agile Africa conference and our sponsors, please see the about page.",
               "speakerNames": [
@@ -76,7 +76,7 @@
           "time": "11:00 am",
           "sessions": [
             {
-              "name": "Tea and Move",
+              "name": "Tea and move",
               "location": "Indaba Tree",
               "description": "Remember to visit our sponsors' webpages.",
               "timeStart": "11:00 am",
@@ -196,6 +196,19 @@
           "time": "1:00 pm",
           "sessions": [
             {
+              "name": "Fishbowl",
+              "location": "Ballroom",
+              "speakerNames": [
+                "Henrik Kniberg"
+              ],
+              "description": "Join us for this fun interactive session with Henrik.",
+              "timeStart": "1:00 pm",
+              "timeEnd": "2:00 pm",
+              "tracks": [
+                "Keynote"
+              ]
+            },
+            {
               "name": "Posters",
               "location": "Indaba Tree",
               "description": "See list at bottom of session list.",
@@ -205,6 +218,7 @@
                 "Posters"
               ]
             },
+
             {
               "name": "Workshop: Making Retros Work (ends at 3:30pm)",
               "location": "Boundary Room",
@@ -224,7 +238,7 @@
           "time": "1:50 pm",
           "sessions": [
             {
-              "name": "Is anyone there? - Dealing with distributed teams",
+              "name": "Is anyone there? Dealing with distributed teams",
               "location": "Ballroom",
               "description": "In the ideal perfect world there will be rainbows and unicorns and teams that all sit together.\n\nIn reality most teams have to deal with distribution in one form or another. For some its team members spread across a building, for others its team members in other parts of the world in different time zones.\n\nCan Agile work for these teams?",
               "speakerNames": [
@@ -307,7 +321,7 @@
           "time": "3:00 pm",
           "sessions": [
             {
-              "name": "Tea and Move",
+              "name": "Tea and move",
               "location": "Indaba Tree",
               "description": "Remember to visit our sponsors' webpages.",
               "timeStart": "3:00 pm",
@@ -422,7 +436,7 @@
           ]
         },
         {
-          "time": "10:10",
+          "time": "10:10 am",
           "sessions": [
             {
               "name": "Move and Stretch",
@@ -435,7 +449,7 @@
           ]
         },
         {
-          "time": "10:20",
+          "time": "10:20 am",
           "sessions": [
             {
               "name": "Unlocking ScrumMastery",
@@ -485,10 +499,10 @@
           ]
         },
         {
-          "time": "10:50",
+          "time": "10:50 am",
           "sessions": [
             {
-              "name": "Tea and Move",
+              "name": "Tea and move",
               "location": "Indaba Tree",
               "description": "Remember to visit our sponsors' webpages.",
               "timeStart": "10:50 am",
@@ -600,7 +614,7 @@
           ]
         },
         {
-          "time": "1:00 am",
+          "time": "1:00 pm",
           "sessions": [
             {
               "name": "Posters",
@@ -610,19 +624,6 @@
               "timeEnd": "1:50 pm",
               "tracks": [
                 "Posters"
-              ]
-            },
-            {
-              "name": "Fishbowl",
-              "location": "Ballroom",
-              "speakerNames": [
-                "Henrik Kniberg"
-              ],
-              "description": "Join us for this fun interactive session with Henrik.",
-              "timeStart": "1:00 pm",
-              "timeEnd": "2:00 pm",
-              "tracks": [
-                "Keynote"
               ]
             },
             {
@@ -726,7 +727,7 @@
           "time": "2:55 pm",
           "sessions": [
             {
-              "name": "Tea and Move",
+              "name": "Tea and move",
               "description": "Remember to visit our sponsors' webpages.",
               "timeStart": "2:55 pm",
               "timeEnd": "3:20 pm",

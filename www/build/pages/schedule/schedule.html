@@ -59,7 +59,7 @@
 
         <ion-item-sliding *ngFor="let session of group.sessions" #slidingItem [attr.location]="locationNoSpaces(session.location) | lowercase" [hidden]="session.hide">
 
-          <button ion-item (click)="goToSessionDetail(session)">
+          <button text-wrap  ion-item (click)="goToSessionDetail(session)">
             <h3>{{session.name}}</h3>
             <p>
               <span  *ngIf="session.speakerNames">{{session.speakerNames}} in</span>
