@@ -198,6 +198,20 @@ export class ConferenceData {
   getSpeakers() {
     return this.load().then(data => {
       return data.speakers.sort((a, b) => {
+        var aPriority = 9999;
+        if (a.priority != null){
+          aPriority = a.priority;
+        }
+        var bPriority = 9999;
+        if (b.priority != null){
+          bPriority = b.priority;
+        }
+
+        if (aPriority != bPriority){
+          return aPriority - bPriority;
+        }
+
+
         let aName = a.name.split(' ').shift();
         let bName = b.name.split(' ').shift();
         return aName.localeCompare(bName);

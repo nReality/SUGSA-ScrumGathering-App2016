@@ -1213,6 +1213,17 @@ var ConferenceData = (function () {
     ConferenceData.prototype.getSpeakers = function () {
         return this.load().then(function (data) {
             return data.speakers.sort(function (a, b) {
+                var aPriority = 9999;
+                if (a.priority != null) {
+                    aPriority = a.priority;
+                }
+                var bPriority = 9999;
+                if (b.priority != null) {
+                    bPriority = b.priority;
+                }
+                if (aPriority != bPriority) {
+                    return aPriority - bPriority;
+                }
                 var aName = a.name.split(' ').shift();
                 var bName = b.name.split(' ').shift();
                 return aName.localeCompare(bName);

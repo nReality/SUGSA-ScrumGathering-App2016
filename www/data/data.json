@@ -929,6 +929,7 @@
   "speakers": [
     {
       "name": "Jacques de Vos",
+      "priority":4,
       "profilePic": "img/speakers/jacques-head.jpg",
       "twitter": "@jacdevos",
       "about": "nReality founder and dev coach.\n\nAlways amazed by the limitless potential of tech but also enchanted by our unsolvable puzzles.\n\nAs founder and CEO of nReality, a boutique software engineering consultancy, my recent focus has been on coaching software engineering teams and businesses of all shapes and sizes. We look at how to excel at building the right stuff, well, which touches on a variety of areas like culture, engineering practices, processes, architecture and development skills. \n\nI also actively develop mobile-focused software products, incorporating all platforms.\n\nI coach, code, listen and speak."
@@ -936,17 +937,20 @@
     {
       "name": "codeX",
       "profilePic": "img/speakers/codeX-logo.jpg",
+      "priority":5,
       "twitter": "@project_codeX",
       "about": "codeX is a full-time apprenticeship 9 to 5, every weekday. Very quickly, you'll build real projects for real companies. You might even get paid for them as you grow your skills, and commit to working for our partners for a time at the end (if they want to hire you).\n\ncodeX guides you and gives you a safe space to experiment and grow.\nThere are no formal classes, though you’ll learn industry standard programming languages like Java, PHP, Python, and Javascript. In order to build your projects, you'll be guided through online content with a developer mentor always available to help.\n\ncodeX complements the learn-by-doing approach with daily coding exercises (katas) and talks with industry professionals and mentors so you gain context for your programming knowledge in computer science and business.\n\nBut we only invest in people who invest in themselves."
     },
     {
       "name": "WeThinkCode",
+      "priority":6,
       "profilePic": "img/speakers/wethinkcode-logo.jpg",
       "twitter": "@wethinkcode",
       "about": "WeThinkCode is a new kind of institution dedicated to adress the IT skills gap.\n\nOur mission is to source and develop Africa's future digital talent. We are democratising education, by making our applications open and accessible to all brilliant minds, regardless of previous education or financial means. \n\nStudents pay no tuition, and we partner with corporates, foundations and individuals to sponsor students. We provide corporates access to world-class software engineers. \n\nIf you would like more information on how to get involved, please contact us on sponsor@wethinkcode.co.za"
     },
     {
       "name": "Henrik Kniberg",
+      "priority":1,
       "profilePic": "img/speakers/henrik-head.jpg",
       "twitter": "@henrikkniberg",
       "about": "Henrik Kniberg is an Agile/Lean coach at Crisp in Stockholm, working primarily with Lego and Spotify. He enjoys helping companies succeed with both the technical and human sides of software development.\n\nDuring the past 15 years he has been CTO of 3 Swedish IT companies and helped many more get started with Agile and Lean software development.\n\nHenrik is former board member of the Agile Alliance and works regularly with Mary Poppendieck, Jeff Sutherland, Alistair Cockburn, and other thought leaders. He is the author of “Scrum and XP from the Trenches” and “ Kanban and Scrum, making the most of both” and “Lean from the Trenches“.\n\nThese books are available in over 12 languages, have over 500,000 readers, and are used as primary guide to Agile and Lean software development by hundreds of companies worldwide.\u00ad"
@@ -1073,12 +1077,14 @@
     },
     {
       "name": "Sandy Mamoli",
+      "priority":3,
       "profilePic": "img/speakers/sandy-head.jpg",
       "twitter": "@smamol",
       "about": "Director of All Things Agile at http://Nomad8.com.\n\nAuthor of Creating Great Teams - How Self-Selection Lets People Excel."
     },
     {
       "name": "Neal Ford",
+      "priority":2,
       "profilePic": "img/speakers/neal-head.jpg",
       "twitter": "@neal4d",
       "about": "Neal Ford is Director, Software Architect, and Meme Wrangler at ThoughtWorks, a global IT consultancy with a focus on end-to-end software development and delivery.\n\nHe is also the designer and developer of applications, articles, video/DVD presentations, and author and/or editor of an increasingly large number of books spanning a variety of subjects and technologies, including the most recent Presentation Patterns.\n\nHis professional focus includes designing and building of large-scale enterprise applications. He is also an internationally acclaimed speaker, speaking at over 300 developer conferences worldwide, delivering more than 2000 presentations."
