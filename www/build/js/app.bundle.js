@@ -1015,7 +1015,7 @@ var TabsPage = (function () {
         this.tab2Root = speaker_list_1.SpeakerListPage;
         this.tab3Root = map_1.MapPage;
         this.tab4Root = about_1.AboutPage;
-        this.mySelectedIndex = navParams.data.tabIndex || 0;
+        this.mySelectedIndex = navParams.data.tabIndex || 3;
     }
     TabsPage = __decorate([
         core_1.Component({
