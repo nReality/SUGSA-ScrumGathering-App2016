@@ -1041,6 +1041,7 @@
     },
     {
       "name": "Kevin Trethewey",
+      "priority":7,
       "profilePic": "img/speakers/kevin-head.jpg",
       "twitter": "@KevinTrethewey",
       "about": "Founded Driven in 2008, and since then has grown it into a local consultancy with an international reputation.\n\nHis specific fields of interest include creating learning organisations, optimising organisations for flow of value,\n and understanding how to assist awesome people to better understand and change messy work systems."
@@ -1187,6 +1188,7 @@
     },
     {
       "name": "Danie Roux",
+      "priority":8,
       "profilePic": "img/speakers/danie-head.jpg",
       "twitter": "@danieroux",
       "about": "Known in the industry as a good guy to have a conversation with, Danie has a habit of improving both the macro and micro flow within systems.\n\nDanie asks Why and How value is created."
