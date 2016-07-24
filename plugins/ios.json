@@ -7,17 +7,17 @@
         "files": {}
     },
     "installed_plugins": {
+        "cordova-plugin-ignore-lint-translation": {
+            "PACKAGE_NAME": "com.nreality.agileafricaconf"
+        },
         "cordova-plugin-splashscreen": {
-            "PACKAGE_NAME": "com.ionicframework.ionic2sampleapps715992"
+            "PACKAGE_NAME": "com.nreality.agileafricaconf"
         },
         "cordova-plugin-whitelist": {
-            "PACKAGE_NAME": "com.ionicframework.ionic2sampleapps715992"
+            "PACKAGE_NAME": "com.nreality.agileafricaconf"
         },
         "cordova-plugin-x-socialsharing": {
-            "PACKAGE_NAME": "com.ionicframework.ionic2sampleapps715992"
-        },
-        "cordova-plugin-ignore-lint-translation": {
-            "PACKAGE_NAME": "com.ionicframework.ionic2sampleapps715992"
+            "PACKAGE_NAME": "com.nreality.agileafricaconf"
         }
     },
     "dependent_plugins": {}
