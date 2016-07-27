@@ -9999,10 +9999,11 @@ body {
 .map-page #map.show-map {
   opacity: 1; }
 
-ion-toolbar.toggletoolbar {
+ion-toolbar {
   padding: 7px;
   padding-top: 0px;
-  padding-bottom: 2px; }
+  padding-bottom: 2px;
+  min-height: 3px !important; }
 
 ion-footer {
   padding: 10px;

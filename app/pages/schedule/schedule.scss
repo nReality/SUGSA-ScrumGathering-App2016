@@ -1,7 +1,8 @@
-ion-toolbar.toggletoolbar{
+ion-toolbar{
     padding: 7px;
     padding-top: 0px;
     padding-bottom: 2px;
+    min-height: 3px!important;
 }
 
 ion-footer{

@@ -24,25 +24,24 @@
     </ion-buttons>
   </ion-navbar>
 
-  <ion-toolbar class="toggletoolbar" no-border-top>
 
-    <table width="100%">
-      <tr>
-        <td class="scheduletoggle" width="25%"><button (click)="toggleLocation('Ballroom')" [outline]="locations[1].hide" class="scheduletogglebutton" small block [color]="'ballroom'">Ballroom</button></td>
-        <td class="scheduletoggle" width="25%"><button (click)="toggleLocation('Gala Room')" [outline]="locations[2].hide" outline class="scheduletogglebutton" small block [color]="'galaroom'">Gala</button></td>
-        <td class="scheduletoggle" width="25%"><button (click)="toggleLocation('Boundary Room')" [outline]="locations[3].hide" class="scheduletogglebutton" small block [color]="'boundaryroom'">Workshop</button></td>
-        <td class="scheduletoggle" width="25%"><button (click)="toggleLocation('Indaba Tree')" [outline]="locations[0].hide" outline class="scheduletogglebutton" small block [color]="'indabatree'">Indaba</button></td>
-      </tr>
-    </table>
-  </ion-toolbar>
 </ion-header>
 
 
-
-
-
 <ion-content class="schedule" >
+  <ion-item class="toggletoolbar">
+    <ion-toolbar light>
 
+      <table width="100%">
+        <tr>
+          <td class="scheduletoggle" width="25%"><button (click)="toggleLocation('Ballroom')" [outline]="locations[1].hide" class="scheduletogglebutton" small block [color]="'ballroom'">Ballroom</button></td>
+          <td class="scheduletoggle" width="25%"><button (click)="toggleLocation('Gala Room')" [outline]="locations[2].hide" outline class="scheduletogglebutton" small block [color]="'galaroom'">Gala</button></td>
+          <td class="scheduletoggle" width="25%"><button (click)="toggleLocation('Boundary Room')" [outline]="locations[3].hide" class="scheduletogglebutton" small block [color]="'boundaryroom'">Workshop</button></td>
+          <td class="scheduletoggle" width="25%"><button (click)="toggleLocation('Indaba Tree')" [outline]="locations[0].hide" outline class="scheduletogglebutton" small block [color]="'indabatree'">Indaba</button></td>
+        </tr>
+      </table>
+    </ion-toolbar>
+  </ion-item>
 
   <ion-list #scheduleList [virtualScroll]="flatGroups">
         <ion-item no-lines *virtualItem="let group" [hidden]="group.hide">
