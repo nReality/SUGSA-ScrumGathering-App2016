@@ -39,13 +39,12 @@
           "time": "9:20 am",
           "sessions": [
             {
-              "name": "WeThinkCode_: A Learning Continent - unlocking African opportunities",
+              "name": "codeX: A Learning Continent - unlocking African opportunities",
               "location": "Ballroom",
-              "description": "codeX and WeThinkCode strive to give back to the community. Come join us to see what they have in-store for software in Africa.",
+              "description": "codeX and WeThinkCode strive to give back to the community. Come join us to see what they have in-store for software in  Africa.",
               "speakerNames": [
-                "Arlene Mulder",
-                "Tanaka Malaba",
-                "Tumelo Motaung"
+                "Cara Turner",
+                "Onwaba Mrhwetyana"
               ],
               "timeStart": "9:20 am",
               "timeEnd": "10:00 am",
@@ -54,12 +53,13 @@
               ]
             },
             {
-              "name": "codeX: A Learning Continent - unlocking African opportunities",
+              "name": "WeThinkCode_: A Learning Continent - unlocking African opportunities",
               "location": "Ballroom",
-              "description": "codeX and WeThinkCode strive to give back to the community. Come join us to see what they have in-store for software in  Africa.",
+              "description": "codeX and WeThinkCode strive to give back to the community. Come join us to see what they have in-store for software in Africa.",
               "speakerNames": [
-                "Cara Turner",
-                "Onwaba Mrhwetyana"
+                "Arlene Mulder",
+                "Tanaka Malaba",
+                "Tumelo Motaung"
               ],
               "timeStart": "9:20 am",
               "timeEnd": "10:00 am",
@@ -600,16 +600,6 @@
                 "Building the right thing",
                 "People and organisational culture"
               ]
-            },
-            {
-              "name": "Lunch and Discussions",
-              "location": "Indaba Tree",
-              "description": "Remember to visit our sponsors' webpages.",
-              "timeStart": "12:00 pm",
-              "timeEnd": "1:30 pm",
-              "tracks": [
-                "Food & Other"
-              ]
             }
           ]
         },
@@ -947,7 +937,7 @@
       "priority":4,
       "profilePic": "img/speakers/jacques-head.jpg",
       "twitter": "@jacdevos",
-      "about": "nReality founder and dev coach.\n\nAlways amazed by the limitless potential of tech but also enchanted by our unsolvable puzzles.\n\nAs founder and CEO of nReality, a boutique software engineering consultancy, my recent focus has been on coaching software engineering teams and businesses of all shapes and sizes. We look at how to excel at building the right stuff, well, which touches on a variety of areas like culture, engineering practices, processes, architecture and development skills. \n\nI also actively develop mobile-focused software products, incorporating all platforms.\n\nI coach, code, listen and speak."
+      "about": "nReality founder and dev coach.\n\nAlways amazed by the limitless potential of tech but also enchanted by our unsolvable puzzles.\n\nAs founder and CEO of nReality, a boutique software engineering consultancy, my recent focus has been on coaching software engineering teams and businesses of all shapes and sizes.\n\nWe look at how to excel at building the right stuff, well, which touches on a variety of areas like culture, engineering practices, processes, architecture and development skills. \n\nI also actively develop mobile-focused software products, incorporating all platforms.\n\nI coach, code, listen and speak."
     },
     {
       "name": "codeX",
