@@ -10008,6 +10008,9 @@ ion-toolbar {
 ion-header ion-toolbar .toolbar-background {
   background-color: white; }
 
+.toolbar-background {
+  border-bottom: 0px; }
+
 ion-footer {
   padding: 10px;
   padding-top: 0px;

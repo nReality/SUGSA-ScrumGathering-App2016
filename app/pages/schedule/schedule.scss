@@ -6,7 +6,12 @@ ion-toolbar{
 }
 
 ion-header ion-toolbar .toolbar-background{
-  background-color: white;
+  background-color: white;  
+}
+
+.toolbar-background{
+  border-bottom: 0px;
+
 }
 
 ion-footer{
