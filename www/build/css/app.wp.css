@@ -13693,6 +13693,9 @@ body {
 .map-page #map.show-map {
   opacity: 1; }
 
+ion-searchbar {
+  border: 0px; }
+
 ion-toolbar {
   padding: 7px;
   padding-top: 0px;
