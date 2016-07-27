@@ -124,8 +124,7 @@ ionic_angular_1.ionicBootstrap(ConferenceApp, [conference_data_1.ConferenceData,
     tabbarPlacement: 'bottom',
     prodMode: true
 });
-
-},{"./pages/account/account":3,"./pages/login/login":4,"./pages/signup/signup":11,"./pages/speaker-list-web/speaker-list-web":14,"./pages/tabs/tabs":16,"./providers/conference-data":17,"./providers/tweet-share":18,"./providers/user-data":19,"@angular/core":166,"firebase":344,"ionic-angular":432,"ionic-native":459}],2:[function(require,module,exports){
+},{"./pages/account/account":3,"./pages/login/login":4,"./pages/signup/signup":11,"./pages/speaker-list-web/speaker-list-web":14,"./pages/tabs/tabs":16,"./providers/conference-data":17,"./providers/tweet-share":18,"./providers/user-data":19,"@angular/core":167,"firebase":347,"ionic-angular":435,"ionic-native":462}],2:[function(require,module,exports){
 "use strict";
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -171,8 +170,7 @@ var AboutPage = (function () {
     return AboutPage;
 }());
 exports.AboutPage = AboutPage;
-
-},{"@angular/core":166,"ionic-angular":432}],3:[function(require,module,exports){
+},{"@angular/core":167,"ionic-angular":435}],3:[function(require,module,exports){
 "use strict";
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -245,8 +243,7 @@ var AccountPage = (function () {
     return AccountPage;
 }());
 exports.AccountPage = AccountPage;
-
-},{"../../providers/user-data":19,"../login/login":4,"@angular/core":166,"ionic-angular":432}],4:[function(require,module,exports){
+},{"../../providers/user-data":19,"../login/login":4,"@angular/core":167,"ionic-angular":435}],4:[function(require,module,exports){
 "use strict";
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -288,8 +285,7 @@ var LoginPage = (function () {
     return LoginPage;
 }());
 exports.LoginPage = LoginPage;
-
-},{"../../providers/user-data":19,"../signup/signup":11,"../tabs/tabs":16,"@angular/core":166,"ionic-angular":432}],5:[function(require,module,exports){
+},{"../../providers/user-data":19,"../signup/signup":11,"../tabs/tabs":16,"@angular/core":167,"ionic-angular":435}],5:[function(require,module,exports){
 "use strict";
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -340,8 +336,7 @@ var MapPage = (function () {
     return MapPage;
 }());
 exports.MapPage = MapPage;
-
-},{"../../providers/conference-data":17,"@angular/core":166}],6:[function(require,module,exports){
+},{"../../providers/conference-data":17,"@angular/core":167}],6:[function(require,module,exports){
 "use strict";
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -409,8 +404,7 @@ var ScheduleFilterPage = (function () {
     return ScheduleFilterPage;
 }());
 exports.ScheduleFilterPage = ScheduleFilterPage;
-
-},{"../../providers/conference-data":17,"@angular/core":166,"ionic-angular":432}],7:[function(require,module,exports){
+},{"../../providers/conference-data":17,"@angular/core":167,"ionic-angular":435}],7:[function(require,module,exports){
 "use strict";
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -574,8 +568,7 @@ var SchedulePage = (function () {
     return SchedulePage;
 }());
 exports.SchedulePage = SchedulePage;
-
-},{"../../providers/conference-data":17,"../../providers/user-data":19,"../schedule-filter/schedule-filter":6,"../session-detail/session-detail":9,"@angular/core":166,"ionic-angular":432}],8:[function(require,module,exports){
+},{"../../providers/conference-data":17,"../../providers/user-data":19,"../schedule-filter/schedule-filter":6,"../session-detail/session-detail":9,"@angular/core":167,"ionic-angular":435}],8:[function(require,module,exports){
 "use strict";
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -606,8 +599,7 @@ var SessionDetailWebPage = (function () {
     return SessionDetailWebPage;
 }());
 exports.SessionDetailWebPage = SessionDetailWebPage;
-
-},{"@angular/core":166,"ionic-angular":432}],9:[function(require,module,exports){
+},{"@angular/core":167,"ionic-angular":435}],9:[function(require,module,exports){
 "use strict";
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -702,8 +694,7 @@ var SessionDetailPage = (function () {
     return SessionDetailPage;
 }());
 exports.SessionDetailPage = SessionDetailPage;
-
-},{"../../providers/tweet-share":18,"../speaker-detail/speaker-detail":13,"./star":10,"@angular/core":166,"firebase":344,"ionic-angular":432,"ionic-native":459}],10:[function(require,module,exports){
+},{"../../providers/tweet-share":18,"../speaker-detail/speaker-detail":13,"./star":10,"@angular/core":167,"firebase":347,"ionic-angular":435,"ionic-native":462}],10:[function(require,module,exports){
 "use strict";
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -745,8 +736,7 @@ var Star = (function () {
     return Star;
 }());
 exports.Star = Star;
-
-},{"@angular/core":166}],11:[function(require,module,exports){
+},{"@angular/core":167}],11:[function(require,module,exports){
 "use strict";
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -784,8 +774,7 @@ var SignupPage = (function () {
     return SignupPage;
 }());
 exports.SignupPage = SignupPage;
-
-},{"../../providers/user-data":19,"../tabs/tabs":16,"@angular/core":166,"ionic-angular":432}],12:[function(require,module,exports){
+},{"../../providers/user-data":19,"../tabs/tabs":16,"@angular/core":167,"ionic-angular":435}],12:[function(require,module,exports){
 "use strict";
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -824,8 +813,7 @@ var SpeakerDetailWebPage = (function () {
     return SpeakerDetailWebPage;
 }());
 exports.SpeakerDetailWebPage = SpeakerDetailWebPage;
-
-},{"../session-detail/session-detail":9,"@angular/core":166,"ionic-angular":432}],13:[function(require,module,exports){
+},{"../session-detail/session-detail":9,"@angular/core":167,"ionic-angular":435}],13:[function(require,module,exports){
 "use strict";
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -864,8 +852,7 @@ var SpeakerDetailPage = (function () {
     return SpeakerDetailPage;
 }());
 exports.SpeakerDetailPage = SpeakerDetailPage;
-
-},{"../../providers/tweet-share":18,"../session-detail/session-detail":9,"@angular/core":166,"ionic-angular":432}],14:[function(require,module,exports){
+},{"../../providers/tweet-share":18,"../session-detail/session-detail":9,"@angular/core":167,"ionic-angular":435}],14:[function(require,module,exports){
 "use strict";
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -911,8 +898,7 @@ var SpeakerListWebPage = (function () {
     return SpeakerListWebPage;
 }());
 exports.SpeakerListWebPage = SpeakerListWebPage;
-
-},{"../../providers/conference-data":17,"../session-detail-web/session-detail":8,"../speaker-detail-web/speaker-detail":12,"@angular/core":166,"ionic-angular":432}],15:[function(require,module,exports){
+},{"../../providers/conference-data":17,"../session-detail-web/session-detail":8,"../speaker-detail-web/speaker-detail":12,"@angular/core":167,"ionic-angular":435}],15:[function(require,module,exports){
 "use strict";
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -990,8 +976,7 @@ var SpeakerListPage = (function () {
     return SpeakerListPage;
 }());
 exports.SpeakerListPage = SpeakerListPage;
-
-},{"../../providers/conference-data":17,"../../providers/tweet-share":18,"../session-detail/session-detail":9,"../speaker-detail/speaker-detail":13,"@angular/core":166,"ionic-angular":432}],16:[function(require,module,exports){
+},{"../../providers/conference-data":17,"../../providers/tweet-share":18,"../session-detail/session-detail":9,"../speaker-detail/speaker-detail":13,"@angular/core":167,"ionic-angular":435}],16:[function(require,module,exports){
 "use strict";
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -1026,8 +1011,7 @@ var TabsPage = (function () {
     return TabsPage;
 }());
 exports.TabsPage = TabsPage;
-
-},{"../about/about":2,"../map/map":5,"../schedule/schedule":7,"../speaker-list/speaker-list":15,"@angular/core":166,"ionic-angular":432}],17:[function(require,module,exports){
+},{"../about/about":2,"../map/map":5,"../schedule/schedule":7,"../speaker-list/speaker-list":15,"@angular/core":167,"ionic-angular":435}],17:[function(require,module,exports){
 "use strict";
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -1252,8 +1236,7 @@ var ConferenceData = (function () {
     return ConferenceData;
 }());
 exports.ConferenceData = ConferenceData;
-
-},{"./user-data":19,"@angular/core":166,"@angular/http":254}],18:[function(require,module,exports){
+},{"./user-data":19,"@angular/core":167,"@angular/http":257}],18:[function(require,module,exports){
 "use strict";
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -1297,8 +1280,7 @@ var TweetShare = (function () {
     return TweetShare;
 }());
 exports.TweetShare = TweetShare;
-
-},{"@angular/core":166,"ionic-angular":432}],19:[function(require,module,exports){
+},{"@angular/core":167,"ionic-angular":435}],19:[function(require,module,exports){
 "use strict";
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -1366,8 +1348,14 @@ var UserData = (function () {
     return UserData;
 }());
 exports.UserData = UserData;
-
-},{"@angular/core":166,"ionic-angular":432}],20:[function(require,module,exports){
+},{"@angular/core":167,"ionic-angular":435}],20:[function(require,module,exports){
+/**
+ * @license
+ * Copyright Google Inc. All Rights Reserved.
+ *
+ * Use of this source code is governed by an MIT-style license that can be
+ * found in the LICENSE file at https://angular.io/license
+ */
 "use strict";
 function __export(m) {
     for (var p in m) if (!exports.hasOwnProperty(p)) exports[p] = m[p];
@@ -1377,8 +1365,17 @@ __export(require('./src/directives'));
 __export(require('./src/forms-deprecated'));
 __export(require('./src/common_directives'));
 __export(require('./src/location'));
+var localization_1 = require('./src/localization');
+exports.NgLocalization = localization_1.NgLocalization;
 
-},{"./src/common_directives":21,"./src/directives":22,"./src/forms-deprecated":39,"./src/location":64,"./src/pipes":70}],21:[function(require,module,exports){
+},{"./src/common_directives":21,"./src/directives":22,"./src/forms-deprecated":39,"./src/localization":64,"./src/location":65,"./src/pipes":71}],21:[function(require,module,exports){
+/**
+ * @license
+ * Copyright Google Inc. All Rights Reserved.
+ *
+ * Use of this source code is governed by an MIT-style license that can be
+ * found in the LICENSE file at https://angular.io/license
+ */
 "use strict";
 var directives_1 = require('./directives');
 var forms_deprecated_1 = require('./forms-deprecated');
@@ -1430,6 +1427,13 @@ var forms_deprecated_1 = require('./forms-deprecated');
 exports.COMMON_DIRECTIVES = [directives_1.CORE_DIRECTIVES, forms_deprecated_1.FORM_DIRECTIVES];
 
 },{"./directives":22,"./forms-deprecated":39}],22:[function(require,module,exports){
+/**
+ * @license
+ * Copyright Google Inc. All Rights Reserved.
+ *
+ * Use of this source code is governed by an MIT-style license that can be
+ * found in the LICENSE file at https://angular.io/license
+ */
 "use strict";
 /**
  * @module
@@ -1445,7 +1449,6 @@ exports.NgFor = ng_for_1.NgFor;
 var ng_if_1 = require('./directives/ng_if');
 exports.NgIf = ng_if_1.NgIf;
 var ng_plural_1 = require('./directives/ng_plural');
-exports.NgLocalization = ng_plural_1.NgLocalization;
 exports.NgPlural = ng_plural_1.NgPlural;
 exports.NgPluralCase = ng_plural_1.NgPluralCase;
 var ng_style_1 = require('./directives/ng_style');
@@ -1458,6 +1461,13 @@ var ng_template_outlet_1 = require('./directives/ng_template_outlet');
 exports.NgTemplateOutlet = ng_template_outlet_1.NgTemplateOutlet;
 
 },{"./directives/core_directives":23,"./directives/ng_class":24,"./directives/ng_for":25,"./directives/ng_if":26,"./directives/ng_plural":27,"./directives/ng_style":28,"./directives/ng_switch":29,"./directives/ng_template_outlet":30}],23:[function(require,module,exports){
+/**
+ * @license
+ * Copyright Google Inc. All Rights Reserved.
+ *
+ * Use of this source code is governed by an MIT-style license that can be
+ * found in the LICENSE file at https://angular.io/license
+ */
 "use strict";
 var ng_class_1 = require('./ng_class');
 var ng_for_1 = require('./ng_for');
@@ -1522,6 +1532,13 @@ exports.CORE_DIRECTIVES = [
 ];
 
 },{"./ng_class":24,"./ng_for":25,"./ng_if":26,"./ng_plural":27,"./ng_style":28,"./ng_switch":29,"./ng_template_outlet":30}],24:[function(require,module,exports){
+/**
+ * @license
+ * Copyright Google Inc. All Rights Reserved.
+ *
+ * Use of this source code is governed by an MIT-style license that can be
+ * found in the LICENSE file at https://angular.io/license
+ */
 "use strict";
 var core_1 = require('@angular/core');
 var collection_1 = require('../facade/collection');
@@ -1649,7 +1666,14 @@ var NgClass = (function () {
 }());
 exports.NgClass = NgClass;
 
-},{"../facade/collection":33,"../facade/lang":37,"@angular/core":166}],25:[function(require,module,exports){
+},{"../facade/collection":33,"../facade/lang":37,"@angular/core":167}],25:[function(require,module,exports){
+/**
+ * @license
+ * Copyright Google Inc. All Rights Reserved.
+ *
+ * Use of this source code is governed by an MIT-style license that can be
+ * found in the LICENSE file at https://angular.io/license
+ */
 "use strict";
 var core_1 = require('@angular/core');
 var exceptions_1 = require('../facade/exceptions');
@@ -1812,7 +1836,14 @@ var RecordViewTuple = (function () {
     return RecordViewTuple;
 }());
 
-},{"../facade/exceptions":35,"../facade/lang":37,"@angular/core":166}],26:[function(require,module,exports){
+},{"../facade/exceptions":35,"../facade/lang":37,"@angular/core":167}],26:[function(require,module,exports){
+/**
+ * @license
+ * Copyright Google Inc. All Rights Reserved.
+ *
+ * Use of this source code is governed by an MIT-style license that can be
+ * found in the LICENSE file at https://angular.io/license
+ */
 "use strict";
 var core_1 = require('@angular/core');
 var lang_1 = require('../facade/lang');
@@ -1849,22 +1880,19 @@ var NgIf = (function () {
 }());
 exports.NgIf = NgIf;
 
-},{"../facade/lang":37,"@angular/core":166}],27:[function(require,module,exports){
+},{"../facade/lang":37,"@angular/core":167}],27:[function(require,module,exports){
+/**
+ * @license
+ * Copyright Google Inc. All Rights Reserved.
+ *
+ * Use of this source code is governed by an MIT-style license that can be
+ * found in the LICENSE file at https://angular.io/license
+ */
 "use strict";
 var core_1 = require('@angular/core');
-var collection_1 = require('../facade/collection');
 var lang_1 = require('../facade/lang');
+var localization_1 = require('../localization');
 var ng_switch_1 = require('./ng_switch');
-var _CATEGORY_DEFAULT = 'other';
-/**
- * @experimental
- */
-var NgLocalization = (function () {
-    function NgLocalization() {
-    }
-    return NgLocalization;
-}());
-exports.NgLocalization = NgLocalization;
 var NgPluralCase = (function () {
     function NgPluralCase(value, template, viewContainer) {
         this.value = value;
@@ -1886,7 +1914,7 @@ exports.NgPluralCase = NgPluralCase;
 var NgPlural = (function () {
     function NgPlural(_localization) {
         this._localization = _localization;
-        this._caseViews = new collection_1.Map();
+        this._caseViews = {};
         this.cases = null;
     }
     Object.defineProperty(NgPlural.prototype, "ngPlural", {
@@ -1900,17 +1928,15 @@ var NgPlural = (function () {
     NgPlural.prototype.ngAfterContentInit = function () {
         var _this = this;
         this.cases.forEach(function (pluralCase) {
-            _this._caseViews.set(_this._formatValue(pluralCase), pluralCase._view);
+            _this._caseViews[pluralCase.value] = pluralCase._view;
         });
         this._updateView();
     };
     /** @internal */
     NgPlural.prototype._updateView = function () {
         this._clearViews();
-        var view = this._caseViews.get(this._switchValue);
-        if (!lang_1.isPresent(view))
-            view = this._getCategoryView(this._switchValue);
-        this._activateView(view);
+        var key = localization_1.getPluralCategory(this._switchValue, Object.getOwnPropertyNames(this._caseViews), this._localization);
+        this._activateView(this._caseViews[key]);
     };
     /** @internal */
     NgPlural.prototype._clearViews = function () {
@@ -1924,27 +1950,13 @@ var NgPlural = (function () {
         this._activeView = view;
         this._activeView.create();
     };
-    /** @internal */
-    NgPlural.prototype._getCategoryView = function (value) {
-        var category = this._localization.getPluralCategory(value);
-        var categoryView = this._caseViews.get(category);
-        return lang_1.isPresent(categoryView) ? categoryView : this._caseViews.get(_CATEGORY_DEFAULT);
-    };
-    /** @internal */
-    NgPlural.prototype._isValueView = function (pluralCase) { return pluralCase.value[0] === '='; };
-    /** @internal */
-    NgPlural.prototype._formatValue = function (pluralCase) {
-        return this._isValueView(pluralCase) ? this._stripValue(pluralCase.value) : pluralCase.value;
-    };
-    /** @internal */
-    NgPlural.prototype._stripValue = function (value) { return lang_1.NumberWrapper.parseInt(value.substring(1), 10); };
     /** @nocollapse */
     NgPlural.decorators = [
         { type: core_1.Directive, args: [{ selector: '[ngPlural]' },] },
     ];
     /** @nocollapse */
     NgPlural.ctorParameters = [
-        { type: NgLocalization, },
+        { type: localization_1.NgLocalization, },
     ];
     /** @nocollapse */
     NgPlural.propDecorators = {
@@ -1955,7 +1967,14 @@ var NgPlural = (function () {
 }());
 exports.NgPlural = NgPlural;
 
-},{"../facade/collection":33,"../facade/lang":37,"./ng_switch":29,"@angular/core":166}],28:[function(require,module,exports){
+},{"../facade/lang":37,"../localization":64,"./ng_switch":29,"@angular/core":167}],28:[function(require,module,exports){
+/**
+ * @license
+ * Copyright Google Inc. All Rights Reserved.
+ *
+ * Use of this source code is governed by an MIT-style license that can be
+ * found in the LICENSE file at https://angular.io/license
+ */
 "use strict";
 var core_1 = require('@angular/core');
 var lang_1 = require('../facade/lang');
@@ -2006,12 +2025,21 @@ var NgStyle = (function () {
 }());
 exports.NgStyle = NgStyle;
 
-},{"../facade/lang":37,"@angular/core":166}],29:[function(require,module,exports){
+},{"../facade/lang":37,"@angular/core":167}],29:[function(require,module,exports){
+/**
+ * @license
+ * Copyright Google Inc. All Rights Reserved.
+ *
+ * Use of this source code is governed by an MIT-style license that can be
+ * found in the LICENSE file at https://angular.io/license
+ */
 "use strict";
 var core_1 = require('@angular/core');
 var collection_1 = require('../facade/collection');
 var lang_1 = require('../facade/lang');
 var _CASE_DEFAULT = new Object();
+// TODO: remove when fully deprecated
+var _warned = false;
 var SwitchView = (function () {
     function SwitchView(_viewContainerRef, _templateRef) {
         this._viewContainerRef = _viewContainerRef;
@@ -2132,8 +2160,8 @@ var NgSwitchCase = (function () {
     });
     Object.defineProperty(NgSwitchCase.prototype, "ngSwitchWhen", {
         set: function (value) {
-            if (!this._warned) {
-                this._warned = true;
+            if (!_warned) {
+                _warned = true;
                 console.warn('*ngSwitchWhen is deprecated and will be removed. Use *ngSwitchCase instead');
             }
             this._switch._onCaseValueChanged(this._value, value, this._view);
@@ -2173,7 +2201,14 @@ var NgSwitchDefault = (function () {
 }());
 exports.NgSwitchDefault = NgSwitchDefault;
 
-},{"../facade/collection":33,"../facade/lang":37,"@angular/core":166}],30:[function(require,module,exports){
+},{"../facade/collection":33,"../facade/lang":37,"@angular/core":167}],30:[function(require,module,exports){
+/**
+ * @license
+ * Copyright Google Inc. All Rights Reserved.
+ *
+ * Use of this source code is governed by an MIT-style license that can be
+ * found in the LICENSE file at https://angular.io/license
+ */
 "use strict";
 var core_1 = require('@angular/core');
 var lang_1 = require('../facade/lang');
@@ -2228,7 +2263,14 @@ var NgTemplateOutlet = (function () {
 }());
 exports.NgTemplateOutlet = NgTemplateOutlet;
 
-},{"../facade/lang":37,"@angular/core":166}],31:[function(require,module,exports){
+},{"../facade/lang":37,"@angular/core":167}],31:[function(require,module,exports){
+/**
+ * @license
+ * Copyright Google Inc. All Rights Reserved.
+ *
+ * Use of this source code is governed by an MIT-style license that can be
+ * found in the LICENSE file at https://angular.io/license
+ */
 "use strict";
 var __extends = (this && this.__extends) || function (d, b) {
     for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p];
@@ -2389,7 +2431,14 @@ var EventEmitter = (function (_super) {
 }(Subject_1.Subject));
 exports.EventEmitter = EventEmitter;
 
-},{"./lang":37,"./promise":38,"rxjs/Observable":526,"rxjs/Subject":528,"rxjs/observable/PromiseObservable":532,"rxjs/operator/toPromise":533}],32:[function(require,module,exports){
+},{"./lang":37,"./promise":38,"rxjs/Observable":539,"rxjs/Subject":541,"rxjs/observable/PromiseObservable":545,"rxjs/operator/toPromise":546}],32:[function(require,module,exports){
+/**
+ * @license
+ * Copyright Google Inc. All Rights Reserved.
+ *
+ * Use of this source code is governed by an MIT-style license that can be
+ * found in the LICENSE file at https://angular.io/license
+ */
 "use strict";
 var __extends = (this && this.__extends) || function (d, b) {
     for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p];
@@ -2441,6 +2490,13 @@ var BaseWrappedException = (function (_super) {
 exports.BaseWrappedException = BaseWrappedException;
 
 },{}],33:[function(require,module,exports){
+/**
+ * @license
+ * Copyright Google Inc. All Rights Reserved.
+ *
+ * Use of this source code is governed by an MIT-style license that can be
+ * found in the LICENSE file at https://angular.io/license
+ */
 "use strict";
 var lang_1 = require('./lang');
 exports.Map = lang_1.global.Map;
@@ -2810,6 +2866,13 @@ var SetWrapper = (function () {
 exports.SetWrapper = SetWrapper;
 
 },{"./lang":37}],34:[function(require,module,exports){
+/**
+ * @license
+ * Copyright Google Inc. All Rights Reserved.
+ *
+ * Use of this source code is governed by an MIT-style license that can be
+ * found in the LICENSE file at https://angular.io/license
+ */
 "use strict";
 var base_wrapped_exception_1 = require('./base_wrapped_exception');
 var collection_1 = require('./collection');
@@ -2944,6 +3007,13 @@ var ExceptionHandler = (function () {
 exports.ExceptionHandler = ExceptionHandler;
 
 },{"./base_wrapped_exception":32,"./collection":33,"./lang":37}],35:[function(require,module,exports){
+/**
+ * @license
+ * Copyright Google Inc. All Rights Reserved.
+ *
+ * Use of this source code is governed by an MIT-style license that can be
+ * found in the LICENSE file at https://angular.io/license
+ */
 "use strict";
 var __extends = (this && this.__extends) || function (d, b) {
     for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p];
@@ -3027,6 +3097,13 @@ function unimplemented() {
 exports.unimplemented = unimplemented;
 
 },{"./base_wrapped_exception":32,"./exception_handler":34}],36:[function(require,module,exports){
+/**
+ * @license
+ * Copyright Google Inc. All Rights Reserved.
+ *
+ * Use of this source code is governed by an MIT-style license that can be
+ * found in the LICENSE file at https://angular.io/license
+ */
 "use strict";
 (function (NumberFormatStyle) {
     NumberFormatStyle[NumberFormatStyle["Decimal"] = 0] = "Decimal";
@@ -3211,6 +3288,13 @@ exports.DateFormatter = DateFormatter;
 
 },{}],37:[function(require,module,exports){
 (function (global){
+/**
+ * @license
+ * Copyright Google Inc. All Rights Reserved.
+ *
+ * Use of this source code is governed by an MIT-style license that can be
+ * found in the LICENSE file at https://angular.io/license
+ */
 "use strict";
 var __extends = (this && this.__extends) || function (d, b) {
     for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p];
@@ -3239,6 +3323,14 @@ exports.IS_DART = false;
 // exports the original value of the symbol.
 var _global = globalScope;
 exports.global = _global;
+/**
+ * Runtime representation a type that a Component or other object is instances of.
+ *
+ * An example of a `Type` is `MyCustomComponent` class, which in JavaScript is be represented by
+ * the `MyCustomComponent` constructor function.
+ *
+ * @stable
+ */
 exports.Type = Function;
 function getTypeNameForDebugging(type) {
     if (type['name']) {
@@ -3664,6 +3756,13 @@ exports.escapeRegExp = escapeRegExp;
 }).call(this,typeof global !== "undefined" ? global : typeof self !== "undefined" ? self : typeof window !== "undefined" ? window : {})
 
 },{}],38:[function(require,module,exports){
+/**
+ * @license
+ * Copyright Google Inc. All Rights Reserved.
+ *
+ * Use of this source code is governed by an MIT-style license that can be
+ * found in the LICENSE file at https://angular.io/license
+ */
 "use strict";
 var PromiseCompleter = (function () {
     function PromiseCompleter() {
@@ -3713,6 +3812,13 @@ var PromiseWrapper = (function () {
 exports.PromiseWrapper = PromiseWrapper;
 
 },{}],39:[function(require,module,exports){
+/**
+ * @license
+ * Copyright Google Inc. All Rights Reserved.
+ *
+ * Use of this source code is governed by an MIT-style license that can be
+ * found in the LICENSE file at https://angular.io/license
+ */
 "use strict";
 var radio_control_value_accessor_1 = require('./forms-deprecated/directives/radio_control_value_accessor');
 var form_builder_1 = require('./forms-deprecated/form_builder');
@@ -3778,6 +3884,13 @@ exports.Validators = validators_2.Validators;
 exports.FORM_PROVIDERS = [form_builder_1.FormBuilder, radio_control_value_accessor_1.RadioControlRegistry];
 
 },{"./forms-deprecated/directives":40,"./forms-deprecated/directives/abstract_control_directive":41,"./forms-deprecated/directives/checkbox_value_accessor":42,"./forms-deprecated/directives/control_container":43,"./forms-deprecated/directives/control_value_accessor":44,"./forms-deprecated/directives/default_value_accessor":45,"./forms-deprecated/directives/ng_control":46,"./forms-deprecated/directives/ng_control_group":47,"./forms-deprecated/directives/ng_control_name":48,"./forms-deprecated/directives/ng_control_status":49,"./forms-deprecated/directives/ng_form":50,"./forms-deprecated/directives/ng_form_control":51,"./forms-deprecated/directives/ng_form_model":52,"./forms-deprecated/directives/ng_model":53,"./forms-deprecated/directives/radio_control_value_accessor":56,"./forms-deprecated/directives/select_control_value_accessor":57,"./forms-deprecated/directives/validators":60,"./forms-deprecated/form_builder":61,"./forms-deprecated/model":62,"./forms-deprecated/validators":63}],40:[function(require,module,exports){
+/**
+ * @license
+ * Copyright Google Inc. All Rights Reserved.
+ *
+ * Use of this source code is governed by an MIT-style license that can be
+ * found in the LICENSE file at https://angular.io/license
+ */
 "use strict";
 var checkbox_value_accessor_1 = require('./directives/checkbox_value_accessor');
 var default_value_accessor_1 = require('./directives/default_value_accessor');
@@ -3869,6 +3982,13 @@ exports.FORM_DIRECTIVES = [
 ];
 
 },{"./directives/checkbox_value_accessor":42,"./directives/default_value_accessor":45,"./directives/ng_control":46,"./directives/ng_control_group":47,"./directives/ng_control_name":48,"./directives/ng_control_status":49,"./directives/ng_form":50,"./directives/ng_form_control":51,"./directives/ng_form_model":52,"./directives/ng_model":53,"./directives/number_value_accessor":55,"./directives/radio_control_value_accessor":56,"./directives/select_control_value_accessor":57,"./directives/select_multiple_control_value_accessor":58,"./directives/validators":60}],41:[function(require,module,exports){
+/**
+ * @license
+ * Copyright Google Inc. All Rights Reserved.
+ *
+ * Use of this source code is governed by an MIT-style license that can be
+ * found in the LICENSE file at https://angular.io/license
+ */
 "use strict";
 var exceptions_1 = require('../../facade/exceptions');
 var lang_1 = require('../../facade/lang');
@@ -3934,6 +4054,13 @@ var AbstractControlDirective = (function () {
 exports.AbstractControlDirective = AbstractControlDirective;
 
 },{"../../facade/exceptions":35,"../../facade/lang":37}],42:[function(require,module,exports){
+/**
+ * @license
+ * Copyright Google Inc. All Rights Reserved.
+ *
+ * Use of this source code is governed by an MIT-style license that can be
+ * found in the LICENSE file at https://angular.io/license
+ */
 "use strict";
 var core_1 = require('@angular/core');
 var control_value_accessor_1 = require('./control_value_accessor');
@@ -3971,7 +4098,14 @@ var CheckboxControlValueAccessor = (function () {
 }());
 exports.CheckboxControlValueAccessor = CheckboxControlValueAccessor;
 
-},{"./control_value_accessor":44,"@angular/core":166}],43:[function(require,module,exports){
+},{"./control_value_accessor":44,"@angular/core":167}],43:[function(require,module,exports){
+/**
+ * @license
+ * Copyright Google Inc. All Rights Reserved.
+ *
+ * Use of this source code is governed by an MIT-style license that can be
+ * found in the LICENSE file at https://angular.io/license
+ */
 "use strict";
 var __extends = (this && this.__extends) || function (d, b) {
     for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p];
@@ -4012,6 +4146,13 @@ var ControlContainer = (function (_super) {
 exports.ControlContainer = ControlContainer;
 
 },{"./abstract_control_directive":41}],44:[function(require,module,exports){
+/**
+ * @license
+ * Copyright Google Inc. All Rights Reserved.
+ *
+ * Use of this source code is governed by an MIT-style license that can be
+ * found in the LICENSE file at https://angular.io/license
+ */
 "use strict";
 var core_1 = require('@angular/core');
 /**
@@ -4023,7 +4164,14 @@ var core_1 = require('@angular/core');
 exports.NG_VALUE_ACCESSOR = 
 /*@ts2dart_const*/ new core_1.OpaqueToken('NgValueAccessor');
 
-},{"@angular/core":166}],45:[function(require,module,exports){
+},{"@angular/core":167}],45:[function(require,module,exports){
+/**
+ * @license
+ * Copyright Google Inc. All Rights Reserved.
+ *
+ * Use of this source code is governed by an MIT-style license that can be
+ * found in the LICENSE file at https://angular.io/license
+ */
 "use strict";
 var core_1 = require('@angular/core');
 var lang_1 = require('../../facade/lang');
@@ -4067,7 +4215,14 @@ var DefaultValueAccessor = (function () {
 }());
 exports.DefaultValueAccessor = DefaultValueAccessor;
 
-},{"../../facade/lang":37,"./control_value_accessor":44,"@angular/core":166}],46:[function(require,module,exports){
+},{"../../facade/lang":37,"./control_value_accessor":44,"@angular/core":167}],46:[function(require,module,exports){
+/**
+ * @license
+ * Copyright Google Inc. All Rights Reserved.
+ *
+ * Use of this source code is governed by an MIT-style license that can be
+ * found in the LICENSE file at https://angular.io/license
+ */
 "use strict";
 var __extends = (this && this.__extends) || function (d, b) {
     for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p];
@@ -4106,6 +4261,13 @@ var NgControl = (function (_super) {
 exports.NgControl = NgControl;
 
 },{"../../facade/exceptions":35,"./abstract_control_directive":41}],47:[function(require,module,exports){
+/**
+ * @license
+ * Copyright Google Inc. All Rights Reserved.
+ *
+ * Use of this source code is governed by an MIT-style license that can be
+ * found in the LICENSE file at https://angular.io/license
+ */
 "use strict";
 var __extends = (this && this.__extends) || function (d, b) {
     for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p];
@@ -4184,7 +4346,14 @@ var NgControlGroup = (function (_super) {
 }(control_container_1.ControlContainer));
 exports.NgControlGroup = NgControlGroup;
 
-},{"../validators":63,"./control_container":43,"./shared":59,"@angular/core":166}],48:[function(require,module,exports){
+},{"../validators":63,"./control_container":43,"./shared":59,"@angular/core":167}],48:[function(require,module,exports){
+/**
+ * @license
+ * Copyright Google Inc. All Rights Reserved.
+ *
+ * Use of this source code is governed by an MIT-style license that can be
+ * found in the LICENSE file at https://angular.io/license
+ */
 "use strict";
 var __extends = (this && this.__extends) || function (d, b) {
     for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p];
@@ -4278,7 +4447,14 @@ var NgControlName = (function (_super) {
 }(ng_control_1.NgControl));
 exports.NgControlName = NgControlName;
 
-},{"../../facade/async":31,"../validators":63,"./control_container":43,"./control_value_accessor":44,"./ng_control":46,"./shared":59,"@angular/core":166}],49:[function(require,module,exports){
+},{"../../facade/async":31,"../validators":63,"./control_container":43,"./control_value_accessor":44,"./ng_control":46,"./shared":59,"@angular/core":167}],49:[function(require,module,exports){
+/**
+ * @license
+ * Copyright Google Inc. All Rights Reserved.
+ *
+ * Use of this source code is governed by an MIT-style license that can be
+ * found in the LICENSE file at https://angular.io/license
+ */
 "use strict";
 var core_1 = require('@angular/core');
 var lang_1 = require('../../facade/lang');
@@ -4351,7 +4527,14 @@ var NgControlStatus = (function () {
 }());
 exports.NgControlStatus = NgControlStatus;
 
-},{"../../facade/lang":37,"./ng_control":46,"@angular/core":166}],50:[function(require,module,exports){
+},{"../../facade/lang":37,"./ng_control":46,"@angular/core":167}],50:[function(require,module,exports){
+/**
+ * @license
+ * Copyright Google Inc. All Rights Reserved.
+ *
+ * Use of this source code is governed by an MIT-style license that can be
+ * found in the LICENSE file at https://angular.io/license
+ */
 "use strict";
 var __extends = (this && this.__extends) || function (d, b) {
     for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p];
@@ -4490,7 +4673,14 @@ var NgForm = (function (_super) {
 }(control_container_1.ControlContainer));
 exports.NgForm = NgForm;
 
-},{"../../facade/async":31,"../../facade/collection":33,"../../facade/lang":37,"../model":62,"../validators":63,"./control_container":43,"./shared":59,"@angular/core":166}],51:[function(require,module,exports){
+},{"../../facade/async":31,"../../facade/collection":33,"../../facade/lang":37,"../model":62,"../validators":63,"./control_container":43,"./shared":59,"@angular/core":167}],51:[function(require,module,exports){
+/**
+ * @license
+ * Copyright Google Inc. All Rights Reserved.
+ *
+ * Use of this source code is governed by an MIT-style license that can be
+ * found in the LICENSE file at https://angular.io/license
+ */
 "use strict";
 var __extends = (this && this.__extends) || function (d, b) {
     for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p];
@@ -4577,7 +4767,14 @@ var NgFormControl = (function (_super) {
 }(ng_control_1.NgControl));
 exports.NgFormControl = NgFormControl;
 
-},{"../../facade/async":31,"../../facade/collection":33,"../validators":63,"./control_value_accessor":44,"./ng_control":46,"./shared":59,"@angular/core":166}],52:[function(require,module,exports){
+},{"../../facade/async":31,"../../facade/collection":33,"../validators":63,"./control_value_accessor":44,"./ng_control":46,"./shared":59,"@angular/core":167}],52:[function(require,module,exports){
+/**
+ * @license
+ * Copyright Google Inc. All Rights Reserved.
+ *
+ * Use of this source code is governed by an MIT-style license that can be
+ * found in the LICENSE file at https://angular.io/license
+ */
 "use strict";
 var __extends = (this && this.__extends) || function (d, b) {
     for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p];
@@ -4707,7 +4904,14 @@ var NgFormModel = (function (_super) {
 }(control_container_1.ControlContainer));
 exports.NgFormModel = NgFormModel;
 
-},{"../../facade/async":31,"../../facade/collection":33,"../../facade/exceptions":35,"../../facade/lang":37,"../validators":63,"./control_container":43,"./shared":59,"@angular/core":166}],53:[function(require,module,exports){
+},{"../../facade/async":31,"../../facade/collection":33,"../../facade/exceptions":35,"../../facade/lang":37,"../validators":63,"./control_container":43,"./shared":59,"@angular/core":167}],53:[function(require,module,exports){
+/**
+ * @license
+ * Copyright Google Inc. All Rights Reserved.
+ *
+ * Use of this source code is governed by an MIT-style license that can be
+ * found in the LICENSE file at https://angular.io/license
+ */
 "use strict";
 var __extends = (this && this.__extends) || function (d, b) {
     for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p];
@@ -4796,7 +5000,14 @@ var NgModel = (function (_super) {
 }(ng_control_1.NgControl));
 exports.NgModel = NgModel;
 
-},{"../../facade/async":31,"../model":62,"../validators":63,"./control_value_accessor":44,"./ng_control":46,"./shared":59,"@angular/core":166}],54:[function(require,module,exports){
+},{"../../facade/async":31,"../model":62,"../validators":63,"./control_value_accessor":44,"./ng_control":46,"./shared":59,"@angular/core":167}],54:[function(require,module,exports){
+/**
+ * @license
+ * Copyright Google Inc. All Rights Reserved.
+ *
+ * Use of this source code is governed by an MIT-style license that can be
+ * found in the LICENSE file at https://angular.io/license
+ */
 "use strict";
 function normalizeValidator(validator) {
     if (validator.validate !== undefined) {
@@ -4809,7 +5020,7 @@ function normalizeValidator(validator) {
 exports.normalizeValidator = normalizeValidator;
 function normalizeAsyncValidator(validator) {
     if (validator.validate !== undefined) {
-        return function (c) { return Promise.resolve(validator.validate(c)); };
+        return function (c) { return validator.validate(c); };
     }
     else {
         return validator;
@@ -4818,6 +5029,13 @@ function normalizeAsyncValidator(validator) {
 exports.normalizeAsyncValidator = normalizeAsyncValidator;
 
 },{}],55:[function(require,module,exports){
+/**
+ * @license
+ * Copyright Google Inc. All Rights Reserved.
+ *
+ * Use of this source code is governed by an MIT-style license that can be
+ * found in the LICENSE file at https://angular.io/license
+ */
 "use strict";
 var core_1 = require('@angular/core');
 var lang_1 = require('../../facade/lang');
@@ -4862,7 +5080,14 @@ var NumberValueAccessor = (function () {
 }());
 exports.NumberValueAccessor = NumberValueAccessor;
 
-},{"../../facade/lang":37,"./control_value_accessor":44,"@angular/core":166}],56:[function(require,module,exports){
+},{"../../facade/lang":37,"./control_value_accessor":44,"@angular/core":167}],56:[function(require,module,exports){
+/**
+ * @license
+ * Copyright Google Inc. All Rights Reserved.
+ *
+ * Use of this source code is governed by an MIT-style license that can be
+ * found in the LICENSE file at https://angular.io/license
+ */
 "use strict";
 var core_1 = require('@angular/core');
 var collection_1 = require('../../facade/collection');
@@ -4975,7 +5200,14 @@ var RadioControlValueAccessor = (function () {
 }());
 exports.RadioControlValueAccessor = RadioControlValueAccessor;
 
-},{"../../facade/collection":33,"../../facade/lang":37,"./control_value_accessor":44,"./ng_control":46,"@angular/core":166}],57:[function(require,module,exports){
+},{"../../facade/collection":33,"../../facade/lang":37,"./control_value_accessor":44,"./ng_control":46,"@angular/core":167}],57:[function(require,module,exports){
+/**
+ * @license
+ * Copyright Google Inc. All Rights Reserved.
+ *
+ * Use of this source code is governed by an MIT-style license that can be
+ * found in the LICENSE file at https://angular.io/license
+ */
 "use strict";
 var core_1 = require('@angular/core');
 var collection_1 = require('../../facade/collection');
@@ -5109,7 +5341,14 @@ var NgSelectOption = (function () {
 }());
 exports.NgSelectOption = NgSelectOption;
 
-},{"../../facade/collection":33,"../../facade/lang":37,"./control_value_accessor":44,"@angular/core":166}],58:[function(require,module,exports){
+},{"../../facade/collection":33,"../../facade/lang":37,"./control_value_accessor":44,"@angular/core":167}],58:[function(require,module,exports){
+/**
+ * @license
+ * Copyright Google Inc. All Rights Reserved.
+ *
+ * Use of this source code is governed by an MIT-style license that can be
+ * found in the LICENSE file at https://angular.io/license
+ */
 "use strict";
 var core_1 = require('@angular/core');
 var collection_1 = require('../../facade/collection');
@@ -5284,7 +5523,14 @@ var NgSelectMultipleOption = (function () {
 exports.NgSelectMultipleOption = NgSelectMultipleOption;
 exports.SELECT_DIRECTIVES = [SelectMultipleControlValueAccessor, NgSelectMultipleOption];
 
-},{"../../facade/collection":33,"../../facade/lang":37,"./control_value_accessor":44,"@angular/core":166}],59:[function(require,module,exports){
+},{"../../facade/collection":33,"../../facade/lang":37,"./control_value_accessor":44,"@angular/core":167}],59:[function(require,module,exports){
+/**
+ * @license
+ * Copyright Google Inc. All Rights Reserved.
+ *
+ * Use of this source code is governed by an MIT-style license that can be
+ * found in the LICENSE file at https://angular.io/license
+ */
 "use strict";
 var collection_1 = require('../../facade/collection');
 var exceptions_1 = require('../../facade/exceptions');
@@ -5296,6 +5542,7 @@ var normalize_validator_1 = require('./normalize_validator');
 var number_value_accessor_1 = require('./number_value_accessor');
 var radio_control_value_accessor_1 = require('./radio_control_value_accessor');
 var select_control_value_accessor_1 = require('./select_control_value_accessor');
+var select_multiple_control_value_accessor_1 = require('./select_multiple_control_value_accessor');
 function controlPath(name, parent) {
     var p = collection_1.ListWrapper.clone(parent.path);
     p.push(name);
@@ -5364,6 +5611,7 @@ function selectValueAccessor(dir, valueAccessors) {
         }
         else if (lang_1.hasConstructor(v, checkbox_value_accessor_1.CheckboxControlValueAccessor) || lang_1.hasConstructor(v, number_value_accessor_1.NumberValueAccessor) ||
             lang_1.hasConstructor(v, select_control_value_accessor_1.SelectControlValueAccessor) ||
+            lang_1.hasConstructor(v, select_multiple_control_value_accessor_1.SelectMultipleControlValueAccessor) ||
             lang_1.hasConstructor(v, radio_control_value_accessor_1.RadioControlValueAccessor)) {
             if (lang_1.isPresent(builtinAccessor))
                 _throwError(dir, 'More than one built-in value accessor matches');
@@ -5386,7 +5634,14 @@ function selectValueAccessor(dir, valueAccessors) {
 }
 exports.selectValueAccessor = selectValueAccessor;
 
-},{"../../facade/collection":33,"../../facade/exceptions":35,"../../facade/lang":37,"../validators":63,"./checkbox_value_accessor":42,"./default_value_accessor":45,"./normalize_validator":54,"./number_value_accessor":55,"./radio_control_value_accessor":56,"./select_control_value_accessor":57}],60:[function(require,module,exports){
+},{"../../facade/collection":33,"../../facade/exceptions":35,"../../facade/lang":37,"../validators":63,"./checkbox_value_accessor":42,"./default_value_accessor":45,"./normalize_validator":54,"./number_value_accessor":55,"./radio_control_value_accessor":56,"./select_control_value_accessor":57,"./select_multiple_control_value_accessor":58}],60:[function(require,module,exports){
+/**
+ * @license
+ * Copyright Google Inc. All Rights Reserved.
+ *
+ * Use of this source code is governed by an MIT-style license that can be
+ * found in the LICENSE file at https://angular.io/license
+ */
 "use strict";
 var core_1 = require('@angular/core');
 var lang_1 = require('../../facade/lang');
@@ -5497,12 +5752,19 @@ var PatternValidator = (function () {
 }());
 exports.PatternValidator = PatternValidator;
 
-},{"../../facade/lang":37,"../validators":63,"@angular/core":166}],61:[function(require,module,exports){
+},{"../../facade/lang":37,"../validators":63,"@angular/core":167}],61:[function(require,module,exports){
+/**
+ * @license
+ * Copyright Google Inc. All Rights Reserved.
+ *
+ * Use of this source code is governed by an MIT-style license that can be
+ * found in the LICENSE file at https://angular.io/license
+ */
 "use strict";
 var core_1 = require('@angular/core');
 var collection_1 = require('../facade/collection');
 var lang_1 = require('../facade/lang');
-var modelModule = require('./model');
+var model_1 = require('./model');
 var FormBuilder = (function () {
     function FormBuilder() {
     }
@@ -5518,7 +5780,7 @@ var FormBuilder = (function () {
         var optionals = (lang_1.isPresent(extra) ? collection_1.StringMapWrapper.get(extra, 'optionals') : null);
         var validator = lang_1.isPresent(extra) ? collection_1.StringMapWrapper.get(extra, 'validator') : null;
         var asyncValidator = lang_1.isPresent(extra) ? collection_1.StringMapWrapper.get(extra, 'asyncValidator') : null;
-        return new modelModule.ControlGroup(controls, optionals, validator, asyncValidator);
+        return new model_1.ControlGroup(controls, optionals, validator, asyncValidator);
     };
     /**
      * Construct a new {@link Control} with the given `value`,`validator`, and `asyncValidator`.
@@ -5526,7 +5788,7 @@ var FormBuilder = (function () {
     FormBuilder.prototype.control = function (value, validator, asyncValidator) {
         if (validator === void 0) { validator = null; }
         if (asyncValidator === void 0) { asyncValidator = null; }
-        return new modelModule.Control(value, validator, asyncValidator);
+        return new model_1.Control(value, validator, asyncValidator);
     };
     /**
      * Construct an array of {@link Control}s from the given `controlsConfig` array of
@@ -5537,7 +5799,7 @@ var FormBuilder = (function () {
         if (validator === void 0) { validator = null; }
         if (asyncValidator === void 0) { asyncValidator = null; }
         var controls = controlsConfig.map(function (c) { return _this._createControl(c); });
-        return new modelModule.ControlArray(controls, validator, asyncValidator);
+        return new model_1.ControlArray(controls, validator, asyncValidator);
     };
     /** @internal */
     FormBuilder.prototype._reduceControls = function (controlsConfig) {
@@ -5550,9 +5812,8 @@ var FormBuilder = (function () {
     };
     /** @internal */
     FormBuilder.prototype._createControl = function (controlConfig) {
-        if (controlConfig instanceof modelModule.Control ||
-            controlConfig instanceof modelModule.ControlGroup ||
-            controlConfig instanceof modelModule.ControlArray) {
+        if (controlConfig instanceof model_1.Control || controlConfig instanceof model_1.ControlGroup ||
+            controlConfig instanceof model_1.ControlArray) {
             return controlConfig;
         }
         else if (lang_1.isArray(controlConfig)) {
@@ -5573,7 +5834,14 @@ var FormBuilder = (function () {
 }());
 exports.FormBuilder = FormBuilder;
 
-},{"../facade/collection":33,"../facade/lang":37,"./model":62,"@angular/core":166}],62:[function(require,module,exports){
+},{"../facade/collection":33,"../facade/lang":37,"./model":62,"@angular/core":167}],62:[function(require,module,exports){
+/**
+ * @license
+ * Copyright Google Inc. All Rights Reserved.
+ *
+ * Use of this source code is governed by an MIT-style license that can be
+ * found in the LICENSE file at https://angular.io/license
+ */
 "use strict";
 var __extends = (this && this.__extends) || function (d, b) {
     for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p];
@@ -6093,6 +6361,13 @@ var ControlArray = (function (_super) {
 exports.ControlArray = ControlArray;
 
 },{"../facade/async":31,"../facade/collection":33,"../facade/lang":37}],63:[function(require,module,exports){
+/**
+ * @license
+ * Copyright Google Inc. All Rights Reserved.
+ *
+ * Use of this source code is governed by an MIT-style license that can be
+ * found in the LICENSE file at https://angular.io/license
+ */
 "use strict";
 var core_1 = require('@angular/core');
 var async_1 = require('../facade/async');
@@ -6234,7 +6509,45 @@ function _mergeErrors(arrayOfErrors) {
     return collection_1.StringMapWrapper.isEmpty(res) ? null : res;
 }
 
-},{"../facade/async":31,"../facade/collection":33,"../facade/lang":37,"../facade/promise":38,"@angular/core":166}],64:[function(require,module,exports){
+},{"../facade/async":31,"../facade/collection":33,"../facade/lang":37,"../facade/promise":38,"@angular/core":167}],64:[function(require,module,exports){
+/**
+ * @license
+ * Copyright Google Inc. All Rights Reserved.
+ *
+ * Use of this source code is governed by an MIT-style license that can be
+ * found in the LICENSE file at https://angular.io/license
+ */
+"use strict";
+/**
+ * @experimental
+ */
+var NgLocalization = (function () {
+    function NgLocalization() {
+    }
+    return NgLocalization;
+}());
+exports.NgLocalization = NgLocalization;
+/**
+ * Returns the plural category for a given value.
+ * - "=value" when the case exists,
+ * - the plural category otherwise
+ *
+ * @internal
+ */
+function getPluralCategory(value, cases, ngLocalization) {
+    var nbCase = "=" + value;
+    return cases.indexOf(nbCase) > -1 ? nbCase : ngLocalization.getPluralCategory(value);
+}
+exports.getPluralCategory = getPluralCategory;
+
+},{}],65:[function(require,module,exports){
+/**
+ * @license
+ * Copyright Google Inc. All Rights Reserved.
+ *
+ * Use of this source code is governed by an MIT-style license that can be
+ * found in the LICENSE file at https://angular.io/license
+ */
 "use strict";
 function __export(m) {
     for (var p in m) if (!exports.hasOwnProperty(p)) exports[p] = m[p];
@@ -6245,7 +6558,14 @@ __export(require('./location/hash_location_strategy'));
 __export(require('./location/path_location_strategy'));
 __export(require('./location/location'));
 
-},{"./location/hash_location_strategy":65,"./location/location":66,"./location/location_strategy":67,"./location/path_location_strategy":68,"./location/platform_location":69}],65:[function(require,module,exports){
+},{"./location/hash_location_strategy":66,"./location/location":67,"./location/location_strategy":68,"./location/path_location_strategy":69,"./location/platform_location":70}],66:[function(require,module,exports){
+/**
+ * @license
+ * Copyright Google Inc. All Rights Reserved.
+ *
+ * Use of this source code is governed by an MIT-style license that can be
+ * found in the LICENSE file at https://angular.io/license
+ */
 "use strict";
 var __extends = (this && this.__extends) || function (d, b) {
     for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p];
@@ -6272,7 +6592,8 @@ var HashLocationStrategy = (function (_super) {
         this._platformLocation.onHashChange(fn);
     };
     HashLocationStrategy.prototype.getBaseHref = function () { return this._baseHref; };
-    HashLocationStrategy.prototype.path = function () {
+    HashLocationStrategy.prototype.path = function (includeHash) {
+        if (includeHash === void 0) { includeHash = false; }
         // the hash value is always prefixed with a `#`
         // and if it is empty then it will stay empty
         var path = this._platformLocation.hash;
@@ -6316,7 +6637,14 @@ var HashLocationStrategy = (function (_super) {
 }(location_strategy_1.LocationStrategy));
 exports.HashLocationStrategy = HashLocationStrategy;
 
-},{"../facade/lang":37,"./location":66,"./location_strategy":67,"./platform_location":69,"@angular/core":166}],66:[function(require,module,exports){
+},{"../facade/lang":37,"./location":67,"./location_strategy":68,"./platform_location":70,"@angular/core":167}],67:[function(require,module,exports){
+/**
+ * @license
+ * Copyright Google Inc. All Rights Reserved.
+ *
+ * Use of this source code is governed by an MIT-style license that can be
+ * found in the LICENSE file at https://angular.io/license
+ */
 "use strict";
 var core_1 = require('@angular/core');
 var async_1 = require('../facade/async');
@@ -6330,13 +6658,18 @@ var Location = (function () {
         var browserBaseHref = this._platformStrategy.getBaseHref();
         this._baseHref = Location.stripTrailingSlash(_stripIndexHtml(browserBaseHref));
         this._platformStrategy.onPopState(function (ev) {
-            async_1.ObservableWrapper.callEmit(_this._subject, { 'url': _this.path(), 'pop': true, 'type': ev.type });
+            async_1.ObservableWrapper.callEmit(_this._subject, { 'url': _this.path(true), 'pop': true, 'type': ev.type });
         });
     }
     /**
      * Returns the normalized URL path.
      */
-    Location.prototype.path = function () { return this.normalize(this._platformStrategy.path()); };
+    // TODO: vsavkin. Remove the boolean flag and always include hash once the deprecated router is
+    // removed.
+    Location.prototype.path = function (includeHash) {
+        if (includeHash === void 0) { includeHash = false; }
+        return this.normalize(this._platformStrategy.path(includeHash));
+    };
     /**
      * Normalizes the given path and compares to the current normalized path.
      */
@@ -6462,7 +6795,14 @@ function _stripIndexHtml(url) {
     return url;
 }
 
-},{"../facade/async":31,"./location_strategy":67,"@angular/core":166}],67:[function(require,module,exports){
+},{"../facade/async":31,"./location_strategy":68,"@angular/core":167}],68:[function(require,module,exports){
+/**
+ * @license
+ * Copyright Google Inc. All Rights Reserved.
+ *
+ * Use of this source code is governed by an MIT-style license that can be
+ * found in the LICENSE file at https://angular.io/license
+ */
 "use strict";
 var core_1 = require('@angular/core');
 /**
@@ -6521,7 +6861,14 @@ exports.LocationStrategy = LocationStrategy;
  */
 exports.APP_BASE_HREF = new core_1.OpaqueToken('appBaseHref');
 
-},{"@angular/core":166}],68:[function(require,module,exports){
+},{"@angular/core":167}],69:[function(require,module,exports){
+/**
+ * @license
+ * Copyright Google Inc. All Rights Reserved.
+ *
+ * Use of this source code is governed by an MIT-style license that can be
+ * found in the LICENSE file at https://angular.io/license
+ */
 "use strict";
 var __extends = (this && this.__extends) || function (d, b) {
     for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p];
@@ -6555,9 +6902,12 @@ var PathLocationStrategy = (function (_super) {
     PathLocationStrategy.prototype.prepareExternalUrl = function (internal) {
         return location_1.Location.joinWithSlash(this._baseHref, internal);
     };
-    PathLocationStrategy.prototype.path = function () {
-        return this._platformLocation.pathname +
+    PathLocationStrategy.prototype.path = function (includeHash) {
+        if (includeHash === void 0) { includeHash = false; }
+        var pathname = this._platformLocation.pathname +
             location_1.Location.normalizeQueryParams(this._platformLocation.search);
+        var hash = this._platformLocation.hash;
+        return hash && includeHash ? "" + pathname + hash : pathname;
     };
     PathLocationStrategy.prototype.pushState = function (state, title, url, queryParams) {
         var externalUrl = this.prepareExternalUrl(url + location_1.Location.normalizeQueryParams(queryParams));
@@ -6582,7 +6932,14 @@ var PathLocationStrategy = (function (_super) {
 }(location_strategy_1.LocationStrategy));
 exports.PathLocationStrategy = PathLocationStrategy;
 
-},{"../facade/exceptions":35,"../facade/lang":37,"./location":66,"./location_strategy":67,"./platform_location":69,"@angular/core":166}],69:[function(require,module,exports){
+},{"../facade/exceptions":35,"../facade/lang":37,"./location":67,"./location_strategy":68,"./platform_location":70,"@angular/core":167}],70:[function(require,module,exports){
+/**
+ * @license
+ * Copyright Google Inc. All Rights Reserved.
+ *
+ * Use of this source code is governed by an MIT-style license that can be
+ * found in the LICENSE file at https://angular.io/license
+ */
 "use strict";
 /**
  * This class should not be used directly by an application developer. Instead, use
@@ -6632,13 +6989,20 @@ var PlatformLocation = (function () {
 }());
 exports.PlatformLocation = PlatformLocation;
 
-},{}],70:[function(require,module,exports){
+},{}],71:[function(require,module,exports){
+/**
+ * @license
+ * Copyright Google Inc. All Rights Reserved.
+ *
+ * Use of this source code is governed by an MIT-style license that can be
+ * found in the LICENSE file at https://angular.io/license
+ */
+"use strict";
 /**
  * @module
  * @description
  * This module provides a set of common Pipes.
  */
-"use strict";
 var async_pipe_1 = require('./pipes/async_pipe');
 exports.AsyncPipe = async_pipe_1.AsyncPipe;
 var common_pipes_1 = require('./pipes/common_pipes');
@@ -6664,7 +7028,14 @@ exports.SlicePipe = slice_pipe_1.SlicePipe;
 var uppercase_pipe_1 = require('./pipes/uppercase_pipe');
 exports.UpperCasePipe = uppercase_pipe_1.UpperCasePipe;
 
-},{"./pipes/async_pipe":71,"./pipes/common_pipes":72,"./pipes/date_pipe":73,"./pipes/i18n_plural_pipe":74,"./pipes/i18n_select_pipe":75,"./pipes/json_pipe":77,"./pipes/lowercase_pipe":78,"./pipes/number_pipe":79,"./pipes/replace_pipe":80,"./pipes/slice_pipe":81,"./pipes/uppercase_pipe":82}],71:[function(require,module,exports){
+},{"./pipes/async_pipe":72,"./pipes/common_pipes":73,"./pipes/date_pipe":74,"./pipes/i18n_plural_pipe":75,"./pipes/i18n_select_pipe":76,"./pipes/json_pipe":78,"./pipes/lowercase_pipe":79,"./pipes/number_pipe":80,"./pipes/replace_pipe":81,"./pipes/slice_pipe":82,"./pipes/uppercase_pipe":83}],72:[function(require,module,exports){
+/**
+ * @license
+ * Copyright Google Inc. All Rights Reserved.
+ *
+ * Use of this source code is governed by an MIT-style license that can be
+ * found in the LICENSE file at https://angular.io/license
+ */
 "use strict";
 var core_1 = require('@angular/core');
 var async_1 = require('../facade/async');
@@ -6777,7 +7148,14 @@ var AsyncPipe = (function () {
 }());
 exports.AsyncPipe = AsyncPipe;
 
-},{"../facade/async":31,"../facade/lang":37,"./invalid_pipe_argument_exception":76,"@angular/core":166}],72:[function(require,module,exports){
+},{"../facade/async":31,"../facade/lang":37,"./invalid_pipe_argument_exception":77,"@angular/core":167}],73:[function(require,module,exports){
+/**
+ * @license
+ * Copyright Google Inc. All Rights Reserved.
+ *
+ * Use of this source code is governed by an MIT-style license that can be
+ * found in the LICENSE file at https://angular.io/license
+ */
 "use strict";
 /**
  * @module
@@ -6818,7 +7196,14 @@ exports.COMMON_PIPES = [
     i18n_select_pipe_1.I18nSelectPipe,
 ];
 
-},{"./async_pipe":71,"./date_pipe":73,"./i18n_plural_pipe":74,"./i18n_select_pipe":75,"./json_pipe":77,"./lowercase_pipe":78,"./number_pipe":79,"./replace_pipe":80,"./slice_pipe":81,"./uppercase_pipe":82}],73:[function(require,module,exports){
+},{"./async_pipe":72,"./date_pipe":74,"./i18n_plural_pipe":75,"./i18n_select_pipe":76,"./json_pipe":78,"./lowercase_pipe":79,"./number_pipe":80,"./replace_pipe":81,"./slice_pipe":82,"./uppercase_pipe":83}],74:[function(require,module,exports){
+/**
+ * @license
+ * Copyright Google Inc. All Rights Reserved.
+ *
+ * Use of this source code is governed by an MIT-style license that can be
+ * found in the LICENSE file at https://angular.io/license
+ */
 "use strict";
 var core_1 = require('@angular/core');
 var collection_1 = require('../facade/collection');
@@ -6876,47 +7261,67 @@ var DatePipe = (function () {
 }());
 exports.DatePipe = DatePipe;
 
-},{"../facade/collection":33,"../facade/intl":36,"../facade/lang":37,"./invalid_pipe_argument_exception":76,"@angular/core":166}],74:[function(require,module,exports){
+},{"../facade/collection":33,"../facade/intl":36,"../facade/lang":37,"./invalid_pipe_argument_exception":77,"@angular/core":167}],75:[function(require,module,exports){
+/**
+ * @license
+ * Copyright Google Inc. All Rights Reserved.
+ *
+ * Use of this source code is governed by an MIT-style license that can be
+ * found in the LICENSE file at https://angular.io/license
+ */
 "use strict";
 var core_1 = require('@angular/core');
 var lang_1 = require('../facade/lang');
+var localization_1 = require('../localization');
 var invalid_pipe_argument_exception_1 = require('./invalid_pipe_argument_exception');
 var _INTERPOLATION_REGEXP = /#/g;
 var I18nPluralPipe = (function () {
-    function I18nPluralPipe() {
+    function I18nPluralPipe(_localization) {
+        this._localization = _localization;
     }
     I18nPluralPipe.prototype.transform = function (value, pluralMap) {
-        var key;
-        var valueStr;
+        if (lang_1.isBlank(value))
+            return '';
         if (!lang_1.isStringMap(pluralMap)) {
             throw new invalid_pipe_argument_exception_1.InvalidPipeArgumentException(I18nPluralPipe, pluralMap);
         }
-        key = value === 0 || value === 1 ? "=" + value : 'other';
-        valueStr = lang_1.isPresent(value) ? value.toString() : '';
-        return lang_1.StringWrapper.replaceAll(pluralMap[key], _INTERPOLATION_REGEXP, valueStr);
+        var key = localization_1.getPluralCategory(value, Object.getOwnPropertyNames(pluralMap), this._localization);
+        return lang_1.StringWrapper.replaceAll(pluralMap[key], _INTERPOLATION_REGEXP, value.toString());
     };
     /** @nocollapse */
     I18nPluralPipe.decorators = [
         { type: core_1.Pipe, args: [{ name: 'i18nPlural', pure: true },] },
     ];
+    /** @nocollapse */
+    I18nPluralPipe.ctorParameters = [
+        { type: localization_1.NgLocalization, },
+    ];
     return I18nPluralPipe;
 }());
 exports.I18nPluralPipe = I18nPluralPipe;
 
-},{"../facade/lang":37,"./invalid_pipe_argument_exception":76,"@angular/core":166}],75:[function(require,module,exports){
+},{"../facade/lang":37,"../localization":64,"./invalid_pipe_argument_exception":77,"@angular/core":167}],76:[function(require,module,exports){
+/**
+ * @license
+ * Copyright Google Inc. All Rights Reserved.
+ *
+ * Use of this source code is governed by an MIT-style license that can be
+ * found in the LICENSE file at https://angular.io/license
+ */
 "use strict";
 var core_1 = require('@angular/core');
-var collection_1 = require('../facade/collection');
 var lang_1 = require('../facade/lang');
 var invalid_pipe_argument_exception_1 = require('./invalid_pipe_argument_exception');
 var I18nSelectPipe = (function () {
     function I18nSelectPipe() {
     }
     I18nSelectPipe.prototype.transform = function (value, mapping) {
+        if (lang_1.isBlank(value))
+            return '';
         if (!lang_1.isStringMap(mapping)) {
             throw new invalid_pipe_argument_exception_1.InvalidPipeArgumentException(I18nSelectPipe, mapping);
         }
-        return collection_1.StringMapWrapper.contains(mapping, value) ? mapping[value] : mapping['other'];
+        return mapping.hasOwnProperty(value) ? mapping[value] : '';
     };
     /** @nocollapse */
     I18nSelectPipe.decorators = [
@@ -6926,7 +7331,14 @@ var I18nSelectPipe = (function () {
 }());
 exports.I18nSelectPipe = I18nSelectPipe;
 
-},{"../facade/collection":33,"../facade/lang":37,"./invalid_pipe_argument_exception":76,"@angular/core":166}],76:[function(require,module,exports){
+},{"../facade/lang":37,"./invalid_pipe_argument_exception":77,"@angular/core":167}],77:[function(require,module,exports){
+/**
+ * @license
+ * Copyright Google Inc. All Rights Reserved.
+ *
+ * Use of this source code is governed by an MIT-style license that can be
+ * found in the LICENSE file at https://angular.io/license
+ */
 "use strict";
 var __extends = (this && this.__extends) || function (d, b) {
     for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p];
@@ -6944,7 +7356,14 @@ var InvalidPipeArgumentException = (function (_super) {
 }(exceptions_1.BaseException));
 exports.InvalidPipeArgumentException = InvalidPipeArgumentException;
 
-},{"../facade/exceptions":35,"../facade/lang":37}],77:[function(require,module,exports){
+},{"../facade/exceptions":35,"../facade/lang":37}],78:[function(require,module,exports){
+/**
+ * @license
+ * Copyright Google Inc. All Rights Reserved.
+ *
+ * Use of this source code is governed by an MIT-style license that can be
+ * found in the LICENSE file at https://angular.io/license
+ */
 "use strict";
 var core_1 = require('@angular/core');
 var lang_1 = require('../facade/lang');
@@ -6960,7 +7379,14 @@ var JsonPipe = (function () {
 }());
 exports.JsonPipe = JsonPipe;
 
-},{"../facade/lang":37,"@angular/core":166}],78:[function(require,module,exports){
+},{"../facade/lang":37,"@angular/core":167}],79:[function(require,module,exports){
+/**
+ * @license
+ * Copyright Google Inc. All Rights Reserved.
+ *
+ * Use of this source code is governed by an MIT-style license that can be
+ * found in the LICENSE file at https://angular.io/license
+ */
 "use strict";
 var core_1 = require('@angular/core');
 var lang_1 = require('../facade/lang');
@@ -6984,7 +7410,14 @@ var LowerCasePipe = (function () {
 }());
 exports.LowerCasePipe = LowerCasePipe;
 
-},{"../facade/lang":37,"./invalid_pipe_argument_exception":76,"@angular/core":166}],79:[function(require,module,exports){
+},{"../facade/lang":37,"./invalid_pipe_argument_exception":77,"@angular/core":167}],80:[function(require,module,exports){
+/**
+ * @license
+ * Copyright Google Inc. All Rights Reserved.
+ *
+ * Use of this source code is governed by an MIT-style license that can be
+ * found in the LICENSE file at https://angular.io/license
+ */
 "use strict";
 var core_1 = require('@angular/core');
 var exceptions_1 = require('../facade/exceptions');
@@ -7073,7 +7506,14 @@ var CurrencyPipe = (function () {
 }());
 exports.CurrencyPipe = CurrencyPipe;
 
-},{"../facade/exceptions":35,"../facade/intl":36,"../facade/lang":37,"./invalid_pipe_argument_exception":76,"@angular/core":166}],80:[function(require,module,exports){
+},{"../facade/exceptions":35,"../facade/intl":36,"../facade/lang":37,"./invalid_pipe_argument_exception":77,"@angular/core":167}],81:[function(require,module,exports){
+/**
+ * @license
+ * Copyright Google Inc. All Rights Reserved.
+ *
+ * Use of this source code is governed by an MIT-style license that can be
+ * found in the LICENSE file at https://angular.io/license
+ */
 "use strict";
 var core_1 = require('@angular/core');
 var lang_1 = require('../facade/lang');
@@ -7120,7 +7560,14 @@ var ReplacePipe = (function () {
 }());
 exports.ReplacePipe = ReplacePipe;
 
-},{"../facade/lang":37,"./invalid_pipe_argument_exception":76,"@angular/core":166}],81:[function(require,module,exports){
+},{"../facade/lang":37,"./invalid_pipe_argument_exception":77,"@angular/core":167}],82:[function(require,module,exports){
+/**
+ * @license
+ * Copyright Google Inc. All Rights Reserved.
+ *
+ * Use of this source code is governed by an MIT-style license that can be
+ * found in the LICENSE file at https://angular.io/license
+ */
 "use strict";
 var core_1 = require('@angular/core');
 var collection_1 = require('../facade/collection');
@@ -7150,7 +7597,14 @@ var SlicePipe = (function () {
 }());
 exports.SlicePipe = SlicePipe;
 
-},{"../facade/collection":33,"../facade/lang":37,"./invalid_pipe_argument_exception":76,"@angular/core":166}],82:[function(require,module,exports){
+},{"../facade/collection":33,"../facade/lang":37,"./invalid_pipe_argument_exception":77,"@angular/core":167}],83:[function(require,module,exports){
+/**
+ * @license
+ * Copyright Google Inc. All Rights Reserved.
+ *
+ * Use of this source code is governed by an MIT-style license that can be
+ * found in the LICENSE file at https://angular.io/license
+ */
 "use strict";
 var core_1 = require('@angular/core');
 var lang_1 = require('../facade/lang');
@@ -7174,7 +7628,14 @@ var UpperCasePipe = (function () {
 }());
 exports.UpperCasePipe = UpperCasePipe;
 
-},{"../facade/lang":37,"./invalid_pipe_argument_exception":76,"@angular/core":166}],83:[function(require,module,exports){
+},{"../facade/lang":37,"./invalid_pipe_argument_exception":77,"@angular/core":167}],84:[function(require,module,exports){
+/**
+ * @license
+ * Copyright Google Inc. All Rights Reserved.
+ *
+ * Use of this source code is governed by an MIT-style license that can be
+ * found in the LICENSE file at https://angular.io/license
+ */
 "use strict";
 function __export(m) {
     for (var p in m) if (!exports.hasOwnProperty(p)) exports[p] = m[p];
@@ -7217,11 +7678,18 @@ exports.ElementSchemaRegistry = element_schema_registry_1.ElementSchemaRegistry;
 __export(require('./src/template_ast'));
 __export(require('./private_export'));
 
-},{"./private_export":86,"./src/compiler":94,"./src/schema/element_schema_registry":139,"./src/template_ast":144}],84:[function(require,module,exports){
+},{"./private_export":87,"./src/compiler":95,"./src/schema/element_schema_registry":140,"./src/template_ast":145}],85:[function(require,module,exports){
+/**
+ * @license
+ * Copyright Google Inc. All Rights Reserved.
+ *
+ * Use of this source code is governed by an MIT-style license that can be
+ * found in the LICENSE file at https://angular.io/license
+ */
 "use strict";
 var core_1 = require('@angular/core');
 exports.isDefaultChangeDetectionStrategy = core_1.__core_private__.isDefaultChangeDetectionStrategy;
-exports.ChangeDetectorState = core_1.__core_private__.ChangeDetectorState;
+exports.ChangeDetectorStatus = core_1.__core_private__.ChangeDetectorStatus;
 exports.CHANGE_DETECTION_STRATEGY_VALUES = core_1.__core_private__.CHANGE_DETECTION_STRATEGY_VALUES;
 exports.constructDependencies = core_1.__core_private__.constructDependencies;
 exports.LifecycleHooks = core_1.__core_private__.LifecycleHooks;
@@ -7229,6 +7697,7 @@ exports.LIFECYCLE_HOOKS_VALUES = core_1.__core_private__.LIFECYCLE_HOOKS_VALUES;
 exports.ReflectorReader = core_1.__core_private__.ReflectorReader;
 exports.ReflectorComponentResolver = core_1.__core_private__.ReflectorComponentResolver;
 exports.AppElement = core_1.__core_private__.AppElement;
+exports.CodegenComponentFactoryResolver = core_1.__core_private__.CodegenComponentFactoryResolver;
 exports.AppView = core_1.__core_private__.AppView;
 exports.DebugAppView = core_1.__core_private__.DebugAppView;
 exports.ViewType = core_1.__core_private__.ViewType;
@@ -7283,14 +7752,28 @@ exports.clearStyles = core_1.__core_private__.clearStyles;
 exports.collectAndResolveStyles = core_1.__core_private__.collectAndResolveStyles;
 exports.renderStyles = core_1.__core_private__.renderStyles;
 
-},{"@angular/core":166}],85:[function(require,module,exports){
+},{"@angular/core":167}],86:[function(require,module,exports){
+/**
+ * @license
+ * Copyright Google Inc. All Rights Reserved.
+ *
+ * Use of this source code is governed by an MIT-style license that can be
+ * found in the LICENSE file at https://angular.io/license
+ */
 "use strict";
 function __export(m) {
     for (var p in m) if (!exports.hasOwnProperty(p)) exports[p] = m[p];
 }
 __export(require('./compiler'));
 
-},{"./compiler":83}],86:[function(require,module,exports){
+},{"./compiler":84}],87:[function(require,module,exports){
+/**
+ * @license
+ * Copyright Google Inc. All Rights Reserved.
+ *
+ * Use of this source code is governed by an MIT-style license that can be
+ * found in the LICENSE file at https://angular.io/license
+ */
 "use strict";
 var directive_normalizer = require('./src/directive_normalizer');
 var lexer = require('./src/expression_parser/lexer');
@@ -7339,7 +7822,14 @@ var __compiler_private__;
     __compiler_private__.TypeScriptEmitter = ts_emitter.TypeScriptEmitter;
 })(__compiler_private__ = exports.__compiler_private__ || (exports.__compiler_private__ = {}));
 
-},{"./src/directive_normalizer":97,"./src/expression_parser/lexer":100,"./src/expression_parser/parser":101,"./src/html_parser":112,"./src/i18n/i18n_html_parser":115,"./src/i18n/message":116,"./src/i18n/message_extractor":117,"./src/i18n/xmb_serializer":119,"./src/metadata_resolver":122,"./src/output/path_util":131,"./src/output/ts_emitter":132,"./src/parse_util":133,"./src/schema/dom_element_schema_registry":137,"./src/selector":140,"./src/style_compiler":142,"./src/template_parser":145,"./src/view_compiler/view_compiler":163}],87:[function(require,module,exports){
+},{"./src/directive_normalizer":98,"./src/expression_parser/lexer":101,"./src/expression_parser/parser":102,"./src/html_parser":113,"./src/i18n/i18n_html_parser":116,"./src/i18n/message":117,"./src/i18n/message_extractor":118,"./src/i18n/xmb_serializer":120,"./src/metadata_resolver":123,"./src/output/path_util":132,"./src/output/ts_emitter":133,"./src/parse_util":134,"./src/schema/dom_element_schema_registry":138,"./src/selector":141,"./src/style_compiler":143,"./src/template_parser":146,"./src/view_compiler/view_compiler":164}],88:[function(require,module,exports){
+/**
+ * @license
+ * Copyright Google Inc. All Rights Reserved.
+ *
+ * Use of this source code is governed by an MIT-style license that can be
+ * found in the LICENSE file at https://angular.io/license
+ */
 "use strict";
 var __extends = (this && this.__extends) || function (d, b) {
     for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p];
@@ -7483,7 +7973,14 @@ var AnimationSequenceAst = (function (_super) {
 }(AnimationWithStepsAst));
 exports.AnimationSequenceAst = AnimationSequenceAst;
 
-},{}],88:[function(require,module,exports){
+},{}],89:[function(require,module,exports){
+/**
+ * @license
+ * Copyright Google Inc. All Rights Reserved.
+ *
+ * Use of this source code is governed by an MIT-style license that can be
+ * found in the LICENSE file at https://angular.io/license
+ */
 "use strict";
 var core_private_1 = require('../../core_private');
 var collection_1 = require('../facade/collection');
@@ -7770,7 +8267,14 @@ function _getStylesArray(obj) {
     return obj.styles.styles;
 }
 
-},{"../../core_private":84,"../facade/collection":104,"../facade/exceptions":106,"../facade/lang":107,"../identifiers":120,"../output/output_ast":128,"./animation_ast":87,"./animation_parser":89}],89:[function(require,module,exports){
+},{"../../core_private":85,"../facade/collection":105,"../facade/exceptions":107,"../facade/lang":108,"../identifiers":121,"../output/output_ast":129,"./animation_ast":88,"./animation_parser":90}],90:[function(require,module,exports){
+/**
+ * @license
+ * Copyright Google Inc. All Rights Reserved.
+ *
+ * Use of this source code is governed by an MIT-style license that can be
+ * found in the LICENSE file at https://angular.io/license
+ */
 "use strict";
 var __extends = (this && this.__extends) || function (d, b) {
     for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p];
@@ -8239,7 +8743,14 @@ function _createStartKeyframeFromEndKeyframe(endKeyframe, startTime, duration, c
     return new animation_ast_1.AnimationKeyframeAst(_INITIAL_KEYFRAME, new animation_ast_1.AnimationStylesAst([values]));
 }
 
-},{"../../core_private":84,"../compile_metadata":93,"../facade/collection":104,"../facade/lang":107,"../facade/math":108,"../parse_util":133,"./animation_ast":87,"./styles_collection":90}],90:[function(require,module,exports){
+},{"../../core_private":85,"../compile_metadata":94,"../facade/collection":105,"../facade/lang":108,"../facade/math":109,"../parse_util":134,"./animation_ast":88,"./styles_collection":91}],91:[function(require,module,exports){
+/**
+ * @license
+ * Copyright Google Inc. All Rights Reserved.
+ *
+ * Use of this source code is governed by an MIT-style license that can be
+ * found in the LICENSE file at https://angular.io/license
+ */
 "use strict";
 var collection_1 = require('../facade/collection');
 var lang_1 = require('../facade/lang');
@@ -8296,7 +8807,14 @@ var StylesCollection = (function () {
 }());
 exports.StylesCollection = StylesCollection;
 
-},{"../facade/collection":104,"../facade/lang":107}],91:[function(require,module,exports){
+},{"../facade/collection":105,"../facade/lang":108}],92:[function(require,module,exports){
+/**
+ * @license
+ * Copyright Google Inc. All Rights Reserved.
+ *
+ * Use of this source code is governed by an MIT-style license that can be
+ * found in the LICENSE file at https://angular.io/license
+ */
 "use strict";
 var core_1 = require('@angular/core');
 var exceptions_1 = require('../src/facade/exceptions');
@@ -8316,9 +8834,10 @@ function assertArrayOfStrings(identifier, value) {
 }
 exports.assertArrayOfStrings = assertArrayOfStrings;
 var INTERPOLATION_BLACKLIST_REGEXPS = [
-    /^\s*$/g,
-    /[<>]/g,
-    /^[\{\}]$/g,
+    /^\s*$/,
+    /[<>]/,
+    /^[{}]$/,
+    /&(#|[a-z])/i,
 ];
 function assertInterpolationSymbols(identifier, value) {
     if (core_1.isDevMode() && !lang_1.isBlank(value) && (!lang_1.isArray(value) || value.length != 2)) {
@@ -8337,7 +8856,14 @@ function assertInterpolationSymbols(identifier, value) {
 }
 exports.assertInterpolationSymbols = assertInterpolationSymbols;
 
-},{"../src/facade/exceptions":106,"../src/facade/lang":107,"@angular/core":166}],92:[function(require,module,exports){
+},{"../src/facade/exceptions":107,"../src/facade/lang":108,"@angular/core":167}],93:[function(require,module,exports){
+/**
+ * @license
+ * Copyright Google Inc. All Rights Reserved.
+ *
+ * Use of this source code is governed by an MIT-style license that can be
+ * found in the LICENSE file at https://angular.io/license
+ */
 "use strict";
 exports.$EOF = 0;
 exports.$TAB = 9;
@@ -8396,12 +8922,32 @@ exports.$NBSP = 160;
 exports.$PIPE = 124;
 exports.$TILDA = 126;
 exports.$AT = 64;
+exports.$BT = 96;
 function isWhitespace(code) {
     return (code >= exports.$TAB && code <= exports.$SPACE) || (code == exports.$NBSP);
 }
 exports.isWhitespace = isWhitespace;
+function isDigit(code) {
+    return exports.$0 <= code && code <= exports.$9;
+}
+exports.isDigit = isDigit;
+function isAsciiLetter(code) {
+    return code >= exports.$a && code <= exports.$z || code >= exports.$A && code <= exports.$Z;
+}
+exports.isAsciiLetter = isAsciiLetter;
+function isAsciiHexDigit(code) {
+    return code >= exports.$a && code <= exports.$f || code >= exports.$A && code <= exports.$F || isDigit(code);
+}
+exports.isAsciiHexDigit = isAsciiHexDigit;
 
-},{}],93:[function(require,module,exports){
+},{}],94:[function(require,module,exports){
+/**
+ * @license
+ * Copyright Google Inc. All Rights Reserved.
+ *
+ * Use of this source code is governed by an MIT-style license that can be
+ * found in the LICENSE file at https://angular.io/license
+ */
 "use strict";
 var __extends = (this && this.__extends) || function (d, b) {
     for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p];
@@ -8980,16 +9526,36 @@ var CompileQueryMetadata = (function () {
 }());
 exports.CompileQueryMetadata = CompileQueryMetadata;
 /**
+ * Metadata about a stylesheet
+ */
+var CompileStylesheetMetadata = (function () {
+    function CompileStylesheetMetadata(_a) {
+        var _b = _a === void 0 ? {} : _a, moduleUrl = _b.moduleUrl, styles = _b.styles, styleUrls = _b.styleUrls;
+        this.moduleUrl = moduleUrl;
+        this.styles = _normalizeArray(styles);
+        this.styleUrls = _normalizeArray(styleUrls);
+    }
+    CompileStylesheetMetadata.fromJson = function (data) {
+        return new CompileStylesheetMetadata({ moduleUrl: data['moduleUrl'], styles: data['styles'], styleUrls: data['styleUrls'] });
+    };
+    CompileStylesheetMetadata.prototype.toJson = function () {
+        return { 'moduleUrl': this.moduleUrl, 'styles': this.styles, 'styleUrls': this.styleUrls };
+    };
+    return CompileStylesheetMetadata;
+}());
+exports.CompileStylesheetMetadata = CompileStylesheetMetadata;
+/**
  * Metadata regarding compilation of a template.
  */
 var CompileTemplateMetadata = (function () {
     function CompileTemplateMetadata(_a) {
-        var _b = _a === void 0 ? {} : _a, encapsulation = _b.encapsulation, template = _b.template, templateUrl = _b.templateUrl, styles = _b.styles, styleUrls = _b.styleUrls, animations = _b.animations, ngContentSelectors = _b.ngContentSelectors, interpolation = _b.interpolation;
+        var _b = _a === void 0 ? {} : _a, encapsulation = _b.encapsulation, template = _b.template, templateUrl = _b.templateUrl, styles = _b.styles, styleUrls = _b.styleUrls, externalStylesheets = _b.externalStylesheets, animations = _b.animations, ngContentSelectors = _b.ngContentSelectors, interpolation = _b.interpolation;
         this.encapsulation = encapsulation;
         this.template = template;
         this.templateUrl = templateUrl;
-        this.styles = lang_1.isPresent(styles) ? styles : [];
-        this.styleUrls = lang_1.isPresent(styleUrls) ? styleUrls : [];
+        this.styles = _normalizeArray(styles);
+        this.styleUrls = _normalizeArray(styleUrls);
+        this.externalStylesheets = _normalizeArray(externalStylesheets);
         this.animations = lang_1.isPresent(animations) ? collection_1.ListWrapper.flatten(animations) : [];
         this.ngContentSelectors = lang_1.isPresent(ngContentSelectors) ? ngContentSelectors : [];
         if (lang_1.isPresent(interpolation) && interpolation.length != 2) {
@@ -9007,6 +9573,7 @@ var CompileTemplateMetadata = (function () {
             templateUrl: data['templateUrl'],
             styles: data['styles'],
             styleUrls: data['styleUrls'],
+            externalStylesheets: _arrayFromJson(data['externalStylesheets'], CompileStylesheetMetadata.fromJson),
             animations: animations,
             ngContentSelectors: data['ngContentSelectors'],
             interpolation: data['interpolation']
@@ -9020,6 +9587,7 @@ var CompileTemplateMetadata = (function () {
             'templateUrl': this.templateUrl,
             'styles': this.styles,
             'styleUrls': this.styleUrls,
+            'externalStylesheets': _objToJson(this.externalStylesheets),
             'animations': _objToJson(this.animations),
             'ngContentSelectors': this.ngContentSelectors,
             'interpolation': this.interpolation
@@ -9033,7 +9601,7 @@ exports.CompileTemplateMetadata = CompileTemplateMetadata;
  */
 var CompileDirectiveMetadata = (function () {
     function CompileDirectiveMetadata(_a) {
-        var _b = _a === void 0 ? {} : _a, type = _b.type, isComponent = _b.isComponent, selector = _b.selector, exportAs = _b.exportAs, changeDetection = _b.changeDetection, inputs = _b.inputs, outputs = _b.outputs, hostListeners = _b.hostListeners, hostProperties = _b.hostProperties, hostAttributes = _b.hostAttributes, lifecycleHooks = _b.lifecycleHooks, providers = _b.providers, viewProviders = _b.viewProviders, queries = _b.queries, viewQueries = _b.viewQueries, template = _b.template;
+        var _b = _a === void 0 ? {} : _a, type = _b.type, isComponent = _b.isComponent, selector = _b.selector, exportAs = _b.exportAs, changeDetection = _b.changeDetection, inputs = _b.inputs, outputs = _b.outputs, hostListeners = _b.hostListeners, hostProperties = _b.hostProperties, hostAttributes = _b.hostAttributes, lifecycleHooks = _b.lifecycleHooks, providers = _b.providers, viewProviders = _b.viewProviders, queries = _b.queries, viewQueries = _b.viewQueries, precompile = _b.precompile, template = _b.template;
         this.type = type;
         this.isComponent = isComponent;
         this.selector = selector;
@@ -9049,10 +9617,11 @@ var CompileDirectiveMetadata = (function () {
         this.viewProviders = _normalizeArray(viewProviders);
         this.queries = _normalizeArray(queries);
         this.viewQueries = _normalizeArray(viewQueries);
+        this.precompile = _normalizeArray(precompile);
         this.template = template;
     }
     CompileDirectiveMetadata.create = function (_a) {
-        var _b = _a === void 0 ? {} : _a, type = _b.type, isComponent = _b.isComponent, selector = _b.selector, exportAs = _b.exportAs, changeDetection = _b.changeDetection, inputs = _b.inputs, outputs = _b.outputs, host = _b.host, lifecycleHooks = _b.lifecycleHooks, providers = _b.providers, viewProviders = _b.viewProviders, queries = _b.queries, viewQueries = _b.viewQueries, template = _b.template;
+        var _b = _a === void 0 ? {} : _a, type = _b.type, isComponent = _b.isComponent, selector = _b.selector, exportAs = _b.exportAs, changeDetection = _b.changeDetection, inputs = _b.inputs, outputs = _b.outputs, host = _b.host, lifecycleHooks = _b.lifecycleHooks, providers = _b.providers, viewProviders = _b.viewProviders, queries = _b.queries, viewQueries = _b.viewQueries, precompile = _b.precompile, template = _b.template;
         var hostListeners = {};
         var hostProperties = {};
         var hostAttributes = {};
@@ -9104,6 +9673,7 @@ var CompileDirectiveMetadata = (function () {
             viewProviders: viewProviders,
             queries: queries,
             viewQueries: viewQueries,
+            precompile: precompile,
             template: template
         });
     };
@@ -9132,7 +9702,8 @@ var CompileDirectiveMetadata = (function () {
             providers: _arrayFromJson(data['providers'], metadataFromJson),
             viewProviders: _arrayFromJson(data['viewProviders'], metadataFromJson),
             queries: _arrayFromJson(data['queries'], CompileQueryMetadata.fromJson),
-            viewQueries: _arrayFromJson(data['viewQueries'], CompileQueryMetadata.fromJson)
+            viewQueries: _arrayFromJson(data['viewQueries'], CompileQueryMetadata.fromJson),
+            precompile: _arrayFromJson(data['precompile'], CompileTypeMetadata.fromJson)
         });
     };
     CompileDirectiveMetadata.prototype.toJson = function () {
@@ -9154,7 +9725,8 @@ var CompileDirectiveMetadata = (function () {
             'providers': _arrayToJson(this.providers),
             'viewProviders': _arrayToJson(this.viewProviders),
             'queries': _arrayToJson(this.queries),
-            'viewQueries': _arrayToJson(this.viewQueries)
+            'viewQueries': _arrayToJson(this.viewQueries),
+            'precompile': _arrayToJson(this.precompile)
         };
     };
     return CompileDirectiveMetadata;
@@ -9265,7 +9837,14 @@ function _normalizeArray(obj) {
     return lang_1.isPresent(obj) ? obj : [];
 }
 
-},{"../core_private":84,"../src/facade/collection":104,"../src/facade/exceptions":106,"../src/facade/lang":107,"./selector":140,"./url_resolver":147,"./util":148,"@angular/core":166}],94:[function(require,module,exports){
+},{"../core_private":85,"../src/facade/collection":105,"../src/facade/exceptions":107,"../src/facade/lang":108,"./selector":141,"./url_resolver":148,"./util":149,"@angular/core":167}],95:[function(require,module,exports){
+/**
+ * @license
+ * Copyright Google Inc. All Rights Reserved.
+ *
+ * Use of this source code is governed by an MIT-style license that can be
+ * found in the LICENSE file at https://angular.io/license
+ */
 "use strict";
 function __export(m) {
     for (var p in m) if (!exports.hasOwnProperty(p)) exports[p] = m[p];
@@ -9316,12 +9895,20 @@ exports.COMPILER_PROVIDERS =
     /*@ts2dart_Provider*/ { provide: config_2.CompilerConfig, useValue: new config_2.CompilerConfig() },
     runtime_compiler_2.RuntimeCompiler,
     /*@ts2dart_Provider*/ { provide: core_1.ComponentResolver, useExisting: runtime_compiler_2.RuntimeCompiler },
+    /*@ts2dart_Provider*/ { provide: core_1.Compiler, useExisting: runtime_compiler_2.RuntimeCompiler },
     dom_element_schema_registry_1.DomElementSchemaRegistry,
     /*@ts2dart_Provider*/ { provide: element_schema_registry_1.ElementSchemaRegistry, useExisting: dom_element_schema_registry_1.DomElementSchemaRegistry },
     url_resolver_2.UrlResolver, view_resolver_2.ViewResolver, directive_resolver_2.DirectiveResolver, pipe_resolver_2.PipeResolver
 ];
 
-},{"./compile_metadata":93,"./config":95,"./directive_normalizer":97,"./directive_resolver":98,"./expression_parser/lexer":100,"./expression_parser/parser":101,"./html_parser":112,"./metadata_resolver":122,"./offline_compiler":123,"./pipe_resolver":134,"./runtime_compiler":136,"./schema/dom_element_schema_registry":137,"./schema/element_schema_registry":139,"./style_compiler":142,"./template_ast":144,"./template_parser":145,"./url_resolver":147,"./view_compiler/view_compiler":163,"./view_resolver":164,"./xhr":165,"@angular/core":166}],95:[function(require,module,exports){
+},{"./compile_metadata":94,"./config":96,"./directive_normalizer":98,"./directive_resolver":99,"./expression_parser/lexer":101,"./expression_parser/parser":102,"./html_parser":113,"./metadata_resolver":123,"./offline_compiler":124,"./pipe_resolver":135,"./runtime_compiler":137,"./schema/dom_element_schema_registry":138,"./schema/element_schema_registry":140,"./style_compiler":143,"./template_ast":145,"./template_parser":146,"./url_resolver":148,"./view_compiler/view_compiler":164,"./view_resolver":165,"./xhr":166,"@angular/core":167}],96:[function(require,module,exports){
+/**
+ * @license
+ * Copyright Google Inc. All Rights Reserved.
+ *
+ * Use of this source code is governed by an MIT-style license that can be
+ * found in the LICENSE file at https://angular.io/license
+ */
 "use strict";
 var core_1 = require('@angular/core');
 var exceptions_1 = require('../src/facade/exceptions');
@@ -9408,7 +9995,14 @@ var DefaultRenderTypes = (function () {
 }());
 exports.DefaultRenderTypes = DefaultRenderTypes;
 
-},{"../src/facade/exceptions":106,"./identifiers":120,"@angular/core":166}],96:[function(require,module,exports){
+},{"../src/facade/exceptions":107,"./identifiers":121,"@angular/core":167}],97:[function(require,module,exports){
+/**
+ * @license
+ * Copyright Google Inc. All Rights Reserved.
+ *
+ * Use of this source code is governed by an MIT-style license that can be
+ * found in the LICENSE file at https://angular.io/license
+ */
 "use strict";
 var core_1 = require('@angular/core');
 var core_private_1 = require('../core_private');
@@ -9433,110 +10027,180 @@ var LIFECYCLE_PROPS = collection_1.MapWrapper.createFromPairs([
     [core_private_1.LifecycleHooks.AfterViewInit, 'ngAfterViewInit'],
     [core_private_1.LifecycleHooks.AfterViewChecked, 'ngAfterViewChecked'],
 ]);
-function hasLifecycleHook(hook, token /** TODO #9100 */) {
+function hasLifecycleHook(hook, token) {
     var lcInterface = LIFECYCLE_INTERFACES.get(hook);
     var lcProp = LIFECYCLE_PROPS.get(hook);
     return core_private_1.reflector.hasLifecycleHook(token, lcInterface, lcProp);
 }
 exports.hasLifecycleHook = hasLifecycleHook;
 
-},{"../core_private":84,"../src/facade/collection":104,"@angular/core":166}],97:[function(require,module,exports){
+},{"../core_private":85,"../src/facade/collection":105,"@angular/core":167}],98:[function(require,module,exports){
+/**
+ * @license
+ * Copyright Google Inc. All Rights Reserved.
+ *
+ * Use of this source code is governed by an MIT-style license that can be
+ * found in the LICENSE file at https://angular.io/license
+ */
 "use strict";
 var core_1 = require('@angular/core');
-var async_1 = require('../src/facade/async');
+var collection_1 = require('../src/facade/collection');
 var exceptions_1 = require('../src/facade/exceptions');
 var lang_1 = require('../src/facade/lang');
 var compile_metadata_1 = require('./compile_metadata');
-var xhr_1 = require('./xhr');
-var url_resolver_1 = require('./url_resolver');
-var style_url_resolver_1 = require('./style_url_resolver');
+var config_1 = require('./config');
 var html_ast_1 = require('./html_ast');
 var html_parser_1 = require('./html_parser');
-var config_1 = require('./config');
+var style_url_resolver_1 = require('./style_url_resolver');
 var template_preparser_1 = require('./template_preparser');
+var url_resolver_1 = require('./url_resolver');
+var xhr_1 = require('./xhr');
+var NormalizeDirectiveResult = (function () {
+    function NormalizeDirectiveResult(syncResult, asyncResult) {
+        this.syncResult = syncResult;
+        this.asyncResult = asyncResult;
+    }
+    return NormalizeDirectiveResult;
+}());
+exports.NormalizeDirectiveResult = NormalizeDirectiveResult;
 var DirectiveNormalizer = (function () {
     function DirectiveNormalizer(_xhr, _urlResolver, _htmlParser, _config) {
         this._xhr = _xhr;
         this._urlResolver = _urlResolver;
         this._htmlParser = _htmlParser;
         this._config = _config;
+        this._xhrCache = new Map();
     }
+    DirectiveNormalizer.prototype.clearCache = function () { this._xhrCache.clear(); };
+    DirectiveNormalizer.prototype.clearCacheFor = function (normalizedDirective) {
+        var _this = this;
+        if (!normalizedDirective.isComponent) {
+            return;
+        }
+        this._xhrCache.delete(normalizedDirective.template.templateUrl);
+        normalizedDirective.template.externalStylesheets.forEach(function (stylesheet) { _this._xhrCache.delete(stylesheet.moduleUrl); });
+    };
+    DirectiveNormalizer.prototype._fetch = function (url) {
+        var result = this._xhrCache.get(url);
+        if (!result) {
+            result = this._xhr.get(url);
+            this._xhrCache.set(url, result);
+        }
+        return result;
+    };
     DirectiveNormalizer.prototype.normalizeDirective = function (directive) {
+        var _this = this;
         if (!directive.isComponent) {
             // For non components there is nothing to be normalized yet.
-            return async_1.PromiseWrapper.resolve(directive);
+            return new NormalizeDirectiveResult(directive, Promise.resolve(directive));
         }
-        return this.normalizeTemplate(directive.type, directive.template)
-            .then(function (normalizedTemplate) { return new compile_metadata_1.CompileDirectiveMetadata({
-            type: directive.type,
-            isComponent: directive.isComponent,
-            selector: directive.selector,
-            exportAs: directive.exportAs,
-            changeDetection: directive.changeDetection,
-            inputs: directive.inputs,
-            outputs: directive.outputs,
-            hostListeners: directive.hostListeners,
-            hostProperties: directive.hostProperties,
-            hostAttributes: directive.hostAttributes,
-            lifecycleHooks: directive.lifecycleHooks,
-            providers: directive.providers,
-            viewProviders: directive.viewProviders,
-            queries: directive.queries,
-            viewQueries: directive.viewQueries,
-            template: normalizedTemplate
-        }); });
-    };
-    DirectiveNormalizer.prototype.normalizeTemplate = function (directiveType, template) {
-        var _this = this;
-        if (lang_1.isPresent(template.template)) {
-            return async_1.PromiseWrapper.resolve(this.normalizeLoadedTemplate(directiveType, template, template.template, directiveType.moduleUrl));
+        var normalizedTemplateSync = null;
+        var normalizedTemplateAsync;
+        if (lang_1.isPresent(directive.template.template)) {
+            normalizedTemplateSync = this.normalizeTemplateSync(directive.type, directive.template);
+            normalizedTemplateAsync = Promise.resolve(normalizedTemplateSync);
         }
-        else if (lang_1.isPresent(template.templateUrl)) {
-            var sourceAbsUrl = this._urlResolver.resolve(directiveType.moduleUrl, template.templateUrl);
-            return this._xhr.get(sourceAbsUrl)
-                .then(function (templateContent) { return _this.normalizeLoadedTemplate(directiveType, template, templateContent, sourceAbsUrl); });
+        else if (directive.template.templateUrl) {
+            normalizedTemplateAsync = this.normalizeTemplateAsync(directive.type, directive.template);
         }
         else {
-            throw new exceptions_1.BaseException("No template specified for component " + directiveType.name);
+            throw new exceptions_1.BaseException("No template specified for component " + directive.type.name);
+        }
+        if (normalizedTemplateSync && normalizedTemplateSync.styleUrls.length === 0) {
+            // sync case
+            var normalizedDirective = _cloneDirectiveWithTemplate(directive, normalizedTemplateSync);
+            return new NormalizeDirectiveResult(normalizedDirective, Promise.resolve(normalizedDirective));
+        }
+        else {
+            // async case
+            return new NormalizeDirectiveResult(null, normalizedTemplateAsync
+                .then(function (normalizedTemplate) { return _this.normalizeExternalStylesheets(normalizedTemplate); })
+                .then(function (normalizedTemplate) {
+                return _cloneDirectiveWithTemplate(directive, normalizedTemplate);
+            }));
         }
     };
-    DirectiveNormalizer.prototype.normalizeLoadedTemplate = function (directiveType, templateMeta, template, templateAbsUrl) {
+    DirectiveNormalizer.prototype.normalizeTemplateSync = function (directiveType, template) {
+        return this.normalizeLoadedTemplate(directiveType, template, template.template, directiveType.moduleUrl);
+    };
+    DirectiveNormalizer.prototype.normalizeTemplateAsync = function (directiveType, template) {
         var _this = this;
+        var templateUrl = this._urlResolver.resolve(directiveType.moduleUrl, template.templateUrl);
+        return this._fetch(templateUrl)
+            .then(function (value) { return _this.normalizeLoadedTemplate(directiveType, template, value, templateUrl); });
+    };
+    DirectiveNormalizer.prototype.normalizeLoadedTemplate = function (directiveType, templateMeta, template, templateAbsUrl) {
         var rootNodesAndErrors = this._htmlParser.parse(template, directiveType.name);
         if (rootNodesAndErrors.errors.length > 0) {
             var errorString = rootNodesAndErrors.errors.join('\n');
             throw new exceptions_1.BaseException("Template parse errors:\n" + errorString);
         }
+        var templateMetadataStyles = this.normalizeStylesheet(new compile_metadata_1.CompileStylesheetMetadata({
+            styles: templateMeta.styles,
+            styleUrls: templateMeta.styleUrls,
+            moduleUrl: directiveType.moduleUrl
+        }));
         var visitor = new TemplatePreparseVisitor();
         html_ast_1.htmlVisitAll(visitor, rootNodesAndErrors.rootNodes);
-        var allStyles = templateMeta.styles.concat(visitor.styles);
-        var allStyleAbsUrls = visitor.styleUrls.filter(style_url_resolver_1.isStyleUrlResolvable)
-            .map(function (url) { return _this._urlResolver.resolve(templateAbsUrl, url); })
-            .concat(templateMeta.styleUrls.filter(style_url_resolver_1.isStyleUrlResolvable)
-            .map(function (url) { return _this._urlResolver.resolve(directiveType.moduleUrl, url); }));
-        var allResolvedStyles = allStyles.map(function (style) {
-            var styleWithImports = style_url_resolver_1.extractStyleUrls(_this._urlResolver, templateAbsUrl, style);
-            styleWithImports.styleUrls.forEach(function (styleUrl) { return allStyleAbsUrls.push(styleUrl); });
-            return styleWithImports.style;
-        });
+        var templateStyles = this.normalizeStylesheet(new compile_metadata_1.CompileStylesheetMetadata({ styles: visitor.styles, styleUrls: visitor.styleUrls, moduleUrl: templateAbsUrl }));
+        var allStyles = templateMetadataStyles.styles.concat(templateStyles.styles);
+        var allStyleUrls = templateMetadataStyles.styleUrls.concat(templateStyles.styleUrls);
         var encapsulation = templateMeta.encapsulation;
         if (lang_1.isBlank(encapsulation)) {
             encapsulation = this._config.defaultEncapsulation;
         }
-        if (encapsulation === core_1.ViewEncapsulation.Emulated && allResolvedStyles.length === 0 &&
-            allStyleAbsUrls.length === 0) {
+        if (encapsulation === core_1.ViewEncapsulation.Emulated && allStyles.length === 0 &&
+            allStyleUrls.length === 0) {
             encapsulation = core_1.ViewEncapsulation.None;
         }
         return new compile_metadata_1.CompileTemplateMetadata({
             encapsulation: encapsulation,
             template: template,
             templateUrl: templateAbsUrl,
-            styles: allResolvedStyles,
-            styleUrls: allStyleAbsUrls,
+            styles: allStyles,
+            styleUrls: allStyleUrls,
+            externalStylesheets: templateMeta.externalStylesheets,
             ngContentSelectors: visitor.ngContentSelectors,
             animations: templateMeta.animations,
             interpolation: templateMeta.interpolation
         });
+    };
+    DirectiveNormalizer.prototype.normalizeExternalStylesheets = function (templateMeta) {
+        return this._loadMissingExternalStylesheets(templateMeta.styleUrls)
+            .then(function (externalStylesheets) { return new compile_metadata_1.CompileTemplateMetadata({
+            encapsulation: templateMeta.encapsulation,
+            template: templateMeta.template,
+            templateUrl: templateMeta.templateUrl,
+            styles: templateMeta.styles,
+            styleUrls: templateMeta.styleUrls,
+            externalStylesheets: externalStylesheets,
+            ngContentSelectors: templateMeta.ngContentSelectors,
+            animations: templateMeta.animations,
+            interpolation: templateMeta.interpolation
+        }); });
+    };
+    DirectiveNormalizer.prototype._loadMissingExternalStylesheets = function (styleUrls, loadedStylesheets) {
+        var _this = this;
+        if (loadedStylesheets === void 0) { loadedStylesheets = new Map(); }
+        return Promise
+            .all(styleUrls.filter(function (styleUrl) { return !loadedStylesheets.has(styleUrl); })
+            .map(function (styleUrl) { return _this._fetch(styleUrl).then(function (loadedStyle) {
+            var stylesheet = _this.normalizeStylesheet(new compile_metadata_1.CompileStylesheetMetadata({ styles: [loadedStyle], moduleUrl: styleUrl }));
+            loadedStylesheets.set(styleUrl, stylesheet);
+            return _this._loadMissingExternalStylesheets(stylesheet.styleUrls, loadedStylesheets);
+        }); }))
+            .then(function (_) { return collection_1.MapWrapper.values(loadedStylesheets); });
+    };
+    DirectiveNormalizer.prototype.normalizeStylesheet = function (stylesheet) {
+        var _this = this;
+        var allStyleUrls = stylesheet.styleUrls.filter(style_url_resolver_1.isStyleUrlResolvable)
+            .map(function (url) { return _this._urlResolver.resolve(stylesheet.moduleUrl, url); });
+        var allStyles = stylesheet.styles.map(function (style) {
+            var styleWithImports = style_url_resolver_1.extractStyleUrls(_this._urlResolver, stylesheet.moduleUrl, style);
+            allStyleUrls.push.apply(allStyleUrls, styleWithImports.styleUrls);
+            return styleWithImports.style;
+        });
+        return new compile_metadata_1.CompileStylesheetMetadata({ styles: allStyles, styleUrls: allStyleUrls, moduleUrl: stylesheet.moduleUrl });
     };
     /** @nocollapse */
     DirectiveNormalizer.decorators = [
@@ -9600,8 +10264,36 @@ var TemplatePreparseVisitor = (function () {
     TemplatePreparseVisitor.prototype.visitExpansionCase = function (ast, context) { return null; };
     return TemplatePreparseVisitor;
 }());
+function _cloneDirectiveWithTemplate(directive, template) {
+    return new compile_metadata_1.CompileDirectiveMetadata({
+        type: directive.type,
+        isComponent: directive.isComponent,
+        selector: directive.selector,
+        exportAs: directive.exportAs,
+        changeDetection: directive.changeDetection,
+        inputs: directive.inputs,
+        outputs: directive.outputs,
+        hostListeners: directive.hostListeners,
+        hostProperties: directive.hostProperties,
+        hostAttributes: directive.hostAttributes,
+        lifecycleHooks: directive.lifecycleHooks,
+        providers: directive.providers,
+        viewProviders: directive.viewProviders,
+        queries: directive.queries,
+        viewQueries: directive.viewQueries,
+        precompile: directive.precompile,
+        template: template
+    });
+}
 
-},{"../src/facade/async":102,"../src/facade/exceptions":106,"../src/facade/lang":107,"./compile_metadata":93,"./config":95,"./html_ast":110,"./html_parser":112,"./style_url_resolver":143,"./template_preparser":146,"./url_resolver":147,"./xhr":165,"@angular/core":166}],98:[function(require,module,exports){
+},{"../src/facade/collection":105,"../src/facade/exceptions":107,"../src/facade/lang":108,"./compile_metadata":94,"./config":96,"./html_ast":111,"./html_parser":113,"./style_url_resolver":144,"./template_preparser":147,"./url_resolver":148,"./xhr":166,"@angular/core":167}],99:[function(require,module,exports){
+/**
+ * @license
+ * Copyright Google Inc. All Rights Reserved.
+ *
+ * Use of this source code is governed by an MIT-style license that can be
+ * found in the LICENSE file at https://angular.io/license
+ */
 "use strict";
 var core_1 = require('@angular/core');
 var core_private_1 = require('../core_private');
@@ -9699,7 +10391,8 @@ var DirectiveResolver = (function () {
                 queries: mergedQueries,
                 changeDetection: dm.changeDetection,
                 providers: dm.providers,
-                viewProviders: dm.viewProviders
+                viewProviders: dm.viewProviders,
+                precompile: dm.precompile
             });
         }
         else {
@@ -9727,7 +10420,14 @@ var DirectiveResolver = (function () {
 exports.DirectiveResolver = DirectiveResolver;
 exports.CODEGEN_DIRECTIVE_RESOLVER = new DirectiveResolver(core_private_1.reflector);
 
-},{"../core_private":84,"../src/facade/collection":104,"../src/facade/exceptions":106,"../src/facade/lang":107,"@angular/core":166}],99:[function(require,module,exports){
+},{"../core_private":85,"../src/facade/collection":105,"../src/facade/exceptions":107,"../src/facade/lang":108,"@angular/core":167}],100:[function(require,module,exports){
+/**
+ * @license
+ * Copyright Google Inc. All Rights Reserved.
+ *
+ * Use of this source code is governed by an MIT-style license that can be
+ * found in the LICENSE file at https://angular.io/license
+ */
 "use strict";
 var __extends = (this && this.__extends) || function (d, b) {
     for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p];
@@ -10215,7 +10915,14 @@ var AstTransformer = (function () {
 }());
 exports.AstTransformer = AstTransformer;
 
-},{"../facade/collection":104}],100:[function(require,module,exports){
+},{"../facade/collection":105}],101:[function(require,module,exports){
+/**
+ * @license
+ * Copyright Google Inc. All Rights Reserved.
+ *
+ * Use of this source code is governed by an MIT-style license that can be
+ * found in the LICENSE file at https://angular.io/license
+ */
 "use strict";
 var __extends = (this && this.__extends) || function (d, b) {
     for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p];
@@ -10223,7 +10930,7 @@ var __extends = (this && this.__extends) || function (d, b) {
     d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
 };
 var core_1 = require('@angular/core');
-var collection_1 = require('../facade/collection');
+var chars = require('../chars');
 var exceptions_1 = require('../facade/exceptions');
 var lang_1 = require('../facade/lang');
 (function (TokenType) {
@@ -10235,6 +10942,7 @@ var lang_1 = require('../facade/lang');
     TokenType[TokenType["Number"] = 5] = "Number";
 })(exports.TokenType || (exports.TokenType = {}));
 var TokenType = exports.TokenType;
+var KEYWORDS = ['var', 'let', 'null', 'undefined', 'true', 'false', 'if', 'else'];
 var Lexer = (function () {
     function Lexer() {
     }
@@ -10322,49 +11030,6 @@ function newNumberToken(index, n) {
     return new Token(index, TokenType.Number, n, '');
 }
 exports.EOF = new Token(-1, TokenType.Character, 0, '');
-exports.$EOF = 0;
-exports.$TAB = 9;
-exports.$LF = 10;
-exports.$VTAB = 11;
-exports.$FF = 12;
-exports.$CR = 13;
-exports.$SPACE = 32;
-exports.$BANG = 33;
-exports.$DQ = 34;
-exports.$HASH = 35;
-exports.$$ = 36;
-exports.$PERCENT = 37;
-exports.$AMPERSAND = 38;
-exports.$SQ = 39;
-exports.$LPAREN = 40;
-exports.$RPAREN = 41;
-exports.$STAR = 42;
-exports.$PLUS = 43;
-exports.$COMMA = 44;
-exports.$MINUS = 45;
-exports.$PERIOD = 46;
-exports.$SLASH = 47;
-exports.$COLON = 58;
-exports.$SEMICOLON = 59;
-exports.$LT = 60;
-exports.$EQ = 61;
-exports.$GT = 62;
-exports.$QUESTION = 63;
-var $0 = 48;
-var $9 = 57;
-var $A = 65, $E = 69, $Z = 90;
-exports.$LBRACKET = 91;
-exports.$BACKSLASH = 92;
-exports.$RBRACKET = 93;
-var $CARET = 94;
-var $_ = 95;
-exports.$BT = 96;
-var $a = 97, $e = 101, $f = 102;
-var $n = 110, $r = 114, $t = 116, $u = 117, $v = 118, $z = 122;
-exports.$LBRACE = 123;
-exports.$BAR = 124;
-exports.$RBRACE = 125;
-var $NBSP = 160;
 var ScannerError = (function (_super) {
     __extends(ScannerError, _super);
     function ScannerError(message) {
@@ -10385,14 +11050,14 @@ var _Scanner = (function () {
     }
     _Scanner.prototype.advance = function () {
         this.peek =
-            ++this.index >= this.length ? exports.$EOF : lang_1.StringWrapper.charCodeAt(this.input, this.index);
+            ++this.index >= this.length ? chars.$EOF : lang_1.StringWrapper.charCodeAt(this.input, this.index);
     };
     _Scanner.prototype.scanToken = function () {
         var input = this.input, length = this.length, peek = this.peek, index = this.index;
         // Skip whitespace.
-        while (peek <= exports.$SPACE) {
+        while (peek <= chars.$SPACE) {
             if (++index >= length) {
-                peek = exports.$EOF;
+                peek = chars.$EOF;
                 break;
             }
             else {
@@ -10407,48 +11072,49 @@ var _Scanner = (function () {
         // Handle identifiers and numbers.
         if (isIdentifierStart(peek))
             return this.scanIdentifier();
-        if (isDigit(peek))
+        if (chars.isDigit(peek))
             return this.scanNumber(index);
         var start = index;
         switch (peek) {
-            case exports.$PERIOD:
+            case chars.$PERIOD:
                 this.advance();
-                return isDigit(this.peek) ? this.scanNumber(start) : newCharacterToken(start, exports.$PERIOD);
-            case exports.$LPAREN:
-            case exports.$RPAREN:
-            case exports.$LBRACE:
-            case exports.$RBRACE:
-            case exports.$LBRACKET:
-            case exports.$RBRACKET:
-            case exports.$COMMA:
-            case exports.$COLON:
-            case exports.$SEMICOLON:
+                return chars.isDigit(this.peek) ? this.scanNumber(start) :
+                    newCharacterToken(start, chars.$PERIOD);
+            case chars.$LPAREN:
+            case chars.$RPAREN:
+            case chars.$LBRACE:
+            case chars.$RBRACE:
+            case chars.$LBRACKET:
+            case chars.$RBRACKET:
+            case chars.$COMMA:
+            case chars.$COLON:
+            case chars.$SEMICOLON:
                 return this.scanCharacter(start, peek);
-            case exports.$SQ:
-            case exports.$DQ:
+            case chars.$SQ:
+            case chars.$DQ:
                 return this.scanString();
-            case exports.$HASH:
-            case exports.$PLUS:
-            case exports.$MINUS:
-            case exports.$STAR:
-            case exports.$SLASH:
-            case exports.$PERCENT:
-            case $CARET:
+            case chars.$HASH:
+            case chars.$PLUS:
+            case chars.$MINUS:
+            case chars.$STAR:
+            case chars.$SLASH:
+            case chars.$PERCENT:
+            case chars.$CARET:
                 return this.scanOperator(start, lang_1.StringWrapper.fromCharCode(peek));
-            case exports.$QUESTION:
-                return this.scanComplexOperator(start, '?', exports.$PERIOD, '.');
-            case exports.$LT:
-            case exports.$GT:
-                return this.scanComplexOperator(start, lang_1.StringWrapper.fromCharCode(peek), exports.$EQ, '=');
-            case exports.$BANG:
-            case exports.$EQ:
-                return this.scanComplexOperator(start, lang_1.StringWrapper.fromCharCode(peek), exports.$EQ, '=', exports.$EQ, '=');
-            case exports.$AMPERSAND:
-                return this.scanComplexOperator(start, '&', exports.$AMPERSAND, '&');
-            case exports.$BAR:
-                return this.scanComplexOperator(start, '|', exports.$BAR, '|');
-            case $NBSP:
-                while (isWhitespace(this.peek))
+            case chars.$QUESTION:
+                return this.scanComplexOperator(start, '?', chars.$PERIOD, '.');
+            case chars.$LT:
+            case chars.$GT:
+                return this.scanComplexOperator(start, lang_1.StringWrapper.fromCharCode(peek), chars.$EQ, '=');
+            case chars.$BANG:
+            case chars.$EQ:
+                return this.scanComplexOperator(start, lang_1.StringWrapper.fromCharCode(peek), chars.$EQ, '=', chars.$EQ, '=');
+            case chars.$AMPERSAND:
+                return this.scanComplexOperator(start, '&', chars.$AMPERSAND, '&');
+            case chars.$BAR:
+                return this.scanComplexOperator(start, '|', chars.$BAR, '|');
+            case chars.$NBSP:
+                while (chars.isWhitespace(this.peek))
                     this.advance();
                 return this.scanToken();
         }
@@ -10493,27 +11159,23 @@ var _Scanner = (function () {
         while (isIdentifierPart(this.peek))
             this.advance();
         var str = this.input.substring(start, this.index);
-        if (collection_1.SetWrapper.has(KEYWORDS, str)) {
-            return newKeywordToken(start, str);
-        }
-        else {
-            return newIdentifierToken(start, str);
-        }
+        return KEYWORDS.indexOf(str) > -1 ? newKeywordToken(start, str) :
+            newIdentifierToken(start, str);
     };
     _Scanner.prototype.scanNumber = function (start) {
         var simple = (this.index === start);
         this.advance(); // Skip initial digit.
         while (true) {
-            if (isDigit(this.peek)) {
+            if (chars.isDigit(this.peek)) {
             }
-            else if (this.peek == exports.$PERIOD) {
+            else if (this.peek == chars.$PERIOD) {
                 simple = false;
             }
             else if (isExponentStart(this.peek)) {
                 this.advance();
                 if (isExponentSign(this.peek))
                     this.advance();
-                if (!isDigit(this.peek))
+                if (!chars.isDigit(this.peek))
                     this.error('Invalid exponent', -1);
                 simple = false;
             }
@@ -10523,7 +11185,6 @@ var _Scanner = (function () {
             this.advance();
         }
         var str = this.input.substring(start, this.index);
-        // TODO
         var value = simple ? lang_1.NumberWrapper.parseIntAutoRadix(str) : lang_1.NumberWrapper.parseFloat(str);
         return newNumberToken(start, value);
     };
@@ -10535,13 +11196,13 @@ var _Scanner = (function () {
         var marker = this.index;
         var input = this.input;
         while (this.peek != quote) {
-            if (this.peek == exports.$BACKSLASH) {
+            if (this.peek == chars.$BACKSLASH) {
                 if (buffer == null)
                     buffer = new lang_1.StringJoiner();
                 buffer.add(input.substring(marker, this.index));
                 this.advance();
                 var unescapedCode;
-                if (this.peek == $u) {
+                if (this.peek == chars.$u) {
                     // 4 character hex code for unicode character.
                     var hex = input.substring(this.index + 1, this.index + 5);
                     try {
@@ -10561,7 +11222,7 @@ var _Scanner = (function () {
                 buffer.add(lang_1.StringWrapper.fromCharCode(unescapedCode));
                 marker = this.index;
             }
-            else if (this.peek == exports.$EOF) {
+            else if (this.peek == chars.$EOF) {
                 this.error('Unterminated quote', 0);
             }
             else {
@@ -10584,11 +11245,9 @@ var _Scanner = (function () {
     };
     return _Scanner;
 }());
-function isWhitespace(code) {
-    return (code >= exports.$TAB && code <= exports.$SPACE) || (code == $NBSP);
-}
 function isIdentifierStart(code) {
-    return ($a <= code && code <= $z) || ($A <= code && code <= $Z) || (code == $_) || (code == exports.$$);
+    return (chars.$a <= code && code <= chars.$z) || (chars.$A <= code && code <= chars.$Z) ||
+        (code == chars.$_) || (code == chars.$$);
 }
 function isIdentifier(input) {
     if (input.length == 0)
@@ -10597,7 +11256,7 @@ function isIdentifier(input) {
     if (!isIdentifierStart(scanner.peek))
         return false;
     scanner.advance();
-    while (scanner.peek !== exports.$EOF) {
+    while (scanner.peek !== chars.$EOF) {
         if (!isIdentifierPart(scanner.peek))
             return false;
         scanner.advance();
@@ -10606,45 +11265,44 @@ function isIdentifier(input) {
 }
 exports.isIdentifier = isIdentifier;
 function isIdentifierPart(code) {
-    return ($a <= code && code <= $z) || ($A <= code && code <= $Z) || ($0 <= code && code <= $9) ||
-        (code == $_) || (code == exports.$$);
-}
-function isDigit(code) {
-    return $0 <= code && code <= $9;
+    return chars.isAsciiLetter(code) || chars.isDigit(code) || (code == chars.$_) ||
+        (code == chars.$$);
 }
 function isExponentStart(code) {
-    return code == $e || code == $E;
+    return code == chars.$e || code == chars.$E;
 }
 function isExponentSign(code) {
-    return code == exports.$MINUS || code == exports.$PLUS;
+    return code == chars.$MINUS || code == chars.$PLUS;
 }
 function isQuote(code) {
-    return code === exports.$SQ || code === exports.$DQ || code === exports.$BT;
+    return code === chars.$SQ || code === chars.$DQ || code === chars.$BT;
 }
 exports.isQuote = isQuote;
 function unescape(code) {
     switch (code) {
-        case $n:
-            return exports.$LF;
-        case $f:
-            return exports.$FF;
-        case $r:
-            return exports.$CR;
-        case $t:
-            return exports.$TAB;
-        case $v:
-            return exports.$VTAB;
+        case chars.$n:
+            return chars.$LF;
+        case chars.$f:
+            return chars.$FF;
+        case chars.$r:
+            return chars.$CR;
+        case chars.$t:
+            return chars.$TAB;
+        case chars.$v:
+            return chars.$VTAB;
         default:
             return code;
     }
 }
-var OPERATORS = collection_1.SetWrapper.createFromList([
-    '+', '-', '*', '/', '%', '^', '=', '==', '!=', '===', '!==', '<',
-    '>', '<=', '>=', '&&', '||', '&', '|', '!', '?', '#', '?.'
-]);
-var KEYWORDS = collection_1.SetWrapper.createFromList(['var', 'let', 'null', 'undefined', 'true', 'false', 'if', 'else']);
 
-},{"../facade/collection":104,"../facade/exceptions":106,"../facade/lang":107,"@angular/core":166}],101:[function(require,module,exports){
+},{"../chars":93,"../facade/exceptions":107,"../facade/lang":108,"@angular/core":167}],102:[function(require,module,exports){
+/**
+ * @license
+ * Copyright Google Inc. All Rights Reserved.
+ *
+ * Use of this source code is governed by an MIT-style license that can be
+ * found in the LICENSE file at https://angular.io/license
+ */
 "use strict";
 var __extends = (this && this.__extends) || function (d, b) {
     for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p];
@@ -10652,6 +11310,7 @@ var __extends = (this && this.__extends) || function (d, b) {
     d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
 };
 var core_1 = require('@angular/core');
+var chars = require('../chars');
 var collection_1 = require('../facade/collection');
 var exceptions_1 = require('../facade/exceptions');
 var lang_1 = require('../facade/lang');
@@ -10786,7 +11445,7 @@ var Parser = (function () {
         for (var i = 0; i < input.length - 1; i++) {
             var char = lang_1.StringWrapper.charCodeAt(input, i);
             var nextChar = lang_1.StringWrapper.charCodeAt(input, i + 1);
-            if (char === lexer_1.$SLASH && nextChar == lexer_1.$SLASH && lang_1.isBlank(outerQuote))
+            if (char === chars.$SLASH && nextChar == chars.$SLASH && lang_1.isBlank(outerQuote))
                 return i;
             if (outerQuote === char) {
                 outerQuote = null;
@@ -10901,11 +11560,11 @@ var _ParseAST = (function () {
         while (this.index < this.tokens.length) {
             var expr = this.parsePipe();
             exprs.push(expr);
-            if (this.optionalCharacter(lexer_1.$SEMICOLON)) {
+            if (this.optionalCharacter(chars.$SEMICOLON)) {
                 if (!this.parseAction) {
                     this.error('Binding expression cannot contain chained expression');
                 }
-                while (this.optionalCharacter(lexer_1.$SEMICOLON)) {
+                while (this.optionalCharacter(chars.$SEMICOLON)) {
                 } // read all semicolons
             }
             else if (this.index < this.tokens.length) {
@@ -10927,7 +11586,7 @@ var _ParseAST = (function () {
             do {
                 var name = this.expectIdentifierOrKeyword();
                 var args = [];
-                while (this.optionalCharacter(lexer_1.$COLON)) {
+                while (this.optionalCharacter(chars.$COLON)) {
                     args.push(this.parseExpression());
                 }
                 result = new ast_1.BindingPipe(result, name, args);
@@ -10941,7 +11600,7 @@ var _ParseAST = (function () {
         var result = this.parseLogicalOr();
         if (this.optionalOperator('?')) {
             var yes = this.parsePipe();
-            if (!this.optionalCharacter(lexer_1.$COLON)) {
+            if (!this.optionalCharacter(chars.$COLON)) {
                 var end = this.inputIndex;
                 var expression = this.input.substring(start, end);
                 this.error("Conditional expression " + expression + " requires all 3 expressions");
@@ -11061,15 +11720,15 @@ var _ParseAST = (function () {
     _ParseAST.prototype.parseCallChain = function () {
         var result = this.parsePrimary();
         while (true) {
-            if (this.optionalCharacter(lexer_1.$PERIOD)) {
+            if (this.optionalCharacter(chars.$PERIOD)) {
                 result = this.parseAccessMemberOrMethodCall(result, false);
             }
             else if (this.optionalOperator('?.')) {
                 result = this.parseAccessMemberOrMethodCall(result, true);
             }
-            else if (this.optionalCharacter(lexer_1.$LBRACKET)) {
+            else if (this.optionalCharacter(chars.$LBRACKET)) {
                 var key = this.parsePipe();
-                this.expectCharacter(lexer_1.$RBRACKET);
+                this.expectCharacter(chars.$RBRACKET);
                 if (this.optionalOperator('=')) {
                     var value = this.parseConditional();
                     result = new ast_1.KeyedWrite(result, key, value);
@@ -11078,9 +11737,9 @@ var _ParseAST = (function () {
                     result = new ast_1.KeyedRead(result, key);
                 }
             }
-            else if (this.optionalCharacter(lexer_1.$LPAREN)) {
+            else if (this.optionalCharacter(chars.$LPAREN)) {
                 var args = this.parseCallArguments();
-                this.expectCharacter(lexer_1.$RPAREN);
+                this.expectCharacter(chars.$RPAREN);
                 result = new ast_1.FunctionCall(result, args);
             }
             else {
@@ -11089,9 +11748,9 @@ var _ParseAST = (function () {
         }
     };
     _ParseAST.prototype.parsePrimary = function () {
-        if (this.optionalCharacter(lexer_1.$LPAREN)) {
+        if (this.optionalCharacter(chars.$LPAREN)) {
             var result = this.parsePipe();
-            this.expectCharacter(lexer_1.$RPAREN);
+            this.expectCharacter(chars.$RPAREN);
             return result;
         }
         else if (this.next.isKeywordNull() || this.next.isKeywordUndefined()) {
@@ -11106,12 +11765,12 @@ var _ParseAST = (function () {
             this.advance();
             return new ast_1.LiteralPrimitive(false);
         }
-        else if (this.optionalCharacter(lexer_1.$LBRACKET)) {
-            var elements = this.parseExpressionList(lexer_1.$RBRACKET);
-            this.expectCharacter(lexer_1.$RBRACKET);
+        else if (this.optionalCharacter(chars.$LBRACKET)) {
+            var elements = this.parseExpressionList(chars.$RBRACKET);
+            this.expectCharacter(chars.$RBRACKET);
             return new ast_1.LiteralArray(elements);
         }
-        else if (this.next.isCharacter(lexer_1.$LBRACE)) {
+        else if (this.next.isCharacter(chars.$LBRACE)) {
             return this.parseLiteralMap();
         }
         else if (this.next.isIdentifier()) {
@@ -11141,31 +11800,31 @@ var _ParseAST = (function () {
         if (!this.next.isCharacter(terminator)) {
             do {
                 result.push(this.parsePipe());
-            } while (this.optionalCharacter(lexer_1.$COMMA));
+            } while (this.optionalCharacter(chars.$COMMA));
         }
         return result;
     };
     _ParseAST.prototype.parseLiteralMap = function () {
         var keys = [];
         var values = [];
-        this.expectCharacter(lexer_1.$LBRACE);
-        if (!this.optionalCharacter(lexer_1.$RBRACE)) {
+        this.expectCharacter(chars.$LBRACE);
+        if (!this.optionalCharacter(chars.$RBRACE)) {
             do {
                 var key = this.expectIdentifierOrKeywordOrString();
                 keys.push(key);
-                this.expectCharacter(lexer_1.$COLON);
+                this.expectCharacter(chars.$COLON);
                 values.push(this.parsePipe());
-            } while (this.optionalCharacter(lexer_1.$COMMA));
-            this.expectCharacter(lexer_1.$RBRACE);
+            } while (this.optionalCharacter(chars.$COMMA));
+            this.expectCharacter(chars.$RBRACE);
         }
         return new ast_1.LiteralMap(keys, values);
     };
     _ParseAST.prototype.parseAccessMemberOrMethodCall = function (receiver, isSafe) {
         if (isSafe === void 0) { isSafe = false; }
         var id = this.expectIdentifierOrKeyword();
-        if (this.optionalCharacter(lexer_1.$LPAREN)) {
+        if (this.optionalCharacter(chars.$LPAREN)) {
             var args = this.parseCallArguments();
-            this.expectCharacter(lexer_1.$RPAREN);
+            this.expectCharacter(chars.$RPAREN);
             return isSafe ? new ast_1.SafeMethodCall(receiver, id, args) : new ast_1.MethodCall(receiver, id, args);
         }
         else {
@@ -11193,12 +11852,12 @@ var _ParseAST = (function () {
         return null;
     };
     _ParseAST.prototype.parseCallArguments = function () {
-        if (this.next.isCharacter(lexer_1.$RPAREN))
+        if (this.next.isCharacter(chars.$RPAREN))
             return [];
         var positionals = [];
         do {
             positionals.push(this.parsePipe());
-        } while (this.optionalCharacter(lexer_1.$COMMA));
+        } while (this.optionalCharacter(chars.$COMMA));
         return positionals;
     };
     /**
@@ -11242,7 +11901,7 @@ var _ParseAST = (function () {
                     key = prefix + key[0].toUpperCase() + key.substring(1);
                 }
             }
-            this.optionalCharacter(lexer_1.$COLON);
+            this.optionalCharacter(chars.$COLON);
             var name = null;
             var expression = null;
             if (keyIsVar) {
@@ -11261,8 +11920,8 @@ var _ParseAST = (function () {
                 expression = new ast_1.ASTWithSource(ast, source, this.location);
             }
             bindings.push(new ast_1.TemplateBinding(key, keyIsVar, name, expression));
-            if (!this.optionalCharacter(lexer_1.$SEMICOLON)) {
-                this.optionalCharacter(lexer_1.$COMMA);
+            if (!this.optionalCharacter(chars.$SEMICOLON)) {
+                this.optionalCharacter(chars.$COMMA);
             }
         }
         return new TemplateBindingParseResult(bindings, warnings);
@@ -11316,18 +11975,25 @@ var SimpleExpressionChecker = (function () {
     return SimpleExpressionChecker;
 }());
 
-},{"../facade/collection":104,"../facade/exceptions":106,"../facade/lang":107,"../interpolation_config":121,"./ast":99,"./lexer":100,"@angular/core":166}],102:[function(require,module,exports){
+},{"../chars":93,"../facade/collection":105,"../facade/exceptions":107,"../facade/lang":108,"../interpolation_config":122,"./ast":100,"./lexer":101,"@angular/core":167}],103:[function(require,module,exports){
 arguments[4][31][0].apply(exports,arguments)
-},{"./lang":107,"./promise":109,"dup":31,"rxjs/Observable":526,"rxjs/Subject":528,"rxjs/observable/PromiseObservable":532,"rxjs/operator/toPromise":533}],103:[function(require,module,exports){
+},{"./lang":108,"./promise":110,"dup":31,"rxjs/Observable":539,"rxjs/Subject":541,"rxjs/observable/PromiseObservable":545,"rxjs/operator/toPromise":546}],104:[function(require,module,exports){
 arguments[4][32][0].apply(exports,arguments)
-},{"dup":32}],104:[function(require,module,exports){
+},{"dup":32}],105:[function(require,module,exports){
 arguments[4][33][0].apply(exports,arguments)
-},{"./lang":107,"dup":33}],105:[function(require,module,exports){
+},{"./lang":108,"dup":33}],106:[function(require,module,exports){
 arguments[4][34][0].apply(exports,arguments)
-},{"./base_wrapped_exception":103,"./collection":104,"./lang":107,"dup":34}],106:[function(require,module,exports){
+},{"./base_wrapped_exception":104,"./collection":105,"./lang":108,"dup":34}],107:[function(require,module,exports){
 arguments[4][35][0].apply(exports,arguments)
-},{"./base_wrapped_exception":103,"./exception_handler":105,"dup":35}],107:[function(require,module,exports){
+},{"./base_wrapped_exception":104,"./exception_handler":106,"dup":35}],108:[function(require,module,exports){
 (function (global){
+/**
+ * @license
+ * Copyright Google Inc. All Rights Reserved.
+ *
+ * Use of this source code is governed by an MIT-style license that can be
+ * found in the LICENSE file at https://angular.io/license
+ */
 "use strict";
 var __extends = (this && this.__extends) || function (d, b) {
     for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p];
@@ -11356,6 +12022,14 @@ exports.IS_DART = false;
 // exports the original value of the symbol.
 var _global = globalScope;
 exports.global = _global;
+/**
+ * Runtime representation a type that a Component or other object is instances of.
+ *
+ * An example of a `Type` is `MyCustomComponent` class, which in JavaScript is be represented by
+ * the `MyCustomComponent` constructor function.
+ *
+ * @stable
+ */
 exports.Type = Function;
 function getTypeNameForDebugging(type) {
     if (type['name']) {
@@ -11780,15 +12454,29 @@ exports.escapeRegExp = escapeRegExp;
 
 }).call(this,typeof global !== "undefined" ? global : typeof self !== "undefined" ? self : typeof window !== "undefined" ? window : {})
 
-},{}],108:[function(require,module,exports){
+},{}],109:[function(require,module,exports){
+/**
+ * @license
+ * Copyright Google Inc. All Rights Reserved.
+ *
+ * Use of this source code is governed by an MIT-style license that can be
+ * found in the LICENSE file at https://angular.io/license
+ */
 "use strict";
 var lang_1 = require('./lang');
 exports.Math = lang_1.global.Math;
 exports.NaN = typeof exports.NaN;
 
-},{"./lang":107}],109:[function(require,module,exports){
+},{"./lang":108}],110:[function(require,module,exports){
 arguments[4][38][0].apply(exports,arguments)
-},{"dup":38}],110:[function(require,module,exports){
+},{"dup":38}],111:[function(require,module,exports){
+/**
+ * @license
+ * Copyright Google Inc. All Rights Reserved.
+ *
+ * Use of this source code is governed by an MIT-style license that can be
+ * found in the LICENSE file at https://angular.io/license
+ */
 "use strict";
 var lang_1 = require('../src/facade/lang');
 var HtmlTextAst = (function () {
@@ -11873,7 +12561,14 @@ function htmlVisitAll(visitor, asts, context) {
 }
 exports.htmlVisitAll = htmlVisitAll;
 
-},{"../src/facade/lang":107}],111:[function(require,module,exports){
+},{"../src/facade/lang":108}],112:[function(require,module,exports){
+/**
+ * @license
+ * Copyright Google Inc. All Rights Reserved.
+ *
+ * Use of this source code is governed by an MIT-style license that can be
+ * found in the LICENSE file at https://angular.io/license
+ */
 "use strict";
 var __extends = (this && this.__extends) || function (d, b) {
     for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p];
@@ -11881,7 +12576,6 @@ var __extends = (this && this.__extends) || function (d, b) {
     d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
 };
 var chars = require('./chars');
-var collection_1 = require('./facade/collection');
 var lang_1 = require('./facade/lang');
 var html_tags_1 = require('./html_tags');
 var interpolation_config_1 = require('./interpolation_config');
@@ -11970,6 +12664,7 @@ var _HtmlTokenizer = (function () {
         this._line = 0;
         this._column = -1;
         this._expansionCaseStack = [];
+        this._inInterpolation = false;
         this.tokens = [];
         this.errors = [];
         this._input = file.content;
@@ -12115,8 +12810,12 @@ var _HtmlTokenizer = (function () {
         }
     };
     _HtmlTokenizer.prototype._attemptStr = function (chars) {
+        var len = chars.length;
+        if (this._index + len > this._length) {
+            return false;
+        }
         var initialPosition = this._savePosition();
-        for (var i = 0; i < chars.length; i++) {
+        for (var i = 0; i < len; i++) {
             if (!this._attemptCharCode(lang_1.StringWrapper.charCodeAt(chars, i))) {
                 // If attempting to parse the string fails, we want to reset the parser
                 // to where it was before the attempt
@@ -12215,6 +12914,7 @@ var _HtmlTokenizer = (function () {
                 break;
             }
             if (this._index > tagCloseStart.offset) {
+                // add the characters consumed by the previous if statement to the output
                 parts.push(this._input.substring(tagCloseStart.offset, this._index));
             }
             while (this._peek !== firstCharOfEnd) {
@@ -12270,7 +12970,7 @@ var _HtmlTokenizer = (function () {
         var savedPos = this._savePosition();
         var lowercaseTagName;
         try {
-            if (!isAsciiLetter(this._peek)) {
+            if (!chars.isAsciiLetter(this._peek)) {
                 throw this._createError(unexpectedCharacterErrorMsg(this._peek), this._getSpan());
             }
             var nameStart = this._index;
@@ -12412,43 +13112,34 @@ var _HtmlTokenizer = (function () {
         var start = this._getLocation();
         this._beginToken(HtmlTokenType.TEXT, start);
         var parts = [];
-        var interpolation = false;
         do {
-            var savedPos = this._savePosition();
-            // _attemptStr advances the position when it is true.
-            // To push interpolation symbols, we have to reset it.
             if (this._attemptStr(this.interpolationConfig.start)) {
-                this._restorePosition(savedPos);
-                for (var i = 0; i < this.interpolationConfig.start.length; i++) {
-                    parts.push(this._readChar(true));
-                }
-                interpolation = true;
+                parts.push(this.interpolationConfig.start);
+                this._inInterpolation = true;
             }
-            else if (this._attemptStr(this.interpolationConfig.end) && interpolation) {
-                this._restorePosition(savedPos);
-                for (var i = 0; i < this.interpolationConfig.end.length; i++) {
-                    parts.push(this._readChar(true));
-                }
-                interpolation = false;
+            else if (this._attemptStr(this.interpolationConfig.end) && this._inInterpolation) {
+                parts.push(this.interpolationConfig.end);
+                this._inInterpolation = false;
             }
             else {
-                this._restorePosition(savedPos);
                 parts.push(this._readChar(true));
             }
-        } while (!this._isTextEnd(interpolation));
+        } while (!this._isTextEnd());
         this._endToken([this._processCarriageReturns(parts.join(''))]);
     };
-    _HtmlTokenizer.prototype._isTextEnd = function (interpolation) {
-        if (this._peek === chars.$LT || this._peek === chars.$EOF)
+    _HtmlTokenizer.prototype._isTextEnd = function () {
+        if (this._peek === chars.$LT || this._peek === chars.$EOF) {
             return true;
+        }
         if (this.tokenizeExpansionForms) {
-            var savedPos = this._savePosition();
-            if (isExpansionFormStart(this._input, this._index, this.interpolationConfig.start))
+            if (isExpansionFormStart(this._input, this._index, this.interpolationConfig.start)) {
+                // start of an expansion form
                 return true;
-            this._restorePosition(savedPos);
-            if (this._peek === chars.$RBRACE && !interpolation &&
-                (this._isInExpansionCase() || this._isInExpansionForm()))
+            }
+            if (this._peek === chars.$RBRACE && !this._inInterpolation && this._isInExpansionCase()) {
+                // end of and expansion case
                 return true;
+            }
         }
         return false;
     };
@@ -12468,7 +13159,7 @@ var _HtmlTokenizer = (function () {
         var nbTokens = position[4];
         if (nbTokens < this.tokens.length) {
             // remove any extra tokens
-            this.tokens = collection_1.ListWrapper.slice(this.tokens, 0, nbTokens);
+            this.tokens = this.tokens.slice(0, nbTokens);
         }
     };
     _HtmlTokenizer.prototype._isInExpansionCase = function () {
@@ -12484,40 +13175,28 @@ var _HtmlTokenizer = (function () {
     return _HtmlTokenizer;
 }());
 function isNotWhitespace(code) {
-    return !isWhitespace(code) || code === chars.$EOF;
-}
-function isWhitespace(code) {
-    return (code >= chars.$TAB && code <= chars.$SPACE) || (code === chars.$NBSP);
+    return !chars.isWhitespace(code) || code === chars.$EOF;
 }
 function isNameEnd(code) {
-    return isWhitespace(code) || code === chars.$GT || code === chars.$SLASH || code === chars.$SQ ||
-        code === chars.$DQ || code === chars.$EQ;
+    return chars.isWhitespace(code) || code === chars.$GT || code === chars.$SLASH ||
+        code === chars.$SQ || code === chars.$DQ || code === chars.$EQ;
 }
 function isPrefixEnd(code) {
     return (code < chars.$a || chars.$z < code) && (code < chars.$A || chars.$Z < code) &&
         (code < chars.$0 || code > chars.$9);
 }
 function isDigitEntityEnd(code) {
-    return code == chars.$SEMICOLON || code == chars.$EOF || !isAsciiHexDigit(code);
+    return code == chars.$SEMICOLON || code == chars.$EOF || !chars.isAsciiHexDigit(code);
 }
 function isNamedEntityEnd(code) {
-    return code == chars.$SEMICOLON || code == chars.$EOF || !isAsciiLetter(code);
+    return code == chars.$SEMICOLON || code == chars.$EOF || !chars.isAsciiLetter(code);
 }
 function isExpansionFormStart(input, offset, interpolationStart) {
-    var substr = input.substring(offset);
-    return lang_1.StringWrapper.charCodeAt(substr, 0) === chars.$LBRACE &&
-        lang_1.StringWrapper.charCodeAt(substr, 1) !== chars.$LBRACE &&
-        !substr.startsWith(interpolationStart);
+    return input.charCodeAt(offset) == chars.$LBRACE &&
+        input.indexOf(interpolationStart, offset) != offset;
 }
 function isExpansionCaseStart(peek) {
-    return peek === chars.$EQ || isAsciiLetter(peek);
-}
-function isAsciiLetter(code) {
-    return code >= chars.$a && code <= chars.$z || code >= chars.$A && code <= chars.$Z;
-}
-function isAsciiHexDigit(code) {
-    return code >= chars.$a && code <= chars.$f || code >= chars.$A && code <= chars.$F ||
-        code >= chars.$0 && code <= chars.$9;
+    return peek === chars.$EQ || chars.isAsciiLetter(peek);
 }
 function compareCharCodeCaseInsensitive(code1, code2) {
     return toUpperCaseCharCode(code1) == toUpperCaseCharCode(code2);
@@ -12543,7 +13222,14 @@ function mergeTextTokens(srcTokens) {
     return dstTokens;
 }
 
-},{"./chars":92,"./facade/collection":104,"./facade/lang":107,"./html_tags":113,"./interpolation_config":121,"./parse_util":133}],112:[function(require,module,exports){
+},{"./chars":93,"./facade/lang":108,"./html_tags":114,"./interpolation_config":122,"./parse_util":134}],113:[function(require,module,exports){
+/**
+ * @license
+ * Copyright Google Inc. All Rights Reserved.
+ *
+ * Use of this source code is governed by an MIT-style license that can be
+ * found in the LICENSE file at https://angular.io/license
+ */
 "use strict";
 var __extends = (this && this.__extends) || function (d, b) {
     for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p];
@@ -12908,7 +13594,14 @@ function lastOnStack(stack, element) {
     return stack.length > 0 && stack[stack.length - 1] === element;
 }
 
-},{"../src/facade/collection":104,"../src/facade/lang":107,"./html_ast":110,"./html_lexer":111,"./html_tags":113,"./parse_util":133,"@angular/core":166}],113:[function(require,module,exports){
+},{"../src/facade/collection":105,"../src/facade/lang":108,"./html_ast":111,"./html_lexer":112,"./html_tags":114,"./parse_util":134,"@angular/core":167}],114:[function(require,module,exports){
+/**
+ * @license
+ * Copyright Google Inc. All Rights Reserved.
+ *
+ * Use of this source code is governed by an MIT-style license that can be
+ * found in the LICENSE file at https://angular.io/license
+ */
 "use strict";
 var lang_1 = require('../src/facade/lang');
 // see http://www.w3.org/TR/html51/syntax.html#named-character-references
@@ -13288,7 +13981,14 @@ function mergeNsAndName(prefix, localName) {
 }
 exports.mergeNsAndName = mergeNsAndName;
 
-},{"../src/facade/lang":107}],114:[function(require,module,exports){
+},{"../src/facade/lang":108}],115:[function(require,module,exports){
+/**
+ * @license
+ * Copyright Google Inc. All Rights Reserved.
+ *
+ * Use of this source code is governed by an MIT-style license that can be
+ * found in the LICENSE file at https://angular.io/license
+ */
 "use strict";
 var exceptions_1 = require('../facade/exceptions');
 var html_ast_1 = require('../html_ast');
@@ -13380,7 +14080,14 @@ function _expandDefaultForm(ast, errors) {
     return new html_ast_1.HtmlElementAst('ng-container', [switchAttr], children, ast.sourceSpan, ast.sourceSpan, ast.sourceSpan);
 }
 
-},{"../facade/exceptions":106,"../html_ast":110,"./shared":118}],115:[function(require,module,exports){
+},{"../facade/exceptions":107,"../html_ast":111,"./shared":119}],116:[function(require,module,exports){
+/**
+ * @license
+ * Copyright Google Inc. All Rights Reserved.
+ *
+ * Use of this source code is governed by an MIT-style license that can be
+ * found in the LICENSE file at https://angular.io/license
+ */
 "use strict";
 var collection_1 = require('../facade/collection');
 var exceptions_1 = require('../facade/exceptions');
@@ -13653,7 +14360,14 @@ var _CreateNodeMapping = (function () {
     return _CreateNodeMapping;
 }());
 
-},{"../facade/collection":104,"../facade/exceptions":106,"../facade/lang":107,"../html_ast":110,"../html_parser":112,"../interpolation_config":121,"./expander":114,"./message":116,"./shared":118}],116:[function(require,module,exports){
+},{"../facade/collection":105,"../facade/exceptions":107,"../facade/lang":108,"../html_ast":111,"../html_parser":113,"../interpolation_config":122,"./expander":115,"./message":117,"./shared":119}],117:[function(require,module,exports){
+/**
+ * @license
+ * Copyright Google Inc. All Rights Reserved.
+ *
+ * Use of this source code is governed by an MIT-style license that can be
+ * found in the LICENSE file at https://angular.io/license
+ */
 "use strict";
 var lang_1 = require('../facade/lang');
 /**
@@ -13683,7 +14397,14 @@ function id(m) {
 }
 exports.id = id;
 
-},{"../facade/lang":107}],117:[function(require,module,exports){
+},{"../facade/lang":108}],118:[function(require,module,exports){
+/**
+ * @license
+ * Copyright Google Inc. All Rights Reserved.
+ *
+ * Use of this source code is governed by an MIT-style license that can be
+ * found in the LICENSE file at https://angular.io/license
+ */
 "use strict";
 var collection_1 = require('../facade/collection');
 var lang_1 = require('../facade/lang');
@@ -13850,7 +14571,14 @@ var MessageExtractor = (function () {
 }());
 exports.MessageExtractor = MessageExtractor;
 
-},{"../facade/collection":104,"../facade/lang":107,"../html_ast":110,"../interpolation_config":121,"./message":116,"./shared":118}],118:[function(require,module,exports){
+},{"../facade/collection":105,"../facade/lang":108,"../html_ast":111,"../interpolation_config":122,"./message":117,"./shared":119}],119:[function(require,module,exports){
+/**
+ * @license
+ * Copyright Google Inc. All Rights Reserved.
+ *
+ * Use of this source code is governed by an MIT-style license that can be
+ * found in the LICENSE file at https://angular.io/license
+ */
 "use strict";
 var __extends = (this && this.__extends) || function (d, b) {
     for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p];
@@ -14057,7 +14785,14 @@ var _StringifyVisitor = (function () {
     return _StringifyVisitor;
 }());
 
-},{"../facade/lang":107,"../html_ast":110,"../parse_util":133,"./message":116}],119:[function(require,module,exports){
+},{"../facade/lang":108,"../html_ast":111,"../parse_util":134,"./message":117}],120:[function(require,module,exports){
+/**
+ * @license
+ * Copyright Google Inc. All Rights Reserved.
+ *
+ * Use of this source code is governed by an MIT-style license that can be
+ * found in the LICENSE file at https://angular.io/license
+ */
 "use strict";
 var __extends = (this && this.__extends) || function (d, b) {
     for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p];
@@ -14161,7 +14896,14 @@ function _escapeXml(value) {
     return _XML_ESCAPED_CHARS.reduce(function (value, escape) { return value.replace(escape[0], escape[1]); }, value);
 }
 
-},{"../facade/lang":107,"../html_ast":110,"../html_parser":112,"../parse_util":133,"./message":116}],120:[function(require,module,exports){
+},{"../facade/lang":108,"../html_ast":111,"../html_parser":113,"../parse_util":134,"./message":117}],121:[function(require,module,exports){
+/**
+ * @license
+ * Copyright Google Inc. All Rights Reserved.
+ *
+ * Use of this source code is governed by an MIT-style license that can be
+ * found in the LICENSE file at https://angular.io/license
+ */
 "use strict";
 var core_1 = require('@angular/core');
 var core_private_1 = require('../core_private');
@@ -14194,7 +14936,7 @@ var impStaticNodeDebugInfo = core_private_1.StaticNodeDebugInfo;
 var impRenderer = core_1.Renderer;
 var impSimpleChange = core_1.SimpleChange;
 var impUninitialized = core_private_1.uninitialized;
-var impChangeDetectorState = core_private_1.ChangeDetectorState;
+var impChangeDetectorStatus = core_private_1.ChangeDetectorStatus;
 var impFlattenNestedViewRenderNodes = core_private_1.flattenNestedViewRenderNodes;
 var impDevModeEqual = core_private_1.devModeEqual;
 var impInterpolate = core_private_1.interpolate;
@@ -14246,6 +14988,16 @@ var Identifiers = (function () {
         moduleUrl: util_1.assetUrl('core', 'linker/template_ref'),
         runtime: impTemplateRef_
     });
+    Identifiers.CodegenComponentFactoryResolver = new compile_metadata_1.CompileIdentifierMetadata({
+        name: 'CodegenComponentFactoryResolver',
+        moduleUrl: util_1.assetUrl('core', 'linker/component_factory_resolver'),
+        runtime: core_private_1.CodegenComponentFactoryResolver
+    });
+    Identifiers.ComponentFactoryResolver = new compile_metadata_1.CompileIdentifierMetadata({
+        name: 'ComponentFactoryResolver',
+        moduleUrl: util_1.assetUrl('core', 'linker/component_factory_resolver'),
+        runtime: core_1.ComponentFactoryResolver
+    });
     Identifiers.ValueUnwrapper = new compile_metadata_1.CompileIdentifierMetadata({ name: 'ValueUnwrapper', moduleUrl: CD_MODULE_URL, runtime: impValueUnwrapper });
     Identifiers.Injector = new compile_metadata_1.CompileIdentifierMetadata({ name: 'Injector', moduleUrl: util_1.assetUrl('core', 'di/injector'), runtime: impInjector });
     Identifiers.ViewEncapsulation = new compile_metadata_1.CompileIdentifierMetadata({
@@ -14272,7 +15024,7 @@ var Identifiers = (function () {
     Identifiers.Renderer = new compile_metadata_1.CompileIdentifierMetadata({ name: 'Renderer', moduleUrl: util_1.assetUrl('core', 'render/api'), runtime: impRenderer });
     Identifiers.SimpleChange = new compile_metadata_1.CompileIdentifierMetadata({ name: 'SimpleChange', moduleUrl: CD_MODULE_URL, runtime: impSimpleChange });
     Identifiers.uninitialized = new compile_metadata_1.CompileIdentifierMetadata({ name: 'uninitialized', moduleUrl: CD_MODULE_URL, runtime: impUninitialized });
-    Identifiers.ChangeDetectorState = new compile_metadata_1.CompileIdentifierMetadata({ name: 'ChangeDetectorState', moduleUrl: CD_MODULE_URL, runtime: impChangeDetectorState });
+    Identifiers.ChangeDetectorStatus = new compile_metadata_1.CompileIdentifierMetadata({ name: 'ChangeDetectorStatus', moduleUrl: CD_MODULE_URL, runtime: impChangeDetectorStatus });
     Identifiers.checkBinding = new compile_metadata_1.CompileIdentifierMetadata({ name: 'checkBinding', moduleUrl: VIEW_UTILS_MODULE_URL, runtime: impCheckBinding });
     Identifiers.flattenNestedViewRenderNodes = new compile_metadata_1.CompileIdentifierMetadata({
         name: 'flattenNestedViewRenderNodes',
@@ -14352,14 +15104,28 @@ function identifierToken(identifier) {
 }
 exports.identifierToken = identifierToken;
 
-},{"../core_private":84,"./compile_metadata":93,"./util":148,"@angular/core":166}],121:[function(require,module,exports){
+},{"../core_private":85,"./compile_metadata":94,"./util":149,"@angular/core":167}],122:[function(require,module,exports){
+/**
+ * @license
+ * Copyright Google Inc. All Rights Reserved.
+ *
+ * Use of this source code is governed by an MIT-style license that can be
+ * found in the LICENSE file at https://angular.io/license
+ */
 "use strict";
 exports.DEFAULT_INTERPOLATION_CONFIG = {
     start: '{{',
     end: '}}'
 };
 
-},{}],122:[function(require,module,exports){
+},{}],123:[function(require,module,exports){
+/**
+ * @license
+ * Copyright Google Inc. All Rights Reserved.
+ *
+ * Use of this source code is governed by an MIT-style license that can be
+ * found in the LICENSE file at https://angular.io/license
+ */
 "use strict";
 var __extends = (this && this.__extends) || function (d, b) {
     for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p];
@@ -14405,6 +15171,14 @@ var CompileMetadataResolver = (function () {
             identifier = "anonymous_token_" + found + "_";
         }
         return util_1.sanitizeIdentifier(identifier);
+    };
+    CompileMetadataResolver.prototype.clearCacheFor = function (compType) {
+        this._directiveCache.delete(compType);
+        this._pipeCache.delete(compType);
+    };
+    CompileMetadataResolver.prototype.clearCache = function () {
+        this._directiveCache.clear();
+        this._pipeCache.clear();
     };
     CompileMetadataResolver.prototype.getAnimationEntryMetadata = function (entry) {
         var _this = this;
@@ -14457,8 +15231,8 @@ var CompileMetadataResolver = (function () {
             var changeDetectionStrategy = null;
             var viewProviders = [];
             var moduleUrl = staticTypeModuleUrl(directiveType);
+            var precompileTypes = [];
             if (dirMeta instanceof core_1.ComponentMetadata) {
-                assertions_1.assertArrayOfStrings('styles', dirMeta.styles);
                 var cmpMeta = dirMeta;
                 var viewMeta = this._viewResolver.resolve(directiveType);
                 assertions_1.assertArrayOfStrings('styles', viewMeta.styles);
@@ -14466,6 +15240,8 @@ var CompileMetadataResolver = (function () {
                 var animations = lang_1.isPresent(viewMeta.animations) ?
                     viewMeta.animations.map(function (e) { return _this.getAnimationEntryMetadata(e); }) :
                     null;
+                assertions_1.assertArrayOfStrings('styles', viewMeta.styles);
+                assertions_1.assertArrayOfStrings('styleUrls', viewMeta.styleUrls);
                 templateMeta = new cpl.CompileTemplateMetadata({
                     encapsulation: viewMeta.encapsulation,
                     template: viewMeta.template,
@@ -14477,13 +15253,17 @@ var CompileMetadataResolver = (function () {
                 });
                 changeDetectionStrategy = cmpMeta.changeDetection;
                 if (lang_1.isPresent(dirMeta.viewProviders)) {
-                    viewProviders = this.getProvidersMetadata(dirMeta.viewProviders);
+                    viewProviders = this.getProvidersMetadata(verifyNonBlankProviders(directiveType, dirMeta.viewProviders, 'viewProviders'));
                 }
                 moduleUrl = componentModuleUrl(this._reflector, directiveType, cmpMeta);
+                if (cmpMeta.precompile) {
+                    precompileTypes = flattenArray(cmpMeta.precompile)
+                        .map(function (cmp) { return _this.getTypeMetadata(cmp, staticTypeModuleUrl(cmp)); });
+                }
             }
             var providers = [];
             if (lang_1.isPresent(dirMeta.providers)) {
-                providers = this.getProvidersMetadata(dirMeta.providers);
+                providers = this.getProvidersMetadata(verifyNonBlankProviders(directiveType, dirMeta.providers, 'providers'));
             }
             var queries = [];
             var viewQueries = [];
@@ -14505,7 +15285,8 @@ var CompileMetadataResolver = (function () {
                 providers: providers,
                 viewProviders: viewProviders,
                 queries: queries,
-                viewQueries: viewQueries
+                viewQueries: viewQueries,
+                precompile: precompileTypes
             });
             this._directiveCache.set(directiveType, meta);
         }
@@ -14779,6 +15560,7 @@ function flattenPipes(view, platformPipes) {
     return pipes;
 }
 function flattenArray(tree, out) {
+    if (out === void 0) { out = []; }
     for (var i = 0; i < tree.length; i++) {
         var item = core_1.resolveForwardRef(tree[i]);
         if (lang_1.isArray(item)) {
@@ -14788,6 +15570,19 @@ function flattenArray(tree, out) {
             out.push(item);
         }
     }
+    return out;
+}
+function verifyNonBlankProviders(directiveType, providersTree, providersType) {
+    var flat = [];
+    var errMsg;
+    flattenArray(providersTree, flat);
+    for (var i = 0; i < flat.length; i++) {
+        if (lang_1.isBlank(flat[i])) {
+            errMsg = flat.map(function (provider) { return lang_1.isBlank(provider) ? '?' : lang_1.stringify(provider); }).join(', ');
+            throw new exceptions_1.BaseException("One or more of " + providersType + " for \"" + lang_1.stringify(directiveType) + "\" were not defined: [" + errMsg + "].");
+        }
+    }
+    return providersTree;
 }
 function isStaticType(value) {
     return lang_1.isStringMap(value) && lang_1.isPresent(value['name']) && lang_1.isPresent(value['filePath']);
@@ -14830,7 +15625,14 @@ var _CompileValueConverter = (function (_super) {
     return _CompileValueConverter;
 }(util_1.ValueTransformer));
 
-},{"../core_private":84,"../src/facade/collection":104,"../src/facade/exceptions":106,"../src/facade/lang":107,"./assertions":91,"./compile_metadata":93,"./config":95,"./directive_lifecycle_reflector":96,"./directive_resolver":98,"./pipe_resolver":134,"./url_resolver":147,"./util":148,"./view_resolver":164,"@angular/core":166}],123:[function(require,module,exports){
+},{"../core_private":85,"../src/facade/collection":105,"../src/facade/exceptions":107,"../src/facade/lang":108,"./assertions":92,"./compile_metadata":94,"./config":96,"./directive_lifecycle_reflector":97,"./directive_resolver":99,"./pipe_resolver":135,"./url_resolver":148,"./util":149,"./view_resolver":165,"@angular/core":167}],124:[function(require,module,exports){
+/**
+ * @license
+ * Copyright Google Inc. All Rights Reserved.
+ *
+ * Use of this source code is governed by an MIT-style license that can be
+ * found in the LICENSE file at https://angular.io/license
+ */
 "use strict";
 var core_1 = require('@angular/core');
 var compile_metadata_1 = require('./compile_metadata');
@@ -14838,6 +15640,7 @@ var collection_1 = require('./facade/collection');
 var exceptions_1 = require('./facade/exceptions');
 var o = require('./output/output_ast');
 var util_1 = require('./util');
+var view_compiler_1 = require('./view_compiler/view_compiler');
 var _COMPONENT_FACTORY_IDENTIFIER = new compile_metadata_1.CompileIdentifierMetadata({
     name: 'ComponentFactory',
     runtime: core_1.ComponentFactory,
@@ -14869,16 +15672,15 @@ var NormalizedComponentWithViewDirectives = (function () {
 }());
 exports.NormalizedComponentWithViewDirectives = NormalizedComponentWithViewDirectives;
 var OfflineCompiler = (function () {
-    function OfflineCompiler(_directiveNormalizer, _templateParser, _styleCompiler, _viewCompiler, _outputEmitter, _xhr) {
+    function OfflineCompiler(_directiveNormalizer, _templateParser, _styleCompiler, _viewCompiler, _outputEmitter) {
         this._directiveNormalizer = _directiveNormalizer;
         this._templateParser = _templateParser;
         this._styleCompiler = _styleCompiler;
         this._viewCompiler = _viewCompiler;
         this._outputEmitter = _outputEmitter;
-        this._xhr = _xhr;
     }
     OfflineCompiler.prototype.normalizeDirectiveMetadata = function (directive) {
-        return this._directiveNormalizer.normalizeDirective(directive);
+        return this._directiveNormalizer.normalizeDirective(directive).asyncResult;
     };
     OfflineCompiler.prototype.compileTemplates = function (components) {
         var _this = this;
@@ -14887,15 +15689,21 @@ var OfflineCompiler = (function () {
         }
         var statements = [];
         var exportedVars = [];
-        var moduleUrl = _templateModuleUrl(components[0].component);
+        var moduleUrl = _ngfactoryModuleUrl(components[0].component.type);
+        var outputSourceModules = [];
         components.forEach(function (componentWithDirs) {
             var compMeta = componentWithDirs.component;
             _assertComponent(compMeta);
-            var compViewFactoryVar = _this._compileComponent(compMeta, componentWithDirs.directives, componentWithDirs.pipes, statements);
+            var fileSuffix = _splitLastSuffix(compMeta.type.moduleUrl)[1];
+            var stylesCompileResults = _this._styleCompiler.compileComponent(compMeta);
+            stylesCompileResults.externalStylesheets.forEach(function (compiledStyleSheet) {
+                outputSourceModules.push(_this._codgenStyles(compiledStyleSheet, fileSuffix));
+            });
+            var compViewFactoryVar = _this._compileComponent(compMeta, componentWithDirs.directives, componentWithDirs.pipes, stylesCompileResults.componentStylesheet, fileSuffix, statements);
             exportedVars.push(compViewFactoryVar);
             var hostMeta = compile_metadata_1.createHostComponentMeta(compMeta.type, compMeta.selector);
-            var hostViewFactoryVar = _this._compileComponent(hostMeta, [compMeta], [], statements);
-            var compFactoryVar = compMeta.type.name + "NgFactory";
+            var hostViewFactoryVar = _this._compileComponent(hostMeta, [compMeta], [], null, fileSuffix, statements);
+            var compFactoryVar = _componentFactoryName(compMeta.type);
             statements.push(o.variable(compFactoryVar)
                 .set(o.importExpr(_COMPONENT_FACTORY_IDENTIFIER, [o.importType(compMeta.type)])
                 .instantiate([
@@ -14905,30 +15713,22 @@ var OfflineCompiler = (function () {
                 .toDeclStmt(null, [o.StmtModifier.Final]));
             exportedVars.push(compFactoryVar);
         });
-        return this._codegenSourceModule(moduleUrl, statements, exportedVars);
+        outputSourceModules.unshift(this._codegenSourceModule(moduleUrl, statements, exportedVars));
+        return outputSourceModules;
     };
-    OfflineCompiler.prototype.loadAndCompileStylesheet = function (stylesheetUrl, shim, suffix) {
-        var _this = this;
-        return this._xhr.get(stylesheetUrl).then(function (cssText) {
-            var compileResult = _this._styleCompiler.compileStylesheet(stylesheetUrl, cssText, shim);
-            var importedUrls = [];
-            compileResult.dependencies.forEach(function (dep) {
-                importedUrls.push(dep.moduleUrl);
-                dep.valuePlaceholder.moduleUrl = _stylesModuleUrl(dep.moduleUrl, dep.isShimmed, suffix);
-            });
-            return new StyleSheetSourceWithImports(_this._codgenStyles(stylesheetUrl, shim, suffix, compileResult), importedUrls);
-        });
-    };
-    OfflineCompiler.prototype._compileComponent = function (compMeta, directives, pipes, targetStatements) {
-        var styleResult = this._styleCompiler.compileComponent(compMeta);
+    OfflineCompiler.prototype._compileComponent = function (compMeta, directives, pipes, componentStyles, fileSuffix, targetStatements) {
         var parsedTemplate = this._templateParser.parse(compMeta, compMeta.template.template, directives, pipes, compMeta.type.name);
-        var viewResult = this._viewCompiler.compileComponent(compMeta, parsedTemplate, o.variable(styleResult.stylesVar), pipes);
-        collection_1.ListWrapper.addAll(targetStatements, _resolveStyleStatements(compMeta.type.moduleUrl, styleResult));
+        var stylesExpr = componentStyles ? o.variable(componentStyles.stylesVar) : o.literalArr([]);
+        var viewResult = this._viewCompiler.compileComponent(compMeta, parsedTemplate, stylesExpr, pipes);
+        if (componentStyles) {
+            collection_1.ListWrapper.addAll(targetStatements, _resolveStyleStatements(componentStyles, fileSuffix));
+        }
         collection_1.ListWrapper.addAll(targetStatements, _resolveViewStatements(viewResult));
         return viewResult.viewFactoryVar;
     };
-    OfflineCompiler.prototype._codgenStyles = function (inputUrl, shim, suffix, stylesCompileResult) {
-        return this._codegenSourceModule(_stylesModuleUrl(inputUrl, shim, suffix), stylesCompileResult.statements, [stylesCompileResult.stylesVar]);
+    OfflineCompiler.prototype._codgenStyles = function (stylesCompileResult, fileSuffix) {
+        _resolveStyleStatements(stylesCompileResult, fileSuffix);
+        return this._codegenSourceModule(_stylesModuleUrl(stylesCompileResult.meta.moduleUrl, stylesCompileResult.isShimmed, fileSuffix), stylesCompileResult.statements, [stylesCompileResult.stylesVar]);
     };
     OfflineCompiler.prototype._codegenSourceModule = function (moduleUrl, statements, exportedVars) {
         return new SourceModule(moduleUrl, this._outputEmitter.emitStatements(moduleUrl, statements, exportedVars));
@@ -14937,20 +15737,31 @@ var OfflineCompiler = (function () {
 }());
 exports.OfflineCompiler = OfflineCompiler;
 function _resolveViewStatements(compileResult) {
-    compileResult.dependencies.forEach(function (dep) { dep.factoryPlaceholder.moduleUrl = _templateModuleUrl(dep.comp); });
-    return compileResult.statements;
-}
-function _resolveStyleStatements(containingModuleUrl, compileResult) {
-    var containingSuffix = _splitSuffix(containingModuleUrl)[1];
     compileResult.dependencies.forEach(function (dep) {
-        dep.valuePlaceholder.moduleUrl =
-            _stylesModuleUrl(dep.moduleUrl, dep.isShimmed, containingSuffix);
+        if (dep instanceof view_compiler_1.ViewFactoryDependency) {
+            var vfd = dep;
+            vfd.placeholder.moduleUrl = _ngfactoryModuleUrl(vfd.comp);
+        }
+        else if (dep instanceof view_compiler_1.ComponentFactoryDependency) {
+            var cfd = dep;
+            cfd.placeholder.name = _componentFactoryName(cfd.comp);
+            cfd.placeholder.moduleUrl = _ngfactoryModuleUrl(cfd.comp);
+        }
     });
     return compileResult.statements;
 }
-function _templateModuleUrl(comp) {
-    var urlWithSuffix = _splitSuffix(comp.type.moduleUrl);
+function _resolveStyleStatements(compileResult, fileSuffix) {
+    compileResult.dependencies.forEach(function (dep) {
+        dep.valuePlaceholder.moduleUrl = _stylesModuleUrl(dep.moduleUrl, dep.isShimmed, fileSuffix);
+    });
+    return compileResult.statements;
+}
+function _ngfactoryModuleUrl(comp) {
+    var urlWithSuffix = _splitLastSuffix(comp.moduleUrl);
     return urlWithSuffix[0] + ".ngfactory" + urlWithSuffix[1];
+}
+function _componentFactoryName(comp) {
+    return comp.name + "NgFactory";
 }
 function _stylesModuleUrl(stylesheetUrl, shim, suffix) {
     return shim ? stylesheetUrl + ".shim" + suffix : "" + stylesheetUrl + suffix;
@@ -14960,7 +15771,7 @@ function _assertComponent(meta) {
         throw new exceptions_1.BaseException("Could not compile '" + meta.type.name + "' because it is not a component.");
     }
 }
-function _splitSuffix(path) {
+function _splitLastSuffix(path) {
     var lastDot = path.lastIndexOf('.');
     if (lastDot !== -1) {
         return [path.substring(0, lastDot), path.substring(lastDot)];
@@ -14970,7 +15781,14 @@ function _splitSuffix(path) {
     }
 }
 
-},{"./compile_metadata":93,"./facade/collection":104,"./facade/exceptions":106,"./output/output_ast":128,"./util":148,"@angular/core":166}],124:[function(require,module,exports){
+},{"./compile_metadata":94,"./facade/collection":105,"./facade/exceptions":107,"./output/output_ast":129,"./util":149,"./view_compiler/view_compiler":164,"@angular/core":167}],125:[function(require,module,exports){
+/**
+ * @license
+ * Copyright Google Inc. All Rights Reserved.
+ *
+ * Use of this source code is governed by an MIT-style license that can be
+ * found in the LICENSE file at https://angular.io/license
+ */
 "use strict";
 var exceptions_1 = require('../facade/exceptions');
 var lang_1 = require('../facade/lang');
@@ -15382,7 +16200,14 @@ function _createIndent(count) {
     return res;
 }
 
-},{"../facade/exceptions":106,"../facade/lang":107,"./output_ast":128}],125:[function(require,module,exports){
+},{"../facade/exceptions":107,"../facade/lang":108,"./output_ast":129}],126:[function(require,module,exports){
+/**
+ * @license
+ * Copyright Google Inc. All Rights Reserved.
+ *
+ * Use of this source code is governed by an MIT-style license that can be
+ * found in the LICENSE file at https://angular.io/license
+ */
 "use strict";
 var __extends = (this && this.__extends) || function (d, b) {
     for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p];
@@ -15547,7 +16372,14 @@ var AbstractJsEmitterVisitor = (function (_super) {
 }(abstract_emitter_1.AbstractEmitterVisitor));
 exports.AbstractJsEmitterVisitor = AbstractJsEmitterVisitor;
 
-},{"../facade/exceptions":106,"../facade/lang":107,"./abstract_emitter":124,"./output_ast":128}],126:[function(require,module,exports){
+},{"../facade/exceptions":107,"../facade/lang":108,"./abstract_emitter":125,"./output_ast":129}],127:[function(require,module,exports){
+/**
+ * @license
+ * Copyright Google Inc. All Rights Reserved.
+ *
+ * Use of this source code is governed by an MIT-style license that can be
+ * found in the LICENSE file at https://angular.io/license
+ */
 "use strict";
 var __extends = (this && this.__extends) || function (d, b) {
     for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p];
@@ -15929,7 +16761,14 @@ function isConstType(type) {
     return lang_1.isPresent(type) && type.hasModifier(o.TypeModifier.Const);
 }
 
-},{"../facade/exceptions":106,"../facade/lang":107,"./abstract_emitter":124,"./output_ast":128}],127:[function(require,module,exports){
+},{"../facade/exceptions":107,"../facade/lang":108,"./abstract_emitter":125,"./output_ast":129}],128:[function(require,module,exports){
+/**
+ * @license
+ * Copyright Google Inc. All Rights Reserved.
+ *
+ * Use of this source code is governed by an MIT-style license that can be
+ * found in the LICENSE file at https://angular.io/license
+ */
 "use strict";
 var __extends = (this && this.__extends) || function (d, b) {
     for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p];
@@ -16023,7 +16862,14 @@ var _InterpretiveAppView = (function (_super) {
     return _InterpretiveAppView;
 }(core_private_1.DebugAppView));
 
-},{"../../core_private":84,"../facade/exceptions":106,"../facade/lang":107}],128:[function(require,module,exports){
+},{"../../core_private":85,"../facade/exceptions":107,"../facade/lang":108}],129:[function(require,module,exports){
+/**
+ * @license
+ * Copyright Google Inc. All Rights Reserved.
+ *
+ * Use of this source code is governed by an MIT-style license that can be
+ * found in the LICENSE file at https://angular.io/license
+ */
 "use strict";
 var __extends = (this && this.__extends) || function (d, b) {
     for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p];
@@ -17003,7 +17849,14 @@ function fn(params, body, type) {
 }
 exports.fn = fn;
 
-},{"../facade/lang":107}],129:[function(require,module,exports){
+},{"../facade/lang":108}],130:[function(require,module,exports){
+/**
+ * @license
+ * Copyright Google Inc. All Rights Reserved.
+ *
+ * Use of this source code is governed by an MIT-style license that can be
+ * found in the LICENSE file at https://angular.io/license
+ */
 "use strict";
 var core_private_1 = require('../../core_private');
 var async_1 = require('../facade/async');
@@ -17454,7 +18307,14 @@ function _declareFn(varNames, statements, ctx, visitor) {
 var CATCH_ERROR_VAR = 'error';
 var CATCH_STACK_VAR = 'stack';
 
-},{"../../core_private":84,"../facade/async":102,"../facade/collection":104,"../facade/exceptions":106,"../facade/lang":107,"./dart_emitter":126,"./output_ast":128,"./ts_emitter":132}],130:[function(require,module,exports){
+},{"../../core_private":85,"../facade/async":103,"../facade/collection":105,"../facade/exceptions":107,"../facade/lang":108,"./dart_emitter":127,"./output_ast":129,"./ts_emitter":133}],131:[function(require,module,exports){
+/**
+ * @license
+ * Copyright Google Inc. All Rights Reserved.
+ *
+ * Use of this source code is governed by an MIT-style license that can be
+ * found in the LICENSE file at https://angular.io/license
+ */
 "use strict";
 var __extends = (this && this.__extends) || function (d, b) {
     for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p];
@@ -17501,7 +18361,14 @@ var JitEmitterVisitor = (function (_super) {
     return JitEmitterVisitor;
 }(abstract_js_emitter_1.AbstractJsEmitterVisitor));
 
-},{"../facade/lang":107,"../util":148,"./abstract_emitter":124,"./abstract_js_emitter":125}],131:[function(require,module,exports){
+},{"../facade/lang":108,"../util":149,"./abstract_emitter":125,"./abstract_js_emitter":126}],132:[function(require,module,exports){
+/**
+ * @license
+ * Copyright Google Inc. All Rights Reserved.
+ *
+ * Use of this source code is governed by an MIT-style license that can be
+ * found in the LICENSE file at https://angular.io/license
+ */
 "use strict";
 var exceptions_1 = require('../facade/exceptions');
 var lang_1 = require('../facade/lang');
@@ -17538,7 +18405,14 @@ var AssetUrl = (function () {
 }());
 exports.AssetUrl = AssetUrl;
 
-},{"../facade/exceptions":106,"../facade/lang":107}],132:[function(require,module,exports){
+},{"../facade/exceptions":107,"../facade/lang":108}],133:[function(require,module,exports){
+/**
+ * @license
+ * Copyright Google Inc. All Rights Reserved.
+ *
+ * Use of this source code is governed by an MIT-style license that can be
+ * found in the LICENSE file at https://angular.io/license
+ */
 "use strict";
 var __extends = (this && this.__extends) || function (d, b) {
     for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p];
@@ -17844,7 +18718,14 @@ var _TsEmitterVisitor = (function (_super) {
     return _TsEmitterVisitor;
 }(abstract_emitter_1.AbstractEmitterVisitor));
 
-},{"../facade/exceptions":106,"../facade/lang":107,"./abstract_emitter":124,"./output_ast":128}],133:[function(require,module,exports){
+},{"../facade/exceptions":107,"../facade/lang":108,"./abstract_emitter":125,"./output_ast":129}],134:[function(require,module,exports){
+/**
+ * @license
+ * Copyright Google Inc. All Rights Reserved.
+ *
+ * Use of this source code is governed by an MIT-style license that can be
+ * found in the LICENSE file at https://angular.io/license
+ */
 "use strict";
 var ParseLocation = (function () {
     function ParseLocation(file, offset, line, col) {
@@ -17925,7 +18806,14 @@ var ParseError = (function () {
 }());
 exports.ParseError = ParseError;
 
-},{}],134:[function(require,module,exports){
+},{}],135:[function(require,module,exports){
+/**
+ * @license
+ * Copyright Google Inc. All Rights Reserved.
+ *
+ * Use of this source code is governed by an MIT-style license that can be
+ * found in the LICENSE file at https://angular.io/license
+ */
 "use strict";
 var core_1 = require('@angular/core');
 var core_private_1 = require('../core_private');
@@ -17964,7 +18852,14 @@ var PipeResolver = (function () {
 }());
 exports.PipeResolver = PipeResolver;
 
-},{"../core_private":84,"../src/facade/exceptions":106,"../src/facade/lang":107,"@angular/core":166}],135:[function(require,module,exports){
+},{"../core_private":85,"../src/facade/exceptions":107,"../src/facade/lang":108,"@angular/core":167}],136:[function(require,module,exports){
+/**
+ * @license
+ * Copyright Google Inc. All Rights Reserved.
+ *
+ * Use of this source code is governed by an MIT-style license that can be
+ * found in the LICENSE file at https://angular.io/license
+ */
 "use strict";
 var __extends = (this && this.__extends) || function (d, b) {
     for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p];
@@ -18341,12 +19236,18 @@ function _addQueryToTokenMap(map, query) {
     });
 }
 
-},{"../src/facade/collection":104,"../src/facade/lang":107,"./compile_metadata":93,"./identifiers":120,"./parse_util":133,"./template_ast":144}],136:[function(require,module,exports){
+},{"../src/facade/collection":105,"../src/facade/lang":108,"./compile_metadata":94,"./identifiers":121,"./parse_util":134,"./template_ast":145}],137:[function(require,module,exports){
+/**
+ * @license
+ * Copyright Google Inc. All Rights Reserved.
+ *
+ * Use of this source code is governed by an MIT-style license that can be
+ * found in the LICENSE file at https://angular.io/license
+ */
 "use strict";
 var core_1 = require('@angular/core');
 var exceptions_1 = require('../src/facade/exceptions');
 var lang_1 = require('../src/facade/lang');
-var collection_1 = require('../src/facade/collection');
 var async_1 = require('../src/facade/async');
 var compile_metadata_1 = require('./compile_metadata');
 var style_compiler_1 = require('./style_compiler');
@@ -18359,133 +19260,163 @@ var ir = require('./output/output_ast');
 var output_jit_1 = require('./output/output_jit');
 var output_interpreter_1 = require('./output/output_interpreter');
 var interpretive_view_1 = require('./output/interpretive_view');
-var xhr_1 = require('./xhr');
 var RuntimeCompiler = (function () {
-    function RuntimeCompiler(_metadataResolver, _templateNormalizer, _templateParser, _styleCompiler, _viewCompiler, _xhr, _genConfig) {
+    function RuntimeCompiler(_metadataResolver, _templateNormalizer, _templateParser, _styleCompiler, _viewCompiler, _genConfig) {
         this._metadataResolver = _metadataResolver;
         this._templateNormalizer = _templateNormalizer;
         this._templateParser = _templateParser;
         this._styleCompiler = _styleCompiler;
         this._viewCompiler = _viewCompiler;
-        this._xhr = _xhr;
         this._genConfig = _genConfig;
-        this._styleCache = new Map();
-        this._hostCacheKeys = new Map();
         this._compiledTemplateCache = new Map();
-        this._compiledTemplateDone = new Map();
+        this._compiledHostTemplateCache = new Map();
     }
     RuntimeCompiler.prototype.resolveComponent = function (component) {
         if (lang_1.isString(component)) {
             return async_1.PromiseWrapper.reject(new exceptions_1.BaseException("Cannot resolve component using '" + component + "'."), null);
         }
-        var componentType = component;
-        var compMeta = this._metadataResolver.getDirectiveMetadata(componentType);
-        var hostCacheKey = this._hostCacheKeys.get(componentType);
-        if (lang_1.isBlank(hostCacheKey)) {
-            hostCacheKey = new Object();
-            this._hostCacheKeys.set(componentType, hostCacheKey);
-            assertComponent(compMeta);
-            var hostMeta = compile_metadata_1.createHostComponentMeta(compMeta.type, compMeta.selector);
-            this._loadAndCompileComponent(hostCacheKey, hostMeta, [compMeta], [], []);
+        return this.compileComponentAsync(component);
+    };
+    RuntimeCompiler.prototype.compileComponentAsync = function (compType) {
+        var _this = this;
+        var templates = this._getTransitiveCompiledTemplates(compType, true);
+        var loadingPromises = [];
+        templates.forEach(function (template) {
+            if (template.loading) {
+                loadingPromises.push(template.loading);
+            }
+        });
+        return Promise.all(loadingPromises).then(function () {
+            templates.forEach(function (template) { _this._compileTemplate(template); });
+            return _this._getCompiledHostTemplate(compType).proxyComponentFactory;
+        });
+    };
+    RuntimeCompiler.prototype.compileComponentSync = function (compType) {
+        var _this = this;
+        var templates = this._getTransitiveCompiledTemplates(compType, true);
+        templates.forEach(function (template) {
+            if (template.loading) {
+                throw new exceptions_1.BaseException("Can't compile synchronously as " + template.compType.name + " is still being loaded!");
+            }
+        });
+        templates.forEach(function (template) { _this._compileTemplate(template); });
+        return this._getCompiledHostTemplate(compType).proxyComponentFactory;
+    };
+    RuntimeCompiler.prototype.clearCacheFor = function (compType) {
+        this._metadataResolver.clearCacheFor(compType);
+        this._compiledHostTemplateCache.delete(compType);
+        var compiledTemplate = this._compiledTemplateCache.get(compType);
+        if (compiledTemplate) {
+            this._templateNormalizer.clearCacheFor(compiledTemplate.normalizedCompMeta);
+            this._compiledTemplateCache.delete(compType);
         }
-        return this._compiledTemplateDone.get(hostCacheKey)
-            .then(function (compiledTemplate) { return new core_1.ComponentFactory(compMeta.selector, compiledTemplate.viewFactory, componentType); });
     };
     RuntimeCompiler.prototype.clearCache = function () {
-        this._styleCache.clear();
+        this._metadataResolver.clearCache();
         this._compiledTemplateCache.clear();
-        this._compiledTemplateDone.clear();
-        this._hostCacheKeys.clear();
+        this._compiledHostTemplateCache.clear();
+        this._templateNormalizer.clearCache();
     };
-    RuntimeCompiler.prototype._loadAndCompileComponent = function (cacheKey, compMeta, viewDirectives, pipes, compilingComponentsPath) {
-        var _this = this;
-        var compiledTemplate = this._compiledTemplateCache.get(cacheKey);
-        var done = this._compiledTemplateDone.get(cacheKey);
+    RuntimeCompiler.prototype._getCompiledHostTemplate = function (type) {
+        var compiledTemplate = this._compiledHostTemplateCache.get(type);
         if (lang_1.isBlank(compiledTemplate)) {
-            compiledTemplate = new CompiledTemplate();
-            this._compiledTemplateCache.set(cacheKey, compiledTemplate);
-            done =
-                async_1.PromiseWrapper
-                    .all([this._compileComponentStyles(compMeta)].concat(viewDirectives.map(function (dirMeta) { return _this._templateNormalizer.normalizeDirective(dirMeta); })))
-                    .then(function (stylesAndNormalizedViewDirMetas) {
-                    var normalizedViewDirMetas = stylesAndNormalizedViewDirMetas.slice(1);
-                    var styles = stylesAndNormalizedViewDirMetas[0];
-                    var parsedTemplate = _this._templateParser.parse(compMeta, compMeta.template.template, normalizedViewDirMetas, pipes, compMeta.type.name);
-                    var childPromises = [];
-                    compiledTemplate.init(_this._compileComponent(compMeta, parsedTemplate, styles, pipes, compilingComponentsPath, childPromises));
-                    return async_1.PromiseWrapper.all(childPromises).then(function (_) { return compiledTemplate; });
-                });
-            this._compiledTemplateDone.set(cacheKey, done);
+            var compMeta = this._metadataResolver.getDirectiveMetadata(type);
+            assertComponent(compMeta);
+            var hostMeta = compile_metadata_1.createHostComponentMeta(compMeta.type, compMeta.selector);
+            compiledTemplate = new CompiledTemplate(true, compMeta.selector, compMeta.type, [], [type], [], [], this._templateNormalizer.normalizeDirective(hostMeta));
+            this._compiledHostTemplateCache.set(type, compiledTemplate);
         }
         return compiledTemplate;
     };
-    RuntimeCompiler.prototype._compileComponent = function (compMeta, parsedTemplate, styles, pipes, compilingComponentsPath, childPromises) {
+    RuntimeCompiler.prototype._getCompiledTemplate = function (type) {
+        var compiledTemplate = this._compiledTemplateCache.get(type);
+        if (lang_1.isBlank(compiledTemplate)) {
+            var compMeta = this._metadataResolver.getDirectiveMetadata(type);
+            assertComponent(compMeta);
+            var viewDirectives = [];
+            var viewComponentTypes = [];
+            this._metadataResolver.getViewDirectivesMetadata(type).forEach(function (dirOrComp) {
+                if (dirOrComp.isComponent) {
+                    viewComponentTypes.push(dirOrComp.type.runtime);
+                }
+                else {
+                    viewDirectives.push(dirOrComp);
+                }
+            });
+            var precompileComponentTypes = compMeta.precompile.map(function (typeMeta) { return typeMeta.runtime; });
+            var pipes = this._metadataResolver.getViewPipesMetadata(type);
+            compiledTemplate = new CompiledTemplate(false, compMeta.selector, compMeta.type, viewDirectives, viewComponentTypes, precompileComponentTypes, pipes, this._templateNormalizer.normalizeDirective(compMeta));
+            this._compiledTemplateCache.set(type, compiledTemplate);
+        }
+        return compiledTemplate;
+    };
+    RuntimeCompiler.prototype._getTransitiveCompiledTemplates = function (compType, isHost, target) {
         var _this = this;
-        var compileResult = this._viewCompiler.compileComponent(compMeta, parsedTemplate, new ir.ExternalExpr(new compile_metadata_1.CompileIdentifierMetadata({ runtime: styles })), pipes);
-        compileResult.dependencies.forEach(function (dep) {
-            var childCompilingComponentsPath = collection_1.ListWrapper.clone(compilingComponentsPath);
-            var childCacheKey = dep.comp.type.runtime;
-            var childViewDirectives = _this._metadataResolver.getViewDirectivesMetadata(dep.comp.type.runtime);
-            var childViewPipes = _this._metadataResolver.getViewPipesMetadata(dep.comp.type.runtime);
-            var childIsRecursive = collection_1.ListWrapper.contains(childCompilingComponentsPath, childCacheKey);
-            childCompilingComponentsPath.push(childCacheKey);
-            var childComp = _this._loadAndCompileComponent(dep.comp.type.runtime, dep.comp, childViewDirectives, childViewPipes, childCompilingComponentsPath);
-            dep.factoryPlaceholder.runtime = childComp.proxyViewFactory;
-            dep.factoryPlaceholder.name = "viewFactory_" + dep.comp.type.name;
-            if (!childIsRecursive) {
-                // Only wait for a child if it is not a cycle
-                childPromises.push(_this._compiledTemplateDone.get(childCacheKey));
+        if (target === void 0) { target = new Set(); }
+        var template = isHost ? this._getCompiledHostTemplate(compType) : this._getCompiledTemplate(compType);
+        if (!target.has(template)) {
+            target.add(template);
+            template.viewComponentTypes.forEach(function (compType) { _this._getTransitiveCompiledTemplates(compType, false, target); });
+            template.precompileHostComponentTypes.forEach(function (compType) { _this._getTransitiveCompiledTemplates(compType, true, target); });
+        }
+        return target;
+    };
+    RuntimeCompiler.prototype._compileTemplate = function (template) {
+        var _this = this;
+        if (template.isCompiled) {
+            return;
+        }
+        var compMeta = template.normalizedCompMeta;
+        var externalStylesheetsByModuleUrl = new Map();
+        var stylesCompileResult = this._styleCompiler.compileComponent(compMeta);
+        stylesCompileResult.externalStylesheets.forEach(function (r) { externalStylesheetsByModuleUrl.set(r.meta.moduleUrl, r); });
+        this._resolveStylesCompileResult(stylesCompileResult.componentStylesheet, externalStylesheetsByModuleUrl);
+        var viewCompMetas = template.viewComponentTypes.map(function (compType) { return _this._getCompiledTemplate(compType).normalizedCompMeta; });
+        var parsedTemplate = this._templateParser.parse(compMeta, compMeta.template.template, template.viewDirectives.concat(viewCompMetas), template.viewPipes, compMeta.type.name);
+        var compileResult = this._viewCompiler.compileComponent(compMeta, parsedTemplate, ir.variable(stylesCompileResult.componentStylesheet.stylesVar), template.viewPipes);
+        var depTemplates = compileResult.dependencies.map(function (dep) {
+            var depTemplate;
+            if (dep instanceof view_compiler_1.ViewFactoryDependency) {
+                var vfd = dep;
+                depTemplate = _this._getCompiledTemplate(vfd.comp.runtime);
+                vfd.placeholder.runtime = depTemplate.proxyViewFactory;
+                vfd.placeholder.name = "viewFactory_" + vfd.comp.name;
             }
+            else if (dep instanceof view_compiler_1.ComponentFactoryDependency) {
+                var cfd = dep;
+                depTemplate = _this._getCompiledHostTemplate(cfd.comp.runtime);
+                cfd.placeholder.runtime = depTemplate.proxyComponentFactory;
+                cfd.placeholder.name = "compFactory_" + cfd.comp.name;
+            }
+            return depTemplate;
         });
+        var statements = stylesCompileResult.componentStylesheet.statements.concat(compileResult.statements);
         var factory;
         if (lang_1.IS_DART || !this._genConfig.useJit) {
-            factory = output_interpreter_1.interpretStatements(compileResult.statements, compileResult.viewFactoryVar, new interpretive_view_1.InterpretiveAppViewInstanceFactory());
+            factory = output_interpreter_1.interpretStatements(statements, compileResult.viewFactoryVar, new interpretive_view_1.InterpretiveAppViewInstanceFactory());
         }
         else {
-            factory = output_jit_1.jitStatements(compMeta.type.name + ".template.js", compileResult.statements, compileResult.viewFactoryVar);
+            factory = output_jit_1.jitStatements(template.compType.name + ".template.js", statements, compileResult.viewFactoryVar);
         }
-        return factory;
+        template.compiled(factory);
     };
-    RuntimeCompiler.prototype._compileComponentStyles = function (compMeta) {
-        var compileResult = this._styleCompiler.compileComponent(compMeta);
-        return this._resolveStylesCompileResult(compMeta.type.name, compileResult);
-    };
-    RuntimeCompiler.prototype._resolveStylesCompileResult = function (sourceUrl, result) {
+    RuntimeCompiler.prototype._resolveStylesCompileResult = function (result, externalStylesheetsByModuleUrl) {
         var _this = this;
-        var promises = result.dependencies.map(function (dep) { return _this._loadStylesheetDep(dep); });
-        return async_1.PromiseWrapper.all(promises)
-            .then(function (cssTexts) {
-            var nestedCompileResultPromises = [];
-            for (var i = 0; i < result.dependencies.length; i++) {
-                var dep = result.dependencies[i];
-                var cssText = cssTexts[i];
-                var nestedCompileResult = _this._styleCompiler.compileStylesheet(dep.moduleUrl, cssText, dep.isShimmed);
-                nestedCompileResultPromises.push(_this._resolveStylesCompileResult(dep.moduleUrl, nestedCompileResult));
-            }
-            return async_1.PromiseWrapper.all(nestedCompileResultPromises);
-        })
-            .then(function (nestedStylesArr) {
-            for (var i = 0; i < result.dependencies.length; i++) {
-                var dep = result.dependencies[i];
-                dep.valuePlaceholder.runtime = nestedStylesArr[i];
-                dep.valuePlaceholder.name = "importedStyles" + i;
-            }
-            if (lang_1.IS_DART || !_this._genConfig.useJit) {
-                return output_interpreter_1.interpretStatements(result.statements, result.stylesVar, new interpretive_view_1.InterpretiveAppViewInstanceFactory());
-            }
-            else {
-                return output_jit_1.jitStatements(sourceUrl + ".css.js", result.statements, result.stylesVar);
-            }
+        result.dependencies.forEach(function (dep, i) {
+            var nestedCompileResult = externalStylesheetsByModuleUrl.get(dep.moduleUrl);
+            var nestedStylesArr = _this._resolveAndEvalStylesCompileResult(nestedCompileResult, externalStylesheetsByModuleUrl);
+            dep.valuePlaceholder.runtime = nestedStylesArr;
+            dep.valuePlaceholder.name = "importedStyles" + i;
         });
     };
-    RuntimeCompiler.prototype._loadStylesheetDep = function (dep) {
-        var cacheKey = "" + dep.moduleUrl + (dep.isShimmed ? '.shim' : '');
-        var cssTextPromise = this._styleCache.get(cacheKey);
-        if (lang_1.isBlank(cssTextPromise)) {
-            cssTextPromise = this._xhr.get(dep.moduleUrl);
-            this._styleCache.set(cacheKey, cssTextPromise);
+    RuntimeCompiler.prototype._resolveAndEvalStylesCompileResult = function (result, externalStylesheetsByModuleUrl) {
+        this._resolveStylesCompileResult(result, externalStylesheetsByModuleUrl);
+        if (lang_1.IS_DART || !this._genConfig.useJit) {
+            return output_interpreter_1.interpretStatements(result.statements, result.stylesVar, new interpretive_view_1.InterpretiveAppViewInstanceFactory());
         }
-        return cssTextPromise;
+        else {
+            return output_jit_1.jitStatements(result.meta.moduleUrl + ".css.js", result.statements, result.stylesVar);
+        }
     };
     /** @nocollapse */
     RuntimeCompiler.decorators = [
@@ -18498,22 +19429,61 @@ var RuntimeCompiler = (function () {
         { type: template_parser_1.TemplateParser, },
         { type: style_compiler_1.StyleCompiler, },
         { type: view_compiler_1.ViewCompiler, },
-        { type: xhr_1.XHR, },
         { type: config_1.CompilerConfig, },
     ];
     return RuntimeCompiler;
 }());
 exports.RuntimeCompiler = RuntimeCompiler;
 var CompiledTemplate = (function () {
-    function CompiledTemplate() {
+    function CompiledTemplate(isHost, selector, compType, viewDirectives, viewComponentTypes, precompileHostComponentTypes, viewPipes, _normalizeResult) {
         var _this = this;
-        this.viewFactory = null;
-        this.proxyViewFactory =
-            function (viewUtils /** TODO #9100 */, childInjector /** TODO #9100 */, contextEl /** TODO #9100 */) {
-                return _this.viewFactory(viewUtils, childInjector, contextEl);
-            };
+        this.isHost = isHost;
+        this.compType = compType;
+        this.viewDirectives = viewDirectives;
+        this.viewComponentTypes = viewComponentTypes;
+        this.precompileHostComponentTypes = precompileHostComponentTypes;
+        this.viewPipes = viewPipes;
+        this._normalizeResult = _normalizeResult;
+        this._viewFactory = null;
+        this.loading = null;
+        this._normalizedCompMeta = null;
+        this.isCompiled = false;
+        this.isCompiledWithDeps = false;
+        this.proxyViewFactory = function () {
+            var args = [];
+            for (var _i = 0; _i < arguments.length; _i++) {
+                args[_i - 0] = arguments[_i];
+            }
+            return _this._viewFactory.apply(null, args);
+        };
+        this.proxyComponentFactory = isHost ?
+            new core_1.ComponentFactory(selector, this.proxyViewFactory, compType.runtime) :
+            null;
+        if (_normalizeResult.syncResult) {
+            this._normalizedCompMeta = _normalizeResult.syncResult;
+        }
+        else {
+            this.loading = _normalizeResult.asyncResult.then(function (normalizedCompMeta) {
+                _this._normalizedCompMeta = normalizedCompMeta;
+                _this.loading = null;
+            });
+        }
     }
-    CompiledTemplate.prototype.init = function (viewFactory) { this.viewFactory = viewFactory; };
+    Object.defineProperty(CompiledTemplate.prototype, "normalizedCompMeta", {
+        get: function () {
+            if (this.loading) {
+                throw new exceptions_1.BaseException("Template is still loading for " + this.compType.name + "!");
+            }
+            return this._normalizedCompMeta;
+        },
+        enumerable: true,
+        configurable: true
+    });
+    CompiledTemplate.prototype.compiled = function (viewFactory) {
+        this._viewFactory = viewFactory;
+        this.isCompiled = true;
+    };
+    CompiledTemplate.prototype.depsCompiled = function () { this.isCompiledWithDeps = true; };
     return CompiledTemplate;
 }());
 function assertComponent(meta) {
@@ -18522,7 +19492,14 @@ function assertComponent(meta) {
     }
 }
 
-},{"../src/facade/async":102,"../src/facade/collection":104,"../src/facade/exceptions":106,"../src/facade/lang":107,"./compile_metadata":93,"./config":95,"./directive_normalizer":97,"./metadata_resolver":122,"./output/interpretive_view":127,"./output/output_ast":128,"./output/output_interpreter":129,"./output/output_jit":130,"./style_compiler":142,"./template_parser":145,"./view_compiler/view_compiler":163,"./xhr":165,"@angular/core":166}],137:[function(require,module,exports){
+},{"../src/facade/async":103,"../src/facade/exceptions":107,"../src/facade/lang":108,"./compile_metadata":94,"./config":96,"./directive_normalizer":98,"./metadata_resolver":123,"./output/interpretive_view":128,"./output/output_ast":129,"./output/output_interpreter":130,"./output/output_jit":131,"./style_compiler":143,"./template_parser":146,"./view_compiler/view_compiler":164,"@angular/core":167}],138:[function(require,module,exports){
+/**
+ * @license
+ * Copyright Google Inc. All Rights Reserved.
+ *
+ * Use of this source code is governed by an MIT-style license that can be
+ * found in the LICENSE file at https://angular.io/license
+ */
 "use strict";
 var __extends = (this && this.__extends) || function (d, b) {
     for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p];
@@ -18837,7 +19814,14 @@ var DomElementSchemaRegistry = (function (_super) {
 }(element_schema_registry_1.ElementSchemaRegistry));
 exports.DomElementSchemaRegistry = DomElementSchemaRegistry;
 
-},{"../../core_private":84,"../facade/collection":104,"../facade/lang":107,"./dom_security_schema":138,"./element_schema_registry":139,"@angular/core":166}],138:[function(require,module,exports){
+},{"../../core_private":85,"../facade/collection":105,"../facade/lang":108,"./dom_security_schema":139,"./element_schema_registry":140,"@angular/core":167}],139:[function(require,module,exports){
+/**
+ * @license
+ * Copyright Google Inc. All Rights Reserved.
+ *
+ * Use of this source code is governed by an MIT-style license that can be
+ * found in the LICENSE file at https://angular.io/license
+ */
 "use strict";
 var core_private_1 = require('../../core_private');
 // =================================================================================================
@@ -18889,7 +19873,14 @@ registerContext(core_private_1.SecurityContext.RESOURCE_URL, [
     'track|src',
 ]);
 
-},{"../../core_private":84}],139:[function(require,module,exports){
+},{"../../core_private":85}],140:[function(require,module,exports){
+/**
+ * @license
+ * Copyright Google Inc. All Rights Reserved.
+ *
+ * Use of this source code is governed by an MIT-style license that can be
+ * found in the LICENSE file at https://angular.io/license
+ */
 "use strict";
 var ElementSchemaRegistry = (function () {
     function ElementSchemaRegistry() {
@@ -18898,7 +19889,14 @@ var ElementSchemaRegistry = (function () {
 }());
 exports.ElementSchemaRegistry = ElementSchemaRegistry;
 
-},{}],140:[function(require,module,exports){
+},{}],141:[function(require,module,exports){
+/**
+ * @license
+ * Copyright Google Inc. All Rights Reserved.
+ *
+ * Use of this source code is governed by an MIT-style license that can be
+ * found in the LICENSE file at https://angular.io/license
+ */
 "use strict";
 var collection_1 = require('../src/facade/collection');
 var exceptions_1 = require('../src/facade/exceptions');
@@ -19257,7 +20255,14 @@ var SelectorContext = (function () {
 }());
 exports.SelectorContext = SelectorContext;
 
-},{"../src/facade/collection":104,"../src/facade/exceptions":106,"../src/facade/lang":107}],141:[function(require,module,exports){
+},{"../src/facade/collection":105,"../src/facade/exceptions":107,"../src/facade/lang":108}],142:[function(require,module,exports){
+/**
+ * @license
+ * Copyright Google Inc. All Rights Reserved.
+ *
+ * Use of this source code is governed by an MIT-style license that can be
+ * found in the LICENSE file at https://angular.io/license
+ */
 "use strict";
 var collection_1 = require('../src/facade/collection');
 var lang_1 = require('../src/facade/lang');
@@ -19758,14 +20763,19 @@ function escapeBlocks(input) {
     return new StringWithEscapedBlocks(resultParts.join(''), escapedBlocks);
 }
 
-},{"../src/facade/collection":104,"../src/facade/lang":107}],142:[function(require,module,exports){
+},{"../src/facade/collection":105,"../src/facade/lang":108}],143:[function(require,module,exports){
+/**
+ * @license
+ * Copyright Google Inc. All Rights Reserved.
+ *
+ * Use of this source code is governed by an MIT-style license that can be
+ * found in the LICENSE file at https://angular.io/license
+ */
 "use strict";
 var core_1 = require('@angular/core');
-var lang_1 = require('../src/facade/lang');
 var compile_metadata_1 = require('./compile_metadata');
 var o = require('./output/output_ast');
 var shadow_css_1 = require('./shadow_css');
-var style_url_resolver_1 = require('./style_url_resolver');
 var url_resolver_1 = require('./url_resolver');
 var COMPONENT_VARIABLE = '%COMP%';
 var HOST_ATTR = "_nghost-" + COMPONENT_VARIABLE;
@@ -19780,42 +20790,61 @@ var StylesCompileDependency = (function () {
 }());
 exports.StylesCompileDependency = StylesCompileDependency;
 var StylesCompileResult = (function () {
-    function StylesCompileResult(statements, stylesVar, dependencies) {
-        this.statements = statements;
-        this.stylesVar = stylesVar;
-        this.dependencies = dependencies;
+    function StylesCompileResult(componentStylesheet, externalStylesheets) {
+        this.componentStylesheet = componentStylesheet;
+        this.externalStylesheets = externalStylesheets;
     }
     return StylesCompileResult;
 }());
 exports.StylesCompileResult = StylesCompileResult;
+var CompiledStylesheet = (function () {
+    function CompiledStylesheet(statements, stylesVar, dependencies, isShimmed, meta) {
+        this.statements = statements;
+        this.stylesVar = stylesVar;
+        this.dependencies = dependencies;
+        this.isShimmed = isShimmed;
+        this.meta = meta;
+    }
+    return CompiledStylesheet;
+}());
+exports.CompiledStylesheet = CompiledStylesheet;
 var StyleCompiler = (function () {
     function StyleCompiler(_urlResolver) {
         this._urlResolver = _urlResolver;
         this._shadowCss = new shadow_css_1.ShadowCss();
     }
     StyleCompiler.prototype.compileComponent = function (comp) {
-        var shim = comp.template.encapsulation === core_1.ViewEncapsulation.Emulated;
-        return this._compileStyles(getStylesVarName(comp), comp.template.styles, comp.template.styleUrls, shim);
-    };
-    StyleCompiler.prototype.compileStylesheet = function (stylesheetUrl, cssText, isShimmed) {
-        var styleWithImports = style_url_resolver_1.extractStyleUrls(this._urlResolver, stylesheetUrl, cssText);
-        return this._compileStyles(getStylesVarName(null), [styleWithImports.style], styleWithImports.styleUrls, isShimmed);
-    };
-    StyleCompiler.prototype._compileStyles = function (stylesVar, plainStyles, absUrls, shim) {
         var _this = this;
-        var styleExpressions = plainStyles.map(function (plainStyle) { return o.literal(_this._shimIfNeeded(plainStyle, shim)); });
+        var shim = comp.template.encapsulation === core_1.ViewEncapsulation.Emulated;
+        var externalStylesheets = [];
+        var componentStylesheet = this._compileStyles(comp, new compile_metadata_1.CompileStylesheetMetadata({
+            styles: comp.template.styles,
+            styleUrls: comp.template.styleUrls,
+            moduleUrl: comp.type.moduleUrl
+        }), true);
+        comp.template.externalStylesheets.forEach(function (stylesheetMeta) {
+            var compiledStylesheet = _this._compileStyles(comp, stylesheetMeta, false);
+            externalStylesheets.push(compiledStylesheet);
+        });
+        return new StylesCompileResult(componentStylesheet, externalStylesheets);
+    };
+    StyleCompiler.prototype._compileStyles = function (comp, stylesheet, isComponentStylesheet) {
+        var _this = this;
+        var shim = comp.template.encapsulation === core_1.ViewEncapsulation.Emulated;
+        var styleExpressions = stylesheet.styles.map(function (plainStyle) { return o.literal(_this._shimIfNeeded(plainStyle, shim)); });
         var dependencies = [];
-        for (var i = 0; i < absUrls.length; i++) {
+        for (var i = 0; i < stylesheet.styleUrls.length; i++) {
             var identifier = new compile_metadata_1.CompileIdentifierMetadata({ name: getStylesVarName(null) });
-            dependencies.push(new StylesCompileDependency(absUrls[i], shim, identifier));
+            dependencies.push(new StylesCompileDependency(stylesheet.styleUrls[i], shim, identifier));
             styleExpressions.push(new o.ExternalExpr(identifier));
         }
         // styles variable contains plain strings and arrays of other styles arrays (recursive),
         // so we set its type to dynamic.
+        var stylesVar = getStylesVarName(isComponentStylesheet ? comp : null);
         var stmt = o.variable(stylesVar)
             .set(o.literalArr(styleExpressions, new o.ArrayType(o.DYNAMIC_TYPE, [o.TypeModifier.Const])))
             .toDeclStmt(null, [o.StmtModifier.Final]);
-        return new StylesCompileResult([stmt], stylesVar, dependencies);
+        return new CompiledStylesheet([stmt], stylesVar, dependencies, shim, stylesheet);
     };
     StyleCompiler.prototype._shimIfNeeded = function (style, shim) {
         return shim ? this._shadowCss.shimCssText(style, CONTENT_ATTR, HOST_ATTR) : style;
@@ -19833,16 +20862,23 @@ var StyleCompiler = (function () {
 exports.StyleCompiler = StyleCompiler;
 function getStylesVarName(component) {
     var result = "styles";
-    if (lang_1.isPresent(component)) {
+    if (component) {
         result += "_" + component.type.name;
     }
     return result;
 }
 
-},{"../src/facade/lang":107,"./compile_metadata":93,"./output/output_ast":128,"./shadow_css":141,"./style_url_resolver":143,"./url_resolver":147,"@angular/core":166}],143:[function(require,module,exports){
+},{"./compile_metadata":94,"./output/output_ast":129,"./shadow_css":142,"./url_resolver":148,"@angular/core":167}],144:[function(require,module,exports){
+/**
+ * @license
+ * Copyright Google Inc. All Rights Reserved.
+ *
+ * Use of this source code is governed by an MIT-style license that can be
+ * found in the LICENSE file at https://angular.io/license
+ */
+"use strict";
 // Some of the code comes from WebComponents.JS
 // https://github.com/webcomponents/webcomponentsjs/blob/master/src/HTMLImports/path.js
-"use strict";
 var lang_1 = require('../src/facade/lang');
 var StyleWithImports = (function () {
     function StyleWithImports(style, styleUrls) {
@@ -19882,7 +20918,14 @@ var _cssImportRe = /@import\s+(?:url\()?\s*(?:(?:['"]([^'"]*))|([^;\)\s]*))[^;]*
 //       https://github.com/angular/angular/issues/4596
 var _urlWithSchemaRe = /^([a-zA-Z\-\+\.]+):/g;
 
-},{"../src/facade/lang":107}],144:[function(require,module,exports){
+},{"../src/facade/lang":108}],145:[function(require,module,exports){
+/**
+ * @license
+ * Copyright Google Inc. All Rights Reserved.
+ *
+ * Use of this source code is governed by an MIT-style license that can be
+ * found in the LICENSE file at https://angular.io/license
+ */
 "use strict";
 var lang_1 = require('../src/facade/lang');
 /**
@@ -20164,7 +21207,14 @@ function templateVisitAll(visitor, asts, context) {
 }
 exports.templateVisitAll = templateVisitAll;
 
-},{"../src/facade/lang":107}],145:[function(require,module,exports){
+},{"../src/facade/lang":108}],146:[function(require,module,exports){
+/**
+ * @license
+ * Copyright Google Inc. All Rights Reserved.
+ *
+ * Use of this source code is governed by an MIT-style license that can be
+ * found in the LICENSE file at https://angular.io/license
+ */
 "use strict";
 var __extends = (this && this.__extends) || function (d, b) {
     for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p];
@@ -20458,6 +21508,9 @@ var TemplateParseVisitor = (function () {
         element.attrs.forEach(function (attr) {
             var hasBinding = _this._parseAttr(isTemplateElement, attr, matchableAttrs, elementOrDirectiveProps, animationProps, events, elementOrDirectiveRefs, elementVars);
             var hasTemplateBinding = _this._parseInlineTemplateBinding(attr, templateMatchableAttrs, templateElementOrDirectiveProps, templateElementVars);
+            if (hasTemplateBinding && hasInlineTemplates) {
+                _this._reportError("Can't have multiple template bindings on one element. Use only one attribute named 'template' or prefixed with *", attr.sourceSpan);
+            }
             if (!hasBinding && !hasTemplateBinding) {
                 // don't include the bindings as attributes as well in the AST
                 attrs.push(_this.visitAttr(attr, null));
@@ -20621,6 +21674,12 @@ var TemplateParseVisitor = (function () {
         this._parsePropertyAst(name, this._parseBinding(expression, sourceSpan), sourceSpan, targetMatchableAttrs, targetProps);
     };
     TemplateParseVisitor.prototype._parseAnimation = function (name, expression, sourceSpan, targetMatchableAttrs, targetAnimationProps) {
+        // This will occur when a @trigger is not paired with an expression.
+        // For animations it is valid to not have an expression since */void
+        // states will be applied by angular when the element is attached/detached
+        if (!lang_1.isPresent(expression) || expression.length == 0) {
+            expression = 'null';
+        }
         var ast = this._parseBinding(expression, sourceSpan);
         targetMatchableAttrs.push([name, ast.source]);
         targetAnimationProps.push(new template_ast_1.BoundElementPropertyAst(name, template_ast_1.PropertyBindingType.Animation, core_private_1.SecurityContext.NONE, ast, null, sourceSpan));
@@ -20830,18 +21889,20 @@ var TemplateParseVisitor = (function () {
             this._reportError("Components on an embedded template: " + componentTypeNames.join(','), sourceSpan);
         }
         elementProps.forEach(function (prop) {
-            _this._reportError("Property binding " + prop.name + " not used by any directive on an embedded template", sourceSpan);
+            _this._reportError("Property binding " + prop.name + " not used by any directive on an embedded template. Make sure that the property name is spelled correctly and all directives are listed in the \"directives\" section.", sourceSpan);
         });
     };
     TemplateParseVisitor.prototype._assertAllEventsPublishedByDirectives = function (directives, events) {
         var _this = this;
         var allDirectiveEvents = new Set();
         directives.forEach(function (directive) {
-            collection_1.StringMapWrapper.forEach(directive.directive.outputs, function (eventName, _ /** TODO #???? */) { allDirectiveEvents.add(eventName); });
+            collection_1.StringMapWrapper.forEach(directive.directive.outputs, function (eventName) {
+                allDirectiveEvents.add(eventName);
+            });
         });
         events.forEach(function (event) {
             if (lang_1.isPresent(event.target) || !collection_1.SetWrapper.has(allDirectiveEvents, event.name)) {
-                _this._reportError("Event binding " + event.fullName + " not emitted by any directive on an embedded template", event.sourceSpan);
+                _this._reportError("Event binding " + event.fullName + " not emitted by any directive on an embedded template. Make sure that the event name is spelled correctly and all directives are listed in the \"directives\" section.", event.sourceSpan);
             }
         });
     };
@@ -20981,7 +22042,14 @@ function removeDuplicates(items) {
     return res;
 }
 
-},{"../core_private":84,"../src/facade/collection":104,"../src/facade/exceptions":106,"../src/facade/lang":107,"./expression_parser/ast":99,"./expression_parser/parser":101,"./html_ast":110,"./html_parser":112,"./html_tags":113,"./identifiers":120,"./parse_util":133,"./provider_parser":135,"./schema/element_schema_registry":139,"./selector":140,"./style_url_resolver":143,"./template_ast":144,"./template_preparser":146,"./util":148,"@angular/core":166}],146:[function(require,module,exports){
+},{"../core_private":85,"../src/facade/collection":105,"../src/facade/exceptions":107,"../src/facade/lang":108,"./expression_parser/ast":100,"./expression_parser/parser":102,"./html_ast":111,"./html_parser":113,"./html_tags":114,"./identifiers":121,"./parse_util":134,"./provider_parser":136,"./schema/element_schema_registry":140,"./selector":141,"./style_url_resolver":144,"./template_ast":145,"./template_preparser":147,"./util":149,"@angular/core":167}],147:[function(require,module,exports){
+/**
+ * @license
+ * Copyright Google Inc. All Rights Reserved.
+ *
+ * Use of this source code is governed by an MIT-style license that can be
+ * found in the LICENSE file at https://angular.io/license
+ */
 "use strict";
 var lang_1 = require('../src/facade/lang');
 var html_tags_1 = require('./html_tags');
@@ -21065,7 +22133,14 @@ function normalizeNgContentSelect(selectAttr) {
     return selectAttr;
 }
 
-},{"../src/facade/lang":107,"./html_tags":113}],147:[function(require,module,exports){
+},{"../src/facade/lang":108,"./html_tags":114}],148:[function(require,module,exports){
+/**
+ * @license
+ * Copyright Google Inc. All Rights Reserved.
+ *
+ * Use of this source code is governed by an MIT-style license that can be
+ * found in the LICENSE file at https://angular.io/license
+ */
 "use strict";
 var core_1 = require('@angular/core');
 var lang_1 = require('../src/facade/lang');
@@ -21381,7 +22456,14 @@ function _resolveUrl(base, url) {
     return _joinAndCanonicalizePath(parts);
 }
 
-},{"../src/facade/lang":107,"@angular/core":166}],148:[function(require,module,exports){
+},{"../src/facade/lang":108,"@angular/core":167}],149:[function(require,module,exports){
+/**
+ * @license
+ * Copyright Google Inc. All Rights Reserved.
+ *
+ * Use of this source code is governed by an MIT-style license that can be
+ * found in the LICENSE file at https://angular.io/license
+ */
 "use strict";
 var collection_1 = require('./facade/collection');
 var lang_1 = require('./facade/lang');
@@ -21462,7 +22544,14 @@ function assetUrl(pkg, path, type) {
 }
 exports.assetUrl = assetUrl;
 
-},{"./facade/collection":104,"./facade/lang":107}],149:[function(require,module,exports){
+},{"./facade/collection":105,"./facade/lang":108}],150:[function(require,module,exports){
+/**
+ * @license
+ * Copyright Google Inc. All Rights Reserved.
+ *
+ * Use of this source code is governed by an MIT-style license that can be
+ * found in the LICENSE file at https://angular.io/license
+ */
 "use strict";
 var CompileBinding = (function () {
     function CompileBinding(node, sourceAst) {
@@ -21473,7 +22562,14 @@ var CompileBinding = (function () {
 }());
 exports.CompileBinding = CompileBinding;
 
-},{}],150:[function(require,module,exports){
+},{}],151:[function(require,module,exports){
+/**
+ * @license
+ * Copyright Google Inc. All Rights Reserved.
+ *
+ * Use of this source code is governed by an MIT-style license that can be
+ * found in the LICENSE file at https://angular.io/license
+ */
 "use strict";
 var __extends = (this && this.__extends) || function (d, b) {
     for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p];
@@ -21549,6 +22645,23 @@ var CompileElement = (function (_super) {
         this.appElement = o.THIS_EXPR.prop(fieldName);
         this._instances.add(identifiers_1.identifierToken(identifiers_1.Identifiers.AppElement), this.appElement);
     };
+    CompileElement.prototype.createComponentFactoryResolver = function (precompileComponent) {
+        if (!precompileComponent || precompileComponent.length === 0) {
+            return;
+        }
+        var createComponentFactoryResolverExpr = o.importExpr(identifiers_1.Identifiers.CodegenComponentFactoryResolver).instantiate([
+            o.literalArr(precompileComponent.map(function (precompiledComponent) { return o.importExpr(precompiledComponent); })),
+            util_1.injectFromViewParentInjector(identifiers_1.identifierToken(identifiers_1.Identifiers.ComponentFactoryResolver), false)
+        ]);
+        var provider = new compile_metadata_1.CompileProviderMetadata({
+            token: identifiers_1.identifierToken(identifiers_1.Identifiers.ComponentFactoryResolver),
+            useValue: createComponentFactoryResolverExpr
+        });
+        // Add ComponentFactoryResolver as first provider as it does not have deps on other providers
+        // ProviderAstType.PrivateService as only the component and its view can see it,
+        // but nobody else
+        this._resolvedProvidersArray.unshift(new template_ast_1.ProviderAst(provider.token, false, true, [provider], template_ast_1.ProviderAstType.PrivateService, this.sourceAst.sourceSpan));
+    };
     CompileElement.prototype.setComponentView = function (compViewExpr) {
         this._compViewExpr = compViewExpr;
         this.contentNodesByNgContentIndex =
@@ -21613,7 +22726,7 @@ var CompileElement = (function (_super) {
             var queriesForProvider = _this._getQueriesFor(resolvedProvider.token);
             collection_1.ListWrapper.addAll(queriesWithReads, queriesForProvider.map(function (query) { return new _QueryWithRead(query, resolvedProvider.token); }));
         });
-        collection_1.StringMapWrapper.forEach(this.referenceTokens, function (_ /** TODO #9100 */, varName /** TODO #9100 */) {
+        collection_1.StringMapWrapper.forEach(this.referenceTokens, function (_, varName) {
             var token = _this.referenceTokens[varName];
             var varValue;
             if (lang_1.isPresent(token)) {
@@ -21737,6 +22850,14 @@ var CompileElement = (function (_super) {
             }
             // access regular providers on the element
             if (lang_1.isBlank(result)) {
+                var resolvedProvider = this._resolvedProviders.get(dep.token);
+                // don't allow directives / public services to access private services.
+                // only components and private services can access private services.
+                if (resolvedProvider && (requestingProviderType === template_ast_1.ProviderAstType.Directive ||
+                    requestingProviderType === template_ast_1.ProviderAstType.PublicService) &&
+                    resolvedProvider.providerType === template_ast_1.ProviderAstType.PrivateService) {
+                    return null;
+                }
                 result = this._instances.get(dep.token);
             }
         }
@@ -21832,7 +22953,7 @@ var _ValueOutputAstTransformer = (function (_super) {
     _ValueOutputAstTransformer.prototype.visitStringMap = function (map, context) {
         var _this = this;
         var entries = [];
-        collection_1.StringMapWrapper.forEach(map, function (value /** TODO #9100 */, key /** TODO #9100 */) {
+        collection_1.StringMapWrapper.forEach(map, function (value, key) {
             entries.push([key, util_2.visitValue(value, _this, context)]);
         });
         return o.literalMap(entries);
@@ -21852,7 +22973,14 @@ var _ValueOutputAstTransformer = (function (_super) {
     return _ValueOutputAstTransformer;
 }(util_2.ValueTransformer));
 
-},{"../compile_metadata":93,"../facade/collection":104,"../facade/lang":107,"../identifiers":120,"../output/output_ast":128,"../template_ast":144,"../util":148,"./compile_method":151,"./compile_query":153,"./constants":155,"./util":160,"@angular/core":166}],151:[function(require,module,exports){
+},{"../compile_metadata":94,"../facade/collection":105,"../facade/lang":108,"../identifiers":121,"../output/output_ast":129,"../template_ast":145,"../util":149,"./compile_method":152,"./compile_query":154,"./constants":156,"./util":161,"@angular/core":167}],152:[function(require,module,exports){
+/**
+ * @license
+ * Copyright Google Inc. All Rights Reserved.
+ *
+ * Use of this source code is governed by an MIT-style license that can be
+ * found in the LICENSE file at https://angular.io/license
+ */
 "use strict";
 var collection_1 = require('../facade/collection');
 var lang_1 = require('../facade/lang');
@@ -21917,7 +23045,14 @@ var CompileMethod = (function () {
 }());
 exports.CompileMethod = CompileMethod;
 
-},{"../facade/collection":104,"../facade/lang":107,"../output/output_ast":128}],152:[function(require,module,exports){
+},{"../facade/collection":105,"../facade/lang":108,"../output/output_ast":129}],153:[function(require,module,exports){
+/**
+ * @license
+ * Copyright Google Inc. All Rights Reserved.
+ *
+ * Use of this source code is governed by an MIT-style license that can be
+ * found in the LICENSE file at https://angular.io/license
+ */
 "use strict";
 var exceptions_1 = require('../facade/exceptions');
 var lang_1 = require('../facade/lang');
@@ -22017,7 +23152,14 @@ function _findPipeMeta(view, name) {
     return pipeMeta;
 }
 
-},{"../facade/exceptions":106,"../facade/lang":107,"../identifiers":120,"../output/output_ast":128,"./util":160}],153:[function(require,module,exports){
+},{"../facade/exceptions":107,"../facade/lang":108,"../identifiers":121,"../output/output_ast":129,"./util":161}],154:[function(require,module,exports){
+/**
+ * @license
+ * Copyright Google Inc. All Rights Reserved.
+ *
+ * Use of this source code is governed by an MIT-style license that can be
+ * found in the LICENSE file at https://angular.io/license
+ */
 "use strict";
 var collection_1 = require('../facade/collection');
 var lang_1 = require('../facade/lang');
@@ -22131,7 +23273,14 @@ function addQueryToTokenMap(map, query) {
 }
 exports.addQueryToTokenMap = addQueryToTokenMap;
 
-},{"../facade/collection":104,"../facade/lang":107,"../identifiers":120,"../output/output_ast":128,"./util":160}],154:[function(require,module,exports){
+},{"../facade/collection":105,"../facade/lang":108,"../identifiers":121,"../output/output_ast":129,"./util":161}],155:[function(require,module,exports){
+/**
+ * @license
+ * Copyright Google Inc. All Rights Reserved.
+ *
+ * Use of this source code is governed by an MIT-style license that can be
+ * found in the LICENSE file at https://angular.io/license
+ */
 "use strict";
 var core_private_1 = require('../../core_private');
 var compile_metadata_1 = require('../compile_metadata');
@@ -22293,7 +23442,14 @@ function getViewType(component, embeddedTemplateIndex) {
     }
 }
 
-},{"../../core_private":84,"../compile_metadata":93,"../facade/collection":104,"../facade/lang":107,"../identifiers":120,"../output/output_ast":128,"./compile_method":151,"./compile_pipe":152,"./compile_query":153,"./constants":155,"./util":160}],155:[function(require,module,exports){
+},{"../../core_private":85,"../compile_metadata":94,"../facade/collection":105,"../facade/lang":108,"../identifiers":121,"../output/output_ast":129,"./compile_method":152,"./compile_pipe":153,"./compile_query":154,"./constants":156,"./util":161}],156:[function(require,module,exports){
+/**
+ * @license
+ * Copyright Google Inc. All Rights Reserved.
+ *
+ * Use of this source code is governed by an MIT-style license that can be
+ * found in the LICENSE file at https://angular.io/license
+ */
 "use strict";
 var core_1 = require('@angular/core');
 var core_private_1 = require('../../core_private');
@@ -22335,33 +23491,32 @@ var ViewEncapsulationEnum = (function () {
     return ViewEncapsulationEnum;
 }());
 exports.ViewEncapsulationEnum = ViewEncapsulationEnum;
-var ChangeDetectorStateEnum = (function () {
-    function ChangeDetectorStateEnum() {
-    }
-    ChangeDetectorStateEnum.fromValue = function (value) {
-        return _enumExpression(identifiers_1.Identifiers.ChangeDetectorState, value);
-    };
-    ChangeDetectorStateEnum.NeverChecked = ChangeDetectorStateEnum.fromValue(core_private_1.ChangeDetectorState.NeverChecked);
-    ChangeDetectorStateEnum.CheckedBefore = ChangeDetectorStateEnum.fromValue(core_private_1.ChangeDetectorState.CheckedBefore);
-    ChangeDetectorStateEnum.Errored = ChangeDetectorStateEnum.fromValue(core_private_1.ChangeDetectorState.Errored);
-    return ChangeDetectorStateEnum;
-}());
-exports.ChangeDetectorStateEnum = ChangeDetectorStateEnum;
 var ChangeDetectionStrategyEnum = (function () {
     function ChangeDetectionStrategyEnum() {
     }
     ChangeDetectionStrategyEnum.fromValue = function (value) {
         return _enumExpression(identifiers_1.Identifiers.ChangeDetectionStrategy, value);
     };
-    ChangeDetectionStrategyEnum.CheckOnce = ChangeDetectionStrategyEnum.fromValue(core_1.ChangeDetectionStrategy.CheckOnce);
-    ChangeDetectionStrategyEnum.Checked = ChangeDetectionStrategyEnum.fromValue(core_1.ChangeDetectionStrategy.Checked);
-    ChangeDetectionStrategyEnum.CheckAlways = ChangeDetectionStrategyEnum.fromValue(core_1.ChangeDetectionStrategy.CheckAlways);
-    ChangeDetectionStrategyEnum.Detached = ChangeDetectionStrategyEnum.fromValue(core_1.ChangeDetectionStrategy.Detached);
     ChangeDetectionStrategyEnum.OnPush = ChangeDetectionStrategyEnum.fromValue(core_1.ChangeDetectionStrategy.OnPush);
     ChangeDetectionStrategyEnum.Default = ChangeDetectionStrategyEnum.fromValue(core_1.ChangeDetectionStrategy.Default);
     return ChangeDetectionStrategyEnum;
 }());
 exports.ChangeDetectionStrategyEnum = ChangeDetectionStrategyEnum;
+var ChangeDetectorStatusEnum = (function () {
+    function ChangeDetectorStatusEnum() {
+    }
+    ChangeDetectorStatusEnum.fromValue = function (value) {
+        return _enumExpression(identifiers_1.Identifiers.ChangeDetectorStatus, value);
+    };
+    ChangeDetectorStatusEnum.CheckOnce = ChangeDetectorStatusEnum.fromValue(core_private_1.ChangeDetectorStatus.CheckOnce);
+    ChangeDetectorStatusEnum.Checked = ChangeDetectorStatusEnum.fromValue(core_private_1.ChangeDetectorStatus.Checked);
+    ChangeDetectorStatusEnum.CheckAlways = ChangeDetectorStatusEnum.fromValue(core_private_1.ChangeDetectorStatus.CheckAlways);
+    ChangeDetectorStatusEnum.Detached = ChangeDetectorStatusEnum.fromValue(core_private_1.ChangeDetectorStatus.Detached);
+    ChangeDetectorStatusEnum.Errored = ChangeDetectorStatusEnum.fromValue(core_private_1.ChangeDetectorStatus.Errored);
+    ChangeDetectorStatusEnum.Destroyed = ChangeDetectorStatusEnum.fromValue(core_private_1.ChangeDetectorStatus.Destroyed);
+    return ChangeDetectorStatusEnum;
+}());
+exports.ChangeDetectorStatusEnum = ChangeDetectorStatusEnum;
 var ViewConstructorVars = (function () {
     function ViewConstructorVars() {
     }
@@ -22407,7 +23562,14 @@ var DetectChangesVars = (function () {
 }());
 exports.DetectChangesVars = DetectChangesVars;
 
-},{"../../core_private":84,"../compile_metadata":93,"../facade/lang":107,"../identifiers":120,"../output/output_ast":128,"@angular/core":166}],156:[function(require,module,exports){
+},{"../../core_private":85,"../compile_metadata":94,"../facade/lang":108,"../identifiers":121,"../output/output_ast":129,"@angular/core":167}],157:[function(require,module,exports){
+/**
+ * @license
+ * Copyright Google Inc. All Rights Reserved.
+ *
+ * Use of this source code is governed by an MIT-style license that can be
+ * found in the LICENSE file at https://angular.io/license
+ */
 "use strict";
 var collection_1 = require('../facade/collection');
 var lang_1 = require('../facade/lang');
@@ -22542,7 +23704,14 @@ function santitizeEventName(name) {
     return lang_1.StringWrapper.replaceAll(name, /[^a-zA-Z_]/g, '_');
 }
 
-},{"../facade/collection":104,"../facade/lang":107,"../output/output_ast":128,"./compile_binding":149,"./compile_method":151,"./constants":155,"./expression_converter":157}],157:[function(require,module,exports){
+},{"../facade/collection":105,"../facade/lang":108,"../output/output_ast":129,"./compile_binding":150,"./compile_method":152,"./constants":156,"./expression_converter":158}],158:[function(require,module,exports){
+/**
+ * @license
+ * Copyright Google Inc. All Rights Reserved.
+ *
+ * Use of this source code is governed by an MIT-style license that can be
+ * found in the LICENSE file at https://angular.io/license
+ */
 "use strict";
 var exceptions_1 = require('../facade/exceptions');
 var lang_1 = require('../facade/lang');
@@ -22780,12 +23949,19 @@ function flattenStatements(arg, output) {
     }
 }
 
-},{"../facade/exceptions":106,"../facade/lang":107,"../identifiers":120,"../output/output_ast":128}],158:[function(require,module,exports){
+},{"../facade/exceptions":107,"../facade/lang":108,"../identifiers":121,"../output/output_ast":129}],159:[function(require,module,exports){
+/**
+ * @license
+ * Copyright Google Inc. All Rights Reserved.
+ *
+ * Use of this source code is governed by an MIT-style license that can be
+ * found in the LICENSE file at https://angular.io/license
+ */
 "use strict";
 var core_private_1 = require('../../core_private');
 var o = require('../output/output_ast');
 var constants_1 = require('./constants');
-var STATE_IS_NEVER_CHECKED = o.THIS_EXPR.prop('cdState').identical(constants_1.ChangeDetectorStateEnum.NeverChecked);
+var STATE_IS_NEVER_CHECKED = o.THIS_EXPR.prop('numberOfChecks').identical(new o.LiteralExpr(0));
 var NOT_THROW_ON_CHANGES = o.not(constants_1.DetectChangesVars.throwOnChange);
 function bindDirectiveDetectChangesLifecycleCallbacks(directiveAst, directiveInstance, compileElement) {
     var view = compileElement.view;
@@ -22844,7 +24020,14 @@ function bindPipeDestroyLifecycleCallbacks(pipeMeta, pipeInstance, view) {
 }
 exports.bindPipeDestroyLifecycleCallbacks = bindPipeDestroyLifecycleCallbacks;
 
-},{"../../core_private":84,"../output/output_ast":128,"./constants":155}],159:[function(require,module,exports){
+},{"../../core_private":85,"../output/output_ast":129,"./constants":156}],160:[function(require,module,exports){
+/**
+ * @license
+ * Copyright Google Inc. All Rights Reserved.
+ *
+ * Use of this source code is governed by an MIT-style license that can be
+ * found in the LICENSE file at https://angular.io/license
+ */
 "use strict";
 var core_private_1 = require('../../core_private');
 var lang_1 = require('../facade/lang');
@@ -23056,7 +24239,14 @@ function logBindingUpdateStmt(renderNode, propName, value) {
         .toStmt();
 }
 
-},{"../../core_private":84,"../facade/lang":107,"../identifiers":120,"../output/output_ast":128,"../template_ast":144,"../util":148,"./compile_binding":149,"./constants":155,"./expression_converter":157,"@angular/core":166}],160:[function(require,module,exports){
+},{"../../core_private":85,"../facade/lang":108,"../identifiers":121,"../output/output_ast":129,"../template_ast":145,"../util":149,"./compile_binding":150,"./constants":156,"./expression_converter":158,"@angular/core":167}],161:[function(require,module,exports){
+/**
+ * @license
+ * Copyright Google Inc. All Rights Reserved.
+ *
+ * Use of this source code is governed by an MIT-style license that can be
+ * found in the LICENSE file at https://angular.io/license
+ */
 "use strict";
 var exceptions_1 = require('../facade/exceptions');
 var lang_1 = require('../facade/lang');
@@ -23147,7 +24337,14 @@ function createPureProxy(fn, argCount, pureProxyProp, view) {
 }
 exports.createPureProxy = createPureProxy;
 
-},{"../facade/exceptions":106,"../facade/lang":107,"../identifiers":120,"../output/output_ast":128}],161:[function(require,module,exports){
+},{"../facade/exceptions":107,"../facade/lang":108,"../identifiers":121,"../output/output_ast":129}],162:[function(require,module,exports){
+/**
+ * @license
+ * Copyright Google Inc. All Rights Reserved.
+ *
+ * Use of this source code is governed by an MIT-style license that can be
+ * found in the LICENSE file at https://angular.io/license
+ */
 "use strict";
 var collection_1 = require('../facade/collection');
 var template_ast_1 = require('../template_ast');
@@ -23225,35 +24422,50 @@ var ViewBinderVisitor = (function () {
     return ViewBinderVisitor;
 }());
 
-},{"../facade/collection":104,"../template_ast":144,"./event_binder":156,"./lifecycle_binder":158,"./property_binder":159}],162:[function(require,module,exports){
+},{"../facade/collection":105,"../template_ast":145,"./event_binder":157,"./lifecycle_binder":159,"./property_binder":160}],163:[function(require,module,exports){
+/**
+ * @license
+ * Copyright Google Inc. All Rights Reserved.
+ *
+ * Use of this source code is governed by an MIT-style license that can be
+ * found in the LICENSE file at https://angular.io/license
+ */
 "use strict";
 var core_1 = require('@angular/core');
 var core_private_1 = require('../../core_private');
+var animation_compiler_1 = require('../animation/animation_compiler');
+var compile_metadata_1 = require('../compile_metadata');
 var collection_1 = require('../facade/collection');
 var lang_1 = require('../facade/lang');
 var identifiers_1 = require('../identifiers');
 var o = require('../output/output_ast');
+var template_ast_1 = require('../template_ast');
 var compile_element_1 = require('./compile_element');
 var compile_view_1 = require('./compile_view');
 var constants_1 = require('./constants');
-var template_ast_1 = require('../template_ast');
 var util_1 = require('./util');
-var compile_metadata_1 = require('../compile_metadata');
-var animation_compiler_1 = require('../animation/animation_compiler');
 var IMPLICIT_TEMPLATE_VAR = '\$implicit';
 var CLASS_ATTR = 'class';
 var STYLE_ATTR = 'style';
 var NG_CONTAINER_TAG = 'ng-container';
 var parentRenderNodeVar = o.variable('parentRenderNode');
 var rootSelectorVar = o.variable('rootSelector');
-var ViewCompileDependency = (function () {
-    function ViewCompileDependency(comp, factoryPlaceholder) {
+var ViewFactoryDependency = (function () {
+    function ViewFactoryDependency(comp, placeholder) {
         this.comp = comp;
-        this.factoryPlaceholder = factoryPlaceholder;
+        this.placeholder = placeholder;
     }
-    return ViewCompileDependency;
+    return ViewFactoryDependency;
 }());
-exports.ViewCompileDependency = ViewCompileDependency;
+exports.ViewFactoryDependency = ViewFactoryDependency;
+var ComponentFactoryDependency = (function () {
+    function ComponentFactoryDependency(comp, placeholder) {
+        this.comp = comp;
+        this.placeholder = placeholder;
+    }
+    return ComponentFactoryDependency;
+}());
+exports.ComponentFactoryDependency = ComponentFactoryDependency;
 function buildView(view, template, targetDependencies) {
     var builderVisitor = new ViewBuilderVisitor(view, targetDependencies);
     template_ast_1.templateVisitAll(builderVisitor, template, view.declarationElement.isNull() ? view.declarationElement : view.declarationElement.parent);
@@ -23361,6 +24573,7 @@ var ViewBuilderVisitor = (function () {
         return null;
     };
     ViewBuilderVisitor.prototype.visitElement = function (ast, parent) {
+        var _this = this;
         var nodeIndex = this.view.nodes.length;
         var createRenderNodeExpr;
         var debugContextExpr = this.view.createMethod.resetDebugInfoExpr(nodeIndex, ast);
@@ -23395,7 +24608,13 @@ var ViewBuilderVisitor = (function () {
         var compViewExpr = null;
         if (lang_1.isPresent(component)) {
             var nestedComponentIdentifier = new compile_metadata_1.CompileIdentifierMetadata({ name: util_1.getViewFactoryName(component, 0) });
-            this.targetDependencies.push(new ViewCompileDependency(component, nestedComponentIdentifier));
+            this.targetDependencies.push(new ViewFactoryDependency(component.type, nestedComponentIdentifier));
+            var precompileComponentIdentifiers = component.precompile.map(function (precompileComp) {
+                var id = new compile_metadata_1.CompileIdentifierMetadata({ name: precompileComp.name });
+                _this.targetDependencies.push(new ComponentFactoryDependency(precompileComp, id));
+                return id;
+            });
+            compileElement.createComponentFactoryResolver(precompileComponentIdentifiers);
             compViewExpr = o.variable("compView_" + nodeIndex); // fix highlighting: `
             compileElement.setComponentView(compViewExpr);
             this.view.createMethod.addStmt(compViewExpr
@@ -23571,7 +24790,7 @@ function createViewClass(view, renderCompTypeVar, nodeDebugInfosVar) {
         o.variable(view.className), renderCompTypeVar, constants_1.ViewTypeEnum.fromValue(view.viewType),
         constants_1.ViewConstructorVars.viewUtils, constants_1.ViewConstructorVars.parentInjector,
         constants_1.ViewConstructorVars.declarationEl,
-        constants_1.ChangeDetectionStrategyEnum.fromValue(getChangeDetectionMode(view))
+        constants_1.ChangeDetectorStatusEnum.fromValue(getChangeDetectionMode(view))
     ];
     if (view.genConfig.genDebugInfo) {
         superConstructorArgs.push(nodeDebugInfosVar);
@@ -23707,16 +24926,23 @@ function getChangeDetectionMode(view) {
     var mode;
     if (view.viewType === core_private_1.ViewType.COMPONENT) {
         mode = core_private_1.isDefaultChangeDetectionStrategy(view.component.changeDetection) ?
-            core_1.ChangeDetectionStrategy.CheckAlways :
-            core_1.ChangeDetectionStrategy.CheckOnce;
+            core_private_1.ChangeDetectorStatus.CheckAlways :
+            core_private_1.ChangeDetectorStatus.CheckOnce;
     }
     else {
-        mode = core_1.ChangeDetectionStrategy.CheckAlways;
+        mode = core_private_1.ChangeDetectorStatus.CheckAlways;
     }
     return mode;
 }
 
-},{"../../core_private":84,"../animation/animation_compiler":88,"../compile_metadata":93,"../facade/collection":104,"../facade/lang":107,"../identifiers":120,"../output/output_ast":128,"../template_ast":144,"./compile_element":150,"./compile_view":154,"./constants":155,"./util":160,"@angular/core":166}],163:[function(require,module,exports){
+},{"../../core_private":85,"../animation/animation_compiler":89,"../compile_metadata":94,"../facade/collection":105,"../facade/lang":108,"../identifiers":121,"../output/output_ast":129,"../template_ast":145,"./compile_element":151,"./compile_view":155,"./constants":156,"./util":161,"@angular/core":167}],164:[function(require,module,exports){
+/**
+ * @license
+ * Copyright Google Inc. All Rights Reserved.
+ *
+ * Use of this source code is governed by an MIT-style license that can be
+ * found in the LICENSE file at https://angular.io/license
+ */
 "use strict";
 var core_1 = require('@angular/core');
 var animation_compiler_1 = require('../animation/animation_compiler');
@@ -23725,6 +24951,9 @@ var compile_element_1 = require('./compile_element');
 var compile_view_1 = require('./compile_view');
 var view_binder_1 = require('./view_binder');
 var view_builder_1 = require('./view_builder');
+var view_builder_2 = require('./view_builder');
+exports.ComponentFactoryDependency = view_builder_2.ComponentFactoryDependency;
+exports.ViewFactoryDependency = view_builder_2.ViewFactoryDependency;
 var ViewCompileResult = (function () {
     function ViewCompileResult(statements, viewFactoryVar, dependencies) {
         this.statements = statements;
@@ -23767,30 +24996,25 @@ var ViewCompiler = (function () {
 }());
 exports.ViewCompiler = ViewCompiler;
 
-},{"../animation/animation_compiler":88,"../config":95,"./compile_element":150,"./compile_view":154,"./view_binder":161,"./view_builder":162,"@angular/core":166}],164:[function(require,module,exports){
+},{"../animation/animation_compiler":89,"../config":96,"./compile_element":151,"./compile_view":155,"./view_binder":162,"./view_builder":163,"@angular/core":167}],165:[function(require,module,exports){
+/**
+ * @license
+ * Copyright Google Inc. All Rights Reserved.
+ *
+ * Use of this source code is governed by an MIT-style license that can be
+ * found in the LICENSE file at https://angular.io/license
+ */
 "use strict";
 var core_1 = require('@angular/core');
 var core_private_1 = require('../core_private');
 var lang_1 = require('../src/facade/lang');
 var exceptions_1 = require('../src/facade/exceptions');
-var collection_1 = require('../src/facade/collection');
 var ViewResolver = (function () {
     function ViewResolver(_reflector) {
         if (_reflector === void 0) { _reflector = core_private_1.reflector; }
         this._reflector = _reflector;
-        /** @internal */
-        this._cache = new collection_1.Map();
     }
     ViewResolver.prototype.resolve = function (component) {
-        var view = this._cache.get(component);
-        if (lang_1.isBlank(view)) {
-            view = this._resolve(component);
-            this._cache.set(component, view);
-        }
-        return view;
-    };
-    /** @internal */
-    ViewResolver.prototype._resolve = function (component) {
         var compMeta;
         this._reflector.annotations(component).forEach(function (m) {
             if (m instanceof core_1.ComponentMetadata) {
@@ -23831,7 +25055,14 @@ var ViewResolver = (function () {
 }());
 exports.ViewResolver = ViewResolver;
 
-},{"../core_private":84,"../src/facade/collection":104,"../src/facade/exceptions":106,"../src/facade/lang":107,"@angular/core":166}],165:[function(require,module,exports){
+},{"../core_private":85,"../src/facade/exceptions":107,"../src/facade/lang":108,"@angular/core":167}],166:[function(require,module,exports){
+/**
+ * @license
+ * Copyright Google Inc. All Rights Reserved.
+ *
+ * Use of this source code is governed by an MIT-style license that can be
+ * found in the LICENSE file at https://angular.io/license
+ */
 "use strict";
 // TODO: vsavkin rename it into TemplateLoader
 /**
@@ -23846,7 +25077,14 @@ var XHR = (function () {
 }());
 exports.XHR = XHR;
 
-},{}],166:[function(require,module,exports){
+},{}],167:[function(require,module,exports){
+/**
+ * @license
+ * Copyright Google Inc. All Rights Reserved.
+ *
+ * Use of this source code is governed by an MIT-style license that can be
+ * found in the LICENSE file at https://angular.io/license
+ */
 "use strict";
 function __export(m) {
     for (var p in m) if (!exports.hasOwnProperty(p)) exports[p] = m[p];
@@ -23854,7 +25092,7 @@ function __export(m) {
 /**
  * @module
  * @description
- * Starting point to import all public core APIs.
+ * Entry point from which you should import all public core APIs.
  */
 __export(require('./src/metadata'));
 __export(require('./src/util'));
@@ -23908,7 +25146,14 @@ __export(require('./src/animation/metadata'));
 var animation_player_1 = require('./src/animation/animation_player');
 exports.AnimationPlayer = animation_player_1.AnimationPlayer;
 
-},{"./private_export":167,"./src/animation/animation_player":173,"./src/animation/metadata":177,"./src/application_common_providers":178,"./src/application_ref":179,"./src/application_tokens":180,"./src/change_detection":181,"./src/debug/debug_node":191,"./src/di":193,"./src/facade/async":205,"./src/facade/exceptions":209,"./src/facade/lang":210,"./src/linker":213,"./src/metadata":230,"./src/platform_common_providers":235,"./src/platform_directives_and_pipes":236,"./src/profile/profile":237,"./src/render":244,"./src/testability/testability":247,"./src/util":248,"./src/zone":250}],167:[function(require,module,exports){
+},{"./private_export":168,"./src/animation/animation_player":174,"./src/animation/metadata":178,"./src/application_common_providers":179,"./src/application_ref":180,"./src/application_tokens":181,"./src/change_detection":182,"./src/debug/debug_node":192,"./src/di":194,"./src/facade/async":206,"./src/facade/exceptions":210,"./src/facade/lang":211,"./src/linker":214,"./src/metadata":233,"./src/platform_common_providers":238,"./src/platform_directives_and_pipes":239,"./src/profile/profile":240,"./src/render":247,"./src/testability/testability":250,"./src/util":251,"./src/zone":253}],168:[function(require,module,exports){
+/**
+ * @license
+ * Copyright Google Inc. All Rights Reserved.
+ *
+ * Use of this source code is governed by an MIT-style license that can be
+ * found in the LICENSE file at https://angular.io/license
+ */
 "use strict";
 var animation_constants_1 = require('./src/animation/animation_constants');
 var animation_driver_1 = require('./src/animation/animation_driver');
@@ -23924,6 +25169,7 @@ var console = require('./src/console');
 var debug = require('./src/debug/debug_renderer');
 var provider_util = require('./src/di/provider_util');
 var reflective_provider = require('./src/di/reflective_provider');
+var component_factory_resolver = require('./src/linker/component_factory_resolver');
 var component_resolver = require('./src/linker/component_resolver');
 var debug_context = require('./src/linker/debug_context');
 var element = require('./src/linker/element');
@@ -23942,13 +25188,14 @@ var security = require('./src/security');
 var decorators = require('./src/util/decorators');
 exports.__core_private__ = {
     isDefaultChangeDetectionStrategy: constants.isDefaultChangeDetectionStrategy,
-    ChangeDetectorState: constants.ChangeDetectorState,
+    ChangeDetectorStatus: constants.ChangeDetectorStatus,
     CHANGE_DETECTION_STRATEGY_VALUES: constants.CHANGE_DETECTION_STRATEGY_VALUES,
     constructDependencies: reflective_provider.constructDependencies,
     LifecycleHooks: lifecycle_hooks.LifecycleHooks,
     LIFECYCLE_HOOKS_VALUES: lifecycle_hooks.LIFECYCLE_HOOKS_VALUES,
     ReflectorReader: reflector_reader.ReflectorReader,
     ReflectorComponentResolver: component_resolver.ReflectorComponentResolver,
+    CodegenComponentFactoryResolver: component_factory_resolver.CodegenComponentFactoryResolver,
     AppElement: element.AppElement,
     AppView: view.AppView,
     DebugAppView: view.DebugAppView,
@@ -24010,7 +25257,14 @@ exports.__core_private__ = {
     FILL_STYLE_FLAG: animation_constants_1.FILL_STYLE_FLAG
 };
 
-},{"./src/animation/animation_constants":169,"./src/animation/animation_driver":170,"./src/animation/animation_group_player":171,"./src/animation/animation_keyframe":172,"./src/animation/animation_player":173,"./src/animation/animation_sequence_player":174,"./src/animation/animation_style_util":175,"./src/animation/animation_styles":176,"./src/change_detection/change_detection_util":183,"./src/change_detection/constants":185,"./src/console":190,"./src/debug/debug_renderer":192,"./src/di/provider_util":200,"./src/di/reflective_provider":204,"./src/linker/component_resolver":215,"./src/linker/debug_context":216,"./src/linker/element":218,"./src/linker/template_ref":224,"./src/linker/view":225,"./src/linker/view_type":228,"./src/linker/view_utils":229,"./src/metadata/lifecycle_hooks":233,"./src/metadata/view":234,"./src/profile/wtf_init":239,"./src/reflection/reflection":240,"./src/reflection/reflection_capabilities":241,"./src/reflection/reflector_reader":243,"./src/render/api":245,"./src/security":246,"./src/util/decorators":249}],168:[function(require,module,exports){
+},{"./src/animation/animation_constants":170,"./src/animation/animation_driver":171,"./src/animation/animation_group_player":172,"./src/animation/animation_keyframe":173,"./src/animation/animation_player":174,"./src/animation/animation_sequence_player":175,"./src/animation/animation_style_util":176,"./src/animation/animation_styles":177,"./src/change_detection/change_detection_util":184,"./src/change_detection/constants":186,"./src/console":191,"./src/debug/debug_renderer":193,"./src/di/provider_util":201,"./src/di/reflective_provider":205,"./src/linker/component_factory_resolver":217,"./src/linker/component_resolver":218,"./src/linker/debug_context":219,"./src/linker/element":221,"./src/linker/template_ref":227,"./src/linker/view":228,"./src/linker/view_type":231,"./src/linker/view_utils":232,"./src/metadata/lifecycle_hooks":236,"./src/metadata/view":237,"./src/profile/wtf_init":242,"./src/reflection/reflection":243,"./src/reflection/reflection_capabilities":244,"./src/reflection/reflector_reader":246,"./src/render/api":248,"./src/security":249,"./src/util/decorators":252}],169:[function(require,module,exports){
+/**
+ * @license
+ * Copyright Google Inc. All Rights Reserved.
+ *
+ * Use of this source code is governed by an MIT-style license that can be
+ * found in the LICENSE file at https://angular.io/license
+ */
 "use strict";
 var collection_1 = require('../facade/collection');
 var lang_1 = require('../facade/lang');
@@ -24065,14 +25319,28 @@ var ActiveAnimationPlayersMap = (function () {
 }());
 exports.ActiveAnimationPlayersMap = ActiveAnimationPlayersMap;
 
-},{"../facade/collection":207,"../facade/lang":210}],169:[function(require,module,exports){
+},{"../facade/collection":208,"../facade/lang":211}],170:[function(require,module,exports){
+/**
+ * @license
+ * Copyright Google Inc. All Rights Reserved.
+ *
+ * Use of this source code is governed by an MIT-style license that can be
+ * found in the LICENSE file at https://angular.io/license
+ */
 "use strict";
 exports.FILL_STYLE_FLAG = 'true'; // TODO (matsko): change to boolean
 exports.ANY_STATE = '*';
 exports.DEFAULT_STATE = '*';
 exports.EMPTY_STATE = 'void';
 
-},{}],170:[function(require,module,exports){
+},{}],171:[function(require,module,exports){
+/**
+ * @license
+ * Copyright Google Inc. All Rights Reserved.
+ *
+ * Use of this source code is governed by an MIT-style license that can be
+ * found in the LICENSE file at https://angular.io/license
+ */
 "use strict";
 var __extends = (this && this.__extends) || function (d, b) {
     for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p];
@@ -24098,7 +25366,14 @@ var NoOpAnimationDriver = (function (_super) {
 }(AnimationDriver));
 exports.NoOpAnimationDriver = NoOpAnimationDriver;
 
-},{"./animation_player":173}],171:[function(require,module,exports){
+},{"./animation_player":174}],172:[function(require,module,exports){
+/**
+ * @license
+ * Copyright Google Inc. All Rights Reserved.
+ *
+ * Use of this source code is governed by an MIT-style license that can be
+ * found in the LICENSE file at https://angular.io/license
+ */
 "use strict";
 var lang_1 = require('../facade/lang');
 var math_1 = require('../facade/math');
@@ -24163,7 +25438,14 @@ var AnimationGroupPlayer = (function () {
 }());
 exports.AnimationGroupPlayer = AnimationGroupPlayer;
 
-},{"../facade/lang":210,"../facade/math":211}],172:[function(require,module,exports){
+},{"../facade/lang":211,"../facade/math":212}],173:[function(require,module,exports){
+/**
+ * @license
+ * Copyright Google Inc. All Rights Reserved.
+ *
+ * Use of this source code is governed by an MIT-style license that can be
+ * found in the LICENSE file at https://angular.io/license
+ */
 "use strict";
 var AnimationKeyframe = (function () {
     function AnimationKeyframe(offset, styles) {
@@ -24174,10 +25456,20 @@ var AnimationKeyframe = (function () {
 }());
 exports.AnimationKeyframe = AnimationKeyframe;
 
-},{}],173:[function(require,module,exports){
+},{}],174:[function(require,module,exports){
+/**
+ * @license
+ * Copyright Google Inc. All Rights Reserved.
+ *
+ * Use of this source code is governed by an MIT-style license that can be
+ * found in the LICENSE file at https://angular.io/license
+ */
 "use strict";
 var exceptions_1 = require('../facade/exceptions');
 var lang_1 = require('../facade/lang');
+/**
+ * @experimental Animation support is experimental.
+ */
 var AnimationPlayer = (function () {
     function AnimationPlayer() {
     }
@@ -24217,7 +25509,14 @@ var NoOpAnimationPlayer = (function () {
 }());
 exports.NoOpAnimationPlayer = NoOpAnimationPlayer;
 
-},{"../facade/exceptions":209,"../facade/lang":210}],174:[function(require,module,exports){
+},{"../facade/exceptions":210,"../facade/lang":211}],175:[function(require,module,exports){
+/**
+ * @license
+ * Copyright Google Inc. All Rights Reserved.
+ *
+ * Use of this source code is governed by an MIT-style license that can be
+ * found in the LICENSE file at https://angular.io/license
+ */
 "use strict";
 var lang_1 = require('../facade/lang');
 var animation_player_1 = require('./animation_player');
@@ -24287,7 +25586,14 @@ var AnimationSequencePlayer = (function () {
 }());
 exports.AnimationSequencePlayer = AnimationSequencePlayer;
 
-},{"../facade/lang":210,"./animation_player":173}],175:[function(require,module,exports){
+},{"../facade/lang":211,"./animation_player":174}],176:[function(require,module,exports){
+/**
+ * @license
+ * Copyright Google Inc. All Rights Reserved.
+ *
+ * Use of this source code is governed by an MIT-style license that can be
+ * found in the LICENSE file at https://angular.io/license
+ */
 "use strict";
 var collection_1 = require('../facade/collection');
 var lang_1 = require('../facade/lang');
@@ -24387,7 +25693,14 @@ function flattenStyles(styles) {
 }
 exports.flattenStyles = flattenStyles;
 
-},{"../facade/collection":207,"../facade/lang":210,"./animation_constants":169,"./metadata":177}],176:[function(require,module,exports){
+},{"../facade/collection":208,"../facade/lang":211,"./animation_constants":170,"./metadata":178}],177:[function(require,module,exports){
+/**
+ * @license
+ * Copyright Google Inc. All Rights Reserved.
+ *
+ * Use of this source code is governed by an MIT-style license that can be
+ * found in the LICENSE file at https://angular.io/license
+ */
 "use strict";
 var AnimationStyles = (function () {
     function AnimationStyles(styles) {
@@ -24397,7 +25710,14 @@ var AnimationStyles = (function () {
 }());
 exports.AnimationStyles = AnimationStyles;
 
-},{}],177:[function(require,module,exports){
+},{}],178:[function(require,module,exports){
+/**
+ * @license
+ * Copyright Google Inc. All Rights Reserved.
+ *
+ * Use of this source code is governed by an MIT-style license that can be
+ * found in the LICENSE file at https://angular.io/license
+ */
 "use strict";
 var __extends = (this && this.__extends) || function (d, b) {
     for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p];
@@ -24406,11 +25726,16 @@ var __extends = (this && this.__extends) || function (d, b) {
 };
 var exceptions_1 = require('../facade/exceptions');
 var lang_1 = require('../facade/lang');
+/**
+ * @experimental Animation support is experimental.
+ */
 exports.AUTO_STYLE = '*';
 /**
  * Metadata representing the entry of animations.
  * Instances of this class are provided via the animation DSL when the {@link trigger trigger
  * animation function} is called.
+ *
+ * @experimental Animation support is experimental.
  */
 var AnimationEntryMetadata = (function () {
     function AnimationEntryMetadata(name, definitions) {
@@ -24420,6 +25745,9 @@ var AnimationEntryMetadata = (function () {
     return AnimationEntryMetadata;
 }());
 exports.AnimationEntryMetadata = AnimationEntryMetadata;
+/**
+ * @experimental Animation support is experimental.
+ */
 var AnimationStateMetadata = (function () {
     function AnimationStateMetadata() {
     }
@@ -24430,6 +25758,8 @@ exports.AnimationStateMetadata = AnimationStateMetadata;
  * Metadata representing the entry of animations.
  * Instances of this class are provided via the animation DSL when the {@link state state animation
  * function} is called.
+ *
+ * @experimental Animation support is experimental.
  */
 var AnimationStateDeclarationMetadata = (function (_super) {
     __extends(AnimationStateDeclarationMetadata, _super);
@@ -24445,6 +25775,8 @@ exports.AnimationStateDeclarationMetadata = AnimationStateDeclarationMetadata;
  * Metadata representing the entry of animations.
  * Instances of this class are provided via the animation DSL when the
  * {@link transition transition animation function} is called.
+ *
+ * @experimental Animation support is experimental.
  */
 var AnimationStateTransitionMetadata = (function (_super) {
     __extends(AnimationStateTransitionMetadata, _super);
@@ -24456,6 +25788,9 @@ var AnimationStateTransitionMetadata = (function (_super) {
     return AnimationStateTransitionMetadata;
 }(AnimationStateMetadata));
 exports.AnimationStateTransitionMetadata = AnimationStateTransitionMetadata;
+/**
+ * @experimental Animation support is experimental.
+ */
 var AnimationMetadata = (function () {
     function AnimationMetadata() {
     }
@@ -24466,6 +25801,8 @@ exports.AnimationMetadata = AnimationMetadata;
  * Metadata representing the entry of animations.
  * Instances of this class are provided via the animation DSL when the {@link keyframes keyframes
  * animation function} is called.
+ *
+ * @experimental Animation support is experimental.
  */
 var AnimationKeyframesSequenceMetadata = (function (_super) {
     __extends(AnimationKeyframesSequenceMetadata, _super);
@@ -24480,6 +25817,8 @@ exports.AnimationKeyframesSequenceMetadata = AnimationKeyframesSequenceMetadata;
  * Metadata representing the entry of animations.
  * Instances of this class are provided via the animation DSL when the {@link style style animation
  * function} is called.
+ *
+ * @experimental Animation support is experimental.
  */
 var AnimationStyleMetadata = (function (_super) {
     __extends(AnimationStyleMetadata, _super);
@@ -24496,6 +25835,8 @@ exports.AnimationStyleMetadata = AnimationStyleMetadata;
  * Metadata representing the entry of animations.
  * Instances of this class are provided via the animation DSL when the {@link animate animate
  * animation function} is called.
+ *
+ * @experimental Animation support is experimental.
  */
 var AnimationAnimateMetadata = (function (_super) {
     __extends(AnimationAnimateMetadata, _super);
@@ -24507,6 +25848,9 @@ var AnimationAnimateMetadata = (function (_super) {
     return AnimationAnimateMetadata;
 }(AnimationMetadata));
 exports.AnimationAnimateMetadata = AnimationAnimateMetadata;
+/**
+ * @experimental Animation support is experimental.
+ */
 var AnimationWithStepsMetadata = (function (_super) {
     __extends(AnimationWithStepsMetadata, _super);
     function AnimationWithStepsMetadata() {
@@ -24524,6 +25868,8 @@ exports.AnimationWithStepsMetadata = AnimationWithStepsMetadata;
  * Metadata representing the entry of animations.
  * Instances of this class are provided via the animation DSL when the {@link sequence sequence
  * animation function} is called.
+ *
+ * @experimental Animation support is experimental.
  */
 var AnimationSequenceMetadata = (function (_super) {
     __extends(AnimationSequenceMetadata, _super);
@@ -24543,6 +25889,8 @@ exports.AnimationSequenceMetadata = AnimationSequenceMetadata;
  * Metadata representing the entry of animations.
  * Instances of this class are provided via the animation DSL when the {@link group group animation
  * function} is called.
+ *
+ * @experimental Animation support is experimental.
  */
 var AnimationGroupMetadata = (function (_super) {
     __extends(AnimationGroupMetadata, _super);
@@ -24607,6 +25955,8 @@ exports.AnimationGroupMetadata = AnimationGroupMetadata;
  * ### Example ([live demo](http://plnkr.co/edit/Kez8XGWBxWue7qP7nNvF?p=preview))
  *
  * {@example core/animation/ts/dsl/animation_example.ts region='Component'}
+ *
+ * @experimental Animation support is experimental.
  */
 function animate(timing, styles) {
     if (styles === void 0) { styles = null; }
@@ -24653,6 +26003,8 @@ exports.animate = animate;
  * ### Example ([live demo](http://plnkr.co/edit/Kez8XGWBxWue7qP7nNvF?p=preview))
  *
  * {@example core/animation/ts/dsl/animation_example.ts region='Component'}
+ *
+ * @experimental Animation support is experimental.
  */
 function group(steps) {
     return new AnimationGroupMetadata(steps);
@@ -24694,6 +26046,8 @@ exports.group = group;
  * ### Example ([live demo](http://plnkr.co/edit/Kez8XGWBxWue7qP7nNvF?p=preview))
  *
  * {@example core/animation/ts/dsl/animation_example.ts region='Component'}
+ *
+ * @experimental Animation support is experimental.
  */
 function sequence(steps) {
     return new AnimationSequenceMetadata(steps);
@@ -24743,6 +26097,8 @@ exports.sequence = sequence;
  * ### Example ([live demo](http://plnkr.co/edit/Kez8XGWBxWue7qP7nNvF?p=preview))
  *
  * {@example core/animation/ts/dsl/animation_example.ts region='Component'}
+ *
+ * @experimental Animation support is experimental.
  */
 function style(tokens) {
     var input;
@@ -24818,6 +26174,8 @@ exports.style = style;
  * ### Example ([live demo](http://plnkr.co/edit/Kez8XGWBxWue7qP7nNvF?p=preview))
  *
  * {@example core/animation/ts/dsl/animation_example.ts region='Component'}
+ *
+ * @experimental Animation support is experimental.
  */
 function state(stateNameExpr, styles) {
     return new AnimationStateDeclarationMetadata(stateNameExpr, styles);
@@ -24869,6 +26227,8 @@ exports.state = state;
  * ### Example ([live demo](http://plnkr.co/edit/Kez8XGWBxWue7qP7nNvF?p=preview))
  *
  * {@example core/animation/ts/dsl/animation_example.ts region='Component'}
+ *
+ * @experimental Animation support is experimental.
  */
 function keyframes(steps) {
     return new AnimationKeyframesSequenceMetadata(steps);
@@ -24959,6 +26319,8 @@ exports.keyframes = keyframes;
  * ### Example ([live demo](http://plnkr.co/edit/Kez8XGWBxWue7qP7nNvF?p=preview))
  *
  * {@example core/animation/ts/dsl/animation_example.ts region='Component'}
+ *
+ * @experimental Animation support is experimental.
  */
 function transition(stateChangeExpr, steps) {
     var animationData = lang_1.isArray(steps) ? new AnimationSequenceMetadata(steps) :
@@ -25019,17 +26381,27 @@ exports.transition = transition;
  * ### Example ([live demo](http://plnkr.co/edit/Kez8XGWBxWue7qP7nNvF?p=preview))
  *
  * {@example core/animation/ts/dsl/animation_example.ts region='Component'}
+ *
+ * @experimental Animation support is experimental.
  */
 function trigger(name, animation) {
     return new AnimationEntryMetadata(name, animation);
 }
 exports.trigger = trigger;
 
-},{"../facade/exceptions":209,"../facade/lang":210}],178:[function(require,module,exports){
+},{"../facade/exceptions":210,"../facade/lang":211}],179:[function(require,module,exports){
+/**
+ * @license
+ * Copyright Google Inc. All Rights Reserved.
+ *
+ * Use of this source code is governed by an MIT-style license that can be
+ * found in the LICENSE file at https://angular.io/license
+ */
 "use strict";
 var application_ref_1 = require('./application_ref');
 var application_tokens_1 = require('./application_tokens');
 var change_detection_1 = require('./change_detection/change_detection');
+var component_factory_resolver_1 = require('./linker/component_factory_resolver');
 var component_resolver_1 = require('./linker/component_resolver');
 var dynamic_component_loader_1 = require('./linker/dynamic_component_loader');
 var view_utils_1 = require('./linker/view_utils');
@@ -25043,6 +26415,7 @@ exports.APPLICATION_COMMON_PROVIDERS =
 /*@ts2dart_const*/ [
     application_ref_1.APPLICATION_CORE_PROVIDERS,
     /* @ts2dart_Provider */ { provide: component_resolver_1.ComponentResolver, useClass: component_resolver_1.ReflectorComponentResolver },
+    { provide: component_factory_resolver_1.ComponentFactoryResolver, useValue: component_factory_resolver_1.ComponentFactoryResolver.NULL },
     application_tokens_1.APP_ID_RANDOM_PROVIDER,
     view_utils_1.ViewUtils,
     /* @ts2dart_Provider */ { provide: change_detection_1.IterableDiffers, useValue: change_detection_1.defaultIterableDiffers },
@@ -25050,7 +26423,14 @@ exports.APPLICATION_COMMON_PROVIDERS =
     /* @ts2dart_Provider */ { provide: dynamic_component_loader_1.DynamicComponentLoader, useClass: dynamic_component_loader_1.DynamicComponentLoader_ },
 ];
 
-},{"./application_ref":179,"./application_tokens":180,"./change_detection/change_detection":182,"./linker/component_resolver":215,"./linker/dynamic_component_loader":217,"./linker/view_utils":229}],179:[function(require,module,exports){
+},{"./application_ref":180,"./application_tokens":181,"./change_detection/change_detection":183,"./linker/component_factory_resolver":217,"./linker/component_resolver":218,"./linker/dynamic_component_loader":220,"./linker/view_utils":232}],180:[function(require,module,exports){
+/**
+ * @license
+ * Copyright Google Inc. All Rights Reserved.
+ *
+ * Use of this source code is governed by an MIT-style license that can be
+ * found in the LICENSE file at https://angular.io/license
+ */
 "use strict";
 var __extends = (this && this.__extends) || function (d, b) {
     for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p];
@@ -25087,7 +26467,8 @@ var _inPlatformCreate = false;
  * One important assertion this disables verifies that a change detection pass
  * does not result in additional changes to any bindings (also known as
  * unidirectional data flow).
- * @stable
+ *
+ * @experimental APIs related to application bootstrap are currently under review.
  */
 function enableProdMode() {
     if (_runModeLocked) {
@@ -25102,6 +26483,8 @@ exports.enableProdMode = enableProdMode;
  * This can only be read after `lockRunMode` has been called.
  *
  * By default, this is true, unless a user calls `enableProdMode`.
+ *
+ * @experimental APIs related to application bootstrap are currently under review.
  */
 function isDevMode() {
     if (!_runModeLocked) {
@@ -25114,6 +26497,8 @@ exports.isDevMode = isDevMode;
  * Locks the run mode of Angular. After this has been called,
  * it can't be changed any more. I.e. `isDevMode()` will always
  * return the same value.
+ *
+ * @experimental APIs related to application bootstrap are currently under review.
  */
 function lockRunMode() {
     _runModeLocked = true;
@@ -25122,7 +26507,8 @@ exports.lockRunMode = lockRunMode;
 /**
  * Creates a platform.
  * Platforms have to be eagerly created via this function.
- * @experimental
+ *
+ * @experimental APIs related to application bootstrap are currently under review.
  */
 function createPlatform(injector) {
     if (_inPlatformCreate) {
@@ -25145,7 +26531,8 @@ exports.createPlatform = createPlatform;
 /**
  * Checks that there currently is a platform
  * which contains the given token as a provider.
- * @experimental
+ *
+ * @experimental APIs related to application bootstrap are currently under review.
  */
 function assertPlatform(requiredToken) {
     var platform = getPlatform();
@@ -25160,7 +26547,8 @@ function assertPlatform(requiredToken) {
 exports.assertPlatform = assertPlatform;
 /**
  * Dispose the existing platform.
- * @experimental
+ *
+ * @experimental APIs related to application bootstrap are currently under review.
  */
 function disposePlatform() {
     if (lang_1.isPresent(_platform) && !_platform.disposed) {
@@ -25170,7 +26558,8 @@ function disposePlatform() {
 exports.disposePlatform = disposePlatform;
 /**
  * Returns the current platform.
- * @experimental
+ *
+ * @experimental APIs related to application bootstrap are currently under review.
  */
 function getPlatform() {
     return lang_1.isPresent(_platform) && !_platform.disposed ? _platform : null;
@@ -25179,7 +26568,8 @@ exports.getPlatform = getPlatform;
 /**
  * Shortcut for ApplicationRef.bootstrap.
  * Requires a platform to be created first.
- * @experimental
+ *
+ * @experimental APIs related to application bootstrap are currently under review.
  */
 function coreBootstrap(componentFactory, injector) {
     var appRef = injector.get(ApplicationRef);
@@ -25190,7 +26580,8 @@ exports.coreBootstrap = coreBootstrap;
  * Resolves the componentFactory for the given component,
  * waits for asynchronous initializers and bootstraps the component.
  * Requires a platform to be created first.
- * @experimental
+ *
+ * @experimental APIs related to application bootstrap are currently under review.
  */
 function coreLoadAndBootstrap(componentType, injector) {
     var appRef = injector.get(ApplicationRef);
@@ -25209,7 +26600,8 @@ exports.coreLoadAndBootstrap = coreLoadAndBootstrap;
  *
  * A page's platform is initialized implicitly when {@link bootstrap}() is called, or
  * explicitly by calling {@link createPlatform}().
- * @stable
+ *
+ * @experimental APIs related to application bootstrap are currently under review.
  */
 var PlatformRef = (function () {
     function PlatformRef() {
@@ -25283,7 +26675,8 @@ exports.PlatformRef_ = PlatformRef_;
  * A reference to an Angular application running on a page.
  *
  * For more about Angular applications, see the documentation for {@link bootstrap}.
- * @stable
+ *
+ * @experimental APIs related to application bootstrap are currently under review.
  */
 var ApplicationRef = (function () {
     function ApplicationRef() {
@@ -25513,7 +26906,14 @@ exports.APPLICATION_CORE_PROVIDERS = [
     /* @ts2dart_Provider */ { provide: ApplicationRef, useExisting: ApplicationRef_ },
 ];
 
-},{"../src/facade/async":205,"../src/facade/collection":207,"../src/facade/exceptions":209,"../src/facade/lang":210,"./application_tokens":180,"./console":190,"./di":193,"./linker/component_resolver":215,"./profile/profile":237,"./testability/testability":247,"./zone/ng_zone":251}],180:[function(require,module,exports){
+},{"../src/facade/async":206,"../src/facade/collection":208,"../src/facade/exceptions":210,"../src/facade/lang":211,"./application_tokens":181,"./console":191,"./di":194,"./linker/component_resolver":218,"./profile/profile":240,"./testability/testability":250,"./zone/ng_zone":254}],181:[function(require,module,exports){
+/**
+ * @license
+ * Copyright Google Inc. All Rights Reserved.
+ *
+ * Use of this source code is governed by an MIT-style license that can be
+ * found in the LICENSE file at https://angular.io/license
+ */
 "use strict";
 var lang_1 = require('../src/facade/lang');
 var di_1 = require('./di');
@@ -25563,13 +26963,20 @@ exports.APP_INITIALIZER =
 exports.PACKAGE_ROOT_URL = 
 /*@ts2dart_const*/ new di_1.OpaqueToken('Application Packages Root URL');
 
-},{"../src/facade/lang":210,"./di":193}],181:[function(require,module,exports){
+},{"../src/facade/lang":211,"./di":194}],182:[function(require,module,exports){
+/**
+ * @license
+ * Copyright Google Inc. All Rights Reserved.
+ *
+ * Use of this source code is governed by an MIT-style license that can be
+ * found in the LICENSE file at https://angular.io/license
+ */
+"use strict";
 /**
  * @module
  * @description
  * Change detection enables data binding in Angular.
  */
-"use strict";
 var change_detection_1 = require('./change_detection/change_detection');
 exports.ChangeDetectionStrategy = change_detection_1.ChangeDetectionStrategy;
 exports.ChangeDetectorRef = change_detection_1.ChangeDetectorRef;
@@ -25581,7 +26988,14 @@ exports.KeyValueDiffers = change_detection_1.KeyValueDiffers;
 exports.SimpleChange = change_detection_1.SimpleChange;
 exports.WrappedValue = change_detection_1.WrappedValue;
 
-},{"./change_detection/change_detection":182}],182:[function(require,module,exports){
+},{"./change_detection/change_detection":183}],183:[function(require,module,exports){
+/**
+ * @license
+ * Copyright Google Inc. All Rights Reserved.
+ *
+ * Use of this source code is governed by an MIT-style license that can be
+ * found in the LICENSE file at https://angular.io/license
+ */
 "use strict";
 var default_iterable_differ_1 = require('./differs/default_iterable_differ');
 var default_keyvalue_differ_1 = require('./differs/default_keyvalue_differ');
@@ -25598,9 +27012,8 @@ var change_detector_ref_1 = require('./change_detector_ref');
 exports.ChangeDetectorRef = change_detector_ref_1.ChangeDetectorRef;
 var constants_1 = require('./constants');
 exports.CHANGE_DETECTION_STRATEGY_VALUES = constants_1.CHANGE_DETECTION_STRATEGY_VALUES;
-exports.CHANGE_DETECTOR_STATE_VALUES = constants_1.CHANGE_DETECTOR_STATE_VALUES;
 exports.ChangeDetectionStrategy = constants_1.ChangeDetectionStrategy;
-exports.ChangeDetectorState = constants_1.ChangeDetectorState;
+exports.ChangeDetectorStatus = constants_1.ChangeDetectorStatus;
 exports.isDefaultChangeDetectionStrategy = constants_1.isDefaultChangeDetectionStrategy;
 var default_iterable_differ_2 = require('./differs/default_iterable_differ');
 exports.CollectionChangeRecord = default_iterable_differ_2.CollectionChangeRecord;
@@ -25627,7 +27040,14 @@ exports.iterableDiff =
 exports.defaultIterableDiffers = new iterable_differs_1.IterableDiffers(exports.iterableDiff);
 exports.defaultKeyValueDiffers = new keyvalue_differs_1.KeyValueDiffers(exports.keyValDiff);
 
-},{"./change_detection_util":183,"./change_detector_ref":184,"./constants":185,"./differs/default_iterable_differ":186,"./differs/default_keyvalue_differ":187,"./differs/iterable_differs":188,"./differs/keyvalue_differs":189}],183:[function(require,module,exports){
+},{"./change_detection_util":184,"./change_detector_ref":185,"./constants":186,"./differs/default_iterable_differ":187,"./differs/default_keyvalue_differ":188,"./differs/iterable_differs":189,"./differs/keyvalue_differs":190}],184:[function(require,module,exports){
+/**
+ * @license
+ * Copyright Google Inc. All Rights Reserved.
+ *
+ * Use of this source code is governed by an MIT-style license that can be
+ * found in the LICENSE file at https://angular.io/license
+ */
 "use strict";
 var collection_1 = require('../facade/collection');
 var lang_1 = require('../facade/lang');
@@ -25708,7 +27128,14 @@ var SimpleChange = (function () {
 }());
 exports.SimpleChange = SimpleChange;
 
-},{"../facade/collection":207,"../facade/lang":210}],184:[function(require,module,exports){
+},{"../facade/collection":208,"../facade/lang":211}],185:[function(require,module,exports){
+/**
+ * @license
+ * Copyright Google Inc. All Rights Reserved.
+ *
+ * Use of this source code is governed by an MIT-style license that can be
+ * found in the LICENSE file at https://angular.io/license
+ */
 "use strict";
 /**
  * @stable
@@ -25720,31 +27147,16 @@ var ChangeDetectorRef = (function () {
 }());
 exports.ChangeDetectorRef = ChangeDetectorRef;
 
-},{}],185:[function(require,module,exports){
+},{}],186:[function(require,module,exports){
+/**
+ * @license
+ * Copyright Google Inc. All Rights Reserved.
+ *
+ * Use of this source code is governed by an MIT-style license that can be
+ * found in the LICENSE file at https://angular.io/license
+ */
 "use strict";
 var lang_1 = require('../facade/lang');
-/**
- * Describes the current state of the change detector.
- */
-(function (ChangeDetectorState) {
-    /**
-     * `NeverChecked` means that the change detector has not been checked yet, and
-     * initialization methods should be called during detection.
-     */
-    ChangeDetectorState[ChangeDetectorState["NeverChecked"] = 0] = "NeverChecked";
-    /**
-     * `CheckedBefore` means that the change detector has successfully completed at least
-     * one detection previously.
-     */
-    ChangeDetectorState[ChangeDetectorState["CheckedBefore"] = 1] = "CheckedBefore";
-    /**
-     * `Errored` means that the change detector encountered an error checking a binding
-     * or calling a directive lifecycle method and is now in an inconsistent state. Change
-     * detectors in this state will no longer detect changes.
-     */
-    ChangeDetectorState[ChangeDetectorState["Errored"] = 2] = "Errored";
-})(exports.ChangeDetectorState || (exports.ChangeDetectorState = {}));
-var ChangeDetectorState = exports.ChangeDetectorState;
 /**
  * Describes within the change detector which strategy will be used the next time change
  * detection is triggered.
@@ -25752,53 +27164,68 @@ var ChangeDetectorState = exports.ChangeDetectorState;
  */
 (function (ChangeDetectionStrategy) {
     /**
+     * `OnPush` means that the change detector's mode will be set to `CheckOnce` during hydration.
+     */
+    ChangeDetectionStrategy[ChangeDetectionStrategy["OnPush"] = 0] = "OnPush";
+    /**
+     * `Default` means that the change detector's mode will be set to `CheckAlways` during hydration.
+     */
+    ChangeDetectionStrategy[ChangeDetectionStrategy["Default"] = 1] = "Default";
+})(exports.ChangeDetectionStrategy || (exports.ChangeDetectionStrategy = {}));
+var ChangeDetectionStrategy = exports.ChangeDetectionStrategy;
+/**
+ * Describes the status of the detector.
+ */
+(function (ChangeDetectorStatus) {
+    /**
      * `CheckedOnce` means that after calling detectChanges the mode of the change detector
      * will become `Checked`.
      */
-    ChangeDetectionStrategy[ChangeDetectionStrategy["CheckOnce"] = 0] = "CheckOnce";
+    ChangeDetectorStatus[ChangeDetectorStatus["CheckOnce"] = 0] = "CheckOnce";
     /**
      * `Checked` means that the change detector should be skipped until its mode changes to
      * `CheckOnce`.
      */
-    ChangeDetectionStrategy[ChangeDetectionStrategy["Checked"] = 1] = "Checked";
+    ChangeDetectorStatus[ChangeDetectorStatus["Checked"] = 1] = "Checked";
     /**
      * `CheckAlways` means that after calling detectChanges the mode of the change detector
      * will remain `CheckAlways`.
      */
-    ChangeDetectionStrategy[ChangeDetectionStrategy["CheckAlways"] = 2] = "CheckAlways";
+    ChangeDetectorStatus[ChangeDetectorStatus["CheckAlways"] = 2] = "CheckAlways";
     /**
      * `Detached` means that the change detector sub tree is not a part of the main tree and
      * should be skipped.
      */
-    ChangeDetectionStrategy[ChangeDetectionStrategy["Detached"] = 3] = "Detached";
+    ChangeDetectorStatus[ChangeDetectorStatus["Detached"] = 3] = "Detached";
     /**
-     * `OnPush` means that the change detector's mode will be set to `CheckOnce` during hydration.
+     * `Errored` means that the change detector encountered an error checking a binding
+     * or calling a directive lifecycle method and is now in an inconsistent state. Change
+     * detectors in this state will no longer detect changes.
      */
-    ChangeDetectionStrategy[ChangeDetectionStrategy["OnPush"] = 4] = "OnPush";
+    ChangeDetectorStatus[ChangeDetectorStatus["Errored"] = 4] = "Errored";
     /**
-     * `Default` means that the change detector's mode will be set to `CheckAlways` during hydration.
+     * `Destroyed` means that the change detector is destroyed.
      */
-    ChangeDetectionStrategy[ChangeDetectionStrategy["Default"] = 5] = "Default";
-})(exports.ChangeDetectionStrategy || (exports.ChangeDetectionStrategy = {}));
-var ChangeDetectionStrategy = exports.ChangeDetectionStrategy;
+    ChangeDetectorStatus[ChangeDetectorStatus["Destroyed"] = 5] = "Destroyed";
+})(exports.ChangeDetectorStatus || (exports.ChangeDetectorStatus = {}));
+var ChangeDetectorStatus = exports.ChangeDetectorStatus;
 /**
  * List of possible {@link ChangeDetectionStrategy} values.
  */
 exports.CHANGE_DETECTION_STRATEGY_VALUES = [
-    ChangeDetectionStrategy.CheckOnce,
-    ChangeDetectionStrategy.Checked,
-    ChangeDetectionStrategy.CheckAlways,
-    ChangeDetectionStrategy.Detached,
     ChangeDetectionStrategy.OnPush,
     ChangeDetectionStrategy.Default,
 ];
 /**
- * List of possible {@link ChangeDetectorState} values.
+ * List of possible {@link ChangeDetectorStatus} values.
  */
-exports.CHANGE_DETECTOR_STATE_VALUES = [
-    ChangeDetectorState.NeverChecked,
-    ChangeDetectorState.CheckedBefore,
-    ChangeDetectorState.Errored,
+exports.CHANGE_DETECTOR_STATUS_VALUES = [
+    ChangeDetectorStatus.CheckOnce,
+    ChangeDetectorStatus.Checked,
+    ChangeDetectorStatus.CheckAlways,
+    ChangeDetectorStatus.Detached,
+    ChangeDetectorStatus.Errored,
+    ChangeDetectorStatus.Destroyed,
 ];
 function isDefaultChangeDetectionStrategy(changeDetectionStrategy) {
     return lang_1.isBlank(changeDetectionStrategy) ||
@@ -25806,7 +27233,14 @@ function isDefaultChangeDetectionStrategy(changeDetectionStrategy) {
 }
 exports.isDefaultChangeDetectionStrategy = isDefaultChangeDetectionStrategy;
 
-},{"../facade/lang":210}],186:[function(require,module,exports){
+},{"../facade/lang":211}],187:[function(require,module,exports){
+/**
+ * @license
+ * Copyright Google Inc. All Rights Reserved.
+ *
+ * Use of this source code is governed by an MIT-style license that can be
+ * found in the LICENSE file at https://angular.io/license
+ */
 "use strict";
 var collection_1 = require('../../facade/collection');
 var exceptions_1 = require('../../facade/exceptions');
@@ -26467,7 +27901,14 @@ var _DuplicateMap = (function () {
     return _DuplicateMap;
 }());
 
-},{"../../facade/collection":207,"../../facade/exceptions":209,"../../facade/lang":210}],187:[function(require,module,exports){
+},{"../../facade/collection":208,"../../facade/exceptions":210,"../../facade/lang":211}],188:[function(require,module,exports){
+/**
+ * @license
+ * Copyright Google Inc. All Rights Reserved.
+ *
+ * Use of this source code is governed by an MIT-style license that can be
+ * found in the LICENSE file at https://angular.io/license
+ */
 "use strict";
 var collection_1 = require('../../facade/collection');
 var exceptions_1 = require('../../facade/exceptions');
@@ -26828,7 +28269,14 @@ var KeyValueChangeRecord = (function () {
 }());
 exports.KeyValueChangeRecord = KeyValueChangeRecord;
 
-},{"../../facade/collection":207,"../../facade/exceptions":209,"../../facade/lang":210}],188:[function(require,module,exports){
+},{"../../facade/collection":208,"../../facade/exceptions":210,"../../facade/lang":211}],189:[function(require,module,exports){
+/**
+ * @license
+ * Copyright Google Inc. All Rights Reserved.
+ *
+ * Use of this source code is governed by an MIT-style license that can be
+ * found in the LICENSE file at https://angular.io/license
+ */
 "use strict";
 var di_1 = require('../../di');
 var collection_1 = require('../../facade/collection');
@@ -26901,7 +28349,14 @@ var IterableDiffers = (function () {
 }());
 exports.IterableDiffers = IterableDiffers;
 
-},{"../../di":193,"../../facade/collection":207,"../../facade/exceptions":209,"../../facade/lang":210}],189:[function(require,module,exports){
+},{"../../di":194,"../../facade/collection":208,"../../facade/exceptions":210,"../../facade/lang":211}],190:[function(require,module,exports){
+/**
+ * @license
+ * Copyright Google Inc. All Rights Reserved.
+ *
+ * Use of this source code is governed by an MIT-style license that can be
+ * found in the LICENSE file at https://angular.io/license
+ */
 "use strict";
 var di_1 = require('../../di');
 var collection_1 = require('../../facade/collection');
@@ -26974,7 +28429,14 @@ var KeyValueDiffers = (function () {
 }());
 exports.KeyValueDiffers = KeyValueDiffers;
 
-},{"../../di":193,"../../facade/collection":207,"../../facade/exceptions":209,"../../facade/lang":210}],190:[function(require,module,exports){
+},{"../../di":194,"../../facade/collection":208,"../../facade/exceptions":210,"../../facade/lang":211}],191:[function(require,module,exports){
+/**
+ * @license
+ * Copyright Google Inc. All Rights Reserved.
+ *
+ * Use of this source code is governed by an MIT-style license that can be
+ * found in the LICENSE file at https://angular.io/license
+ */
 "use strict";
 var decorators_1 = require('./di/decorators');
 var lang_1 = require('./facade/lang');
@@ -26995,7 +28457,14 @@ var Console = (function () {
 }());
 exports.Console = Console;
 
-},{"./di/decorators":194,"./facade/lang":210}],191:[function(require,module,exports){
+},{"./di/decorators":195,"./facade/lang":211}],192:[function(require,module,exports){
+/**
+ * @license
+ * Copyright Google Inc. All Rights Reserved.
+ *
+ * Use of this source code is governed by an MIT-style license that can be
+ * found in the LICENSE file at https://angular.io/license
+ */
 "use strict";
 var __extends = (this && this.__extends) || function (d, b) {
     for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p];
@@ -27014,7 +28483,7 @@ var EventListener = (function () {
 }());
 exports.EventListener = EventListener;
 /**
- * @experimental
+ * @experimental All debugging apis are currently experimental.
  */
 var DebugNode = (function () {
     function DebugNode(nativeNode, parent, _debugInfo) {
@@ -27074,7 +28543,7 @@ var DebugNode = (function () {
 }());
 exports.DebugNode = DebugNode;
 /**
- * @experimental
+ * @experimental All debugging apis are currently experimental.
  */
 var DebugElement = (function (_super) {
     __extends(DebugElement, _super);
@@ -27204,7 +28673,14 @@ function removeDebugNodeFromIndex(node) {
 }
 exports.removeDebugNodeFromIndex = removeDebugNodeFromIndex;
 
-},{"../facade/collection":207,"../facade/lang":210}],192:[function(require,module,exports){
+},{"../facade/collection":208,"../facade/lang":211}],193:[function(require,module,exports){
+/**
+ * @license
+ * Copyright Google Inc. All Rights Reserved.
+ *
+ * Use of this source code is governed by an MIT-style license that can be
+ * found in the LICENSE file at https://angular.io/license
+ */
 "use strict";
 var lang_1 = require('../facade/lang');
 var debug_node_1 = require('./debug_node');
@@ -27333,16 +28809,23 @@ var DebugDomRenderer = (function () {
 }());
 exports.DebugDomRenderer = DebugDomRenderer;
 
-},{"../facade/lang":210,"./debug_node":191}],193:[function(require,module,exports){
+},{"../facade/lang":211,"./debug_node":192}],194:[function(require,module,exports){
 /**
- * @module
- * @description
- * The `di` module provides dependency injection container services.
+ * @license
+ * Copyright Google Inc. All Rights Reserved.
+ *
+ * Use of this source code is governed by an MIT-style license that can be
+ * found in the LICENSE file at https://angular.io/license
  */
 "use strict";
 function __export(m) {
     for (var p in m) if (!exports.hasOwnProperty(p)) exports[p] = m[p];
 }
+/**
+ * @module
+ * @description
+ * The `di` module provides dependency injection container services.
+ */
 var metadata_1 = require('./di/metadata');
 exports.HostMetadata = metadata_1.HostMetadata;
 exports.InjectMetadata = metadata_1.InjectMetadata;
@@ -27380,7 +28863,14 @@ exports.OutOfBoundsError = reflective_exceptions_1.OutOfBoundsError;
 var opaque_token_1 = require('./di/opaque_token');
 exports.OpaqueToken = opaque_token_1.OpaqueToken;
 
-},{"./di/decorators":194,"./di/forward_ref":195,"./di/injector":196,"./di/metadata":197,"./di/opaque_token":198,"./di/provider":199,"./di/reflective_exceptions":201,"./di/reflective_injector":202,"./di/reflective_key":203,"./di/reflective_provider":204}],194:[function(require,module,exports){
+},{"./di/decorators":195,"./di/forward_ref":196,"./di/injector":197,"./di/metadata":198,"./di/opaque_token":199,"./di/provider":200,"./di/reflective_exceptions":202,"./di/reflective_injector":203,"./di/reflective_key":204,"./di/reflective_provider":205}],195:[function(require,module,exports){
+/**
+ * @license
+ * Copyright Google Inc. All Rights Reserved.
+ *
+ * Use of this source code is governed by an MIT-style license that can be
+ * found in the LICENSE file at https://angular.io/license
+ */
 "use strict";
 var decorators_1 = require('../util/decorators');
 var metadata_1 = require('./metadata');
@@ -27421,7 +28911,14 @@ exports.Host = decorators_1.makeParamDecorator(metadata_1.HostMetadata);
  */
 exports.SkipSelf = decorators_1.makeParamDecorator(metadata_1.SkipSelfMetadata);
 
-},{"../util/decorators":249,"./metadata":197}],195:[function(require,module,exports){
+},{"../util/decorators":252,"./metadata":198}],196:[function(require,module,exports){
+/**
+ * @license
+ * Copyright Google Inc. All Rights Reserved.
+ *
+ * Use of this source code is governed by an MIT-style license that can be
+ * found in the LICENSE file at https://angular.io/license
+ */
 "use strict";
 var lang_1 = require('../facade/lang');
 /**
@@ -27469,7 +28966,14 @@ function resolveForwardRef(type) {
 }
 exports.resolveForwardRef = resolveForwardRef;
 
-},{"../facade/lang":210}],196:[function(require,module,exports){
+},{"../facade/lang":211}],197:[function(require,module,exports){
+/**
+ * @license
+ * Copyright Google Inc. All Rights Reserved.
+ *
+ * Use of this source code is governed by an MIT-style license that can be
+ * found in the LICENSE file at https://angular.io/license
+ */
 "use strict";
 var exceptions_1 = require('../facade/exceptions');
 var _THROW_IF_NOT_FOUND = new Object();
@@ -27510,7 +29014,14 @@ var Injector = (function () {
 }());
 exports.Injector = Injector;
 
-},{"../facade/exceptions":209}],197:[function(require,module,exports){
+},{"../facade/exceptions":210}],198:[function(require,module,exports){
+/**
+ * @license
+ * Copyright Google Inc. All Rights Reserved.
+ *
+ * Use of this source code is governed by an MIT-style license that can be
+ * found in the LICENSE file at https://angular.io/license
+ */
 "use strict";
 var lang_1 = require('../facade/lang');
 /**
@@ -27556,7 +29067,7 @@ var lang_1 = require('../facade/lang');
  * @stable
  */
 var InjectMetadata = (function () {
-    function InjectMetadata(token /** TODO #9100 */) {
+    function InjectMetadata(token) {
         this.token = token;
     }
     InjectMetadata.prototype.toString = function () { return "@Inject(" + lang_1.stringify(this.token) + ")"; };
@@ -27783,7 +29294,14 @@ var HostMetadata = (function () {
 }());
 exports.HostMetadata = HostMetadata;
 
-},{"../facade/lang":210}],198:[function(require,module,exports){
+},{"../facade/lang":211}],199:[function(require,module,exports){
+/**
+ * @license
+ * Copyright Google Inc. All Rights Reserved.
+ *
+ * Use of this source code is governed by an MIT-style license that can be
+ * found in the LICENSE file at https://angular.io/license
+ */
 "use strict";
 /**
  * Creates a token that can be used in a DI Provider.
@@ -27817,7 +29335,14 @@ var OpaqueToken = (function () {
 }());
 exports.OpaqueToken = OpaqueToken;
 
-},{}],199:[function(require,module,exports){
+},{}],200:[function(require,module,exports){
+/**
+ * @license
+ * Copyright Google Inc. All Rights Reserved.
+ *
+ * Use of this source code is governed by an MIT-style license that can be
+ * found in the LICENSE file at https://angular.io/license
+ */
 "use strict";
 var __extends = (this && this.__extends) || function (d, b) {
     for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p];
@@ -27844,7 +29369,7 @@ var lang_1 = require('../facade/lang');
  * @deprecated
  */
 var Provider = (function () {
-    function Provider(token /** TODO #9100 */, _a) {
+    function Provider(token, _a) {
         var useClass = _a.useClass, useValue = _a.useValue, useExisting = _a.useExisting, useFactory = _a.useFactory, deps = _a.deps, multi = _a.multi;
         this.token = token;
         this.useClass = useClass;
@@ -27900,7 +29425,7 @@ exports.Provider = Provider;
  */
 var Binding = (function (_super) {
     __extends(Binding, _super);
-    function Binding(token /** TODO #9100 */, _a) {
+    function Binding(token, _a) {
         var toClass = _a.toClass, toValue = _a.toValue, toAlias = _a.toAlias, toFactory = _a.toFactory, deps = _a.deps, multi = _a.multi;
         _super.call(this, token, {
             useClass: toClass,
@@ -27958,7 +29483,7 @@ exports.Binding = Binding;
  *
  * @deprecated
  */
-function bind(token /** TODO #9100 */) {
+function bind(token) {
     return new ProviderBuilder(token);
 }
 exports.bind = bind;
@@ -27967,7 +29492,7 @@ exports.bind = bind;
  * @deprecated
  */
 var ProviderBuilder = (function () {
-    function ProviderBuilder(token /** TODO #9100 */) {
+    function ProviderBuilder(token) {
         this.token = token;
     }
     /**
@@ -28089,7 +29614,7 @@ exports.ProviderBuilder = ProviderBuilder;
  * <!-- TODO: improve the docs -->
  * @deprecated
  */
-function provide(token /** TODO #9100 */, _a) {
+function provide(token, _a) {
     var useClass = _a.useClass, useValue = _a.useValue, useExisting = _a.useExisting, useFactory = _a.useFactory, deps = _a.deps, multi = _a.multi;
     return new Provider(token, {
         useClass: useClass,
@@ -28102,7 +29627,14 @@ function provide(token /** TODO #9100 */, _a) {
 }
 exports.provide = provide;
 
-},{"../facade/exceptions":209,"../facade/lang":210}],200:[function(require,module,exports){
+},{"../facade/exceptions":210,"../facade/lang":211}],201:[function(require,module,exports){
+/**
+ * @license
+ * Copyright Google Inc. All Rights Reserved.
+ *
+ * Use of this source code is governed by an MIT-style license that can be
+ * found in the LICENSE file at https://angular.io/license
+ */
 "use strict";
 var provider_1 = require('./provider');
 function isProviderLiteral(obj) {
@@ -28114,7 +29646,14 @@ function createProvider(obj) {
 }
 exports.createProvider = createProvider;
 
-},{"./provider":199}],201:[function(require,module,exports){
+},{"./provider":200}],202:[function(require,module,exports){
+/**
+ * @license
+ * Copyright Google Inc. All Rights Reserved.
+ *
+ * Use of this source code is governed by an MIT-style license that can be
+ * found in the LICENSE file at https://angular.io/license
+ */
 "use strict";
 var __extends = (this && this.__extends) || function (d, b) {
     for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p];
@@ -28131,9 +29670,7 @@ function findFirstClosedCycle(keys) {
             res.push(keys[i]);
             return res;
         }
-        else {
-            res.push(keys[i]);
-        }
+        res.push(keys[i]);
     }
     return res;
 }
@@ -28143,9 +29680,7 @@ function constructResolvingPath(keys) {
         var tokenStrs = reversed.map(function (k) { return lang_1.stringify(k.token); });
         return ' (' + tokenStrs.join(' -> ') + ')';
     }
-    else {
-        return '';
-    }
+    return '';
 }
 /**
  * Base class for all errors arising from misconfigured providers.
@@ -28255,7 +29790,7 @@ exports.CyclicDependencyError = CyclicDependencyError;
  */
 var InstantiationError = (function (_super) {
     __extends(InstantiationError, _super);
-    function InstantiationError(injector, originalException /** TODO #9100 */, originalStack /** TODO #9100 */, key) {
+    function InstantiationError(injector, originalException, originalStack, key) {
         _super.call(this, 'DI Exception', originalException, originalStack, null);
         this.keys = [key];
         this.injectors = [injector];
@@ -28298,7 +29833,7 @@ exports.InstantiationError = InstantiationError;
  */
 var InvalidProviderError = (function (_super) {
     __extends(InvalidProviderError, _super);
-    function InvalidProviderError(provider /** TODO #9100 */) {
+    function InvalidProviderError(provider) {
         _super.call(this, "Invalid provider - only instances of Provider and Type are allowed, got: " + provider);
     }
     return InvalidProviderError;
@@ -28335,10 +29870,10 @@ exports.InvalidProviderError = InvalidProviderError;
  */
 var NoAnnotationError = (function (_super) {
     __extends(NoAnnotationError, _super);
-    function NoAnnotationError(typeOrFunc /** TODO #9100 */, params) {
+    function NoAnnotationError(typeOrFunc, params) {
         _super.call(this, NoAnnotationError._genMessage(typeOrFunc, params));
     }
-    NoAnnotationError._genMessage = function (typeOrFunc /** TODO #9100 */, params) {
+    NoAnnotationError._genMessage = function (typeOrFunc, params) {
         var signature = [];
         for (var i = 0, ii = params.length; i < ii; i++) {
             var parameter = params[i];
@@ -28373,7 +29908,7 @@ exports.NoAnnotationError = NoAnnotationError;
  */
 var OutOfBoundsError = (function (_super) {
     __extends(OutOfBoundsError, _super);
-    function OutOfBoundsError(index /** TODO #9100 */) {
+    function OutOfBoundsError(index) {
         _super.call(this, "Index " + index + " is out-of-bounds.");
     }
     return OutOfBoundsError;
@@ -28394,7 +29929,7 @@ exports.OutOfBoundsError = OutOfBoundsError;
  */
 var MixingMultiProvidersWithRegularProvidersError = (function (_super) {
     __extends(MixingMultiProvidersWithRegularProvidersError, _super);
-    function MixingMultiProvidersWithRegularProvidersError(provider1 /** TODO #9100 */, provider2 /** TODO #9100 */) {
+    function MixingMultiProvidersWithRegularProvidersError(provider1, provider2) {
         _super.call(this, 'Cannot mix multi providers and regular providers, got: ' + provider1.toString() + ' ' +
             provider2.toString());
     }
@@ -28402,7 +29937,14 @@ var MixingMultiProvidersWithRegularProvidersError = (function (_super) {
 }(exceptions_1.BaseException));
 exports.MixingMultiProvidersWithRegularProvidersError = MixingMultiProvidersWithRegularProvidersError;
 
-},{"../facade/collection":207,"../facade/exceptions":209,"../facade/lang":210}],202:[function(require,module,exports){
+},{"../facade/collection":208,"../facade/exceptions":210,"../facade/lang":211}],203:[function(require,module,exports){
+/**
+ * @license
+ * Copyright Google Inc. All Rights Reserved.
+ *
+ * Use of this source code is governed by an MIT-style license that can be
+ * found in the LICENSE file at https://angular.io/license
+ */
 "use strict";
 var collection_1 = require('../facade/collection');
 var exceptions_1 = require('../facade/exceptions');
@@ -28721,6 +30263,8 @@ exports.ReflectiveInjectorDynamicStrategy = ReflectiveInjectorDynamicStrategy;
  *
  * Notice, we don't use the `new` operator because we explicitly want to have the `Injector`
  * resolve all of the object's dependencies automatically.
+ *
+ * @stable
  */
 var ReflectiveInjector = (function () {
     function ReflectiveInjector() {
@@ -29225,14 +30769,21 @@ var ReflectiveInjector_ = (function () {
 exports.ReflectiveInjector_ = ReflectiveInjector_;
 var INJECTOR_KEY = reflective_key_1.ReflectiveKey.get(injector_1.Injector);
 function _mapProviders(injector, fn) {
-    var res = [];
+    var res = new Array(injector._proto.numberOfProviders);
     for (var i = 0; i < injector._proto.numberOfProviders; ++i) {
-        res.push(fn(injector._proto.getProviderAtIndex(i)));
+        res[i] = fn(injector._proto.getProviderAtIndex(i));
     }
     return res;
 }
 
-},{"../facade/collection":207,"../facade/exceptions":209,"./injector":196,"./metadata":197,"./reflective_exceptions":201,"./reflective_key":203,"./reflective_provider":204}],203:[function(require,module,exports){
+},{"../facade/collection":208,"../facade/exceptions":210,"./injector":197,"./metadata":198,"./reflective_exceptions":202,"./reflective_key":204,"./reflective_provider":205}],204:[function(require,module,exports){
+/**
+ * @license
+ * Copyright Google Inc. All Rights Reserved.
+ *
+ * Use of this source code is governed by an MIT-style license that can be
+ * found in the LICENSE file at https://angular.io/license
+ */
 "use strict";
 var exceptions_1 = require('../facade/exceptions');
 var lang_1 = require('../facade/lang');
@@ -29316,7 +30867,14 @@ var KeyRegistry = (function () {
 exports.KeyRegistry = KeyRegistry;
 var _globalKeyRegistry = new KeyRegistry();
 
-},{"../facade/exceptions":209,"../facade/lang":210,"./forward_ref":195}],204:[function(require,module,exports){
+},{"../facade/exceptions":210,"../facade/lang":211,"./forward_ref":196}],205:[function(require,module,exports){
+/**
+ * @license
+ * Copyright Google Inc. All Rights Reserved.
+ *
+ * Use of this source code is governed by an MIT-style license that can be
+ * found in the LICENSE file at https://angular.io/license
+ */
 "use strict";
 var lang_1 = require('../facade/lang');
 var collection_1 = require('../facade/collection');
@@ -29392,7 +30950,7 @@ function resolveReflectiveFactory(provider) {
         resolvedDeps = _dependenciesFor(useClass);
     }
     else if (lang_1.isPresent(provider.useExisting)) {
-        factoryFn = function (aliasInstance /** TODO #9100 */) { return aliasInstance; };
+        factoryFn = function (aliasInstance) { return aliasInstance; };
         resolvedDeps = [ReflectiveDependency.fromKey(reflective_key_1.ReflectiveKey.get(provider.useExisting))];
     }
     else if (lang_1.isPresent(provider.useFactory)) {
@@ -29556,18 +31114,25 @@ function _createDependency(token /** TODO #9100 */, optional /** TODO #9100 */, 
     return new ReflectiveDependency(reflective_key_1.ReflectiveKey.get(token), optional, lowerBoundVisibility, upperBoundVisibility, depProps);
 }
 
-},{"../facade/collection":207,"../facade/lang":210,"../reflection/reflection":240,"./forward_ref":195,"./metadata":197,"./provider":199,"./provider_util":200,"./reflective_exceptions":201,"./reflective_key":203}],205:[function(require,module,exports){
+},{"../facade/collection":208,"../facade/lang":211,"../reflection/reflection":243,"./forward_ref":196,"./metadata":198,"./provider":200,"./provider_util":201,"./reflective_exceptions":202,"./reflective_key":204}],206:[function(require,module,exports){
 arguments[4][31][0].apply(exports,arguments)
-},{"./lang":210,"./promise":212,"dup":31,"rxjs/Observable":526,"rxjs/Subject":528,"rxjs/observable/PromiseObservable":532,"rxjs/operator/toPromise":533}],206:[function(require,module,exports){
+},{"./lang":211,"./promise":213,"dup":31,"rxjs/Observable":539,"rxjs/Subject":541,"rxjs/observable/PromiseObservable":545,"rxjs/operator/toPromise":546}],207:[function(require,module,exports){
 arguments[4][32][0].apply(exports,arguments)
-},{"dup":32}],207:[function(require,module,exports){
+},{"dup":32}],208:[function(require,module,exports){
 arguments[4][33][0].apply(exports,arguments)
-},{"./lang":210,"dup":33}],208:[function(require,module,exports){
+},{"./lang":211,"dup":33}],209:[function(require,module,exports){
 arguments[4][34][0].apply(exports,arguments)
-},{"./base_wrapped_exception":206,"./collection":207,"./lang":210,"dup":34}],209:[function(require,module,exports){
+},{"./base_wrapped_exception":207,"./collection":208,"./lang":211,"dup":34}],210:[function(require,module,exports){
 arguments[4][35][0].apply(exports,arguments)
-},{"./base_wrapped_exception":206,"./exception_handler":208,"dup":35}],210:[function(require,module,exports){
+},{"./base_wrapped_exception":207,"./exception_handler":209,"dup":35}],211:[function(require,module,exports){
 (function (global){
+/**
+ * @license
+ * Copyright Google Inc. All Rights Reserved.
+ *
+ * Use of this source code is governed by an MIT-style license that can be
+ * found in the LICENSE file at https://angular.io/license
+ */
 "use strict";
 var __extends = (this && this.__extends) || function (d, b) {
     for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p];
@@ -29596,6 +31161,14 @@ exports.IS_DART = false;
 // exports the original value of the symbol.
 var _global = globalScope;
 exports.global = _global;
+/**
+ * Runtime representation a type that a Component or other object is instances of.
+ *
+ * An example of a `Type` is `MyCustomComponent` class, which in JavaScript is be represented by
+ * the `MyCustomComponent` constructor function.
+ *
+ * @stable
+ */
 exports.Type = Function;
 function getTypeNameForDebugging(type) {
     if (type['name']) {
@@ -30020,16 +31593,28 @@ exports.escapeRegExp = escapeRegExp;
 
 }).call(this,typeof global !== "undefined" ? global : typeof self !== "undefined" ? self : typeof window !== "undefined" ? window : {})
 
-},{}],211:[function(require,module,exports){
-arguments[4][108][0].apply(exports,arguments)
-},{"./lang":210,"dup":108}],212:[function(require,module,exports){
+},{}],212:[function(require,module,exports){
+arguments[4][109][0].apply(exports,arguments)
+},{"./lang":211,"dup":109}],213:[function(require,module,exports){
 arguments[4][38][0].apply(exports,arguments)
-},{"dup":38}],213:[function(require,module,exports){
+},{"dup":38}],214:[function(require,module,exports){
+/**
+ * @license
+ * Copyright Google Inc. All Rights Reserved.
+ *
+ * Use of this source code is governed by an MIT-style license that can be
+ * found in the LICENSE file at https://angular.io/license
+ */
 "use strict";
 // Public API for compiler
+var compiler_1 = require('./linker/compiler');
+exports.Compiler = compiler_1.Compiler;
 var component_factory_1 = require('./linker/component_factory');
 exports.ComponentFactory = component_factory_1.ComponentFactory;
 exports.ComponentRef = component_factory_1.ComponentRef;
+var component_factory_resolver_1 = require('./linker/component_factory_resolver');
+exports.ComponentFactoryResolver = component_factory_resolver_1.ComponentFactoryResolver;
+exports.NoComponentFactoryError = component_factory_resolver_1.NoComponentFactoryError;
 var component_resolver_1 = require('./linker/component_resolver');
 exports.ComponentResolver = component_resolver_1.ComponentResolver;
 var dynamic_component_loader_1 = require('./linker/dynamic_component_loader');
@@ -30051,7 +31636,59 @@ var view_ref_1 = require('./linker/view_ref');
 exports.EmbeddedViewRef = view_ref_1.EmbeddedViewRef;
 exports.ViewRef = view_ref_1.ViewRef;
 
-},{"./linker/component_factory":214,"./linker/component_resolver":215,"./linker/dynamic_component_loader":217,"./linker/element_ref":220,"./linker/exceptions":221,"./linker/query_list":222,"./linker/systemjs_component_resolver":223,"./linker/template_ref":224,"./linker/view_container_ref":226,"./linker/view_ref":227}],214:[function(require,module,exports){
+},{"./linker/compiler":215,"./linker/component_factory":216,"./linker/component_factory_resolver":217,"./linker/component_resolver":218,"./linker/dynamic_component_loader":220,"./linker/element_ref":223,"./linker/exceptions":224,"./linker/query_list":225,"./linker/systemjs_component_resolver":226,"./linker/template_ref":227,"./linker/view_container_ref":229,"./linker/view_ref":230}],215:[function(require,module,exports){
+/**
+ * @license
+ * Copyright Google Inc. All Rights Reserved.
+ *
+ * Use of this source code is governed by an MIT-style license that can be
+ * found in the LICENSE file at https://angular.io/license
+ */
+"use strict";
+var exceptions_1 = require('../facade/exceptions');
+var lang_1 = require('../facade/lang');
+/**
+ * Low-level service for running the angular compiler duirng runtime
+ * to create {@link ComponentFactory}s, which
+ * can later be used to create and render a Component instance.
+ * @stable
+ */
+var Compiler = (function () {
+    function Compiler() {
+    }
+    /**
+     * Loads the template and styles of a component and returns the associated `ComponentFactory`.
+     */
+    Compiler.prototype.compileComponentAsync = function (component) {
+        throw new exceptions_1.BaseException("Runtime compiler is not loaded. Tried to compile " + lang_1.stringify(component));
+    };
+    /**
+     * Compiles the given component. All templates have to be either inline or compiled via
+     * `compileComponentAsync` before.
+     */
+    Compiler.prototype.compileComponentSync = function (component) {
+        throw new exceptions_1.BaseException("Runtime compiler is not loaded. Tried to compile " + lang_1.stringify(component));
+    };
+    /**
+     * Clears all caches
+     */
+    Compiler.prototype.clearCache = function () { };
+    /**
+     * Clears the cache for the given component.
+     */
+    Compiler.prototype.clearCacheFor = function (compType) { };
+    return Compiler;
+}());
+exports.Compiler = Compiler;
+
+},{"../facade/exceptions":210,"../facade/lang":211}],216:[function(require,module,exports){
+/**
+ * @license
+ * Copyright Google Inc. All Rights Reserved.
+ *
+ * Use of this source code is governed by an MIT-style license that can be
+ * found in the LICENSE file at https://angular.io/license
+ */
 "use strict";
 var __extends = (this && this.__extends) || function (d, b) {
     for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p];
@@ -30175,6 +31812,9 @@ exports.ComponentRef_ = ComponentRef_;
  * @ts2dart_const
  */
 var EMPTY_CONTEXT = new Object();
+/**
+ * @stable
+ */
 var ComponentFactory = (function () {
     function ComponentFactory(selector, _viewFactory, _componentType) {
         this.selector = selector;
@@ -30205,7 +31845,80 @@ var ComponentFactory = (function () {
 }());
 exports.ComponentFactory = ComponentFactory;
 
-},{"../facade/exceptions":209,"../facade/lang":210,"./view_utils":229}],215:[function(require,module,exports){
+},{"../facade/exceptions":210,"../facade/lang":211,"./view_utils":232}],217:[function(require,module,exports){
+/**
+ * @license
+ * Copyright Google Inc. All Rights Reserved.
+ *
+ * Use of this source code is governed by an MIT-style license that can be
+ * found in the LICENSE file at https://angular.io/license
+ */
+"use strict";
+var __extends = (this && this.__extends) || function (d, b) {
+    for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p];
+    function __() { this.constructor = d; }
+    d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
+};
+var exceptions_1 = require('../facade/exceptions');
+var lang_1 = require('../facade/lang');
+/**
+ * @stable
+ */
+var NoComponentFactoryError = (function (_super) {
+    __extends(NoComponentFactoryError, _super);
+    function NoComponentFactoryError(component) {
+        _super.call(this, "No component factory found for " + lang_1.stringify(component));
+        this.component = component;
+    }
+    return NoComponentFactoryError;
+}(exceptions_1.BaseException));
+exports.NoComponentFactoryError = NoComponentFactoryError;
+var _NullComponentFactoryResolver = (function () {
+    function _NullComponentFactoryResolver() {
+    }
+    _NullComponentFactoryResolver.prototype.resolveComponentFactory = function (component) {
+        throw new NoComponentFactoryError(component);
+    };
+    return _NullComponentFactoryResolver;
+}());
+/**
+ * @stable
+ */
+var ComponentFactoryResolver = (function () {
+    function ComponentFactoryResolver() {
+    }
+    ComponentFactoryResolver.NULL = new _NullComponentFactoryResolver();
+    return ComponentFactoryResolver;
+}());
+exports.ComponentFactoryResolver = ComponentFactoryResolver;
+var CodegenComponentFactoryResolver = (function () {
+    function CodegenComponentFactoryResolver(factories, _parent) {
+        this._parent = _parent;
+        this._factories = new Map();
+        for (var i = 0; i < factories.length; i++) {
+            var factory = factories[i];
+            this._factories.set(factory.componentType, factory);
+        }
+    }
+    CodegenComponentFactoryResolver.prototype.resolveComponentFactory = function (component) {
+        var result = this._factories.get(component);
+        if (!result) {
+            result = this._parent.resolveComponentFactory(component);
+        }
+        return result;
+    };
+    return CodegenComponentFactoryResolver;
+}());
+exports.CodegenComponentFactoryResolver = CodegenComponentFactoryResolver;
+
+},{"../facade/exceptions":210,"../facade/lang":211}],218:[function(require,module,exports){
+/**
+ * @license
+ * Copyright Google Inc. All Rights Reserved.
+ *
+ * Use of this source code is governed by an MIT-style license that can be
+ * found in the LICENSE file at https://angular.io/license
+ */
 "use strict";
 var __extends = (this && this.__extends) || function (d, b) {
     for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p];
@@ -30257,7 +31970,14 @@ var ReflectorComponentResolver = (function (_super) {
 }(ComponentResolver));
 exports.ReflectorComponentResolver = ReflectorComponentResolver;
 
-},{"../di/decorators":194,"../facade/async":205,"../facade/exceptions":209,"../facade/lang":210,"../reflection/reflection":240,"./component_factory":214}],216:[function(require,module,exports){
+},{"../di/decorators":195,"../facade/async":206,"../facade/exceptions":210,"../facade/lang":211,"../reflection/reflection":243,"./component_factory":216}],219:[function(require,module,exports){
+/**
+ * @license
+ * Copyright Google Inc. All Rights Reserved.
+ *
+ * Use of this source code is governed by an MIT-style license that can be
+ * found in the LICENSE file at https://angular.io/license
+ */
 "use strict";
 var collection_1 = require('../facade/collection');
 var lang_1 = require('../facade/lang');
@@ -30376,7 +32096,14 @@ var DebugContext = (function () {
 }());
 exports.DebugContext = DebugContext;
 
-},{"../facade/collection":207,"../facade/lang":210,"./view_type":228}],217:[function(require,module,exports){
+},{"../facade/collection":208,"../facade/lang":211,"./view_type":231}],220:[function(require,module,exports){
+/**
+ * @license
+ * Copyright Google Inc. All Rights Reserved.
+ *
+ * Use of this source code is governed by an MIT-style license that can be
+ * found in the LICENSE file at https://angular.io/license
+ */
 "use strict";
 var __extends = (this && this.__extends) || function (d, b) {
     for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p];
@@ -30436,7 +32163,14 @@ var DynamicComponentLoader_ = (function (_super) {
 }(DynamicComponentLoader));
 exports.DynamicComponentLoader_ = DynamicComponentLoader_;
 
-},{"../di/decorators":194,"../di/reflective_injector":202,"../facade/lang":210,"./component_resolver":215}],218:[function(require,module,exports){
+},{"../di/decorators":195,"../di/reflective_injector":203,"../facade/lang":211,"./component_resolver":218}],221:[function(require,module,exports){
+/**
+ * @license
+ * Copyright Google Inc. All Rights Reserved.
+ *
+ * Use of this source code is governed by an MIT-style license that can be
+ * found in the LICENSE file at https://angular.io/license
+ */
 "use strict";
 var collection_1 = require('../facade/collection');
 var exceptions_1 = require('../facade/exceptions');
@@ -30530,7 +32264,14 @@ var AppElement = (function () {
 }());
 exports.AppElement = AppElement;
 
-},{"../facade/collection":207,"../facade/exceptions":209,"../facade/lang":210,"./element_ref":220,"./view_container_ref":226,"./view_type":228}],219:[function(require,module,exports){
+},{"../facade/collection":208,"../facade/exceptions":210,"../facade/lang":211,"./element_ref":223,"./view_container_ref":229,"./view_type":231}],222:[function(require,module,exports){
+/**
+ * @license
+ * Copyright Google Inc. All Rights Reserved.
+ *
+ * Use of this source code is governed by an MIT-style license that can be
+ * found in the LICENSE file at https://angular.io/license
+ */
 "use strict";
 var __extends = (this && this.__extends) || function (d, b) {
     for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p];
@@ -30561,13 +32302,26 @@ var ElementInjector = (function (_super) {
 }(injector_1.Injector));
 exports.ElementInjector = ElementInjector;
 
-},{"../di/injector":196}],220:[function(require,module,exports){
+},{"../di/injector":197}],223:[function(require,module,exports){
+/**
+ * @license
+ * Copyright Google Inc. All Rights Reserved.
+ *
+ * Use of this source code is governed by an MIT-style license that can be
+ * found in the LICENSE file at https://angular.io/license
+ */
 "use strict";
 /**
  * A wrapper around a native element inside of a View.
  *
  * An `ElementRef` is backed by a render-specific element. In the browser, this is usually a DOM
  * element.
+ *
+ * @security Permitting direct access to the DOM can make your application more vulnerable to
+ * XSS attacks. Carefully review any use of `ElementRef` in your code. For more detail, see the
+ * [Security Guide](http://g.co/ng/security).
+ *
+ * @stable
  */
 // Note: We don't expose things like `Injector`, `ViewContainer`, ... here,
 // i.e. users have to ask for what they need. With that, we can build better analysis tools
@@ -30580,7 +32334,14 @@ var ElementRef = (function () {
 }());
 exports.ElementRef = ElementRef;
 
-},{}],221:[function(require,module,exports){
+},{}],224:[function(require,module,exports){
+/**
+ * @license
+ * Copyright Google Inc. All Rights Reserved.
+ *
+ * Use of this source code is governed by an MIT-style license that can be
+ * found in the LICENSE file at https://angular.io/license
+ */
 "use strict";
 var __extends = (this && this.__extends) || function (d, b) {
     for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p];
@@ -30663,7 +32424,14 @@ var ViewDestroyedException = (function (_super) {
 }(exceptions_1.BaseException));
 exports.ViewDestroyedException = ViewDestroyedException;
 
-},{"../facade/exceptions":209}],222:[function(require,module,exports){
+},{"../facade/exceptions":210}],225:[function(require,module,exports){
+/**
+ * @license
+ * Copyright Google Inc. All Rights Reserved.
+ *
+ * Use of this source code is governed by an MIT-style license that can be
+ * found in the LICENSE file at https://angular.io/license
+ */
 "use strict";
 var async_1 = require('../facade/async');
 var collection_1 = require('../facade/collection');
@@ -30708,40 +32476,48 @@ var QueryList = (function () {
         configurable: true
     });
     Object.defineProperty(QueryList.prototype, "first", {
-        get: function () { return collection_1.ListWrapper.first(this._results); },
+        get: function () { return this._results[0]; },
         enumerable: true,
         configurable: true
     });
     Object.defineProperty(QueryList.prototype, "last", {
-        get: function () { return collection_1.ListWrapper.last(this._results); },
+        get: function () { return this._results[this.length - 1]; },
         enumerable: true,
         configurable: true
     });
     /**
-     * returns a new array with the passed in function applied to each element.
+     * See
+     * [Array.map](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/map)
      */
     QueryList.prototype.map = function (fn) { return this._results.map(fn); };
     /**
-     * returns a filtered array.
+     * See
+     * [Array.filter](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/filter)
      */
-    QueryList.prototype.filter = function (fn) { return this._results.filter(fn); };
+    QueryList.prototype.filter = function (fn) {
+        return this._results.filter(fn);
+    };
     /**
-     * returns a reduced value.
+     * See
+     * [Array.reduce](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/reduce)
      */
     QueryList.prototype.reduce = function (fn, init) {
         return this._results.reduce(fn, init);
     };
     /**
-     * executes function for each element in a query.
+     * See
+     * [Array.forEach](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/forEach)
      */
     QueryList.prototype.forEach = function (fn) { this._results.forEach(fn); };
     /**
-     * converts QueryList into an array
+     * See
+     * [Array.some](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/some)
      */
-    QueryList.prototype.toArray = function () { return collection_1.ListWrapper.clone(this._results); };
-    QueryList.prototype[lang_1.getSymbolIterator()] = function () {
-        return this._results[lang_1.getSymbolIterator()]();
+    QueryList.prototype.some = function (fn) {
+        return this._results.some(fn);
     };
+    QueryList.prototype.toArray = function () { return this._results.slice(); };
+    QueryList.prototype[lang_1.getSymbolIterator()] = function () { return this._results[lang_1.getSymbolIterator()](); };
     QueryList.prototype.toString = function () { return this._results.toString(); };
     QueryList.prototype.reset = function (res) {
         this._results = collection_1.ListWrapper.flatten(res);
@@ -30760,7 +32536,14 @@ var QueryList = (function () {
 }());
 exports.QueryList = QueryList;
 
-},{"../facade/async":205,"../facade/collection":207,"../facade/lang":210}],223:[function(require,module,exports){
+},{"../facade/async":206,"../facade/collection":208,"../facade/lang":211}],226:[function(require,module,exports){
+/**
+ * @license
+ * Copyright Google Inc. All Rights Reserved.
+ *
+ * Use of this source code is governed by an MIT-style license that can be
+ * found in the LICENSE file at https://angular.io/license
+ */
 "use strict";
 var lang_1 = require('../facade/lang');
 var _SEPARATOR = '#';
@@ -30813,7 +32596,14 @@ var SystemJsCmpFactoryResolver = (function () {
 }());
 exports.SystemJsCmpFactoryResolver = SystemJsCmpFactoryResolver;
 
-},{"../facade/lang":210}],224:[function(require,module,exports){
+},{"../facade/lang":211}],227:[function(require,module,exports){
+/**
+ * @license
+ * Copyright Google Inc. All Rights Reserved.
+ *
+ * Use of this source code is governed by an MIT-style license that can be
+ * found in the LICENSE file at https://angular.io/license
+ */
 "use strict";
 var __extends = (this && this.__extends) || function (d, b) {
     for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p];
@@ -30882,7 +32672,14 @@ var TemplateRef_ = (function (_super) {
 }(TemplateRef));
 exports.TemplateRef_ = TemplateRef_;
 
-},{"../facade/lang":210}],225:[function(require,module,exports){
+},{"../facade/lang":211}],228:[function(require,module,exports){
+/**
+ * @license
+ * Copyright Google Inc. All Rights Reserved.
+ *
+ * Use of this source code is governed by an MIT-style license that can be
+ * found in the LICENSE file at https://angular.io/license
+ */
 "use strict";
 var __extends = (this && this.__extends) || function (d, b) {
     for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p];
@@ -30920,10 +32717,7 @@ var AppView = (function () {
         this.contentChildren = [];
         this.viewChildren = [];
         this.viewContainerElement = null;
-        // The names of the below fields must be kept in sync with codegen_name_util.ts or
-        // change detection will fail.
-        this.cdState = change_detection_1.ChangeDetectorState.NeverChecked;
-        this.destroyed = false;
+        this.numberOfChecks = 0;
         this.activeAnimationPlayers = new active_animation_players_map_1.ActiveAnimationPlayersMap();
         this.ref = new view_ref_1.ViewRef_(this);
         if (type === view_type_1.ViewType.COMPONENT || type === view_type_1.ViewType.HOST) {
@@ -30933,6 +32727,11 @@ var AppView = (function () {
             this.renderer = declarationAppElement.parentView.renderer;
         }
     }
+    Object.defineProperty(AppView.prototype, "destroyed", {
+        get: function () { return this.cdMode === change_detection_1.ChangeDetectorStatus.Destroyed; },
+        enumerable: true,
+        configurable: true
+    });
     AppView.prototype.cancelActiveAnimation = function (element, animationName, removeAllAnimations) {
         if (removeAllAnimations === void 0) { removeAllAnimations = false; }
         if (removeAllAnimations) {
@@ -31025,7 +32824,7 @@ var AppView = (function () {
         this._destroyRecurse();
     };
     AppView.prototype._destroyRecurse = function () {
-        if (this.destroyed) {
+        if (this.cdMode === change_detection_1.ChangeDetectorStatus.Destroyed) {
             return;
         }
         var children = this.contentChildren;
@@ -31037,7 +32836,7 @@ var AppView = (function () {
             children[i]._destroyRecurse();
         }
         this.destroyLocal();
-        this.destroyed = true;
+        this.cdMode = change_detection_1.ChangeDetectorStatus.Destroyed;
     };
     AppView.prototype.destroyLocal = function () {
         var _this = this;
@@ -31110,16 +32909,16 @@ var AppView = (function () {
     AppView.prototype.dirtyParentQueriesInternal = function () { };
     AppView.prototype.detectChanges = function (throwOnChange) {
         var s = _scope_check(this.clazz);
-        if (this.cdMode === change_detection_1.ChangeDetectionStrategy.Checked ||
-            this.cdState === change_detection_1.ChangeDetectorState.Errored)
+        if (this.cdMode === change_detection_1.ChangeDetectorStatus.Checked ||
+            this.cdMode === change_detection_1.ChangeDetectorStatus.Errored)
             return;
-        if (this.destroyed) {
+        if (this.cdMode === change_detection_1.ChangeDetectorStatus.Destroyed) {
             this.throwDestroyedError('detectChanges');
         }
         this.detectChangesInternal(throwOnChange);
-        if (this.cdMode === change_detection_1.ChangeDetectionStrategy.CheckOnce)
-            this.cdMode = change_detection_1.ChangeDetectionStrategy.Checked;
-        this.cdState = change_detection_1.ChangeDetectorState.CheckedBefore;
+        if (this.cdMode === change_detection_1.ChangeDetectorStatus.CheckOnce)
+            this.cdMode = change_detection_1.ChangeDetectorStatus.Checked;
+        this.numberOfChecks++;
         profile_1.wtfLeave(s);
     };
     /**
@@ -31132,7 +32931,7 @@ var AppView = (function () {
     AppView.prototype.detectContentChildrenChanges = function (throwOnChange) {
         for (var i = 0; i < this.contentChildren.length; ++i) {
             var child = this.contentChildren[i];
-            if (child.cdMode === change_detection_1.ChangeDetectionStrategy.Detached)
+            if (child.cdMode === change_detection_1.ChangeDetectorStatus.Detached)
                 continue;
             child.detectChanges(throwOnChange);
         }
@@ -31140,7 +32939,7 @@ var AppView = (function () {
     AppView.prototype.detectViewChildrenChanges = function (throwOnChange) {
         for (var i = 0; i < this.viewChildren.length; ++i) {
             var child = this.viewChildren[i];
-            if (child.cdMode === change_detection_1.ChangeDetectionStrategy.Detached)
+            if (child.cdMode === change_detection_1.ChangeDetectorStatus.Detached)
                 continue;
             child.detectChanges(throwOnChange);
         }
@@ -31155,12 +32954,12 @@ var AppView = (function () {
         this.dirtyParentQueriesInternal();
         this.viewContainerElement = null;
     };
-    AppView.prototype.markAsCheckOnce = function () { this.cdMode = change_detection_1.ChangeDetectionStrategy.CheckOnce; };
+    AppView.prototype.markAsCheckOnce = function () { this.cdMode = change_detection_1.ChangeDetectorStatus.CheckOnce; };
     AppView.prototype.markPathToRootAsCheckOnce = function () {
         var c = this;
-        while (lang_1.isPresent(c) && c.cdMode !== change_detection_1.ChangeDetectionStrategy.Detached) {
-            if (c.cdMode === change_detection_1.ChangeDetectionStrategy.Checked) {
-                c.cdMode = change_detection_1.ChangeDetectionStrategy.CheckOnce;
+        while (lang_1.isPresent(c) && c.cdMode !== change_detection_1.ChangeDetectorStatus.Detached) {
+            if (c.cdMode === change_detection_1.ChangeDetectorStatus.Checked) {
+                c.cdMode = change_detection_1.ChangeDetectorStatus.CheckOnce;
             }
             var parentEl = c.type === view_type_1.ViewType.COMPONENT ? c.declarationAppElement : c.viewContainerElement;
             c = lang_1.isPresent(parentEl) ? parentEl.parentView : null;
@@ -31235,7 +33034,7 @@ var DebugAppView = (function (_super) {
     DebugAppView.prototype._rethrowWithContext = function (e, stack) {
         if (!(e instanceof exceptions_1.ViewWrappedException)) {
             if (!(e instanceof exceptions_1.ExpressionChangedAfterItHasBeenCheckedException)) {
-                this.cdState = change_detection_1.ChangeDetectorState.Errored;
+                this.cdMode = change_detection_1.ChangeDetectorStatus.Errored;
             }
             if (lang_1.isPresent(this._currentDebugContext)) {
                 throw new exceptions_1.ViewWrappedException(e, stack, this._currentDebugContext);
@@ -31280,7 +33079,14 @@ function _findLastRenderNode(node) {
     return lastNode;
 }
 
-},{"../animation/active_animation_players_map":168,"../animation/animation_group_player":171,"../change_detection/change_detection":182,"../facade/async":205,"../facade/collection":207,"../facade/lang":210,"../profile/profile":237,"./debug_context":216,"./element":218,"./element_injector":219,"./exceptions":221,"./view_ref":227,"./view_type":228,"./view_utils":229}],226:[function(require,module,exports){
+},{"../animation/active_animation_players_map":169,"../animation/animation_group_player":172,"../change_detection/change_detection":183,"../facade/async":206,"../facade/collection":208,"../facade/lang":211,"../profile/profile":240,"./debug_context":219,"./element":221,"./element_injector":222,"./exceptions":224,"./view_ref":230,"./view_type":231,"./view_utils":232}],229:[function(require,module,exports){
+/**
+ * @license
+ * Copyright Google Inc. All Rights Reserved.
+ *
+ * Use of this source code is governed by an MIT-style license that can be
+ * found in the LICENSE file at https://angular.io/license
+ */
 "use strict";
 var collection_1 = require('../facade/collection');
 var exceptions_1 = require('../facade/exceptions');
@@ -31435,7 +33241,14 @@ var ViewContainerRef_ = (function () {
 }());
 exports.ViewContainerRef_ = ViewContainerRef_;
 
-},{"../facade/collection":207,"../facade/exceptions":209,"../facade/lang":210,"../profile/profile":237}],227:[function(require,module,exports){
+},{"../facade/collection":208,"../facade/exceptions":210,"../facade/lang":211,"../profile/profile":240}],230:[function(require,module,exports){
+/**
+ * @license
+ * Copyright Google Inc. All Rights Reserved.
+ *
+ * Use of this source code is governed by an MIT-style license that can be
+ * found in the LICENSE file at https://angular.io/license
+ */
 "use strict";
 var __extends = (this && this.__extends) || function (d, b) {
     for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p];
@@ -31558,7 +33371,7 @@ var ViewRef_ = (function () {
         configurable: true
     });
     ViewRef_.prototype.markForCheck = function () { this._view.markPathToRootAsCheckOnce(); };
-    ViewRef_.prototype.detach = function () { this._view.cdMode = constants_1.ChangeDetectionStrategy.Detached; };
+    ViewRef_.prototype.detach = function () { this._view.cdMode = constants_1.ChangeDetectorStatus.Detached; };
     ViewRef_.prototype.detectChanges = function () { this._view.detectChanges(false); };
     ViewRef_.prototype.checkNoChanges = function () { this._view.detectChanges(true); };
     ViewRef_.prototype.reattach = function () {
@@ -31571,7 +33384,14 @@ var ViewRef_ = (function () {
 }());
 exports.ViewRef_ = ViewRef_;
 
-},{"../change_detection/constants":185,"../facade/exceptions":209}],228:[function(require,module,exports){
+},{"../change_detection/constants":186,"../facade/exceptions":210}],231:[function(require,module,exports){
+/**
+ * @license
+ * Copyright Google Inc. All Rights Reserved.
+ *
+ * Use of this source code is governed by an MIT-style license that can be
+ * found in the LICENSE file at https://angular.io/license
+ */
 "use strict";
 (function (ViewType) {
     // A view that contains the host element with bound component directive.
@@ -31586,7 +33406,14 @@ exports.ViewRef_ = ViewRef_;
 })(exports.ViewType || (exports.ViewType = {}));
 var ViewType = exports.ViewType;
 
-},{}],229:[function(require,module,exports){
+},{}],232:[function(require,module,exports){
+/**
+ * @license
+ * Copyright Google Inc. All Rights Reserved.
+ *
+ * Use of this source code is governed by an MIT-style license that can be
+ * found in the LICENSE file at https://angular.io/license
+ */
 "use strict";
 var application_tokens_1 = require('../application_tokens');
 var change_detection_1 = require('../change_detection/change_detection');
@@ -31941,10 +33768,13 @@ function pureProxy10(fn) {
 }
 exports.pureProxy10 = pureProxy10;
 
-},{"../application_tokens":180,"../change_detection/change_detection":182,"../change_detection/change_detection_util":183,"../di/decorators":194,"../facade/collection":207,"../facade/exceptions":209,"../facade/lang":210,"../render/api":245,"../security":246,"./element":218,"./exceptions":221}],230:[function(require,module,exports){
+},{"../application_tokens":181,"../change_detection/change_detection":183,"../change_detection/change_detection_util":184,"../di/decorators":195,"../facade/collection":208,"../facade/exceptions":210,"../facade/lang":211,"../render/api":248,"../security":249,"./element":221,"./exceptions":224}],233:[function(require,module,exports){
 /**
- * This indirection is needed to free up Component, etc symbols in the public API
- * to be used by the decorator versions of these annotations.
+ * @license
+ * Copyright Google Inc. All Rights Reserved.
+ *
+ * Use of this source code is governed by an MIT-style license that can be
+ * found in the LICENSE file at https://angular.io/license
  */
 "use strict";
 var di_1 = require('./metadata/di');
@@ -32261,7 +34091,7 @@ exports.Component = decorators_1.makeDecorator(directives_1.ComponentMetadata, f
  *   overlayManager:OverlayManager; // NOT YET IMPLEMENTED
  *
  *   constructor(overlayManager:OverlayManager) {
- *     this.overlay = overlay;
+ *     this.overlayManager = overlayManager;
  *   }
  *
  *   onMouseEnter() {
@@ -32984,7 +34814,14 @@ exports.HostBinding = decorators_1.makePropDecorator(directives_1.HostBindingMet
  */
 exports.HostListener = decorators_1.makePropDecorator(directives_1.HostListenerMetadata);
 
-},{"./metadata/di":231,"./metadata/directives":232,"./metadata/lifecycle_hooks":233,"./metadata/view":234,"./util/decorators":249}],231:[function(require,module,exports){
+},{"./metadata/di":234,"./metadata/directives":235,"./metadata/lifecycle_hooks":236,"./metadata/view":237,"./util/decorators":252}],234:[function(require,module,exports){
+/**
+ * @license
+ * Copyright Google Inc. All Rights Reserved.
+ *
+ * Use of this source code is governed by an MIT-style license that can be
+ * found in the LICENSE file at https://angular.io/license
+ */
 "use strict";
 var __extends = (this && this.__extends) || function (d, b) {
     for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p];
@@ -33480,7 +35317,14 @@ var ViewChildMetadata = (function (_super) {
 }(ViewQueryMetadata));
 exports.ViewChildMetadata = ViewChildMetadata;
 
-},{"../di/forward_ref":195,"../di/metadata":197,"../facade/lang":210}],232:[function(require,module,exports){
+},{"../di/forward_ref":196,"../di/metadata":198,"../facade/lang":211}],235:[function(require,module,exports){
+/**
+ * @license
+ * Copyright Google Inc. All Rights Reserved.
+ *
+ * Use of this source code is governed by an MIT-style license that can be
+ * found in the LICENSE file at https://angular.io/license
+ */
 "use strict";
 var __extends = (this && this.__extends) || function (d, b) {
     for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p];
@@ -34081,7 +35925,7 @@ exports.DirectiveMetadata = DirectiveMetadata;
 var ComponentMetadata = (function (_super) {
     __extends(ComponentMetadata, _super);
     function ComponentMetadata(_a) {
-        var _b = _a === void 0 ? {} : _a, selector = _b.selector, inputs = _b.inputs, outputs = _b.outputs, properties = _b.properties, events = _b.events, host = _b.host, exportAs = _b.exportAs, moduleId = _b.moduleId, providers = _b.providers, viewProviders = _b.viewProviders, _c = _b.changeDetection, changeDetection = _c === void 0 ? constants_1.ChangeDetectionStrategy.Default : _c, queries = _b.queries, templateUrl = _b.templateUrl, template = _b.template, styleUrls = _b.styleUrls, styles = _b.styles, animations = _b.animations, directives = _b.directives, pipes = _b.pipes, encapsulation = _b.encapsulation, interpolation = _b.interpolation;
+        var _b = _a === void 0 ? {} : _a, selector = _b.selector, inputs = _b.inputs, outputs = _b.outputs, properties = _b.properties, events = _b.events, host = _b.host, exportAs = _b.exportAs, moduleId = _b.moduleId, providers = _b.providers, viewProviders = _b.viewProviders, _c = _b.changeDetection, changeDetection = _c === void 0 ? constants_1.ChangeDetectionStrategy.Default : _c, queries = _b.queries, templateUrl = _b.templateUrl, template = _b.template, styleUrls = _b.styleUrls, styles = _b.styles, animations = _b.animations, directives = _b.directives, pipes = _b.pipes, encapsulation = _b.encapsulation, interpolation = _b.interpolation, precompile = _b.precompile;
         _super.call(this, {
             selector: selector,
             inputs: inputs,
@@ -34105,6 +35949,7 @@ var ComponentMetadata = (function (_super) {
         this.moduleId = moduleId;
         this.animations = animations;
         this.interpolation = interpolation;
+        this.precompile = precompile;
     }
     Object.defineProperty(ComponentMetadata.prototype, "viewProviders", {
         /**
@@ -34374,7 +36219,14 @@ var HostListenerMetadata = (function () {
 }());
 exports.HostListenerMetadata = HostListenerMetadata;
 
-},{"../change_detection/constants":185,"../di/metadata":197,"../facade/lang":210}],233:[function(require,module,exports){
+},{"../change_detection/constants":186,"../di/metadata":198,"../facade/lang":211}],236:[function(require,module,exports){
+/**
+ * @license
+ * Copyright Google Inc. All Rights Reserved.
+ *
+ * Use of this source code is governed by an MIT-style license that can be
+ * found in the LICENSE file at https://angular.io/license
+ */
 "use strict";
 /**
  * @stable
@@ -34887,7 +36739,14 @@ var AfterViewChecked = (function () {
 }());
 exports.AfterViewChecked = AfterViewChecked;
 
-},{}],234:[function(require,module,exports){
+},{}],237:[function(require,module,exports){
+/**
+ * @license
+ * Copyright Google Inc. All Rights Reserved.
+ *
+ * Use of this source code is governed by an MIT-style license that can be
+ * found in the LICENSE file at https://angular.io/license
+ */
 "use strict";
 /**
  * Defines template and style encapsulation options available for Component's {@link View}.
@@ -34948,6 +36807,8 @@ exports.VIEW_ENCAPSULATION_VALUES = [ViewEncapsulation.Emulated, ViewEncapsulati
  * }
  * ```
  * @ts2dart_const
+ *
+ * @experimental You should most likely be using ComponentMetadata instead.
  */
 var ViewMetadata = (function () {
     function ViewMetadata(_a) {
@@ -34966,7 +36827,14 @@ var ViewMetadata = (function () {
 }());
 exports.ViewMetadata = ViewMetadata;
 
-},{}],235:[function(require,module,exports){
+},{}],238:[function(require,module,exports){
+/**
+ * @license
+ * Copyright Google Inc. All Rights Reserved.
+ *
+ * Use of this source code is governed by an MIT-style license that can be
+ * found in the LICENSE file at https://angular.io/license
+ */
 "use strict";
 var application_ref_1 = require('./application_ref');
 var console_1 = require('./console');
@@ -34988,7 +36856,14 @@ exports.PLATFORM_COMMON_PROVIDERS = [
     console_1.Console
 ];
 
-},{"./application_ref":179,"./console":190,"./reflection/reflection":240,"./reflection/reflector_reader":243,"./testability/testability":247}],236:[function(require,module,exports){
+},{"./application_ref":180,"./console":191,"./reflection/reflection":243,"./reflection/reflector_reader":246,"./testability/testability":250}],239:[function(require,module,exports){
+/**
+ * @license
+ * Copyright Google Inc. All Rights Reserved.
+ *
+ * Use of this source code is governed by an MIT-style license that can be
+ * found in the LICENSE file at https://angular.io/license
+ */
 "use strict";
 var di_1 = require('./di');
 /**
@@ -35045,14 +36920,21 @@ exports.PLATFORM_DIRECTIVES =
   */
 exports.PLATFORM_PIPES = new di_1.OpaqueToken('Platform Pipes');
 
-},{"./di":193}],237:[function(require,module,exports){
+},{"./di":194}],240:[function(require,module,exports){
+/**
+ * @license
+ * Copyright Google Inc. All Rights Reserved.
+ *
+ * Use of this source code is governed by an MIT-style license that can be
+ * found in the LICENSE file at https://angular.io/license
+ */
 "use strict";
-var impl = require('./wtf_impl');
+var wtf_impl_1 = require('./wtf_impl');
 // Change exports to const once https://github.com/angular/ts2dart/issues/150
 /**
  * True if WTF is enabled.
  */
-exports.wtfEnabled = impl.detectWTF();
+exports.wtfEnabled = wtf_impl_1.detectWTF();
 function noopScope(arg0, arg1) {
     return null;
 }
@@ -35086,7 +36968,7 @@ function noopScope(arg0, arg1) {
  *
  * @experimental
  */
-exports.wtfCreateScope = exports.wtfEnabled ? impl.createScope : function (signature, flags) { return noopScope; };
+exports.wtfCreateScope = exports.wtfEnabled ? wtf_impl_1.createScope : function (signature, flags) { return noopScope; };
 /**
  * Used to mark end of Scope.
  *
@@ -35096,7 +36978,7 @@ exports.wtfCreateScope = exports.wtfEnabled ? impl.createScope : function (signa
  * Returns the `returnValue for easy chaining.
  * @experimental
  */
-exports.wtfLeave = exports.wtfEnabled ? impl.leave : function (s, r) { return r; };
+exports.wtfLeave = exports.wtfEnabled ? wtf_impl_1.leave : function (s, r) { return r; };
 /**
  * Used to mark Async start. Async are similar to scope but they don't have to be strictly nested.
  * The return value is used in the call to [endAsync]. Async ranges only work if WTF has been
@@ -35110,16 +36992,23 @@ exports.wtfLeave = exports.wtfEnabled ? impl.leave : function (s, r) { return r;
  *     }
  * @experimental
  */
-exports.wtfStartTimeRange = exports.wtfEnabled ? impl.startTimeRange : function (rangeType, action) { return null; };
+exports.wtfStartTimeRange = exports.wtfEnabled ? wtf_impl_1.startTimeRange : function (rangeType, action) { return null; };
 /**
  * Ends a async time range operation.
  * [range] is the return value from [wtfStartTimeRange] Async ranges only work if WTF has been
  * enabled.
  * @experimental
  */
-exports.wtfEndTimeRange = exports.wtfEnabled ? impl.endTimeRange : function (r) { return null; };
+exports.wtfEndTimeRange = exports.wtfEnabled ? wtf_impl_1.endTimeRange : function (r) { return null; };
 
-},{"./wtf_impl":238}],238:[function(require,module,exports){
+},{"./wtf_impl":241}],241:[function(require,module,exports){
+/**
+ * @license
+ * Copyright Google Inc. All Rights Reserved.
+ *
+ * Use of this source code is governed by an MIT-style license that can be
+ * found in the LICENSE file at https://angular.io/license
+ */
 "use strict";
 var lang_1 = require('../facade/lang');
 var trace;
@@ -35155,7 +37044,14 @@ function endTimeRange(range) {
 }
 exports.endTimeRange = endTimeRange;
 
-},{"../facade/lang":210}],239:[function(require,module,exports){
+},{"../facade/lang":211}],242:[function(require,module,exports){
+/**
+ * @license
+ * Copyright Google Inc. All Rights Reserved.
+ *
+ * Use of this source code is governed by an MIT-style license that can be
+ * found in the LICENSE file at https://angular.io/license
+ */
 "use strict";
 /**
  * This is here because DART requires it. It is noop in JS.
@@ -35163,7 +37059,14 @@ exports.endTimeRange = endTimeRange;
 function wtfInit() { }
 exports.wtfInit = wtfInit;
 
-},{}],240:[function(require,module,exports){
+},{}],243:[function(require,module,exports){
+/**
+ * @license
+ * Copyright Google Inc. All Rights Reserved.
+ *
+ * Use of this source code is governed by an MIT-style license that can be
+ * found in the LICENSE file at https://angular.io/license
+ */
 "use strict";
 var reflection_capabilities_1 = require('./reflection_capabilities');
 var reflector_1 = require('./reflector');
@@ -35176,7 +37079,14 @@ exports.Reflector = reflector_2.Reflector;
  */
 exports.reflector = new reflector_1.Reflector(new reflection_capabilities_1.ReflectionCapabilities());
 
-},{"./reflection_capabilities":241,"./reflector":242}],241:[function(require,module,exports){
+},{"./reflection_capabilities":244,"./reflector":245}],244:[function(require,module,exports){
+/**
+ * @license
+ * Copyright Google Inc. All Rights Reserved.
+ *
+ * Use of this source code is governed by an MIT-style license that can be
+ * found in the LICENSE file at https://angular.io/license
+ */
 "use strict";
 var lang_1 = require('../facade/lang');
 var ReflectionCapabilities = (function () {
@@ -35408,7 +37318,14 @@ function convertTsickleDecoratorIntoMetadata(decoratorInvocations) {
     });
 }
 
-},{"../facade/lang":210}],242:[function(require,module,exports){
+},{"../facade/lang":211}],245:[function(require,module,exports){
+/**
+ * @license
+ * Copyright Google Inc. All Rights Reserved.
+ *
+ * Use of this source code is governed by an MIT-style license that can be
+ * found in the LICENSE file at https://angular.io/license
+ */
 "use strict";
 var __extends = (this && this.__extends) || function (d, b) {
     for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p];
@@ -35576,7 +37493,14 @@ function _mergeMaps(target, config) {
     collection_1.StringMapWrapper.forEach(config, function (v, k) { return target.set(k, v); });
 }
 
-},{"../facade/collection":207,"../facade/exceptions":209,"../facade/lang":210,"./reflector_reader":243}],243:[function(require,module,exports){
+},{"../facade/collection":208,"../facade/exceptions":210,"../facade/lang":211,"./reflector_reader":246}],246:[function(require,module,exports){
+/**
+ * @license
+ * Copyright Google Inc. All Rights Reserved.
+ *
+ * Use of this source code is governed by an MIT-style license that can be
+ * found in the LICENSE file at https://angular.io/license
+ */
 "use strict";
 /**
  * Provides read-only access to reflection data about symbols. Used internally by Angular
@@ -35589,7 +37513,14 @@ var ReflectorReader = (function () {
 }());
 exports.ReflectorReader = ReflectorReader;
 
-},{}],244:[function(require,module,exports){
+},{}],247:[function(require,module,exports){
+/**
+ * @license
+ * Copyright Google Inc. All Rights Reserved.
+ *
+ * Use of this source code is governed by an MIT-style license that can be
+ * found in the LICENSE file at https://angular.io/license
+ */
 "use strict";
 // Public API for render
 var api_1 = require('./render/api');
@@ -35597,7 +37528,14 @@ exports.RenderComponentType = api_1.RenderComponentType;
 exports.Renderer = api_1.Renderer;
 exports.RootRenderer = api_1.RootRenderer;
 
-},{"./render/api":245}],245:[function(require,module,exports){
+},{"./render/api":248}],248:[function(require,module,exports){
+/**
+ * @license
+ * Copyright Google Inc. All Rights Reserved.
+ *
+ * Use of this source code is governed by an MIT-style license that can be
+ * found in the LICENSE file at https://angular.io/license
+ */
 "use strict";
 var exceptions_1 = require('../facade/exceptions');
 /**
@@ -35679,7 +37617,14 @@ var RootRenderer = (function () {
 }());
 exports.RootRenderer = RootRenderer;
 
-},{"../facade/exceptions":209}],246:[function(require,module,exports){
+},{"../facade/exceptions":210}],249:[function(require,module,exports){
+/**
+ * @license
+ * Copyright Google Inc. All Rights Reserved.
+ *
+ * Use of this source code is governed by an MIT-style license that can be
+ * found in the LICENSE file at https://angular.io/license
+ */
 "use strict";
 /**
  * A SecurityContext marks a location that has dangerous security implications, e.g. a DOM property
@@ -35687,6 +37632,8 @@ exports.RootRenderer = RootRenderer;
  * handled.
  *
  * See DomSanitizationService for more details on security in Angular applications.
+ *
+ * @stable
  */
 (function (SecurityContext) {
     SecurityContext[SecurityContext["NONE"] = 0] = "NONE";
@@ -35700,6 +37647,8 @@ var SecurityContext = exports.SecurityContext;
 /**
  * SanitizationService is used by the views to sanitize potentially dangerous values. This is a
  * private API, use code should only refer to DomSanitizationService.
+ *
+ * @stable
  */
 var SanitizationService = (function () {
     function SanitizationService() {
@@ -35708,7 +37657,14 @@ var SanitizationService = (function () {
 }());
 exports.SanitizationService = SanitizationService;
 
-},{}],247:[function(require,module,exports){
+},{}],250:[function(require,module,exports){
+/**
+ * @license
+ * Copyright Google Inc. All Rights Reserved.
+ *
+ * Use of this source code is governed by an MIT-style license that can be
+ * found in the LICENSE file at https://angular.io/license
+ */
 "use strict";
 var decorators_1 = require('../di/decorators');
 var async_1 = require('../facade/async');
@@ -35853,13 +37809,27 @@ function setTestabilityGetter(getter) {
 exports.setTestabilityGetter = setTestabilityGetter;
 var _testabilityGetter = new _NoopGetTestability();
 
-},{"../di/decorators":194,"../facade/async":205,"../facade/collection":207,"../facade/exceptions":209,"../facade/lang":210,"../zone/ng_zone":251}],248:[function(require,module,exports){
+},{"../di/decorators":195,"../facade/async":206,"../facade/collection":208,"../facade/exceptions":210,"../facade/lang":211,"../zone/ng_zone":254}],251:[function(require,module,exports){
+/**
+ * @license
+ * Copyright Google Inc. All Rights Reserved.
+ *
+ * Use of this source code is governed by an MIT-style license that can be
+ * found in the LICENSE file at https://angular.io/license
+ */
 "use strict";
 // Public API for util
 var decorators_1 = require('./util/decorators');
 exports.Class = decorators_1.Class;
 
-},{"./util/decorators":249}],249:[function(require,module,exports){
+},{"./util/decorators":252}],252:[function(require,module,exports){
+/**
+ * @license
+ * Copyright Google Inc. All Rights Reserved.
+ *
+ * Use of this source code is governed by an MIT-style license that can be
+ * found in the LICENSE file at https://angular.io/license
+ */
 "use strict";
 var lang_1 = require('../facade/lang');
 var _nextClassId = 0;
@@ -36119,14 +38089,28 @@ function makePropDecorator(annotationCls /** TODO #9100 */) {
 }
 exports.makePropDecorator = makePropDecorator;
 
-},{"../facade/lang":210}],250:[function(require,module,exports){
+},{"../facade/lang":211}],253:[function(require,module,exports){
+/**
+ * @license
+ * Copyright Google Inc. All Rights Reserved.
+ *
+ * Use of this source code is governed by an MIT-style license that can be
+ * found in the LICENSE file at https://angular.io/license
+ */
 "use strict";
 // Public API for Zone
 var ng_zone_1 = require('./zone/ng_zone');
 exports.NgZone = ng_zone_1.NgZone;
 exports.NgZoneError = ng_zone_1.NgZoneError;
 
-},{"./zone/ng_zone":251}],251:[function(require,module,exports){
+},{"./zone/ng_zone":254}],254:[function(require,module,exports){
+/**
+ * @license
+ * Copyright Google Inc. All Rights Reserved.
+ *
+ * Use of this source code is governed by an MIT-style license that can be
+ * found in the LICENSE file at https://angular.io/license
+ */
 "use strict";
 var async_1 = require('../facade/async');
 var exceptions_1 = require('../facade/exceptions');
@@ -36377,7 +38361,14 @@ var NgZone = (function () {
 }());
 exports.NgZone = NgZone;
 
-},{"../facade/async":205,"../facade/exceptions":209,"./ng_zone_impl":252}],252:[function(require,module,exports){
+},{"../facade/async":206,"../facade/exceptions":210,"./ng_zone_impl":255}],255:[function(require,module,exports){
+/**
+ * @license
+ * Copyright Google Inc. All Rights Reserved.
+ *
+ * Use of this source code is governed by an MIT-style license that can be
+ * found in the LICENSE file at https://angular.io/license
+ */
 "use strict";
 /**
  * Stores error information; delivered via [NgZone.onError] stream.
@@ -36464,7 +38455,14 @@ var NgZoneImpl = (function () {
 }());
 exports.NgZoneImpl = NgZoneImpl;
 
-},{}],253:[function(require,module,exports){
+},{}],256:[function(require,module,exports){
+/**
+ * @license
+ * Copyright Google Inc. All Rights Reserved.
+ *
+ * Use of this source code is governed by an MIT-style license that can be
+ * found in the LICENSE file at https://angular.io/license
+ */
 "use strict";
 var browser_jsonp_1 = require('./src/backends/browser_jsonp');
 var browser_xhr_1 = require('./src/backends/browser_xhr');
@@ -36507,6 +38505,7 @@ exports.Request = static_request_1.Request;
 var static_response_1 = require('./src/static_response');
 exports.Response = static_response_1.Response;
 var url_search_params_1 = require('./src/url_search_params');
+exports.QueryEncoder = url_search_params_1.QueryEncoder;
 exports.URLSearchParams = url_search_params_1.URLSearchParams;
 /**
  * Provides a basic set of injectables to use the {@link Http} service in any application.
@@ -36650,6 +38649,8 @@ exports.URLSearchParams = url_search_params_1.URLSearchParams;
  *         useValue: new CookieXSRFStrategy('MY-XSRF-COOKIE-NAME', 'X-MY-XSRF-HEADER-NAME')}])
  *   .catch(err => console.error(err));
  * ```
+ *
+ * @experimental
  */
 exports.HTTP_PROVIDERS = [
     // TODO(pascal): use factory type annotations once supported in DI
@@ -36661,6 +38662,9 @@ exports.HTTP_PROVIDERS = [
     xhr_backend_1.XHRBackend,
     { provide: interfaces_1.XSRFStrategy, useValue: new xhr_backend_1.CookieXSRFStrategy() },
 ];
+/**
+ * @experimental
+ */
 function httpFactory(xhrBackend, requestOptions) {
     return new http_1.Http(xhrBackend, requestOptions);
 }
@@ -36777,6 +38781,8 @@ exports.HTTP_BINDINGS = exports.HTTP_PROVIDERS;
  *   }
  * });
  * ```
+ *
+ * @experimental
  */
 exports.JSONP_PROVIDERS = [
     // TODO(pascal): use factory type annotations once supported in DI
@@ -36797,14 +38803,28 @@ function jsonpFactory(jsonpBackend, requestOptions) {
  */
 exports.JSON_BINDINGS = exports.JSONP_PROVIDERS;
 
-},{"./src/backends/browser_jsonp":255,"./src/backends/browser_xhr":256,"./src/backends/jsonp_backend":257,"./src/backends/xhr_backend":258,"./src/base_request_options":259,"./src/base_response_options":260,"./src/enums":261,"./src/headers":267,"./src/http":268,"./src/interfaces":270,"./src/static_request":271,"./src/static_response":272,"./src/url_search_params":273}],254:[function(require,module,exports){
+},{"./src/backends/browser_jsonp":258,"./src/backends/browser_xhr":259,"./src/backends/jsonp_backend":260,"./src/backends/xhr_backend":261,"./src/base_request_options":262,"./src/base_response_options":263,"./src/enums":264,"./src/headers":270,"./src/http":271,"./src/interfaces":273,"./src/static_request":274,"./src/static_response":275,"./src/url_search_params":276}],257:[function(require,module,exports){
+/**
+ * @license
+ * Copyright Google Inc. All Rights Reserved.
+ *
+ * Use of this source code is governed by an MIT-style license that can be
+ * found in the LICENSE file at https://angular.io/license
+ */
 "use strict";
 function __export(m) {
     for (var p in m) if (!exports.hasOwnProperty(p)) exports[p] = m[p];
 }
 __export(require('./http'));
 
-},{"./http":253}],255:[function(require,module,exports){
+},{"./http":256}],258:[function(require,module,exports){
+/**
+ * @license
+ * Copyright Google Inc. All Rights Reserved.
+ *
+ * Use of this source code is governed by an MIT-style license that can be
+ * found in the LICENSE file at https://angular.io/license
+ */
 "use strict";
 var core_1 = require('@angular/core');
 var lang_1 = require('../facade/lang');
@@ -36852,7 +38872,14 @@ var BrowserJsonp = (function () {
 }());
 exports.BrowserJsonp = BrowserJsonp;
 
-},{"../facade/lang":266,"@angular/core":166}],256:[function(require,module,exports){
+},{"../facade/lang":269,"@angular/core":167}],259:[function(require,module,exports){
+/**
+ * @license
+ * Copyright Google Inc. All Rights Reserved.
+ *
+ * Use of this source code is governed by an MIT-style license that can be
+ * found in the LICENSE file at https://angular.io/license
+ */
 "use strict";
 var core_1 = require('@angular/core');
 var BrowserXhr = (function () {
@@ -36869,7 +38896,14 @@ var BrowserXhr = (function () {
 }());
 exports.BrowserXhr = BrowserXhr;
 
-},{"@angular/core":166}],257:[function(require,module,exports){
+},{"@angular/core":167}],260:[function(require,module,exports){
+/**
+ * @license
+ * Copyright Google Inc. All Rights Reserved.
+ *
+ * Use of this source code is governed by an MIT-style license that can be
+ * found in the LICENSE file at https://angular.io/license
+ */
 "use strict";
 var __extends = (this && this.__extends) || function (d, b) {
     for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p];
@@ -36889,6 +38923,8 @@ var JSONP_ERR_NO_CALLBACK = 'JSONP injected script did not invoke callback.';
 var JSONP_ERR_WRONG_METHOD = 'JSONP requests must use GET request method.';
 /**
  * Abstract base class for an in-flight JSONP request.
+ *
+ * @experimental
  */
 var JSONPConnection = (function () {
     function JSONPConnection() {
@@ -36980,6 +39016,8 @@ var JSONPConnection_ = (function (_super) {
 exports.JSONPConnection_ = JSONPConnection_;
 /**
  * A {@link ConnectionBackend} that uses the JSONP strategy of making requests.
+ *
+ * @experimental
  */
 var JSONPBackend = (function (_super) {
     __extends(JSONPBackend, _super);
@@ -37012,7 +39050,14 @@ var JSONPBackend_ = (function (_super) {
 }(JSONPBackend));
 exports.JSONPBackend_ = JSONPBackend_;
 
-},{"../base_response_options":260,"../enums":261,"../facade/exceptions":265,"../facade/lang":266,"../interfaces":270,"../static_response":272,"./browser_jsonp":255,"@angular/core":166,"rxjs/Observable":526}],258:[function(require,module,exports){
+},{"../base_response_options":263,"../enums":264,"../facade/exceptions":268,"../facade/lang":269,"../interfaces":273,"../static_response":275,"./browser_jsonp":258,"@angular/core":167,"rxjs/Observable":539}],261:[function(require,module,exports){
+/**
+ * @license
+ * Copyright Google Inc. All Rights Reserved.
+ *
+ * Use of this source code is governed by an MIT-style license that can be
+ * found in the LICENSE file at https://angular.io/license
+ */
 "use strict";
 var core_1 = require('@angular/core');
 var platform_browser_1 = require('@angular/platform-browser');
@@ -37033,6 +39078,8 @@ var XSSI_PREFIX = /^\)\]\}',?\n/;
  *
  * This class would typically not be created or interacted with directly inside applications, though
  * the {@link MockConnection} may be interacted with in tests.
+ *
+ * @experimental
  */
 var XHRConnection = (function () {
     function XHRConnection(req, browserXHR, baseResponseOptions) {
@@ -37142,6 +39189,8 @@ exports.XHRConnection = XHRConnection;
  * Applications can configure custom cookie and header names by binding an instance of this class
  * with different `cookieName` and `headerName` values. See the main HTTP documentation for more
  * details.
+ *
+ * @experimental
  */
 var CookieXSRFStrategy = (function () {
     function CookieXSRFStrategy(_cookieName, _headerName) {
@@ -37183,7 +39232,14 @@ var XHRBackend = (function () {
 }());
 exports.XHRBackend = XHRBackend;
 
-},{"../base_response_options":260,"../enums":261,"../facade/lang":266,"../headers":267,"../http_utils":269,"../interfaces":270,"../static_response":272,"./browser_xhr":256,"@angular/core":166,"@angular/platform-browser":286,"rxjs/Observable":526}],259:[function(require,module,exports){
+},{"../base_response_options":263,"../enums":264,"../facade/lang":269,"../headers":270,"../http_utils":272,"../interfaces":273,"../static_response":275,"./browser_xhr":259,"@angular/core":167,"@angular/platform-browser":289,"rxjs/Observable":539}],262:[function(require,module,exports){
+/**
+ * @license
+ * Copyright Google Inc. All Rights Reserved.
+ *
+ * Use of this source code is governed by an MIT-style license that can be
+ * found in the LICENSE file at https://angular.io/license
+ */
 "use strict";
 var __extends = (this && this.__extends) || function (d, b) {
     for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p];
@@ -37219,6 +39275,8 @@ var url_search_params_1 = require('./url_search_params');
  * console.log('req.method:', RequestMethod[req.method]); // Post
  * console.log('options.url:', options.url); // https://google.com
  * ```
+ *
+ * @experimental
  */
 var RequestOptions = (function () {
     function RequestOptions(_a) {
@@ -37290,7 +39348,14 @@ var BaseRequestOptions = (function (_super) {
 }(RequestOptions));
 exports.BaseRequestOptions = BaseRequestOptions;
 
-},{"../src/facade/lang":266,"./enums":261,"./headers":267,"./http_utils":269,"./url_search_params":273,"@angular/core":166}],260:[function(require,module,exports){
+},{"../src/facade/lang":269,"./enums":264,"./headers":270,"./http_utils":272,"./url_search_params":276,"@angular/core":167}],263:[function(require,module,exports){
+/**
+ * @license
+ * Copyright Google Inc. All Rights Reserved.
+ *
+ * Use of this source code is governed by an MIT-style license that can be
+ * found in the LICENSE file at https://angular.io/license
+ */
 "use strict";
 var __extends = (this && this.__extends) || function (d, b) {
     for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p];
@@ -37326,6 +39391,8 @@ var headers_1 = require('./headers');
  *
  * console.log('res.json():', res.json()); // Object {name: "Jeff"}
  * ```
+ *
+ * @experimental
  */
 var ResponseOptions = (function () {
     function ResponseOptions(_a) {
@@ -37391,10 +39458,18 @@ var BaseResponseOptions = (function (_super) {
 }(ResponseOptions));
 exports.BaseResponseOptions = BaseResponseOptions;
 
-},{"../src/facade/lang":266,"./enums":261,"./headers":267,"@angular/core":166}],261:[function(require,module,exports){
+},{"../src/facade/lang":269,"./enums":264,"./headers":270,"@angular/core":167}],264:[function(require,module,exports){
+/**
+ * @license
+ * Copyright Google Inc. All Rights Reserved.
+ *
+ * Use of this source code is governed by an MIT-style license that can be
+ * found in the LICENSE file at https://angular.io/license
+ */
 "use strict";
 /**
  * Supported http methods.
+ * @experimental
  */
 (function (RequestMethod) {
     RequestMethod[RequestMethod["Get"] = 0] = "Get";
@@ -37410,6 +39485,7 @@ var RequestMethod = exports.RequestMethod;
  * All possible states in which a connection can be, based on
  * [States](http://www.w3.org/TR/XMLHttpRequest/#states) from the `XMLHttpRequest` spec, but with an
  * additional "CANCELLED" state.
+ * @experimental
  */
 (function (ReadyState) {
     ReadyState[ReadyState["Unsent"] = 0] = "Unsent";
@@ -37423,6 +39499,7 @@ var ReadyState = exports.ReadyState;
 /**
  * Acceptable response types to be associated with a {@link Response}, based on
  * [ResponseType](https://fetch.spec.whatwg.org/#responsetype) from the Fetch spec.
+ * @experimental
  */
 (function (ResponseType) {
     ResponseType[ResponseType["Basic"] = 0] = "Basic";
@@ -37434,6 +39511,7 @@ var ReadyState = exports.ReadyState;
 var ResponseType = exports.ResponseType;
 /**
  * Supported content type to be automatically associated with a {@link Request}.
+ * @experimental
  */
 (function (ContentType) {
     ContentType[ContentType["NONE"] = 0] = "NONE";
@@ -37446,16 +39524,23 @@ var ResponseType = exports.ResponseType;
 })(exports.ContentType || (exports.ContentType = {}));
 var ContentType = exports.ContentType;
 
-},{}],262:[function(require,module,exports){
+},{}],265:[function(require,module,exports){
 arguments[4][32][0].apply(exports,arguments)
-},{"dup":32}],263:[function(require,module,exports){
+},{"dup":32}],266:[function(require,module,exports){
 arguments[4][33][0].apply(exports,arguments)
-},{"./lang":266,"dup":33}],264:[function(require,module,exports){
+},{"./lang":269,"dup":33}],267:[function(require,module,exports){
 arguments[4][34][0].apply(exports,arguments)
-},{"./base_wrapped_exception":262,"./collection":263,"./lang":266,"dup":34}],265:[function(require,module,exports){
+},{"./base_wrapped_exception":265,"./collection":266,"./lang":269,"dup":34}],268:[function(require,module,exports){
 arguments[4][35][0].apply(exports,arguments)
-},{"./base_wrapped_exception":262,"./exception_handler":264,"dup":35}],266:[function(require,module,exports){
+},{"./base_wrapped_exception":265,"./exception_handler":267,"dup":35}],269:[function(require,module,exports){
 (function (global){
+/**
+ * @license
+ * Copyright Google Inc. All Rights Reserved.
+ *
+ * Use of this source code is governed by an MIT-style license that can be
+ * found in the LICENSE file at https://angular.io/license
+ */
 "use strict";
 var __extends = (this && this.__extends) || function (d, b) {
     for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p];
@@ -37484,6 +39569,14 @@ exports.IS_DART = false;
 // exports the original value of the symbol.
 var _global = globalScope;
 exports.global = _global;
+/**
+ * Runtime representation a type that a Component or other object is instances of.
+ *
+ * An example of a `Type` is `MyCustomComponent` class, which in JavaScript is be represented by
+ * the `MyCustomComponent` constructor function.
+ *
+ * @stable
+ */
 exports.Type = Function;
 function getTypeNameForDebugging(type) {
     if (type['name']) {
@@ -37908,7 +40001,14 @@ exports.escapeRegExp = escapeRegExp;
 
 }).call(this,typeof global !== "undefined" ? global : typeof self !== "undefined" ? self : typeof window !== "undefined" ? window : {})
 
-},{}],267:[function(require,module,exports){
+},{}],270:[function(require,module,exports){
+/**
+ * @license
+ * Copyright Google Inc. All Rights Reserved.
+ *
+ * Use of this source code is governed by an MIT-style license that can be
+ * found in the LICENSE file at https://angular.io/license
+ */
 "use strict";
 var exceptions_1 = require('../src/facade/exceptions');
 var lang_1 = require('../src/facade/lang');
@@ -37938,6 +40038,8 @@ var collection_1 = require('../src/facade/collection');
  * var thirdHeaders = new Headers(secondHeaders);
  * console.log(thirdHeaders.get('X-My-Custom-Header')); //'Angular'
  * ```
+ *
+ * @experimental
  */
 var Headers = (function () {
     function Headers(headers) {
@@ -38044,7 +40146,14 @@ var Headers = (function () {
 }());
 exports.Headers = Headers;
 
-},{"../src/facade/collection":263,"../src/facade/exceptions":265,"../src/facade/lang":266}],268:[function(require,module,exports){
+},{"../src/facade/collection":266,"../src/facade/exceptions":268,"../src/facade/lang":269}],271:[function(require,module,exports){
+/**
+ * @license
+ * Copyright Google Inc. All Rights Reserved.
+ *
+ * Use of this source code is governed by an MIT-style license that can be
+ * found in the LICENSE file at https://angular.io/license
+ */
 "use strict";
 var __extends = (this && this.__extends) || function (d, b) {
     for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p];
@@ -38163,6 +40272,14 @@ var Jsonp = (function (_super) {
      * a {@link Request} instance. If the first argument is a url, an optional {@link RequestOptions}
      * object can be provided as the 2nd argument. The options object will be merged with the values
      * of {@link BaseRequestOptions} before performing the request.
+     *
+     * @security Regular XHR is the safest alternative to JSONP for most applications, and is
+     * supported by all current browsers. Because JSONP creates a `<script>` element with
+     * contents retrieved from a remote source, attacker-controlled data introduced by an untrusted
+     * source could expose your application to XSS risks. Data exposed by JSONP may also be
+     * readable by malicious third-party websites. In addition, JSONP introduces potential risk for
+     * future security issues (e.g. content sniffing).  For more detail, see the
+     * [Security Guide](http://g.co/ng/security).
      */
     Jsonp.prototype.request = function (url, options) {
         var responseObservable;
@@ -38194,7 +40311,14 @@ var Jsonp = (function (_super) {
 }(Http));
 exports.Jsonp = Jsonp;
 
-},{"../src/facade/exceptions":265,"../src/facade/lang":266,"./base_request_options":259,"./enums":261,"./interfaces":270,"./static_request":271,"@angular/core":166}],269:[function(require,module,exports){
+},{"../src/facade/exceptions":268,"../src/facade/lang":269,"./base_request_options":262,"./enums":264,"./interfaces":273,"./static_request":274,"@angular/core":167}],272:[function(require,module,exports){
+/**
+ * @license
+ * Copyright Google Inc. All Rights Reserved.
+ *
+ * Use of this source code is governed by an MIT-style license that can be
+ * found in the LICENSE file at https://angular.io/license
+ */
 "use strict";
 var exceptions_1 = require('../src/facade/exceptions');
 var lang_1 = require('../src/facade/lang');
@@ -38225,13 +40349,22 @@ exports.getResponseURL = getResponseURL;
 var lang_2 = require('../src/facade/lang');
 exports.isJsObject = lang_2.isJsObject;
 
-},{"../src/facade/exceptions":265,"../src/facade/lang":266,"./enums":261}],270:[function(require,module,exports){
+},{"../src/facade/exceptions":268,"../src/facade/lang":269,"./enums":264}],273:[function(require,module,exports){
+/**
+ * @license
+ * Copyright Google Inc. All Rights Reserved.
+ *
+ * Use of this source code is governed by an MIT-style license that can be
+ * found in the LICENSE file at https://angular.io/license
+ */
 "use strict";
 /**
  * Abstract class from which real backends are derived.
  *
  * The primary purpose of a `ConnectionBackend` is to create new connections to fulfill a given
  * {@link Request}.
+ *
+ * @experimental
  */
 var ConnectionBackend = (function () {
     function ConnectionBackend() {
@@ -38241,6 +40374,8 @@ var ConnectionBackend = (function () {
 exports.ConnectionBackend = ConnectionBackend;
 /**
  * Abstract class from which real connections are derived.
+ *
+ * @experimental
  */
 var Connection = (function () {
     function Connection() {
@@ -38248,7 +40383,11 @@ var Connection = (function () {
     return Connection;
 }());
 exports.Connection = Connection;
-/** An XSRFStrategy configures XSRF protection (e.g. via headers) on an HTTP request. */
+/**
+ * An XSRFStrategy configures XSRF protection (e.g. via headers) on an HTTP request.
+ *
+ * @experimental
+ */
 var XSRFStrategy = (function () {
     function XSRFStrategy() {
     }
@@ -38256,7 +40395,14 @@ var XSRFStrategy = (function () {
 }());
 exports.XSRFStrategy = XSRFStrategy;
 
-},{}],271:[function(require,module,exports){
+},{}],274:[function(require,module,exports){
+/**
+ * @license
+ * Copyright Google Inc. All Rights Reserved.
+ *
+ * Use of this source code is governed by an MIT-style license that can be
+ * found in the LICENSE file at https://angular.io/license
+ */
 "use strict";
 var lang_1 = require('../src/facade/lang');
 var enums_1 = require('./enums');
@@ -38300,6 +40446,8 @@ var url_search_params_1 = require('./url_search_params');
  *   console.log('people', res.json());
  * });
  * ```
+ *
+ * @experimental
  */
 var Request = (function () {
     function Request(requestOptions) {
@@ -38417,7 +40565,14 @@ var FormData = w['FormData'] || noop;
 var Blob = w['Blob'] || noop;
 var ArrayBuffer = w['ArrayBuffer'] || noop;
 
-},{"../src/facade/lang":266,"./enums":261,"./headers":267,"./http_utils":269,"./url_search_params":273}],272:[function(require,module,exports){
+},{"../src/facade/lang":269,"./enums":264,"./headers":270,"./http_utils":272,"./url_search_params":276}],275:[function(require,module,exports){
+/**
+ * @license
+ * Copyright Google Inc. All Rights Reserved.
+ *
+ * Use of this source code is governed by an MIT-style license that can be
+ * found in the LICENSE file at https://angular.io/license
+ */
 "use strict";
 var exceptions_1 = require('../src/facade/exceptions');
 var lang_1 = require('../src/facade/lang');
@@ -38439,6 +40594,8 @@ var http_utils_1 = require('./http_utils');
  * Spec](https://fetch.spec.whatwg.org/#response-class), but is considered a static value whose body
  * can be accessed many times. There are other differences in the implementation, but this is the
  * most significant.
+ *
+ * @experimental
  */
 var Response = (function () {
     function Response(responseOptions) {
@@ -38486,7 +40643,14 @@ var Response = (function () {
 }());
 exports.Response = Response;
 
-},{"../src/facade/exceptions":265,"../src/facade/lang":266,"./http_utils":269}],273:[function(require,module,exports){
+},{"../src/facade/exceptions":268,"../src/facade/lang":269,"./http_utils":272}],276:[function(require,module,exports){
+/**
+ * @license
+ * Copyright Google Inc. All Rights Reserved.
+ *
+ * Use of this source code is governed by an MIT-style license that can be
+ * found in the LICENSE file at https://angular.io/license
+ */
 "use strict";
 var collection_1 = require('../src/facade/collection');
 var lang_1 = require('../src/facade/lang');
@@ -38496,7 +40660,7 @@ function paramParser(rawParams) {
     if (rawParams.length > 0) {
         var params = rawParams.split('&');
         params.forEach(function (param) {
-            var split = param.split('=');
+            var split = param.split('=', 2);
             var key = split[0];
             var val = split[1];
             var list = lang_1.isPresent(map.get(key)) ? map.get(key) : [];
@@ -38507,17 +40671,69 @@ function paramParser(rawParams) {
     return map;
 }
 /**
+ * @experimental
+ **/
+var QueryEncoder = (function () {
+    function QueryEncoder() {
+    }
+    QueryEncoder.prototype.encodeKey = function (k) { return standardEncoding(k); };
+    QueryEncoder.prototype.encodeValue = function (v) { return standardEncoding(v); };
+    return QueryEncoder;
+}());
+exports.QueryEncoder = QueryEncoder;
+function standardEncoding(v) {
+    return encodeURIComponent(v)
+        .replace(/%40/gi, '@')
+        .replace(/%3A/gi, ':')
+        .replace(/%24/gi, '$')
+        .replace(/%2C/gi, ',')
+        .replace(/%3B/gi, ';')
+        .replace(/%2B/gi, '+')
+        .replace(/%3D/gi, ';')
+        .replace(/%3F/gi, '?')
+        .replace(/%2F/gi, '/');
+}
+/**
  * Map-like representation of url search parameters, based on
  * [URLSearchParams](https://url.spec.whatwg.org/#urlsearchparams) in the url living standard,
  * with several extensions for merging URLSearchParams objects:
  *   - setAll()
  *   - appendAll()
  *   - replaceAll()
+ *
+ * This class accepts an optional second parameter of ${@link QueryEncoder},
+ * which is used to serialize parameters before making a request. By default,
+ * `QueryEncoder` encodes keys and values of parameters using `encodeURIComponent`,
+ * and then un-encodes certain characters that are allowed to be part of the query
+ * according to IETF RFC 3986: https://tools.ietf.org/html/rfc3986.
+ *
+ * These are the characters that are not encoded: `! $ \' ( ) * + , ; A 9 - . _ ~ ? /`
+ *
+ * If the set of allowed query characters is not acceptable for a particular backend,
+ * `QueryEncoder` can be subclassed and provided as the 2nd argument to URLSearchParams.
+ *
+ * ```
+ * import {URLSearchParams, QueryEncoder} from '@angular/http';
+ * class MyQueryEncoder extends QueryEncoder {
+ *   encodeKey(k: string): string {
+ *     return myEncodingFunction(k);
+ *   }
+ *
+ *   encodeValue(v: string): string {
+ *     return myEncodingFunction(v);
+ *   }
+ * }
+ *
+ * let params = new URLSearchParams('', new MyQueryEncoder());
+ * ```
+ * @experimental
  */
 var URLSearchParams = (function () {
-    function URLSearchParams(rawParams) {
+    function URLSearchParams(rawParams, queryEncoder) {
         if (rawParams === void 0) { rawParams = ''; }
+        if (queryEncoder === void 0) { queryEncoder = new QueryEncoder(); }
         this.rawParams = rawParams;
+        this.queryEncoder = queryEncoder;
         this.paramsMap = paramParser(rawParams);
     }
     URLSearchParams.prototype.clone = function () {
@@ -38606,8 +40822,11 @@ var URLSearchParams = (function () {
         });
     };
     URLSearchParams.prototype.toString = function () {
+        var _this = this;
         var paramsList = [];
-        this.paramsMap.forEach(function (values, k) { values.forEach(function (v) { return paramsList.push(k + '=' + encodeURIComponent(v)); }); });
+        this.paramsMap.forEach(function (values, k) {
+            values.forEach(function (v) { return paramsList.push(_this.queryEncoder.encodeKey(k) + '=' + _this.queryEncoder.encodeValue(v)); });
+        });
         return paramsList.join('&');
     };
     URLSearchParams.prototype.delete = function (param) { this.paramsMap.delete(param); };
@@ -38615,13 +40834,27 @@ var URLSearchParams = (function () {
 }());
 exports.URLSearchParams = URLSearchParams;
 
-},{"../src/facade/collection":263,"../src/facade/lang":266}],274:[function(require,module,exports){
+},{"../src/facade/collection":266,"../src/facade/lang":269}],277:[function(require,module,exports){
+/**
+ * @license
+ * Copyright Google Inc. All Rights Reserved.
+ *
+ * Use of this source code is governed by an MIT-style license that can be
+ * found in the LICENSE file at https://angular.io/license
+ */
 "use strict";
 var core_1 = require('@angular/core');
 exports.ReflectionCapabilities = core_1.__core_private__.ReflectionCapabilities;
 exports.reflector = core_1.__core_private__.reflector;
 
-},{"@angular/core":166}],275:[function(require,module,exports){
+},{"@angular/core":167}],278:[function(require,module,exports){
+/**
+ * @license
+ * Copyright Google Inc. All Rights Reserved.
+ *
+ * Use of this source code is governed by an MIT-style license that can be
+ * found in the LICENSE file at https://angular.io/license
+ */
 "use strict";
 var common_1 = require('@angular/common');
 var compiler_1 = require('@angular/compiler');
@@ -38632,6 +40865,9 @@ var async_1 = require('./src/facade/async');
 var lang_1 = require('./src/facade/lang');
 var xhr_cache_1 = require('./src/xhr/xhr_cache');
 var xhr_impl_1 = require('./src/xhr/xhr_impl');
+/**
+ * @experimental
+ */
 exports.BROWSER_APP_COMPILER_PROVIDERS = [
     compiler_1.COMPILER_PROVIDERS, {
         provide: compiler_1.CompilerConfig,
@@ -38644,6 +40880,9 @@ exports.BROWSER_APP_COMPILER_PROVIDERS = [
     { provide: core_1.PLATFORM_DIRECTIVES, useValue: common_1.COMMON_DIRECTIVES, multi: true },
     { provide: core_1.PLATFORM_PIPES, useValue: common_1.COMMON_PIPES, multi: true }
 ];
+/**
+ * @experimental
+ */
 exports.CACHED_TEMPLATE_PROVIDER = [{ provide: compiler_1.XHR, useClass: xhr_cache_1.CachedXHR }];
 /**
  * Bootstrapping for Angular applications.
@@ -38712,6 +40951,9 @@ exports.CACHED_TEMPLATE_PROVIDER = [{ provide: compiler_1.XHR, useClass: xhr_cac
  *   app injector to override default injection behavior.
  *
  * Returns a `Promise` of {@link ComponentRef}.
+ *
+ * @experimental This api cannot be used with the offline compiler and thus is still subject to
+ * change.
  */
 function bootstrap(appComponentType, customProviders) {
     core_private_1.reflector.reflectionCapabilities = new core_private_1.ReflectionCapabilities();
@@ -38765,18 +41007,25 @@ function bootstrapWorkerApp(appComponentType, customProviders) {
 }
 exports.bootstrapWorkerApp = bootstrapWorkerApp;
 
-},{"./core_private":274,"./src/facade/async":276,"./src/facade/lang":281,"./src/xhr/xhr_cache":283,"./src/xhr/xhr_impl":284,"@angular/common":20,"@angular/compiler":85,"@angular/core":166,"@angular/platform-browser":286}],276:[function(require,module,exports){
+},{"./core_private":277,"./src/facade/async":279,"./src/facade/lang":284,"./src/xhr/xhr_cache":286,"./src/xhr/xhr_impl":287,"@angular/common":20,"@angular/compiler":86,"@angular/core":167,"@angular/platform-browser":289}],279:[function(require,module,exports){
 arguments[4][31][0].apply(exports,arguments)
-},{"./lang":281,"./promise":282,"dup":31,"rxjs/Observable":526,"rxjs/Subject":528,"rxjs/observable/PromiseObservable":532,"rxjs/operator/toPromise":533}],277:[function(require,module,exports){
+},{"./lang":284,"./promise":285,"dup":31,"rxjs/Observable":539,"rxjs/Subject":541,"rxjs/observable/PromiseObservable":545,"rxjs/operator/toPromise":546}],280:[function(require,module,exports){
 arguments[4][32][0].apply(exports,arguments)
-},{"dup":32}],278:[function(require,module,exports){
+},{"dup":32}],281:[function(require,module,exports){
 arguments[4][33][0].apply(exports,arguments)
-},{"./lang":281,"dup":33}],279:[function(require,module,exports){
+},{"./lang":284,"dup":33}],282:[function(require,module,exports){
 arguments[4][34][0].apply(exports,arguments)
-},{"./base_wrapped_exception":277,"./collection":278,"./lang":281,"dup":34}],280:[function(require,module,exports){
+},{"./base_wrapped_exception":280,"./collection":281,"./lang":284,"dup":34}],283:[function(require,module,exports){
 arguments[4][35][0].apply(exports,arguments)
-},{"./base_wrapped_exception":277,"./exception_handler":279,"dup":35}],281:[function(require,module,exports){
+},{"./base_wrapped_exception":280,"./exception_handler":282,"dup":35}],284:[function(require,module,exports){
 (function (global){
+/**
+ * @license
+ * Copyright Google Inc. All Rights Reserved.
+ *
+ * Use of this source code is governed by an MIT-style license that can be
+ * found in the LICENSE file at https://angular.io/license
+ */
 "use strict";
 var __extends = (this && this.__extends) || function (d, b) {
     for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p];
@@ -38805,6 +41054,14 @@ exports.IS_DART = false;
 // exports the original value of the symbol.
 var _global = globalScope;
 exports.global = _global;
+/**
+ * Runtime representation a type that a Component or other object is instances of.
+ *
+ * An example of a `Type` is `MyCustomComponent` class, which in JavaScript is be represented by
+ * the `MyCustomComponent` constructor function.
+ *
+ * @stable
+ */
 exports.Type = Function;
 function getTypeNameForDebugging(type) {
     if (type['name']) {
@@ -39229,9 +41486,16 @@ exports.escapeRegExp = escapeRegExp;
 
 }).call(this,typeof global !== "undefined" ? global : typeof self !== "undefined" ? self : typeof window !== "undefined" ? window : {})
 
-},{}],282:[function(require,module,exports){
+},{}],285:[function(require,module,exports){
 arguments[4][38][0].apply(exports,arguments)
-},{"dup":38}],283:[function(require,module,exports){
+},{"dup":38}],286:[function(require,module,exports){
+/**
+ * @license
+ * Copyright Google Inc. All Rights Reserved.
+ *
+ * Use of this source code is governed by an MIT-style license that can be
+ * found in the LICENSE file at https://angular.io/license
+ */
 "use strict";
 var __extends = (this && this.__extends) || function (d, b) {
     for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p];
@@ -39270,7 +41534,14 @@ var CachedXHR = (function (_super) {
 }(compiler_1.XHR));
 exports.CachedXHR = CachedXHR;
 
-},{"../facade/exceptions":280,"../facade/lang":281,"../facade/promise":282,"@angular/compiler":85}],284:[function(require,module,exports){
+},{"../facade/exceptions":283,"../facade/lang":284,"../facade/promise":285,"@angular/compiler":86}],287:[function(require,module,exports){
+/**
+ * @license
+ * Copyright Google Inc. All Rights Reserved.
+ *
+ * Use of this source code is governed by an MIT-style license that can be
+ * found in the LICENSE file at https://angular.io/license
+ */
 "use strict";
 var __extends = (this && this.__extends) || function (d, b) {
     for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p];
@@ -39317,7 +41588,14 @@ var XHRImpl = (function (_super) {
 }(compiler_1.XHR));
 exports.XHRImpl = XHRImpl;
 
-},{"../facade/lang":281,"../facade/promise":282,"@angular/compiler":85}],285:[function(require,module,exports){
+},{"../facade/lang":284,"../facade/promise":285,"@angular/compiler":86}],288:[function(require,module,exports){
+/**
+ * @license
+ * Copyright Google Inc. All Rights Reserved.
+ *
+ * Use of this source code is governed by an MIT-style license that can be
+ * found in the LICENSE file at https://angular.io/license
+ */
 "use strict";
 var core_1 = require('@angular/core');
 exports.RenderDebugInfo = core_1.__core_private__.RenderDebugInfo;
@@ -39325,6 +41603,10 @@ exports.wtfInit = core_1.__core_private__.wtfInit;
 exports.ReflectionCapabilities = core_1.__core_private__.ReflectionCapabilities;
 exports.VIEW_ENCAPSULATION_VALUES = core_1.__core_private__.VIEW_ENCAPSULATION_VALUES;
 exports.DebugDomRootRenderer = core_1.__core_private__.DebugDomRootRenderer;
+/**
+ * @experimental bogus marker to pass the ts-api-guardian's check - this api should be public so
+ * this line will go away when that happens
+ */
 exports.SecurityContext = core_1.__core_private__.SecurityContext;
 exports.SanitizationService = core_1.__core_private__.SanitizationService;
 exports.reflector = core_1.__core_private__.reflector;
@@ -39342,7 +41624,14 @@ exports.flattenStyles = core_1.__core_private__.flattenStyles;
 exports.clearStyles = core_1.__core_private__.clearStyles;
 exports.collectAndResolveStyles = core_1.__core_private__.collectAndResolveStyles;
 
-},{"@angular/core":166}],286:[function(require,module,exports){
+},{"@angular/core":167}],289:[function(require,module,exports){
+/**
+ * @license
+ * Copyright Google Inc. All Rights Reserved.
+ *
+ * Use of this source code is governed by an MIT-style license that can be
+ * found in the LICENSE file at https://angular.io/license
+ */
 "use strict";
 function __export(m) {
     for (var p in m) if (!exports.hasOwnProperty(p)) exports[p] = m[p];
@@ -39356,20 +41645,14 @@ exports.disableDebugTools = tools_1.disableDebugTools;
 exports.enableDebugTools = tools_1.enableDebugTools;
 var by_1 = require('./src/dom/debug/by');
 exports.By = by_1.By;
-var ng_probe_1 = require('./src/dom/debug/ng_probe');
-exports.ELEMENT_PROBE_PROVIDERS = ng_probe_1.ELEMENT_PROBE_PROVIDERS;
 var dom_tokens_1 = require('./src/dom/dom_tokens');
 exports.DOCUMENT = dom_tokens_1.DOCUMENT;
-var dom_events_1 = require('./src/dom/events/dom_events');
-exports.DomEventsPlugin = dom_events_1.DomEventsPlugin;
 var event_manager_1 = require('./src/dom/events/event_manager');
 exports.EVENT_MANAGER_PLUGINS = event_manager_1.EVENT_MANAGER_PLUGINS;
 exports.EventManager = event_manager_1.EventManager;
 var hammer_gestures_1 = require('./src/dom/events/hammer_gestures');
 exports.HAMMER_GESTURE_CONFIG = hammer_gestures_1.HAMMER_GESTURE_CONFIG;
 exports.HammerGestureConfig = hammer_gestures_1.HammerGestureConfig;
-var key_events_1 = require('./src/dom/events/key_events');
-exports.KeyEventsPlugin = key_events_1.KeyEventsPlugin;
 var dom_sanitization_service_1 = require('./src/security/dom_sanitization_service');
 exports.DomSanitizationService = dom_sanitization_service_1.DomSanitizationService;
 exports.SecurityContext = dom_sanitization_service_1.SecurityContext;
@@ -39394,14 +41677,20 @@ exports.WORKER_UI_LOCATION_PROVIDERS = location_providers_2.WORKER_UI_LOCATION_P
 __export(require('./src/worker_render'));
 __export(require('./src/worker_app'));
 __export(require('./private_export'));
-var browser_2 = require('./src/browser');
-/* @deprecated use BROWSER_PLATFORM_PROVIDERS */
-exports.BROWSER_PROVIDERS = browser_2.BROWSER_PLATFORM_PROVIDERS;
 
-},{"./private_export":287,"./src/browser":288,"./src/browser/location/browser_platform_location":291,"./src/browser/title":294,"./src/browser/tools/tools":296,"./src/dom/debug/by":297,"./src/dom/debug/ng_probe":298,"./src/dom/dom_tokens":301,"./src/dom/events/dom_events":302,"./src/dom/events/event_manager":303,"./src/dom/events/hammer_gestures":305,"./src/dom/events/key_events":306,"./src/security/dom_sanitization_service":319,"./src/web_workers/shared/client_message_broker":324,"./src/web_workers/shared/message_bus":325,"./src/web_workers/shared/serializer":330,"./src/web_workers/shared/service_message_broker":331,"./src/web_workers/ui/location_providers":334,"./src/web_workers/worker/location_providers":338,"./src/worker_app":342,"./src/worker_render":343}],287:[function(require,module,exports){
+},{"./private_export":290,"./src/browser":291,"./src/browser/location/browser_platform_location":294,"./src/browser/title":297,"./src/browser/tools/tools":299,"./src/dom/debug/by":300,"./src/dom/dom_tokens":304,"./src/dom/events/event_manager":306,"./src/dom/events/hammer_gestures":308,"./src/security/dom_sanitization_service":322,"./src/web_workers/shared/client_message_broker":327,"./src/web_workers/shared/message_bus":328,"./src/web_workers/shared/serializer":333,"./src/web_workers/shared/service_message_broker":334,"./src/web_workers/ui/location_providers":337,"./src/web_workers/worker/location_providers":341,"./src/worker_app":345,"./src/worker_render":346}],290:[function(require,module,exports){
+/**
+ * @license
+ * Copyright Google Inc. All Rights Reserved.
+ *
+ * Use of this source code is governed by an MIT-style license that can be
+ * found in the LICENSE file at https://angular.io/license
+ */
 "use strict";
+var ng_proble = require('./src/dom/debug/ng_probe');
 var dom_adapter = require('./src/dom/dom_adapter');
 var dom_renderer = require('./src/dom/dom_renderer');
+var dom_events = require('./src/dom/events/dom_events');
 var shared_styles_host = require('./src/dom/shared_styles_host');
 exports.__platform_browser_private__ = {
     DomAdapter: dom_adapter.DomAdapter,
@@ -39410,10 +41699,19 @@ exports.__platform_browser_private__ = {
     DomRootRenderer: dom_renderer.DomRootRenderer,
     DomRootRenderer_: dom_renderer.DomRootRenderer_,
     DomSharedStylesHost: shared_styles_host.DomSharedStylesHost,
-    SharedStylesHost: shared_styles_host.SharedStylesHost
+    SharedStylesHost: shared_styles_host.SharedStylesHost,
+    ELEMENT_PROBE_PROVIDERS: ng_proble.ELEMENT_PROBE_PROVIDERS,
+    DomEventsPlugin: dom_events.DomEventsPlugin
 };
 
-},{"./src/dom/dom_adapter":299,"./src/dom/dom_renderer":300,"./src/dom/shared_styles_host":307}],288:[function(require,module,exports){
+},{"./src/dom/debug/ng_probe":301,"./src/dom/dom_adapter":302,"./src/dom/dom_renderer":303,"./src/dom/events/dom_events":305,"./src/dom/shared_styles_host":310}],291:[function(require,module,exports){
+/**
+ * @license
+ * Copyright Google Inc. All Rights Reserved.
+ *
+ * Use of this source code is governed by an MIT-style license that can be
+ * found in the LICENSE file at https://angular.io/license
+ */
 "use strict";
 var common_1 = require('@angular/common');
 var core_1 = require('@angular/core');
@@ -39438,12 +41736,20 @@ var BROWSER_PLATFORM_MARKER = new core_1.OpaqueToken('BrowserPlatformMarker');
  * A set of providers to initialize the Angular platform in a web browser.
  *
  * Used automatically by `bootstrap`, or can be passed to {@link platform}.
+ *
+ * @experimental API related to bootstrapping are still under review.
  */
 exports.BROWSER_PLATFORM_PROVIDERS = [
     { provide: BROWSER_PLATFORM_MARKER, useValue: true }, core_1.PLATFORM_COMMON_PROVIDERS,
     { provide: core_1.PLATFORM_INITIALIZER, useValue: initDomAdapter, multi: true },
     { provide: common_1.PlatformLocation, useClass: browser_platform_location_1.BrowserPlatformLocation }
 ];
+/**
+ * @security Replacing built-in sanitization providers exposes the application to XSS risks.
+ * Attacker-controlled data introduced by an unsanitized provider could expose your
+ * application to XSS risks. For more detail, see the [Security Guide](http://g.co/ng/security).
+ * @experimental
+ */
 exports.BROWSER_SANITIZATION_PROVIDERS = [
     { provide: core_private_1.SanitizationService, useExisting: dom_sanitization_service_1.DomSanitizationService },
     { provide: dom_sanitization_service_1.DomSanitizationService, useClass: dom_sanitization_service_1.DomSanitizationServiceImpl },
@@ -39452,6 +41758,8 @@ exports.BROWSER_SANITIZATION_PROVIDERS = [
  * A set of providers to initialize an Angular application in a web browser.
  *
  * Used automatically by `bootstrap`, or can be passed to {@link PlatformRef.application}.
+ *
+ * @experimental API related to bootstrapping are still under review.
  */
 exports.BROWSER_APP_PROVIDERS = [
     core_1.APPLICATION_COMMON_PROVIDERS, common_1.FORM_PROVIDERS, exports.BROWSER_SANITIZATION_PROVIDERS,
@@ -39467,6 +41775,9 @@ exports.BROWSER_APP_PROVIDERS = [
     { provide: core_private_1.AnimationDriver, useFactory: _resolveDefaultAnimationDriver }, shared_styles_host_1.DomSharedStylesHost,
     core_1.Testability, event_manager_1.EventManager, ng_probe_1.ELEMENT_PROBE_PROVIDERS
 ];
+/**
+ * @experimental API related to bootstrapping are still under review.
+ */
 function browserPlatform() {
     if (lang_1.isBlank(core_1.getPlatform())) {
         core_1.createPlatform(core_1.ReflectiveInjector.resolveAndCreate(exports.BROWSER_PLATFORM_PROVIDERS));
@@ -39492,7 +41803,14 @@ function _resolveDefaultAnimationDriver() {
     return new core_private_1.NoOpAnimationDriver();
 }
 
-},{"../core_private":285,"../src/dom/web_animations_driver":309,"./browser/browser_adapter":289,"./browser/location/browser_platform_location":291,"./browser/testability":293,"./dom/debug/ng_probe":298,"./dom/dom_adapter":299,"./dom/dom_renderer":300,"./dom/dom_tokens":301,"./dom/events/dom_events":302,"./dom/events/event_manager":303,"./dom/events/hammer_gestures":305,"./dom/events/key_events":306,"./dom/shared_styles_host":307,"./facade/lang":317,"./security/dom_sanitization_service":319,"@angular/common":20,"@angular/core":166}],289:[function(require,module,exports){
+},{"../core_private":288,"../src/dom/web_animations_driver":312,"./browser/browser_adapter":292,"./browser/location/browser_platform_location":294,"./browser/testability":296,"./dom/debug/ng_probe":301,"./dom/dom_adapter":302,"./dom/dom_renderer":303,"./dom/dom_tokens":304,"./dom/events/dom_events":305,"./dom/events/event_manager":306,"./dom/events/hammer_gestures":308,"./dom/events/key_events":309,"./dom/shared_styles_host":310,"./facade/lang":320,"./security/dom_sanitization_service":322,"@angular/common":20,"@angular/core":167}],292:[function(require,module,exports){
+/**
+ * @license
+ * Copyright Google Inc. All Rights Reserved.
+ *
+ * Use of this source code is governed by an MIT-style license that can be
+ * found in the LICENSE file at https://angular.io/license
+ */
 "use strict";
 var __extends = (this && this.__extends) || function (d, b) {
     for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p];
@@ -39957,7 +42275,14 @@ function parseCookieValue(cookie, name) {
 }
 exports.parseCookieValue = parseCookieValue;
 
-},{"../dom/dom_adapter":299,"../facade/collection":314,"../facade/lang":317,"./generic_browser_adapter":290}],290:[function(require,module,exports){
+},{"../dom/dom_adapter":302,"../facade/collection":317,"../facade/lang":320,"./generic_browser_adapter":293}],293:[function(require,module,exports){
+/**
+ * @license
+ * Copyright Google Inc. All Rights Reserved.
+ *
+ * Use of this source code is governed by an MIT-style license that can be
+ * found in the LICENSE file at https://angular.io/license
+ */
 "use strict";
 var __extends = (this && this.__extends) || function (d, b) {
     for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p];
@@ -40027,7 +42352,14 @@ var GenericBrowserDomAdapter = (function (_super) {
 }(dom_adapter_1.DomAdapter));
 exports.GenericBrowserDomAdapter = GenericBrowserDomAdapter;
 
-},{"../dom/dom_adapter":299,"../facade/collection":314,"../facade/lang":317}],291:[function(require,module,exports){
+},{"../dom/dom_adapter":302,"../facade/collection":317,"../facade/lang":320}],294:[function(require,module,exports){
+/**
+ * @license
+ * Copyright Google Inc. All Rights Reserved.
+ *
+ * Use of this source code is governed by an MIT-style license that can be
+ * found in the LICENSE file at https://angular.io/license
+ */
 "use strict";
 var __extends = (this && this.__extends) || function (d, b) {
     for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p];
@@ -40107,14 +42439,28 @@ var BrowserPlatformLocation = (function (_super) {
 }(common_1.PlatformLocation));
 exports.BrowserPlatformLocation = BrowserPlatformLocation;
 
-},{"../../dom/dom_adapter":299,"./history":292,"@angular/common":20,"@angular/core":166}],292:[function(require,module,exports){
+},{"../../dom/dom_adapter":302,"./history":295,"@angular/common":20,"@angular/core":167}],295:[function(require,module,exports){
+/**
+ * @license
+ * Copyright Google Inc. All Rights Reserved.
+ *
+ * Use of this source code is governed by an MIT-style license that can be
+ * found in the LICENSE file at https://angular.io/license
+ */
 "use strict";
 function supportsState() {
     return !!window.history.pushState;
 }
 exports.supportsState = supportsState;
 
-},{}],293:[function(require,module,exports){
+},{}],296:[function(require,module,exports){
+/**
+ * @license
+ * Copyright Google Inc. All Rights Reserved.
+ *
+ * Use of this source code is governed by an MIT-style license that can be
+ * found in the LICENSE file at https://angular.io/license
+ */
 "use strict";
 var core_1 = require('@angular/core');
 var dom_adapter_1 = require('../dom/dom_adapter');
@@ -40192,7 +42538,14 @@ var BrowserGetTestability = (function () {
 }());
 exports.BrowserGetTestability = BrowserGetTestability;
 
-},{"../dom/dom_adapter":299,"../facade/collection":314,"../facade/lang":317,"@angular/core":166}],294:[function(require,module,exports){
+},{"../dom/dom_adapter":302,"../facade/collection":317,"../facade/lang":320,"@angular/core":167}],297:[function(require,module,exports){
+/**
+ * @license
+ * Copyright Google Inc. All Rights Reserved.
+ *
+ * Use of this source code is governed by an MIT-style license that can be
+ * found in the LICENSE file at https://angular.io/license
+ */
 "use strict";
 var dom_adapter_1 = require('../dom/dom_adapter');
 /**
@@ -40222,7 +42575,14 @@ var Title = (function () {
 }());
 exports.Title = Title;
 
-},{"../dom/dom_adapter":299}],295:[function(require,module,exports){
+},{"../dom/dom_adapter":302}],298:[function(require,module,exports){
+/**
+ * @license
+ * Copyright Google Inc. All Rights Reserved.
+ *
+ * Use of this source code is governed by an MIT-style license that can be
+ * found in the LICENSE file at https://angular.io/license
+ */
 "use strict";
 var core_1 = require('@angular/core');
 var dom_adapter_1 = require('../../dom/dom_adapter');
@@ -40302,7 +42662,14 @@ var AngularProfiler = (function () {
 }());
 exports.AngularProfiler = AngularProfiler;
 
-},{"../../dom/dom_adapter":299,"../../facade/browser":313,"../../facade/lang":317,"@angular/core":166}],296:[function(require,module,exports){
+},{"../../dom/dom_adapter":302,"../../facade/browser":316,"../../facade/lang":320,"@angular/core":167}],299:[function(require,module,exports){
+/**
+ * @license
+ * Copyright Google Inc. All Rights Reserved.
+ *
+ * Use of this source code is governed by an MIT-style license that can be
+ * found in the LICENSE file at https://angular.io/license
+ */
 "use strict";
 var lang_1 = require('../../facade/lang');
 var common_tools_1 = require('./common_tools');
@@ -40317,6 +42684,8 @@ var context = lang_1.global;
  * 1. Type `ng.` (usually the console will show auto-complete suggestion)
  * 1. Try the change detection profiler `ng.profiler.timeChangeDetection()`
  *    then hit Enter.
+ *
+ * @experimental All debugging apis are currently experimental.
  */
 function enableDebugTools(ref) {
     context.ng = new common_tools_1.AngularTools(ref);
@@ -40325,18 +42694,29 @@ function enableDebugTools(ref) {
 exports.enableDebugTools = enableDebugTools;
 /**
  * Disables Angular 2 tools.
+ *
+ * @experimental All debugging apis are currently experimental.
  */
 function disableDebugTools() {
     delete context.ng;
 }
 exports.disableDebugTools = disableDebugTools;
 
-},{"../../facade/lang":317,"./common_tools":295}],297:[function(require,module,exports){
+},{"../../facade/lang":320,"./common_tools":298}],300:[function(require,module,exports){
+/**
+ * @license
+ * Copyright Google Inc. All Rights Reserved.
+ *
+ * Use of this source code is governed by an MIT-style license that can be
+ * found in the LICENSE file at https://angular.io/license
+ */
 "use strict";
 var dom_adapter_1 = require('../../dom/dom_adapter');
 var lang_1 = require('../../facade/lang');
 /**
  * Predicates for use with {@link DebugElement}'s query functions.
+ *
+ * @experimental All debugging apis are currently experimental.
  */
 var By = (function () {
     function By() {
@@ -40377,7 +42757,14 @@ var By = (function () {
 }());
 exports.By = By;
 
-},{"../../dom/dom_adapter":299,"../../facade/lang":317}],298:[function(require,module,exports){
+},{"../../dom/dom_adapter":302,"../../facade/lang":320}],301:[function(require,module,exports){
+/**
+ * @license
+ * Copyright Google Inc. All Rights Reserved.
+ *
+ * Use of this source code is governed by an MIT-style license that can be
+ * found in the LICENSE file at https://angular.io/license
+ */
 "use strict";
 var core_1 = require('@angular/core');
 var core_private_1 = require('../../../core_private');
@@ -40415,7 +42802,14 @@ function _createRootRenderer(rootRenderer /** TODO #9100 */) {
 exports.ELEMENT_PROBE_PROVIDERS = [{ provide: core_1.RootRenderer, useFactory: _createConditionalRootRenderer, deps: [dom_renderer_1.DomRootRenderer] }];
 exports.ELEMENT_PROBE_PROVIDERS_PROD_MODE = [{ provide: core_1.RootRenderer, useFactory: _createRootRenderer, deps: [dom_renderer_1.DomRootRenderer] }];
 
-},{"../../../core_private":285,"../dom_adapter":299,"../dom_renderer":300,"@angular/core":166}],299:[function(require,module,exports){
+},{"../../../core_private":288,"../dom_adapter":302,"../dom_renderer":303,"@angular/core":167}],302:[function(require,module,exports){
+/**
+ * @license
+ * Copyright Google Inc. All Rights Reserved.
+ *
+ * Use of this source code is governed by an MIT-style license that can be
+ * found in the LICENSE file at https://angular.io/license
+ */
 "use strict";
 var lang_1 = require('../facade/lang');
 var _DOM = null;
@@ -40459,7 +42853,14 @@ var DomAdapter = (function () {
 }());
 exports.DomAdapter = DomAdapter;
 
-},{"../facade/lang":317}],300:[function(require,module,exports){
+},{"../facade/lang":320}],303:[function(require,module,exports){
+/**
+ * @license
+ * Copyright Google Inc. All Rights Reserved.
+ *
+ * Use of this source code is governed by an MIT-style license that can be
+ * found in the LICENSE file at https://angular.io/license
+ */
 "use strict";
 var __extends = (this && this.__extends) || function (d, b) {
     for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p];
@@ -40477,7 +42878,8 @@ var dom_adapter_1 = require('./dom_adapter');
 var util_1 = require('./util');
 var NAMESPACE_URIS = {
     'xlink': 'http://www.w3.org/1999/xlink',
-    'svg': 'http://www.w3.org/2000/svg'
+    'svg': 'http://www.w3.org/2000/svg',
+    'xhtml': 'http://www.w3.org/1999/xhtml'
 };
 var TEMPLATE_COMMENT_TEXT = 'template bindings={}';
 var TEMPLATE_BINDINGS_EXP = /^template bindings=(.*)$/g;
@@ -40744,7 +43146,14 @@ function splitNamespace(name) {
     return [match[1], match[2]];
 }
 
-},{"../../core_private":285,"../facade/exceptions":316,"../facade/lang":317,"./dom_adapter":299,"./dom_tokens":301,"./events/event_manager":303,"./shared_styles_host":307,"./util":308,"@angular/core":166}],301:[function(require,module,exports){
+},{"../../core_private":288,"../facade/exceptions":319,"../facade/lang":320,"./dom_adapter":302,"./dom_tokens":304,"./events/event_manager":306,"./shared_styles_host":310,"./util":311,"@angular/core":167}],304:[function(require,module,exports){
+/**
+ * @license
+ * Copyright Google Inc. All Rights Reserved.
+ *
+ * Use of this source code is governed by an MIT-style license that can be
+ * found in the LICENSE file at https://angular.io/license
+ */
 "use strict";
 var core_1 = require('@angular/core');
 /**
@@ -40752,10 +43161,19 @@ var core_1 = require('@angular/core');
  *
  * Note: Document might not be available in the Application Context when Application and Rendering
  * Contexts are not the same (e.g. when running the application into a Web Worker).
+ *
+ * @stable
  */
 exports.DOCUMENT = new core_1.OpaqueToken('DocumentToken');
 
-},{"@angular/core":166}],302:[function(require,module,exports){
+},{"@angular/core":167}],305:[function(require,module,exports){
+/**
+ * @license
+ * Copyright Google Inc. All Rights Reserved.
+ *
+ * Use of this source code is governed by an MIT-style license that can be
+ * found in the LICENSE file at https://angular.io/license
+ */
 "use strict";
 var __extends = (this && this.__extends) || function (d, b) {
     for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p];
@@ -40792,11 +43210,21 @@ var DomEventsPlugin = (function (_super) {
 }(event_manager_1.EventManagerPlugin));
 exports.DomEventsPlugin = DomEventsPlugin;
 
-},{"../dom_adapter":299,"./event_manager":303,"@angular/core":166}],303:[function(require,module,exports){
+},{"../dom_adapter":302,"./event_manager":306,"@angular/core":167}],306:[function(require,module,exports){
+/**
+ * @license
+ * Copyright Google Inc. All Rights Reserved.
+ *
+ * Use of this source code is governed by an MIT-style license that can be
+ * found in the LICENSE file at https://angular.io/license
+ */
 "use strict";
 var core_1 = require('@angular/core');
 var collection_1 = require('../../facade/collection');
 var exceptions_1 = require('../../facade/exceptions');
+/**
+ * @stable
+ */
 exports.EVENT_MANAGER_PLUGINS = new core_1.OpaqueToken('EventManagerPlugins');
 var EventManager = (function () {
     function EventManager(plugins, _zone) {
@@ -40852,7 +43280,14 @@ var EventManagerPlugin = (function () {
 }());
 exports.EventManagerPlugin = EventManagerPlugin;
 
-},{"../../facade/collection":314,"../../facade/exceptions":316,"@angular/core":166}],304:[function(require,module,exports){
+},{"../../facade/collection":317,"../../facade/exceptions":319,"@angular/core":167}],307:[function(require,module,exports){
+/**
+ * @license
+ * Copyright Google Inc. All Rights Reserved.
+ *
+ * Use of this source code is governed by an MIT-style license that can be
+ * found in the LICENSE file at https://angular.io/license
+ */
 "use strict";
 var __extends = (this && this.__extends) || function (d, b) {
     for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p];
@@ -40911,7 +43346,14 @@ var HammerGesturesPluginCommon = (function (_super) {
 }(event_manager_1.EventManagerPlugin));
 exports.HammerGesturesPluginCommon = HammerGesturesPluginCommon;
 
-},{"../../facade/collection":314,"./event_manager":303}],305:[function(require,module,exports){
+},{"../../facade/collection":317,"./event_manager":306}],308:[function(require,module,exports){
+/**
+ * @license
+ * Copyright Google Inc. All Rights Reserved.
+ *
+ * Use of this source code is governed by an MIT-style license that can be
+ * found in the LICENSE file at https://angular.io/license
+ */
 "use strict";
 var __extends = (this && this.__extends) || function (d, b) {
     for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p];
@@ -40922,6 +43364,12 @@ var core_1 = require('@angular/core');
 var exceptions_1 = require('../../facade/exceptions');
 var lang_1 = require('../../facade/lang');
 var hammer_common_1 = require('./hammer_common');
+/**
+ * A DI token that you can use to provide{@link HammerGestureConfig} to Angular. Use it to configure
+ * Hammer gestures.
+ *
+ * @experimental
+ */
 exports.HAMMER_GESTURE_CONFIG = new core_1.OpaqueToken('HammerGestureConfig');
 var HammerGestureConfig = (function () {
     function HammerGestureConfig() {
@@ -40985,7 +43433,14 @@ var HammerGesturesPlugin = (function (_super) {
 }(hammer_common_1.HammerGesturesPluginCommon));
 exports.HammerGesturesPlugin = HammerGesturesPlugin;
 
-},{"../../facade/exceptions":316,"../../facade/lang":317,"./hammer_common":304,"@angular/core":166}],306:[function(require,module,exports){
+},{"../../facade/exceptions":319,"../../facade/lang":320,"./hammer_common":307,"@angular/core":167}],309:[function(require,module,exports){
+/**
+ * @license
+ * Copyright Google Inc. All Rights Reserved.
+ *
+ * Use of this source code is governed by an MIT-style license that can be
+ * found in the LICENSE file at https://angular.io/license
+ */
 "use strict";
 var __extends = (this && this.__extends) || function (d, b) {
     for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p];
@@ -41093,7 +43548,14 @@ var KeyEventsPlugin = (function (_super) {
 }(event_manager_1.EventManagerPlugin));
 exports.KeyEventsPlugin = KeyEventsPlugin;
 
-},{"../../facade/collection":314,"../../facade/lang":317,"../dom_adapter":299,"./event_manager":303,"@angular/core":166}],307:[function(require,module,exports){
+},{"../../facade/collection":317,"../../facade/lang":320,"../dom_adapter":302,"./event_manager":306,"@angular/core":167}],310:[function(require,module,exports){
+/**
+ * @license
+ * Copyright Google Inc. All Rights Reserved.
+ *
+ * Use of this source code is governed by an MIT-style license that can be
+ * found in the LICENSE file at https://angular.io/license
+ */
 "use strict";
 var __extends = (this && this.__extends) || function (d, b) {
     for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p];
@@ -41169,7 +43631,14 @@ var DomSharedStylesHost = (function (_super) {
 }(SharedStylesHost));
 exports.DomSharedStylesHost = DomSharedStylesHost;
 
-},{"../facade/collection":314,"./dom_adapter":299,"./dom_tokens":301,"@angular/core":166}],308:[function(require,module,exports){
+},{"../facade/collection":317,"./dom_adapter":302,"./dom_tokens":304,"@angular/core":167}],311:[function(require,module,exports){
+/**
+ * @license
+ * Copyright Google Inc. All Rights Reserved.
+ *
+ * Use of this source code is governed by an MIT-style license that can be
+ * found in the LICENSE file at https://angular.io/license
+ */
 "use strict";
 var lang_1 = require('../facade/lang');
 var CAMEL_CASE_REGEXP = /([A-Z])/g;
@@ -41183,7 +43652,14 @@ function dashCaseToCamelCase(input) {
 }
 exports.dashCaseToCamelCase = dashCaseToCamelCase;
 
-},{"../facade/lang":317}],309:[function(require,module,exports){
+},{"../facade/lang":320}],312:[function(require,module,exports){
+/**
+ * @license
+ * Copyright Google Inc. All Rights Reserved.
+ *
+ * Use of this source code is governed by an MIT-style license that can be
+ * found in the LICENSE file at https://angular.io/license
+ */
 "use strict";
 var core_1 = require('@angular/core');
 var collection_1 = require('../facade/collection');
@@ -41220,6 +43696,7 @@ var WebAnimationsDriver = (function () {
         var playerOptions = {
             'duration': duration,
             'delay': delay,
+            'easing': easing,
             'fill': 'both' // we use `both` because it allows for styling at 0% to work with `delay`
         };
         var player = this._triggerWebAnimation(anyElm, formattedSteps, playerOptions);
@@ -41312,7 +43789,14 @@ function _computeStyle(element, prop) {
     return dom_adapter_1.getDOM().getComputedStyle(element)[prop];
 }
 
-},{"../facade/collection":314,"../facade/lang":317,"./dom_adapter":299,"./util":308,"./web_animations_player":310,"@angular/core":166}],310:[function(require,module,exports){
+},{"../facade/collection":317,"../facade/lang":320,"./dom_adapter":302,"./util":311,"./web_animations_player":313,"@angular/core":167}],313:[function(require,module,exports){
+/**
+ * @license
+ * Copyright Google Inc. All Rights Reserved.
+ *
+ * Use of this source code is governed by an MIT-style license that can be
+ * found in the LICENSE file at https://angular.io/license
+ */
 "use strict";
 var lang_1 = require('../facade/lang');
 var WebAnimationsPlayer = (function () {
@@ -41359,11 +43843,18 @@ var WebAnimationsPlayer = (function () {
 }());
 exports.WebAnimationsPlayer = WebAnimationsPlayer;
 
-},{"../facade/lang":317}],311:[function(require,module,exports){
+},{"../facade/lang":320}],314:[function(require,module,exports){
 arguments[4][31][0].apply(exports,arguments)
-},{"./lang":317,"./promise":318,"dup":31,"rxjs/Observable":526,"rxjs/Subject":528,"rxjs/observable/PromiseObservable":532,"rxjs/operator/toPromise":533}],312:[function(require,module,exports){
+},{"./lang":320,"./promise":321,"dup":31,"rxjs/Observable":539,"rxjs/Subject":541,"rxjs/observable/PromiseObservable":545,"rxjs/operator/toPromise":546}],315:[function(require,module,exports){
 arguments[4][32][0].apply(exports,arguments)
-},{"dup":32}],313:[function(require,module,exports){
+},{"dup":32}],316:[function(require,module,exports){
+/**
+ * @license
+ * Copyright Google Inc. All Rights Reserved.
+ *
+ * Use of this source code is governed by an MIT-style license that can be
+ * found in the LICENSE file at https://angular.io/license
+ */
 "use strict";
 /**
  * JS version of browser APIs. This library can only run in the browser.
@@ -41382,14 +43873,21 @@ exports.History = win['History'];
 exports.Location = win['Location'];
 exports.EventListener = win['EventListener'];
 
-},{}],314:[function(require,module,exports){
+},{}],317:[function(require,module,exports){
 arguments[4][33][0].apply(exports,arguments)
-},{"./lang":317,"dup":33}],315:[function(require,module,exports){
+},{"./lang":320,"dup":33}],318:[function(require,module,exports){
 arguments[4][34][0].apply(exports,arguments)
-},{"./base_wrapped_exception":312,"./collection":314,"./lang":317,"dup":34}],316:[function(require,module,exports){
+},{"./base_wrapped_exception":315,"./collection":317,"./lang":320,"dup":34}],319:[function(require,module,exports){
 arguments[4][35][0].apply(exports,arguments)
-},{"./base_wrapped_exception":312,"./exception_handler":315,"dup":35}],317:[function(require,module,exports){
+},{"./base_wrapped_exception":315,"./exception_handler":318,"dup":35}],320:[function(require,module,exports){
 (function (global){
+/**
+ * @license
+ * Copyright Google Inc. All Rights Reserved.
+ *
+ * Use of this source code is governed by an MIT-style license that can be
+ * found in the LICENSE file at https://angular.io/license
+ */
 "use strict";
 var __extends = (this && this.__extends) || function (d, b) {
     for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p];
@@ -41418,6 +43916,14 @@ exports.IS_DART = false;
 // exports the original value of the symbol.
 var _global = globalScope;
 exports.global = _global;
+/**
+ * Runtime representation a type that a Component or other object is instances of.
+ *
+ * An example of a `Type` is `MyCustomComponent` class, which in JavaScript is be represented by
+ * the `MyCustomComponent` constructor function.
+ *
+ * @stable
+ */
 exports.Type = Function;
 function getTypeNameForDebugging(type) {
     if (type['name']) {
@@ -41842,9 +44348,16 @@ exports.escapeRegExp = escapeRegExp;
 
 }).call(this,typeof global !== "undefined" ? global : typeof self !== "undefined" ? self : typeof window !== "undefined" ? window : {})
 
-},{}],318:[function(require,module,exports){
+},{}],321:[function(require,module,exports){
 arguments[4][38][0].apply(exports,arguments)
-},{"dup":38}],319:[function(require,module,exports){
+},{"dup":38}],322:[function(require,module,exports){
+/**
+ * @license
+ * Copyright Google Inc. All Rights Reserved.
+ *
+ * Use of this source code is governed by an MIT-style license that can be
+ * found in the LICENSE file at https://angular.io/license
+ */
 "use strict";
 var __extends = (this && this.__extends) || function (d, b) {
     for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p];
@@ -41880,6 +44393,13 @@ var url_sanitizer_1 = require('./url_sanitizer');
  * It is not required (and not recommended) to bypass security if the value is safe, e.g. a URL that
  * does not start with a suspicious protocol, or an HTML snippet that does not contain dangerous
  * code. The sanitizer leaves safe values intact.
+ *
+ * @security Calling any of the `bypassSecurityTrust...` APIs disables Angular's built-in
+ * sanitization for the value passed in. Carefully check and audit all values and code paths going
+ * into this call. Make sure any user data is appropriately escaped for this security context.
+ * For more detail, see the [Security Guide](http://g.co/ng/security).
+ *
+ * @stable
  */
 var DomSanitizationService = (function () {
     function DomSanitizationService() {
@@ -41923,14 +44443,15 @@ var DomSanitizationServiceImpl = (function (_super) {
                     return value.changingThisBreaksApplicationSecurity;
                 }
                 this.checkNotSafeValue(value, 'ResourceURL');
-                throw new Error('unsafe value used in a resource URL context');
+                throw new Error('unsafe value used in a resource URL context (see http://g.co/ng/security#xss)');
             default:
-                throw new Error("Unexpected SecurityContext " + ctx);
+                throw new Error("Unexpected SecurityContext " + ctx + " (see http://g.co/ng/security#xss)");
         }
     };
     DomSanitizationServiceImpl.prototype.checkNotSafeValue = function (value, expectedType) {
         if (value instanceof SafeValueImpl) {
-            throw new Error("Required a safe " + expectedType + ", got a " + value.getTypeName());
+            throw new Error(("Required a safe " + expectedType + ", got a " + value.getTypeName() + " ") +
+                "(see http://g.co/ng/security#xss)");
         }
     };
     DomSanitizationServiceImpl.prototype.bypassSecurityTrustHtml = function (value) { return new SafeHtmlImpl(value); };
@@ -41953,7 +44474,8 @@ var SafeValueImpl = (function () {
         // empty
     }
     SafeValueImpl.prototype.toString = function () {
-        return "SafeValue must use [property]=binding: " + this.changingThisBreaksApplicationSecurity;
+        return ("SafeValue must use [property]=binding: " + this.changingThisBreaksApplicationSecurity) +
+            " (see http://g.co/ng/security#xss)";
     };
     return SafeValueImpl;
 }());
@@ -41998,7 +44520,14 @@ var SafeResourceUrlImpl = (function (_super) {
     return SafeResourceUrlImpl;
 }(SafeValueImpl));
 
-},{"../../core_private":285,"./html_sanitizer":320,"./style_sanitizer":321,"./url_sanitizer":322,"@angular/core":166}],320:[function(require,module,exports){
+},{"../../core_private":288,"./html_sanitizer":323,"./style_sanitizer":324,"./url_sanitizer":325,"@angular/core":167}],323:[function(require,module,exports){
+/**
+ * @license
+ * Copyright Google Inc. All Rights Reserved.
+ *
+ * Use of this source code is governed by an MIT-style license that can be
+ * found in the LICENSE file at https://angular.io/license
+ */
 "use strict";
 var core_1 = require('@angular/core');
 var dom_adapter_1 = require('../dom/dom_adapter');
@@ -42064,19 +44593,21 @@ var OPTIONAL_END_TAG_INLINE_ELEMENTS = tagSet('rp,rt');
 var OPTIONAL_END_TAG_ELEMENTS = merge(OPTIONAL_END_TAG_INLINE_ELEMENTS, OPTIONAL_END_TAG_BLOCK_ELEMENTS);
 // Safe Block Elements - HTML5
 var BLOCK_ELEMENTS = merge(OPTIONAL_END_TAG_BLOCK_ELEMENTS, tagSet('address,article,' +
-    'aside,blockquote,caption,center,del,dir,div,dl,figure,figcaption,footer,h1,h2,h3,h4,h5,' +
-    'h6,header,hgroup,hr,ins,map,menu,nav,ol,pre,section,table,ul'));
+    'aside,blockquote,caption,center,del,details,dialog,dir,div,dl,figure,figcaption,footer,h1,h2,h3,h4,h5,' +
+    'h6,header,hgroup,hr,ins,main,map,menu,nav,ol,pre,section,summary,table,ul'));
 // Inline Elements - HTML5
-var INLINE_ELEMENTS = merge(OPTIONAL_END_TAG_INLINE_ELEMENTS, tagSet('a,abbr,acronym,b,' +
-    'bdi,bdo,big,br,cite,code,del,dfn,em,font,i,img,ins,kbd,label,map,mark,q,ruby,rp,rt,s,' +
-    'samp,small,span,strike,strong,sub,sup,time,tt,u,var'));
+var INLINE_ELEMENTS = merge(OPTIONAL_END_TAG_INLINE_ELEMENTS, tagSet('a,abbr,acronym,audio,b,' +
+    'bdi,bdo,big,br,cite,code,del,dfn,em,font,i,img,ins,kbd,label,map,mark,picture,q,ruby,rp,rt,s,' +
+    'samp,small,source,span,strike,strong,sub,sup,time,track,tt,u,var,video'));
 var VALID_ELEMENTS = merge(VOID_ELEMENTS, BLOCK_ELEMENTS, INLINE_ELEMENTS, OPTIONAL_END_TAG_ELEMENTS);
 // Attributes that have href and hence need to be sanitized
-var URI_ATTRS = tagSet('background,cite,href,longdesc,src,xlink:href');
-var HTML_ATTRS = tagSet('abbr,align,alt,axis,bgcolor,border,cellpadding,cellspacing,class,clear,' +
-    'color,cols,colspan,compact,coords,dir,face,headers,height,hreflang,hspace,' +
-    'ismap,lang,language,nohref,nowrap,rel,rev,rows,rowspan,rules,' +
-    'scope,scrolling,shape,size,span,start,summary,tabindex,target,title,type,' +
+var URI_ATTRS = tagSet('background,cite,href,itemtype,longdesc,poster,src,xlink:href');
+// Attributes that have special href set hence need to be sanitized
+var SRCSET_ATTRS = tagSet('srcset');
+var HTML_ATTRS = tagSet('abbr,accesskey,align,alt,autoplay,axis,bgcolor,border,cellpadding,cellspacing,class,clear,color,cols,colspan,' +
+    'compact,controls,coords,datetime,default,dir,download,face,headers,height,hidden,hreflang,hspace,' +
+    'ismap,itemscope,itemprop,kind,label,lang,language,loop,media,muted,nohref,nowrap,open,preload,rel,rev,role,rows,rowspan,rules,' +
+    'scope,scrolling,shape,size,sizes,span,srclang,start,summary,tabindex,target,title,translate,type,usemap,' +
     'valign,value,vspace,width');
 // NB: This currently conciously doesn't support SVG. SVG sanitization has had several security
 // issues in the past, so it seems safer to leave it out if possible. If support for binding SVG via
@@ -42084,7 +44615,7 @@ var HTML_ATTRS = tagSet('abbr,align,alt,axis,bgcolor,border,cellpadding,cellspac
 // NB: Sanitization does not allow <form> elements or other active elements (<button> etc). Those
 // can be sanitized, but they increase security surface area without a legitimate use case, so they
 // are left out here.
-var VALID_ATTRS = merge(URI_ATTRS, HTML_ATTRS);
+var VALID_ATTRS = merge(URI_ATTRS, SRCSET_ATTRS, HTML_ATTRS);
 /**
  * SanitizingHtmlSerializer serializes a DOM fragment, stripping out any unsafe elements and unsafe
  * attributes.
@@ -42137,6 +44668,8 @@ var SanitizingHtmlSerializer = (function () {
                 // TODO(martinprobst): Special case image URIs for data:image/...
                 if (URI_ATTRS[lower])
                     value = url_sanitizer_1.sanitizeUrl(value);
+                if (SRCSET_ATTRS[lower])
+                    value = url_sanitizer_1.sanitizeSrcset(value);
                 _this.buf.push(' ');
                 _this.buf.push(attrName);
                 _this.buf.push('="');
@@ -42202,11 +44735,11 @@ function stripCustomNsAttrs(el) {
  * Sanitizes the given unsafe, untrusted HTML fragment, and returns HTML text that is safe to add to
  * the DOM in a browser environment.
  */
-function sanitizeHtml(unsafeHtml) {
+function sanitizeHtml(unsafeHtmlInput) {
     try {
         var containerEl = getInertElement();
         // Make sure unsafeHtml is actually a string (TypeScript types are not enforced at runtime).
-        unsafeHtml = unsafeHtml ? String(unsafeHtml) : '';
+        var unsafeHtml = unsafeHtmlInput ? String(unsafeHtmlInput) : '';
         // mXSS protection. Repeatedly parse the document to make sure it stabilizes, so that a browser
         // trying to auto-correct incorrect HTML cannot cause formerly inert HTML to become dangerous.
         var mXSSAttempts = 5;
@@ -42232,8 +44765,8 @@ function sanitizeHtml(unsafeHtml) {
             var child = _a[_i];
             DOM.removeChild(parent_1, child);
         }
-        if (core_1.isDevMode() && safeHtml !== unsafeHtml) {
-            DOM.log('WARNING: sanitizing HTML stripped some content.');
+        if (core_1.isDevMode() && safeHtml !== unsafeHtmlInput) {
+            DOM.log('WARNING: sanitizing HTML stripped some content (see http://g.co/ng/security#xss).');
         }
         return safeHtml;
     }
@@ -42245,7 +44778,14 @@ function sanitizeHtml(unsafeHtml) {
 }
 exports.sanitizeHtml = sanitizeHtml;
 
-},{"../dom/dom_adapter":299,"./url_sanitizer":322,"@angular/core":166}],321:[function(require,module,exports){
+},{"../dom/dom_adapter":302,"./url_sanitizer":325,"@angular/core":167}],324:[function(require,module,exports){
+/**
+ * @license
+ * Copyright Google Inc. All Rights Reserved.
+ *
+ * Use of this source code is governed by an MIT-style license that can be
+ * found in the LICENSE file at https://angular.io/license
+ */
 "use strict";
 var core_1 = require('@angular/core');
 var dom_adapter_1 = require('../dom/dom_adapter');
@@ -42316,6 +44856,8 @@ function hasBalancedQuotes(value) {
  */
 function sanitizeStyle(value) {
     value = String(value).trim(); // Make sure it's actually a string.
+    if (!value)
+        return '';
     // Single url(...) values are supported, but only for URLs that sanitize cleanly. See above for
     // reasoning behind this.
     var urlMatch = URL_RE.exec(value);
@@ -42323,13 +44865,21 @@ function sanitizeStyle(value) {
         value.match(SAFE_STYLE_VALUE) && hasBalancedQuotes(value)) {
         return value; // Safe style values.
     }
-    if (core_1.isDevMode())
-        dom_adapter_1.getDOM().log('WARNING: sanitizing unsafe style value ' + value);
+    if (core_1.isDevMode()) {
+        dom_adapter_1.getDOM().log("WARNING: sanitizing unsafe style value " + value + " (see http://g.co/ng/security#xss).");
+    }
     return 'unsafe';
 }
 exports.sanitizeStyle = sanitizeStyle;
 
-},{"../dom/dom_adapter":299,"./url_sanitizer":322,"@angular/core":166}],322:[function(require,module,exports){
+},{"../dom/dom_adapter":302,"./url_sanitizer":325,"@angular/core":167}],325:[function(require,module,exports){
+/**
+ * @license
+ * Copyright Google Inc. All Rights Reserved.
+ *
+ * Use of this source code is governed by an MIT-style license that can be
+ * found in the LICENSE file at https://angular.io/license
+ */
 "use strict";
 var core_1 = require('@angular/core');
 var dom_adapter_1 = require('../dom/dom_adapter');
@@ -42360,24 +44910,46 @@ var dom_adapter_1 = require('../dom/dom_adapter');
  * This regular expression was taken from the Closure sanitization library.
  */
 var SAFE_URL_PATTERN = /^(?:(?:https?|mailto|ftp|tel|file):|[^&:/?#]*(?:[/?#]|$))/gi;
-/** A pattern that matches safe data URLs. Only matches image and video types. */
-var DATA_URL_PATTERN = /^data:(?:image\/(?:bmp|gif|jpeg|jpg|png|tiff|webp)|video\/(?:mpeg|mp4|ogg|webm));base64,[a-z0-9+\/]+=*$/i;
+/* A pattern that matches safe srcset values */
+var SAFE_SRCSET_PATTERN = /^(?:(?:https?|file):|[^&:/?#]*(?:[/?#]|$))/gi;
+/** A pattern that matches safe data URLs. Only matches image, video and audio types. */
+var DATA_URL_PATTERN = /^data:(?:image\/(?:bmp|gif|jpeg|jpg|png|tiff|webp)|video\/(?:mpeg|mp4|ogg|webm)|audio\/(?:mp3|oga|ogg|opus));base64,[a-z0-9+\/]+=*$/i;
 function sanitizeUrl(url) {
     url = String(url);
     if (url.match(SAFE_URL_PATTERN) || url.match(DATA_URL_PATTERN))
         return url;
-    if (core_1.isDevMode())
-        dom_adapter_1.getDOM().log('WARNING: sanitizing unsafe URL value ' + url);
+    if (core_1.isDevMode()) {
+        dom_adapter_1.getDOM().log("WARNING: sanitizing unsafe URL value " + url + " (see http://g.co/ng/security#xss)");
+    }
     return 'unsafe:' + url;
 }
 exports.sanitizeUrl = sanitizeUrl;
+function sanitizeSrcset(srcset) {
+    srcset = String(srcset);
+    return srcset.split(',').map(function (srcset) { return sanitizeUrl(srcset.trim()); }).join(', ');
+}
+exports.sanitizeSrcset = sanitizeSrcset;
 
-},{"../dom/dom_adapter":299,"@angular/core":166}],323:[function(require,module,exports){
+},{"../dom/dom_adapter":302,"@angular/core":167}],326:[function(require,module,exports){
+/**
+ * @license
+ * Copyright Google Inc. All Rights Reserved.
+ *
+ * Use of this source code is governed by an MIT-style license that can be
+ * found in the LICENSE file at https://angular.io/license
+ */
 "use strict";
 var core_1 = require('@angular/core');
 exports.ON_WEB_WORKER = new core_1.OpaqueToken('WebWorker.onWebWorker');
 
-},{"@angular/core":166}],324:[function(require,module,exports){
+},{"@angular/core":167}],327:[function(require,module,exports){
+/**
+ * @license
+ * Copyright Google Inc. All Rights Reserved.
+ *
+ * Use of this source code is governed by an MIT-style license that can be
+ * found in the LICENSE file at https://angular.io/license
+ */
 "use strict";
 var __extends = (this && this.__extends) || function (d, b) {
     for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p];
@@ -42391,7 +44963,7 @@ var lang_1 = require('../../facade/lang');
 var message_bus_1 = require('./message_bus');
 var serializer_1 = require('./serializer');
 /**
- * @experimental
+ * @experimental WebWorker support in Angular is experimental.
  */
 var ClientMessageBrokerFactory = (function () {
     function ClientMessageBrokerFactory() {
@@ -42427,7 +44999,7 @@ var ClientMessageBrokerFactory_ = (function (_super) {
 }(ClientMessageBrokerFactory));
 exports.ClientMessageBrokerFactory_ = ClientMessageBrokerFactory_;
 /**
- * @experimental
+ * @experimental WebWorker support in Angular is experimental.
  */
 var ClientMessageBroker = (function () {
     function ClientMessageBroker() {
@@ -42540,7 +45112,7 @@ var MessageData = (function () {
     return MessageData;
 }());
 /**
- * @experimental
+ * @experimental WebWorker support in Angular is experimental.
  */
 var FnArg = (function () {
     function FnArg(value /** TODO #9100 */, type) {
@@ -42551,7 +45123,7 @@ var FnArg = (function () {
 }());
 exports.FnArg = FnArg;
 /**
- * @experimental
+ * @experimental WebWorker support in Angular is experimental.
  */
 var UiArguments = (function () {
     function UiArguments(method, args) {
@@ -42562,14 +45134,22 @@ var UiArguments = (function () {
 }());
 exports.UiArguments = UiArguments;
 
-},{"../../facade/async":311,"../../facade/collection":314,"../../facade/lang":317,"./message_bus":325,"./serializer":330,"@angular/core":166}],325:[function(require,module,exports){
+},{"../../facade/async":314,"../../facade/collection":317,"../../facade/lang":320,"./message_bus":328,"./serializer":333,"@angular/core":167}],328:[function(require,module,exports){
+/**
+ * @license
+ * Copyright Google Inc. All Rights Reserved.
+ *
+ * Use of this source code is governed by an MIT-style license that can be
+ * found in the LICENSE file at https://angular.io/license
+ */
 "use strict";
 /**
  * Message Bus is a low level API used to communicate between the UI and the background.
  * Communication is based on a channel abstraction. Messages published in a
  * given channel to one MessageBusSink are received on the same channel
  * by the corresponding MessageBusSource.
- * @experimental
+ *
+ * @experimental WebWorker support in Angular is currenlty experimental.
  */
 var MessageBus = (function () {
     function MessageBus() {
@@ -42578,7 +45158,14 @@ var MessageBus = (function () {
 }());
 exports.MessageBus = MessageBus;
 
-},{}],326:[function(require,module,exports){
+},{}],329:[function(require,module,exports){
+/**
+ * @license
+ * Copyright Google Inc. All Rights Reserved.
+ *
+ * Use of this source code is governed by an MIT-style license that can be
+ * found in the LICENSE file at https://angular.io/license
+ */
 "use strict";
 /**
  * All channels used by angular's WebWorker components are listed here.
@@ -42588,7 +45175,14 @@ exports.RENDERER_CHANNEL = 'ng-Renderer';
 exports.EVENT_CHANNEL = 'ng-Events';
 exports.ROUTER_CHANNEL = 'ng-Router';
 
-},{}],327:[function(require,module,exports){
+},{}],330:[function(require,module,exports){
+/**
+ * @license
+ * Copyright Google Inc. All Rights Reserved.
+ *
+ * Use of this source code is governed by an MIT-style license that can be
+ * found in the LICENSE file at https://angular.io/license
+ */
 "use strict";
 var core_1 = require('@angular/core');
 var async_1 = require('../../facade/async');
@@ -42736,7 +45330,14 @@ var _Channel = (function () {
     return _Channel;
 }());
 
-},{"../../facade/async":311,"../../facade/collection":314,"../../facade/exceptions":316,"@angular/core":166}],328:[function(require,module,exports){
+},{"../../facade/async":314,"../../facade/collection":317,"../../facade/exceptions":319,"@angular/core":167}],331:[function(require,module,exports){
+/**
+ * @license
+ * Copyright Google Inc. All Rights Reserved.
+ *
+ * Use of this source code is governed by an MIT-style license that can be
+ * found in the LICENSE file at https://angular.io/license
+ */
 "use strict";
 var core_1 = require('@angular/core');
 var RenderStore = (function () {
@@ -42780,7 +45381,14 @@ var RenderStore = (function () {
 }());
 exports.RenderStore = RenderStore;
 
-},{"@angular/core":166}],329:[function(require,module,exports){
+},{"@angular/core":167}],332:[function(require,module,exports){
+/**
+ * @license
+ * Copyright Google Inc. All Rights Reserved.
+ *
+ * Use of this source code is governed by an MIT-style license that can be
+ * found in the LICENSE file at https://angular.io/license
+ */
 "use strict";
 // This file contains interface versions of browser types that can be serialized to Plain Old
 // JavaScript Objects
@@ -42800,7 +45408,14 @@ var LocationType = (function () {
 }());
 exports.LocationType = LocationType;
 
-},{}],330:[function(require,module,exports){
+},{}],333:[function(require,module,exports){
+/**
+ * @license
+ * Copyright Google Inc. All Rights Reserved.
+ *
+ * Use of this source code is governed by an MIT-style license that can be
+ * found in the LICENSE file at https://angular.io/license
+ */
 "use strict";
 var core_1 = require('@angular/core');
 var core_private_1 = require('../../../core_private');
@@ -42811,7 +45426,7 @@ var serialized_types_1 = require('./serialized_types');
 // PRIMITIVE is any type that does not need to be serialized (string, number, boolean)
 // We set it to String so that it is considered a Type.
 /**
- * @experimental
+ * @experimental WebWorker support in Angular is currently experimental.
  */
 exports.PRIMITIVE = String;
 var Serializer = (function () {
@@ -42920,7 +45535,14 @@ var RenderStoreObject = (function () {
 }());
 exports.RenderStoreObject = RenderStoreObject;
 
-},{"../../../core_private":285,"../../facade/exceptions":316,"../../facade/lang":317,"./render_store":328,"./serialized_types":329,"@angular/core":166}],331:[function(require,module,exports){
+},{"../../../core_private":288,"../../facade/exceptions":319,"../../facade/lang":320,"./render_store":331,"./serialized_types":332,"@angular/core":167}],334:[function(require,module,exports){
+/**
+ * @license
+ * Copyright Google Inc. All Rights Reserved.
+ *
+ * Use of this source code is governed by an MIT-style license that can be
+ * found in the LICENSE file at https://angular.io/license
+ */
 "use strict";
 var __extends = (this && this.__extends) || function (d, b) {
     for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p];
@@ -42933,6 +45555,9 @@ var collection_1 = require('../../facade/collection');
 var lang_1 = require('../../facade/lang');
 var message_bus_1 = require('../shared/message_bus');
 var serializer_1 = require('../shared/serializer');
+/**
+ * @experimental WebWorker support in Angular is currently experimental.
+ */
 var ServiceMessageBrokerFactory = (function () {
     function ServiceMessageBrokerFactory() {
     }
@@ -42964,7 +45589,12 @@ var ServiceMessageBrokerFactory_ = (function (_super) {
 }(ServiceMessageBrokerFactory));
 exports.ServiceMessageBrokerFactory_ = ServiceMessageBrokerFactory_;
 /**
- * @experimental
+ * Helper class for UIComponents that allows components to register methods.
+ * If a registered method message is received from the broker on the worker,
+ * the UIMessageBroker deserializes its arguments and calls the registered method.
+ * If that method returns a promise, the UIMessageBroker returns the result to the worker.
+ *
+ * @experimental WebWorker support in Angular is currently experimental.
  */
 var ServiceMessageBroker = (function () {
     function ServiceMessageBroker() {
@@ -42972,12 +45602,6 @@ var ServiceMessageBroker = (function () {
     return ServiceMessageBroker;
 }());
 exports.ServiceMessageBroker = ServiceMessageBroker;
-/**
- * Helper class for UIComponents that allows components to register methods.
- * If a registered method message is received from the broker on the worker,
- * the UIMessageBroker deserializes its arguments and calls the registered method.
- * If that method returns a promise, the UIMessageBroker returns the result to the worker.
- */
 var ServiceMessageBroker_ = (function (_super) {
     __extends(ServiceMessageBroker_, _super);
     function ServiceMessageBroker_(messageBus, _serializer, channel /** TODO #9100 */) {
@@ -43022,7 +45646,7 @@ var ServiceMessageBroker_ = (function (_super) {
 }(ServiceMessageBroker));
 exports.ServiceMessageBroker_ = ServiceMessageBroker_;
 /**
- * @experimental
+ * @experimental WebWorker support in Angular is currently experimental.
  */
 var ReceivedMessage = (function () {
     function ReceivedMessage(data) {
@@ -43035,7 +45659,14 @@ var ReceivedMessage = (function () {
 }());
 exports.ReceivedMessage = ReceivedMessage;
 
-},{"../../facade/async":311,"../../facade/collection":314,"../../facade/lang":317,"../shared/message_bus":325,"../shared/serializer":330,"@angular/core":166}],332:[function(require,module,exports){
+},{"../../facade/async":314,"../../facade/collection":317,"../../facade/lang":320,"../shared/message_bus":328,"../shared/serializer":333,"@angular/core":167}],335:[function(require,module,exports){
+/**
+ * @license
+ * Copyright Google Inc. All Rights Reserved.
+ *
+ * Use of this source code is governed by an MIT-style license that can be
+ * found in the LICENSE file at https://angular.io/license
+ */
 "use strict";
 var async_1 = require('../../facade/async');
 var exceptions_1 = require('../../facade/exceptions');
@@ -43143,7 +45774,14 @@ var EventDispatcher = (function () {
 }());
 exports.EventDispatcher = EventDispatcher;
 
-},{"../../facade/async":311,"../../facade/exceptions":316,"../shared/serializer":330,"./event_serializer":333}],333:[function(require,module,exports){
+},{"../../facade/async":314,"../../facade/exceptions":319,"../shared/serializer":333,"./event_serializer":336}],336:[function(require,module,exports){
+/**
+ * @license
+ * Copyright Google Inc. All Rights Reserved.
+ *
+ * Use of this source code is governed by an MIT-style license that can be
+ * found in the LICENSE file at https://angular.io/license
+ */
 "use strict";
 var collection_1 = require('../../facade/collection');
 var lang_1 = require('../../facade/lang');
@@ -43203,7 +45841,14 @@ function serializeEvent(e, properties) {
     return serialized;
 }
 
-},{"../../facade/collection":314,"../../facade/lang":317}],334:[function(require,module,exports){
+},{"../../facade/collection":317,"../../facade/lang":320}],337:[function(require,module,exports){
+/**
+ * @license
+ * Copyright Google Inc. All Rights Reserved.
+ *
+ * Use of this source code is governed by an MIT-style license that can be
+ * found in the LICENSE file at https://angular.io/license
+ */
 "use strict";
 var core_1 = require('@angular/core');
 var browser_platform_location_1 = require('../../browser/location/browser_platform_location');
@@ -43224,7 +45869,14 @@ function initUiLocation(injector) {
     };
 }
 
-},{"../../browser/location/browser_platform_location":291,"./platform_location":335,"@angular/core":166}],335:[function(require,module,exports){
+},{"../../browser/location/browser_platform_location":294,"./platform_location":338,"@angular/core":167}],338:[function(require,module,exports){
+/**
+ * @license
+ * Copyright Google Inc. All Rights Reserved.
+ *
+ * Use of this source code is governed by an MIT-style license that can be
+ * found in the LICENSE file at https://angular.io/license
+ */
 "use strict";
 var core_1 = require('@angular/core');
 var browser_platform_location_1 = require('../../browser/location/browser_platform_location');
@@ -43277,7 +45929,14 @@ var MessageBasedPlatformLocation = (function () {
 }());
 exports.MessageBasedPlatformLocation = MessageBasedPlatformLocation;
 
-},{"../../browser/location/browser_platform_location":291,"../../facade/async":311,"../../facade/lang":317,"../shared/message_bus":325,"../shared/messaging_api":326,"../shared/serialized_types":329,"../shared/serializer":330,"../shared/service_message_broker":331,"@angular/core":166}],336:[function(require,module,exports){
+},{"../../browser/location/browser_platform_location":294,"../../facade/async":314,"../../facade/lang":320,"../shared/message_bus":328,"../shared/messaging_api":329,"../shared/serialized_types":332,"../shared/serializer":333,"../shared/service_message_broker":334,"@angular/core":167}],339:[function(require,module,exports){
+/**
+ * @license
+ * Copyright Google Inc. All Rights Reserved.
+ *
+ * Use of this source code is governed by an MIT-style license that can be
+ * found in the LICENSE file at https://angular.io/license
+ */
 "use strict";
 var core_1 = require('@angular/core');
 var lang_1 = require('../../facade/lang');
@@ -43409,7 +46068,14 @@ var MessageBasedRenderer = (function () {
 }());
 exports.MessageBasedRenderer = MessageBasedRenderer;
 
-},{"../../facade/lang":317,"../shared/message_bus":325,"../shared/messaging_api":326,"../shared/render_store":328,"../shared/serializer":330,"../shared/service_message_broker":331,"../ui/event_dispatcher":332,"@angular/core":166}],337:[function(require,module,exports){
+},{"../../facade/lang":320,"../shared/message_bus":328,"../shared/messaging_api":329,"../shared/render_store":331,"../shared/serializer":333,"../shared/service_message_broker":334,"../ui/event_dispatcher":335,"@angular/core":167}],340:[function(require,module,exports){
+/**
+ * @license
+ * Copyright Google Inc. All Rights Reserved.
+ *
+ * Use of this source code is governed by an MIT-style license that can be
+ * found in the LICENSE file at https://angular.io/license
+ */
 "use strict";
 // no deserialization is necessary in TS.
 // This is only here to match dart interface
@@ -43418,7 +46084,14 @@ function deserializeGenericEvent(serializedEvent) {
 }
 exports.deserializeGenericEvent = deserializeGenericEvent;
 
-},{}],338:[function(require,module,exports){
+},{}],341:[function(require,module,exports){
+/**
+ * @license
+ * Copyright Google Inc. All Rights Reserved.
+ *
+ * Use of this source code is governed by an MIT-style license that can be
+ * found in the LICENSE file at https://angular.io/license
+ */
 "use strict";
 var common_1 = require('@angular/common');
 var core_1 = require('@angular/core');
@@ -43440,7 +46113,14 @@ function appInitFnFactory(platformLocation, zone) {
     return function () { return zone.runGuarded(function () { return platformLocation.init(); }); };
 }
 
-},{"./platform_location":339,"@angular/common":20,"@angular/core":166}],339:[function(require,module,exports){
+},{"./platform_location":342,"@angular/common":20,"@angular/core":167}],342:[function(require,module,exports){
+/**
+ * @license
+ * Copyright Google Inc. All Rights Reserved.
+ *
+ * Use of this source code is governed by an MIT-style license that can be
+ * found in the LICENSE file at https://angular.io/license
+ */
 "use strict";
 var __extends = (this && this.__extends) || function (d, b) {
     for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p];
@@ -43575,7 +46255,14 @@ var WebWorkerPlatformLocation = (function (_super) {
 }(common_1.PlatformLocation));
 exports.WebWorkerPlatformLocation = WebWorkerPlatformLocation;
 
-},{"../../facade/async":311,"../../facade/collection":314,"../../facade/exceptions":316,"../../facade/lang":317,"../shared/client_message_broker":324,"../shared/message_bus":325,"../shared/messaging_api":326,"../shared/serialized_types":329,"../shared/serializer":330,"./event_deserializer":337,"@angular/common":20,"@angular/core":166}],340:[function(require,module,exports){
+},{"../../facade/async":314,"../../facade/collection":317,"../../facade/exceptions":319,"../../facade/lang":320,"../shared/client_message_broker":327,"../shared/message_bus":328,"../shared/messaging_api":329,"../shared/serialized_types":332,"../shared/serializer":333,"./event_deserializer":340,"@angular/common":20,"@angular/core":167}],343:[function(require,module,exports){
+/**
+ * @license
+ * Copyright Google Inc. All Rights Reserved.
+ *
+ * Use of this source code is governed by an MIT-style license that can be
+ * found in the LICENSE file at https://angular.io/license
+ */
 "use strict";
 var core_1 = require('@angular/core');
 var async_1 = require('../../facade/async');
@@ -43817,7 +46504,14 @@ var WebWorkerRenderNode = (function () {
 }());
 exports.WebWorkerRenderNode = WebWorkerRenderNode;
 
-},{"../../facade/async":311,"../../facade/collection":314,"../../facade/lang":317,"../shared/client_message_broker":324,"../shared/message_bus":325,"../shared/messaging_api":326,"../shared/render_store":328,"../shared/serializer":330,"./event_deserializer":337,"@angular/core":166}],341:[function(require,module,exports){
+},{"../../facade/async":314,"../../facade/collection":317,"../../facade/lang":320,"../shared/client_message_broker":327,"../shared/message_bus":328,"../shared/messaging_api":329,"../shared/render_store":331,"../shared/serializer":333,"./event_deserializer":340,"@angular/core":167}],344:[function(require,module,exports){
+/**
+ * @license
+ * Copyright Google Inc. All Rights Reserved.
+ *
+ * Use of this source code is governed by an MIT-style license that can be
+ * found in the LICENSE file at https://angular.io/license
+ */
 "use strict";
 var __extends = (this && this.__extends) || function (d, b) {
     for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p];
@@ -44026,7 +46720,14 @@ var WorkerDomAdapter = (function (_super) {
 }(dom_adapter_1.DomAdapter));
 exports.WorkerDomAdapter = WorkerDomAdapter;
 
-},{"../../dom/dom_adapter":299}],342:[function(require,module,exports){
+},{"../../dom/dom_adapter":302}],345:[function(require,module,exports){
+/**
+ * @license
+ * Copyright Google Inc. All Rights Reserved.
+ *
+ * Use of this source code is governed by an MIT-style license that can be
+ * found in the LICENSE file at https://angular.io/license
+ */
 "use strict";
 var common_1 = require('@angular/common');
 var core_1 = require('@angular/core');
@@ -44098,7 +46799,14 @@ function setupWebWorker() {
     worker_adapter_1.WorkerDomAdapter.makeCurrent();
 }
 
-},{"./browser":288,"./facade/lang":317,"./web_workers/shared/api":323,"./web_workers/shared/client_message_broker":324,"./web_workers/shared/message_bus":325,"./web_workers/shared/post_message_bus":327,"./web_workers/shared/render_store":328,"./web_workers/shared/serializer":330,"./web_workers/shared/service_message_broker":331,"./web_workers/worker/renderer":340,"./web_workers/worker/worker_adapter":341,"@angular/common":20,"@angular/core":166}],343:[function(require,module,exports){
+},{"./browser":291,"./facade/lang":320,"./web_workers/shared/api":326,"./web_workers/shared/client_message_broker":327,"./web_workers/shared/message_bus":328,"./web_workers/shared/post_message_bus":330,"./web_workers/shared/render_store":331,"./web_workers/shared/serializer":333,"./web_workers/shared/service_message_broker":334,"./web_workers/worker/renderer":343,"./web_workers/worker/worker_adapter":344,"@angular/common":20,"@angular/core":167}],346:[function(require,module,exports){
+/**
+ * @license
+ * Copyright Google Inc. All Rights Reserved.
+ *
+ * Use of this source code is governed by an MIT-style license that can be
+ * found in the LICENSE file at https://angular.io/license
+ */
 "use strict";
 var core_1 = require('@angular/core');
 var core_private_1 = require('../core_private');
@@ -44140,7 +46848,7 @@ var WebWorkerInstance = (function () {
 }());
 exports.WebWorkerInstance = WebWorkerInstance;
 /**
- * @experimental
+ * @experimental WebWorker support is currently experimental.
  */
 exports.WORKER_SCRIPT = new core_1.OpaqueToken('WebWorkerScript');
 /**
@@ -44148,18 +46856,18 @@ exports.WORKER_SCRIPT = new core_1.OpaqueToken('WebWorkerScript');
  * created.
  *
  * TODO(vicb): create an interface for startable services to implement
- * @experimental
+ * @experimental WebWorker support is currently experimental.
  */
 exports.WORKER_UI_STARTABLE_MESSAGING_SERVICE = new core_1.OpaqueToken('WorkerRenderStartableMsgService');
 /**
- * @experimental
+ * @experimental WebWorker support is currently experimental.
  */
 exports.WORKER_UI_PLATFORM_PROVIDERS = [
     core_1.PLATFORM_COMMON_PROVIDERS, { provide: WORKER_RENDER_PLATFORM_MARKER, useValue: true },
     { provide: core_1.PLATFORM_INITIALIZER, useValue: initWebWorkerRenderPlatform, multi: true }
 ];
 /**
- * @experimental
+ * @experimental WebWorker support is currently experimental.
  */
 exports.WORKER_UI_APPLICATION_PROVIDERS = [
     core_1.APPLICATION_COMMON_PROVIDERS,
@@ -44196,7 +46904,7 @@ function initializeGenericWorkerRenderer(injector) {
     bus.attachToZone(zone);
     // initialize message services after the bus has been created
     var services = injector.get(exports.WORKER_UI_STARTABLE_MESSAGING_SERVICE);
-    zone.runGuarded(function () { services.forEach(function (svc /** TODO #9100 */) { svc.start(); }); });
+    zone.runGuarded(function () { services.forEach(function (svc) { svc.start(); }); });
 }
 function messageBusFactory(instance) {
     return instance.bus;
@@ -44207,7 +46915,7 @@ function initWebWorkerRenderPlatform() {
     testability_1.BrowserGetTestability.init();
 }
 /**
- * @experimental
+ * @experimental WebWorker support is currently experimental.
  */
 function workerUiPlatform() {
     if (lang_1.isBlank(core_1.getPlatform())) {
@@ -44252,7 +46960,7 @@ function _resolveDefaultAnimationDriver() {
     return new core_private_1.NoOpAnimationDriver();
 }
 
-},{"../core_private":285,"./browser":288,"./browser/browser_adapter":289,"./browser/testability":293,"./dom/dom_adapter":299,"./dom/dom_renderer":300,"./dom/dom_tokens":301,"./dom/events/dom_events":302,"./dom/events/event_manager":303,"./dom/events/hammer_gestures":305,"./dom/events/key_events":306,"./dom/shared_styles_host":307,"./facade/exceptions":316,"./facade/lang":317,"./web_workers/shared/api":323,"./web_workers/shared/client_message_broker":324,"./web_workers/shared/message_bus":325,"./web_workers/shared/post_message_bus":327,"./web_workers/shared/render_store":328,"./web_workers/shared/serializer":330,"./web_workers/shared/service_message_broker":331,"./web_workers/ui/renderer":336,"@angular/core":166}],344:[function(require,module,exports){
+},{"../core_private":288,"./browser":291,"./browser/browser_adapter":292,"./browser/testability":296,"./dom/dom_adapter":302,"./dom/dom_renderer":303,"./dom/dom_tokens":304,"./dom/events/dom_events":305,"./dom/events/event_manager":306,"./dom/events/hammer_gestures":308,"./dom/events/key_events":309,"./dom/shared_styles_host":310,"./facade/exceptions":319,"./facade/lang":320,"./web_workers/shared/api":326,"./web_workers/shared/client_message_broker":327,"./web_workers/shared/message_bus":328,"./web_workers/shared/post_message_bus":330,"./web_workers/shared/render_store":331,"./web_workers/shared/serializer":333,"./web_workers/shared/service_message_broker":334,"./web_workers/ui/renderer":339,"@angular/core":167}],347:[function(require,module,exports){
 /**
  *  Firebase libraries for browser - npm package.
  *
@@ -44263,241 +46971,245 @@ function _resolveDefaultAnimationDriver() {
 require('./firebase');
 module.exports = firebase;
 
-},{"./firebase":345}],345:[function(require,module,exports){
+},{"./firebase":348}],348:[function(require,module,exports){
 (function (global){
-/*! @license Firebase v3.2.0
-    Build: 3.2.0-rc.2
+/*! @license Firebase v3.2.1
+    Build: 3.2.1-rc.3
     Terms: https://developers.google.com/terms */
-(function() { var k="undefined"!=typeof window&&window===this?this:"undefined"!=typeof global?global:this,l=function(){k.Symbol||(k.Symbol=aa);l=function(){}},ba=0,aa=function(a){return"jscomp_symbol_"+a+ba++},m=function(){l();k.Symbol.iterator||(k.Symbol.iterator=k.Symbol("iterator"));m=function(){}},ca=function(){var a=["next","error","complete"];m();var b=a[Symbol.iterator];if(b)return b.call(a);var c=0;return{next:function(){return c<a.length?{done:!1,value:a[c++]}:{done:!0}}}},da="function"==typeof Object.defineProperties?
-Object.defineProperty:function(a,b,c){if(c.get||c.set)throw new TypeError("ES3 does not support getters and setters.");a!=Array.prototype&&a!=Object.prototype&&(a[b]=c.value)},p=function(a,b){if(b){var c=k;a=a.split(".");for(var d=0;d<a.length-1;d++){var e=a[d];e in c||(c[e]={});c=c[e]}a=a[a.length-1];d=c[a];b=b(d);b!=d&&da(c,a,{configurable:!0,ca:!0,value:b})}};
-p("String.prototype.repeat",function(a){return a?a:function(a){var c;if(null==this)throw new TypeError("The 'this' value for String.prototype.repeat must not be null or undefined");c=this+"";if(0>a||1342177279<a)throw new RangeError("Invalid count value");a|=0;for(var d="";a;)if(a&1&&(d+=c),a>>>=1)c+=c;return d}});
-var ea=function(a,b){m();a instanceof String&&(a+="");var c=0,d={next:function(){if(c<a.length){var e=c++;return{value:b(e,a[e]),done:!1}}d.next=function(){return{done:!0,value:void 0}};return d.next()}};d[Symbol.iterator]=function(){return d};return d};p("Array.prototype.keys",function(a){return a?a:function(){return ea(this,function(a){return a})}});
-var q=this,r=function(){},t=function(a){var b=typeof a;if("object"==b)if(a){if(a instanceof Array)return"array";if(a instanceof Object)return b;var c=Object.prototype.toString.call(a);if("[object Window]"==c)return"object";if("[object Array]"==c||"number"==typeof a.length&&"undefined"!=typeof a.splice&&"undefined"!=typeof a.propertyIsEnumerable&&!a.propertyIsEnumerable("splice"))return"array";if("[object Function]"==c||"undefined"!=typeof a.call&&"undefined"!=typeof a.propertyIsEnumerable&&!a.propertyIsEnumerable("call"))return"function"}else return"null";
-else if("function"==b&&"undefined"==typeof a.call)return"object";return b},u=function(a){return"function"==t(a)},fa=function(a,b,c){return a.call.apply(a.bind,arguments)},ga=function(a,b,c){if(!a)throw Error();if(2<arguments.length){var d=Array.prototype.slice.call(arguments,2);return function(){var c=Array.prototype.slice.call(arguments);Array.prototype.unshift.apply(c,d);return a.apply(b,c)}}return function(){return a.apply(b,arguments)}},v=function(a,b,c){v=Function.prototype.bind&&-1!=Function.prototype.bind.toString().indexOf("native code")?
-fa:ga;return v.apply(null,arguments)},w=function(a,b){var c=Array.prototype.slice.call(arguments,1);return function(){var b=c.slice();b.push.apply(b,arguments);return a.apply(this,b)}},x=function(a,b){function c(){}c.prototype=b.prototype;a.ba=b.prototype;a.prototype=new c;a.prototype.constructor=a;a.aa=function(a,c,g){for(var h=Array(arguments.length-2),f=2;f<arguments.length;f++)h[f-2]=arguments[f];return b.prototype[c].apply(a,h)}};function __extends(a,b){function c(){this.constructor=a}for(var d in b)b.hasOwnProperty(d)&&(a[d]=b[d]);a.prototype=null===b?Object.create(b):(c.prototype=b.prototype,new c)}
+(function() { var k="undefined"!=typeof window&&window===this?this:"undefined"!=typeof global?global:this,m={},n=function(a,b){(m[a]=m[a]||[]).push(b);var c=k;a=a.split(".");for(var d=0;d<a.length-1&&c;d++)c=c[a[d]];a=a[a.length-1];c&&c[a]instanceof Function&&(c[a]=b(c[a]))},p=function(){p=function(){};if(!k.Symbol){k.Symbol=aa;var a=[],b=function(b){return function(d){a=[];d=b(d);for(var e=[],g=0,h=d.length;g<h;g++){var f;a:if(f=d[g],14>f.length)f=!1;else{for(var l=0;14>l;l++)if(f[l]!="jscomp_symbol_"[l]){f=!1;
+break a}f=!0}f?a.push(d[g]):e.push(d[g])}return e}};n("Object.keys",b);n("Object.getOwnPropertyNames",b);n("Object.getOwnPropertySymbols",function(c){return function(d){b.ca=Object.getOwnPropertyNames(d);a.push.apply(c(d));return a}})}},ba=0,aa=function(a){return"jscomp_symbol_"+a+ba++},q=function(){p();k.Symbol.iterator||(k.Symbol.iterator=k.Symbol("iterator"));q=function(){}},ca=function(){var a=["next","error","complete"];q();var b=a[Symbol.iterator];if(b)return b.call(a);var c=0;return{next:function(){return c<
+a.length?{done:!1,value:a[c++]}:{done:!0}}}},da="function"==typeof Object.defineProperties?Object.defineProperty:function(a,b,c){if(c.get||c.set)throw new TypeError("ES3 does not support getters and setters.");a!=Array.prototype&&a!=Object.prototype&&(a[b]=c.value)},r=function(a,b){if(b){for(var c=k,d=a.split("."),e=0;e<d.length-1;e++){var g=d[e];g in c||(c[g]={});c=c[g]}d=d[d.length-1];e=c[d];b=b(e);if(b!=e){a=m[a]||[];for(e=0;e<a.length;e++)b=a[e](b);da(c,d,{configurable:!0,writable:!0,value:b})}}};
+r("String.prototype.repeat",function(a){return a?a:function(a){var c;if(null==this)throw new TypeError("The 'this' value for String.prototype.repeat must not be null or undefined");c=this+"";if(0>a||1342177279<a)throw new RangeError("Invalid count value");a|=0;for(var d="";a;)if(a&1&&(d+=c),a>>>=1)c+=c;return d}});
+var ea=function(a,b){q();a instanceof String&&(a+="");var c=0,d={next:function(){if(c<a.length){var e=c++;return{value:b(e,a[e]),done:!1}}d.next=function(){return{done:!0,value:void 0}};return d.next()}};d[Symbol.iterator]=function(){return d};return d};r("Array.prototype.keys",function(a){return a?a:function(){return ea(this,function(a){return a})}});
+var t=this,u=function(){},v=function(a){var b=typeof a;if("object"==b)if(a){if(a instanceof Array)return"array";if(a instanceof Object)return b;var c=Object.prototype.toString.call(a);if("[object Window]"==c)return"object";if("[object Array]"==c||"number"==typeof a.length&&"undefined"!=typeof a.splice&&"undefined"!=typeof a.propertyIsEnumerable&&!a.propertyIsEnumerable("splice"))return"array";if("[object Function]"==c||"undefined"!=typeof a.call&&"undefined"!=typeof a.propertyIsEnumerable&&!a.propertyIsEnumerable("call"))return"function"}else return"null";
+else if("function"==b&&"undefined"==typeof a.call)return"object";return b},w=function(a){return"function"==v(a)},fa=function(a,b,c){return a.call.apply(a.bind,arguments)},ga=function(a,b,c){if(!a)throw Error();if(2<arguments.length){var d=Array.prototype.slice.call(arguments,2);return function(){var c=Array.prototype.slice.call(arguments);Array.prototype.unshift.apply(c,d);return a.apply(b,c)}}return function(){return a.apply(b,arguments)}},x=function(a,b,c){x=Function.prototype.bind&&-1!=Function.prototype.bind.toString().indexOf("native code")?
+fa:ga;return x.apply(null,arguments)},y=function(a,b){var c=Array.prototype.slice.call(arguments,1);return function(){var b=c.slice();b.push.apply(b,arguments);return a.apply(this,b)}},z=function(a,b){function c(){}c.prototype=b.prototype;a.ba=b.prototype;a.prototype=new c;a.prototype.constructor=a;a.aa=function(a,c,g){for(var h=Array(arguments.length-2),f=2;f<arguments.length;f++)h[f-2]=arguments[f];return b.prototype[c].apply(a,h)}};function __extends(a,b){function c(){this.constructor=a}for(var d in b)b.hasOwnProperty(d)&&(a[d]=b[d]);a.prototype=null===b?Object.create(b):(c.prototype=b.prototype,new c)}
 function __decorate(a,b,c,d){var e=arguments.length,g=3>e?b:null===d?d=Object.getOwnPropertyDescriptor(b,c):d,h;h=(window||global).Reflect;if("object"===typeof h&&"function"===typeof h.decorate)g=h.decorate(a,b,c,d);else for(var f=a.length-1;0<=f;f--)if(h=a[f])g=(3>e?h(g):3<e?h(b,c,g):h(b,c))||g;return 3<e&&g&&Object.defineProperty(b,c,g),g}function __metadata(a,b){var c=(window||global).Reflect;if("object"===typeof c&&"function"===typeof c.metadata)return c.metadata(a,b)}
-var __param=function(a,b){return function(c,d){b(c,d,a)}},__awaiter=function(a,b,c,d){return new (c||(c=Promise))(function(e,g){function h(a){try{n(d.next(a))}catch(b){g(b)}}function f(a){try{n(d.throw(a))}catch(b){g(b)}}function n(a){a.done?e(a.value):(new c(function(b){b(a.value)})).then(h,f)}n((d=d.apply(a,b)).next())})};var y=function(a){if(Error.captureStackTrace)Error.captureStackTrace(this,y);else{var b=Error().stack;b&&(this.stack=b)}a&&(this.message=String(a))};x(y,Error);y.prototype.name="CustomError";var ha=function(a,b){for(var c=a.split("%s"),d="",e=Array.prototype.slice.call(arguments,1);e.length&&1<c.length;)d+=c.shift()+e.shift();return d+c.join("%s")};var z=function(a,b){b.unshift(a);y.call(this,ha.apply(null,b));b.shift()};x(z,y);z.prototype.name="AssertionError";var A=function(a,b,c,d){var e="Assertion failed";if(c)var e=e+(": "+c),g=d;else a&&(e+=": "+a,g=b);throw new z(""+e,g||[]);},B=function(a,b,c){a||A("",null,b,Array.prototype.slice.call(arguments,2))},C=function(a,b,c){u(a)||A("Expected function but got %s: %s.",[t(a),a],b,Array.prototype.slice.call(arguments,2))};var D=function(a,b,c){this.S=c;this.L=a;this.U=b;this.s=0;this.o=null};D.prototype.get=function(){var a;0<this.s?(this.s--,a=this.o,this.o=a.next,a.next=null):a=this.L();return a};D.prototype.put=function(a){this.U(a);this.s<this.S&&(this.s++,a.next=this.o,this.o=a)};var E;a:{var F=q.navigator;if(F){var ia=F.userAgent;if(ia){E=ia;break a}}E=""};var ja=function(a){q.setTimeout(function(){throw a;},0)},G,ka=function(){var a=q.MessageChannel;"undefined"===typeof a&&"undefined"!==typeof window&&window.postMessage&&window.addEventListener&&-1==E.indexOf("Presto")&&(a=function(){var a=document.createElement("IFRAME");a.style.display="none";a.src="";document.documentElement.appendChild(a);var b=a.contentWindow,a=b.document;a.open();a.write("");a.close();var c="callImmediate"+Math.random(),d="file:"==b.location.protocol?"*":b.location.protocol+
-"//"+b.location.host,a=v(function(a){if(("*"==d||a.origin==d)&&a.data==c)this.port1.onmessage()},this);b.addEventListener("message",a,!1);this.port1={};this.port2={postMessage:function(){b.postMessage(c,d)}}});if("undefined"!==typeof a&&-1==E.indexOf("Trident")&&-1==E.indexOf("MSIE")){var b=new a,c={},d=c;b.port1.onmessage=function(){if(void 0!==c.next){c=c.next;var a=c.F;c.F=null;a()}};return function(a){d.next={F:a};d=d.next;b.port2.postMessage(0)}}return"undefined"!==typeof document&&"onreadystatechange"in
-document.createElement("SCRIPT")?function(a){var b=document.createElement("SCRIPT");b.onreadystatechange=function(){b.onreadystatechange=null;b.parentNode.removeChild(b);b=null;a();a=null};document.documentElement.appendChild(b)}:function(a){q.setTimeout(a,0)}};var H=function(){this.v=this.f=null},la=new D(function(){return new J},function(a){a.reset()},100);H.prototype.add=function(a,b){var c=la.get();c.set(a,b);this.v?this.v.next=c:(B(!this.f),this.f=c);this.v=c};H.prototype.remove=function(){var a=null;this.f&&(a=this.f,this.f=this.f.next,this.f||(this.v=null),a.next=null);return a};var J=function(){this.next=this.scope=this.B=null};J.prototype.set=function(a,b){this.B=a;this.scope=b;this.next=null};
-J.prototype.reset=function(){this.next=this.scope=this.B=null};var M=function(a,b){K||ma();L||(K(),L=!0);na.add(a,b)},K,ma=function(){if(q.Promise&&q.Promise.resolve){var a=q.Promise.resolve(void 0);K=function(){a.then(oa)}}else K=function(){var a=oa,c;!(c=!u(q.setImmediate))&&(c=q.Window&&q.Window.prototype)&&(c=-1==E.indexOf("Edge")&&q.Window.prototype.setImmediate==q.setImmediate);c?(G||(G=ka()),G(a)):q.setImmediate(a)}},L=!1,na=new H,oa=function(){for(var a;a=na.remove();){try{a.B.call(a.scope)}catch(b){ja(b)}la.put(a)}L=!1};var O=function(a,b){this.b=0;this.K=void 0;this.j=this.g=this.u=null;this.m=this.A=!1;if(a!=r)try{var c=this;a.call(b,function(a){N(c,2,a)},function(a){try{if(a instanceof Error)throw a;throw Error("Promise rejected.");}catch(b){}N(c,3,a)})}catch(d){N(this,3,d)}},pa=function(){this.next=this.context=this.h=this.c=this.child=null;this.w=!1};pa.prototype.reset=function(){this.context=this.h=this.c=this.child=null;this.w=!1};
-var qa=new D(function(){return new pa},function(a){a.reset()},100),ra=function(a,b,c){var d=qa.get();d.c=a;d.h=b;d.context=c;return d},ta=function(a,b,c){sa(a,b,c,null)||M(w(b,a))};O.prototype.then=function(a,b,c){null!=a&&C(a,"opt_onFulfilled should be a function.");null!=b&&C(b,"opt_onRejected should be a function. Did you pass opt_context as the second argument instead of the third?");return ua(this,u(a)?a:null,u(b)?b:null,c)};O.prototype.then=O.prototype.then;O.prototype.$goog_Thenable=!0;
-O.prototype.X=function(a,b){return ua(this,null,a,b)};var wa=function(a,b){a.g||2!=a.b&&3!=a.b||va(a);B(null!=b.c);a.j?a.j.next=b:a.g=b;a.j=b},ua=function(a,b,c,d){var e=ra(null,null,null);e.child=new O(function(a,h){e.c=b?function(c){try{var e=b.call(d,c);a(e)}catch(I){h(I)}}:a;e.h=c?function(b){try{var e=c.call(d,b);a(e)}catch(I){h(I)}}:h});e.child.u=a;wa(a,e);return e.child};O.prototype.Y=function(a){B(1==this.b);this.b=0;N(this,2,a)};O.prototype.Z=function(a){B(1==this.b);this.b=0;N(this,3,a)};
-var N=function(a,b,c){0==a.b&&(a===c&&(b=3,c=new TypeError("Promise cannot resolve to itself")),a.b=1,sa(c,a.Y,a.Z,a)||(a.K=c,a.b=b,a.u=null,va(a),3!=b||xa(a,c)))},sa=function(a,b,c,d){if(a instanceof O)return null!=b&&C(b,"opt_onFulfilled should be a function."),null!=c&&C(c,"opt_onRejected should be a function. Did you pass opt_context as the second argument instead of the third?"),wa(a,ra(b||r,c||null,d)),!0;var e;if(a)try{e=!!a.$goog_Thenable}catch(h){e=!1}else e=!1;if(e)return a.then(b,c,d),
-!0;e=typeof a;if("object"==e&&null!=a||"function"==e)try{var g=a.then;if(u(g))return ya(a,g,b,c,d),!0}catch(h){return c.call(d,h),!0}return!1},ya=function(a,b,c,d,e){var g=!1,h=function(a){g||(g=!0,c.call(e,a))},f=function(a){g||(g=!0,d.call(e,a))};try{b.call(a,h,f)}catch(n){f(n)}},va=function(a){a.A||(a.A=!0,M(a.N,a))},za=function(a){var b=null;a.g&&(b=a.g,a.g=b.next,b.next=null);a.g||(a.j=null);null!=b&&B(null!=b.c);return b};
-O.prototype.N=function(){for(var a;a=za(this);){var b=this.b,c=this.K;if(3==b&&a.h&&!a.w){var d;for(d=this;d&&d.m;d=d.u)d.m=!1}if(a.child)a.child.u=null,Aa(a,b,c);else try{a.w?a.c.call(a.context):Aa(a,b,c)}catch(e){Ba.call(null,e)}qa.put(a)}this.A=!1};var Aa=function(a,b,c){2==b?a.c.call(a.context,c):a.h&&a.h.call(a.context,c)},xa=function(a,b){a.m=!0;M(function(){a.m&&Ba.call(null,b)})},Ba=ja;function P(a,b){if(!(b instanceof Object))return b;switch(b.constructor){case Date:return new Date(b.getTime());case Object:void 0===a&&(a={});break;case Array:a=[];break;default:return b}for(var c in b)b.hasOwnProperty(c)&&(a[c]=P(a[c],b[c]));return a};var Ca=Error.captureStackTrace,R=function(a,b){this.code=a;this.message=b;if(Ca)Ca(this,Q.prototype.create);else{var c=Error.apply(this,arguments);this.name="FirebaseError";Object.defineProperty(this,"stack",{get:function(){return c.stack}})}};R.prototype=Object.create(Error.prototype);R.prototype.constructor=R;R.prototype.name="FirebaseError";var Q=function(a,b,c){this.V=a;this.W=b;this.M=c;this.pattern=/\{\$([^}]+)}/g};
-Q.prototype.create=function(a,b){void 0===b&&(b={});var c=this.M[a];a=this.V+"/"+a;var c=void 0===c?"Error":c.replace(this.pattern,function(a,c){return void 0!==b[c]?b[c].toString():"<"+c+"?>"}),c=this.W+": "+c+" ("+a+").",c=new R(a,c),d;for(d in b)b.hasOwnProperty(d)&&"_"!==d.slice(-1)&&(c[d]=b[d]);return c};O.all=function(a){return new O(function(b,c){var d=a.length,e=[];if(d)for(var g=function(a,c){d--;e[a]=c;0==d&&b(e)},h=function(a){c(a)},f=0,n;f<a.length;f++)n=a[f],ta(n,w(g,f),h);else b(e)})};O.resolve=function(a){if(a instanceof O)return a;var b=new O(r);N(b,2,a);return b};O.reject=function(a){return new O(function(b,c){c(a)})};O.prototype["catch"]=O.prototype.X;var S=O;"undefined"!==typeof Promise&&(S=Promise);var Da=S;function Ea(a,b){a=new T(a,b);return a.subscribe.bind(a)}var T=function(a,b){var c=this;this.a=[];this.J=0;this.task=Da.resolve();this.l=!1;this.D=b;this.task.then(function(){a(c)}).catch(function(a){c.error(a)})};T.prototype.next=function(a){U(this,function(b){b.next(a)})};T.prototype.error=function(a){U(this,function(b){b.error(a)});this.close(a)};T.prototype.complete=function(){U(this,function(a){a.complete()});this.close()};
-T.prototype.subscribe=function(a,b,c){var d=this,e;if(void 0===a&&void 0===b&&void 0===c)throw Error("Missing Observer.");e=Fa(a)?a:{next:a,error:b,complete:c};void 0===e.next&&(e.next=V);void 0===e.error&&(e.error=V);void 0===e.complete&&(e.complete=V);a=this.$.bind(this,this.a.length);this.l&&this.task.then(function(){try{d.G?e.error(d.G):e.complete()}catch(a){}});this.a.push(e);return a};
-T.prototype.$=function(a){void 0!==this.a&&void 0!==this.a[a]&&(this.a[a]=void 0,--this.J,0===this.J&&void 0!==this.D&&this.D(this))};var U=function(a,b){if(!a.l)for(var c=0;c<a.a.length;c++)Ga(a,c,b)},Ga=function(a,b,c){a.task.then(function(){if(void 0!==a.a&&void 0!==a.a[b])try{c(a.a[b])}catch(d){}})};T.prototype.close=function(a){var b=this;this.l||(this.l=!0,void 0!==a&&(this.G=a),this.task.then(function(){b.a=void 0;b.D=void 0}))};
-function Fa(a){if("object"!==typeof a||null===a)return!1;for(var b=ca(),c=b.next();!c.done;c=b.next())if(c=c.value,c in a&&"function"===typeof a[c])return!0;return!1}function V(){};var W=S,X=function(a,b,c){var d=this;this.H=c;this.I=!1;this.i={};this.P={};this.C=b;this.T=P(void 0,a);Object.keys(c.INTERNAL.factories).forEach(function(a){d[a]=d.R.bind(d,a)})};X.prototype.delete=function(){var a=this;return(new W(function(b){Y(a);b()})).then(function(){a.H.INTERNAL.removeApp(a.C);return W.all(Object.keys(a.i).map(function(b){return a.i[b].INTERNAL.delete()}))}).then(function(){a.I=!0;a.i=null;a.P=null})};
-X.prototype.R=function(a){Y(this);void 0===this.i[a]&&(this.i[a]=this.H.INTERNAL.factories[a](this,this.O.bind(this)));return this.i[a]};X.prototype.O=function(a){P(this,a)};var Y=function(a){a.I&&Z(Ha("deleted",{name:a.C}))};Object.defineProperties(X.prototype,{name:{configurable:!0,enumerable:!0,get:function(){Y(this);return this.C}},options:{configurable:!0,enumerable:!0,get:function(){Y(this);return this.T}}});X.prototype.name&&X.prototype.options||X.prototype.delete||console.log("dc");
-function Ia(){function a(a){a=a||"[DEFAULT]";var c=b[a];void 0===c&&Z("noApp",{name:a});return c}var b={},c={},d=[],e={initializeApp:function(a,c){void 0===c?c="[DEFAULT]":"string"===typeof c&&""!==c||Z("bad-app-name",{name:c+""});void 0!==b[c]&&Z("dupApp",{name:c});var f=new X(a,c,e);b[c]=f;d.forEach(function(a){return a("create",f)});void 0!=f.INTERNAL&&void 0!=f.INTERNAL.getToken||P(f,{INTERNAL:{getToken:function(){return W.resolve(null)},addAuthTokenListener:function(){},removeAuthTokenListener:function(){}}});
-return f},app:a,apps:null,Promise:W,SDK_VERSION:"0.0.0",INTERNAL:{registerService:function(b,d,f){c[b]&&Z("dupService",{name:b});c[b]=d;d=function(c){void 0===c&&(c=a());return c[b]()};void 0!==f&&P(d,f);return e[b]=d},createFirebaseNamespace:Ia,extendNamespace:function(a){P(e,a)},createSubscribe:Ea,ErrorFactory:Q,registerAppHook:function(a){d.push(a)},removeApp:function(a){d.forEach(function(c){return c("delete",b[a])});delete b[a]},factories:c,Promise:O,deepExtend:P}};Object.defineProperty(e,"apps",
-{get:function(){return Object.keys(b).map(function(a){return b[a]})}});a.App=X;return e}function Z(a,b){throw Error(Ha(a,b));}
-function Ha(a,b){b=b||{};b={noApp:"No Firebase App '"+b.name+"' has been created - call Firebase App.initializeApp().","bad-app-name":"Illegal App name: '"+b.name+"'.",dupApp:"Firebase App named '"+b.name+"' already exists.",deleted:"Firebase App named '"+b.name+"' already deleted.",dupService:"Firebase Service named '"+b.name+"' already registered."}[a];return void 0===b?"Application Error: ("+a+")":b};"undefined"!==typeof window&&(window.firebase=Ia()); })();
-firebase.SDK_VERSION = "3.2.0";
+var __param=function(a,b){return function(c,d){b(c,d,a)}},__awaiter=function(a,b,c,d){return new (c||(c=Promise))(function(e,g){function h(a){try{l(d.next(a))}catch(b){g(b)}}function f(a){try{l(d.throw(a))}catch(b){g(b)}}function l(a){a.done?e(a.value):(new c(function(b){b(a.value)})).then(h,f)}l((d=d.apply(a,b)).next())})};var A=function(a){if(Error.captureStackTrace)Error.captureStackTrace(this,A);else{var b=Error().stack;b&&(this.stack=b)}a&&(this.message=String(a))};z(A,Error);A.prototype.name="CustomError";var ha=function(a,b){for(var c=a.split("%s"),d="",e=Array.prototype.slice.call(arguments,1);e.length&&1<c.length;)d+=c.shift()+e.shift();return d+c.join("%s")};var B=function(a,b){b.unshift(a);A.call(this,ha.apply(null,b));b.shift()};z(B,A);B.prototype.name="AssertionError";var ia=function(a,b,c,d){var e="Assertion failed";if(c)var e=e+(": "+c),g=d;else a&&(e+=": "+a,g=b);throw new B(""+e,g||[]);},C=function(a,b,c){a||ia("",null,b,Array.prototype.slice.call(arguments,2))},D=function(a,b,c){w(a)||ia("Expected function but got %s: %s.",[v(a),a],b,Array.prototype.slice.call(arguments,2))};var E=function(a,b,c){this.S=c;this.L=a;this.U=b;this.s=0;this.o=null};E.prototype.get=function(){var a;0<this.s?(this.s--,a=this.o,this.o=a.next,a.next=null):a=this.L();return a};E.prototype.put=function(a){this.U(a);this.s<this.S&&(this.s++,a.next=this.o,this.o=a)};var F;a:{var ja=t.navigator;if(ja){var ka=ja.userAgent;if(ka){F=ka;break a}}F=""};var la=function(a){t.setTimeout(function(){throw a;},0)},G,ma=function(){var a=t.MessageChannel;"undefined"===typeof a&&"undefined"!==typeof window&&window.postMessage&&window.addEventListener&&-1==F.indexOf("Presto")&&(a=function(){var a=document.createElement("IFRAME");a.style.display="none";a.src="";document.documentElement.appendChild(a);var b=a.contentWindow,a=b.document;a.open();a.write("");a.close();var c="callImmediate"+Math.random(),d="file:"==b.location.protocol?"*":b.location.protocol+
+"//"+b.location.host,a=x(function(a){if(("*"==d||a.origin==d)&&a.data==c)this.port1.onmessage()},this);b.addEventListener("message",a,!1);this.port1={};this.port2={postMessage:function(){b.postMessage(c,d)}}});if("undefined"!==typeof a&&-1==F.indexOf("Trident")&&-1==F.indexOf("MSIE")){var b=new a,c={},d=c;b.port1.onmessage=function(){if(void 0!==c.next){c=c.next;var a=c.F;c.F=null;a()}};return function(a){d.next={F:a};d=d.next;b.port2.postMessage(0)}}return"undefined"!==typeof document&&"onreadystatechange"in
+document.createElement("SCRIPT")?function(a){var b=document.createElement("SCRIPT");b.onreadystatechange=function(){b.onreadystatechange=null;b.parentNode.removeChild(b);b=null;a();a=null};document.documentElement.appendChild(b)}:function(a){t.setTimeout(a,0)}};var H=function(){this.v=this.f=null},na=new E(function(){return new I},function(a){a.reset()},100);H.prototype.add=function(a,b){var c=na.get();c.set(a,b);this.v?this.v.next=c:(C(!this.f),this.f=c);this.v=c};H.prototype.remove=function(){var a=null;this.f&&(a=this.f,this.f=this.f.next,this.f||(this.v=null),a.next=null);return a};var I=function(){this.next=this.scope=this.B=null};I.prototype.set=function(a,b){this.B=a;this.scope=b;this.next=null};
+I.prototype.reset=function(){this.next=this.scope=this.B=null};var M=function(a,b){J||oa();L||(J(),L=!0);pa.add(a,b)},J,oa=function(){if(t.Promise&&t.Promise.resolve){var a=t.Promise.resolve(void 0);J=function(){a.then(qa)}}else J=function(){var a=qa,c;!(c=!w(t.setImmediate))&&(c=t.Window&&t.Window.prototype)&&(c=-1==F.indexOf("Edge")&&t.Window.prototype.setImmediate==t.setImmediate);c?(G||(G=ma()),G(a)):t.setImmediate(a)}},L=!1,pa=new H,qa=function(){for(var a;a=pa.remove();){try{a.B.call(a.scope)}catch(b){la(b)}na.put(a)}L=!1};var O=function(a,b){this.b=0;this.K=void 0;this.j=this.g=this.u=null;this.m=this.A=!1;if(a!=u)try{var c=this;a.call(b,function(a){N(c,2,a)},function(a){try{if(a instanceof Error)throw a;throw Error("Promise rejected.");}catch(b){}N(c,3,a)})}catch(d){N(this,3,d)}},ra=function(){this.next=this.context=this.h=this.c=this.child=null;this.w=!1};ra.prototype.reset=function(){this.context=this.h=this.c=this.child=null;this.w=!1};
+var sa=new E(function(){return new ra},function(a){a.reset()},100),ta=function(a,b,c){var d=sa.get();d.c=a;d.h=b;d.context=c;return d},va=function(a,b,c){ua(a,b,c,null)||M(y(b,a))};O.prototype.then=function(a,b,c){null!=a&&D(a,"opt_onFulfilled should be a function.");null!=b&&D(b,"opt_onRejected should be a function. Did you pass opt_context as the second argument instead of the third?");return wa(this,w(a)?a:null,w(b)?b:null,c)};O.prototype.then=O.prototype.then;O.prototype.$goog_Thenable=!0;
+O.prototype.X=function(a,b){return wa(this,null,a,b)};var ya=function(a,b){a.g||2!=a.b&&3!=a.b||xa(a);C(null!=b.c);a.j?a.j.next=b:a.g=b;a.j=b},wa=function(a,b,c,d){var e=ta(null,null,null);e.child=new O(function(a,h){e.c=b?function(c){try{var e=b.call(d,c);a(e)}catch(K){h(K)}}:a;e.h=c?function(b){try{var e=c.call(d,b);a(e)}catch(K){h(K)}}:h});e.child.u=a;ya(a,e);return e.child};O.prototype.Y=function(a){C(1==this.b);this.b=0;N(this,2,a)};O.prototype.Z=function(a){C(1==this.b);this.b=0;N(this,3,a)};
+var N=function(a,b,c){0==a.b&&(a===c&&(b=3,c=new TypeError("Promise cannot resolve to itself")),a.b=1,ua(c,a.Y,a.Z,a)||(a.K=c,a.b=b,a.u=null,xa(a),3!=b||za(a,c)))},ua=function(a,b,c,d){if(a instanceof O)return null!=b&&D(b,"opt_onFulfilled should be a function."),null!=c&&D(c,"opt_onRejected should be a function. Did you pass opt_context as the second argument instead of the third?"),ya(a,ta(b||u,c||null,d)),!0;var e;if(a)try{e=!!a.$goog_Thenable}catch(h){e=!1}else e=!1;if(e)return a.then(b,c,d),
+!0;e=typeof a;if("object"==e&&null!=a||"function"==e)try{var g=a.then;if(w(g))return Aa(a,g,b,c,d),!0}catch(h){return c.call(d,h),!0}return!1},Aa=function(a,b,c,d,e){var g=!1,h=function(a){g||(g=!0,c.call(e,a))},f=function(a){g||(g=!0,d.call(e,a))};try{b.call(a,h,f)}catch(l){f(l)}},xa=function(a){a.A||(a.A=!0,M(a.N,a))},Ba=function(a){var b=null;a.g&&(b=a.g,a.g=b.next,b.next=null);a.g||(a.j=null);null!=b&&C(null!=b.c);return b};
+O.prototype.N=function(){for(var a;a=Ba(this);){var b=this.b,c=this.K;if(3==b&&a.h&&!a.w){var d;for(d=this;d&&d.m;d=d.u)d.m=!1}if(a.child)a.child.u=null,Ca(a,b,c);else try{a.w?a.c.call(a.context):Ca(a,b,c)}catch(e){Da.call(null,e)}sa.put(a)}this.A=!1};var Ca=function(a,b,c){2==b?a.c.call(a.context,c):a.h&&a.h.call(a.context,c)},za=function(a,b){a.m=!0;M(function(){a.m&&Da.call(null,b)})},Da=la;function P(a,b){if(!(b instanceof Object))return b;switch(b.constructor){case Date:return new Date(b.getTime());case Object:void 0===a&&(a={});break;case Array:a=[];break;default:return b}for(var c in b)b.hasOwnProperty(c)&&(a[c]=P(a[c],b[c]));return a};var Ea=Error.captureStackTrace,R=function(a,b){this.code=a;this.message=b;if(Ea)Ea(this,Q.prototype.create);else{var c=Error.apply(this,arguments);this.name="FirebaseError";Object.defineProperty(this,"stack",{get:function(){return c.stack}})}};R.prototype=Object.create(Error.prototype);R.prototype.constructor=R;R.prototype.name="FirebaseError";var Q=function(a,b,c){this.V=a;this.W=b;this.M=c;this.pattern=/\{\$([^}]+)}/g};
+Q.prototype.create=function(a,b){void 0===b&&(b={});var c=this.M[a];a=this.V+"/"+a;var c=void 0===c?"Error":c.replace(this.pattern,function(a,c){return void 0!==b[c]?b[c].toString():"<"+c+"?>"}),c=this.W+": "+c+" ("+a+").",c=new R(a,c),d;for(d in b)b.hasOwnProperty(d)&&"_"!==d.slice(-1)&&(c[d]=b[d]);return c};O.all=function(a){return new O(function(b,c){var d=a.length,e=[];if(d)for(var g=function(a,c){d--;e[a]=c;0==d&&b(e)},h=function(a){c(a)},f=0,l;f<a.length;f++)l=a[f],va(l,y(g,f),h);else b(e)})};O.resolve=function(a){if(a instanceof O)return a;var b=new O(u);N(b,2,a);return b};O.reject=function(a){return new O(function(b,c){c(a)})};O.prototype["catch"]=O.prototype.X;var S=O;"undefined"!==typeof Promise&&(S=Promise);var Fa=S;function Ga(a,b){a=new T(a,b);return a.subscribe.bind(a)}var T=function(a,b){var c=this;this.a=[];this.J=0;this.task=Fa.resolve();this.l=!1;this.D=b;this.task.then(function(){a(c)}).catch(function(a){c.error(a)})};T.prototype.next=function(a){U(this,function(b){b.next(a)})};T.prototype.error=function(a){U(this,function(b){b.error(a)});this.close(a)};T.prototype.complete=function(){U(this,function(a){a.complete()});this.close()};
+T.prototype.subscribe=function(a,b,c){var d=this,e;if(void 0===a&&void 0===b&&void 0===c)throw Error("Missing Observer.");e=Ha(a)?a:{next:a,error:b,complete:c};void 0===e.next&&(e.next=V);void 0===e.error&&(e.error=V);void 0===e.complete&&(e.complete=V);a=this.$.bind(this,this.a.length);this.l&&this.task.then(function(){try{d.G?e.error(d.G):e.complete()}catch(a){}});this.a.push(e);return a};
+T.prototype.$=function(a){void 0!==this.a&&void 0!==this.a[a]&&(this.a[a]=void 0,--this.J,0===this.J&&void 0!==this.D&&this.D(this))};var U=function(a,b){if(!a.l)for(var c=0;c<a.a.length;c++)Ia(a,c,b)},Ia=function(a,b,c){a.task.then(function(){if(void 0!==a.a&&void 0!==a.a[b])try{c(a.a[b])}catch(d){}})};T.prototype.close=function(a){var b=this;this.l||(this.l=!0,void 0!==a&&(this.G=a),this.task.then(function(){b.a=void 0;b.D=void 0}))};
+function Ha(a){if("object"!==typeof a||null===a)return!1;for(var b=ca(),c=b.next();!c.done;c=b.next())if(c=c.value,c in a&&"function"===typeof a[c])return!0;return!1}function V(){};var W=S,X=function(a,b,c){var d=this;this.H=c;this.I=!1;this.i={};this.P={};this.C=b;this.T=P(void 0,a);Object.keys(c.INTERNAL.factories).forEach(function(a){d[a]=d.R.bind(d,a)})};X.prototype.delete=function(){var a=this;return(new W(function(b){Y(a);b()})).then(function(){a.H.INTERNAL.removeApp(a.C);return W.all(Object.keys(a.i).map(function(b){return a.i[b].INTERNAL.delete()}))}).then(function(){a.I=!0;a.i=null;a.P=null})};
+X.prototype.R=function(a){Y(this);void 0===this.i[a]&&(this.i[a]=this.H.INTERNAL.factories[a](this,this.O.bind(this)));return this.i[a]};X.prototype.O=function(a){P(this,a)};var Y=function(a){a.I&&Z(Ja("deleted",{name:a.C}))};Object.defineProperties(X.prototype,{name:{configurable:!0,enumerable:!0,get:function(){Y(this);return this.C}},options:{configurable:!0,enumerable:!0,get:function(){Y(this);return this.T}}});X.prototype.name&&X.prototype.options||X.prototype.delete||console.log("dc");
+function Ka(){function a(a){a=a||"[DEFAULT]";var c=b[a];void 0===c&&Z("noApp",{name:a});return c}var b={},c={},d=[],e={__esModule:!0,initializeApp:function(a,c){void 0===c?c="[DEFAULT]":"string"===typeof c&&""!==c||Z("bad-app-name",{name:c+""});void 0!==b[c]&&Z("dupApp",{name:c});var f=new X(a,c,e);b[c]=f;d.forEach(function(a){return a("create",f)});void 0!=f.INTERNAL&&void 0!=f.INTERNAL.getToken||P(f,{INTERNAL:{getToken:function(){return W.resolve(null)},addAuthTokenListener:function(){},removeAuthTokenListener:function(){}}});
+return f},app:a,apps:null,Promise:W,SDK_VERSION:"0.0.0",INTERNAL:{registerService:function(b,d,f){c[b]&&Z("dupService",{name:b});c[b]=d;d=function(c){void 0===c&&(c=a());return c[b]()};void 0!==f&&P(d,f);return e[b]=d},createFirebaseNamespace:Ka,extendNamespace:function(a){P(e,a)},createSubscribe:Ga,ErrorFactory:Q,registerAppHook:function(a){d.push(a)},removeApp:function(a){d.forEach(function(c){return c("delete",b[a])});delete b[a]},factories:c,Promise:O,deepExtend:P}};e["default"]=e;Object.defineProperty(e,
+"apps",{get:function(){return Object.keys(b).map(function(a){return b[a]})}});a.App=X;return e}function Z(a,b){throw Error(Ja(a,b));}
+function Ja(a,b){b=b||{};b={noApp:"No Firebase App '"+b.name+"' has been created - call Firebase App.initializeApp().","bad-app-name":"Illegal App name: '"+b.name+"'.",dupApp:"Firebase App named '"+b.name+"' already exists.",deleted:"Firebase App named '"+b.name+"' already deleted.",dupService:"Firebase Service named '"+b.name+"' already registered."}[a];return void 0===b?"Application Error: ("+a+")":b};"undefined"!==typeof window&&(window.firebase=Ka()); })();
+firebase.SDK_VERSION = "3.2.1";
 (function(){var h,aa=aa||{},l=this,ba=function(){},ca=function(a){var b=typeof a;if("object"==b)if(a){if(a instanceof Array)return"array";if(a instanceof Object)return b;var c=Object.prototype.toString.call(a);if("[object Window]"==c)return"object";if("[object Array]"==c||"number"==typeof a.length&&"undefined"!=typeof a.splice&&"undefined"!=typeof a.propertyIsEnumerable&&!a.propertyIsEnumerable("splice"))return"array";if("[object Function]"==c||"undefined"!=typeof a.call&&"undefined"!=typeof a.propertyIsEnumerable&&
 !a.propertyIsEnumerable("call"))return"function"}else return"null";else if("function"==b&&"undefined"==typeof a.call)return"object";return b},da=function(a){return null===a},ea=function(a){return"array"==ca(a)},fa=function(a){var b=ca(a);return"array"==b||"object"==b&&"number"==typeof a.length},m=function(a){return"string"==typeof a},ga=function(a){return"number"==typeof a},n=function(a){return"function"==ca(a)},ha=function(a){var b=typeof a;return"object"==b&&null!=a||"function"==b},ia=function(a,
 b,c){return a.call.apply(a.bind,arguments)},ja=function(a,b,c){if(!a)throw Error();if(2<arguments.length){var d=Array.prototype.slice.call(arguments,2);return function(){var c=Array.prototype.slice.call(arguments);Array.prototype.unshift.apply(c,d);return a.apply(b,c)}}return function(){return a.apply(b,arguments)}},q=function(a,b,c){q=Function.prototype.bind&&-1!=Function.prototype.bind.toString().indexOf("native code")?ia:ja;return q.apply(null,arguments)},ka=function(a,b){var c=Array.prototype.slice.call(arguments,
-1);return function(){var b=c.slice();b.push.apply(b,arguments);return a.apply(this,b)}},la=Date.now||function(){return+new Date},r=function(a,b){function c(){}c.prototype=b.prototype;a.Fc=b.prototype;a.prototype=new c;a.prototype.constructor=a;a.He=function(a,c,f){for(var g=Array(arguments.length-2),k=2;k<arguments.length;k++)g[k-2]=arguments[k];return b.prototype[c].apply(a,g)}};var t=function(a){if(Error.captureStackTrace)Error.captureStackTrace(this,t);else{var b=Error().stack;b&&(this.stack=b)}a&&(this.message=String(a))};r(t,Error);t.prototype.name="CustomError";var ma=function(a,b){for(var c=a.split("%s"),d="",e=Array.prototype.slice.call(arguments,1);e.length&&1<c.length;)d+=c.shift()+e.shift();return d+c.join("%s")},na=String.prototype.trim?function(a){return a.trim()}:function(a){return a.replace(/^[\s\xa0]+|[\s\xa0]+$/g,"")},oa=/&/g,pa=/</g,qa=/>/g,ra=/"/g,sa=/'/g,ta=/\x00/g,ua=/[\x00&<>"']/,u=function(a,b){return-1!=a.indexOf(b)},va=function(a,b){return a<b?-1:a>b?1:0};var wa=function(a,b){b.unshift(a);t.call(this,ma.apply(null,b));b.shift()};r(wa,t);wa.prototype.name="AssertionError";
+1);return function(){var b=c.slice();b.push.apply(b,arguments);return a.apply(this,b)}},la=Date.now||function(){return+new Date},r=function(a,b){function c(){}c.prototype=b.prototype;a.Ic=b.prototype;a.prototype=new c;a.prototype.constructor=a;a.Ke=function(a,c,f){for(var g=Array(arguments.length-2),k=2;k<arguments.length;k++)g[k-2]=arguments[k];return b.prototype[c].apply(a,g)}};var t=function(a){if(Error.captureStackTrace)Error.captureStackTrace(this,t);else{var b=Error().stack;b&&(this.stack=b)}a&&(this.message=String(a))};r(t,Error);t.prototype.name="CustomError";var ma=function(a,b){for(var c=a.split("%s"),d="",e=Array.prototype.slice.call(arguments,1);e.length&&1<c.length;)d+=c.shift()+e.shift();return d+c.join("%s")},na=String.prototype.trim?function(a){return a.trim()}:function(a){return a.replace(/^[\s\xa0]+|[\s\xa0]+$/g,"")},oa=/&/g,pa=/</g,qa=/>/g,ra=/"/g,sa=/'/g,ta=/\x00/g,ua=/[\x00&<>"']/,u=function(a,b){return-1!=a.indexOf(b)},va=function(a,b){return a<b?-1:a>b?1:0};var wa=function(a,b){b.unshift(a);t.call(this,ma.apply(null,b));b.shift()};r(wa,t);wa.prototype.name="AssertionError";
 var xa=function(a,b,c,d){var e="Assertion failed";if(c)var e=e+(": "+c),f=d;else a&&(e+=": "+a,f=b);throw new wa(""+e,f||[]);},v=function(a,b,c){a||xa("",null,b,Array.prototype.slice.call(arguments,2))},ya=function(a,b){throw new wa("Failure"+(a?": "+a:""),Array.prototype.slice.call(arguments,1));},za=function(a,b,c){ga(a)||xa("Expected number but got %s: %s.",[ca(a),a],b,Array.prototype.slice.call(arguments,2));return a},Aa=function(a,b,c){m(a)||xa("Expected string but got %s: %s.",[ca(a),a],b,Array.prototype.slice.call(arguments,
 2))},Ba=function(a,b,c){n(a)||xa("Expected function but got %s: %s.",[ca(a),a],b,Array.prototype.slice.call(arguments,2))};var Ca=Array.prototype.indexOf?function(a,b,c){v(null!=a.length);return Array.prototype.indexOf.call(a,b,c)}:function(a,b,c){c=null==c?0:0>c?Math.max(0,a.length+c):c;if(m(a))return m(b)&&1==b.length?a.indexOf(b,c):-1;for(;c<a.length;c++)if(c in a&&a[c]===b)return c;return-1},w=Array.prototype.forEach?function(a,b,c){v(null!=a.length);Array.prototype.forEach.call(a,b,c)}:function(a,b,c){for(var d=a.length,e=m(a)?a.split(""):a,f=0;f<d;f++)f in e&&b.call(c,e[f],f,a)},Da=function(a,b){for(var c=m(a)?
 a.split(""):a,d=a.length-1;0<=d;--d)d in c&&b.call(void 0,c[d],d,a)},Ea=Array.prototype.map?function(a,b,c){v(null!=a.length);return Array.prototype.map.call(a,b,c)}:function(a,b,c){for(var d=a.length,e=Array(d),f=m(a)?a.split(""):a,g=0;g<d;g++)g in f&&(e[g]=b.call(c,f[g],g,a));return e},Fa=Array.prototype.some?function(a,b,c){v(null!=a.length);return Array.prototype.some.call(a,b,c)}:function(a,b,c){for(var d=a.length,e=m(a)?a.split(""):a,f=0;f<d;f++)if(f in e&&b.call(c,e[f],f,a))return!0;return!1},
 Ha=function(a){var b;a:{b=Ga;for(var c=a.length,d=m(a)?a.split(""):a,e=0;e<c;e++)if(e in d&&b.call(void 0,d[e],e,a)){b=e;break a}b=-1}return 0>b?null:m(a)?a.charAt(b):a[b]},Ia=function(a,b){return 0<=Ca(a,b)},Ka=function(a,b){var c=Ca(a,b),d;(d=0<=c)&&Ja(a,c);return d},Ja=function(a,b){v(null!=a.length);return 1==Array.prototype.splice.call(a,b,1).length},La=function(a,b){var c=0;Da(a,function(d,e){b.call(void 0,d,e,a)&&Ja(a,e)&&c++})},Ma=function(a){return Array.prototype.concat.apply(Array.prototype,
-arguments)},Na=function(a){return Array.prototype.concat.apply(Array.prototype,arguments)},Oa=function(a){var b=a.length;if(0<b){for(var c=Array(b),d=0;d<b;d++)c[d]=a[d];return c}return[]},Pa=function(a,b){for(var c=1;c<arguments.length;c++){var d=arguments[c];if(fa(d)){var e=a.length||0,f=d.length||0;a.length=e+f;for(var g=0;g<f;g++)a[e+g]=d[g]}else a.push(d)}};var Qa=function(a,b){for(var c in a)b.call(void 0,a[c],c,a)},Ra=function(a){var b=[],c=0,d;for(d in a)b[c++]=a[d];return b},Sa=function(a){var b=[],c=0,d;for(d in a)b[c++]=d;return b},Va=function(a){for(var b in a)return!1;return!0},Wa=function(a,b){for(var c in a)if(!(c in b)||a[c]!==b[c])return!1;for(c in b)if(!(c in a))return!1;return!0},Xa=function(a){var b={},c;for(c in a)b[c]=a[c];return b},Ya="constructor hasOwnProperty isPrototypeOf propertyIsEnumerable toLocaleString toString valueOf".split(" "),
+arguments)},Na=function(a){return Array.prototype.concat.apply(Array.prototype,arguments)},Oa=function(a){var b=a.length;if(0<b){for(var c=Array(b),d=0;d<b;d++)c[d]=a[d];return c}return[]},Pa=function(a,b){for(var c=1;c<arguments.length;c++){var d=arguments[c];if(fa(d)){var e=a.length||0,f=d.length||0;a.length=e+f;for(var g=0;g<f;g++)a[e+g]=d[g]}else a.push(d)}};var Qa=function(a,b){for(var c in a)b.call(void 0,a[c],c,a)},Ra=function(a){var b=[],c=0,d;for(d in a)b[c++]=a[d];return b},Sa=function(a){var b=[],c=0,d;for(d in a)b[c++]=d;return b},Ta=function(a){for(var b in a)return!1;return!0},Ua=function(a,b){for(var c in a)if(!(c in b)||a[c]!==b[c])return!1;for(c in b)if(!(c in a))return!1;return!0},Xa=function(a){var b={},c;for(c in a)b[c]=a[c];return b},Ya="constructor hasOwnProperty isPrototypeOf propertyIsEnumerable toLocaleString toString valueOf".split(" "),
 Za=function(a,b){for(var c,d,e=1;e<arguments.length;e++){d=arguments[e];for(c in d)a[c]=d[c];for(var f=0;f<Ya.length;f++)c=Ya[f],Object.prototype.hasOwnProperty.call(d,c)&&(a[c]=d[c])}};var $a;a:{var ab=l.navigator;if(ab){var bb=ab.userAgent;if(bb){$a=bb;break a}}$a=""}var x=function(a){return u($a,a)};var cb=x("Opera"),y=x("Trident")||x("MSIE"),db=x("Edge"),eb=db||y,fb=x("Gecko")&&!(u($a.toLowerCase(),"webkit")&&!x("Edge"))&&!(x("Trident")||x("MSIE"))&&!x("Edge"),gb=u($a.toLowerCase(),"webkit")&&!x("Edge"),hb=function(){var a=l.document;return a?a.documentMode:void 0},ib;
 a:{var jb="",kb=function(){var a=$a;if(fb)return/rv\:([^\);]+)(\)|;)/.exec(a);if(db)return/Edge\/([\d\.]+)/.exec(a);if(y)return/\b(?:MSIE|rv)[: ]([^\);]+)(\)|;)/.exec(a);if(gb)return/WebKit\/(\S+)/.exec(a);if(cb)return/(?:Version)[ \/]?(\S+)/.exec(a)}();kb&&(jb=kb?kb[1]:"");if(y){var lb=hb();if(null!=lb&&lb>parseFloat(jb)){ib=String(lb);break a}}ib=jb}
-var mb=ib,nb={},z=function(a){var b;if(!(b=nb[a])){b=0;for(var c=na(String(mb)).split("."),d=na(String(a)).split("."),e=Math.max(c.length,d.length),f=0;0==b&&f<e;f++){var g=c[f]||"",k=d[f]||"",p=RegExp("(\\d*)(\\D*)","g"),Y=RegExp("(\\d*)(\\D*)","g");do{var Ta=p.exec(g)||["","",""],Ua=Y.exec(k)||["","",""];if(0==Ta[0].length&&0==Ua[0].length)break;b=va(0==Ta[1].length?0:parseInt(Ta[1],10),0==Ua[1].length?0:parseInt(Ua[1],10))||va(0==Ta[2].length,0==Ua[2].length)||va(Ta[2],Ua[2])}while(0==b)}b=nb[a]=
+var mb=ib,nb={},z=function(a){var b;if(!(b=nb[a])){b=0;for(var c=na(String(mb)).split("."),d=na(String(a)).split("."),e=Math.max(c.length,d.length),f=0;0==b&&f<e;f++){var g=c[f]||"",k=d[f]||"",p=RegExp("(\\d*)(\\D*)","g"),Y=RegExp("(\\d*)(\\D*)","g");do{var Va=p.exec(g)||["","",""],Wa=Y.exec(k)||["","",""];if(0==Va[0].length&&0==Wa[0].length)break;b=va(0==Va[1].length?0:parseInt(Va[1],10),0==Wa[1].length?0:parseInt(Wa[1],10))||va(0==Va[2].length,0==Wa[2].length)||va(Va[2],Wa[2])}while(0==b)}b=nb[a]=
 0<=b}return b},ob=l.document,pb=ob&&y?hb()||("CSS1Compat"==ob.compatMode?parseInt(mb,10):5):void 0;var qb=null,rb=null,tb=function(a){var b="";sb(a,function(a){b+=String.fromCharCode(a)});return b},sb=function(a,b){function c(b){for(;d<a.length;){var c=a.charAt(d++),e=rb[c];if(null!=e)return e;if(!/^[\s\xa0]*$/.test(c))throw Error("Unknown base64 encoding at char: "+c);}return b}ub();for(var d=0;;){var e=c(-1),f=c(0),g=c(64),k=c(64);if(64===k&&-1===e)break;b(e<<2|f>>4);64!=g&&(b(f<<4&240|g>>2),64!=k&&b(g<<6&192|k))}},ub=function(){if(!qb){qb={};rb={};for(var a=0;65>a;a++)qb[a]="ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/=".charAt(a),
-rb[qb[a]]=a,62<=a&&(rb["ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789-_.".charAt(a)]=a)}};var wb=function(){this.Wb="";this.Dd=vb};wb.prototype.oc=!0;wb.prototype.mc=function(){return this.Wb};wb.prototype.toString=function(){return"Const{"+this.Wb+"}"};var xb=function(a){if(a instanceof wb&&a.constructor===wb&&a.Dd===vb)return a.Wb;ya("expected object of type Const, got '"+a+"'");return"type_error:Const"},vb={};var A=function(){this.da="";this.Cd=yb};A.prototype.oc=!0;A.prototype.mc=function(){return this.da};A.prototype.toString=function(){return"SafeUrl{"+this.da+"}"};
-var zb=function(a){if(a instanceof A&&a.constructor===A&&a.Cd===yb)return a.da;ya("expected object of type SafeUrl, got '"+a+"' of type "+ca(a));return"type_error:SafeUrl"},Ab=/^(?:(?:https?|mailto|ftp):|[^&:/?#]*(?:[/?#]|$))/i,Cb=function(a){if(a instanceof A)return a;a=a.oc?a.mc():String(a);Ab.test(a)||(a="about:invalid#zClosurez");return Bb(a)},yb={},Bb=function(a){var b=new A;b.da=a;return b};Bb("about:blank");var Eb=function(){this.da="";this.Bd=Db};Eb.prototype.oc=!0;Eb.prototype.mc=function(){return this.da};Eb.prototype.toString=function(){return"SafeHtml{"+this.da+"}"};var Fb=function(a){if(a instanceof Eb&&a.constructor===Eb&&a.Bd===Db)return a.da;ya("expected object of type SafeHtml, got '"+a+"' of type "+ca(a));return"type_error:SafeHtml"},Db={};Eb.prototype.ge=function(a){this.da=a;return this};var Gb=function(a,b){var c;c=b instanceof A?b:Cb(b);a.href=zb(c)};var Hb=function(a){Hb[" "](a);return a};Hb[" "]=ba;var Ib=!y||9<=Number(pb),Jb=y&&!z("9");!gb||z("528");fb&&z("1.9b")||y&&z("8")||cb&&z("9.5")||gb&&z("528");fb&&!z("8")||y&&z("9");var Kb=function(){this.ua=this.ua;this.Mb=this.Mb};Kb.prototype.ua=!1;Kb.prototype.isDisposed=function(){return this.ua};Kb.prototype.Ka=function(){if(this.Mb)for(;this.Mb.length;)this.Mb.shift()()};var Lb=function(a,b){this.type=a;this.currentTarget=this.target=b;this.defaultPrevented=this.Sa=!1;this.nd=!0};Lb.prototype.preventDefault=function(){this.defaultPrevented=!0;this.nd=!1};var Mb=function(a,b){Lb.call(this,a?a.type:"");this.relatedTarget=this.currentTarget=this.target=null;this.charCode=this.keyCode=this.button=this.screenY=this.screenX=this.clientY=this.clientX=this.offsetY=this.offsetX=0;this.metaKey=this.shiftKey=this.altKey=this.ctrlKey=!1;this.Cb=this.state=null;a&&this.init(a,b)};r(Mb,Lb);
+rb[qb[a]]=a,62<=a&&(rb["ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789-_.".charAt(a)]=a)}};var wb=function(){this.Wb="";this.Ed=vb};wb.prototype.pc=!0;wb.prototype.nc=function(){return this.Wb};wb.prototype.toString=function(){return"Const{"+this.Wb+"}"};var xb=function(a){if(a instanceof wb&&a.constructor===wb&&a.Ed===vb)return a.Wb;ya("expected object of type Const, got '"+a+"'");return"type_error:Const"},vb={};var A=function(){this.ea="";this.Dd=yb};A.prototype.pc=!0;A.prototype.nc=function(){return this.ea};A.prototype.toString=function(){return"SafeUrl{"+this.ea+"}"};
+var zb=function(a){if(a instanceof A&&a.constructor===A&&a.Dd===yb)return a.ea;ya("expected object of type SafeUrl, got '"+a+"' of type "+ca(a));return"type_error:SafeUrl"},Ab=/^(?:(?:https?|mailto|ftp):|[^&:/?#]*(?:[/?#]|$))/i,Cb=function(a){if(a instanceof A)return a;a=a.pc?a.nc():String(a);Ab.test(a)||(a="about:invalid#zClosurez");return Bb(a)},yb={},Bb=function(a){var b=new A;b.ea=a;return b};Bb("about:blank");var Eb=function(){this.ea="";this.Cd=Db};Eb.prototype.pc=!0;Eb.prototype.nc=function(){return this.ea};Eb.prototype.toString=function(){return"SafeHtml{"+this.ea+"}"};var Fb=function(a){if(a instanceof Eb&&a.constructor===Eb&&a.Cd===Db)return a.ea;ya("expected object of type SafeHtml, got '"+a+"' of type "+ca(a));return"type_error:SafeHtml"},Db={};Eb.prototype.he=function(a){this.ea=a;return this};var Gb=function(a,b){var c;c=b instanceof A?b:Cb(b);a.href=zb(c)};var Hb=function(a){Hb[" "](a);return a};Hb[" "]=ba;var Ib=!y||9<=Number(pb),Jb=y&&!z("9");!gb||z("528");fb&&z("1.9b")||y&&z("8")||cb&&z("9.5")||gb&&z("528");fb&&!z("8")||y&&z("9");var Kb=function(){this.va=this.va;this.Lb=this.Lb};Kb.prototype.va=!1;Kb.prototype.isDisposed=function(){return this.va};Kb.prototype.Ka=function(){if(this.Lb)for(;this.Lb.length;)this.Lb.shift()()};var Lb=function(a,b){this.type=a;this.currentTarget=this.target=b;this.defaultPrevented=this.Ta=!1;this.od=!0};Lb.prototype.preventDefault=function(){this.defaultPrevented=!0;this.od=!1};var Mb=function(a,b){Lb.call(this,a?a.type:"");this.relatedTarget=this.currentTarget=this.target=null;this.charCode=this.keyCode=this.button=this.screenY=this.screenX=this.clientY=this.clientX=this.offsetY=this.offsetX=0;this.metaKey=this.shiftKey=this.altKey=this.ctrlKey=!1;this.Bb=this.state=null;a&&this.init(a,b)};r(Mb,Lb);
 Mb.prototype.init=function(a,b){var c=this.type=a.type,d=a.changedTouches?a.changedTouches[0]:null;this.target=a.target||a.srcElement;this.currentTarget=b;var e=a.relatedTarget;if(e){if(fb){var f;a:{try{Hb(e.nodeName);f=!0;break a}catch(g){}f=!1}f||(e=null)}}else"mouseover"==c?e=a.fromElement:"mouseout"==c&&(e=a.toElement);this.relatedTarget=e;null===d?(this.offsetX=gb||void 0!==a.offsetX?a.offsetX:a.layerX,this.offsetY=gb||void 0!==a.offsetY?a.offsetY:a.layerY,this.clientX=void 0!==a.clientX?a.clientX:
-a.pageX,this.clientY=void 0!==a.clientY?a.clientY:a.pageY,this.screenX=a.screenX||0,this.screenY=a.screenY||0):(this.clientX=void 0!==d.clientX?d.clientX:d.pageX,this.clientY=void 0!==d.clientY?d.clientY:d.pageY,this.screenX=d.screenX||0,this.screenY=d.screenY||0);this.button=a.button;this.keyCode=a.keyCode||0;this.charCode=a.charCode||("keypress"==c?a.keyCode:0);this.ctrlKey=a.ctrlKey;this.altKey=a.altKey;this.shiftKey=a.shiftKey;this.metaKey=a.metaKey;this.state=a.state;this.Cb=a;a.defaultPrevented&&
-this.preventDefault()};Mb.prototype.preventDefault=function(){Mb.Fc.preventDefault.call(this);var a=this.Cb;if(a.preventDefault)a.preventDefault();else if(a.returnValue=!1,Jb)try{if(a.ctrlKey||112<=a.keyCode&&123>=a.keyCode)a.keyCode=-1}catch(b){}};var Nb="closure_listenable_"+(1E6*Math.random()|0),Ob=0;var Pb=function(a,b,c,d,e){this.listener=a;this.Ob=null;this.src=b;this.type=c;this.yb=!!d;this.Hb=e;this.key=++Ob;this.Va=this.xb=!1},Qb=function(a){a.Va=!0;a.listener=null;a.Ob=null;a.src=null;a.Hb=null};var Rb=function(a){this.src=a;this.s={};this.wb=0};Rb.prototype.add=function(a,b,c,d,e){var f=a.toString();a=this.s[f];a||(a=this.s[f]=[],this.wb++);var g=Sb(a,b,d,e);-1<g?(b=a[g],c||(b.xb=!1)):(b=new Pb(b,this.src,f,!!d,e),b.xb=c,a.push(b));return b};Rb.prototype.remove=function(a,b,c,d){a=a.toString();if(!(a in this.s))return!1;var e=this.s[a];b=Sb(e,b,c,d);return-1<b?(Qb(e[b]),Ja(e,b),0==e.length&&(delete this.s[a],this.wb--),!0):!1};
-var Tb=function(a,b){var c=b.type;c in a.s&&Ka(a.s[c],b)&&(Qb(b),0==a.s[c].length&&(delete a.s[c],a.wb--))};Rb.prototype.lc=function(a,b,c,d){a=this.s[a.toString()];var e=-1;a&&(e=Sb(a,b,c,d));return-1<e?a[e]:null};var Sb=function(a,b,c,d){for(var e=0;e<a.length;++e){var f=a[e];if(!f.Va&&f.listener==b&&f.yb==!!c&&f.Hb==d)return e}return-1};var Ub="closure_lm_"+(1E6*Math.random()|0),Vb={},Wb=0,Xb=function(a,b,c,d,e){if(ea(b))for(var f=0;f<b.length;f++)Xb(a,b[f],c,d,e);else c=Yb(c),a&&a[Nb]?a.listen(b,c,d,e):Zb(a,b,c,!1,d,e)},Zb=function(a,b,c,d,e,f){if(!b)throw Error("Invalid event type");var g=!!e,k=$b(a);k||(a[Ub]=k=new Rb(a));c=k.add(b,c,d,e,f);if(c.Ob)return;d=ac();c.Ob=d;d.src=a;d.listener=c;if(a.addEventListener)a.addEventListener(b.toString(),d,g);else if(a.attachEvent)a.attachEvent(bc(b.toString()),d);else throw Error("addEventListener and attachEvent are unavailable.");
-Wb++},ac=function(){var a=cc,b=Ib?function(c){return a.call(b.src,b.listener,c)}:function(c){c=a.call(b.src,b.listener,c);if(!c)return c};return b},dc=function(a,b,c,d,e){if(ea(b))for(var f=0;f<b.length;f++)dc(a,b[f],c,d,e);else c=Yb(c),a&&a[Nb]?ec(a,b,c,d,e):Zb(a,b,c,!0,d,e)},fc=function(a,b,c,d,e){if(ea(b))for(var f=0;f<b.length;f++)fc(a,b[f],c,d,e);else c=Yb(c),a&&a[Nb]?a.T.remove(String(b),c,d,e):a&&(a=$b(a))&&(b=a.lc(b,c,!!d,e))&&gc(b)},gc=function(a){if(!ga(a)&&a&&!a.Va){var b=a.src;if(b&&b[Nb])Tb(b.T,
-a);else{var c=a.type,d=a.Ob;b.removeEventListener?b.removeEventListener(c,d,a.yb):b.detachEvent&&b.detachEvent(bc(c),d);Wb--;(c=$b(b))?(Tb(c,a),0==c.wb&&(c.src=null,b[Ub]=null)):Qb(a)}}},bc=function(a){return a in Vb?Vb[a]:Vb[a]="on"+a},ic=function(a,b,c,d){var e=!0;if(a=$b(a))if(b=a.s[b.toString()])for(b=b.concat(),a=0;a<b.length;a++){var f=b[a];f&&f.yb==c&&!f.Va&&(f=hc(f,d),e=e&&!1!==f)}return e},hc=function(a,b){var c=a.listener,d=a.Hb||a.src;a.xb&&gc(a);return c.call(d,b)},cc=function(a,b){if(a.Va)return!0;
-if(!Ib){var c;if(!(c=b))a:{c=["window","event"];for(var d=l,e;e=c.shift();)if(null!=d[e])d=d[e];else{c=null;break a}c=d}e=c;c=new Mb(e,this);d=!0;if(!(0>e.keyCode||void 0!=e.returnValue)){a:{var f=!1;if(0==e.keyCode)try{e.keyCode=-1;break a}catch(p){f=!0}if(f||void 0==e.returnValue)e.returnValue=!0}e=[];for(f=c.currentTarget;f;f=f.parentNode)e.push(f);for(var f=a.type,g=e.length-1;!c.Sa&&0<=g;g--){c.currentTarget=e[g];var k=ic(e[g],f,!0,c),d=d&&k}for(g=0;!c.Sa&&g<e.length;g++)c.currentTarget=e[g],
-k=ic(e[g],f,!1,c),d=d&&k}return d}return hc(a,new Mb(b,this))},$b=function(a){a=a[Ub];return a instanceof Rb?a:null},jc="__closure_events_fn_"+(1E9*Math.random()>>>0),Yb=function(a){v(a,"Listener can not be null.");if(n(a))return a;v(a.handleEvent,"An object listener must have handleEvent method.");a[jc]||(a[jc]=function(b){return a.handleEvent(b)});return a[jc]};var kc=/^[+a-zA-Z0-9_.!#$%&'*\/=?^`{|}~-]+@([a-zA-Z0-9-]+\.)+[a-zA-Z0-9]{2,63}$/;var lc=function(a){a=String(a);if(/^\s*$/.test(a)?0:/^[\],:{}\s\u2028\u2029]*$/.test(a.replace(/\\["\\\/bfnrtu]/g,"@").replace(/(?:"[^"\\\n\r\u2028\u2029\x00-\x08\x0a-\x1f]*"|true|false|null|-?\d+(?:\.\d*)?(?:[eE][+\-]?\d+)?)[\s\u2028\u2029]*(?=:|,|]|}|$)/g,"]").replace(/(?:^|:|,)(?:[\s\u2028\u2029]*\[)+/g,"")))try{return eval("("+a+")")}catch(b){}throw Error("Invalid JSON string: "+a);},oc=function(a){var b=[];mc(new nc,a,b);return b.join("")},nc=function(){this.Rb=void 0},mc=function(a,b,c){if(null==
-b)c.push("null");else{if("object"==typeof b){if(ea(b)){var d=b;b=d.length;c.push("[");for(var e="",f=0;f<b;f++)c.push(e),e=d[f],mc(a,a.Rb?a.Rb.call(d,String(f),e):e,c),e=",";c.push("]");return}if(b instanceof String||b instanceof Number||b instanceof Boolean)b=b.valueOf();else{c.push("{");f="";for(d in b)Object.prototype.hasOwnProperty.call(b,d)&&(e=b[d],"function"!=typeof e&&(c.push(f),pc(d,c),c.push(":"),mc(a,a.Rb?a.Rb.call(b,d,e):e,c),f=","));c.push("}");return}}switch(typeof b){case "string":pc(b,
+a.pageX,this.clientY=void 0!==a.clientY?a.clientY:a.pageY,this.screenX=a.screenX||0,this.screenY=a.screenY||0):(this.clientX=void 0!==d.clientX?d.clientX:d.pageX,this.clientY=void 0!==d.clientY?d.clientY:d.pageY,this.screenX=d.screenX||0,this.screenY=d.screenY||0);this.button=a.button;this.keyCode=a.keyCode||0;this.charCode=a.charCode||("keypress"==c?a.keyCode:0);this.ctrlKey=a.ctrlKey;this.altKey=a.altKey;this.shiftKey=a.shiftKey;this.metaKey=a.metaKey;this.state=a.state;this.Bb=a;a.defaultPrevented&&
+this.preventDefault()};Mb.prototype.preventDefault=function(){Mb.Ic.preventDefault.call(this);var a=this.Bb;if(a.preventDefault)a.preventDefault();else if(a.returnValue=!1,Jb)try{if(a.ctrlKey||112<=a.keyCode&&123>=a.keyCode)a.keyCode=-1}catch(b){}};var Nb="closure_listenable_"+(1E6*Math.random()|0),Ob=0;var Pb=function(a,b,c,d,e){this.listener=a;this.Nb=null;this.src=b;this.type=c;this.xb=!!d;this.Gb=e;this.key=++Ob;this.Xa=this.wb=!1},Qb=function(a){a.Xa=!0;a.listener=null;a.Nb=null;a.src=null;a.Gb=null};var Rb=function(a){this.src=a;this.v={};this.vb=0};Rb.prototype.add=function(a,b,c,d,e){var f=a.toString();a=this.v[f];a||(a=this.v[f]=[],this.vb++);var g=Sb(a,b,d,e);-1<g?(b=a[g],c||(b.wb=!1)):(b=new Pb(b,this.src,f,!!d,e),b.wb=c,a.push(b));return b};Rb.prototype.remove=function(a,b,c,d){a=a.toString();if(!(a in this.v))return!1;var e=this.v[a];b=Sb(e,b,c,d);return-1<b?(Qb(e[b]),Ja(e,b),0==e.length&&(delete this.v[a],this.vb--),!0):!1};
+var Tb=function(a,b){var c=b.type;c in a.v&&Ka(a.v[c],b)&&(Qb(b),0==a.v[c].length&&(delete a.v[c],a.vb--))};Rb.prototype.mc=function(a,b,c,d){a=this.v[a.toString()];var e=-1;a&&(e=Sb(a,b,c,d));return-1<e?a[e]:null};var Sb=function(a,b,c,d){for(var e=0;e<a.length;++e){var f=a[e];if(!f.Xa&&f.listener==b&&f.xb==!!c&&f.Gb==d)return e}return-1};var Ub="closure_lm_"+(1E6*Math.random()|0),Vb={},Wb=0,Xb=function(a,b,c,d,e){if(ea(b))for(var f=0;f<b.length;f++)Xb(a,b[f],c,d,e);else c=Yb(c),a&&a[Nb]?a.listen(b,c,d,e):Zb(a,b,c,!1,d,e)},Zb=function(a,b,c,d,e,f){if(!b)throw Error("Invalid event type");var g=!!e,k=$b(a);k||(a[Ub]=k=new Rb(a));c=k.add(b,c,d,e,f);if(c.Nb)return;d=ac();c.Nb=d;d.src=a;d.listener=c;if(a.addEventListener)a.addEventListener(b.toString(),d,g);else if(a.attachEvent)a.attachEvent(bc(b.toString()),d);else throw Error("addEventListener and attachEvent are unavailable.");
+Wb++},ac=function(){var a=cc,b=Ib?function(c){return a.call(b.src,b.listener,c)}:function(c){c=a.call(b.src,b.listener,c);if(!c)return c};return b},dc=function(a,b,c,d,e){if(ea(b))for(var f=0;f<b.length;f++)dc(a,b[f],c,d,e);else c=Yb(c),a&&a[Nb]?ec(a,b,c,d,e):Zb(a,b,c,!0,d,e)},fc=function(a,b,c,d,e){if(ea(b))for(var f=0;f<b.length;f++)fc(a,b[f],c,d,e);else c=Yb(c),a&&a[Nb]?a.V.remove(String(b),c,d,e):a&&(a=$b(a))&&(b=a.mc(b,c,!!d,e))&&gc(b)},gc=function(a){if(!ga(a)&&a&&!a.Xa){var b=a.src;if(b&&b[Nb])Tb(b.V,
+a);else{var c=a.type,d=a.Nb;b.removeEventListener?b.removeEventListener(c,d,a.xb):b.detachEvent&&b.detachEvent(bc(c),d);Wb--;(c=$b(b))?(Tb(c,a),0==c.vb&&(c.src=null,b[Ub]=null)):Qb(a)}}},bc=function(a){return a in Vb?Vb[a]:Vb[a]="on"+a},ic=function(a,b,c,d){var e=!0;if(a=$b(a))if(b=a.v[b.toString()])for(b=b.concat(),a=0;a<b.length;a++){var f=b[a];f&&f.xb==c&&!f.Xa&&(f=hc(f,d),e=e&&!1!==f)}return e},hc=function(a,b){var c=a.listener,d=a.Gb||a.src;a.wb&&gc(a);return c.call(d,b)},cc=function(a,b){if(a.Xa)return!0;
+if(!Ib){var c;if(!(c=b))a:{c=["window","event"];for(var d=l,e;e=c.shift();)if(null!=d[e])d=d[e];else{c=null;break a}c=d}e=c;c=new Mb(e,this);d=!0;if(!(0>e.keyCode||void 0!=e.returnValue)){a:{var f=!1;if(0==e.keyCode)try{e.keyCode=-1;break a}catch(p){f=!0}if(f||void 0==e.returnValue)e.returnValue=!0}e=[];for(f=c.currentTarget;f;f=f.parentNode)e.push(f);for(var f=a.type,g=e.length-1;!c.Ta&&0<=g;g--){c.currentTarget=e[g];var k=ic(e[g],f,!0,c),d=d&&k}for(g=0;!c.Ta&&g<e.length;g++)c.currentTarget=e[g],
+k=ic(e[g],f,!1,c),d=d&&k}return d}return hc(a,new Mb(b,this))},$b=function(a){a=a[Ub];return a instanceof Rb?a:null},jc="__closure_events_fn_"+(1E9*Math.random()>>>0),Yb=function(a){v(a,"Listener can not be null.");if(n(a))return a;v(a.handleEvent,"An object listener must have handleEvent method.");a[jc]||(a[jc]=function(b){return a.handleEvent(b)});return a[jc]};var kc=/^[+a-zA-Z0-9_.!#$%&'*\/=?^`{|}~-]+@([a-zA-Z0-9-]+\.)+[a-zA-Z0-9]{2,63}$/;var lc=function(a){a=String(a);if(/^\s*$/.test(a)?0:/^[\],:{}\s\u2028\u2029]*$/.test(a.replace(/\\["\\\/bfnrtu]/g,"@").replace(/(?:"[^"\\\n\r\u2028\u2029\x00-\x08\x0a-\x1f]*"|true|false|null|-?\d+(?:\.\d*)?(?:[eE][+\-]?\d+)?)[\s\u2028\u2029]*(?=:|,|]|}|$)/g,"]").replace(/(?:^|:|,)(?:[\s\u2028\u2029]*\[)+/g,"")))try{return eval("("+a+")")}catch(b){}throw Error("Invalid JSON string: "+a);},oc=function(a){var b=[];mc(new nc,a,b);return b.join("")},nc=function(){this.Qb=void 0},mc=function(a,b,c){if(null==
+b)c.push("null");else{if("object"==typeof b){if(ea(b)){var d=b;b=d.length;c.push("[");for(var e="",f=0;f<b;f++)c.push(e),e=d[f],mc(a,a.Qb?a.Qb.call(d,String(f),e):e,c),e=",";c.push("]");return}if(b instanceof String||b instanceof Number||b instanceof Boolean)b=b.valueOf();else{c.push("{");f="";for(d in b)Object.prototype.hasOwnProperty.call(b,d)&&(e=b[d],"function"!=typeof e&&(c.push(f),pc(d,c),c.push(":"),mc(a,a.Qb?a.Qb.call(b,d,e):e,c),f=","));c.push("}");return}}switch(typeof b){case "string":pc(b,
 c);break;case "number":c.push(isFinite(b)&&!isNaN(b)?String(b):"null");break;case "boolean":c.push(String(b));break;case "function":c.push("null");break;default:throw Error("Unknown type: "+typeof b);}}},qc={'"':'\\"',"\\":"\\\\","/":"\\/","\b":"\\b","\f":"\\f","\n":"\\n","\r":"\\r","\t":"\\t","\x0B":"\\u000b"},rc=/\uffff/.test("\uffff")?/[\\\"\x00-\x1f\x7f-\uffff]/g:/[\\\"\x00-\x1f\x7f-\xff]/g,pc=function(a,b){b.push('"',a.replace(rc,function(a){var b=qc[a];b||(b="\\u"+(a.charCodeAt(0)|65536).toString(16).substr(1),
-qc[a]=b);return b}),'"')};var sc=function(){};sc.prototype.Jc=null;var tc=function(a){return a.Jc||(a.Jc=a.qc())};var uc,vc=function(){};r(vc,sc);vc.prototype.zb=function(){var a=wc(this);return a?new ActiveXObject(a):new XMLHttpRequest};vc.prototype.qc=function(){var a={};wc(this)&&(a[0]=!0,a[1]=!0);return a};
-var wc=function(a){if(!a.Yc&&"undefined"==typeof XMLHttpRequest&&"undefined"!=typeof ActiveXObject){for(var b=["MSXML2.XMLHTTP.6.0","MSXML2.XMLHTTP.3.0","MSXML2.XMLHTTP","Microsoft.XMLHTTP"],c=0;c<b.length;c++){var d=b[c];try{return new ActiveXObject(d),a.Yc=d}catch(e){}}throw Error("Could not create ActiveXObject. ActiveX might be disabled, or MSXML might not be installed");}return a.Yc};uc=new vc;var xc=function(){};r(xc,sc);xc.prototype.zb=function(){var a=new XMLHttpRequest;if("withCredentials"in a)return a;if("undefined"!=typeof XDomainRequest)return new yc;throw Error("Unsupported browser");};xc.prototype.qc=function(){return{}};
-var yc=function(){this.ia=new XDomainRequest;this.readyState=0;this.onreadystatechange=null;this.responseText="";this.status=-1;this.statusText=this.responseXML=null;this.ia.onload=q(this.Vd,this);this.ia.onerror=q(this.Wc,this);this.ia.onprogress=q(this.Wd,this);this.ia.ontimeout=q(this.Xd,this)};h=yc.prototype;h.open=function(a,b,c){if(null!=c&&!c)throw Error("Only async requests are supported.");this.ia.open(a,b)};
-h.send=function(a){if(a)if("string"==typeof a)this.ia.send(a);else throw Error("Only string data is supported");else this.ia.send()};h.abort=function(){this.ia.abort()};h.setRequestHeader=function(){};h.Vd=function(){this.status=200;this.responseText=this.ia.responseText;zc(this,4)};h.Wc=function(){this.status=500;this.responseText="";zc(this,4)};h.Xd=function(){this.Wc()};h.Wd=function(){this.status=200;zc(this,1)};var zc=function(a,b){a.readyState=b;if(a.onreadystatechange)a.onreadystatechange()};var B=function(a,b){this.h=[];this.g=b;for(var c=!0,d=a.length-1;0<=d;d--){var e=a[d]|0;c&&e==b||(this.h[d]=e,c=!1)}},Ac={},Bc=function(a){if(-128<=a&&128>a){var b=Ac[a];if(b)return b}b=new B([a|0],0>a?-1:0);-128<=a&&128>a&&(Ac[a]=b);return b},E=function(a){if(isNaN(a)||!isFinite(a))return C;if(0>a)return D(E(-a));for(var b=[],c=1,d=0;a>=c;d++)b[d]=a/c|0,c*=4294967296;return new B(b,0)},Cc=function(a,b){if(0==a.length)throw Error("number format error: empty string");var c=b||10;if(2>c||36<c)throw Error("radix out of range: "+
+qc[a]=b);return b}),'"')};var sc=function(){};sc.prototype.Lc=null;var tc=function(a){return a.Lc||(a.Lc=a.sc())};var uc,vc=function(){};r(vc,sc);vc.prototype.yb=function(){var a=wc(this);return a?new ActiveXObject(a):new XMLHttpRequest};vc.prototype.sc=function(){var a={};wc(this)&&(a[0]=!0,a[1]=!0);return a};
+var wc=function(a){if(!a.$c&&"undefined"==typeof XMLHttpRequest&&"undefined"!=typeof ActiveXObject){for(var b=["MSXML2.XMLHTTP.6.0","MSXML2.XMLHTTP.3.0","MSXML2.XMLHTTP","Microsoft.XMLHTTP"],c=0;c<b.length;c++){var d=b[c];try{return new ActiveXObject(d),a.$c=d}catch(e){}}throw Error("Could not create ActiveXObject. ActiveX might be disabled, or MSXML might not be installed");}return a.$c};uc=new vc;var xc=function(){};r(xc,sc);xc.prototype.yb=function(){var a=new XMLHttpRequest;if("withCredentials"in a)return a;if("undefined"!=typeof XDomainRequest)return new yc;throw Error("Unsupported browser");};xc.prototype.sc=function(){return{}};
+var yc=function(){this.ia=new XDomainRequest;this.readyState=0;this.onreadystatechange=null;this.responseText="";this.status=-1;this.statusText=this.responseXML=null;this.ia.onload=q(this.Wd,this);this.ia.onerror=q(this.Yc,this);this.ia.onprogress=q(this.Xd,this);this.ia.ontimeout=q(this.Yd,this)};h=yc.prototype;h.open=function(a,b,c){if(null!=c&&!c)throw Error("Only async requests are supported.");this.ia.open(a,b)};
+h.send=function(a){if(a)if("string"==typeof a)this.ia.send(a);else throw Error("Only string data is supported");else this.ia.send()};h.abort=function(){this.ia.abort()};h.setRequestHeader=function(){};h.Wd=function(){this.status=200;this.responseText=this.ia.responseText;zc(this,4)};h.Yc=function(){this.status=500;this.responseText="";zc(this,4)};h.Yd=function(){this.Yc()};h.Xd=function(){this.status=200;zc(this,1)};var zc=function(a,b){a.readyState=b;if(a.onreadystatechange)a.onreadystatechange()};var B=function(a,b){this.h=[];this.g=b;for(var c=!0,d=a.length-1;0<=d;d--){var e=a[d]|0;c&&e==b||(this.h[d]=e,c=!1)}},Ac={},Bc=function(a){if(-128<=a&&128>a){var b=Ac[a];if(b)return b}b=new B([a|0],0>a?-1:0);-128<=a&&128>a&&(Ac[a]=b);return b},E=function(a){if(isNaN(a)||!isFinite(a))return C;if(0>a)return D(E(-a));for(var b=[],c=1,d=0;a>=c;d++)b[d]=a/c|0,c*=4294967296;return new B(b,0)},Cc=function(a,b){if(0==a.length)throw Error("number format error: empty string");var c=b||10;if(2>c||36<c)throw Error("radix out of range: "+
 c);if("-"==a.charAt(0))return D(Cc(a.substring(1),c));if(0<=a.indexOf("-"))throw Error('number format error: interior "-" character');for(var d=E(Math.pow(c,8)),e=C,f=0;f<a.length;f+=8){var g=Math.min(8,a.length-f),k=parseInt(a.substring(f,f+g),c);8>g?(g=E(Math.pow(c,g)),e=e.multiply(g).add(E(k))):(e=e.multiply(d),e=e.add(E(k)))}return e},C=Bc(0),Dc=Bc(1),Ec=Bc(16777216),Fc=function(a){if(-1==a.g)return-Fc(D(a));for(var b=0,c=1,d=0;d<a.h.length;d++)b+=Gc(a,d)*c,c*=4294967296;return b};
 B.prototype.toString=function(a){a=a||10;if(2>a||36<a)throw Error("radix out of range: "+a);if(F(this))return"0";if(-1==this.g)return"-"+D(this).toString(a);for(var b=E(Math.pow(a,6)),c=this,d="";;){var e=Hc(c,b),c=Ic(c,e.multiply(b)),f=((0<c.h.length?c.h[0]:c.g)>>>0).toString(a),c=e;if(F(c))return f+d;for(;6>f.length;)f="0"+f;d=""+f+d}};
-var G=function(a,b){return 0>b?0:b<a.h.length?a.h[b]:a.g},Gc=function(a,b){var c=G(a,b);return 0<=c?c:4294967296+c},F=function(a){if(0!=a.g)return!1;for(var b=0;b<a.h.length;b++)if(0!=a.h[b])return!1;return!0};B.prototype.Bb=function(a){if(this.g!=a.g)return!1;for(var b=Math.max(this.h.length,a.h.length),c=0;c<b;c++)if(G(this,c)!=G(a,c))return!1;return!0};B.prototype.compare=function(a){a=Ic(this,a);return-1==a.g?-1:F(a)?0:1};
+var G=function(a,b){return 0>b?0:b<a.h.length?a.h[b]:a.g},Gc=function(a,b){var c=G(a,b);return 0<=c?c:4294967296+c},F=function(a){if(0!=a.g)return!1;for(var b=0;b<a.h.length;b++)if(0!=a.h[b])return!1;return!0};B.prototype.Ab=function(a){if(this.g!=a.g)return!1;for(var b=Math.max(this.h.length,a.h.length),c=0;c<b;c++)if(G(this,c)!=G(a,c))return!1;return!0};B.prototype.compare=function(a){a=Ic(this,a);return-1==a.g?-1:F(a)?0:1};
 var D=function(a){for(var b=a.h.length,c=[],d=0;d<b;d++)c[d]=~a.h[d];return(new B(c,~a.g)).add(Dc)};B.prototype.add=function(a){for(var b=Math.max(this.h.length,a.h.length),c=[],d=0,e=0;e<=b;e++){var f=d+(G(this,e)&65535)+(G(a,e)&65535),g=(f>>>16)+(G(this,e)>>>16)+(G(a,e)>>>16),d=g>>>16,f=f&65535,g=g&65535;c[e]=g<<16|f}return new B(c,c[c.length-1]&-2147483648?-1:0)};var Ic=function(a,b){return a.add(D(b))};
 B.prototype.multiply=function(a){if(F(this)||F(a))return C;if(-1==this.g)return-1==a.g?D(this).multiply(D(a)):D(D(this).multiply(a));if(-1==a.g)return D(this.multiply(D(a)));if(0>this.compare(Ec)&&0>a.compare(Ec))return E(Fc(this)*Fc(a));for(var b=this.h.length+a.h.length,c=[],d=0;d<2*b;d++)c[d]=0;for(d=0;d<this.h.length;d++)for(var e=0;e<a.h.length;e++){var f=G(this,d)>>>16,g=G(this,d)&65535,k=G(a,e)>>>16,p=G(a,e)&65535;c[2*d+2*e]+=g*p;Jc(c,2*d+2*e);c[2*d+2*e+1]+=f*p;Jc(c,2*d+2*e+1);c[2*d+2*e+1]+=
 g*k;Jc(c,2*d+2*e+1);c[2*d+2*e+2]+=f*k;Jc(c,2*d+2*e+2)}for(d=0;d<b;d++)c[d]=c[2*d+1]<<16|c[2*d];for(d=b;d<2*b;d++)c[d]=0;return new B(c,0)};
 var Jc=function(a,b){for(;(a[b]&65535)!=a[b];)a[b+1]+=a[b]>>>16,a[b]&=65535},Hc=function(a,b){if(F(b))throw Error("division by zero");if(F(a))return C;if(-1==a.g)return-1==b.g?Hc(D(a),D(b)):D(Hc(D(a),b));if(-1==b.g)return D(Hc(a,D(b)));if(30<a.h.length){if(-1==a.g||-1==b.g)throw Error("slowDivide_ only works with positive integers.");for(var c=Dc,d=b;0>=d.compare(a);)c=c.shiftLeft(1),d=d.shiftLeft(1);for(var e=Kc(c,1),f=Kc(d,1),g,d=Kc(d,2),c=Kc(c,2);!F(d);)g=f.add(d),0>=g.compare(a)&&(e=e.add(c),
 f=g),d=Kc(d,1),c=Kc(c,1);return e}c=C;for(d=a;0<=d.compare(b);){e=Math.max(1,Math.floor(Fc(d)/Fc(b)));f=Math.ceil(Math.log(e)/Math.LN2);f=48>=f?1:Math.pow(2,f-48);g=E(e);for(var k=g.multiply(b);-1==k.g||0<k.compare(d);)e-=f,g=E(e),k=g.multiply(b);F(g)&&(g=Dc);c=c.add(g);d=Ic(d,k)}return c},Lc=function(a,b){for(var c=Math.max(a.h.length,b.h.length),d=[],e=0;e<c;e++)d[e]=G(a,e)|G(b,e);return new B(d,a.g|b.g)};
-B.prototype.shiftLeft=function(a){var b=a>>5;a%=32;for(var c=this.h.length+b+(0<a?1:0),d=[],e=0;e<c;e++)d[e]=0<a?G(this,e-b)<<a|G(this,e-b-1)>>>32-a:G(this,e-b);return new B(d,this.g)};var Kc=function(a,b){for(var c=b>>5,d=b%32,e=a.h.length-c,f=[],g=0;g<e;g++)f[g]=0<d?G(a,g+c)>>>d|G(a,g+c+1)<<32-d:G(a,g+c);return new B(f,a.g)};var Mc=function(a,b){this.ib=a;this.ha=b};Mc.prototype.Bb=function(a){return this.ha==a.ha&&this.ib.Bb(Xa(a.ib))};
+B.prototype.shiftLeft=function(a){var b=a>>5;a%=32;for(var c=this.h.length+b+(0<a?1:0),d=[],e=0;e<c;e++)d[e]=0<a?G(this,e-b)<<a|G(this,e-b-1)>>>32-a:G(this,e-b);return new B(d,this.g)};var Kc=function(a,b){for(var c=b>>5,d=b%32,e=a.h.length-c,f=[],g=0;g<e;g++)f[g]=0<d?G(a,g+c)>>>d|G(a,g+c+1)<<32-d:G(a,g+c);return new B(f,a.g)};var Mc=function(a,b){this.lb=a;this.ha=b};Mc.prototype.Ab=function(a){return this.ha==a.ha&&this.lb.Ab(Xa(a.lb))};
 var Pc=function(a){try{var b;if(b=0==a.lastIndexOf("[",0)){var c=a.length-1;b=0<=c&&a.indexOf("]",c)==c}return b?new Nc(a.substring(1,a.length-1)):new Oc(a)}catch(d){return null}},Oc=function(a){var b=C;if(a instanceof B){if(0!=a.g||0>a.compare(C)||0<a.compare(Qc))throw Error("The address does not look like an IPv4.");b=Xa(a)}else{if(!Rc.test(a))throw Error(a+" does not look like an IPv4 address.");var c=a.split(".");if(4!=c.length)throw Error(a+" does not look like an IPv4 address.");for(var d=0;d<
-c.length;d++){var e;e=c[d];var f=Number(e);e=0==f&&/^[\s\xa0]*$/.test(e)?NaN:f;if(isNaN(e)||0>e||255<e||1!=c[d].length&&0==c[d].lastIndexOf("0",0))throw Error("In "+a+", octet "+d+" is not valid");e=E(e);b=Lc(b.shiftLeft(8),e)}}Mc.call(this,b,4)};r(Oc,Mc);var Rc=/^[0-9.]*$/,Qc=Ic(Dc.shiftLeft(32),Dc);Oc.prototype.toString=function(){if(this.ya)return this.ya;for(var a=Gc(this.ib,0),b=[],c=3;0<=c;c--)b[c]=String(a&255),a>>>=8;return this.ya=b.join(".")};
-var Nc=function(a){var b=C;if(a instanceof B){if(0!=a.g||0>a.compare(C)||0<a.compare(Sc))throw Error("The address does not look like a valid IPv6.");b=Xa(a)}else{if(!Tc.test(a))throw Error(a+" is not a valid IPv6 address.");var c=a.split(":");if(-1!=c[c.length-1].indexOf(".")){a=Gc(Xa((new Oc(c[c.length-1])).ib),0);var d=[];d.push((a>>>16&65535).toString(16));d.push((a&65535).toString(16));Ja(c,c.length-1);Pa(c,d);a=c.join(":")}d=a.split("::");if(2<d.length||1==d.length&&8!=c.length)throw Error(a+
+c.length;d++){var e;e=c[d];var f=Number(e);e=0==f&&/^[\s\xa0]*$/.test(e)?NaN:f;if(isNaN(e)||0>e||255<e||1!=c[d].length&&0==c[d].lastIndexOf("0",0))throw Error("In "+a+", octet "+d+" is not valid");e=E(e);b=Lc(b.shiftLeft(8),e)}}Mc.call(this,b,4)};r(Oc,Mc);var Rc=/^[0-9.]*$/,Qc=Ic(Dc.shiftLeft(32),Dc);Oc.prototype.toString=function(){if(this.za)return this.za;for(var a=Gc(this.lb,0),b=[],c=3;0<=c;c--)b[c]=String(a&255),a>>>=8;return this.za=b.join(".")};
+var Nc=function(a){var b=C;if(a instanceof B){if(0!=a.g||0>a.compare(C)||0<a.compare(Sc))throw Error("The address does not look like a valid IPv6.");b=Xa(a)}else{if(!Tc.test(a))throw Error(a+" is not a valid IPv6 address.");var c=a.split(":");if(-1!=c[c.length-1].indexOf(".")){a=Gc(Xa((new Oc(c[c.length-1])).lb),0);var d=[];d.push((a>>>16&65535).toString(16));d.push((a&65535).toString(16));Ja(c,c.length-1);Pa(c,d);a=c.join(":")}d=a.split("::");if(2<d.length||1==d.length&&8!=c.length)throw Error(a+
 " is not a valid IPv6 address.");if(1<d.length){c=d[0].split(":");d=d[1].split(":");1==c.length&&""==c[0]&&(c=[]);1==d.length&&""==d[0]&&(d=[]);var e=8-(c.length+d.length);if(1>e)c=[];else{for(var f=[],g=0;g<e;g++)f[g]="0";c=Na(c,f,d)}}if(8!=c.length)throw Error(a+" is not a valid IPv6 address");for(d=0;d<c.length;d++){e=Cc(c[d],16);if(0>e.compare(C)||0<e.compare(Uc))throw Error(c[d]+" in "+a+" is not a valid hextet.");b=Lc(b.shiftLeft(16),e)}}Mc.call(this,b,6)};r(Nc,Mc);
-var Tc=/^([a-fA-F0-9]*:){2}[a-fA-F0-9:.]*$/,Uc=Bc(65535),Sc=Ic(Dc.shiftLeft(128),Dc);Nc.prototype.toString=function(){if(this.ya)return this.ya;for(var a=[],b=3;0<=b;b--){var c=Gc(this.ib,b),d=c&65535;a.push((c>>>16).toString(16));a.push(d.toString(16))}for(var c=b=-1,e=d=0,f=0;f<a.length;f++)"0"==a[f]?(e++,-1==c&&(c=f),e>d&&(d=e,b=c)):(c=-1,e=0);0<d&&(b+d==a.length&&a.push(""),a.splice(b,d,""),0==b&&(a=[""].concat(a)));return this.ya=a.join(":")};!fb&&!y||y&&9<=Number(pb)||fb&&z("1.9.1");y&&z("9");var Wc=function(a,b){Qa(b,function(b,d){"style"==d?a.style.cssText=b:"class"==d?a.className=b:"for"==d?a.htmlFor=b:Vc.hasOwnProperty(d)?a.setAttribute(Vc[d],b):0==d.lastIndexOf("aria-",0)||0==d.lastIndexOf("data-",0)?a.setAttribute(d,b):a[d]=b})},Vc={cellpadding:"cellPadding",cellspacing:"cellSpacing",colspan:"colSpan",frameborder:"frameBorder",height:"height",maxlength:"maxLength",nonce:"nonce",role:"role",rowspan:"rowSpan",type:"type",usemap:"useMap",valign:"vAlign",width:"width"};var Xc=function(a,b,c){this.ie=c;this.Kd=a;this.se=b;this.Lb=0;this.Ib=null};Xc.prototype.get=function(){var a;0<this.Lb?(this.Lb--,a=this.Ib,this.Ib=a.next,a.next=null):a=this.Kd();return a};Xc.prototype.put=function(a){this.se(a);this.Lb<this.ie&&(this.Lb++,a.next=this.Ib,this.Ib=a)};var Yc=function(a){l.setTimeout(function(){throw a;},0)},Zc,$c=function(){var a=l.MessageChannel;"undefined"===typeof a&&"undefined"!==typeof window&&window.postMessage&&window.addEventListener&&!x("Presto")&&(a=function(){var a=document.createElement("IFRAME");a.style.display="none";a.src="";document.documentElement.appendChild(a);var b=a.contentWindow,a=b.document;a.open();a.write("");a.close();var c="callImmediate"+Math.random(),d="file:"==b.location.protocol?"*":b.location.protocol+"//"+b.location.host,
-a=q(function(a){if(("*"==d||a.origin==d)&&a.data==c)this.port1.onmessage()},this);b.addEventListener("message",a,!1);this.port1={};this.port2={postMessage:function(){b.postMessage(c,d)}}});if("undefined"!==typeof a&&!x("Trident")&&!x("MSIE")){var b=new a,c={},d=c;b.port1.onmessage=function(){if(void 0!==c.next){c=c.next;var a=c.Nc;c.Nc=null;a()}};return function(a){d.next={Nc:a};d=d.next;b.port2.postMessage(0)}}return"undefined"!==typeof document&&"onreadystatechange"in document.createElement("SCRIPT")?
-function(a){var b=document.createElement("SCRIPT");b.onreadystatechange=function(){b.onreadystatechange=null;b.parentNode.removeChild(b);b=null;a();a=null};document.documentElement.appendChild(b)}:function(a){l.setTimeout(a,0)}};var ad=function(){this.$b=this.Ga=null},cd=new Xc(function(){return new bd},function(a){a.reset()},100);ad.prototype.add=function(a,b){var c=cd.get();c.set(a,b);this.$b?this.$b.next=c:(v(!this.Ga),this.Ga=c);this.$b=c};ad.prototype.remove=function(){var a=null;this.Ga&&(a=this.Ga,this.Ga=this.Ga.next,this.Ga||(this.$b=null),a.next=null);return a};var bd=function(){this.next=this.scope=this.kc=null};bd.prototype.set=function(a,b){this.kc=a;this.scope=b;this.next=null};
-bd.prototype.reset=function(){this.next=this.scope=this.kc=null};var hd=function(a,b){dd||ed();fd||(dd(),fd=!0);gd.add(a,b)},dd,ed=function(){if(l.Promise&&l.Promise.resolve){var a=l.Promise.resolve(void 0);dd=function(){a.then(id)}}else dd=function(){var a=id;!n(l.setImmediate)||l.Window&&l.Window.prototype&&!x("Edge")&&l.Window.prototype.setImmediate==l.setImmediate?(Zc||(Zc=$c()),Zc(a)):l.setImmediate(a)}},fd=!1,gd=new ad,id=function(){for(var a;a=gd.remove();){try{a.kc.call(a.scope)}catch(b){Yc(b)}cd.put(a)}fd=!1};var jd=function(a){a.prototype.then=a.prototype.then;a.prototype.$goog_Thenable=!0},kd=function(a){if(!a)return!1;try{return!!a.$goog_Thenable}catch(b){return!1}};var H=function(a,b){this.A=0;this.fa=void 0;this.Ja=this.aa=this.l=null;this.Gb=this.jc=!1;if(a!=ba)try{var c=this;a.call(b,function(a){ld(c,2,a)},function(a){if(!(a instanceof md))try{if(a instanceof Error)throw a;throw Error("Promise rejected.");}catch(b){}ld(c,3,a)})}catch(d){ld(this,3,d)}},nd=function(){this.next=this.context=this.Pa=this.za=this.child=null;this.ab=!1};nd.prototype.reset=function(){this.context=this.Pa=this.za=this.child=null;this.ab=!1};
-var od=new Xc(function(){return new nd},function(a){a.reset()},100),pd=function(a,b,c){var d=od.get();d.za=a;d.Pa=b;d.context=c;return d},I=function(a){if(a instanceof H)return a;var b=new H(ba);ld(b,2,a);return b},J=function(a){return new H(function(b,c){c(a)})},rd=function(a,b,c){qd(a,b,c,null)||hd(ka(b,a))},sd=function(a){return new H(function(b){var c=a.length,d=[];if(c)for(var e=function(a,e,f){c--;d[a]=e?{Td:!0,value:f}:{Td:!1,reason:f};0==c&&b(d)},f=0,g;f<a.length;f++)g=a[f],rd(g,ka(e,f,!0),
-ka(e,f,!1));else b(d)})};H.prototype.then=function(a,b,c){null!=a&&Ba(a,"opt_onFulfilled should be a function.");null!=b&&Ba(b,"opt_onRejected should be a function. Did you pass opt_context as the second argument instead of the third?");return td(this,n(a)?a:null,n(b)?b:null,c)};jd(H);var vd=function(a,b){var c=pd(b,b,void 0);c.ab=!0;ud(a,c);return a};H.prototype.N=function(a,b){return td(this,null,a,b)};H.prototype.cancel=function(a){0==this.A&&hd(function(){var b=new md(a);wd(this,b)},this)};
-var wd=function(a,b){if(0==a.A)if(a.l){var c=a.l;if(c.aa){for(var d=0,e=null,f=null,g=c.aa;g&&(g.ab||(d++,g.child==a&&(e=g),!(e&&1<d)));g=g.next)e||(f=g);e&&(0==c.A&&1==d?wd(c,b):(f?(d=f,v(c.aa),v(null!=d),d.next==c.Ja&&(c.Ja=d),d.next=d.next.next):xd(c),yd(c,e,3,b)))}a.l=null}else ld(a,3,b)},ud=function(a,b){a.aa||2!=a.A&&3!=a.A||zd(a);v(null!=b.za);a.Ja?a.Ja.next=b:a.aa=b;a.Ja=b},td=function(a,b,c,d){var e=pd(null,null,null);e.child=new H(function(a,g){e.za=b?function(c){try{var e=b.call(d,c);a(e)}catch(Y){g(Y)}}:
-a;e.Pa=c?function(b){try{var e=c.call(d,b);void 0===e&&b instanceof md?g(b):a(e)}catch(Y){g(Y)}}:g});e.child.l=a;ud(a,e);return e.child};H.prototype.Be=function(a){v(1==this.A);this.A=0;ld(this,2,a)};H.prototype.Ce=function(a){v(1==this.A);this.A=0;ld(this,3,a)};
-var ld=function(a,b,c){0==a.A&&(a===c&&(b=3,c=new TypeError("Promise cannot resolve to itself")),a.A=1,qd(c,a.Be,a.Ce,a)||(a.fa=c,a.A=b,a.l=null,zd(a),3!=b||c instanceof md||Ad(a,c)))},qd=function(a,b,c,d){if(a instanceof H)return null!=b&&Ba(b,"opt_onFulfilled should be a function."),null!=c&&Ba(c,"opt_onRejected should be a function. Did you pass opt_context as the second argument instead of the third?"),ud(a,pd(b||ba,c||null,d)),!0;if(kd(a))return a.then(b,c,d),!0;if(ha(a))try{var e=a.then;if(n(e))return Bd(a,
-e,b,c,d),!0}catch(f){return c.call(d,f),!0}return!1},Bd=function(a,b,c,d,e){var f=!1,g=function(a){f||(f=!0,c.call(e,a))},k=function(a){f||(f=!0,d.call(e,a))};try{b.call(a,g,k)}catch(p){k(p)}},zd=function(a){a.jc||(a.jc=!0,hd(a.Od,a))},xd=function(a){var b=null;a.aa&&(b=a.aa,a.aa=b.next,b.next=null);a.aa||(a.Ja=null);null!=b&&v(null!=b.za);return b};H.prototype.Od=function(){for(var a;a=xd(this);)yd(this,a,this.A,this.fa);this.jc=!1};
-var yd=function(a,b,c,d){if(3==c&&b.Pa&&!b.ab)for(;a&&a.Gb;a=a.l)a.Gb=!1;if(b.child)b.child.l=null,Cd(b,c,d);else try{b.ab?b.za.call(b.context):Cd(b,c,d)}catch(e){Dd.call(null,e)}od.put(b)},Cd=function(a,b,c){2==b?a.za.call(a.context,c):a.Pa&&a.Pa.call(a.context,c)},Ad=function(a,b){a.Gb=!0;hd(function(){a.Gb&&Dd.call(null,b)})},Dd=Yc,md=function(a){t.call(this,a)};r(md,t);md.prototype.name="cancel";/*
+var Tc=/^([a-fA-F0-9]*:){2}[a-fA-F0-9:.]*$/,Uc=Bc(65535),Sc=Ic(Dc.shiftLeft(128),Dc);Nc.prototype.toString=function(){if(this.za)return this.za;for(var a=[],b=3;0<=b;b--){var c=Gc(this.lb,b),d=c&65535;a.push((c>>>16).toString(16));a.push(d.toString(16))}for(var c=b=-1,e=d=0,f=0;f<a.length;f++)"0"==a[f]?(e++,-1==c&&(c=f),e>d&&(d=e,b=c)):(c=-1,e=0);0<d&&(b+d==a.length&&a.push(""),a.splice(b,d,""),0==b&&(a=[""].concat(a)));return this.za=a.join(":")};!fb&&!y||y&&9<=Number(pb)||fb&&z("1.9.1");y&&z("9");var Wc=function(a,b){Qa(b,function(b,d){"style"==d?a.style.cssText=b:"class"==d?a.className=b:"for"==d?a.htmlFor=b:Vc.hasOwnProperty(d)?a.setAttribute(Vc[d],b):0==d.lastIndexOf("aria-",0)||0==d.lastIndexOf("data-",0)?a.setAttribute(d,b):a[d]=b})},Vc={cellpadding:"cellPadding",cellspacing:"cellSpacing",colspan:"colSpan",frameborder:"frameBorder",height:"height",maxlength:"maxLength",nonce:"nonce",role:"role",rowspan:"rowSpan",type:"type",usemap:"useMap",valign:"vAlign",width:"width"};var Xc=function(a,b,c){this.je=c;this.Ld=a;this.ve=b;this.Kb=0;this.Hb=null};Xc.prototype.get=function(){var a;0<this.Kb?(this.Kb--,a=this.Hb,this.Hb=a.next,a.next=null):a=this.Ld();return a};Xc.prototype.put=function(a){this.ve(a);this.Kb<this.je&&(this.Kb++,a.next=this.Hb,this.Hb=a)};var Yc=function(a){l.setTimeout(function(){throw a;},0)},Zc,$c=function(){var a=l.MessageChannel;"undefined"===typeof a&&"undefined"!==typeof window&&window.postMessage&&window.addEventListener&&!x("Presto")&&(a=function(){var a=document.createElement("IFRAME");a.style.display="none";a.src="";document.documentElement.appendChild(a);var b=a.contentWindow,a=b.document;a.open();a.write("");a.close();var c="callImmediate"+Math.random(),d="file:"==b.location.protocol?"*":b.location.protocol+"//"+b.location.host,
+a=q(function(a){if(("*"==d||a.origin==d)&&a.data==c)this.port1.onmessage()},this);b.addEventListener("message",a,!1);this.port1={};this.port2={postMessage:function(){b.postMessage(c,d)}}});if("undefined"!==typeof a&&!x("Trident")&&!x("MSIE")){var b=new a,c={},d=c;b.port1.onmessage=function(){if(void 0!==c.next){c=c.next;var a=c.Pc;c.Pc=null;a()}};return function(a){d.next={Pc:a};d=d.next;b.port2.postMessage(0)}}return"undefined"!==typeof document&&"onreadystatechange"in document.createElement("SCRIPT")?
+function(a){var b=document.createElement("SCRIPT");b.onreadystatechange=function(){b.onreadystatechange=null;b.parentNode.removeChild(b);b=null;a();a=null};document.documentElement.appendChild(b)}:function(a){l.setTimeout(a,0)}};var ad=function(){this.ac=this.Ha=null},cd=new Xc(function(){return new bd},function(a){a.reset()},100);ad.prototype.add=function(a,b){var c=cd.get();c.set(a,b);this.ac?this.ac.next=c:(v(!this.Ha),this.Ha=c);this.ac=c};ad.prototype.remove=function(){var a=null;this.Ha&&(a=this.Ha,this.Ha=this.Ha.next,this.Ha||(this.ac=null),a.next=null);return a};var bd=function(){this.next=this.scope=this.lc=null};bd.prototype.set=function(a,b){this.lc=a;this.scope=b;this.next=null};
+bd.prototype.reset=function(){this.next=this.scope=this.lc=null};var hd=function(a,b){dd||ed();fd||(dd(),fd=!0);gd.add(a,b)},dd,ed=function(){if(l.Promise&&l.Promise.resolve){var a=l.Promise.resolve(void 0);dd=function(){a.then(id)}}else dd=function(){var a=id;!n(l.setImmediate)||l.Window&&l.Window.prototype&&!x("Edge")&&l.Window.prototype.setImmediate==l.setImmediate?(Zc||(Zc=$c()),Zc(a)):l.setImmediate(a)}},fd=!1,gd=new ad,id=function(){for(var a;a=gd.remove();){try{a.lc.call(a.scope)}catch(b){Yc(b)}cd.put(a)}fd=!1};var jd=function(a){a.prototype.then=a.prototype.then;a.prototype.$goog_Thenable=!0},kd=function(a){if(!a)return!1;try{return!!a.$goog_Thenable}catch(b){return!1}};var H=function(a,b){this.D=0;this.ga=void 0;this.Ja=this.ba=this.l=null;this.Fb=this.kc=!1;if(a!=ba)try{var c=this;a.call(b,function(a){ld(c,2,a)},function(a){if(!(a instanceof md))try{if(a instanceof Error)throw a;throw Error("Promise rejected.");}catch(b){}ld(c,3,a)})}catch(d){ld(this,3,d)}},nd=function(){this.next=this.context=this.Pa=this.Aa=this.child=null;this.eb=!1};nd.prototype.reset=function(){this.context=this.Pa=this.Aa=this.child=null;this.eb=!1};
+var od=new Xc(function(){return new nd},function(a){a.reset()},100),pd=function(a,b,c){var d=od.get();d.Aa=a;d.Pa=b;d.context=c;return d},I=function(a){if(a instanceof H)return a;var b=new H(ba);ld(b,2,a);return b},J=function(a){return new H(function(b,c){c(a)})},rd=function(a,b,c){qd(a,b,c,null)||hd(ka(b,a))},sd=function(a){return new H(function(b){var c=a.length,d=[];if(c)for(var e=function(a,e,f){c--;d[a]=e?{Ud:!0,value:f}:{Ud:!1,reason:f};0==c&&b(d)},f=0,g;f<a.length;f++)g=a[f],rd(g,ka(e,f,!0),
+ka(e,f,!1));else b(d)})};H.prototype.then=function(a,b,c){null!=a&&Ba(a,"opt_onFulfilled should be a function.");null!=b&&Ba(b,"opt_onRejected should be a function. Did you pass opt_context as the second argument instead of the third?");return td(this,n(a)?a:null,n(b)?b:null,c)};jd(H);var vd=function(a,b){var c=pd(b,b,void 0);c.eb=!0;ud(a,c);return a};H.prototype.F=function(a,b){return td(this,null,a,b)};H.prototype.cancel=function(a){0==this.D&&hd(function(){var b=new md(a);wd(this,b)},this)};
+var wd=function(a,b){if(0==a.D)if(a.l){var c=a.l;if(c.ba){for(var d=0,e=null,f=null,g=c.ba;g&&(g.eb||(d++,g.child==a&&(e=g),!(e&&1<d)));g=g.next)e||(f=g);e&&(0==c.D&&1==d?wd(c,b):(f?(d=f,v(c.ba),v(null!=d),d.next==c.Ja&&(c.Ja=d),d.next=d.next.next):xd(c),yd(c,e,3,b)))}a.l=null}else ld(a,3,b)},ud=function(a,b){a.ba||2!=a.D&&3!=a.D||zd(a);v(null!=b.Aa);a.Ja?a.Ja.next=b:a.ba=b;a.Ja=b},td=function(a,b,c,d){var e=pd(null,null,null);e.child=new H(function(a,g){e.Aa=b?function(c){try{var e=b.call(d,c);a(e)}catch(Y){g(Y)}}:
+a;e.Pa=c?function(b){try{var e=c.call(d,b);void 0===e&&b instanceof md?g(b):a(e)}catch(Y){g(Y)}}:g});e.child.l=a;ud(a,e);return e.child};H.prototype.Ee=function(a){v(1==this.D);this.D=0;ld(this,2,a)};H.prototype.Fe=function(a){v(1==this.D);this.D=0;ld(this,3,a)};
+var ld=function(a,b,c){0==a.D&&(a===c&&(b=3,c=new TypeError("Promise cannot resolve to itself")),a.D=1,qd(c,a.Ee,a.Fe,a)||(a.ga=c,a.D=b,a.l=null,zd(a),3!=b||c instanceof md||Ad(a,c)))},qd=function(a,b,c,d){if(a instanceof H)return null!=b&&Ba(b,"opt_onFulfilled should be a function."),null!=c&&Ba(c,"opt_onRejected should be a function. Did you pass opt_context as the second argument instead of the third?"),ud(a,pd(b||ba,c||null,d)),!0;if(kd(a))return a.then(b,c,d),!0;if(ha(a))try{var e=a.then;if(n(e))return Bd(a,
+e,b,c,d),!0}catch(f){return c.call(d,f),!0}return!1},Bd=function(a,b,c,d,e){var f=!1,g=function(a){f||(f=!0,c.call(e,a))},k=function(a){f||(f=!0,d.call(e,a))};try{b.call(a,g,k)}catch(p){k(p)}},zd=function(a){a.kc||(a.kc=!0,hd(a.Pd,a))},xd=function(a){var b=null;a.ba&&(b=a.ba,a.ba=b.next,b.next=null);a.ba||(a.Ja=null);null!=b&&v(null!=b.Aa);return b};H.prototype.Pd=function(){for(var a;a=xd(this);)yd(this,a,this.D,this.ga);this.kc=!1};
+var yd=function(a,b,c,d){if(3==c&&b.Pa&&!b.eb)for(;a&&a.Fb;a=a.l)a.Fb=!1;if(b.child)b.child.l=null,Cd(b,c,d);else try{b.eb?b.Aa.call(b.context):Cd(b,c,d)}catch(e){Dd.call(null,e)}od.put(b)},Cd=function(a,b,c){2==b?a.Aa.call(a.context,c):a.Pa&&a.Pa.call(a.context,c)},Ad=function(a,b){a.Fb=!0;hd(function(){a.Fb&&Dd.call(null,b)})},Dd=Yc,md=function(a){t.call(this,a)};r(md,t);md.prototype.name="cancel";/*
  Portions of this code are from MochiKit, received by
  The Closure Authors under the MIT license. All other code is Copyright
  2005-2009 The Closure Authors. All Rights Reserved.
 */
-var Ed=function(a,b){this.Sb=[];this.gd=a;this.Pc=b||null;this.fb=this.Ma=!1;this.fa=void 0;this.Dc=this.Ic=this.dc=!1;this.Yb=0;this.l=null;this.ec=0};Ed.prototype.cancel=function(a){if(this.Ma)this.fa instanceof Ed&&this.fa.cancel();else{if(this.l){var b=this.l;delete this.l;a?b.cancel(a):(b.ec--,0>=b.ec&&b.cancel())}this.gd?this.gd.call(this.Pc,this):this.Dc=!0;this.Ma||Fd(this,new Gd)}};Ed.prototype.Oc=function(a,b){this.dc=!1;Hd(this,a,b)};
-var Hd=function(a,b,c){a.Ma=!0;a.fa=c;a.fb=!b;Id(a)},Kd=function(a){if(a.Ma){if(!a.Dc)throw new Jd;a.Dc=!1}};Ed.prototype.callback=function(a){Kd(this);Ld(a);Hd(this,!0,a)};var Fd=function(a,b){Kd(a);Ld(b);Hd(a,!1,b)},Ld=function(a){v(!(a instanceof Ed),"An execution sequence may not be initiated with a blocking Deferred.")},Nd=function(a,b){Md(a,null,b,void 0)},Md=function(a,b,c,d){v(!a.Ic,"Blocking Deferreds can not be re-used");a.Sb.push([b,c,d]);a.Ma&&Id(a)};
+var Ed=function(a,b){this.Sb=[];this.hd=a;this.Rc=b||null;this.ib=this.Ma=!1;this.ga=void 0;this.Gc=this.Kc=this.ec=!1;this.Zb=0;this.l=null;this.fc=0};Ed.prototype.cancel=function(a){if(this.Ma)this.ga instanceof Ed&&this.ga.cancel();else{if(this.l){var b=this.l;delete this.l;a?b.cancel(a):(b.fc--,0>=b.fc&&b.cancel())}this.hd?this.hd.call(this.Rc,this):this.Gc=!0;this.Ma||Fd(this,new Gd)}};Ed.prototype.Qc=function(a,b){this.ec=!1;Hd(this,a,b)};
+var Hd=function(a,b,c){a.Ma=!0;a.ga=c;a.ib=!b;Id(a)},Kd=function(a){if(a.Ma){if(!a.Gc)throw new Jd;a.Gc=!1}};Ed.prototype.callback=function(a){Kd(this);Ld(a);Hd(this,!0,a)};var Fd=function(a,b){Kd(a);Ld(b);Hd(a,!1,b)},Ld=function(a){v(!(a instanceof Ed),"An execution sequence may not be initiated with a blocking Deferred.")},Nd=function(a,b){Md(a,null,b,void 0)},Md=function(a,b,c,d){v(!a.Kc,"Blocking Deferreds can not be re-used");a.Sb.push([b,c,d]);a.Ma&&Id(a)};
 Ed.prototype.then=function(a,b,c){var d,e,f=new H(function(a,b){d=a;e=b});Md(this,d,function(a){a instanceof Gd?f.cancel():e(a)});return f.then(a,b,c)};jd(Ed);
-var Od=function(a){return Fa(a.Sb,function(a){return n(a[1])})},Id=function(a){if(a.Yb&&a.Ma&&Od(a)){var b=a.Yb,c=Pd[b];c&&(l.clearTimeout(c.gb),delete Pd[b]);a.Yb=0}a.l&&(a.l.ec--,delete a.l);for(var b=a.fa,d=c=!1;a.Sb.length&&!a.dc;){var e=a.Sb.shift(),f=e[0],g=e[1],e=e[2];if(f=a.fb?g:f)try{var k=f.call(e||a.Pc,b);void 0!==k&&(a.fb=a.fb&&(k==b||k instanceof Error),a.fa=b=k);if(kd(b)||"function"===typeof l.Promise&&b instanceof l.Promise)d=!0,a.dc=!0}catch(p){b=p,a.fb=!0,Od(a)||(c=!0)}}a.fa=b;d&&
-(k=q(a.Oc,a,!0),d=q(a.Oc,a,!1),b instanceof Ed?(Md(b,k,d),b.Ic=!0):b.then(k,d));c&&(b=new Qd(b),Pd[b.gb]=b,a.Yb=b.gb)},Jd=function(){t.call(this)};r(Jd,t);Jd.prototype.message="Deferred has already fired";Jd.prototype.name="AlreadyCalledError";var Gd=function(){t.call(this)};r(Gd,t);Gd.prototype.message="Deferred was canceled";Gd.prototype.name="CanceledError";var Qd=function(a){this.gb=l.setTimeout(q(this.Ae,this),0);this.G=a};
-Qd.prototype.Ae=function(){v(Pd[this.gb],"Cannot throw an error that is not scheduled.");delete Pd[this.gb];throw this.G;};var Pd={};var Vd=function(a){var b={},c=b.document||document,d=document.createElement("SCRIPT"),e={od:d,vb:void 0},f=new Ed(Rd,e),g=null,k=null!=b.timeout?b.timeout:5E3;0<k&&(g=window.setTimeout(function(){Sd(d,!0);Fd(f,new Td(1,"Timeout reached for loading script "+a))},k),e.vb=g);d.onload=d.onreadystatechange=function(){d.readyState&&"loaded"!=d.readyState&&"complete"!=d.readyState||(Sd(d,b.Ie||!1,g),f.callback(null))};d.onerror=function(){Sd(d,!0,g);Fd(f,new Td(0,"Error while loading script "+a))};e=b.attributes||
-{};Za(e,{type:"text/javascript",charset:"UTF-8",src:a});Wc(d,e);Ud(c).appendChild(d);return f},Ud=function(a){var b=a.getElementsByTagName("HEAD");return b&&0!=b.length?b[0]:a.documentElement},Rd=function(){if(this&&this.od){var a=this.od;a&&"SCRIPT"==a.tagName&&Sd(a,!0,this.vb)}},Sd=function(a,b,c){null!=c&&l.clearTimeout(c);a.onload=ba;a.onerror=ba;a.onreadystatechange=ba;b&&window.setTimeout(function(){a&&a.parentNode&&a.parentNode.removeChild(a)},0)},Td=function(a,b){var c="Jsloader error (code #"+
-a+")";b&&(c+=": "+b);t.call(this,c);this.code=a};r(Td,t);var Wd=function(){Kb.call(this);this.T=new Rb(this);this.Gd=this;this.tc=null};r(Wd,Kb);Wd.prototype[Nb]=!0;h=Wd.prototype;h.addEventListener=function(a,b,c,d){Xb(this,a,b,c,d)};h.removeEventListener=function(a,b,c,d){fc(this,a,b,c,d)};
-h.dispatchEvent=function(a){Xd(this);var b,c=this.tc;if(c){b=[];for(var d=1;c;c=c.tc)b.push(c),v(1E3>++d,"infinite loop")}c=this.Gd;d=a.type||a;if(m(a))a=new Lb(a,c);else if(a instanceof Lb)a.target=a.target||c;else{var e=a;a=new Lb(d,c);Za(a,e)}var e=!0,f;if(b)for(var g=b.length-1;!a.Sa&&0<=g;g--)f=a.currentTarget=b[g],e=Yd(f,d,!0,a)&&e;a.Sa||(f=a.currentTarget=c,e=Yd(f,d,!0,a)&&e,a.Sa||(e=Yd(f,d,!1,a)&&e));if(b)for(g=0;!a.Sa&&g<b.length;g++)f=a.currentTarget=b[g],e=Yd(f,d,!1,a)&&e;return e};
-h.Ka=function(){Wd.Fc.Ka.call(this);if(this.T){var a=this.T,b=0,c;for(c in a.s){for(var d=a.s[c],e=0;e<d.length;e++)++b,Qb(d[e]);delete a.s[c];a.wb--}}this.tc=null};h.listen=function(a,b,c,d){Xd(this);return this.T.add(String(a),b,!1,c,d)};
-var ec=function(a,b,c,d,e){a.T.add(String(b),c,!0,d,e)},Yd=function(a,b,c,d){b=a.T.s[String(b)];if(!b)return!0;b=b.concat();for(var e=!0,f=0;f<b.length;++f){var g=b[f];if(g&&!g.Va&&g.yb==c){var k=g.listener,p=g.Hb||g.src;g.xb&&Tb(a.T,g);e=!1!==k.call(p,d)&&e}}return e&&0!=d.nd};Wd.prototype.lc=function(a,b,c,d){return this.T.lc(String(a),b,c,d)};var Xd=function(a){v(a.T,"Event target is not initialized. Did you call the superclass (goog.events.EventTarget) constructor?")};var Zd="StopIteration"in l?l.StopIteration:{message:"StopIteration",stack:""},$d=function(){};$d.prototype.next=function(){throw Zd;};$d.prototype.Fd=function(){return this};var ae=function(a,b){this.U={};this.m=[];this.ha=this.i=0;var c=arguments.length;if(1<c){if(c%2)throw Error("Uneven number of arguments");for(var d=0;d<c;d+=2)this.set(arguments[d],arguments[d+1])}else a&&this.addAll(a)};h=ae.prototype;h.Uc=function(){return this.i};h.O=function(){be(this);for(var a=[],b=0;b<this.m.length;b++)a.push(this.U[this.m[b]]);return a};h.ba=function(){be(this);return this.m.concat()};h.cb=function(a){return ce(this.U,a)};
-h.Bb=function(a,b){if(this===a)return!0;if(this.i!=a.Uc())return!1;var c=b||de;be(this);for(var d,e=0;d=this.m[e];e++)if(!c(this.get(d),a.get(d)))return!1;return!0};var de=function(a,b){return a===b};ae.prototype.remove=function(a){return ce(this.U,a)?(delete this.U[a],this.i--,this.ha++,this.m.length>2*this.i&&be(this),!0):!1};
-var be=function(a){if(a.i!=a.m.length){for(var b=0,c=0;b<a.m.length;){var d=a.m[b];ce(a.U,d)&&(a.m[c++]=d);b++}a.m.length=c}if(a.i!=a.m.length){for(var e={},c=b=0;b<a.m.length;)d=a.m[b],ce(e,d)||(a.m[c++]=d,e[d]=1),b++;a.m.length=c}};h=ae.prototype;h.get=function(a,b){return ce(this.U,a)?this.U[a]:b};h.set=function(a,b){ce(this.U,a)||(this.i++,this.m.push(a),this.ha++);this.U[a]=b};
-h.addAll=function(a){var b;a instanceof ae?(b=a.ba(),a=a.O()):(b=Sa(a),a=Ra(a));for(var c=0;c<b.length;c++)this.set(b[c],a[c])};h.forEach=function(a,b){for(var c=this.ba(),d=0;d<c.length;d++){var e=c[d],f=this.get(e);a.call(b,f,e,this)}};h.clone=function(){return new ae(this)};h.Fd=function(a){be(this);var b=0,c=this.ha,d=this,e=new $d;e.next=function(){if(c!=d.ha)throw Error("The map has changed since the iterator was created");if(b>=d.m.length)throw Zd;var e=d.m[b++];return a?e:d.U[e]};return e};
-var ce=function(a,b){return Object.prototype.hasOwnProperty.call(a,b)};var ee=function(a){if(a.O&&"function"==typeof a.O)return a.O();if(m(a))return a.split("");if(fa(a)){for(var b=[],c=a.length,d=0;d<c;d++)b.push(a[d]);return b}return Ra(a)},fe=function(a){if(a.ba&&"function"==typeof a.ba)return a.ba();if(!a.O||"function"!=typeof a.O){if(fa(a)||m(a)){var b=[];a=a.length;for(var c=0;c<a;c++)b.push(c);return b}return Sa(a)}},ge=function(a,b){if(a.forEach&&"function"==typeof a.forEach)a.forEach(b,void 0);else if(fa(a)||m(a))w(a,b,void 0);else for(var c=fe(a),d=ee(a),e=
-d.length,f=0;f<e;f++)b.call(void 0,d[f],c&&c[f],a)};var he=function(a,b,c,d,e){this.reset(a,b,c,d,e)};he.prototype.Rc=null;var ie=0;he.prototype.reset=function(a,b,c,d,e){"number"==typeof e||ie++;d||la();this.lb=a;this.ke=b;delete this.Rc};he.prototype.rd=function(a){this.lb=a};var je=function(a){this.le=a;this.Xc=this.fc=this.lb=this.l=null},ke=function(a,b){this.name=a;this.value=b};ke.prototype.toString=function(){return this.name};var le=new ke("SEVERE",1E3),me=new ke("CONFIG",700),ne=new ke("FINE",500);je.prototype.getParent=function(){return this.l};je.prototype.rd=function(a){this.lb=a};var oe=function(a){if(a.lb)return a.lb;if(a.l)return oe(a.l);ya("Root logger has no level set.");return null};
-je.prototype.log=function(a,b,c){if(a.value>=oe(this).value)for(n(b)&&(b=b()),a=new he(a,String(b),this.le),c&&(a.Rc=c),c="log:"+a.ke,l.console&&(l.console.timeStamp?l.console.timeStamp(c):l.console.markTimeline&&l.console.markTimeline(c)),l.msWriteProfilerMark&&l.msWriteProfilerMark(c),c=this;c;){b=c;var d=a;if(b.Xc)for(var e=0,f;f=b.Xc[e];e++)f(d);c=c.getParent()}};
-var pe={},qe=null,re=function(a){qe||(qe=new je(""),pe[""]=qe,qe.rd(me));var b;if(!(b=pe[a])){b=new je(a);var c=a.lastIndexOf("."),d=a.substr(c+1),c=re(a.substr(0,c));c.fc||(c.fc={});c.fc[d]=b;b.l=c;pe[a]=b}return b};var K=function(a,b){a&&a.log(ne,b,void 0)};var se=function(a,b,c){if(n(a))c&&(a=q(a,c));else if(a&&"function"==typeof a.handleEvent)a=q(a.handleEvent,a);else throw Error("Invalid listener argument");return 2147483647<Number(b)?-1:l.setTimeout(a,b||0)},te=function(a){var b=null;return(new H(function(c,d){b=se(function(){c(void 0)},a);-1==b&&d(Error("Failed to schedule timer."))})).N(function(a){l.clearTimeout(b);throw a;})};var ue=/^(?:([^:/?#.]+):)?(?:\/\/(?:([^/?#]*)@)?([^/#?]*?)(?::([0-9]+))?(?=[/#?]|$))?([^?#]+)?(?:\?([^#]*))?(?:#(.*))?$/,ve=function(a,b){if(a)for(var c=a.split("&"),d=0;d<c.length;d++){var e=c[d].indexOf("="),f,g=null;0<=e?(f=c[d].substring(0,e),g=c[d].substring(e+1)):f=c[d];b(f,g?decodeURIComponent(g.replace(/\+/g," ")):"")}};var L=function(a){Wd.call(this);this.headers=new ae;this.bc=a||null;this.ja=!1;this.ac=this.a=null;this.kb=this.cd=this.Kb="";this.xa=this.pc=this.Jb=this.ic=!1;this.Ya=0;this.Xb=null;this.md="";this.Zb=this.re=this.xd=!1};r(L,Wd);var we=L.prototype,xe=re("goog.net.XhrIo");we.L=xe;var ye=/^https?$/i,ze=["POST","PUT"];
-L.prototype.send=function(a,b,c,d){if(this.a)throw Error("[goog.net.XhrIo] Object is active with another request="+this.Kb+"; newUri="+a);b=b?b.toUpperCase():"GET";this.Kb=a;this.kb="";this.cd=b;this.ic=!1;this.ja=!0;this.a=this.bc?this.bc.zb():uc.zb();this.ac=this.bc?tc(this.bc):tc(uc);this.a.onreadystatechange=q(this.jd,this);this.re&&"onprogress"in this.a&&(this.a.onprogress=q(function(a){this.hd(a,!0)},this),this.a.upload&&(this.a.upload.onprogress=q(this.hd,this)));try{K(this.L,Ae(this,"Opening Xhr")),
-this.pc=!0,this.a.open(b,String(a),!0),this.pc=!1}catch(f){K(this.L,Ae(this,"Error opening Xhr: "+f.message));this.G(5,f);return}a=c||"";var e=this.headers.clone();d&&ge(d,function(a,b){e.set(b,a)});d=Ha(e.ba());c=l.FormData&&a instanceof l.FormData;!Ia(ze,b)||d||c||e.set("Content-Type","application/x-www-form-urlencoded;charset=utf-8");e.forEach(function(a,b){this.a.setRequestHeader(b,a)},this);this.md&&(this.a.responseType=this.md);"withCredentials"in this.a&&this.a.withCredentials!==this.xd&&(this.a.withCredentials=
-this.xd);try{Be(this),0<this.Ya&&(this.Zb=Ce(this.a),K(this.L,Ae(this,"Will abort after "+this.Ya+"ms if incomplete, xhr2 "+this.Zb)),this.Zb?(this.a.timeout=this.Ya,this.a.ontimeout=q(this.vb,this)):this.Xb=se(this.vb,this.Ya,this)),K(this.L,Ae(this,"Sending request")),this.Jb=!0,this.a.send(a),this.Jb=!1}catch(f){K(this.L,Ae(this,"Send error: "+f.message)),this.G(5,f)}};var Ce=function(a){return y&&z(9)&&ga(a.timeout)&&void 0!==a.ontimeout},Ga=function(a){return"content-type"==a.toLowerCase()};
-L.prototype.vb=function(){"undefined"!=typeof aa&&this.a&&(this.kb="Timed out after "+this.Ya+"ms, aborting",K(this.L,Ae(this,this.kb)),this.dispatchEvent("timeout"),this.abort(8))};L.prototype.G=function(a,b){this.ja=!1;this.a&&(this.xa=!0,this.a.abort(),this.xa=!1);this.kb=b;De(this);Ee(this)};var De=function(a){a.ic||(a.ic=!0,a.dispatchEvent("complete"),a.dispatchEvent("error"))};
-L.prototype.abort=function(){this.a&&this.ja&&(K(this.L,Ae(this,"Aborting")),this.ja=!1,this.xa=!0,this.a.abort(),this.xa=!1,this.dispatchEvent("complete"),this.dispatchEvent("abort"),Ee(this))};L.prototype.Ka=function(){this.a&&(this.ja&&(this.ja=!1,this.xa=!0,this.a.abort(),this.xa=!1),Ee(this,!0));L.Fc.Ka.call(this)};L.prototype.jd=function(){this.isDisposed()||(this.pc||this.Jb||this.xa?Fe(this):this.pe())};L.prototype.pe=function(){Fe(this)};
-var Fe=function(a){if(a.ja&&"undefined"!=typeof aa)if(a.ac[1]&&4==Ge(a)&&2==He(a))K(a.L,Ae(a,"Local request error detected and ignored"));else if(a.Jb&&4==Ge(a))se(a.jd,0,a);else if(a.dispatchEvent("readystatechange"),4==Ge(a)){K(a.L,Ae(a,"Request complete"));a.ja=!1;try{var b=He(a),c;a:switch(b){case 200:case 201:case 202:case 204:case 206:case 304:case 1223:c=!0;break a;default:c=!1}var d;if(!(d=c)){var e;if(e=0===b){var f=String(a.Kb).match(ue)[1]||null;if(!f&&l.self&&l.self.location)var g=l.self.location.protocol,
-f=g.substr(0,g.length-1);e=!ye.test(f?f.toLowerCase():"")}d=e}if(d)a.dispatchEvent("complete"),a.dispatchEvent("success");else{var k;try{k=2<Ge(a)?a.a.statusText:""}catch(p){K(a.L,"Can not get status: "+p.message),k=""}a.kb=k+" ["+He(a)+"]";De(a)}}finally{Ee(a)}}};L.prototype.hd=function(a,b){v("progress"===a.type,"goog.net.EventType.PROGRESS is of the same type as raw XHR progress.");this.dispatchEvent(Ie(a,"progress"));this.dispatchEvent(Ie(a,b?"downloadprogress":"uploadprogress"))};
-var Ie=function(a,b){return{type:b,lengthComputable:a.lengthComputable,loaded:a.loaded,total:a.total}},Ee=function(a,b){if(a.a){Be(a);var c=a.a,d=a.ac[0]?ba:null;a.a=null;a.ac=null;b||a.dispatchEvent("ready");try{c.onreadystatechange=d}catch(e){(c=a.L)&&c.log(le,"Problem encountered resetting onreadystatechange: "+e.message,void 0)}}},Be=function(a){a.a&&a.Zb&&(a.a.ontimeout=null);ga(a.Xb)&&(l.clearTimeout(a.Xb),a.Xb=null)},Ge=function(a){return a.a?a.a.readyState:0},He=function(a){try{return 2<Ge(a)?
-a.a.status:-1}catch(b){return-1}},Je=function(a){try{return a.a?a.a.responseText:""}catch(b){return K(a.L,"Can not get responseText: "+b.message),""}},Ae=function(a,b){return b+" ["+a.cd+" "+a.Kb+" "+He(a)+"]"};var Ke=function(a,b){this.la=this.Fa=this.qa="";this.Ra=null;this.wa=this.na="";this.I=this.he=!1;var c;if(a instanceof Ke)this.I=void 0!==b?b:a.I,Le(this,a.qa),c=a.Fa,M(this),this.Fa=c,Me(this,a.la),Ne(this,a.Ra),Oe(this,a.na),Pe(this,a.W.clone()),c=a.wa,M(this),this.wa=c;else if(a&&(c=String(a).match(ue))){this.I=!!b;Le(this,c[1]||"",!0);var d=c[2]||"";M(this);this.Fa=Qe(d);Me(this,c[3]||"",!0);Ne(this,c[4]);Oe(this,c[5]||"",!0);Pe(this,c[6]||"",!0);c=c[7]||"";M(this);this.wa=Qe(c)}else this.I=
-!!b,this.W=new N(null,0,this.I)};Ke.prototype.toString=function(){var a=[],b=this.qa;b&&a.push(Re(b,Se,!0),":");var c=this.la;if(c||"file"==b)a.push("//"),(b=this.Fa)&&a.push(Re(b,Se,!0),"@"),a.push(encodeURIComponent(String(c)).replace(/%25([0-9a-fA-F]{2})/g,"%$1")),c=this.Ra,null!=c&&a.push(":",String(c));if(c=this.na)this.la&&"/"!=c.charAt(0)&&a.push("/"),a.push(Re(c,"/"==c.charAt(0)?Te:Ue,!0));(c=this.W.toString())&&a.push("?",c);(c=this.wa)&&a.push("#",Re(c,Ve));return a.join("")};
-Ke.prototype.resolve=function(a){var b=this.clone(),c=!!a.qa;c?Le(b,a.qa):c=!!a.Fa;if(c){var d=a.Fa;M(b);b.Fa=d}else c=!!a.la;c?Me(b,a.la):c=null!=a.Ra;d=a.na;if(c)Ne(b,a.Ra);else if(c=!!a.na){if("/"!=d.charAt(0))if(this.la&&!this.na)d="/"+d;else{var e=b.na.lastIndexOf("/");-1!=e&&(d=b.na.substr(0,e+1)+d)}e=d;if(".."==e||"."==e)d="";else if(u(e,"./")||u(e,"/.")){for(var d=0==e.lastIndexOf("/",0),e=e.split("/"),f=[],g=0;g<e.length;){var k=e[g++];"."==k?d&&g==e.length&&f.push(""):".."==k?((1<f.length||
-1==f.length&&""!=f[0])&&f.pop(),d&&g==e.length&&f.push("")):(f.push(k),d=!0)}d=f.join("/")}else d=e}c?Oe(b,d):c=""!==a.W.toString();c?Pe(b,Qe(a.W.toString())):c=!!a.wa;c&&(a=a.wa,M(b),b.wa=a);return b};Ke.prototype.clone=function(){return new Ke(this)};
-var Le=function(a,b,c){M(a);a.qa=c?Qe(b,!0):b;a.qa&&(a.qa=a.qa.replace(/:$/,""))},Me=function(a,b,c){M(a);a.la=c?Qe(b,!0):b},Ne=function(a,b){M(a);if(b){b=Number(b);if(isNaN(b)||0>b)throw Error("Bad port number "+b);a.Ra=b}else a.Ra=null},Oe=function(a,b,c){M(a);a.na=c?Qe(b,!0):b},Pe=function(a,b,c){M(a);b instanceof N?(a.W=b,a.W.Cc(a.I)):(c||(b=Re(b,We)),a.W=new N(b,0,a.I))},O=function(a,b,c){M(a);a.W.set(b,c)},M=function(a){if(a.he)throw Error("Tried to modify a read-only Uri");};
-Ke.prototype.Cc=function(a){this.I=a;this.W&&this.W.Cc(a);return this};
-var Xe=function(a,b){var c=new Ke(null,void 0);Le(c,"https");a&&Me(c,a);b&&Oe(c,b);return c},Qe=function(a,b){return a?b?decodeURI(a.replace(/%25/g,"%2525")):decodeURIComponent(a):""},Re=function(a,b,c){return m(a)?(a=encodeURI(a).replace(b,Ye),c&&(a=a.replace(/%25([0-9a-fA-F]{2})/g,"%$1")),a):null},Ye=function(a){a=a.charCodeAt(0);return"%"+(a>>4&15).toString(16)+(a&15).toString(16)},Se=/[#\/\?@]/g,Ue=/[\#\?:]/g,Te=/[\#\?]/g,We=/[\#\?@]/g,Ve=/#/g,N=function(a,b,c){this.i=this.j=null;this.F=a||null;
-this.I=!!c},Ze=function(a){a.j||(a.j=new ae,a.i=0,a.F&&ve(a.F,function(b,c){a.add(decodeURIComponent(b.replace(/\+/g," ")),c)}))},af=function(a){var b=fe(a);if("undefined"==typeof b)throw Error("Keys are undefined");var c=new N(null,0,void 0);a=ee(a);for(var d=0;d<b.length;d++){var e=b[d],f=a[d];ea(f)?$e(c,e,f):c.add(e,f)}return c};h=N.prototype;h.Uc=function(){Ze(this);return this.i};
-h.add=function(a,b){Ze(this);this.F=null;a=this.H(a);var c=this.j.get(a);c||this.j.set(a,c=[]);c.push(b);this.i=za(this.i)+1;return this};h.remove=function(a){Ze(this);a=this.H(a);return this.j.cb(a)?(this.F=null,this.i=za(this.i)-this.j.get(a).length,this.j.remove(a)):!1};h.cb=function(a){Ze(this);a=this.H(a);return this.j.cb(a)};h.ba=function(){Ze(this);for(var a=this.j.O(),b=this.j.ba(),c=[],d=0;d<b.length;d++)for(var e=a[d],f=0;f<e.length;f++)c.push(b[d]);return c};
-h.O=function(a){Ze(this);var b=[];if(m(a))this.cb(a)&&(b=Ma(b,this.j.get(this.H(a))));else{a=this.j.O();for(var c=0;c<a.length;c++)b=Ma(b,a[c])}return b};h.set=function(a,b){Ze(this);this.F=null;a=this.H(a);this.cb(a)&&(this.i=za(this.i)-this.j.get(a).length);this.j.set(a,[b]);this.i=za(this.i)+1;return this};h.get=function(a,b){var c=a?this.O(a):[];return 0<c.length?String(c[0]):b};var $e=function(a,b,c){a.remove(b);0<c.length&&(a.F=null,a.j.set(a.H(b),Oa(c)),a.i=za(a.i)+c.length)};
-N.prototype.toString=function(){if(this.F)return this.F;if(!this.j)return"";for(var a=[],b=this.j.ba(),c=0;c<b.length;c++)for(var d=b[c],e=encodeURIComponent(String(d)),d=this.O(d),f=0;f<d.length;f++){var g=e;""!==d[f]&&(g+="="+encodeURIComponent(String(d[f])));a.push(g)}return this.F=a.join("&")};N.prototype.clone=function(){var a=new N;a.F=this.F;this.j&&(a.j=this.j.clone(),a.i=this.i);return a};N.prototype.H=function(a){a=String(a);this.I&&(a=a.toLowerCase());return a};
-N.prototype.Cc=function(a){a&&!this.I&&(Ze(this),this.F=null,this.j.forEach(function(a,c){var d=c.toLowerCase();c!=d&&(this.remove(c),$e(this,d,a))},this));this.I=a};var bf=function(){return l.window&&l.window.location.href||""},cf=function(a,b){var c=[],d;for(d in a)d in b?typeof a[d]!=typeof b[d]?c.push(d):ea(a[d])?Wa(a[d],b[d])||c.push(d):"object"==typeof a[d]&&null!=a[d]&&null!=b[d]?0<cf(a[d],b[d]).length&&c.push(d):a[d]!==b[d]&&c.push(d):c.push(d);for(d in b)d in a||c.push(d);return c},ff=function(){var a;a=df();a="Chrome"!=ef(a)?null:(a=a.match(/\sChrome\/(\d+)/i))&&2==a.length?parseInt(a[1],10):null;return a&&30>a?!1:!y||!pb||9<pb},gf=function(a){(a||l.window).close()},
+var Od=function(a){return Fa(a.Sb,function(a){return n(a[1])})},Id=function(a){if(a.Zb&&a.Ma&&Od(a)){var b=a.Zb,c=Pd[b];c&&(l.clearTimeout(c.jb),delete Pd[b]);a.Zb=0}a.l&&(a.l.fc--,delete a.l);for(var b=a.ga,d=c=!1;a.Sb.length&&!a.ec;){var e=a.Sb.shift(),f=e[0],g=e[1],e=e[2];if(f=a.ib?g:f)try{var k=f.call(e||a.Rc,b);void 0!==k&&(a.ib=a.ib&&(k==b||k instanceof Error),a.ga=b=k);if(kd(b)||"function"===typeof l.Promise&&b instanceof l.Promise)d=!0,a.ec=!0}catch(p){b=p,a.ib=!0,Od(a)||(c=!0)}}a.ga=b;d&&
+(k=q(a.Qc,a,!0),d=q(a.Qc,a,!1),b instanceof Ed?(Md(b,k,d),b.Kc=!0):b.then(k,d));c&&(b=new Qd(b),Pd[b.jb]=b,a.Zb=b.jb)},Jd=function(){t.call(this)};r(Jd,t);Jd.prototype.message="Deferred has already fired";Jd.prototype.name="AlreadyCalledError";var Gd=function(){t.call(this)};r(Gd,t);Gd.prototype.message="Deferred was canceled";Gd.prototype.name="CanceledError";var Qd=function(a){this.jb=l.setTimeout(q(this.De,this),0);this.I=a};
+Qd.prototype.De=function(){v(Pd[this.jb],"Cannot throw an error that is not scheduled.");delete Pd[this.jb];throw this.I;};var Pd={};var Vd=function(a){var b={},c=b.document||document,d=document.createElement("SCRIPT"),e={pd:d,ub:void 0},f=new Ed(Rd,e),g=null,k=null!=b.timeout?b.timeout:5E3;0<k&&(g=window.setTimeout(function(){Sd(d,!0);Fd(f,new Td(1,"Timeout reached for loading script "+a))},k),e.ub=g);d.onload=d.onreadystatechange=function(){d.readyState&&"loaded"!=d.readyState&&"complete"!=d.readyState||(Sd(d,b.Le||!1,g),f.callback(null))};d.onerror=function(){Sd(d,!0,g);Fd(f,new Td(0,"Error while loading script "+a))};e=b.attributes||
+{};Za(e,{type:"text/javascript",charset:"UTF-8",src:a});Wc(d,e);Ud(c).appendChild(d);return f},Ud=function(a){var b=a.getElementsByTagName("HEAD");return b&&0!=b.length?b[0]:a.documentElement},Rd=function(){if(this&&this.pd){var a=this.pd;a&&"SCRIPT"==a.tagName&&Sd(a,!0,this.ub)}},Sd=function(a,b,c){null!=c&&l.clearTimeout(c);a.onload=ba;a.onerror=ba;a.onreadystatechange=ba;b&&window.setTimeout(function(){a&&a.parentNode&&a.parentNode.removeChild(a)},0)},Td=function(a,b){var c="Jsloader error (code #"+
+a+")";b&&(c+=": "+b);t.call(this,c);this.code=a};r(Td,t);var Wd=function(){Kb.call(this);this.V=new Rb(this);this.Hd=this;this.vc=null};r(Wd,Kb);Wd.prototype[Nb]=!0;h=Wd.prototype;h.addEventListener=function(a,b,c,d){Xb(this,a,b,c,d)};h.removeEventListener=function(a,b,c,d){fc(this,a,b,c,d)};
+h.dispatchEvent=function(a){Xd(this);var b,c=this.vc;if(c){b=[];for(var d=1;c;c=c.vc)b.push(c),v(1E3>++d,"infinite loop")}c=this.Hd;d=a.type||a;if(m(a))a=new Lb(a,c);else if(a instanceof Lb)a.target=a.target||c;else{var e=a;a=new Lb(d,c);Za(a,e)}var e=!0,f;if(b)for(var g=b.length-1;!a.Ta&&0<=g;g--)f=a.currentTarget=b[g],e=Yd(f,d,!0,a)&&e;a.Ta||(f=a.currentTarget=c,e=Yd(f,d,!0,a)&&e,a.Ta||(e=Yd(f,d,!1,a)&&e));if(b)for(g=0;!a.Ta&&g<b.length;g++)f=a.currentTarget=b[g],e=Yd(f,d,!1,a)&&e;return e};
+h.Ka=function(){Wd.Ic.Ka.call(this);if(this.V){var a=this.V,b=0,c;for(c in a.v){for(var d=a.v[c],e=0;e<d.length;e++)++b,Qb(d[e]);delete a.v[c];a.vb--}}this.vc=null};h.listen=function(a,b,c,d){Xd(this);return this.V.add(String(a),b,!1,c,d)};
+var ec=function(a,b,c,d,e){a.V.add(String(b),c,!0,d,e)},Yd=function(a,b,c,d){b=a.V.v[String(b)];if(!b)return!0;b=b.concat();for(var e=!0,f=0;f<b.length;++f){var g=b[f];if(g&&!g.Xa&&g.xb==c){var k=g.listener,p=g.Gb||g.src;g.wb&&Tb(a.V,g);e=!1!==k.call(p,d)&&e}}return e&&0!=d.od};Wd.prototype.mc=function(a,b,c,d){return this.V.mc(String(a),b,c,d)};var Xd=function(a){v(a.V,"Event target is not initialized. Did you call the superclass (goog.events.EventTarget) constructor?")};var Zd="StopIteration"in l?l.StopIteration:{message:"StopIteration",stack:""},$d=function(){};$d.prototype.next=function(){throw Zd;};$d.prototype.Gd=function(){return this};var ae=function(a,b){this.W={};this.m=[];this.ha=this.i=0;var c=arguments.length;if(1<c){if(c%2)throw Error("Uneven number of arguments");for(var d=0;d<c;d+=2)this.set(arguments[d],arguments[d+1])}else a&&this.addAll(a)};h=ae.prototype;h.Wc=function(){return this.i};h.R=function(){be(this);for(var a=[],b=0;b<this.m.length;b++)a.push(this.W[this.m[b]]);return a};h.ca=function(){be(this);return this.m.concat()};h.gb=function(a){return ce(this.W,a)};
+h.Ab=function(a,b){if(this===a)return!0;if(this.i!=a.Wc())return!1;var c=b||de;be(this);for(var d,e=0;d=this.m[e];e++)if(!c(this.get(d),a.get(d)))return!1;return!0};var de=function(a,b){return a===b};ae.prototype.remove=function(a){return ce(this.W,a)?(delete this.W[a],this.i--,this.ha++,this.m.length>2*this.i&&be(this),!0):!1};
+var be=function(a){if(a.i!=a.m.length){for(var b=0,c=0;b<a.m.length;){var d=a.m[b];ce(a.W,d)&&(a.m[c++]=d);b++}a.m.length=c}if(a.i!=a.m.length){for(var e={},c=b=0;b<a.m.length;)d=a.m[b],ce(e,d)||(a.m[c++]=d,e[d]=1),b++;a.m.length=c}};h=ae.prototype;h.get=function(a,b){return ce(this.W,a)?this.W[a]:b};h.set=function(a,b){ce(this.W,a)||(this.i++,this.m.push(a),this.ha++);this.W[a]=b};
+h.addAll=function(a){var b;a instanceof ae?(b=a.ca(),a=a.R()):(b=Sa(a),a=Ra(a));for(var c=0;c<b.length;c++)this.set(b[c],a[c])};h.forEach=function(a,b){for(var c=this.ca(),d=0;d<c.length;d++){var e=c[d],f=this.get(e);a.call(b,f,e,this)}};h.clone=function(){return new ae(this)};h.Gd=function(a){be(this);var b=0,c=this.ha,d=this,e=new $d;e.next=function(){if(c!=d.ha)throw Error("The map has changed since the iterator was created");if(b>=d.m.length)throw Zd;var e=d.m[b++];return a?e:d.W[e]};return e};
+var ce=function(a,b){return Object.prototype.hasOwnProperty.call(a,b)};var ee=function(a){if(a.R&&"function"==typeof a.R)return a.R();if(m(a))return a.split("");if(fa(a)){for(var b=[],c=a.length,d=0;d<c;d++)b.push(a[d]);return b}return Ra(a)},fe=function(a){if(a.ca&&"function"==typeof a.ca)return a.ca();if(!a.R||"function"!=typeof a.R){if(fa(a)||m(a)){var b=[];a=a.length;for(var c=0;c<a;c++)b.push(c);return b}return Sa(a)}},ge=function(a,b){if(a.forEach&&"function"==typeof a.forEach)a.forEach(b,void 0);else if(fa(a)||m(a))w(a,b,void 0);else for(var c=fe(a),d=ee(a),e=
+d.length,f=0;f<e;f++)b.call(void 0,d[f],c&&c[f],a)};var he=function(a,b,c,d,e){this.reset(a,b,c,d,e)};he.prototype.Tc=null;var ie=0;he.prototype.reset=function(a,b,c,d,e){"number"==typeof e||ie++;d||la();this.ob=a;this.le=b;delete this.Tc};he.prototype.sd=function(a){this.ob=a};var je=function(a){this.me=a;this.Zc=this.gc=this.ob=this.l=null},ke=function(a,b){this.name=a;this.value=b};ke.prototype.toString=function(){return this.name};var le=new ke("SEVERE",1E3),me=new ke("CONFIG",700),ne=new ke("FINE",500);je.prototype.getParent=function(){return this.l};je.prototype.sd=function(a){this.ob=a};var oe=function(a){if(a.ob)return a.ob;if(a.l)return oe(a.l);ya("Root logger has no level set.");return null};
+je.prototype.log=function(a,b,c){if(a.value>=oe(this).value)for(n(b)&&(b=b()),a=new he(a,String(b),this.me),c&&(a.Tc=c),c="log:"+a.le,l.console&&(l.console.timeStamp?l.console.timeStamp(c):l.console.markTimeline&&l.console.markTimeline(c)),l.msWriteProfilerMark&&l.msWriteProfilerMark(c),c=this;c;){b=c;var d=a;if(b.Zc)for(var e=0,f;f=b.Zc[e];e++)f(d);c=c.getParent()}};
+var pe={},qe=null,re=function(a){qe||(qe=new je(""),pe[""]=qe,qe.sd(me));var b;if(!(b=pe[a])){b=new je(a);var c=a.lastIndexOf("."),d=a.substr(c+1),c=re(a.substr(0,c));c.gc||(c.gc={});c.gc[d]=b;b.l=c;pe[a]=b}return b};var K=function(a,b){a&&a.log(ne,b,void 0)};var se=function(a,b,c){if(n(a))c&&(a=q(a,c));else if(a&&"function"==typeof a.handleEvent)a=q(a.handleEvent,a);else throw Error("Invalid listener argument");return 2147483647<Number(b)?-1:l.setTimeout(a,b||0)},te=function(a){var b=null;return(new H(function(c,d){b=se(function(){c(void 0)},a);-1==b&&d(Error("Failed to schedule timer."))})).F(function(a){l.clearTimeout(b);throw a;})};var ue=/^(?:([^:/?#.]+):)?(?:\/\/(?:([^/?#]*)@)?([^/#?]*?)(?::([0-9]+))?(?=[/#?]|$))?([^?#]+)?(?:\?([^#]*))?(?:#(.*))?$/,ve=function(a,b){if(a)for(var c=a.split("&"),d=0;d<c.length;d++){var e=c[d].indexOf("="),f,g=null;0<=e?(f=c[d].substring(0,e),g=c[d].substring(e+1)):f=c[d];b(f,g?decodeURIComponent(g.replace(/\+/g," ")):"")}};var L=function(a){Wd.call(this);this.headers=new ae;this.cc=a||null;this.ja=!1;this.bc=this.a=null;this.nb=this.dd=this.Jb="";this.ya=this.qc=this.Ib=this.jc=!1;this.ab=0;this.Yb=null;this.nd="";this.$b=this.te=this.yd=!1};r(L,Wd);var we=L.prototype,xe=re("goog.net.XhrIo");we.N=xe;var ye=/^https?$/i,ze=["POST","PUT"];
+L.prototype.send=function(a,b,c,d){if(this.a)throw Error("[goog.net.XhrIo] Object is active with another request="+this.Jb+"; newUri="+a);b=b?b.toUpperCase():"GET";this.Jb=a;this.nb="";this.dd=b;this.jc=!1;this.ja=!0;this.a=this.cc?this.cc.yb():uc.yb();this.bc=this.cc?tc(this.cc):tc(uc);this.a.onreadystatechange=q(this.kd,this);this.te&&"onprogress"in this.a&&(this.a.onprogress=q(function(a){this.jd(a,!0)},this),this.a.upload&&(this.a.upload.onprogress=q(this.jd,this)));try{K(this.N,Ae(this,"Opening Xhr")),
+this.qc=!0,this.a.open(b,String(a),!0),this.qc=!1}catch(f){K(this.N,Ae(this,"Error opening Xhr: "+f.message));this.I(5,f);return}a=c||"";var e=this.headers.clone();d&&ge(d,function(a,b){e.set(b,a)});d=Ha(e.ca());c=l.FormData&&a instanceof l.FormData;!Ia(ze,b)||d||c||e.set("Content-Type","application/x-www-form-urlencoded;charset=utf-8");e.forEach(function(a,b){this.a.setRequestHeader(b,a)},this);this.nd&&(this.a.responseType=this.nd);"withCredentials"in this.a&&this.a.withCredentials!==this.yd&&(this.a.withCredentials=
+this.yd);try{Be(this),0<this.ab&&(this.$b=Ce(this.a),K(this.N,Ae(this,"Will abort after "+this.ab+"ms if incomplete, xhr2 "+this.$b)),this.$b?(this.a.timeout=this.ab,this.a.ontimeout=q(this.ub,this)):this.Yb=se(this.ub,this.ab,this)),K(this.N,Ae(this,"Sending request")),this.Ib=!0,this.a.send(a),this.Ib=!1}catch(f){K(this.N,Ae(this,"Send error: "+f.message)),this.I(5,f)}};var Ce=function(a){return y&&z(9)&&ga(a.timeout)&&void 0!==a.ontimeout},Ga=function(a){return"content-type"==a.toLowerCase()};
+L.prototype.ub=function(){"undefined"!=typeof aa&&this.a&&(this.nb="Timed out after "+this.ab+"ms, aborting",K(this.N,Ae(this,this.nb)),this.dispatchEvent("timeout"),this.abort(8))};L.prototype.I=function(a,b){this.ja=!1;this.a&&(this.ya=!0,this.a.abort(),this.ya=!1);this.nb=b;De(this);Ee(this)};var De=function(a){a.jc||(a.jc=!0,a.dispatchEvent("complete"),a.dispatchEvent("error"))};
+L.prototype.abort=function(){this.a&&this.ja&&(K(this.N,Ae(this,"Aborting")),this.ja=!1,this.ya=!0,this.a.abort(),this.ya=!1,this.dispatchEvent("complete"),this.dispatchEvent("abort"),Ee(this))};L.prototype.Ka=function(){this.a&&(this.ja&&(this.ja=!1,this.ya=!0,this.a.abort(),this.ya=!1),Ee(this,!0));L.Ic.Ka.call(this)};L.prototype.kd=function(){this.isDisposed()||(this.qc||this.Ib||this.ya?Fe(this):this.re())};L.prototype.re=function(){Fe(this)};
+var Fe=function(a){if(a.ja&&"undefined"!=typeof aa)if(a.bc[1]&&4==Ge(a)&&2==He(a))K(a.N,Ae(a,"Local request error detected and ignored"));else if(a.Ib&&4==Ge(a))se(a.kd,0,a);else if(a.dispatchEvent("readystatechange"),4==Ge(a)){K(a.N,Ae(a,"Request complete"));a.ja=!1;try{var b=He(a),c;a:switch(b){case 200:case 201:case 202:case 204:case 206:case 304:case 1223:c=!0;break a;default:c=!1}var d;if(!(d=c)){var e;if(e=0===b){var f=String(a.Jb).match(ue)[1]||null;if(!f&&l.self&&l.self.location)var g=l.self.location.protocol,
+f=g.substr(0,g.length-1);e=!ye.test(f?f.toLowerCase():"")}d=e}if(d)a.dispatchEvent("complete"),a.dispatchEvent("success");else{var k;try{k=2<Ge(a)?a.a.statusText:""}catch(p){K(a.N,"Can not get status: "+p.message),k=""}a.nb=k+" ["+He(a)+"]";De(a)}}finally{Ee(a)}}};L.prototype.jd=function(a,b){v("progress"===a.type,"goog.net.EventType.PROGRESS is of the same type as raw XHR progress.");this.dispatchEvent(Ie(a,"progress"));this.dispatchEvent(Ie(a,b?"downloadprogress":"uploadprogress"))};
+var Ie=function(a,b){return{type:b,lengthComputable:a.lengthComputable,loaded:a.loaded,total:a.total}},Ee=function(a,b){if(a.a){Be(a);var c=a.a,d=a.bc[0]?ba:null;a.a=null;a.bc=null;b||a.dispatchEvent("ready");try{c.onreadystatechange=d}catch(e){(c=a.N)&&c.log(le,"Problem encountered resetting onreadystatechange: "+e.message,void 0)}}},Be=function(a){a.a&&a.$b&&(a.a.ontimeout=null);ga(a.Yb)&&(l.clearTimeout(a.Yb),a.Yb=null)},Ge=function(a){return a.a?a.a.readyState:0},He=function(a){try{return 2<Ge(a)?
+a.a.status:-1}catch(b){return-1}},Je=function(a){try{return a.a?a.a.responseText:""}catch(b){return K(a.N,"Can not get responseText: "+b.message),""}},Ae=function(a,b){return b+" ["+a.dd+" "+a.Jb+" "+He(a)+"]"};var Ke=function(a,b){this.ka=this.Ga=this.pa="";this.Sa=null;this.xa=this.ma="";this.K=this.ie=!1;var c;if(a instanceof Ke)this.K=void 0!==b?b:a.K,Le(this,a.pa),c=a.Ga,M(this),this.Ga=c,Me(this,a.ka),Ne(this,a.Sa),Oe(this,a.ma),Pe(this,a.Y.clone()),c=a.xa,M(this),this.xa=c;else if(a&&(c=String(a).match(ue))){this.K=!!b;Le(this,c[1]||"",!0);var d=c[2]||"";M(this);this.Ga=Qe(d);Me(this,c[3]||"",!0);Ne(this,c[4]);Oe(this,c[5]||"",!0);Pe(this,c[6]||"",!0);c=c[7]||"";M(this);this.xa=Qe(c)}else this.K=
+!!b,this.Y=new N(null,0,this.K)};Ke.prototype.toString=function(){var a=[],b=this.pa;b&&a.push(Re(b,Se,!0),":");var c=this.ka;if(c||"file"==b)a.push("//"),(b=this.Ga)&&a.push(Re(b,Se,!0),"@"),a.push(encodeURIComponent(String(c)).replace(/%25([0-9a-fA-F]{2})/g,"%$1")),c=this.Sa,null!=c&&a.push(":",String(c));if(c=this.ma)this.ka&&"/"!=c.charAt(0)&&a.push("/"),a.push(Re(c,"/"==c.charAt(0)?Te:Ue,!0));(c=this.Y.toString())&&a.push("?",c);(c=this.xa)&&a.push("#",Re(c,Ve));return a.join("")};
+Ke.prototype.resolve=function(a){var b=this.clone(),c=!!a.pa;c?Le(b,a.pa):c=!!a.Ga;if(c){var d=a.Ga;M(b);b.Ga=d}else c=!!a.ka;c?Me(b,a.ka):c=null!=a.Sa;d=a.ma;if(c)Ne(b,a.Sa);else if(c=!!a.ma){if("/"!=d.charAt(0))if(this.ka&&!this.ma)d="/"+d;else{var e=b.ma.lastIndexOf("/");-1!=e&&(d=b.ma.substr(0,e+1)+d)}e=d;if(".."==e||"."==e)d="";else if(u(e,"./")||u(e,"/.")){for(var d=0==e.lastIndexOf("/",0),e=e.split("/"),f=[],g=0;g<e.length;){var k=e[g++];"."==k?d&&g==e.length&&f.push(""):".."==k?((1<f.length||
+1==f.length&&""!=f[0])&&f.pop(),d&&g==e.length&&f.push("")):(f.push(k),d=!0)}d=f.join("/")}else d=e}c?Oe(b,d):c=""!==a.Y.toString();c?Pe(b,Qe(a.Y.toString())):c=!!a.xa;c&&(a=a.xa,M(b),b.xa=a);return b};Ke.prototype.clone=function(){return new Ke(this)};
+var Le=function(a,b,c){M(a);a.pa=c?Qe(b,!0):b;a.pa&&(a.pa=a.pa.replace(/:$/,""))},Me=function(a,b,c){M(a);a.ka=c?Qe(b,!0):b},Ne=function(a,b){M(a);if(b){b=Number(b);if(isNaN(b)||0>b)throw Error("Bad port number "+b);a.Sa=b}else a.Sa=null},Oe=function(a,b,c){M(a);a.ma=c?Qe(b,!0):b},Pe=function(a,b,c){M(a);b instanceof N?(a.Y=b,a.Y.Fc(a.K)):(c||(b=Re(b,We)),a.Y=new N(b,0,a.K))},O=function(a,b,c){M(a);a.Y.set(b,c)},M=function(a){if(a.ie)throw Error("Tried to modify a read-only Uri");};
+Ke.prototype.Fc=function(a){this.K=a;this.Y&&this.Y.Fc(a);return this};
+var Xe=function(a,b){var c=new Ke(null,void 0);Le(c,"https");a&&Me(c,a);b&&Oe(c,b);return c},Qe=function(a,b){return a?b?decodeURI(a.replace(/%25/g,"%2525")):decodeURIComponent(a):""},Re=function(a,b,c){return m(a)?(a=encodeURI(a).replace(b,Ye),c&&(a=a.replace(/%25([0-9a-fA-F]{2})/g,"%$1")),a):null},Ye=function(a){a=a.charCodeAt(0);return"%"+(a>>4&15).toString(16)+(a&15).toString(16)},Se=/[#\/\?@]/g,Ue=/[\#\?:]/g,Te=/[\#\?]/g,We=/[\#\?@]/g,Ve=/#/g,N=function(a,b,c){this.i=this.j=null;this.H=a||null;
+this.K=!!c},Ze=function(a){a.j||(a.j=new ae,a.i=0,a.H&&ve(a.H,function(b,c){a.add(decodeURIComponent(b.replace(/\+/g," ")),c)}))},af=function(a){var b=fe(a);if("undefined"==typeof b)throw Error("Keys are undefined");var c=new N(null,0,void 0);a=ee(a);for(var d=0;d<b.length;d++){var e=b[d],f=a[d];ea(f)?$e(c,e,f):c.add(e,f)}return c};h=N.prototype;h.Wc=function(){Ze(this);return this.i};
+h.add=function(a,b){Ze(this);this.H=null;a=this.J(a);var c=this.j.get(a);c||this.j.set(a,c=[]);c.push(b);this.i=za(this.i)+1;return this};h.remove=function(a){Ze(this);a=this.J(a);return this.j.gb(a)?(this.H=null,this.i=za(this.i)-this.j.get(a).length,this.j.remove(a)):!1};h.gb=function(a){Ze(this);a=this.J(a);return this.j.gb(a)};h.ca=function(){Ze(this);for(var a=this.j.R(),b=this.j.ca(),c=[],d=0;d<b.length;d++)for(var e=a[d],f=0;f<e.length;f++)c.push(b[d]);return c};
+h.R=function(a){Ze(this);var b=[];if(m(a))this.gb(a)&&(b=Ma(b,this.j.get(this.J(a))));else{a=this.j.R();for(var c=0;c<a.length;c++)b=Ma(b,a[c])}return b};h.set=function(a,b){Ze(this);this.H=null;a=this.J(a);this.gb(a)&&(this.i=za(this.i)-this.j.get(a).length);this.j.set(a,[b]);this.i=za(this.i)+1;return this};h.get=function(a,b){var c=a?this.R(a):[];return 0<c.length?String(c[0]):b};var $e=function(a,b,c){a.remove(b);0<c.length&&(a.H=null,a.j.set(a.J(b),Oa(c)),a.i=za(a.i)+c.length)};
+N.prototype.toString=function(){if(this.H)return this.H;if(!this.j)return"";for(var a=[],b=this.j.ca(),c=0;c<b.length;c++)for(var d=b[c],e=encodeURIComponent(String(d)),d=this.R(d),f=0;f<d.length;f++){var g=e;""!==d[f]&&(g+="="+encodeURIComponent(String(d[f])));a.push(g)}return this.H=a.join("&")};N.prototype.clone=function(){var a=new N;a.H=this.H;this.j&&(a.j=this.j.clone(),a.i=this.i);return a};N.prototype.J=function(a){a=String(a);this.K&&(a=a.toLowerCase());return a};
+N.prototype.Fc=function(a){a&&!this.K&&(Ze(this),this.H=null,this.j.forEach(function(a,c){var d=c.toLowerCase();c!=d&&(this.remove(c),$e(this,d,a))},this));this.K=a};var bf=function(){return l.window&&l.window.location.href||""},cf=function(a,b){var c=[],d;for(d in a)d in b?typeof a[d]!=typeof b[d]?c.push(d):ea(a[d])?Ua(a[d],b[d])||c.push(d):"object"==typeof a[d]&&null!=a[d]&&null!=b[d]?0<cf(a[d],b[d]).length&&c.push(d):a[d]!==b[d]&&c.push(d):c.push(d);for(d in b)d in a||c.push(d);return c},ff=function(){var a;a=df();a="Chrome"!=ef(a)?null:(a=a.match(/\sChrome\/(\d+)/i))&&2==a.length?parseInt(a[1],10):null;return a&&30>a?!1:!y||!pb||9<pb},gf=function(a){(a||l.window).close()},
 hf=function(a,b,c){var d=Math.floor(1E9*Math.random()).toString();b=b||500;c=c||600;var e=(window.screen.availHeight-c)/2,f=(window.screen.availWidth-b)/2;b={width:b,height:c,top:0<e?e:0,left:0<f?f:0,location:!0,resizable:!0,statusbar:!0,toolbar:!1};d&&(b.target=d);"Firefox"==ef(df())&&(a=a||"http://localhost",b.scrollbars=!0);var g;c=a||"about:blank";(d=b)||(d={});a=window;b=c instanceof A?c:Cb("undefined"!=typeof c.href?c.href:String(c));c=d.target||c.target;e=[];for(g in d)switch(g){case "width":case "height":case "top":case "left":e.push(g+
 "="+d[g]);break;case "target":case "noreferrer":break;default:e.push(g+"="+(d[g]?1:0))}g=e.join(",");(x("iPhone")&&!x("iPod")&&!x("iPad")||x("iPad")||x("iPod"))&&a.navigator&&a.navigator.standalone&&c&&"_self"!=c?(g=a.document.createElement("A"),b=b instanceof A?b:Cb(b),g.href=zb(b),g.setAttribute("target",c),d.noreferrer&&g.setAttribute("rel","noreferrer"),d=document.createEvent("MouseEvent"),d.initMouseEvent("click",!0,!0,a,1),g.dispatchEvent(d),g={}):d.noreferrer?(g=a.open("",c,g),d=zb(b),g&&(eb&&
 u(d,";")&&(d="'"+d.replace(/'/g,"%27")+"'"),g.opener=null,a=new wb,a.Wb="b/12014412, meta tag with sanitized URL",ua.test(d)&&(-1!=d.indexOf("&")&&(d=d.replace(oa,"&amp;")),-1!=d.indexOf("<")&&(d=d.replace(pa,"&lt;")),-1!=d.indexOf(">")&&(d=d.replace(qa,"&gt;")),-1!=d.indexOf('"')&&(d=d.replace(ra,"&quot;")),-1!=d.indexOf("'")&&(d=d.replace(sa,"&#39;")),-1!=d.indexOf("\x00")&&(d=d.replace(ta,"&#0;"))),d='<META HTTP-EQUIV="refresh" content="0; url='+d+'">',Aa(xb(a),"must provide justification"),v(!/^[\s\xa0]*$/.test(xb(a)),
-"must provide non-empty justification"),g.document.write(Fb((new Eb).ge(d))),g.document.close())):g=a.open(zb(b),c,g);if(g)try{g.focus()}catch(k){}return g},jf=function(a){return new H(function(b){var c=function(){te(2E3).then(function(){if(!a||a.closed)b();else return c()})};return c()})},kf=function(){var a=null;return(new H(function(b){"complete"==l.document.readyState?b():(a=function(){b()},dc(window,"load",a))})).N(function(b){fc(window,"load",a);throw b;})},lf=function(a){switch(a||l.navigator&&
-l.navigator.product||""){case "ReactNative":return"ReactNative";default:return"undefined"!==typeof l.process?"Node":"Browser"}},mf=function(){var a=lf();return"ReactNative"===a||"Node"===a},ef=function(a){var b=a.toLowerCase();if(u(b,"opera/")||u(b,"opr/")||u(b,"opios/"))return"Opera";if(u(b,"msie")||u(b,"trident/"))return"IE";if(u(b,"edge/"))return"Edge";if(u(b,"firefox/"))return"Firefox";if(u(b,"silk/"))return"Silk";if(u(b,"safari/")&&!u(b,"chrome/"))return"Safari";if(!u(b,"chrome/")&&!u(b,"crios/")||
-u(b,"edge/")){if((a=a.match(/([a-zA-Z\d\.]+)\/[a-zA-Z\d\.]*$/))&&2==a.length)return a[1]}else return"Chrome";return"Other"},nf=function(a){var b=lf(void 0);return("Browser"===b?ef(df()):b)+"/JsCore/"+a},df=function(){return l.navigator&&l.navigator.userAgent||""},of=function(a){a=a.split(".");for(var b=l,c=0;c<a.length&&"object"==typeof b&&null!=b;c++)b=b[a[c]];c!=a.length&&(b=void 0);return b},pf=function(){return!(!l.location||!l.location.protocol||"http:"!=l.location.protocol&&"https:"!=l.location.protocol||
-mf())},qf=function(){var a=df(),b=a.match(/(ipad)|(iphone)|(ipod)/i),c=a.match(/\sOS\s(\d+)_/i);if(b&&b.length&&c&&2==c.length){if(8>parseInt(c[1],10))return!1}else if("Firefox"==ef(a))return!1;return!0},rf=function(a){return"undefined"===typeof a?null:oc(a)},sf=function(a){if(null!==a){var b;try{b=lc(a)}catch(c){try{b=JSON.parse(a)}catch(d){throw c;}}return b}};var tf;try{var uf={};Object.defineProperty(uf,"abcd",{configurable:!0,enumerable:!0,value:1});Object.defineProperty(uf,"abcd",{configurable:!0,enumerable:!0,value:2});tf=2==uf.abcd}catch(a){tf=!1}
-var P=function(a,b,c){tf?Object.defineProperty(a,b,{configurable:!0,enumerable:!0,value:c}):a[b]=c},vf=function(a,b){if(b)for(var c in b)b.hasOwnProperty(c)&&P(a,c,b[c])},wf=function(a){var b={},c;for(c in a)a.hasOwnProperty(c)&&(b[c]=a[c]);return b},xf=function(a,b){if(!b||!b.length)return!0;if(!a)return!1;for(var c=0;c<b.length;c++){var d=a[b[c]];if(void 0===d||null===d||""===d)return!1}return!0};var yf={yd:{qb:985,pb:735,providerId:"facebook.com"},zd:{qb:500,pb:620,providerId:"github.com"},Ad:{qb:515,pb:680,providerId:"google.com"},Ed:{qb:485,pb:705,providerId:"twitter.com"}},zf=function(a){for(var b in yf)if(yf[b].providerId==a)return yf[b];return null};var Q=function(a,b){this.code="auth/"+a;this.message=b||Af[a]||""};r(Q,Error);Q.prototype.C=function(){return{name:this.code,code:this.code,message:this.message}};
-var Af={"argument-error":"","app-not-authorized":"This app, identified by the domain where it's hosted, is not authorized to use Firebase Authentication with the provided API key. Review your key configuration in the Google API console.","cors-unsupported":"This browser is not supported.","credential-already-in-use":"This credential is already associated with a different user account.","custom-token-mismatch":"The custom token corresponds to a different audience.","requires-recent-login":"This operation is sensitive and requires recent authentication. Log in again before retrying this request.",
+"must provide non-empty justification"),g.document.write(Fb((new Eb).he(d))),g.document.close())):g=a.open(zb(b),c,g);if(g)try{g.focus()}catch(k){}return g},jf=function(a){return new H(function(b){var c=function(){te(2E3).then(function(){if(!a||a.closed)b();else return c()})};return c()})},kf=function(){var a=null;return(new H(function(b){"complete"==l.document.readyState?b():(a=function(){b()},dc(window,"load",a))})).F(function(b){fc(window,"load",a);throw b;})},lf=function(a){switch(a||l.navigator&&
+l.navigator.product||""){case "ReactNative":return"ReactNative";default:return"undefined"!==typeof l.process?"Node":"Browser"}},mf=function(){var a=lf();return"ReactNative"===a||"Node"===a},ef=function(a){var b=a.toLowerCase();if(u(b,"opera/")||u(b,"opr/")||u(b,"opios/"))return"Opera";if(u(b,"iemobile"))return"IEMobile";if(u(b,"msie")||u(b,"trident/"))return"IE";if(u(b,"edge/"))return"Edge";if(u(b,"firefox/"))return"Firefox";if(u(b,"silk/"))return"Silk";if(u(b,"blackberry"))return"Blackberry";if(u(b,
+"webos"))return"Webos";if(!u(b,"safari/")||u(b,"chrome/")||u(b,"crios/")||u(b,"android"))if(!u(b,"chrome/")&&!u(b,"crios/")||u(b,"edge/")){if(u(b,"android"))return"Android";if((a=a.match(/([a-zA-Z\d\.]+)\/[a-zA-Z\d\.]*$/))&&2==a.length)return a[1]}else return"Chrome";else return"Safari";return"Other"},nf=function(a){var b=lf(void 0);return("Browser"===b?ef(df()):b)+"/JsCore/"+a},df=function(){return l.navigator&&l.navigator.userAgent||""},of=function(a){a=a.split(".");for(var b=l,c=0;c<a.length&&
+"object"==typeof b&&null!=b;c++)b=b[a[c]];c!=a.length&&(b=void 0);return b},qf=function(){var a;if(!(a=!l.location||!l.location.protocol||"http:"!=l.location.protocol&&"https:"!=l.location.protocol||mf())){var b;a:{try{var c=l.localStorage,d=pf();if(c){c.setItem(d,"1");c.removeItem(d);b=!0;break a}}catch(e){}b=!1}a=!b}return!a},rf=function(a){a=a||df();var b=(a||df()).toLowerCase();return b.match(/android/)||b.match(/webos/)||b.match(/iphone|ipad|ipod/)||b.match(/blackberry/)||b.match(/windows phone/)||
+b.match(/iemobile/)||"Firefox"==ef(a)?!1:!0},sf=function(a){return"undefined"===typeof a?null:oc(a)},tf=function(a){if(null!==a){var b;try{b=lc(a)}catch(c){try{b=JSON.parse(a)}catch(d){throw c;}}return b}},pf=function(a){return a?a:""+Math.floor(1E9*Math.random()).toString()};var uf;try{var vf={};Object.defineProperty(vf,"abcd",{configurable:!0,enumerable:!0,value:1});Object.defineProperty(vf,"abcd",{configurable:!0,enumerable:!0,value:2});uf=2==vf.abcd}catch(a){uf=!1}
+var P=function(a,b,c){uf?Object.defineProperty(a,b,{configurable:!0,enumerable:!0,value:c}):a[b]=c},wf=function(a,b){if(b)for(var c in b)b.hasOwnProperty(c)&&P(a,c,b[c])},xf=function(a){var b={},c;for(c in a)a.hasOwnProperty(c)&&(b[c]=a[c]);return b},yf=function(a,b){if(!b||!b.length)return!0;if(!a)return!1;for(var c=0;c<b.length;c++){var d=a[b[c]];if(void 0===d||null===d||""===d)return!1}return!0};var zf={zd:{rb:985,qb:735,providerId:"facebook.com"},Ad:{rb:500,qb:620,providerId:"github.com"},Bd:{rb:515,qb:680,providerId:"google.com"},Fd:{rb:485,qb:705,providerId:"twitter.com"}},Af=function(a){for(var b in zf)if(zf[b].providerId==a)return zf[b];return null};var Q=function(a,b){this.code="auth/"+a;this.message=b||Bf[a]||""};r(Q,Error);Q.prototype.G=function(){return{name:this.code,code:this.code,message:this.message}};
+var Bf={"argument-error":"","app-not-authorized":"This app, identified by the domain where it's hosted, is not authorized to use Firebase Authentication with the provided API key. Review your key configuration in the Google API console.","cors-unsupported":"This browser is not supported.","credential-already-in-use":"This credential is already associated with a different user account.","custom-token-mismatch":"The custom token corresponds to a different audience.","requires-recent-login":"This operation is sensitive and requires recent authentication. Log in again before retrying this request.",
 "email-already-in-use":"The email address is already in use by another account.","expired-action-code":"The action code has expired. ","cancelled-popup-request":"This operation has been cancelled due to another conflicting popup being opened.","internal-error":"An internal error has occurred.","invalid-user-token":"The user's credential is no longer valid. The user must sign in again.","invalid-auth-event":"An internal error has occurred.","invalid-custom-token":"The custom token format is incorrect. Please check the documentation.",
 "invalid-email":"The email address is badly formatted.","invalid-api-key":"Your API key is invalid, please check you have copied it correctly.","invalid-credential":"The supplied auth credential is malformed or has expired.","invalid-oauth-provider":"EmailAuthProvider is not supported for this operation. This operation only supports OAuth providers.","unauthorized-domain":"This domain is not authorized for OAuth operations for your Firebase project. Edit the list of authorized domains from the Firebase console.",
 "invalid-action-code":"The action code is invalid. This can happen if the code is malformed, expired, or has already been used.","wrong-password":"The password is invalid or the user does not have a password.","missing-iframe-start":"An internal error has occurred.","auth-domain-config-required":"Be sure to include authDomain when calling firebase.initializeApp(), by following the instructions in the Firebase console.","app-deleted":"This instance of FirebaseApp has been deleted.","account-exists-with-different-credential":"An account already exists with the same email address but different sign-in credentials. Sign in using a provider associated with this email address.",
-"network-request-failed":"A network error (such as timeout, interrupted connection or unreachable host) has occurred.","no-auth-event":"An internal error has occurred.","no-such-provider":"User was not linked to an account with the given provider.","operation-not-allowed":"The given sign-in provider is disabled for this Firebase project. Enable it in the Firebase console, under the sign-in method tab of the Auth section.","operation-not-supported-in-this-environment":'This operation is not supported in the environment this application is running on. "location.protocol" must be http or https.',
+"network-request-failed":"A network error (such as timeout, interrupted connection or unreachable host) has occurred.","no-auth-event":"An internal error has occurred.","no-such-provider":"User was not linked to an account with the given provider.","operation-not-allowed":"The given sign-in provider is disabled for this Firebase project. Enable it in the Firebase console, under the sign-in method tab of the Auth section.","operation-not-supported-in-this-environment":'This operation is not supported in the environment this application is running on. "location.protocol" must be http or https and web storage must be enabled.',
 "popup-blocked":"Unable to establish a connection with the popup. It may have been blocked by the browser.","popup-closed-by-user":"The popup has been closed by the user before finalizing the operation.","provider-already-linked":"User can only be linked to one identity for the given provider.",timeout:"The operation has timed out.","user-token-expired":"The user's credential is no longer valid. The user must sign in again.","too-many-requests":"We have blocked all requests from this device due to unusual activity. Try again later.",
-"user-not-found":"There is no user record corresponding to this identifier. The user may have been deleted.","user-disabled":"The user account has been disabled by an administrator.","user-mismatch":"The supplied credentials do not correspond to the previously signed in user.","user-signed-out":"","weak-password":"The password must be 6 characters long or more.","web-storage-unsupported":"This browser is not supported."};var Bf=function(a,b,c,d,e){this.sa=a;this.va=b||null;this.$a=c||null;this.Tb=d||null;this.G=e||null;if(this.$a||this.G){if(this.$a&&this.G)throw new Q("invalid-auth-event");if(this.$a&&!this.Tb)throw new Q("invalid-auth-event");}else throw new Q("invalid-auth-event");};Bf.prototype.getError=function(){return this.G};Bf.prototype.C=function(){return{type:this.sa,eventId:this.va,urlResponse:this.$a,sessionId:this.Tb,error:this.G&&this.G.C()}};var Cf=function(a){this.je=a.sub;la();this.Ab=a.email||null};var Df=function(a,b,c,d){var e={};ha(c)?e=c:b&&m(c)&&m(d)?e={oauthToken:c,oauthTokenSecret:d}:!b&&m(c)&&(e={accessToken:c});if(b||!e.idToken&&!e.accessToken)if(b&&e.oauthToken&&e.oauthTokenSecret)P(this,"accessToken",e.oauthToken),P(this,"secret",e.oauthTokenSecret);else{if(b)throw new Q("argument-error","credential failed: expected 2 arguments (the OAuth access token and secret).");throw new Q("argument-error","credential failed: expected 1 argument (the OAuth access token).");}else e.idToken&&P(this,
-"idToken",e.idToken),e.accessToken&&P(this,"accessToken",e.accessToken);P(this,"provider",a)};Df.prototype.Eb=function(a){return Ef(a,Ff(this))};Df.prototype.dd=function(a,b){var c=Ff(this);c.idToken=b;return R(a,Gf,c)};var Ff=function(a){var b={};a.idToken&&(b.id_token=a.idToken);a.accessToken&&(b.access_token=a.accessToken);a.secret&&(b.oauth_token_secret=a.secret);b.providerId=a.provider;return{postBody:af(b).toString(),requestUri:pf()?bf():"http://localhost"}};
-Df.prototype.C=function(){var a={provider:this.provider};this.idToken&&(a.oauthIdToken=this.idToken);this.accessToken&&(a.oauthAccessToken=this.accessToken);this.secret&&(a.oauthTokenSecret=this.secret);return a};
-var Hf=function(a,b){var c=!!b,d=function(){vf(this,{providerId:a,isOAuthProvider:!0});this.Bc=[];"google.com"==a&&this.addScope("profile")};c||(d.prototype.addScope=function(a){Ia(this.Bc,a)||this.Bc.push(a)});d.prototype.Fb=function(){return Oa(this.Bc)};d.credential=function(b,d){return new Df(a,c,b,d)};vf(d,{PROVIDER_ID:a});return d},If=Hf("facebook.com");If.prototype.addScope=If.prototype.addScope||void 0;var Jf=Hf("github.com");Jf.prototype.addScope=Jf.prototype.addScope||void 0;var Kf=Hf("google.com");
-Kf.prototype.addScope=Kf.prototype.addScope||void 0;Kf.credential=function(a,b){if(!a&&!b)throw new Q("argument-error","credential failed: must provide the ID token and/or the access token.");return new Df("google.com",!1,ha(a)?a:{idToken:a||null,accessToken:b||null})};var Lf=Hf("twitter.com",!0),Mf=function(a,b){this.Ab=a;this.uc=b;P(this,"provider","password")};Mf.prototype.Eb=function(a){return R(a,Nf,{email:this.Ab,password:this.uc})};
-Mf.prototype.dd=function(a,b){return R(a,Of,{idToken:b,email:this.Ab,password:this.uc})};Mf.prototype.C=function(){return{email:this.Ab,password:this.uc}};var Pf=function(){vf(this,{providerId:"password",isOAuthProvider:!1})};vf(Pf,{PROVIDER_ID:"password"});
-var Qf={Ge:Pf,yd:If,Ad:Kf,zd:Jf,Ed:Lf},Rf=function(a){var b=a&&a.providerId;if(!b)return null;var c=a&&a.oauthAccessToken,d=a&&a.oauthTokenSecret;a=a&&a.oauthIdToken;for(var e in Qf)if(Qf[e].PROVIDER_ID==b)try{return Qf[e].credential({accessToken:c,idToken:a,oauthToken:c,oauthTokenSecret:d})}catch(f){break}return null};var Sf=function(a,b,c){Q.call(this,"account-exists-with-different-credential",c);P(this,"email",a);P(this,"credential",b)};r(Sf,Q);Sf.prototype.C=function(){var a={code:this.code,message:this.message,email:this.email},b=this.credential&&this.credential.C();b&&(Za(a,b),a.providerId=b.provider,delete a.provider);return a};var Tf=function(a){this.Fe=a};r(Tf,sc);Tf.prototype.zb=function(){return new this.Fe};Tf.prototype.qc=function(){return{}};
-var S=function(a,b,c){var d;d="Node"==lf();d=l.XMLHttpRequest||d&&firebase.INTERNAL.node&&firebase.INTERNAL.node.XMLHttpRequest;if(!d)throw new Q("internal-error","The XMLHttpRequest compatibility library was not found.");this.u=a;a=b||{};this.ue=a.secureTokenEndpoint||"https://securetoken.googleapis.com/v1/token";this.ve=a.secureTokenTimeout||1E4;this.pd=Xa(a.secureTokenHeaders||Uf);this.Rd=a.firebaseEndpoint||"https://www.googleapis.com/identitytoolkit/v3/relyingparty/";this.Sd=a.firebaseTimeout||
-1E4;this.Tc=Xa(a.firebaseHeaders||Vf);c&&(this.Tc["X-Client-Version"]=c,this.pd["X-Client-Version"]=c);this.Jd=new xc;this.Ee=new Tf(d)},Wf,Uf={"Content-Type":"application/x-www-form-urlencoded"},Vf={"Content-Type":"application/json"},Yf=function(a,b,c,d,e,f,g){ff()?a=q(a.xe,a):(Wf||(Wf=new H(function(a,b){Xf(a,b)})),a=q(a.we,a));a(b,c,d,e,f,g)};
-S.prototype.xe=function(a,b,c,d,e,f){var g="Node"==lf(),k=mf()?g?new L(this.Ee):new L:new L(this.Jd),p;f&&(k.Ya=Math.max(0,f),p=setTimeout(function(){k.dispatchEvent("timeout")},f));k.listen("complete",function(){p&&clearTimeout(p);var a=null;try{var c;c=this.a?lc(this.a.responseText):void 0;a=c||null}catch(d){try{a=JSON.parse(Je(this))||null}catch(e){a=null}}b&&b(a)});ec(k,"ready",function(){p&&clearTimeout(p);this.ua||(this.ua=!0,this.Ka())});ec(k,"timeout",function(){p&&clearTimeout(p);this.ua||
-(this.ua=!0,this.Ka());b&&b(null)});k.send(a,c,d,e)};var Zf="__fcb"+Math.floor(1E6*Math.random()).toString(),Xf=function(a,b){((window.gapi||{}).client||{}).request?a():(l[Zf]=function(){((window.gapi||{}).client||{}).request?a():b(Error("CORS_UNSUPPORTED"))},Nd(Vd("https://apis.google.com/js/client.js?onload="+Zf),function(){b(Error("CORS_UNSUPPORTED"))}))};
-S.prototype.we=function(a,b,c,d,e){var f=this;Wf.then(function(){window.gapi.client.setApiKey(f.u);var g=window.gapi.auth.getToken();window.gapi.auth.setToken(null);window.gapi.client.request({path:a,method:c,body:d,headers:e,authType:"none",callback:function(a){window.gapi.auth.setToken(g);b&&b(a)}})}).N(function(a){b&&b({error:{message:a&&a.message||"CORS_UNSUPPORTED"}})})};
-var ag=function(a,b){return new H(function(c,d){"refresh_token"==b.grant_type&&b.refresh_token||"authorization_code"==b.grant_type&&b.code?Yf(a,a.ue+"?key="+encodeURIComponent(a.u),function(a){a?a.error?d($f(a)):a.access_token&&a.refresh_token?c(a):d(new Q("internal-error")):d(new Q("network-request-failed"))},"POST",af(b).toString(),a.pd,a.ve):d(new Q("internal-error"))})},bg=function(a){var b={},c;for(c in a)null!==a[c]&&void 0!==a[c]&&(b[c]=a[c]);return oc(b)},cg=function(a,b,c,d,e){var f=a.Rd+
-b+"?key="+encodeURIComponent(a.u);e&&(f+="&cb="+la().toString());return new H(function(b,e){Yf(a,f,function(a){a?a.error?e($f(a)):b(a):e(new Q("network-request-failed"))},c,bg(d),a.Tc,a.Sd)})},dg=function(a){if(!kc.test(a.email))throw new Q("invalid-email");},eg=function(a){"email"in a&&dg(a)},gg=function(a,b){return R(a,fg,{identifier:b,continueUri:pf()?bf():"http://localhost"}).then(function(a){return a.allProviders||[]})},ig=function(a){return R(a,hg,{}).then(function(a){return a.authorizedDomains||
-[]})},jg=function(a){if(!a.idToken)throw new Q("internal-error");};S.prototype.signInAnonymously=function(){return R(this,kg,{})};S.prototype.updateEmail=function(a,b){return R(this,lg,{idToken:a,email:b})};S.prototype.updatePassword=function(a,b){return R(this,Of,{idToken:a,password:b})};var mg={displayName:"DISPLAY_NAME",photoUrl:"PHOTO_URL"};
-S.prototype.updateProfile=function(a,b){var c={idToken:a},d=[];Qa(mg,function(a,f){var g=b[f];null===g?d.push(a):f in b&&(c[f]=g)});d.length&&(c.deleteAttribute=d);return R(this,lg,c)};S.prototype.sendPasswordResetEmail=function(a){return R(this,ng,{requestType:"PASSWORD_RESET",email:a})};S.prototype.sendEmailVerification=function(a){return R(this,og,{requestType:"VERIFY_EMAIL",idToken:a})};
-var qg=function(a,b,c){return R(a,pg,{idToken:b,deleteProvider:c})},rg=function(a){if(!a.requestUri||!a.sessionId&&!a.postBody)throw new Q("internal-error");},sg=function(a){if(a.needConfirmation)throw(a&&a.email?new Sf(a.email,Rf(a),a.message):null)||new Q("account-exists-with-different-credential");if(!a.idToken)throw new Q("internal-error");},Ef=function(a,b){return R(a,tg,b)},ug=function(a){if(!a.oobCode)throw new Q("invalid-action-code");};
-S.prototype.confirmPasswordReset=function(a,b){return R(this,vg,{oobCode:a,newPassword:b})};S.prototype.checkActionCode=function(a){return R(this,wg,{oobCode:a})};S.prototype.applyActionCode=function(a){return R(this,xg,{oobCode:a})};
-var xg={endpoint:"setAccountInfo",w:ug,Xa:"email"},wg={endpoint:"resetPassword",w:ug,oa:function(a){if(!kc.test(a.email))throw new Q("internal-error");}},yg={endpoint:"signupNewUser",w:function(a){dg(a);if(!a.password)throw new Q("weak-password");},oa:jg,pa:!0},fg={endpoint:"createAuthUri"},zg={endpoint:"deleteAccount",Wa:["idToken"]},pg={endpoint:"setAccountInfo",Wa:["idToken","deleteProvider"],w:function(a){if(!ea(a.deleteProvider))throw new Q("internal-error");}},Ag={endpoint:"getAccountInfo"},
-og={endpoint:"getOobConfirmationCode",Wa:["idToken","requestType"],w:function(a){if("VERIFY_EMAIL"!=a.requestType)throw new Q("internal-error");},Xa:"email"},ng={endpoint:"getOobConfirmationCode",Wa:["requestType"],w:function(a){if("PASSWORD_RESET"!=a.requestType)throw new Q("internal-error");dg(a)},Xa:"email"},hg={Id:!0,endpoint:"getProjectConfig",$d:"GET"},vg={endpoint:"resetPassword",w:ug,Xa:"email"},lg={endpoint:"setAccountInfo",Wa:["idToken"],w:eg,pa:!0},Of={endpoint:"setAccountInfo",Wa:["idToken"],
-w:function(a){eg(a);if(!a.password)throw new Q("weak-password");},oa:jg,pa:!0},kg={endpoint:"signupNewUser",oa:jg,pa:!0},tg={endpoint:"verifyAssertion",w:rg,oa:sg,pa:!0},Gf={endpoint:"verifyAssertion",w:function(a){rg(a);if(!a.idToken)throw new Q("internal-error");},oa:sg,pa:!0},Bg={endpoint:"verifyCustomToken",w:function(a){if(!a.token)throw new Q("invalid-custom-token");},oa:jg,pa:!0},Nf={endpoint:"verifyPassword",w:function(a){dg(a);if(!a.password)throw new Q("wrong-password");},oa:jg,pa:!0},R=
-function(a,b,c){if(!xf(c,b.Wa))return J(new Q("internal-error"));var d=b.$d||"POST",e;return I(c).then(b.w).then(function(){b.pa&&(c.returnSecureToken=!0);return cg(a,b.endpoint,d,c,b.Id||!1)}).then(function(a){return e=a}).then(b.oa).then(function(){if(!b.Xa)return e;if(!(b.Xa in e))throw new Q("internal-error");return e[b.Xa]})},$f=function(a){var b,c;c=(a.error&&a.error.errors&&a.error.errors[0]||{}).reason||"";b={keyInvalid:"invalid-api-key",ipRefererBlocked:"app-not-authorized"};if(c=b[c]?new Q(b[c]):
-null)return c;a=a.error&&a.error.message||"";c={INVALID_CUSTOM_TOKEN:"invalid-custom-token",CREDENTIAL_MISMATCH:"custom-token-mismatch",MISSING_CUSTOM_TOKEN:"internal-error",INVALID_IDENTIFIER:"invalid-email",MISSING_CONTINUE_URI:"internal-error",INVALID_EMAIL:"invalid-email",INVALID_PASSWORD:"wrong-password",USER_DISABLED:"user-disabled",MISSING_PASSWORD:"internal-error",EMAIL_EXISTS:"email-already-in-use",PASSWORD_LOGIN_DISABLED:"operation-not-allowed",INVALID_IDP_RESPONSE:"invalid-credential",
+"user-not-found":"There is no user record corresponding to this identifier. The user may have been deleted.","user-disabled":"The user account has been disabled by an administrator.","user-mismatch":"The supplied credentials do not correspond to the previously signed in user.","user-signed-out":"","weak-password":"The password must be 6 characters long or more.","web-storage-unsupported":"This browser is not supported."};var Cf=function(a,b,c,d,e){this.ra=a;this.wa=b||null;this.cb=c||null;this.Tb=d||null;this.I=e||null;if(this.cb||this.I){if(this.cb&&this.I)throw new Q("invalid-auth-event");if(this.cb&&!this.Tb)throw new Q("invalid-auth-event");}else throw new Q("invalid-auth-event");};Cf.prototype.getError=function(){return this.I};Cf.prototype.G=function(){return{type:this.ra,eventId:this.wa,urlResponse:this.cb,sessionId:this.Tb,error:this.I&&this.I.G()}};var Df=function(a){this.ke=a.sub;la();this.zb=a.email||null};var Ef=function(a,b,c,d){var e={};ha(c)?e=c:b&&m(c)&&m(d)?e={oauthToken:c,oauthTokenSecret:d}:!b&&m(c)&&(e={accessToken:c});if(b||!e.idToken&&!e.accessToken)if(b&&e.oauthToken&&e.oauthTokenSecret)P(this,"accessToken",e.oauthToken),P(this,"secret",e.oauthTokenSecret);else{if(b)throw new Q("argument-error","credential failed: expected 2 arguments (the OAuth access token and secret).");throw new Q("argument-error","credential failed: expected 1 argument (the OAuth access token).");}else e.idToken&&P(this,
+"idToken",e.idToken),e.accessToken&&P(this,"accessToken",e.accessToken);P(this,"provider",a)};Ef.prototype.Db=function(a){return Ff(a,Gf(this))};Ef.prototype.ed=function(a,b){var c=Gf(this);c.idToken=b;return R(a,Hf,c)};var Gf=function(a){var b={};a.idToken&&(b.id_token=a.idToken);a.accessToken&&(b.access_token=a.accessToken);a.secret&&(b.oauth_token_secret=a.secret);b.providerId=a.provider;return{postBody:af(b).toString(),requestUri:qf()?bf():"http://localhost"}};
+Ef.prototype.G=function(){var a={provider:this.provider};this.idToken&&(a.oauthIdToken=this.idToken);this.accessToken&&(a.oauthAccessToken=this.accessToken);this.secret&&(a.oauthTokenSecret=this.secret);return a};
+var If=function(a,b){var c=!!b,d=function(){wf(this,{providerId:a,isOAuthProvider:!0});this.Ec=[];"google.com"==a&&this.addScope("profile")};c||(d.prototype.addScope=function(a){Ia(this.Ec,a)||this.Ec.push(a)});d.prototype.Eb=function(){return Oa(this.Ec)};d.credential=function(b,d){return new Ef(a,c,b,d)};wf(d,{PROVIDER_ID:a});return d},Jf=If("facebook.com");Jf.prototype.addScope=Jf.prototype.addScope||void 0;var Kf=If("github.com");Kf.prototype.addScope=Kf.prototype.addScope||void 0;var Lf=If("google.com");
+Lf.prototype.addScope=Lf.prototype.addScope||void 0;Lf.credential=function(a,b){if(!a&&!b)throw new Q("argument-error","credential failed: must provide the ID token and/or the access token.");return new Ef("google.com",!1,ha(a)?a:{idToken:a||null,accessToken:b||null})};var Mf=If("twitter.com",!0),Nf=function(a,b){this.zb=a;this.wc=b;P(this,"provider","password")};Nf.prototype.Db=function(a){return R(a,Of,{email:this.zb,password:this.wc})};
+Nf.prototype.ed=function(a,b){return R(a,Pf,{idToken:b,email:this.zb,password:this.wc})};Nf.prototype.G=function(){return{email:this.zb,password:this.wc}};var Qf=function(){wf(this,{providerId:"password",isOAuthProvider:!1})};wf(Qf,{PROVIDER_ID:"password"});
+var Rf={Je:Qf,zd:Jf,Bd:Lf,Ad:Kf,Fd:Mf},Sf=function(a){var b=a&&a.providerId;if(!b)return null;var c=a&&a.oauthAccessToken,d=a&&a.oauthTokenSecret;a=a&&a.oauthIdToken;for(var e in Rf)if(Rf[e].PROVIDER_ID==b)try{return Rf[e].credential({accessToken:c,idToken:a,oauthToken:c,oauthTokenSecret:d})}catch(f){break}return null};var Tf=function(a,b,c){Q.call(this,"account-exists-with-different-credential",c);P(this,"email",a);P(this,"credential",b)};r(Tf,Q);Tf.prototype.G=function(){var a={code:this.code,message:this.message,email:this.email},b=this.credential&&this.credential.G();b&&(Za(a,b),a.providerId=b.provider,delete a.provider);return a};var Uf=function(a){this.Ie=a};r(Uf,sc);Uf.prototype.yb=function(){return new this.Ie};Uf.prototype.sc=function(){return{}};
+var S=function(a,b,c){var d;d="Node"==lf();d=l.XMLHttpRequest||d&&firebase.INTERNAL.node&&firebase.INTERNAL.node.XMLHttpRequest;if(!d)throw new Q("internal-error","The XMLHttpRequest compatibility library was not found.");this.u=a;a=b||{};this.xe=a.secureTokenEndpoint||"https://securetoken.googleapis.com/v1/token";this.ye=a.secureTokenTimeout||1E4;this.qd=Xa(a.secureTokenHeaders||Vf);this.Sd=a.firebaseEndpoint||"https://www.googleapis.com/identitytoolkit/v3/relyingparty/";this.Td=a.firebaseTimeout||
+1E4;this.Vc=Xa(a.firebaseHeaders||Wf);c&&(this.Vc["X-Client-Version"]=c,this.qd["X-Client-Version"]=c);this.Kd=new xc;this.He=new Uf(d)},Xf,Vf={"Content-Type":"application/x-www-form-urlencoded"},Wf={"Content-Type":"application/json"},Zf=function(a,b,c,d,e,f,g){ff()?a=q(a.Ae,a):(Xf||(Xf=new H(function(a,b){Yf(a,b)})),a=q(a.ze,a));a(b,c,d,e,f,g)};
+S.prototype.Ae=function(a,b,c,d,e,f){var g="Node"==lf(),k=mf()?g?new L(this.He):new L:new L(this.Kd),p;f&&(k.ab=Math.max(0,f),p=setTimeout(function(){k.dispatchEvent("timeout")},f));k.listen("complete",function(){p&&clearTimeout(p);var a=null;try{var c;c=this.a?lc(this.a.responseText):void 0;a=c||null}catch(d){try{a=JSON.parse(Je(this))||null}catch(e){a=null}}b&&b(a)});ec(k,"ready",function(){p&&clearTimeout(p);this.va||(this.va=!0,this.Ka())});ec(k,"timeout",function(){p&&clearTimeout(p);this.va||
+(this.va=!0,this.Ka());b&&b(null)});k.send(a,c,d,e)};var $f="__fcb"+Math.floor(1E6*Math.random()).toString(),Yf=function(a,b){((window.gapi||{}).client||{}).request?a():(l[$f]=function(){((window.gapi||{}).client||{}).request?a():b(Error("CORS_UNSUPPORTED"))},Nd(Vd("https://apis.google.com/js/client.js?onload="+$f),function(){b(Error("CORS_UNSUPPORTED"))}))};
+S.prototype.ze=function(a,b,c,d,e){var f=this;Xf.then(function(){window.gapi.client.setApiKey(f.u);var g=window.gapi.auth.getToken();window.gapi.auth.setToken(null);window.gapi.client.request({path:a,method:c,body:d,headers:e,authType:"none",callback:function(a){window.gapi.auth.setToken(g);b&&b(a)}})}).F(function(a){b&&b({error:{message:a&&a.message||"CORS_UNSUPPORTED"}})})};
+var bg=function(a,b){return new H(function(c,d){"refresh_token"==b.grant_type&&b.refresh_token||"authorization_code"==b.grant_type&&b.code?Zf(a,a.xe+"?key="+encodeURIComponent(a.u),function(a){a?a.error?d(ag(a)):a.access_token&&a.refresh_token?c(a):d(new Q("internal-error")):d(new Q("network-request-failed"))},"POST",af(b).toString(),a.qd,a.ye):d(new Q("internal-error"))})},cg=function(a){var b={},c;for(c in a)null!==a[c]&&void 0!==a[c]&&(b[c]=a[c]);return oc(b)},dg=function(a,b,c,d,e){var f=a.Sd+
+b+"?key="+encodeURIComponent(a.u);e&&(f+="&cb="+la().toString());return new H(function(b,e){Zf(a,f,function(a){a?a.error?e(ag(a)):b(a):e(new Q("network-request-failed"))},c,cg(d),a.Vc,a.Td)})},eg=function(a){if(!kc.test(a.email))throw new Q("invalid-email");},fg=function(a){"email"in a&&eg(a)},hg=function(a,b){var c=qf()?bf():"http://localhost";return R(a,gg,{identifier:b,continueUri:c}).then(function(a){return a.allProviders||[]})},jg=function(a){return R(a,ig,{}).then(function(a){return a.authorizedDomains||
+[]})},kg=function(a){if(!a.idToken)throw new Q("internal-error");};S.prototype.signInAnonymously=function(){return R(this,lg,{})};S.prototype.updateEmail=function(a,b){return R(this,mg,{idToken:a,email:b})};S.prototype.updatePassword=function(a,b){return R(this,Pf,{idToken:a,password:b})};var ng={displayName:"DISPLAY_NAME",photoUrl:"PHOTO_URL"};
+S.prototype.updateProfile=function(a,b){var c={idToken:a},d=[];Qa(ng,function(a,f){var g=b[f];null===g?d.push(a):f in b&&(c[f]=g)});d.length&&(c.deleteAttribute=d);return R(this,mg,c)};S.prototype.sendPasswordResetEmail=function(a){return R(this,og,{requestType:"PASSWORD_RESET",email:a})};S.prototype.sendEmailVerification=function(a){return R(this,pg,{requestType:"VERIFY_EMAIL",idToken:a})};
+var rg=function(a,b,c){return R(a,qg,{idToken:b,deleteProvider:c})},sg=function(a){if(!a.requestUri||!a.sessionId&&!a.postBody)throw new Q("internal-error");},tg=function(a){if(a.needConfirmation)throw(a&&a.email?new Tf(a.email,Sf(a),a.message):null)||new Q("account-exists-with-different-credential");if(!a.idToken)throw new Q("internal-error");},Ff=function(a,b){return R(a,ug,b)},vg=function(a){if(!a.oobCode)throw new Q("invalid-action-code");};
+S.prototype.confirmPasswordReset=function(a,b){return R(this,wg,{oobCode:a,newPassword:b})};S.prototype.checkActionCode=function(a){return R(this,xg,{oobCode:a})};S.prototype.applyActionCode=function(a){return R(this,yg,{oobCode:a})};
+var yg={endpoint:"setAccountInfo",C:vg,Za:"email"},xg={endpoint:"resetPassword",C:vg,na:function(a){if(!kc.test(a.email))throw new Q("internal-error");}},zg={endpoint:"signupNewUser",C:function(a){eg(a);if(!a.password)throw new Q("weak-password");},na:kg,oa:!0},gg={endpoint:"createAuthUri"},Ag={endpoint:"deleteAccount",Ya:["idToken"]},qg={endpoint:"setAccountInfo",Ya:["idToken","deleteProvider"],C:function(a){if(!ea(a.deleteProvider))throw new Q("internal-error");}},Bg={endpoint:"getAccountInfo"},
+pg={endpoint:"getOobConfirmationCode",Ya:["idToken","requestType"],C:function(a){if("VERIFY_EMAIL"!=a.requestType)throw new Q("internal-error");},Za:"email"},og={endpoint:"getOobConfirmationCode",Ya:["requestType"],C:function(a){if("PASSWORD_RESET"!=a.requestType)throw new Q("internal-error");eg(a)},Za:"email"},ig={Jd:!0,endpoint:"getProjectConfig",ae:"GET"},wg={endpoint:"resetPassword",C:vg,Za:"email"},mg={endpoint:"setAccountInfo",Ya:["idToken"],C:fg,oa:!0},Pf={endpoint:"setAccountInfo",Ya:["idToken"],
+C:function(a){fg(a);if(!a.password)throw new Q("weak-password");},na:kg,oa:!0},lg={endpoint:"signupNewUser",na:kg,oa:!0},ug={endpoint:"verifyAssertion",C:sg,na:tg,oa:!0},Hf={endpoint:"verifyAssertion",C:function(a){sg(a);if(!a.idToken)throw new Q("internal-error");},na:tg,oa:!0},Cg={endpoint:"verifyCustomToken",C:function(a){if(!a.token)throw new Q("invalid-custom-token");},na:kg,oa:!0},Of={endpoint:"verifyPassword",C:function(a){eg(a);if(!a.password)throw new Q("wrong-password");},na:kg,oa:!0},R=
+function(a,b,c){if(!yf(c,b.Ya))return J(new Q("internal-error"));var d=b.ae||"POST",e;return I(c).then(b.C).then(function(){b.oa&&(c.returnSecureToken=!0);return dg(a,b.endpoint,d,c,b.Jd||!1)}).then(function(a){return e=a}).then(b.na).then(function(){if(!b.Za)return e;if(!(b.Za in e))throw new Q("internal-error");return e[b.Za]})},ag=function(a){var b,c;c=(a.error&&a.error.errors&&a.error.errors[0]||{}).reason||"";var d={keyInvalid:"invalid-api-key",ipRefererBlocked:"app-not-authorized"};if(c=d[c]?
+new Q(d[c]):null)return c;c=a.error&&a.error.message||"";d={INVALID_CUSTOM_TOKEN:"invalid-custom-token",CREDENTIAL_MISMATCH:"custom-token-mismatch",MISSING_CUSTOM_TOKEN:"internal-error",INVALID_IDENTIFIER:"invalid-email",MISSING_CONTINUE_URI:"internal-error",INVALID_EMAIL:"invalid-email",INVALID_PASSWORD:"wrong-password",USER_DISABLED:"user-disabled",MISSING_PASSWORD:"internal-error",EMAIL_EXISTS:"email-already-in-use",PASSWORD_LOGIN_DISABLED:"operation-not-allowed",INVALID_IDP_RESPONSE:"invalid-credential",
 FEDERATED_USER_ID_ALREADY_LINKED:"credential-already-in-use",EMAIL_NOT_FOUND:"user-not-found",EXPIRED_OOB_CODE:"expired-action-code",INVALID_OOB_CODE:"invalid-action-code",MISSING_OOB_CODE:"internal-error",CREDENTIAL_TOO_OLD_LOGIN_AGAIN:"requires-recent-login",INVALID_ID_TOKEN:"invalid-user-token",TOKEN_EXPIRED:"user-token-expired",USER_NOT_FOUND:"user-token-expired",CORS_UNSUPPORTED:"cors-unsupported",TOO_MANY_ATTEMPTS_TRY_LATER:"too-many-requests",WEAK_PASSWORD:"weak-password",OPERATION_NOT_ALLOWED:"operation-not-allowed"};
-b=(b=a.match(/:\s*(.*)$/))&&1<b.length?b[1]:void 0;for(var d in c)if(0===a.indexOf(d))return new Q(c[d],b);return new Q("internal-error",b)};var Cg=function(a){this.M=a};Cg.prototype.value=function(){return this.M};Cg.prototype.sd=function(a){this.M.style=a;return this};var Dg=function(a){this.M=a||{}};Dg.prototype.value=function(){return this.M};Dg.prototype.sd=function(a){this.M.style=a;return this};var Fg=function(a){this.De=a;this.nc=null;this.oe=Eg(this)},Gg,Hg=function(a){var b=new Dg;b.M.where=document.body;b.M.url=a.De;b.M.messageHandlersFilter=of("gapi.iframes.CROSS_ORIGIN_IFRAMES_FILTER");b.M.attributes=b.M.attributes||{};(new Cg(b.M.attributes)).sd({position:"absolute",top:"-100px",width:"1px",height:"1px"});b.M.dontclear=!0;return b},Eg=function(a){return Ig().then(function(){return new H(function(b){of("gapi.iframes.getContext")().open(Hg(a).value(),function(c){a.nc=c;a.nc.restyle({setHideOnLeave:!1});
-b()})})})},Jg=function(a,b){a.oe.then(function(){a.nc.register("authEvent",b,of("gapi.iframes.CROSS_ORIGIN_IFRAMES_FILTER"))})},Kg="__iframefcb"+Math.floor(1E6*Math.random()).toString(),Ig=function(){return Gg?Gg:Gg=new H(function(a,b){var c=function(){of("gapi.load")("gapi.iframes",function(){a()})};of("gapi.iframes.Iframe")?a():of("gapi.load")?c():(l[Kg]=function(){of("gapi.load")?c():b()},Nd(Vd("https://apis.google.com/js/api.js?onload="+Kg),function(){b()}))})};var Mg=function(a,b,c,d){this.S=a;this.u=b;this.ka=c;d=this.ta=d||null;a=Xe(a,"/__/auth/iframe");O(a,"apiKey",b);O(a,"appName",c);d&&O(a,"v",d);this.be=a.toString();this.ce=new Fg(this.be);this.cc=[];Lg(this)},Ng=function(a,b,c,d,e,f,g,k,p){a=Xe(a,"/__/auth/handler");O(a,"apiKey",b);O(a,"appName",c);O(a,"authType",d);O(a,"providerId",e);f&&f.length&&O(a,"scopes",f.join(","));g&&O(a,"redirectUrl",g);k&&O(a,"eventId",k);p&&O(a,"v",p);return a.toString()},Lg=function(a){Jg(a.ce,function(b){var c={};
-if(b&&b.authEvent){var d=!1;b=b.authEvent||{};if(b.type){if(c=b.error)var e=(c=b.error)&&(c.name||c.code),c=e?new Q(e.substring(5),c.message):null;b=new Bf(b.type,b.eventId,b.urlResponse,b.sessionId,c)}else b=null;for(c=0;c<a.cc.length;c++)d=a.cc[c](b)||d;c={};c.status=d?"ACK":"ERROR";return I(c)}c.status="ERROR";return I(c)})};var Og=function(a){this.B=a||firebase.INTERNAL.reactNative&&firebase.INTERNAL.reactNative.AsyncStorage;if(!this.B)throw new Q("internal-error","The React Native compatibility library was not found.");};h=Og.prototype;h.get=function(a){return I(this.B.getItem(a)).then(function(a){return a&&sf(a)})};h.set=function(a,b){return I(this.B.setItem(a,rf(b)))};h.remove=function(a){return I(this.B.removeItem(a))};h.Ia=function(){};h.Ua=function(){};var Qg=function(){if(!Pg()){if("Node"==lf())throw new Q("internal-error","The LocalStorage compatibility library was not found.");throw new Q("web-storage-unsupported");}this.B=l.localStorage||firebase.INTERNAL.node.localStorage},Pg=function(){var a="Node"==lf(),a=l.localStorage||a&&firebase.INTERNAL.node&&firebase.INTERNAL.node.localStorage;if(!a)return!1;try{return a.setItem("__sak","1"),a.removeItem("__sak"),!0}catch(b){return!1}};h=Qg.prototype;
-h.get=function(a){var b=this;return I().then(function(){var c=b.B.getItem(a);return sf(c)})};h.set=function(a,b){var c=this;return I().then(function(){var d=rf(b);null===d?c.remove(a):c.B.setItem(a,d)})};h.remove=function(a){var b=this;return I().then(function(){b.B.removeItem(a)})};h.Ia=function(a){l.window&&Xb(l.window,"storage",a)};h.Ua=function(a){l.window&&fc(l.window,"storage",a)};var Rg=function(){this.B={}};h=Rg.prototype;h.get=function(){return I(null)};h.set=function(){return I()};h.remove=function(){return I()};h.Ia=function(){};h.Ua=function(){};var Tg=function(){if(!Sg()){if("Node"==lf())throw new Q("internal-error","The SessionStorage compatibility library was not found.");throw new Q("web-storage-unsupported");}this.B=l.sessionStorage||firebase.INTERNAL.node.sessionStorage},Sg=function(){var a="Node"==lf(),a=l.sessionStorage||a&&firebase.INTERNAL.node&&firebase.INTERNAL.node.sessionStorage;if(!a)return!1;try{return a.setItem("__sak","1"),a.removeItem("__sak"),!0}catch(b){return!1}};h=Tg.prototype;
-h.get=function(a){var b=this;return I().then(function(){var c=b.B.getItem(a);return sf(c)})};h.set=function(a,b){var c=this;return I().then(function(){var d=rf(b);null===d?c.remove(a):c.B.setItem(a,d)})};h.remove=function(a){var b=this;return I().then(function(){b.B.removeItem(a)})};h.Ia=function(){};h.Ua=function(){};var Xg=function(){this.Qc={Browser:Ug,Node:Vg,ReactNative:Wg}[lf()]},Yg,Ug={v:Qg,Gc:Tg},Vg={v:Qg,Gc:Tg},Wg={v:Og,Gc:Rg};var Zg="First Second Third Fourth Fifth Sixth Seventh Eighth Ninth".split(" "),T=function(a,b){return{name:a||"",Y:"a valid string",optional:!!b,Z:m}},$g=function(a){return{name:a||"",Y:"a valid object",optional:!1,Z:ha}},ah=function(a,b){return{name:a||"",Y:"a function",optional:!!b,Z:n}},bh=function(){return{name:"",Y:"null",optional:!1,Z:da}},ch=function(){return{name:"credential",Y:"a valid credential",optional:!1,Z:function(a){return!(!a||!a.Eb)}}},dh=function(){return{name:"authProvider",Y:"a valid Auth provider",
-optional:!1,Z:function(a){return!!(a&&a.providerId&&a.hasOwnProperty&&a.hasOwnProperty("isOAuthProvider"))}}},eh=function(a,b,c,d){return{name:c||"",Y:a.Y+" or "+b.Y,optional:!!d,Z:function(c){return a.Z(c)||b.Z(c)}}};var gh=function(a,b){for(var c in b){var d=b[c].name;a[d]=fh(d,a[c],b[c].b)}},U=function(a,b,c,d){a[b]=fh(b,c,d)},fh=function(a,b,c){if(!c)return b;var d=hh(a);a=function(){var a=Array.prototype.slice.call(arguments),e;a:{e=Array.prototype.slice.call(a);var k;k=0;for(var p=!1,Y=0;Y<c.length;Y++)if(c[Y].optional)p=!0;else{if(p)throw new Q("internal-error","Argument validator encountered a required argument after an optional argument.");k++}p=c.length;if(e.length<k||p<e.length)e="Expected "+(k==p?1==
-k?"1 argument":k+" arguments":k+"-"+p+" arguments")+" but got "+e.length+".";else{for(k=0;k<e.length;k++)if(p=c[k].optional&&void 0===e[k],!c[k].Z(e[k])&&!p){e=c[k];if(0>k||k>=Zg.length)throw new Q("internal-error","Argument validator received an unsupported number of arguments.");e=Zg[k]+" argument "+(e.name?'"'+e.name+'" ':"")+"must be "+e.Y+".";break a}e=null}}if(e)throw new Q("argument-error",d+" failed: "+e);return b.apply(this,a)};for(var e in b)a[e]=b[e];for(e in b.prototype)a.prototype[e]=
-b.prototype[e];return a},hh=function(a){a=a.split(".");return a[a.length-1]};var kh=function(a,b,c){var d=(this.ta=firebase.SDK_VERSION||null)?nf(this.ta):null;this.c=new S(b,null,d);this.Qa=null;this.S=a;this.u=b;this.ka=c;this.ub=[];this.ad=!1;this.Hd=q(this.Ud,this);this.rb=new ih(this);this.kd=new jh(this);this.Za={};this.Za.unknown=this.rb;this.Za.signInViaRedirect=this.rb;this.Za.linkViaRedirect=this.rb;this.Za.signInViaPopup=this.kd;this.Za.linkViaPopup=this.kd},lh=function(a){var b=bf();return ig(a).then(function(a){a:{for(var d=(b instanceof Ke?b.clone():new Ke(b,
-void 0)).la,e=0;e<a.length;e++){var f;var g=a[e];f=d;var k=Pc(g);k?f=(f=Pc(f))?k.Bb(f):!1:(k=g.split(".").join("\\."),f=(new RegExp("^(.+."+k+"|"+k+")$","i")).test(f));if(f){a=!0;break a}}a=!1}if(!a)throw new Q("unauthorized-domain");})},mh=function(a){a.ad=!0;kf().then(function(){a.ae=new Mg(a.S,a.u,a.ka,a.ta);a.ae.cc.push(a.Hd)})};kh.prototype.subscribe=function(a){Ia(this.ub,a)||this.ub.push(a);this.ad||mh(this)};kh.prototype.unsubscribe=function(a){La(this.ub,function(b){return b==a})};
-kh.prototype.Ud=function(a){if(!a)throw new Q("invalid-auth-event");for(var b=!1,c=0;c<this.ub.length;c++){var d=this.ub[c];if(d.Mc(a.sa,a.va)){(b=this.Za[a.sa])&&b.ld(a,d);b=!0;break}}a=this.rb;a.yc||(a.yc=!0,nh(a,!1,null,null));return b};kh.prototype.getRedirectResult=function(){return this.rb.getRedirectResult()};
-var ph=function(a,b,c,d,e){if(!b)return J(new Q("popup-blocked"));a.Qa||(a.Qa=lh(a.c));return a.Qa.then(function(){oh(d);var f=Ng(a.S,a.u,a.ka,c,d.providerId,d.Fb(),null,e,a.ta);Gb((b||l.window).location,f);return b})},qh=function(a,b,c,d){a.Qa||(a.Qa=lh(a.c));return a.Qa.then(function(){oh(c);var e=Ng(a.S,a.u,a.ka,b,c.providerId,c.Fb(),bf(),d,a.ta);Gb(l.window.location,e)})},rh=function(a,b,c,d){var e=new Q("popup-closed-by-user");return jf(c).then(function(){return te(3E4).then(function(){a.Ea(b,
-null,e,d)})})},oh=function(a){if(!a.isOAuthProvider)throw new Q("invalid-oauth-provider");},sh={},th=function(a,b,c){var d=b+":"+c;sh[d]||(sh[d]=new kh(a,b,c));return sh[d]},ih=function(a){this.P=a;this.zc=this.Qb=this.Ta=this.X=null;this.yc=!1};ih.prototype.ld=function(a,b){if(!a)return J(new Q("invalid-auth-event"));this.yc=!0;var c=a.sa,d=a.va;"unknown"==c?(this.X||nh(this,!1,null,null),c=I()):c=a.G?this.wc(a,b):b.eb(c,d)?this.xc(a,b):J(new Q("invalid-auth-event"));return c};
-ih.prototype.wc=function(a){this.X||nh(this,!0,null,a.getError());return I()};ih.prototype.xc=function(a,b){var c=this,d=a.sa,e=b.eb(d,a.va),f="signInViaRedirect"==d||"linkViaRedirect"==d;return e(a.$a,a.Tb).then(function(a){c.X||nh(c,f,a,null)}).N(function(a){c.X||nh(c,f,null,a)})};var nh=function(a,b,c,d){b?d?(a.X=function(){return J(d)},a.Qb&&a.Qb(d)):(a.X=function(){return I(c)},a.Ta&&a.Ta(c)):(a.X=function(){return I({user:null})},a.Ta&&a.Ta({user:null}));a.Ta=null;a.Qb=null};
-ih.prototype.getRedirectResult=function(){var a=this;this.Kc||(this.Kc=new H(function(b,c){a.X?a.X().then(b,c):(a.Ta=b,a.Qb=c,uh(a))}));return this.Kc};var uh=function(a){var b=new Q("timeout");a.zc&&a.zc.cancel();a.zc=te(3E4).then(function(){a.X||nh(a,!0,null,b)})},jh=function(a){this.P=a};jh.prototype.ld=function(a,b){if(!a)return J(new Q("invalid-auth-event"));var c=a.sa,d=a.va;return a.G?this.wc(a,b):b.eb(c,d)?this.xc(a,b):J(new Q("invalid-auth-event"))};
-jh.prototype.wc=function(a,b){b.Ea(a.sa,null,a.getError(),a.va);return I()};jh.prototype.xc=function(a,b){var c=a.va,d=a.sa;return b.eb(d,c)(a.$a,a.Tb).then(function(a){b.Ea(d,a,null,c)}).N(function(a){b.Ea(d,null,a,c)})};var vh=function(a){this.c=a;this.Ha=this.ea=null;this.La=0};vh.prototype.C=function(){return{apiKey:this.c.u,refreshToken:this.ea,accessToken:this.Ha,expirationTime:this.La}};var xh=function(a,b){var c=b.idToken,d=b.refreshToken,e=wh(b.expiresIn);a.Ha=c;a.La=e;a.ea=d},wh=function(a){return la()+1E3*parseInt(a,10)},yh=function(a,b){return ag(a.c,b).then(function(b){a.Ha=b.access_token;a.La=wh(b.expires_in);a.ea=b.refresh_token;return{accessToken:a.Ha,expirationTime:a.La,refreshToken:a.ea}})};
-vh.prototype.getToken=function(a){return a||!this.Ha||la()>this.La-3E4?this.ea?yh(this,{grant_type:"refresh_token",refresh_token:this.ea}):I(null):I({accessToken:this.Ha,expirationTime:this.La,refreshToken:this.ea})};var zh=function(a,b,c,d,e){vf(this,{uid:a,displayName:d||null,photoURL:e||null,email:c||null,providerId:b})},Ah=function(a,b){Lb.call(this,a);for(var c in b)this[c]=b[c]};r(Ah,Lb);
-var V=function(a,b,c){this.R=[];this.u=a.apiKey;this.ka=a.appName;this.S=a.authDomain||null;a=firebase.SDK_VERSION?nf(firebase.SDK_VERSION):null;this.c=new S(this.u,null,a);this.ra=new vh(this.c);Bh(this,b.idToken);xh(this.ra,b);P(this,"refreshToken",this.ra.ea);Ch(this,c||{});Wd.call(this);this.Nb=!1;this.S&&pf()&&(this.o=th(this.S,this.u,this.ka));this.Ub=[]};r(V,Wd);
-var Bh=function(a,b){a.bd=b;P(a,"_lat",b)},Dh=function(a,b){La(a.Ub,function(a){return a==b})},Eh=function(a){for(var b=[],c=0;c<a.Ub.length;c++)b.push(a.Ub[c](a));return sd(b).then(function(){return a})},Fh=function(a){a.o&&!a.Nb&&(a.Nb=!0,a.o.subscribe(a))},Ch=function(a,b){vf(a,{uid:b.uid,displayName:b.displayName||null,photoURL:b.photoURL||null,email:b.email||null,emailVerified:b.emailVerified||!1,isAnonymous:b.isAnonymous||!1,providerData:[]})};P(V.prototype,"providerId","firebase");
-var Gh=function(){},Hh=function(a){return I().then(function(){if(a.Md)throw new Q("app-deleted");})},Ih=function(a){return Ea(a.providerData,function(a){return a.providerId})},Kh=function(a,b){b&&(Jh(a,b.providerId),a.providerData.push(b))},Jh=function(a,b){La(a.providerData,function(a){return a.providerId==b})},Lh=function(a,b,c){("uid"!=b||c)&&a.hasOwnProperty(b)&&P(a,b,c)};
-V.prototype.copy=function(a){var b=this;b!=a&&(vf(this,{uid:a.uid,displayName:a.displayName,photoURL:a.photoURL,email:a.email,emailVerified:a.emailVerified,isAnonymous:a.isAnonymous,providerData:[]}),w(a.providerData,function(a){Kh(b,a)}),this.ra=a.ra,P(this,"refreshToken",this.ra.ea))};V.prototype.reload=function(){var a=this;return Hh(this).then(function(){return Mh(a).then(function(){return Eh(a)}).then(Gh)})};
-var Mh=function(a){return a.getToken().then(function(b){var c=a.isAnonymous;return Nh(a,b).then(function(){c||Lh(a,"isAnonymous",!1);return b}).N(function(b){"auth/user-token-expired"==b.code&&(a.dispatchEvent(new Ah("userDeleted")),Oh(a));throw b;})})};V.prototype.getToken=function(a){var b=this;return Hh(this).then(function(){return b.ra.getToken(a)}).then(function(a){if(!a)throw new Q("internal-error");a.accessToken!=b.bd&&(Bh(b,a.accessToken),b.ma());Lh(b,"refreshToken",a.refreshToken);return a.accessToken})};
-var Ph=function(a,b){b.idToken&&a.bd!=b.idToken&&(xh(a.ra,b),a.ma(),Bh(a,b.idToken))};V.prototype.ma=function(){this.dispatchEvent(new Ah("tokenChanged"))};var Nh=function(a,b){return R(a.c,Ag,{idToken:b}).then(q(a.qe,a))};
-V.prototype.qe=function(a){a=a.users;if(!a||!a.length)throw new Q("internal-error");a=a[0];Ch(this,{uid:a.localId,displayName:a.displayName,photoURL:a.photoUrl,email:a.email,emailVerified:!!a.emailVerified});for(var b=Qh(a),c=0;c<b.length;c++)Kh(this,b[c]);Lh(this,"isAnonymous",!(this.email&&a.passwordHash)&&!(this.providerData&&this.providerData.length))};
-var Qh=function(a){return(a=a.providerUserInfo)&&a.length?Ea(a,function(a){return new zh(a.rawId,a.providerId,a.email,a.displayName,a.photoUrl)}):[]};V.prototype.reauthenticate=function(a){var b=this;return this.f(a.Eb(this.c).then(function(a){var d;a:{var e=a.idToken.split(".");if(3==e.length){for(var e=e[1],f=(4-e.length%4)%4,g=0;g<f;g++)e+=".";try{var k=lc(tb(e));if(k.sub&&k.iss&&k.aud&&k.exp){d=new Cf(k);break a}}catch(p){}}d=null}if(!d||b.uid!=d.je)throw new Q("user-mismatch");Ph(b,a);return b.reload()}))};
-var Rh=function(a,b){return Mh(a).then(function(){if(Ia(Ih(a),b))return Eh(a).then(function(){throw new Q("provider-already-linked");})})};h=V.prototype;h.link=function(a){var b=this;return this.f(Rh(this,a.provider).then(function(){return b.getToken()}).then(function(c){return a.dd(b.c,c)}).then(q(this.Sc,this)))};h.Sc=function(a){Ph(this,a);var b=this;return this.reload().then(function(){return b})};
-h.updateEmail=function(a){var b=this;return this.f(this.getToken().then(function(c){return b.c.updateEmail(c,a)}).then(function(a){Ph(b,a);return b.reload()}))};h.updatePassword=function(a){var b=this;return this.f(this.getToken().then(function(c){return b.c.updatePassword(c,a)}).then(function(a){Ph(b,a);return b.reload()}))};
-h.updateProfile=function(a){if(void 0===a.displayName&&void 0===a.photoURL)return Hh(this);var b=this;return this.f(this.getToken().then(function(c){return b.c.updateProfile(c,{displayName:a.displayName,photoUrl:a.photoURL})}).then(function(a){Ph(b,a);Lh(b,"displayName",a.displayName||null);Lh(b,"photoURL",a.photoUrl||null);return Eh(b)}).then(Gh))};
-h.unlink=function(a){var b=this;return this.f(Mh(this).then(function(c){return Ia(Ih(b),a)?qg(b.c,c,[a]).then(function(a){var c={};w(a.providerUserInfo||[],function(a){c[a.providerId]=!0});w(Ih(b),function(a){c[a]||Jh(b,a)});return Eh(b)}):Eh(b).then(function(){throw new Q("no-such-provider");})}))};h["delete"]=function(){var a=this;return this.f(this.getToken().then(function(b){return R(a.c,zg,{idToken:b})}).then(function(){a.dispatchEvent(new Ah("userDeleted"))})).then(function(){Oh(a)})};
-h.Mc=function(a,b){return"linkViaPopup"==a&&(this.ca||null)==b&&this.V||"linkViaRedirect"==a&&(this.Pb||null)==b?!0:!1};h.Ea=function(a,b,c,d){"linkViaPopup"==a&&d==(this.ca||null)&&(c&&this.Aa?this.Aa(c):b&&!c&&this.V&&this.V(b),this.Ba&&(this.Ba.cancel(),this.Ba=null),delete this.V,delete this.Aa)};h.eb=function(a,b){return"linkViaPopup"==a&&b==(this.ca||null)||"linkViaRedirect"==a&&(this.Pb||null)==b?q(this.Pd,this):null};h.Db=function(){return this.uid+":::"+Math.floor(1E9*Math.random()).toString()};
-h.linkWithPopup=function(a){if(!pf())return J(new Q("operation-not-supported-in-this-environment"));var b=this,c=zf(a.providerId),d=this.Db(),e=null;!qf()&&this.S&&a.isOAuthProvider&&(e=Ng(this.S,this.u,this.ka,"linkViaPopup",a.providerId,a.Fb(),null,d,firebase.SDK_VERSION||null));var f=hf(e,c&&c.qb,c&&c.pb),c=Rh(this,a.providerId).then(function(){return Eh(b)}).then(function(){b.Na();return b.getToken()}).then(function(){if(!e)return ph(b.o,f,"linkViaPopup",a,d)}).then(function(){return new H(function(a,
-c){b.Ea("linkViaPopup",null,new Q("cancelled-popup-request"),b.ca||null);b.V=a;b.Aa=c;b.ca=d;b.Ba=rh(b,"linkViaPopup",f,d)})}).then(function(a){f&&gf(f);return a}).N(function(a){f&&gf(f);throw a;});return this.f(c)};
-h.linkWithRedirect=function(a){if(!pf())return J(new Q("operation-not-supported-in-this-environment"));var b=this,c=null,d=this.Db(),e=Rh(this,a.providerId).then(function(){b.Na();return b.getToken()}).then(function(){b.Pb=d;return Eh(b)}).then(function(a){b.Ca&&(a=b.Ca,a=a.P.set(Sh,b.C(),a.$));return a}).then(function(){return qh(b.o,"linkViaRedirect",a,d)}).N(function(a){c=a;if(b.Ca)return Th(b.Ca);throw c;}).then(function(){if(c)throw c;});return this.f(e)};
-h.Na=function(){if(this.o&&this.Nb)return this.o;if(this.o&&!this.Nb)throw new Q("internal-error");throw new Q("auth-domain-config-required");};h.Pd=function(a,b){var c=this,d=null,e=this.getToken().then(function(d){return R(c.c,Gf,{requestUri:a,sessionId:b,idToken:d})}).then(function(a){d=Rf(a);return c.Sc(a)}).then(function(a){return{user:a,credential:d}});return this.f(e)};
-h.sendEmailVerification=function(){var a=this;return this.f(this.getToken().then(function(b){return a.c.sendEmailVerification(b)}).then(function(b){if(a.email!=b)return a.reload()}).then(function(){}))};var Oh=function(a){for(var b=0;b<a.R.length;b++)a.R[b].cancel("app-deleted");a.R=[];a.Md=!0;P(a,"refreshToken",null);a.o&&a.o.unsubscribe(a)};V.prototype.f=function(a){var b=this;this.R.push(a);vd(a,function(){Ka(b.R,a)});return a};V.prototype.toJSON=function(){return this.C()};
-V.prototype.C=function(){var a={uid:this.uid,displayName:this.displayName,photoURL:this.photoURL,email:this.email,emailVerified:this.emailVerified,isAnonymous:this.isAnonymous,providerData:[],apiKey:this.u,appName:this.ka,authDomain:this.S,stsTokenManager:this.ra.C(),redirectEventId:this.Pb||null};w(this.providerData,function(b){a.providerData.push(wf(b))});return a};
-var Uh=function(a){if(!a.apiKey)return null;var b={apiKey:a.apiKey,authDomain:a.authDomain,appName:a.appName},c={};if(a.stsTokenManager&&a.stsTokenManager.accessToken&&a.stsTokenManager.refreshToken&&a.stsTokenManager.expirationTime)c.idToken=a.stsTokenManager.accessToken,c.refreshToken=a.stsTokenManager.refreshToken,c.expiresIn=(a.stsTokenManager.expirationTime-la())/1E3;else return null;var d=new V(b,c,a);a.providerData&&w(a.providerData,function(a){if(a){var b={};vf(b,a);Kh(d,b)}});a.redirectEventId&&
-(d.Pb=a.redirectEventId);return d},Vh=function(a,b,c){var d=new V(a,b);c&&(d.Ca=c);return d.reload().then(function(){return d})};var Wh,Xh=function(a,b,c,d,e,f){this.Ld=a;this.sc=b;this.gc=c;this.wd=d;this.ha=e;this.K={};this.tb=[];this.nb=0;this.de=f||l.indexedDB},Yh=function(a){return new H(function(b,c){var d=a.de.open(a.Ld,a.ha);d.onerror=function(a){c(Error(a.target.errorCode))};d.onupgradeneeded=function(b){b=b.target.result;try{b.createObjectStore(a.sc,{keyPath:a.gc})}catch(d){c(d)}};d.onsuccess=function(a){b(a.target.result)}})},Zh=function(a){a.$c||(a.$c=Yh(a));return a.$c},$h=function(a,b){return b.objectStore(a.sc)},
-ai=function(a,b,c){return b.transaction([a.sc],c?"readwrite":"readonly")},bi=function(a){return new H(function(b,c){a.onsuccess=function(a){a&&a.target?b(a.target.result):b()};a.onerror=function(a){c(Error(a.target.errorCode))}})};h=Xh.prototype;
-h.set=function(a,b){var c=!1,d,e=this;return vd(Zh(this).then(function(b){d=b;b=$h(e,ai(e,d,!0));return bi(b.get(a))}).then(function(f){var g=$h(e,ai(e,d,!0));if(f)return f.value=b,bi(g.put(f));e.nb++;c=!0;f={};f[e.gc]=a;f[e.wd]=b;return bi(g.add(f))}).then(function(){e.K[a]=b}),function(){c&&e.nb--})};h.get=function(a){var b=this;return Zh(this).then(function(c){return bi($h(b,ai(b,c,!1)).get(a))})};
-h.remove=function(a){var b=!1,c=this;return vd(Zh(this).then(function(d){b=!0;c.nb++;return bi($h(c,ai(c,d,!0))["delete"](a))}).then(function(){delete c.K[a]}),function(){b&&c.nb--})};
-h.ze=function(){var a=this;return Zh(this).then(function(b){var c=$h(a,ai(a,b,!1));return c.getAll?bi(c.getAll()):new H(function(a,b){var f=[],g=c.openCursor();g.onsuccess=function(b){(b=b.target.result)?(f.push(b.value),b["continue"]()):a(f)};g.onerror=function(a){b(Error(a.target.errorCode))}})}).then(function(b){var c={},d=[];if(0==a.nb){for(d=0;d<b.length;d++)c[b[d][a.gc]]=b[d][a.wd];d=cf(a.K,c);a.K=c}return d})};h.Ia=function(a){0==this.tb.length&&this.Ec();this.tb.push(a)};
-h.Ua=function(a){La(this.tb,function(b){return b==a});0==this.tb.length&&this.Vb()};h.Ec=function(){var a=this;this.Vb();var b=function(){a.vc=te(1E3).then(q(a.ze,a)).then(function(b){0<b.length&&w(a.tb,function(a){a(b)})}).then(b).N(function(a){"STOP_EVENT"!=a.message&&b()});return a.vc};b()};h.Vb=function(){this.vc&&this.vc.cancel("STOP_EVENT")};var ci=function(a,b,c,d,e,f){this.me=a;this.qd=b;this.mb=d;this.te=e;this.sb=f;this.J={};Yg||(Yg=new Xg);a=Yg;this.ob=new a.Qc.v;this.Hc=new a.Qc.Gc;this.hb=c;this.ed=q(this.fd,this);this.Zc=q(this.ee,this);this.K={}},di,ei=function(){di||(Wh||(Wh=new Xh("firebaseLocalStorageDb","firebaseLocalStorage","fbase_key","value",1)),di=new ci("firebase",":",Wh,y&&!!pb&&11==pb||/Edge\/\d+/.test($a),"Safari"==ef(df())&&l.window&&l.window!=l.window.top?!0:!1,qf()));return di};h=ci.prototype;
-h.H=function(a,b){return this.me+this.qd+a.name+(b?this.qd+b:"")};h.get=function(a,b){var c=this.H(a,b);return this.mb&&a.v?this.hb.get(c).then(function(a){return a&&a.value}):(a.v?this.ob:this.Hc).get(c)};h.remove=function(a,b){var c=this.H(a,b);if(this.mb&&a.v)return this.hb.remove(c);a.v&&!this.sb&&(this.K[c]=null);return(a.v?this.ob:this.Hc).remove(c)};
-h.set=function(a,b,c){var d=this.H(a,c);if(this.mb&&a.v)return this.hb.set(d,b);var e=this,f=a.v?this.ob:this.Hc;return f.set(d,b).then(function(){return f.get(d)}).then(function(b){a.v&&!this.sb&&(e.K[d]=b)})};h.addListener=function(a,b,c){a=this.H(a,b);this.sb||(this.K[a]=l.localStorage.getItem(a));Va(this.J)&&this.Ec();this.J[a]||(this.J[a]=[]);this.J[a].push(c)};
-h.removeListener=function(a,b,c){a=this.H(a,b);this.J[a]&&(La(this.J[a],function(a){return a==c}),0==this.J[a].length&&delete this.J[a]);Va(this.J)&&this.Vb()};h.Ec=function(){this.mb?this.hb.Ia(this.Zc):(this.ob.Ia(this.ed),this.sb||fi(this))};
-var fi=function(a){gi(a);a.rc=setInterval(function(){for(var b in a.J){var c=l.localStorage.getItem(b);c!=a.K[b]&&(a.K[b]=c,c=new Mb({type:"storage",key:b,target:window,oldValue:a.K[b],newValue:c}),a.fd(c))}},2E3)},gi=function(a){a.rc&&(clearInterval(a.rc),a.rc=null)};ci.prototype.Vb=function(){this.mb?this.hb.Ua(this.Zc):(this.ob.Ua(this.ed),this.sb||gi(this))};
-ci.prototype.fd=function(a){var b=a.Cb.key;if(this.te){var c=l.localStorage.getItem(b);a=a.Cb.newValue;a!=c&&(a?l.localStorage.setItem(b,a):a||l.localStorage.removeItem(b))}this.K[b]=l.localStorage.getItem(b);this.Lc(b)};ci.prototype.ee=function(a){w(a,q(this.Lc,this))};ci.prototype.Lc=function(a){this.J[a]&&w(this.J[a],function(a){a()})};var hi=function(a){this.$=a;this.P=ei()},Sh={name:"redirectUser",v:!1},Th=function(a){return a.P.remove(Sh,a.$)},ii=function(a,b){return a.P.get(Sh,a.$).then(function(a){a&&b&&(a.authDomain=b);return Uh(a||{})})};var ji=function(a){this.$=a;this.P=ei()},ki={name:"authUser",v:!0},li=function(a){return a.P.remove(ki,a.$)},mi=function(a,b){return a.P.get(ki,a.$).then(function(a){a&&b&&(a.authDomain=b);return Uh(a||{})})};var X=function(a){this.hc=!1;P(this,"app",a);if(W(this).options&&W(this).options.apiKey)a=firebase.SDK_VERSION?nf(firebase.SDK_VERSION):null,this.c=new S(W(this).options&&W(this).options.apiKey,null,a);else throw new Q("invalid-api-key");this.R=[];this.bb=[];this.ne=firebase.INTERNAL.createSubscribe(q(this.fe,this));ni(this,null);this.Da=this.ga=null;try{this.ga=new ji(W(this).options.apiKey+":"+W(this).name),this.Da=new hi(W(this).options.apiKey+":"+W(this).name),this.D=this.f(oi(this))}catch(b){this.D=
-J(b)}this.jb=!1;this.Vc=q(this.ye,this);this.ud=q(this.Oa,this);this.vd=q(this.Zd,this);this.td=q(this.Yd,this);pi(this);this.INTERNAL={};this.INTERNAL["delete"]=q(this["delete"],this)};X.prototype.toJSON=function(){return{apiKey:W(this).options.apiKey,authDomain:W(this).options.authDomain,appName:W(this).name,currentUser:Z(this)&&Z(this).C()}};X.prototype.Na=function(){return this.Nd||J(new Q("auth-domain-config-required"))};
-var pi=function(a){var b=W(a).options.authDomain,c=W(a).options.apiKey;b&&pf()&&(a.Nd=a.D.then(function(){a.o=th(b,c,W(a).name);a.o.subscribe(a);Z(a)&&Fh(Z(a));a.Ac&&(Fh(a.Ac),a.Ac=null);return a.o}))};h=X.prototype;h.Mc=function(a,b){switch(a){case "unknown":case "signInViaRedirect":return!0;case "signInViaPopup":return this.ca==b&&!!this.V;default:return!1}};
-h.Ea=function(a,b,c,d){"signInViaPopup"==a&&this.ca==d&&(c&&this.Aa?this.Aa(c):b&&!c&&this.V&&this.V(b),this.Ba&&(this.Ba.cancel(),this.Ba=null),delete this.V,delete this.Aa)};h.eb=function(a,b){return"signInViaRedirect"==a||"signInViaPopup"==a&&this.ca==b&&this.V?q(this.Qd,this):null};
-h.Qd=function(a,b){var c=this,d=null,e=Ef(c.c,{requestUri:a,sessionId:b}).then(function(a){d=Rf(a);return a}),f=c.D.then(function(){return e}).then(function(a){return qi(c,a)}).then(function(){return{user:Z(c),credential:d}});return this.f(f)};h.Db=function(){return Math.floor(1E9*Math.random()).toString()};
-h.signInWithPopup=function(a){if(!pf())return J(new Q("operation-not-supported-in-this-environment"));var b=this,c=zf(a.providerId),d=this.Db(),e=null;!qf()&&W(this).options.authDomain&&a.isOAuthProvider&&(e=Ng(W(this).options.authDomain,W(this).options.apiKey,W(this).name,"signInViaPopup",a.providerId,a.Fb(),null,d,firebase.SDK_VERSION||null));var f=hf(e,c&&c.qb,c&&c.pb),c=this.Na().then(function(b){if(!e)return ph(b,f,"signInViaPopup",a,d)}).then(function(){return new H(function(a,c){b.Ea("signInViaPopup",
-null,new Q("cancelled-popup-request"),b.ca);b.V=a;b.Aa=c;b.ca=d;b.Ba=rh(b,"signInViaPopup",f,d)})}).then(function(a){f&&gf(f);return a}).N(function(a){f&&gf(f);throw a;});return this.f(c)};h.signInWithRedirect=function(a){if(!pf())return J(new Q("operation-not-supported-in-this-environment"));var b=this,c=this.Na().then(function(){return qh(b.o,"signInViaRedirect",a)});return this.f(c)};
-h.getRedirectResult=function(){if(!pf())return J(new Q("operation-not-supported-in-this-environment"));var a=this,b=this.Na().then(function(){return a.o.getRedirectResult()});return this.f(b)};
-var qi=function(a,b){var c={};c.apiKey=W(a).options.apiKey;c.authDomain=W(a).options.authDomain;c.appName=W(a).name;return a.D.then(function(){return Vh(c,b,a.Da)}).then(function(b){if(Z(a)&&b.uid==Z(a).uid)return Z(a).copy(b),a.Oa(b);ni(a,b);Fh(b);return a.Oa(b)}).then(function(){a.ma()})},ni=function(a,b){Z(a)&&(Dh(Z(a),a.ud),fc(Z(a),"tokenChanged",a.vd),fc(Z(a),"userDeleted",a.td));b&&(b.Ub.push(a.ud),Xb(b,"tokenChanged",a.vd),Xb(b,"userDeleted",a.td));P(a,"currentUser",b)};
-X.prototype.signOut=function(){var a=this,b=this.D.then(function(){if(!Z(a))return I();ni(a,null);return li(a.ga).then(function(){a.ma()})});return this.f(b)};
-var ri=function(a){var b=ii(a.Da,W(a).options.authDomain).then(function(b){if(a.Ac=b)b.Ca=a.Da;return Th(a.Da)});return a.f(b)},oi=function(a){var b=W(a).options.authDomain,c=vd(ri(a).then(function(){return mi(a.ga,b)}).then(function(b){return b?(b.Ca=a.Da,b.reload().then(function(){return b}).N(function(c){return"auth/network-request-failed"==c.code?b:li(a.ga)})):null}).then(function(b){ni(a,b||null);a.jb=!0;a.ma()}),function(){if(!a.hc){a.jb=!0;var b=a.ga;b.P.addListener(ki,b.$,a.Vc)}});return a.f(c)};
-X.prototype.ye=function(){var a=this;return mi(this.ga,W(this).options.authDomain).then(function(b){if(!a.hc){var c;if(c=Z(a)&&b){c=Z(a).uid;var d=b.uid;c=void 0===c||null===c||""===c||void 0===d||null===d||""===d?!1:c==d}if(c)return Z(a).copy(b),Z(a).getToken();ni(a,b);b&&(Fh(b),b.Ca=a.Da);a.o.subscribe(a);a.ma()}})};X.prototype.Oa=function(a){var b=this.ga;return b.P.set(ki,a.C(),b.$)};X.prototype.Zd=function(){this.jb=!0;this.ma();this.Oa(Z(this))};X.prototype.Yd=function(){this.signOut()};
-var si=function(a,b){return a.f(b.then(function(b){return qi(a,b)}).then(function(){return Z(a)}))};h=X.prototype;h.fe=function(a){var b=this;this.addAuthTokenListener(function(){a.next(Z(b))})};h.onAuthStateChanged=function(a,b,c){var d=this;this.jb&&firebase.Promise.resolve().then(function(){n(a)?a(Z(d)):n(a.next)&&a.next(Z(d))});return this.ne(a,b,c)};h.getToken=function(a){var b=this,c=this.D.then(function(){return Z(b)?Z(b).getToken(a).then(function(a){return{accessToken:a}}):null});return this.f(c)};
-h.signInWithCustomToken=function(a){var b=this;return this.D.then(function(){return si(b,R(b.c,Bg,{token:a}))}).then(function(a){Lh(a,"isAnonymous",!1);return b.Oa(a)}).then(function(){return Z(b)})};h.signInWithEmailAndPassword=function(a,b){var c=this;return this.D.then(function(){return si(c,R(c.c,Nf,{email:a,password:b}))})};h.createUserWithEmailAndPassword=function(a,b){var c=this;return this.D.then(function(){return si(c,R(c.c,yg,{email:a,password:b}))})};
-h.signInWithCredential=function(a){var b=this;return this.D.then(function(){return si(b,a.Eb(b.c))})};h.signInAnonymously=function(){var a=Z(this),b=this;return a&&a.isAnonymous?I(a):this.D.then(function(){return si(b,b.c.signInAnonymously())}).then(function(a){Lh(a,"isAnonymous",!0);return b.Oa(a)}).then(function(){return Z(b)})};var W=function(a){return a.app},Z=function(a){return a.currentUser};h=X.prototype;
-h.ma=function(){for(var a=0;a<this.bb.length;a++)if(this.bb[a])this.bb[a](Z(this)&&Z(this)._lat||null)};h.addAuthTokenListener=function(a){this.bb.push(a);var b=this;this.jb&&this.D.then(function(){a(Z(b)&&Z(b)._lat||null)})};h.removeAuthTokenListener=function(a){La(this.bb,function(b){return b==a})};h["delete"]=function(){this.hc=!0;for(var a=0;a<this.R.length;a++)this.R[a].cancel("app-deleted");this.R=[];this.ga&&(a=this.ga,a.P.removeListener(ki,a.$,this.Vc));this.o&&this.o.unsubscribe(this)};
-h.f=function(a){var b=this;this.R.push(a);vd(a,function(){Ka(b.R,a)});return a};h.fetchProvidersForEmail=function(a){return this.f(gg(this.c,a))};h.verifyPasswordResetCode=function(a){return this.checkActionCode(a).then(function(a){return a.data.email})};h.confirmPasswordReset=function(a,b){return this.f(this.c.confirmPasswordReset(a,b).then(function(){}))};h.checkActionCode=function(a){return this.f(this.c.checkActionCode(a).then(function(a){return{data:{email:a.email}}}))};h.applyActionCode=function(a){return this.f(this.c.applyActionCode(a).then(function(){}))};
-h.sendPasswordResetEmail=function(a){return this.f(this.c.sendPasswordResetEmail(a).then(function(){}))};gh(X.prototype,{applyActionCode:{name:"applyActionCode",b:[T("code")]},checkActionCode:{name:"checkActionCode",b:[T("code")]},confirmPasswordReset:{name:"confirmPasswordReset",b:[T("code"),T("newPassword")]},createUserWithEmailAndPassword:{name:"createUserWithEmailAndPassword",b:[T("email"),T("password")]},fetchProvidersForEmail:{name:"fetchProvidersForEmail",b:[T("email")]},getRedirectResult:{name:"getRedirectResult",b:[]},onAuthStateChanged:{name:"onAuthStateChanged",b:[eh($g(),ah(),"nextOrObserver"),
-ah("opt_error",!0),ah("opt_completed",!0)]},sendPasswordResetEmail:{name:"sendPasswordResetEmail",b:[T("email")]},signInAnonymously:{name:"signInAnonymously",b:[]},signInWithCredential:{name:"signInWithCredential",b:[ch()]},signInWithCustomToken:{name:"signInWithCustomToken",b:[T("token")]},signInWithEmailAndPassword:{name:"signInWithEmailAndPassword",b:[T("email"),T("password")]},signInWithPopup:{name:"signInWithPopup",b:[dh()]},signInWithRedirect:{name:"signInWithRedirect",b:[dh()]},signOut:{name:"signOut",
+b=(b=c.match(/:\s*(.*)$/))&&1<b.length?b[1]:void 0;for(var e in d)if(0===c.indexOf(e))return new Q(d[e],b);!b&&a&&(b=sf(a));return new Q("internal-error",b)};var Dg=function(a){this.O=a};Dg.prototype.value=function(){return this.O};Dg.prototype.td=function(a){this.O.style=a;return this};var Eg=function(a){this.O=a||{}};Eg.prototype.value=function(){return this.O};Eg.prototype.td=function(a){this.O.style=a;return this};var Gg=function(a){this.Ge=a;this.oc=null;this.pe=Fg(this)},Hg,Ig=function(a){var b=new Eg;b.O.where=document.body;b.O.url=a.Ge;b.O.messageHandlersFilter=of("gapi.iframes.CROSS_ORIGIN_IFRAMES_FILTER");b.O.attributes=b.O.attributes||{};(new Dg(b.O.attributes)).td({position:"absolute",top:"-100px",width:"1px",height:"1px"});b.O.dontclear=!0;return b},Fg=function(a){return Jg().then(function(){return new H(function(b){of("gapi.iframes.getContext")().open(Ig(a).value(),function(c){a.oc=c;a.oc.restyle({setHideOnLeave:!1});
+b()})})})},Kg=function(a,b){a.pe.then(function(){a.oc.register("authEvent",b,of("gapi.iframes.CROSS_ORIGIN_IFRAMES_FILTER"))})},Lg="__iframefcb"+Math.floor(1E6*Math.random()).toString(),Jg=function(){return Hg?Hg:Hg=new H(function(a,b){var c=function(){of("gapi.load")("gapi.iframes",function(){a()})};of("gapi.iframes.Iframe")?a():of("gapi.load")?c():(l[Lg]=function(){of("gapi.load")?c():b()},Nd(Vd("https://apis.google.com/js/api.js?onload="+Lg),function(){b()}))})};var Ng=function(a,b,c,d){this.U=a;this.u=b;this.aa=c;d=this.ua=d||null;a=Xe(a,"/__/auth/iframe");O(a,"apiKey",b);O(a,"appName",c);d&&O(a,"v",d);this.ce=a.toString();this.de=new Gg(this.ce);this.dc=[];Mg(this)},Og=function(a,b,c,d,e,f,g,k,p){a=Xe(a,"/__/auth/handler");O(a,"apiKey",b);O(a,"appName",c);O(a,"authType",d);O(a,"providerId",e);f&&f.length&&O(a,"scopes",f.join(","));g&&O(a,"redirectUrl",g);k&&O(a,"eventId",k);p&&O(a,"v",p);return a.toString()},Mg=function(a){Kg(a.de,function(b){var c={};
+if(b&&b.authEvent){var d=!1;b=b.authEvent||{};if(b.type){if(c=b.error)var e=(c=b.error)&&(c.name||c.code),c=e?new Q(e.substring(5),c.message):null;b=new Cf(b.type,b.eventId,b.urlResponse,b.sessionId,c)}else b=null;for(c=0;c<a.dc.length;c++)d=a.dc[c](b)||d;c={};c.status=d?"ACK":"ERROR";return I(c)}c.status="ERROR";return I(c)})};var Pg=function(a){this.o=a||firebase.INTERNAL.reactNative&&firebase.INTERNAL.reactNative.AsyncStorage;if(!this.o)throw new Q("internal-error","The React Native compatibility library was not found.");};h=Pg.prototype;h.get=function(a){return I(this.o.getItem(a)).then(function(a){return a&&tf(a)})};h.set=function(a,b){return I(this.o.setItem(a,sf(b)))};h.remove=function(a){return I(this.o.removeItem(a))};h.ta=function(){};h.Ea=function(){};var Qg=function(){this.o={}};h=Qg.prototype;h.get=function(a){return I(this.o[a])};h.set=function(a,b){this.o[a]=b;return I()};h.remove=function(a){delete this.o[a];return I()};h.ta=function(){};h.Ea=function(){};var Sg=function(){if(!Rg()){if("Node"==lf())throw new Q("internal-error","The LocalStorage compatibility library was not found.");throw new Q("web-storage-unsupported");}this.o=l.localStorage||firebase.INTERNAL.node.localStorage},Rg=function(){var a="Node"==lf(),a=l.localStorage||a&&firebase.INTERNAL.node&&firebase.INTERNAL.node.localStorage;if(!a)return!1;try{return a.setItem("__sak","1"),a.removeItem("__sak"),!0}catch(b){return!1}};h=Sg.prototype;
+h.get=function(a){var b=this;return I().then(function(){var c=b.o.getItem(a);return tf(c)})};h.set=function(a,b){var c=this;return I().then(function(){var d=sf(b);null===d?c.remove(a):c.o.setItem(a,d)})};h.remove=function(a){var b=this;return I().then(function(){b.o.removeItem(a)})};h.ta=function(a){l.window&&Xb(l.window,"storage",a)};h.Ea=function(a){l.window&&fc(l.window,"storage",a)};var Tg=function(){this.o={}};h=Tg.prototype;h.get=function(){return I(null)};h.set=function(){return I()};h.remove=function(){return I()};h.ta=function(){};h.Ea=function(){};var Vg=function(){if(!Ug()){if("Node"==lf())throw new Q("internal-error","The SessionStorage compatibility library was not found.");throw new Q("web-storage-unsupported");}this.o=l.sessionStorage||firebase.INTERNAL.node.sessionStorage},Ug=function(){var a="Node"==lf(),a=l.sessionStorage||a&&firebase.INTERNAL.node&&firebase.INTERNAL.node.sessionStorage;if(!a)return!1;try{return a.setItem("__sak","1"),a.removeItem("__sak"),!0}catch(b){return!1}};h=Vg.prototype;
+h.get=function(a){var b=this;return I().then(function(){var c=b.o.getItem(a);return tf(c)})};h.set=function(a,b){var c=this;return I().then(function(){var d=sf(b);null===d?c.remove(a):c.o.setItem(a,d)})};h.remove=function(a){var b=this;return I().then(function(){b.o.removeItem(a)})};h.ta=function(){};h.Ea=function(){};var Zg=function(){this.Sc={Browser:Wg,Node:Xg,ReactNative:Yg}[lf()]},$g,Wg={A:Sg,Jc:Vg},Xg={A:Sg,Jc:Vg},Yg={A:Pg,Jc:Tg};var ah="First Second Third Fourth Fifth Sixth Seventh Eighth Ninth".split(" "),T=function(a,b){return{name:a||"",Z:"a valid string",optional:!!b,$:m}},bh=function(a){return{name:a||"",Z:"a valid object",optional:!1,$:ha}},ch=function(a,b){return{name:a||"",Z:"a function",optional:!!b,$:n}},dh=function(){return{name:"",Z:"null",optional:!1,$:da}},eh=function(){return{name:"credential",Z:"a valid credential",optional:!1,$:function(a){return!(!a||!a.Db)}}},fh=function(){return{name:"authProvider",Z:"a valid Auth provider",
+optional:!1,$:function(a){return!!(a&&a.providerId&&a.hasOwnProperty&&a.hasOwnProperty("isOAuthProvider"))}}},gh=function(a,b,c,d){return{name:c||"",Z:a.Z+" or "+b.Z,optional:!!d,$:function(c){return a.$(c)||b.$(c)}}};var ih=function(a,b){for(var c in b){var d=b[c].name;a[d]=hh(d,a[c],b[c].b)}},U=function(a,b,c,d){a[b]=hh(b,c,d)},hh=function(a,b,c){if(!c)return b;var d=jh(a);a=function(){var a=Array.prototype.slice.call(arguments),e;a:{e=Array.prototype.slice.call(a);var k;k=0;for(var p=!1,Y=0;Y<c.length;Y++)if(c[Y].optional)p=!0;else{if(p)throw new Q("internal-error","Argument validator encountered a required argument after an optional argument.");k++}p=c.length;if(e.length<k||p<e.length)e="Expected "+(k==p?1==
+k?"1 argument":k+" arguments":k+"-"+p+" arguments")+" but got "+e.length+".";else{for(k=0;k<e.length;k++)if(p=c[k].optional&&void 0===e[k],!c[k].$(e[k])&&!p){e=c[k];if(0>k||k>=ah.length)throw new Q("internal-error","Argument validator received an unsupported number of arguments.");e=ah[k]+" argument "+(e.name?'"'+e.name+'" ':"")+"must be "+e.Z+".";break a}e=null}}if(e)throw new Q("argument-error",d+" failed: "+e);return b.apply(this,a)};for(var e in b)a[e]=b[e];for(e in b.prototype)a.prototype[e]=
+b.prototype[e];return a},jh=function(a){a=a.split(".");return a[a.length-1]};var kh,lh=function(a,b,c,d,e,f){this.Md=a;this.uc=b;this.hc=c;this.xd=d;this.ha=e;this.M={};this.sb=[];this.pb=0;this.ee=f||l.indexedDB},mh=function(a){return new H(function(b,c){var d=a.ee.open(a.Md,a.ha);d.onerror=function(a){c(Error(a.target.errorCode))};d.onupgradeneeded=function(b){b=b.target.result;try{b.createObjectStore(a.uc,{keyPath:a.hc})}catch(d){c(d)}};d.onsuccess=function(a){b(a.target.result)}})},nh=function(a){a.bd||(a.bd=mh(a));return a.bd},oh=function(a,b){return b.objectStore(a.uc)},
+ph=function(a,b,c){return b.transaction([a.uc],c?"readwrite":"readonly")},qh=function(a){return new H(function(b,c){a.onsuccess=function(a){a&&a.target?b(a.target.result):b()};a.onerror=function(a){c(Error(a.target.errorCode))}})};h=lh.prototype;
+h.set=function(a,b){var c=!1,d,e=this;return vd(nh(this).then(function(b){d=b;b=oh(e,ph(e,d,!0));return qh(b.get(a))}).then(function(f){var g=oh(e,ph(e,d,!0));if(f)return f.value=b,qh(g.put(f));e.pb++;c=!0;f={};f[e.hc]=a;f[e.xd]=b;return qh(g.add(f))}).then(function(){e.M[a]=b}),function(){c&&e.pb--})};h.get=function(a){var b=this;return nh(this).then(function(c){return qh(oh(b,ph(b,c,!1)).get(a))})};
+h.remove=function(a){var b=!1,c=this;return vd(nh(this).then(function(d){b=!0;c.pb++;return qh(oh(c,ph(c,d,!0))["delete"](a))}).then(function(){delete c.M[a]}),function(){b&&c.pb--})};
+h.Ce=function(){var a=this;return nh(this).then(function(b){var c=oh(a,ph(a,b,!1));return c.getAll?qh(c.getAll()):new H(function(a,b){var f=[],g=c.openCursor();g.onsuccess=function(b){(b=b.target.result)?(f.push(b.value),b["continue"]()):a(f)};g.onerror=function(a){b(Error(a.target.errorCode))}})}).then(function(b){var c={},d=[];if(0==a.pb){for(d=0;d<b.length;d++)c[b[d][a.hc]]=b[d][a.xd];d=cf(a.M,c);a.M=c}return d})};h.ta=function(a){0==this.sb.length&&this.Hc();this.sb.push(a)};
+h.Ea=function(a){La(this.sb,function(b){return b==a});0==this.sb.length&&this.Vb()};h.Hc=function(){var a=this;this.Vb();var b=function(){a.yc=te(1E3).then(q(a.Ce,a)).then(function(b){0<b.length&&w(a.sb,function(a){a(b)})}).then(b).F(function(a){"STOP_EVENT"!=a.message&&b()});return a.yc};b()};h.Vb=function(){this.yc&&this.yc.cancel("STOP_EVENT")};var rh=function(a,b,c,d,e,f){this.ne=a;this.rd=b;this.Oa=d;this.we=e;this.$a=f;this.L={};$g||($g=new Zg);a=$g;try{this.Ra=new a.Sc.A}catch(g){this.Ra=new Qg,this.Oa=!1,this.$a=!0}try{this.Xb=new a.Sc.Jc}catch(g){this.Xb=new Qg}this.kb=c;this.fd=q(this.gd,this);this.ad=q(this.fe,this);this.M={}},sh,th=function(){sh||(kh||(kh=new lh("firebaseLocalStorageDb","firebaseLocalStorage","fbase_key","value",1)),sh=new rh("firebase",":",kh,y&&!!pb&&11==pb||/Edge\/\d+/.test($a),"Safari"==ef(df())&&l.window&&
+l.window!=l.window.top?!0:!1,rf()));return sh};h=rh.prototype;h.J=function(a,b){return this.ne+this.rd+a.name+(b?this.rd+b:"")};h.get=function(a,b){var c=this.J(a,b);return this.Oa&&a.A?this.kb.get(c).then(function(a){return a&&a.value}):(a.A?this.Ra:this.Xb).get(c)};h.remove=function(a,b){var c=this.J(a,b);if(this.Oa&&a.A)return this.kb.remove(c);a.A&&!this.$a&&(this.M[c]=null);return(a.A?this.Ra:this.Xb).remove(c)};
+h.set=function(a,b,c){var d=this.J(a,c);if(this.Oa&&a.A)return this.kb.set(d,b);var e=this,f=a.A?this.Ra:this.Xb;return f.set(d,b).then(function(){return f.get(d)}).then(function(b){a.A&&!this.$a&&(e.M[d]=b)})};h.addListener=function(a,b,c){a=this.J(a,b);this.$a||(this.M[a]=l.localStorage.getItem(a));Ta(this.L)&&this.Hc();this.L[a]||(this.L[a]=[]);this.L[a].push(c)};
+h.removeListener=function(a,b,c){a=this.J(a,b);this.L[a]&&(La(this.L[a],function(a){return a==c}),0==this.L[a].length&&delete this.L[a]);Ta(this.L)&&this.Vb()};h.Hc=function(){this.Oa?this.kb.ta(this.ad):(this.Ra.ta(this.fd),this.$a||uh(this))};
+var uh=function(a){vh(a);a.tc=setInterval(function(){for(var b in a.L){var c=l.localStorage.getItem(b);c!=a.M[b]&&(a.M[b]=c,c=new Mb({type:"storage",key:b,target:window,oldValue:a.M[b],newValue:c}),a.gd(c))}},2E3)},vh=function(a){a.tc&&(clearInterval(a.tc),a.tc=null)};rh.prototype.Vb=function(){this.Oa?this.kb.Ea(this.ad):(this.Ra.Ea(this.fd),this.$a||vh(this))};
+rh.prototype.gd=function(a){var b=a.Bb.key;if(this.we){var c=l.localStorage.getItem(b);a=a.Bb.newValue;a!=c&&(a?l.localStorage.setItem(b,a):a||l.localStorage.removeItem(b))}this.M[b]=l.localStorage.getItem(b);this.Nc(b)};rh.prototype.fe=function(a){w(a,q(this.Nc,this))};rh.prototype.Nc=function(a){this.L[a]&&w(this.L[a],function(a){a()})};var wh=function(a){this.B=a;this.w=th()},xh={name:"pendingRedirect",A:!1},yh=function(a){return a.w.set(xh,"pending",a.B)},zh=function(a){return a.w.remove(xh,a.B)},Ah=function(a){return a.w.get(xh,a.B).then(function(a){return"pending"==a})};var Dh=function(a,b,c){var d=this,e=(this.ua=firebase.SDK_VERSION||null)?nf(this.ua):null;this.c=new S(b,null,e);this.Qa=null;this.U=a;this.u=b;this.aa=c;this.tb=[];this.rc=!1;this.Id=q(this.Vd,this);this.Ua=new Bh(this);this.ld=new Ch(this);this.xc=new wh(this.u+":"+this.aa);this.bb={};this.bb.unknown=this.Ua;this.bb.signInViaRedirect=this.Ua;this.bb.linkViaRedirect=this.Ua;this.bb.signInViaPopup=this.ld;this.bb.linkViaPopup=this.ld;this.ue=this.Rb=null;this.qe=new H(function(a,b){d.Rb=a;d.ue=b})},
+Eh=function(a){var b=bf();return jg(a).then(function(a){a:{for(var d=(b instanceof Ke?b.clone():new Ke(b,void 0)).ka,e=0;e<a.length;e++){var f;var g=a[e];f=d;var k=Pc(g);k?f=(f=Pc(f))?k.Ab(f):!1:(k=g.split(".").join("\\."),f=(new RegExp("^(.+\\."+k+"|"+k+")$","i")).test(f));if(f){a=!0;break a}}a=!1}if(!a)throw new Q("unauthorized-domain");})},Fh=function(a){a.rc||(a.rc=!0,kf().then(function(){a.be=new Ng(a.U,a.u,a.aa,a.ua);a.be.dc.push(a.Id)}));return a.qe};
+Dh.prototype.subscribe=function(a){Ia(this.tb,a)||this.tb.push(a);if(!this.rc){var b=this,c=function(){var a=df(),c;(c=rf(a))||(a=a||df(),c="Safari"==ef(a)||a.toLowerCase().match(/iphone|ipad|ipod/)?!1:!0);c?Gh(b.Ua):Fh(b)};Ah(this.xc).then(function(a){a?zh(b.xc).then(function(){Fh(b)}):c()}).F(function(){c()})}};Dh.prototype.unsubscribe=function(a){La(this.tb,function(b){return b==a})};
+Dh.prototype.Vd=function(a){if(!a)throw new Q("invalid-auth-event");this.Rb&&(this.Rb(),this.Rb=null);for(var b=!1,c=0;c<this.tb.length;c++){var d=this.tb[c];if(d.Oc(a.ra,a.wa)){(b=this.bb[a.ra])&&b.md(a,d);b=!0;break}}Gh(this.Ua);return b};Dh.prototype.getRedirectResult=function(){return this.Ua.getRedirectResult()};
+var Ih=function(a,b,c,d,e,f){var g=Fh(a);if(f)return I();if(!b)return J(new Q("popup-blocked"));a.Qa||(a.Qa=Eh(a.c));return a.Qa.then(function(){return g}).then(function(){Hh(d);var f=Og(a.U,a.u,a.aa,c,d.providerId,d.Eb(),null,e,a.ua);Gb((b||l.window).location,f)})},Jh=function(a,b,c,d){a.Qa||(a.Qa=Eh(a.c));return a.Qa.then(function(){Hh(c);var e=Og(a.U,a.u,a.aa,b,c.providerId,c.Eb(),bf(),d,a.ua);yh(a.xc).then(function(){Gb(l.window.location,e)})})},Kh=function(a,b,c,d){var e=new Q("popup-closed-by-user");
+return jf(c).then(function(){return te(3E4).then(function(){a.Fa(b,null,e,d)})})},Hh=function(a){if(!a.isOAuthProvider)throw new Q("invalid-oauth-provider");},Lh={},Mh=function(a,b,c){var d=b+":"+c;Lh[d]||(Lh[d]=new Dh(a,b,c));return Lh[d]},Bh=function(a){this.w=a;this.Cc=this.Pb=this.Va=this.T=null;this.Bc=!1};
+Bh.prototype.md=function(a,b){if(!a)return J(new Q("invalid-auth-event"));this.Bc=!0;var c=a.ra,d=a.wa;"unknown"==c?(this.T||Nh(this,!1,null,null),c=I()):c=a.I?this.zc(a,b):b.hb(c,d)?this.Ac(a,b):J(new Q("invalid-auth-event"));return c};var Gh=function(a){a.Bc||(a.Bc=!0,Nh(a,!1,null,null))};Bh.prototype.zc=function(a){this.T||Nh(this,!0,null,a.getError());return I()};
+Bh.prototype.Ac=function(a,b){var c=this,d=a.ra,e=b.hb(d,a.wa),f=a.cb,g=a.Tb,k="signInViaRedirect"==d||"linkViaRedirect"==d;return this.T?I():e(f,g).then(function(a){c.T||Nh(c,k,a,null)}).F(function(a){c.T||Nh(c,k,null,a)})};var Nh=function(a,b,c,d){b?d?(a.T=function(){return J(d)},a.Pb&&a.Pb(d)):(a.T=function(){return I(c)},a.Va&&a.Va(c)):(a.T=function(){return I({user:null})},a.Va&&a.Va({user:null}));a.Va=null;a.Pb=null};
+Bh.prototype.getRedirectResult=function(){var a=this;this.Mc||(this.Mc=new H(function(b,c){a.T?a.T().then(b,c):(a.Va=b,a.Pb=c,Oh(a))}));return this.Mc};var Oh=function(a){var b=new Q("timeout");a.Cc&&a.Cc.cancel();a.Cc=te(3E4).then(function(){a.T||Nh(a,!0,null,b)})},Ch=function(a){this.w=a};Ch.prototype.md=function(a,b){if(!a)return J(new Q("invalid-auth-event"));var c=a.ra,d=a.wa;return a.I?this.zc(a,b):b.hb(c,d)?this.Ac(a,b):J(new Q("invalid-auth-event"))};
+Ch.prototype.zc=function(a,b){b.Fa(a.ra,null,a.getError(),a.wa);return I()};Ch.prototype.Ac=function(a,b){var c=a.wa,d=a.ra;return b.hb(d,c)(a.cb,a.Tb).then(function(a){b.Fa(d,a,null,c)}).F(function(a){b.Fa(d,null,a,c)})};var Ph=function(a){this.c=a;this.Ia=this.fa=null;this.La=0};Ph.prototype.G=function(){return{apiKey:this.c.u,refreshToken:this.fa,accessToken:this.Ia,expirationTime:this.La}};var Rh=function(a,b){var c=b.idToken,d=b.refreshToken,e=Qh(b.expiresIn);a.Ia=c;a.La=e;a.fa=d},Qh=function(a){return la()+1E3*parseInt(a,10)},Sh=function(a,b){return bg(a.c,b).then(function(b){a.Ia=b.access_token;a.La=Qh(b.expires_in);a.fa=b.refresh_token;return{accessToken:a.Ia,expirationTime:a.La,refreshToken:a.fa}})};
+Ph.prototype.getToken=function(a){return a||!this.Ia||la()>this.La-3E4?this.fa?Sh(this,{grant_type:"refresh_token",refresh_token:this.fa}):I(null):I({accessToken:this.Ia,expirationTime:this.La,refreshToken:this.fa})};var Th=function(a,b,c,d,e){wf(this,{uid:a,displayName:d||null,photoURL:e||null,email:c||null,providerId:b})},Uh=function(a,b){Lb.call(this,a);for(var c in b)this[c]=b[c]};r(Uh,Lb);
+var V=function(a,b,c){this.S=[];this.u=a.apiKey;this.aa=a.appName;this.U=a.authDomain||null;a=firebase.SDK_VERSION?nf(firebase.SDK_VERSION):null;this.c=new S(this.u,null,a);this.qa=new Ph(this.c);Vh(this,b.idToken);Rh(this.qa,b);P(this,"refreshToken",this.qa.fa);Wh(this,c||{});Wd.call(this);this.Mb=!1;this.U&&qf()&&(this.s=Mh(this.U,this.u,this.aa));this.Ub=[]};r(V,Wd);
+var Vh=function(a,b){a.cd=b;P(a,"_lat",b)},Xh=function(a,b){La(a.Ub,function(a){return a==b})},Yh=function(a){for(var b=[],c=0;c<a.Ub.length;c++)b.push(a.Ub[c](a));return sd(b).then(function(){return a})},Zh=function(a){a.s&&!a.Mb&&(a.Mb=!0,a.s.subscribe(a))},Wh=function(a,b){wf(a,{uid:b.uid,displayName:b.displayName||null,photoURL:b.photoURL||null,email:b.email||null,emailVerified:b.emailVerified||!1,isAnonymous:b.isAnonymous||!1,providerData:[]})};P(V.prototype,"providerId","firebase");
+var $h=function(){},ai=function(a){return I().then(function(){if(a.Nd)throw new Q("app-deleted");})},bi=function(a){return Ea(a.providerData,function(a){return a.providerId})},di=function(a,b){b&&(ci(a,b.providerId),a.providerData.push(b))},ci=function(a,b){La(a.providerData,function(a){return a.providerId==b})},ei=function(a,b,c){("uid"!=b||c)&&a.hasOwnProperty(b)&&P(a,b,c)};
+V.prototype.copy=function(a){var b=this;b!=a&&(wf(this,{uid:a.uid,displayName:a.displayName,photoURL:a.photoURL,email:a.email,emailVerified:a.emailVerified,isAnonymous:a.isAnonymous,providerData:[]}),w(a.providerData,function(a){di(b,a)}),this.qa=a.qa,P(this,"refreshToken",this.qa.fa))};V.prototype.reload=function(){var a=this;return ai(this).then(function(){return fi(a).then(function(){return Yh(a)}).then($h)})};
+var fi=function(a){return a.getToken().then(function(b){var c=a.isAnonymous;return gi(a,b).then(function(){c||ei(a,"isAnonymous",!1);return b}).F(function(b){"auth/user-token-expired"==b.code&&(a.dispatchEvent(new Uh("userDeleted")),hi(a));throw b;})})};V.prototype.getToken=function(a){var b=this;return ai(this).then(function(){return b.qa.getToken(a)}).then(function(a){if(!a)throw new Q("internal-error");a.accessToken!=b.cd&&(Vh(b,a.accessToken),b.la());ei(b,"refreshToken",a.refreshToken);return a.accessToken})};
+var ii=function(a,b){b.idToken&&a.cd!=b.idToken&&(Rh(a.qa,b),a.la(),Vh(a,b.idToken))};V.prototype.la=function(){this.dispatchEvent(new Uh("tokenChanged"))};var gi=function(a,b){return R(a.c,Bg,{idToken:b}).then(q(a.se,a))};
+V.prototype.se=function(a){a=a.users;if(!a||!a.length)throw new Q("internal-error");a=a[0];Wh(this,{uid:a.localId,displayName:a.displayName,photoURL:a.photoUrl,email:a.email,emailVerified:!!a.emailVerified});for(var b=ji(a),c=0;c<b.length;c++)di(this,b[c]);ei(this,"isAnonymous",!(this.email&&a.passwordHash)&&!(this.providerData&&this.providerData.length))};
+var ji=function(a){return(a=a.providerUserInfo)&&a.length?Ea(a,function(a){return new Th(a.rawId,a.providerId,a.email,a.displayName,a.photoUrl)}):[]};V.prototype.reauthenticate=function(a){var b=this;return this.f(a.Db(this.c).then(function(a){var d;a:{var e=a.idToken.split(".");if(3==e.length){for(var e=e[1],f=(4-e.length%4)%4,g=0;g<f;g++)e+=".";try{var k=lc(tb(e));if(k.sub&&k.iss&&k.aud&&k.exp){d=new Df(k);break a}}catch(p){}}d=null}if(!d||b.uid!=d.ke)throw new Q("user-mismatch");ii(b,a);return b.reload()}))};
+var ki=function(a,b){return fi(a).then(function(){if(Ia(bi(a),b))return Yh(a).then(function(){throw new Q("provider-already-linked");})})};h=V.prototype;h.link=function(a){var b=this;return this.f(ki(this,a.provider).then(function(){return b.getToken()}).then(function(c){return a.ed(b.c,c)}).then(q(this.Uc,this)))};h.Uc=function(a){ii(this,a);var b=this;return this.reload().then(function(){return b})};
+h.updateEmail=function(a){var b=this;return this.f(this.getToken().then(function(c){return b.c.updateEmail(c,a)}).then(function(a){ii(b,a);return b.reload()}))};h.updatePassword=function(a){var b=this;return this.f(this.getToken().then(function(c){return b.c.updatePassword(c,a)}).then(function(a){ii(b,a);return b.reload()}))};
+h.updateProfile=function(a){if(void 0===a.displayName&&void 0===a.photoURL)return ai(this);var b=this;return this.f(this.getToken().then(function(c){return b.c.updateProfile(c,{displayName:a.displayName,photoUrl:a.photoURL})}).then(function(a){ii(b,a);ei(b,"displayName",a.displayName||null);ei(b,"photoURL",a.photoUrl||null);return Yh(b)}).then($h))};
+h.unlink=function(a){var b=this;return this.f(fi(this).then(function(c){return Ia(bi(b),a)?rg(b.c,c,[a]).then(function(a){var c={};w(a.providerUserInfo||[],function(a){c[a.providerId]=!0});w(bi(b),function(a){c[a]||ci(b,a)});return Yh(b)}):Yh(b).then(function(){throw new Q("no-such-provider");})}))};h["delete"]=function(){var a=this;return this.f(this.getToken().then(function(b){return R(a.c,Ag,{idToken:b})}).then(function(){a.dispatchEvent(new Uh("userDeleted"))})).then(function(){hi(a)})};
+h.Oc=function(a,b){return"linkViaPopup"==a&&(this.da||null)==b&&this.X||"linkViaRedirect"==a&&(this.Ob||null)==b?!0:!1};h.Fa=function(a,b,c,d){"linkViaPopup"==a&&d==(this.da||null)&&(c&&this.Ba?this.Ba(c):b&&!c&&this.X&&this.X(b),this.Ca&&(this.Ca.cancel(),this.Ca=null),delete this.X,delete this.Ba)};h.hb=function(a,b){return"linkViaPopup"==a&&b==(this.da||null)||"linkViaRedirect"==a&&(this.Ob||null)==b?q(this.Qd,this):null};h.Cb=function(){return pf(this.uid+":::")};
+h.linkWithPopup=function(a){if(!qf())return J(new Q("operation-not-supported-in-this-environment"));var b=this,c=Af(a.providerId),d=this.Cb(),e=null;!rf()&&this.U&&a.isOAuthProvider&&(e=Og(this.U,this.u,this.aa,"linkViaPopup",a.providerId,a.Eb(),null,d,firebase.SDK_VERSION||null));var f=hf(e,c&&c.rb,c&&c.qb),c=ki(this,a.providerId).then(function(){return Yh(b)}).then(function(){li(b);return b.getToken()}).then(function(){return Ih(b.s,f,"linkViaPopup",a,d,!!e)}).then(function(){return new H(function(a,
+c){b.Fa("linkViaPopup",null,new Q("cancelled-popup-request"),b.da||null);b.X=a;b.Ba=c;b.da=d;b.Ca=Kh(b,"linkViaPopup",f,d)})}).then(function(a){f&&gf(f);return a}).F(function(a){f&&gf(f);throw a;});return this.f(c)};
+h.linkWithRedirect=function(a){if(!qf())return J(new Q("operation-not-supported-in-this-environment"));var b=this,c=null,d=this.Cb(),e=ki(this,a.providerId).then(function(){li(b);return b.getToken()}).then(function(){b.Ob=d;return Yh(b)}).then(function(a){b.Da&&(a=b.Da,a=a.w.set(mi,b.G(),a.B));return a}).then(function(){return Jh(b.s,"linkViaRedirect",a,d)}).F(function(a){c=a;if(b.Da)return ni(b.Da);throw c;}).then(function(){if(c)throw c;});return this.f(e)};
+var li=function(a){if(a.s&&a.Mb)return;if(a.s&&!a.Mb)throw new Q("internal-error");throw new Q("auth-domain-config-required");};V.prototype.Qd=function(a,b){var c=this,d=null,e=this.getToken().then(function(d){return R(c.c,Hf,{requestUri:a,sessionId:b,idToken:d})}).then(function(a){d=Sf(a);return c.Uc(a)}).then(function(a){return{user:a,credential:d}});return this.f(e)};
+V.prototype.sendEmailVerification=function(){var a=this;return this.f(this.getToken().then(function(b){return a.c.sendEmailVerification(b)}).then(function(b){if(a.email!=b)return a.reload()}).then(function(){}))};var hi=function(a){for(var b=0;b<a.S.length;b++)a.S[b].cancel("app-deleted");a.S=[];a.Nd=!0;P(a,"refreshToken",null);a.s&&a.s.unsubscribe(a)};V.prototype.f=function(a){var b=this;this.S.push(a);vd(a,function(){Ka(b.S,a)});return a};V.prototype.toJSON=function(){return this.G()};
+V.prototype.G=function(){var a={uid:this.uid,displayName:this.displayName,photoURL:this.photoURL,email:this.email,emailVerified:this.emailVerified,isAnonymous:this.isAnonymous,providerData:[],apiKey:this.u,appName:this.aa,authDomain:this.U,stsTokenManager:this.qa.G(),redirectEventId:this.Ob||null};w(this.providerData,function(b){a.providerData.push(xf(b))});return a};
+var oi=function(a){if(!a.apiKey)return null;var b={apiKey:a.apiKey,authDomain:a.authDomain,appName:a.appName},c={};if(a.stsTokenManager&&a.stsTokenManager.accessToken&&a.stsTokenManager.refreshToken&&a.stsTokenManager.expirationTime)c.idToken=a.stsTokenManager.accessToken,c.refreshToken=a.stsTokenManager.refreshToken,c.expiresIn=(a.stsTokenManager.expirationTime-la())/1E3;else return null;var d=new V(b,c,a);a.providerData&&w(a.providerData,function(a){if(a){var b={};wf(b,a);di(d,b)}});a.redirectEventId&&
+(d.Ob=a.redirectEventId);return d},pi=function(a,b,c){var d=new V(a,b);c&&(d.Da=c);return d.reload().then(function(){return d})};var qi=function(a){this.B=a;this.w=th()},mi={name:"redirectUser",A:!1},ni=function(a){return a.w.remove(mi,a.B)},ri=function(a,b){return a.w.get(mi,a.B).then(function(a){a&&b&&(a.authDomain=b);return oi(a||{})})};var si=function(a){this.B=a;this.w=th()},ti={name:"authUser",A:!0},ui=function(a){return a.w.remove(ti,a.B)},vi=function(a,b){return a.w.get(ti,a.B).then(function(a){a&&b&&(a.authDomain=b);return oi(a||{})})};var X=function(a){this.ic=!1;P(this,"app",a);if(W(this).options&&W(this).options.apiKey)a=firebase.SDK_VERSION?nf(firebase.SDK_VERSION):null,this.c=new S(W(this).options&&W(this).options.apiKey,null,a);else throw new Q("invalid-api-key");this.S=[];this.fb=[];this.oe=firebase.INTERNAL.createSubscribe(q(this.ge,this));wi(this,null);this.sa=new si(W(this).options.apiKey+":"+W(this).name);this.Wa=new qi(W(this).options.apiKey+":"+W(this).name);this.P=this.f(xi(this));this.mb=!1;this.Xc=q(this.Be,this);
+this.vd=q(this.Na,this);this.wd=q(this.$d,this);this.ud=q(this.Zd,this);yi(this);this.INTERNAL={};this.INTERNAL["delete"]=q(this["delete"],this)};X.prototype.toJSON=function(){return{apiKey:W(this).options.apiKey,authDomain:W(this).options.authDomain,appName:W(this).name,currentUser:Z(this)&&Z(this).G()}};
+var zi=function(a){return a.Od||J(new Q("auth-domain-config-required"))},yi=function(a){var b=W(a).options.authDomain,c=W(a).options.apiKey;b&&qf()&&(a.Od=a.P.then(function(){a.s=Mh(b,c,W(a).name);a.s.subscribe(a);Z(a)&&Zh(Z(a));a.Dc&&(Zh(a.Dc),a.Dc=null);return a.s}))};h=X.prototype;h.Oc=function(a,b){switch(a){case "unknown":case "signInViaRedirect":return!0;case "signInViaPopup":return this.da==b&&!!this.X;default:return!1}};
+h.Fa=function(a,b,c,d){"signInViaPopup"==a&&this.da==d&&(c&&this.Ba?this.Ba(c):b&&!c&&this.X&&this.X(b),this.Ca&&(this.Ca.cancel(),this.Ca=null),delete this.X,delete this.Ba)};h.hb=function(a,b){return"signInViaRedirect"==a||"signInViaPopup"==a&&this.da==b&&this.X?q(this.Rd,this):null};
+h.Rd=function(a,b){var c=this,d=null,e=Ff(c.c,{requestUri:a,sessionId:b}).then(function(a){d=Sf(a);return a}),f=c.P.then(function(){return e}).then(function(a){return Ai(c,a)}).then(function(){return{user:Z(c),credential:d}});return this.f(f)};h.Cb=function(){return pf()};
+h.signInWithPopup=function(a){if(!qf())return J(new Q("operation-not-supported-in-this-environment"));var b=this,c=Af(a.providerId),d=this.Cb(),e=null;!rf()&&W(this).options.authDomain&&a.isOAuthProvider&&(e=Og(W(this).options.authDomain,W(this).options.apiKey,W(this).name,"signInViaPopup",a.providerId,a.Eb(),null,d,firebase.SDK_VERSION||null));var f=hf(e,c&&c.rb,c&&c.qb),c=zi(this).then(function(b){return Ih(b,f,"signInViaPopup",a,d,!!e)}).then(function(){return new H(function(a,c){b.Fa("signInViaPopup",
+null,new Q("cancelled-popup-request"),b.da);b.X=a;b.Ba=c;b.da=d;b.Ca=Kh(b,"signInViaPopup",f,d)})}).then(function(a){f&&gf(f);return a}).F(function(a){f&&gf(f);throw a;});return this.f(c)};h.signInWithRedirect=function(a){if(!qf())return J(new Q("operation-not-supported-in-this-environment"));var b=this,c=zi(this).then(function(){return Jh(b.s,"signInViaRedirect",a)});return this.f(c)};
+h.getRedirectResult=function(){if(!qf())return J(new Q("operation-not-supported-in-this-environment"));var a=this,b=zi(this).then(function(){return a.s.getRedirectResult()});return this.f(b)};
+var Ai=function(a,b){var c={};c.apiKey=W(a).options.apiKey;c.authDomain=W(a).options.authDomain;c.appName=W(a).name;return a.P.then(function(){return pi(c,b,a.Wa)}).then(function(b){if(Z(a)&&b.uid==Z(a).uid)return Z(a).copy(b),a.Na(b);wi(a,b);Zh(b);return a.Na(b)}).then(function(){a.la()})},wi=function(a,b){Z(a)&&(Xh(Z(a),a.vd),fc(Z(a),"tokenChanged",a.wd),fc(Z(a),"userDeleted",a.ud));b&&(b.Ub.push(a.vd),Xb(b,"tokenChanged",a.wd),Xb(b,"userDeleted",a.ud));P(a,"currentUser",b)};
+X.prototype.signOut=function(){var a=this,b=this.P.then(function(){if(!Z(a))return I();wi(a,null);return ui(a.sa).then(function(){a.la()})});return this.f(b)};
+var Bi=function(a){var b=ri(a.Wa,W(a).options.authDomain).then(function(b){if(a.Dc=b)b.Da=a.Wa;return ni(a.Wa)});return a.f(b)},xi=function(a){var b=W(a).options.authDomain,c=vd(Bi(a).then(function(){return vi(a.sa,b)}).then(function(b){return b?(b.Da=a.Wa,b.reload().then(function(){return b}).F(function(c){return"auth/network-request-failed"==c.code?b:ui(a.sa)})):null}).then(function(b){wi(a,b||null);a.mb=!0;a.la()}),function(){if(!a.ic){a.mb=!0;var b=a.sa;b.w.addListener(ti,b.B,a.Xc)}});return a.f(c)};
+X.prototype.Be=function(){var a=this;return vi(this.sa,W(this).options.authDomain).then(function(b){if(!a.ic){var c;if(c=Z(a)&&b){c=Z(a).uid;var d=b.uid;c=void 0===c||null===c||""===c||void 0===d||null===d||""===d?!1:c==d}if(c)return Z(a).copy(b),Z(a).getToken();wi(a,b);b&&(Zh(b),b.Da=a.Wa);a.s.subscribe(a);a.la()}})};X.prototype.Na=function(a){var b=this.sa;return b.w.set(ti,a.G(),b.B)};X.prototype.$d=function(){this.mb=!0;this.la();this.Na(Z(this))};X.prototype.Zd=function(){this.signOut()};
+var Ci=function(a,b){return a.f(b.then(function(b){return Ai(a,b)}).then(function(){return Z(a)}))};h=X.prototype;h.ge=function(a){var b=this;this.addAuthTokenListener(function(){a.next(Z(b))})};h.onAuthStateChanged=function(a,b,c){var d=this;this.mb&&firebase.Promise.resolve().then(function(){n(a)?a(Z(d)):n(a.next)&&a.next(Z(d))});return this.oe(a,b,c)};h.getToken=function(a){var b=this,c=this.P.then(function(){return Z(b)?Z(b).getToken(a).then(function(a){return{accessToken:a}}):null});return this.f(c)};
+h.signInWithCustomToken=function(a){var b=this;return this.P.then(function(){return Ci(b,R(b.c,Cg,{token:a}))}).then(function(a){ei(a,"isAnonymous",!1);return b.Na(a)}).then(function(){return Z(b)})};h.signInWithEmailAndPassword=function(a,b){var c=this;return this.P.then(function(){return Ci(c,R(c.c,Of,{email:a,password:b}))})};h.createUserWithEmailAndPassword=function(a,b){var c=this;return this.P.then(function(){return Ci(c,R(c.c,zg,{email:a,password:b}))})};
+h.signInWithCredential=function(a){var b=this;return this.P.then(function(){return Ci(b,a.Db(b.c))})};h.signInAnonymously=function(){var a=Z(this),b=this;return a&&a.isAnonymous?I(a):this.P.then(function(){return Ci(b,b.c.signInAnonymously())}).then(function(a){ei(a,"isAnonymous",!0);return b.Na(a)}).then(function(){return Z(b)})};var W=function(a){return a.app},Z=function(a){return a.currentUser};h=X.prototype;
+h.la=function(){for(var a=0;a<this.fb.length;a++)if(this.fb[a])this.fb[a](Z(this)&&Z(this)._lat||null)};h.addAuthTokenListener=function(a){this.fb.push(a);var b=this;this.mb&&this.P.then(function(){a(Z(b)&&Z(b)._lat||null)})};h.removeAuthTokenListener=function(a){La(this.fb,function(b){return b==a})};h["delete"]=function(){this.ic=!0;for(var a=0;a<this.S.length;a++)this.S[a].cancel("app-deleted");this.S=[];this.sa&&(a=this.sa,a.w.removeListener(ti,a.B,this.Xc));this.s&&this.s.unsubscribe(this)};
+h.f=function(a){var b=this;this.S.push(a);vd(a,function(){Ka(b.S,a)});return a};h.fetchProvidersForEmail=function(a){return this.f(hg(this.c,a))};h.verifyPasswordResetCode=function(a){return this.checkActionCode(a).then(function(a){return a.data.email})};h.confirmPasswordReset=function(a,b){return this.f(this.c.confirmPasswordReset(a,b).then(function(){}))};h.checkActionCode=function(a){return this.f(this.c.checkActionCode(a).then(function(a){return{data:{email:a.email}}}))};h.applyActionCode=function(a){return this.f(this.c.applyActionCode(a).then(function(){}))};
+h.sendPasswordResetEmail=function(a){return this.f(this.c.sendPasswordResetEmail(a).then(function(){}))};ih(X.prototype,{applyActionCode:{name:"applyActionCode",b:[T("code")]},checkActionCode:{name:"checkActionCode",b:[T("code")]},confirmPasswordReset:{name:"confirmPasswordReset",b:[T("code"),T("newPassword")]},createUserWithEmailAndPassword:{name:"createUserWithEmailAndPassword",b:[T("email"),T("password")]},fetchProvidersForEmail:{name:"fetchProvidersForEmail",b:[T("email")]},getRedirectResult:{name:"getRedirectResult",b:[]},onAuthStateChanged:{name:"onAuthStateChanged",b:[gh(bh(),ch(),"nextOrObserver"),
+ch("opt_error",!0),ch("opt_completed",!0)]},sendPasswordResetEmail:{name:"sendPasswordResetEmail",b:[T("email")]},signInAnonymously:{name:"signInAnonymously",b:[]},signInWithCredential:{name:"signInWithCredential",b:[eh()]},signInWithCustomToken:{name:"signInWithCustomToken",b:[T("token")]},signInWithEmailAndPassword:{name:"signInWithEmailAndPassword",b:[T("email"),T("password")]},signInWithPopup:{name:"signInWithPopup",b:[fh()]},signInWithRedirect:{name:"signInWithRedirect",b:[fh()]},signOut:{name:"signOut",
 b:[]},toJSON:{name:"toJSON",b:[T(null,!0)]},verifyPasswordResetCode:{name:"verifyPasswordResetCode",b:[T("code")]}});
-gh(V.prototype,{"delete":{name:"delete",b:[]},getToken:{name:"getToken",b:[{name:"opt_forceRefresh",Y:"a boolean",optional:!0,Z:function(a){return"boolean"==typeof a}}]},link:{name:"link",b:[ch()]},linkWithPopup:{name:"linkWithPopup",b:[dh()]},linkWithRedirect:{name:"linkWithRedirect",b:[dh()]},reauthenticate:{name:"reauthenticate",b:[ch()]},reload:{name:"reload",b:[]},sendEmailVerification:{name:"sendEmailVerification",b:[]},toJSON:{name:"toJSON",b:[T(null,!0)]},unlink:{name:"unlink",b:[T("provider")]},
-updateEmail:{name:"updateEmail",b:[T("email")]},updatePassword:{name:"updatePassword",b:[T("password")]},updateProfile:{name:"updateProfile",b:[$g("profile")]}});gh(H.prototype,{N:{name:"catch"},then:{name:"then"}});U(Pf,"credential",function(a,b){return new Mf(a,b)},[T("email"),T("password")]);gh(If.prototype,{addScope:{name:"addScope",b:[T("scope")]}});U(If,"credential",If.credential,[eh(T(),$g(),"token")]);gh(Jf.prototype,{addScope:{name:"addScope",b:[T("scope")]}});
-U(Jf,"credential",Jf.credential,[eh(T(),$g(),"token")]);gh(Kf.prototype,{addScope:{name:"addScope",b:[T("scope")]}});U(Kf,"credential",Kf.credential,[eh(T(),eh($g(),bh()),"idToken"),eh(T(),bh(),"accessToken",!0)]);U(Lf,"credential",Lf.credential,[eh(T(),$g(),"token"),T("secret",!0)]);
-(function(){if("undefined"!==typeof firebase&&firebase.INTERNAL&&firebase.INTERNAL.registerService){var a={Auth:X,Error:Q};U(a,"EmailAuthProvider",Pf,[]);U(a,"FacebookAuthProvider",If,[]);U(a,"GithubAuthProvider",Jf,[]);U(a,"GoogleAuthProvider",Kf,[]);U(a,"TwitterAuthProvider",Lf,[]);firebase.INTERNAL.registerService("auth",function(a,c){var d=new X(a);c({INTERNAL:{getToken:q(d.getToken,d),addAuthTokenListener:q(d.addAuthTokenListener,d),removeAuthTokenListener:q(d.removeAuthTokenListener,d)}});return d},
+ih(V.prototype,{"delete":{name:"delete",b:[]},getToken:{name:"getToken",b:[{name:"opt_forceRefresh",Z:"a boolean",optional:!0,$:function(a){return"boolean"==typeof a}}]},link:{name:"link",b:[eh()]},linkWithPopup:{name:"linkWithPopup",b:[fh()]},linkWithRedirect:{name:"linkWithRedirect",b:[fh()]},reauthenticate:{name:"reauthenticate",b:[eh()]},reload:{name:"reload",b:[]},sendEmailVerification:{name:"sendEmailVerification",b:[]},toJSON:{name:"toJSON",b:[T(null,!0)]},unlink:{name:"unlink",b:[T("provider")]},
+updateEmail:{name:"updateEmail",b:[T("email")]},updatePassword:{name:"updatePassword",b:[T("password")]},updateProfile:{name:"updateProfile",b:[bh("profile")]}});ih(H.prototype,{F:{name:"catch"},then:{name:"then"}});U(Qf,"credential",function(a,b){return new Nf(a,b)},[T("email"),T("password")]);ih(Jf.prototype,{addScope:{name:"addScope",b:[T("scope")]}});U(Jf,"credential",Jf.credential,[gh(T(),bh(),"token")]);ih(Kf.prototype,{addScope:{name:"addScope",b:[T("scope")]}});
+U(Kf,"credential",Kf.credential,[gh(T(),bh(),"token")]);ih(Lf.prototype,{addScope:{name:"addScope",b:[T("scope")]}});U(Lf,"credential",Lf.credential,[gh(T(),gh(bh(),dh()),"idToken"),gh(T(),dh(),"accessToken",!0)]);U(Mf,"credential",Mf.credential,[gh(T(),bh(),"token"),T("secret",!0)]);
+(function(){if("undefined"!==typeof firebase&&firebase.INTERNAL&&firebase.INTERNAL.registerService){var a={Auth:X,Error:Q};U(a,"EmailAuthProvider",Qf,[]);U(a,"FacebookAuthProvider",Jf,[]);U(a,"GithubAuthProvider",Kf,[]);U(a,"GoogleAuthProvider",Lf,[]);U(a,"TwitterAuthProvider",Mf,[]);firebase.INTERNAL.registerService("auth",function(a,c){var d=new X(a);c({INTERNAL:{getToken:q(d.getToken,d),addAuthTokenListener:q(d.addAuthTokenListener,d),removeAuthTokenListener:q(d.removeAuthTokenListener,d)}});return d},
 a);firebase.INTERNAL.registerAppHook(function(a,c){"create"===a&&c.auth()});firebase.INTERNAL.extendNamespace({User:V})}else throw Error("Cannot find the firebase namespace; be sure to include firebase-app.js before this library.");})();})();
 (function() {var g,n=this;function p(a){return void 0!==a}function aa(){}function ba(a){a.Wb=function(){return a.af?a.af:a.af=new a}}
 function ca(a){var b=typeof a;if("object"==b)if(a){if(a instanceof Array)return"array";if(a instanceof Object)return b;var c=Object.prototype.toString.call(a);if("[object Window]"==c)return"object";if("[object Array]"==c||"number"==typeof a.length&&"undefined"!=typeof a.splice&&"undefined"!=typeof a.propertyIsEnumerable&&!a.propertyIsEnumerable("splice"))return"array";if("[object Function]"==c||"undefined"!=typeof a.call&&"undefined"!=typeof a.propertyIsEnumerable&&!a.propertyIsEnumerable("call"))return"function"}else return"null";
@@ -44831,7 +47543,7 @@ ra.STATE_CHANGED="state_changed";sa.RUNNING="running";sa.PAUSED="paused";sa.SUCC
 
 }).call(this,typeof global !== "undefined" ? global : typeof self !== "undefined" ? self : typeof window !== "undefined" ? window : {})
 
-},{}],346:[function(require,module,exports){
+},{}],349:[function(require,module,exports){
 "use strict";
 var dom_1 = require('../util/dom');
 var util_1 = require('../util/util');
@@ -45704,7 +48416,7 @@ var CSS_VALUE_REGEX = /(^-?\d*\.?\d*)(.*)/;
 var SUPPORTS_WILL_CHANGE = (typeof document.documentElement.style['willChange'] !== 'undefined');
 var AnimationRegistry = {};
 
-},{"../util/dom":450,"../util/util":458}],347:[function(require,module,exports){
+},{"../util/dom":453,"../util/util":461}],350:[function(require,module,exports){
 "use strict";
 var __extends = (this && this.__extends) || function (d, b) {
     for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p];
@@ -45761,7 +48473,7 @@ var FadeOut = (function (_super) {
 }(animation_1.Animation));
 animation_1.Animation.register('fade-out', FadeOut);
 
-},{"./animation":346}],348:[function(require,module,exports){
+},{"./animation":349}],351:[function(require,module,exports){
 "use strict";
 var action_sheet_1 = require('./components/action-sheet/action-sheet');
 exports.ActionSheet = action_sheet_1.ActionSheet;
@@ -45888,7 +48600,7 @@ exports.Footer = toolbar_1.Footer;
 var virtual_scroll_1 = require('./components/virtual-scroll/virtual-scroll');
 exports.VirtualScroll = virtual_scroll_1.VirtualScroll;
 
-},{"./components/action-sheet/action-sheet":349,"./components/alert/alert":350,"./components/app/app":351,"./components/backdrop/backdrop":352,"./components/badge/badge":353,"./components/button/button":354,"./components/checkbox/checkbox":355,"./components/content/content":356,"./components/datetime/datetime":357,"./components/icon/icon":358,"./components/img/img":359,"./components/infinite-scroll/infinite-scroll":361,"./components/infinite-scroll/infinite-scroll-content":360,"./components/input/input":363,"./components/item/item":370,"./components/item/item-reorder":367,"./components/item/item-sliding":369,"./components/label/label":371,"./components/list/list":372,"./components/loading/loading":373,"./components/menu/menu":379,"./components/menu/menu-close":374,"./components/menu/menu-controller":375,"./components/menu/menu-toggle":377,"./components/menu/menu-types":378,"./components/modal/modal":380,"./components/nav/nav":387,"./components/nav/nav-controller":381,"./components/nav/nav-params":382,"./components/nav/nav-pop":383,"./components/nav/nav-push":385,"./components/nav/view-controller":389,"./components/navbar/navbar":390,"./components/option/option":391,"./components/picker/picker":392,"./components/popover/popover":393,"./components/radio/radio-button":394,"./components/radio/radio-group":395,"./components/range/range":396,"./components/refresher/refresher":398,"./components/refresher/refresher-content":397,"./components/scroll/scroll":399,"./components/searchbar/searchbar":400,"./components/segment/segment":401,"./components/select/select":402,"./components/show-hide-when/show-hide-when":403,"./components/slides/slides":404,"./components/spinner/spinner":406,"./components/tabs/tab":409,"./components/tabs/tabs":410,"./components/tap-click/tap-click":413,"./components/toast/toast":414,"./components/toggle/toggle":415,"./components/toolbar/toolbar":418,"./components/virtual-scroll/virtual-scroll":420}],349:[function(require,module,exports){
+},{"./components/action-sheet/action-sheet":352,"./components/alert/alert":353,"./components/app/app":354,"./components/backdrop/backdrop":355,"./components/badge/badge":356,"./components/button/button":357,"./components/checkbox/checkbox":358,"./components/content/content":359,"./components/datetime/datetime":360,"./components/icon/icon":361,"./components/img/img":362,"./components/infinite-scroll/infinite-scroll":364,"./components/infinite-scroll/infinite-scroll-content":363,"./components/input/input":366,"./components/item/item":373,"./components/item/item-reorder":370,"./components/item/item-sliding":372,"./components/label/label":374,"./components/list/list":375,"./components/loading/loading":376,"./components/menu/menu":382,"./components/menu/menu-close":377,"./components/menu/menu-controller":378,"./components/menu/menu-toggle":380,"./components/menu/menu-types":381,"./components/modal/modal":383,"./components/nav/nav":390,"./components/nav/nav-controller":384,"./components/nav/nav-params":385,"./components/nav/nav-pop":386,"./components/nav/nav-push":388,"./components/nav/view-controller":392,"./components/navbar/navbar":393,"./components/option/option":394,"./components/picker/picker":395,"./components/popover/popover":396,"./components/radio/radio-button":397,"./components/radio/radio-group":398,"./components/range/range":399,"./components/refresher/refresher":401,"./components/refresher/refresher-content":400,"./components/scroll/scroll":402,"./components/searchbar/searchbar":403,"./components/segment/segment":404,"./components/select/select":405,"./components/show-hide-when/show-hide-when":406,"./components/slides/slides":407,"./components/spinner/spinner":409,"./components/tabs/tab":412,"./components/tabs/tabs":413,"./components/tap-click/tap-click":416,"./components/toast/toast":417,"./components/toggle/toggle":418,"./components/toolbar/toolbar":421,"./components/virtual-scroll/virtual-scroll":423}],352:[function(require,module,exports){
 "use strict";
 var __extends = (this && this.__extends) || function (d, b) {
     for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p];
@@ -46333,7 +49045,7 @@ var ActionSheetWpSlideOut = (function (_super) {
 transition_1.Transition.register('action-sheet-wp-slide-out', ActionSheetWpSlideOut);
 var actionSheetIds = -1;
 
-},{"../../animations/animation":346,"../../config/config":423,"../../transitions/transition":443,"../../util/key":454,"../../util/util":458,"../nav/nav-params":382,"../nav/view-controller":389,"@angular/core":166}],350:[function(require,module,exports){
+},{"../../animations/animation":349,"../../config/config":426,"../../transitions/transition":446,"../../util/key":457,"../../util/util":461,"../nav/nav-params":385,"../nav/view-controller":392,"@angular/core":167}],353:[function(require,module,exports){
 "use strict";
 var __extends = (this && this.__extends) || function (d, b) {
     for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p];
@@ -46987,7 +49699,7 @@ var AlertWpPopOut = (function (_super) {
 transition_1.Transition.register('alert-wp-pop-out', AlertWpPopOut);
 var alertIds = -1;
 
-},{"../../animations/animation":346,"../../config/config":423,"../../transitions/transition":443,"../../util/key":454,"../../util/util":458,"../nav/nav-params":382,"../nav/view-controller":389,"@angular/core":166}],351:[function(require,module,exports){
+},{"../../animations/animation":349,"../../config/config":426,"../../transitions/transition":446,"../../util/key":457,"../../util/util":461,"../nav/nav-params":385,"../nav/view-controller":392,"@angular/core":167}],354:[function(require,module,exports){
 "use strict";
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -47200,7 +49912,7 @@ var App = (function () {
 }());
 exports.App = App;
 
-},{"../../config/config":423,"../../platform/platform":433,"../../util/click-block":447,"@angular/core":166,"@angular/platform-browser":286}],352:[function(require,module,exports){
+},{"../../config/config":426,"../../platform/platform":436,"../../util/click-block":450,"@angular/core":167,"@angular/platform-browser":289}],355:[function(require,module,exports){
 "use strict";
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -47276,7 +49988,7 @@ var Backdrop = (function () {
 }());
 exports.Backdrop = Backdrop;
 
-},{"../../util/util":458,"@angular/core":166}],353:[function(require,module,exports){
+},{"../../util/util":461,"@angular/core":167}],356:[function(require,module,exports){
 "use strict";
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -47336,7 +50048,7 @@ var Badge = (function () {
 }());
 exports.Badge = Badge;
 
-},{"../../config/config":423,"@angular/core":166}],354:[function(require,module,exports){
+},{"../../config/config":426,"@angular/core":167}],357:[function(require,module,exports){
 "use strict";
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -47762,7 +50474,7 @@ var IGNORE_ATTRS = /_ng|button|left|right/;
 var TEXT = 1;
 var ICON = 2;
 
-},{"../../config/config":423,"../../util/util":458,"@angular/core":166}],355:[function(require,module,exports){
+},{"../../config/config":426,"../../util/util":461,"@angular/core":167}],358:[function(require,module,exports){
 "use strict";
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -47980,7 +50692,7 @@ var Checkbox = (function () {
 }());
 exports.Checkbox = Checkbox;
 
-},{"../../util/form":453,"../../util/util":458,"../item/item":370,"@angular/common":20,"@angular/core":166}],356:[function(require,module,exports){
+},{"../../util/form":456,"../../util/util":461,"../item/item":373,"@angular/common":20,"@angular/core":167}],359:[function(require,module,exports){
 "use strict";
 var __extends = (this && this.__extends) || function (d, b) {
     for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p];
@@ -48511,7 +51223,7 @@ function parsePxUnit(val) {
     return (val.indexOf('px') > 0) ? parseInt(val, 10) : 0;
 }
 
-},{"../../config/config":423,"../../util/dom":450,"../../util/keyboard":455,"../../util/scroll-view":456,"../../util/util":458,"../app/app":351,"../ion":365,"../nav/view-controller":389,"../tabs/tabs":410,"@angular/core":166}],357:[function(require,module,exports){
+},{"../../config/config":426,"../../util/dom":453,"../../util/keyboard":458,"../../util/scroll-view":459,"../../util/util":461,"../app/app":354,"../ion":368,"../nav/view-controller":392,"../tabs/tabs":413,"@angular/core":167}],360:[function(require,module,exports){
 "use strict";
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -49338,7 +52050,7 @@ function convertToArrayOfStrings(input, type) {
     }
 }
 
-},{"../../config/config":423,"../../util/datetime-util":448,"../../util/form":453,"../../util/util":458,"../item/item":370,"../nav/nav-controller":381,"../picker/picker":392,"@angular/common":20,"@angular/core":166}],358:[function(require,module,exports){
+},{"../../config/config":426,"../../util/datetime-util":451,"../../util/form":456,"../../util/util":461,"../item/item":373,"../nav/nav-controller":384,"../picker/picker":395,"@angular/common":20,"@angular/core":167}],361:[function(require,module,exports){
 "use strict";
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -49523,7 +52235,7 @@ var Icon = (function () {
 }());
 exports.Icon = Icon;
 
-},{"../../config/config":423,"@angular/core":166}],359:[function(require,module,exports){
+},{"../../config/config":426,"@angular/core":167}],362:[function(require,module,exports){
 "use strict";
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -49711,7 +52423,7 @@ function getUnitValue(val) {
     return '';
 }
 
-},{"../../platform/platform":433,"../../util/dom":450,"../../util/util":458,"@angular/core":166}],360:[function(require,module,exports){
+},{"../../platform/platform":436,"../../util/dom":453,"../../util/util":461,"@angular/core":167}],363:[function(require,module,exports){
 "use strict";
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -49769,7 +52481,7 @@ var InfiniteScrollContent = (function () {
 }());
 exports.InfiniteScrollContent = InfiniteScrollContent;
 
-},{"../../config/config":423,"./infinite-scroll":361,"@angular/core":166}],361:[function(require,module,exports){
+},{"../../config/config":426,"./infinite-scroll":364,"@angular/core":167}],364:[function(require,module,exports){
 "use strict";
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -50035,7 +52747,7 @@ var STATE_ENABLED = 'enabled';
 var STATE_DISABLED = 'disabled';
 var STATE_LOADING = 'loading';
 
-},{"../content/content":356,"@angular/core":166}],362:[function(require,module,exports){
+},{"../content/content":359,"@angular/core":167}],365:[function(require,module,exports){
 "use strict";
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -50585,7 +53297,7 @@ function getScrollAssistDuration(distanceToScroll) {
     return Math.min(400, Math.max(150, duration));
 }
 
-},{"../../util/dom":450,"../../util/util":458,"./native-input":364,"@angular/core":166}],363:[function(require,module,exports){
+},{"../../util/dom":453,"../../util/util":461,"./native-input":367,"@angular/core":167}],366:[function(require,module,exports){
 "use strict";
 var __extends = (this && this.__extends) || function (d, b) {
     for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p];
@@ -50807,7 +53519,7 @@ var TextArea = (function (_super) {
 }(input_base_1.InputBase));
 exports.TextArea = TextArea;
 
-},{"../../config/config":423,"../../platform/platform":433,"../../util/form":453,"../app/app":351,"../content/content":356,"../item/item":370,"../nav/nav-controller":381,"./input-base":362,"./native-input":364,"@angular/common":20,"@angular/core":166}],364:[function(require,module,exports){
+},{"../../config/config":426,"../../platform/platform":436,"../../util/form":456,"../app/app":354,"../content/content":359,"../item/item":373,"../nav/nav-controller":384,"./input-base":365,"./native-input":367,"@angular/common":20,"@angular/core":167}],367:[function(require,module,exports){
 "use strict";
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -51036,7 +53748,7 @@ var NextInput = (function () {
 }());
 exports.NextInput = NextInput;
 
-},{"../../config/config":423,"../../util/dom":450,"@angular/common":20,"@angular/core":166}],365:[function(require,module,exports){
+},{"../../config/config":426,"../../util/dom":453,"@angular/common":20,"@angular/core":167}],368:[function(require,module,exports){
 "use strict";
 var dom_1 = require('../util/dom');
 var ids = 0;
@@ -51072,7 +53784,7 @@ var Ion = (function () {
 }());
 exports.Ion = Ion;
 
-},{"../util/dom":450}],366:[function(require,module,exports){
+},{"../util/dom":453}],369:[function(require,module,exports){
 "use strict";
 var ui_event_manager_1 = require('../../util/ui-event-manager');
 var dom_1 = require('../../util/dom');
@@ -51200,7 +53912,7 @@ function indexForItem(element) {
     return element['$ionIndex'];
 }
 
-},{"../../util/dom":450,"../../util/ui-event-manager":457}],367:[function(require,module,exports){
+},{"../../util/dom":453,"../../util/ui-event-manager":460}],370:[function(require,module,exports){
 "use strict";
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -51401,7 +54113,7 @@ var ItemReorder = (function () {
 }());
 exports.ItemReorder = ItemReorder;
 
-},{"../../util/dom":450,"../../util/util":458,"../content/content":356,"../item/item-reorder-gesture":366,"./item":370,"@angular/core":166}],368:[function(require,module,exports){
+},{"../../util/dom":453,"../../util/util":461,"../content/content":359,"../item/item-reorder-gesture":369,"./item":373,"@angular/core":167}],371:[function(require,module,exports){
 "use strict";
 var __extends = (this && this.__extends) || function (d, b) {
     for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p];
@@ -51515,7 +54227,7 @@ function isFromOptionButtons(ele) {
     return !!dom_1.closest(ele, 'ion-item-options', true);
 }
 
-},{"../../gestures/drag-gesture":427,"../../util/dom":450}],369:[function(require,module,exports){
+},{"../../gestures/drag-gesture":430,"../../util/dom":453}],372:[function(require,module,exports){
 "use strict";
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -51998,7 +54710,7 @@ function shouldClose(isCloseDirection, isMovingFast, isOnCloseZone) {
     return shouldClose;
 }
 
-},{"../../util/dom":450,"../../util/util":458,"../list/list":372,"./item":370,"@angular/core":166}],370:[function(require,module,exports){
+},{"../../util/dom":453,"../../util/util":461,"../list/list":375,"./item":373,"@angular/core":167}],373:[function(require,module,exports){
 "use strict";
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -52450,7 +55162,7 @@ var ItemContent = (function () {
 }());
 exports.ItemContent = ItemContent;
 
-},{"../../util/form":453,"../button/button":354,"../icon/icon":358,"../item/item-reorder":367,"../label/label":371,"@angular/core":166}],371:[function(require,module,exports){
+},{"../../util/form":456,"../button/button":357,"../icon/icon":361,"../item/item-reorder":370,"../label/label":374,"@angular/core":167}],374:[function(require,module,exports){
 "use strict";
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -52571,7 +55283,7 @@ var Label = (function () {
 }());
 exports.Label = Label;
 
-},{"@angular/core":166}],372:[function(require,module,exports){
+},{"@angular/core":167}],375:[function(require,module,exports){
 "use strict";
 var __extends = (this && this.__extends) || function (d, b) {
     for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p];
@@ -52739,7 +55451,7 @@ var ListHeader = (function () {
 }());
 exports.ListHeader = ListHeader;
 
-},{"../../util/util":458,"../ion":365,"../item/item-sliding-gesture":368,"@angular/core":166}],373:[function(require,module,exports){
+},{"../../util/util":461,"../ion":368,"../item/item-sliding-gesture":371,"@angular/core":167}],376:[function(require,module,exports){
 "use strict";
 var __extends = (this && this.__extends) || function (d, b) {
     for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p];
@@ -53068,7 +55780,7 @@ var LoadingWpPopOut = (function (_super) {
 transition_1.Transition.register('loading-wp-pop-out', LoadingWpPopOut);
 var loadingIds = -1;
 
-},{"../../animations/animation":346,"../../config/config":423,"../../transitions/transition":443,"../../util/util":458,"../nav/nav-params":382,"../nav/view-controller":389,"@angular/core":166}],374:[function(require,module,exports){
+},{"../../animations/animation":349,"../../config/config":426,"../../transitions/transition":446,"../../util/util":461,"../nav/nav-params":385,"../nav/view-controller":392,"@angular/core":167}],377:[function(require,module,exports){
 "use strict";
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -53136,7 +55848,7 @@ var MenuClose = (function () {
 }());
 exports.MenuClose = MenuClose;
 
-},{"./menu-controller":375,"@angular/core":166}],375:[function(require,module,exports){
+},{"./menu-controller":378,"@angular/core":167}],378:[function(require,module,exports){
 "use strict";
 /**
  * @name MenuController
@@ -53417,7 +56129,7 @@ var MenuController = (function () {
 exports.MenuController = MenuController;
 var menuTypes = {};
 
-},{}],376:[function(require,module,exports){
+},{}],379:[function(require,module,exports){
 "use strict";
 var __extends = (this && this.__extends) || function (d, b) {
     for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p];
@@ -53545,7 +56257,7 @@ var MenuTargetGesture = (function (_super) {
 }(MenuContentGesture));
 exports.MenuTargetGesture = MenuTargetGesture;
 
-},{"../../gestures/slide-edge-gesture":430,"../../util/util":458}],377:[function(require,module,exports){
+},{"../../gestures/slide-edge-gesture":433,"../../util/util":461}],380:[function(require,module,exports){
 "use strict";
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -53704,7 +56416,7 @@ var MenuToggle = (function () {
 }());
 exports.MenuToggle = MenuToggle;
 
-},{"../nav/view-controller":389,"../navbar/navbar":390,"./menu-controller":375,"@angular/core":166}],378:[function(require,module,exports){
+},{"../nav/view-controller":392,"../navbar/navbar":393,"./menu-controller":378,"@angular/core":167}],381:[function(require,module,exports){
 "use strict";
 var __extends = (this && this.__extends) || function (d, b) {
     for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p];
@@ -53850,7 +56562,7 @@ var MenuOverlayType = (function (_super) {
 }(MenuType));
 menu_controller_1.MenuController.registerType('overlay', MenuOverlayType);
 
-},{"../../animations/animation":346,"./menu-controller":375}],379:[function(require,module,exports){
+},{"../../animations/animation":349,"./menu-controller":378}],382:[function(require,module,exports){
 "use strict";
 var __extends = (this && this.__extends) || function (d, b) {
     for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p];
@@ -54458,7 +57170,7 @@ var Menu = (function (_super) {
 }(ion_1.Ion));
 exports.Menu = Menu;
 
-},{"../../config/config":423,"../../platform/platform":433,"../../util/keyboard":455,"../../util/util":458,"../backdrop/backdrop":352,"../ion":365,"./menu-controller":375,"./menu-gestures":376,"@angular/core":166}],380:[function(require,module,exports){
+},{"../../config/config":426,"../../platform/platform":436,"../../util/keyboard":458,"../../util/util":461,"../backdrop/backdrop":355,"../ion":368,"./menu-controller":378,"./menu-gestures":379,"@angular/core":167}],383:[function(require,module,exports){
 "use strict";
 var __extends = (this && this.__extends) || function (d, b) {
     for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p];
@@ -54797,7 +57509,7 @@ var ModalMDSlideOut = (function (_super) {
 }(page_transition_1.PageTransition));
 page_transition_1.PageTransition.register('modal-md-slide-out', ModalMDSlideOut);
 
-},{"../../animations/animation":346,"../../config/bootstrap":422,"../../transitions/page-transition":439,"../../util/dom":450,"../../util/key":454,"../../util/util":458,"../nav/nav-params":382,"../nav/view-controller":389,"@angular/core":166}],381:[function(require,module,exports){
+},{"../../animations/animation":349,"../../config/bootstrap":425,"../../transitions/page-transition":442,"../../util/dom":453,"../../util/key":457,"../../util/util":461,"../nav/nav-params":385,"../nav/view-controller":392,"@angular/core":167}],384:[function(require,module,exports){
 "use strict";
 var __extends = (this && this.__extends) || function (d, b) {
     for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p];
@@ -56416,7 +59128,7 @@ var INIT_ZINDEX = 100;
 var PORTAL_ZINDEX = 9999;
 var ctrlIds = -1;
 
-},{"../../config/bootstrap":422,"../../transitions/transition":443,"../../util/util":458,"../ion":365,"../menu/menu-controller":375,"./nav-params":382,"./swipe-back":388,"./view-controller":389,"@angular/core":166}],382:[function(require,module,exports){
+},{"../../config/bootstrap":425,"../../transitions/transition":446,"../../util/util":461,"../ion":368,"../menu/menu-controller":378,"./nav-params":385,"./swipe-back":391,"./view-controller":392,"@angular/core":167}],385:[function(require,module,exports){
 "use strict";
 /**
  * @name NavParams
@@ -56471,7 +59183,7 @@ var NavParams = (function () {
 }());
 exports.NavParams = NavParams;
 
-},{}],383:[function(require,module,exports){
+},{}],386:[function(require,module,exports){
 "use strict";
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -56533,7 +59245,7 @@ var NavPop = (function () {
 }());
 exports.NavPop = NavPop;
 
-},{"./nav-controller":381,"@angular/core":166}],384:[function(require,module,exports){
+},{"./nav-controller":384,"@angular/core":167}],387:[function(require,module,exports){
 "use strict";
 var __extends = (this && this.__extends) || function (d, b) {
     for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p];
@@ -56580,7 +59292,7 @@ var NavPortal = (function (_super) {
 }(nav_controller_1.NavController));
 exports.NavPortal = NavPortal;
 
-},{"../../config/config":423,"../../util/keyboard":455,"../app/app":351,"./nav-controller":381,"./view-controller":389,"@angular/core":166}],385:[function(require,module,exports){
+},{"../../config/config":426,"../../util/keyboard":458,"../app/app":354,"./nav-controller":384,"./view-controller":392,"@angular/core":167}],388:[function(require,module,exports){
 "use strict";
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -56684,7 +59396,7 @@ var NavPush = (function () {
 }());
 exports.NavPush = NavPush;
 
-},{"./nav-controller":381,"@angular/core":166}],386:[function(require,module,exports){
+},{"./nav-controller":384,"@angular/core":167}],389:[function(require,module,exports){
 "use strict";
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -56712,7 +59424,7 @@ var NavRouter = (function () {
 }());
 exports.NavRouter = NavRouter;
 
-},{"@angular/core":166}],387:[function(require,module,exports){
+},{"@angular/core":167}],390:[function(require,module,exports){
 "use strict";
 var __extends = (this && this.__extends) || function (d, b) {
     for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p];
@@ -56948,7 +59660,7 @@ var Nav = (function (_super) {
 }(nav_controller_1.NavController));
 exports.Nav = Nav;
 
-},{"../../config/config":423,"../../util/keyboard":455,"../../util/util":458,"../app/app":351,"./nav-controller":381,"./nav-portal":384,"./view-controller":389,"@angular/core":166}],388:[function(require,module,exports){
+},{"../../config/config":426,"../../util/keyboard":458,"../../util/util":461,"../app/app":354,"./nav-controller":384,"./nav-portal":387,"./view-controller":392,"@angular/core":167}],391:[function(require,module,exports){
 "use strict";
 var __extends = (this && this.__extends) || function (d, b) {
     for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p];
@@ -57002,7 +59714,7 @@ var SwipeBackGesture = (function (_super) {
 }(slide_edge_gesture_1.SlideEdgeGesture));
 exports.SwipeBackGesture = SwipeBackGesture;
 
-},{"../../gestures/slide-edge-gesture":430,"../../util/util":458}],389:[function(require,module,exports){
+},{"../../gestures/slide-edge-gesture":433,"../../util/util":461}],392:[function(require,module,exports){
 "use strict";
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -57539,7 +60251,7 @@ function ctrlFn(viewCtrl, fnName) {
     }
 }
 
-},{"../../util/util":458,"./nav-params":382,"@angular/core":166}],390:[function(require,module,exports){
+},{"../../util/util":461,"./nav-params":385,"@angular/core":167}],393:[function(require,module,exports){
 "use strict";
 var __extends = (this && this.__extends) || function (d, b) {
     for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p];
@@ -57790,7 +60502,7 @@ var NavbarTemplate = (function () {
 }());
 exports.NavbarTemplate = NavbarTemplate;
 
-},{"../../config/config":423,"../../util/util":458,"../app/app":351,"../ion":365,"../nav/nav-controller":381,"../nav/view-controller":389,"../toolbar/toolbar":418,"@angular/core":166}],391:[function(require,module,exports){
+},{"../../config/config":426,"../../util/util":461,"../app/app":354,"../ion":368,"../nav/nav-controller":384,"../nav/view-controller":392,"../toolbar/toolbar":421,"@angular/core":167}],394:[function(require,module,exports){
 "use strict";
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -57880,7 +60592,7 @@ var Option = (function () {
 }());
 exports.Option = Option;
 
-},{"../../util/util":458,"@angular/core":166}],392:[function(require,module,exports){
+},{"../../util/util":461,"@angular/core":167}],395:[function(require,module,exports){
 "use strict";
 var __extends = (this && this.__extends) || function (d, b) {
     for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p];
@@ -58447,7 +61159,7 @@ var pickerIds = -1;
 var DECELERATION_FRICTION = 0.97;
 var FRAME_MS = (1000 / 60);
 
-},{"../../animations/animation":346,"../../config/config":423,"../../transitions/transition":443,"../../util/dom":450,"../../util/key":454,"../../util/ui-event-manager":457,"../../util/util":458,"../nav/nav-params":382,"../nav/view-controller":389,"@angular/core":166,"@angular/platform-browser":286}],393:[function(require,module,exports){
+},{"../../animations/animation":349,"../../config/config":426,"../../transitions/transition":446,"../../util/dom":453,"../../util/key":457,"../../util/ui-event-manager":460,"../../util/util":461,"../nav/nav-params":385,"../nav/view-controller":392,"@angular/core":167,"@angular/platform-browser":289}],396:[function(require,module,exports){
 "use strict";
 var __extends = (this && this.__extends) || function (d, b) {
     for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p];
@@ -58902,7 +61614,7 @@ var PopoverMdPopOut = (function (_super) {
 page_transition_1.PageTransition.register('popover-md-pop-out', PopoverMdPopOut);
 var popoverIds = -1;
 
-},{"../../animations/animation":346,"../../config/bootstrap":422,"../../config/config":423,"../../transitions/page-transition":439,"../../util/dom":450,"../../util/key":454,"../../util/util":458,"../nav/nav-params":382,"../nav/view-controller":389,"@angular/core":166}],394:[function(require,module,exports){
+},{"../../animations/animation":349,"../../config/bootstrap":425,"../../config/config":426,"../../transitions/page-transition":442,"../../util/dom":453,"../../util/key":457,"../../util/util":461,"../nav/nav-params":385,"../nav/view-controller":392,"@angular/core":167}],397:[function(require,module,exports){
 "use strict";
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -59100,7 +61812,7 @@ var RadioButton = (function () {
 }());
 exports.RadioButton = RadioButton;
 
-},{"../../util/form":453,"../../util/util":458,"../item/item":370,"./radio-group":395,"@angular/core":166}],395:[function(require,module,exports){
+},{"../../util/form":456,"../../util/util":461,"../item/item":373,"./radio-group":398,"@angular/core":167}],398:[function(require,module,exports){
 "use strict";
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -59324,7 +62036,7 @@ var RadioGroup = (function () {
 exports.RadioGroup = RadioGroup;
 var radioGroupIds = -1;
 
-},{"../../util/util":458,"../list/list":372,"@angular/common":20,"@angular/core":166}],396:[function(require,module,exports){
+},{"../../util/util":461,"../list/list":375,"@angular/common":20,"@angular/core":167}],399:[function(require,module,exports){
 "use strict";
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -60015,7 +62727,7 @@ var Range = (function () {
 }());
 exports.Range = Range;
 
-},{"../../util/debouncer":449,"../../util/dom":450,"../../util/form":453,"../../util/ui-event-manager":457,"../../util/util":458,"../item/item":370,"@angular/common":20,"@angular/core":166}],397:[function(require,module,exports){
+},{"../../util/debouncer":452,"../../util/dom":453,"../../util/form":456,"../../util/ui-event-manager":460,"../../util/util":461,"../item/item":373,"@angular/common":20,"@angular/core":167}],400:[function(require,module,exports){
 "use strict";
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -60090,7 +62802,7 @@ var RefresherContent = (function () {
 }());
 exports.RefresherContent = RefresherContent;
 
-},{"../../config/config":423,"./refresher":398,"@angular/core":166}],398:[function(require,module,exports){
+},{"../../config/config":426,"./refresher":401,"@angular/core":167}],401:[function(require,module,exports){
 "use strict";
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -60567,7 +63279,7 @@ var STATE_REFRESHING = 'refreshing';
 var STATE_CANCELLING = 'cancelling';
 var STATE_COMPLETING = 'completing';
 
-},{"../../util/dom":450,"../../util/ui-event-manager":457,"../../util/util":458,"../content/content":356,"@angular/core":166}],399:[function(require,module,exports){
+},{"../../util/dom":453,"../../util/ui-event-manager":460,"../../util/util":461,"../content/content":359,"@angular/core":167}],402:[function(require,module,exports){
 "use strict";
 var __extends = (this && this.__extends) || function (d, b) {
     for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p];
@@ -60666,7 +63378,7 @@ var Scroll = (function (_super) {
 }(ion_1.Ion));
 exports.Scroll = Scroll;
 
-},{"../ion":365,"@angular/core":166}],400:[function(require,module,exports){
+},{"../ion":368,"@angular/core":167}],403:[function(require,module,exports){
 "use strict";
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -61077,7 +63789,7 @@ var Searchbar = (function () {
 }());
 exports.Searchbar = Searchbar;
 
-},{"../../config/config":423,"../../util/debouncer":449,"../../util/util":458,"@angular/common":20,"@angular/core":166}],401:[function(require,module,exports){
+},{"../../config/config":426,"../../util/debouncer":452,"../../util/util":461,"@angular/common":20,"@angular/core":167}],404:[function(require,module,exports){
 "use strict";
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -61375,7 +64087,7 @@ var Segment = (function () {
 }());
 exports.Segment = Segment;
 
-},{"../../util/util":458,"@angular/common":20,"@angular/core":166}],402:[function(require,module,exports){
+},{"../../util/util":461,"@angular/common":20,"@angular/core":167}],405:[function(require,module,exports){
 "use strict";
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -61857,7 +64569,7 @@ var Select = (function () {
 }());
 exports.Select = Select;
 
-},{"../../util/form":453,"../../util/util":458,"../action-sheet/action-sheet":349,"../alert/alert":350,"../item/item":370,"../nav/nav-controller":381,"../option/option":391,"@angular/common":20,"@angular/core":166}],403:[function(require,module,exports){
+},{"../../util/form":456,"../../util/util":461,"../action-sheet/action-sheet":352,"../alert/alert":353,"../item/item":373,"../nav/nav-controller":384,"../option/option":394,"@angular/common":20,"@angular/core":167}],406:[function(require,module,exports){
 "use strict";
 var __extends = (this && this.__extends) || function (d, b) {
     for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p];
@@ -62041,7 +64753,7 @@ var HideWhen = (function (_super) {
 }(DisplayWhen));
 exports.HideWhen = HideWhen;
 
-},{"../../platform/platform":433,"@angular/core":166}],404:[function(require,module,exports){
+},{"../../platform/platform":436,"@angular/core":167}],407:[function(require,module,exports){
 "use strict";
 var __extends = (this && this.__extends) || function (d, b) {
     for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p];
@@ -62804,7 +65516,7 @@ var SlideLazy = (function () {
 exports.SlideLazy = SlideLazy;
 var slidesId = -1;
 
-},{"../../animations/animation":346,"../../gestures/gesture":428,"../../util":446,"../../util/dom":450,"../../util/util":458,"../ion":365,"./swiper-widget":405,"@angular/core":166}],405:[function(require,module,exports){
+},{"../../animations/animation":349,"../../gestures/gesture":431,"../../util":449,"../../util/dom":453,"../../util/util":461,"../ion":368,"./swiper-widget":408,"@angular/core":167}],408:[function(require,module,exports){
 /**
  * Swiper 3.1.2
  * Most modern mobile touch slider and framework with hardware accelerated transitions
@@ -66760,7 +69472,7 @@ function Swiper(container, params) {
       }
   }
 
-},{}],406:[function(require,module,exports){
+},{}],409:[function(require,module,exports){
 "use strict";
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -67055,7 +69767,7 @@ var SPINNERS = {
     }
 };
 
-},{"../../config/config":423,"@angular/core":166}],407:[function(require,module,exports){
+},{"../../config/config":426,"@angular/core":167}],410:[function(require,module,exports){
 "use strict";
 var __extends = (this && this.__extends) || function (d, b) {
     for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p];
@@ -67134,7 +69846,7 @@ var TabButton = (function (_super) {
 }(ion_1.Ion));
 exports.TabButton = TabButton;
 
-},{"../../config/config":423,"../ion":365,"./tab":409,"@angular/core":166}],408:[function(require,module,exports){
+},{"../../config/config":426,"../ion":368,"./tab":412,"@angular/core":167}],411:[function(require,module,exports){
 "use strict";
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -67178,7 +69890,7 @@ var TabHighlight = (function () {
 }());
 exports.TabHighlight = TabHighlight;
 
-},{"../../util/dom":450,"@angular/core":166}],409:[function(require,module,exports){
+},{"../../util/dom":453,"@angular/core":167}],412:[function(require,module,exports){
 "use strict";
 var __extends = (this && this.__extends) || function (d, b) {
     for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p];
@@ -67532,7 +70244,7 @@ var Tab = (function (_super) {
 }(nav_controller_1.NavController));
 exports.Tab = Tab;
 
-},{"../../config/config":423,"../../util/keyboard":455,"../../util/util":458,"../app/app":351,"../nav/nav-controller":381,"./tabs":410,"@angular/core":166}],410:[function(require,module,exports){
+},{"../../config/config":426,"../../util/keyboard":458,"../../util/util":461,"../app/app":354,"../nav/nav-controller":384,"./tabs":413,"@angular/core":167}],413:[function(require,module,exports){
 "use strict";
 var __extends = (this && this.__extends) || function (d, b) {
     for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p];
@@ -68025,7 +70737,7 @@ var Tabs = (function (_super) {
 exports.Tabs = Tabs;
 var tabIds = -1;
 
-},{"../../config/config":423,"../../platform/platform":433,"../../util/dom":450,"../../util/util":458,"../app/app":351,"../content/content":356,"../ion":365,"../nav/nav-controller":381,"../nav/view-controller":389,"./tab-button":407,"./tab-highlight":408,"@angular/core":166}],411:[function(require,module,exports){
+},{"../../config/config":426,"../../platform/platform":436,"../../util/dom":453,"../../util/util":461,"../app/app":354,"../content/content":359,"../ion":368,"../nav/nav-controller":384,"../nav/view-controller":392,"./tab-button":410,"./tab-highlight":411,"@angular/core":167}],414:[function(require,module,exports){
 "use strict";
 var dom_1 = require('../../util/dom');
 var Activator = (function () {
@@ -68107,7 +70819,7 @@ var Activator = (function () {
 exports.Activator = Activator;
 var CLEAR_STATE_DEFERS = 5;
 
-},{"../../util/dom":450}],412:[function(require,module,exports){
+},{"../../util/dom":453}],415:[function(require,module,exports){
 "use strict";
 var __extends = (this && this.__extends) || function (d, b) {
     for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p];
@@ -68214,7 +70926,7 @@ var RippleActivator = (function (_super) {
 exports.RippleActivator = RippleActivator;
 var TOUCH_DOWN_ACCEL = 300;
 
-},{"../../util/dom":450,"./activator":411}],413:[function(require,module,exports){
+},{"../../util/dom":453,"./activator":414}],416:[function(require,module,exports){
 "use strict";
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -68410,7 +71122,7 @@ var POINTER_TOLERANCE = 4;
 var POINTER_MOVE_UNTIL_CANCEL = 10;
 var DISABLE_NATIVE_CLICK_AMOUNT = 2500;
 
-},{"../../config/config":423,"../../util/dom":450,"../app/app":351,"./activator":411,"./ripple":412,"@angular/core":166}],414:[function(require,module,exports){
+},{"../../config/config":426,"../../util/dom":453,"../app/app":354,"./activator":414,"./ripple":415,"@angular/core":167}],417:[function(require,module,exports){
 "use strict";
 var __extends = (this && this.__extends) || function (d, b) {
     for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p];
@@ -68801,7 +71513,7 @@ transition_1.Transition.register('toast-wp-slide-out', ToastWpPopOut);
 transition_1.Transition.register('toast-wp-slide-in', ToastWpPopIn);
 var toastIds = -1;
 
-},{"../../animations/animation":346,"../../config/config":423,"../../transitions/transition":443,"../../util/util":458,"../nav/nav-controller":381,"../nav/nav-params":382,"../nav/view-controller":389,"@angular/core":166}],415:[function(require,module,exports){
+},{"../../animations/animation":349,"../../config/config":426,"../../transitions/transition":446,"../../util/util":461,"../nav/nav-controller":384,"../nav/nav-params":385,"../nav/view-controller":392,"@angular/core":167}],418:[function(require,module,exports){
 "use strict";
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -69057,7 +71769,7 @@ var Toggle = (function () {
 }());
 exports.Toggle = Toggle;
 
-},{"../../util/dom":450,"../../util/form":453,"../../util/ui-event-manager":457,"../../util/util":458,"../item/item":370,"@angular/common":20,"@angular/core":166}],416:[function(require,module,exports){
+},{"../../util/dom":453,"../../util/form":456,"../../util/ui-event-manager":460,"../../util/util":461,"../item/item":373,"@angular/common":20,"@angular/core":167}],419:[function(require,module,exports){
 "use strict";
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -69111,7 +71823,7 @@ var ToolbarItem = (function () {
 }());
 exports.ToolbarItem = ToolbarItem;
 
-},{"../button/button":354,"../navbar/navbar":390,"./toolbar":418,"@angular/core":166}],417:[function(require,module,exports){
+},{"../button/button":357,"../navbar/navbar":393,"./toolbar":421,"@angular/core":167}],420:[function(require,module,exports){
 "use strict";
 var __extends = (this && this.__extends) || function (d, b) {
     for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p];
@@ -69201,7 +71913,7 @@ var ToolbarTitle = (function (_super) {
 }(ion_1.Ion));
 exports.ToolbarTitle = ToolbarTitle;
 
-},{"../ion":365,"../navbar/navbar":390,"./toolbar":418,"@angular/core":166}],418:[function(require,module,exports){
+},{"../ion":368,"../navbar/navbar":393,"./toolbar":421,"@angular/core":167}],421:[function(require,module,exports){
 "use strict";
 var __extends = (this && this.__extends) || function (d, b) {
     for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p];
@@ -69442,7 +72154,7 @@ var Toolbar = (function (_super) {
 }(ToolbarBase));
 exports.Toolbar = Toolbar;
 
-},{"../../config/config":423,"../ion":365,"../nav/view-controller":389,"@angular/core":166}],419:[function(require,module,exports){
+},{"../../config/config":426,"../ion":368,"../nav/view-controller":392,"@angular/core":167}],422:[function(require,module,exports){
 "use strict";
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -69498,7 +72210,7 @@ var VirtualItem = (function () {
 }());
 exports.VirtualItem = VirtualItem;
 
-},{"@angular/core":166}],420:[function(require,module,exports){
+},{"@angular/core":167}],423:[function(require,module,exports){
 "use strict";
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -70103,7 +72815,7 @@ var SCROLL_END_TIMEOUT_MS = 140;
 var SCROLL_DIFFERENCE_MINIMUM = 20;
 var QUEUE_CHANGE_DETECTION = 0;
 
-},{"../../config/config":423,"../../platform/platform":433,"../../util/dom":450,"../../util/util":458,"../content/content":356,"../img/img":359,"../nav/view-controller":389,"./virtual-item":419,"./virtual-util":421,"@angular/core":166}],421:[function(require,module,exports){
+},{"../../config/config":426,"../../platform/platform":436,"../../util/dom":453,"../../util/util":461,"../content/content":359,"../img/img":362,"../nav/view-controller":392,"./virtual-item":422,"./virtual-util":424,"@angular/core":167}],424:[function(require,module,exports){
 "use strict";
 var dom_1 = require('../../util/dom');
 /**
@@ -70636,7 +73348,7 @@ var TEMPLATE_FOOTER = 2;
 var VIEWABLE_RENDERED_PADDING = 3;
 var REQUIRED_DOM_READS = 2;
 
-},{"../../util/dom":450}],422:[function(require,module,exports){
+},{"../../util/dom":453}],425:[function(require,module,exports){
 "use strict";
 var platform_browser_dynamic_1 = require('@angular/platform-browser-dynamic');
 var core_1 = require('@angular/core');
@@ -70855,7 +73567,7 @@ function addSelector(type, selector) {
 }
 exports.addSelector = addSelector;
 
-},{"../components/app/app":351,"../components/menu/menu-controller":375,"../components/tap-click/tap-click":413,"../platform/platform":433,"../translation/translate":444,"../util/click-block":447,"../util/dom":450,"../util/events":451,"../util/feature-detect":452,"../util/form":453,"../util/keyboard":455,"../util/scroll-view":456,"../util/util":458,"./config":423,"./directives":424,"@angular/core":166,"@angular/http":254,"@angular/platform-browser-dynamic":275}],423:[function(require,module,exports){
+},{"../components/app/app":354,"../components/menu/menu-controller":378,"../components/tap-click/tap-click":416,"../platform/platform":436,"../translation/translate":447,"../util/click-block":450,"../util/dom":453,"../util/events":454,"../util/feature-detect":455,"../util/form":456,"../util/keyboard":458,"../util/scroll-view":459,"../util/util":461,"./config":426,"./directives":427,"@angular/core":167,"@angular/http":257,"@angular/platform-browser-dynamic":278}],426:[function(require,module,exports){
 /**
 * @ngdoc service
 * @name Config
@@ -71187,7 +73899,7 @@ var Config = (function () {
 exports.Config = Config;
 var modeConfigs = {};
 
-},{"../platform/platform":433,"../util/util":458}],424:[function(require,module,exports){
+},{"../platform/platform":436,"../util/util":461}],427:[function(require,module,exports){
 "use strict";
 var common_1 = require('@angular/common');
 var menu_1 = require('../components/menu/menu');
@@ -71378,7 +74090,7 @@ exports.IONIC_DIRECTIVES = [
     show_hide_when_1.HideWhen
 ];
 
-},{"../components/backdrop/backdrop":352,"../components/badge/badge":353,"../components/button/button":354,"../components/checkbox/checkbox":355,"../components/content/content":356,"../components/datetime/datetime":357,"../components/icon/icon":358,"../components/img/img":359,"../components/infinite-scroll/infinite-scroll":361,"../components/infinite-scroll/infinite-scroll-content":360,"../components/input/input":363,"../components/item/item":370,"../components/item/item-reorder":367,"../components/item/item-sliding":369,"../components/label/label":371,"../components/list/list":372,"../components/menu/menu":379,"../components/menu/menu-close":374,"../components/menu/menu-toggle":377,"../components/nav/nav":387,"../components/nav/nav-pop":383,"../components/nav/nav-push":385,"../components/nav/nav-router":386,"../components/navbar/navbar":390,"../components/option/option":391,"../components/radio/radio-button":394,"../components/radio/radio-group":395,"../components/range/range":396,"../components/refresher/refresher":398,"../components/refresher/refresher-content":397,"../components/scroll/scroll":399,"../components/searchbar/searchbar":400,"../components/segment/segment":401,"../components/select/select":402,"../components/show-hide-when/show-hide-when":403,"../components/slides/slides":404,"../components/spinner/spinner":406,"../components/tabs/tab":409,"../components/tabs/tabs":410,"../components/toggle/toggle":415,"../components/toolbar/toolbar":418,"../components/toolbar/toolbar-item":416,"../components/toolbar/toolbar-title":417,"../components/virtual-scroll/virtual-item":419,"../components/virtual-scroll/virtual-scroll":420,"@angular/common":20}],425:[function(require,module,exports){
+},{"../components/backdrop/backdrop":355,"../components/badge/badge":356,"../components/button/button":357,"../components/checkbox/checkbox":358,"../components/content/content":359,"../components/datetime/datetime":360,"../components/icon/icon":361,"../components/img/img":362,"../components/infinite-scroll/infinite-scroll":364,"../components/infinite-scroll/infinite-scroll-content":363,"../components/input/input":366,"../components/item/item":373,"../components/item/item-reorder":370,"../components/item/item-sliding":372,"../components/label/label":374,"../components/list/list":375,"../components/menu/menu":382,"../components/menu/menu-close":377,"../components/menu/menu-toggle":380,"../components/nav/nav":390,"../components/nav/nav-pop":386,"../components/nav/nav-push":388,"../components/nav/nav-router":389,"../components/navbar/navbar":393,"../components/option/option":394,"../components/radio/radio-button":397,"../components/radio/radio-group":398,"../components/range/range":399,"../components/refresher/refresher":401,"../components/refresher/refresher-content":400,"../components/scroll/scroll":402,"../components/searchbar/searchbar":403,"../components/segment/segment":404,"../components/select/select":405,"../components/show-hide-when/show-hide-when":406,"../components/slides/slides":407,"../components/spinner/spinner":409,"../components/tabs/tab":412,"../components/tabs/tabs":413,"../components/toggle/toggle":418,"../components/toolbar/toolbar":421,"../components/toolbar/toolbar-item":419,"../components/toolbar/toolbar-title":420,"../components/virtual-scroll/virtual-item":422,"../components/virtual-scroll/virtual-scroll":423,"@angular/common":20}],428:[function(require,module,exports){
 "use strict";
 var config_1 = require('./config');
 // iOS Mode Settings
@@ -71468,7 +74180,7 @@ config_1.Config.setModeConfig('wp', {
     toastLeave: 'toast-wp-slide-out',
 });
 
-},{"./config":423}],426:[function(require,module,exports){
+},{"./config":426}],429:[function(require,module,exports){
 "use strict";
 var core_1 = require('@angular/core');
 var _reflect = Reflect;
@@ -71491,7 +74203,7 @@ function Page(config) {
 }
 exports.Page = Page;
 
-},{"@angular/core":166}],427:[function(require,module,exports){
+},{"@angular/core":167}],430:[function(require,module,exports){
 "use strict";
 var __extends = (this && this.__extends) || function (d, b) {
     for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p];
@@ -71539,7 +74251,7 @@ var DragGesture = (function (_super) {
 }(gesture_1.Gesture));
 exports.DragGesture = DragGesture;
 
-},{"../util":446,"./gesture":428}],428:[function(require,module,exports){
+},{"../util":449,"./gesture":431}],431:[function(require,module,exports){
 "use strict";
 var util_1 = require('../util');
 var hammer_1 = require('./hammer');
@@ -71607,7 +74319,7 @@ var Gesture = (function () {
 }());
 exports.Gesture = Gesture;
 
-},{"../util":446,"./hammer":429}],429:[function(require,module,exports){
+},{"../util":449,"./hammer":432}],432:[function(require,module,exports){
 "use strict";
 /* tslint:disable */
 var util_1 = require('../util/util');
@@ -73761,7 +76473,7 @@ util_1.assign(Hammer, {
 });
 win.Hammer = Hammer;
 
-},{"../util/util":458}],430:[function(require,module,exports){
+},{"../util/util":461}],433:[function(require,module,exports){
 "use strict";
 var __extends = (this && this.__extends) || function (d, b) {
     for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p];
@@ -73809,7 +76521,7 @@ var SlideEdgeGesture = (function (_super) {
 }(slide_gesture_1.SlideGesture));
 exports.SlideEdgeGesture = SlideEdgeGesture;
 
-},{"../util/dom":450,"../util/util":458,"./slide-gesture":431}],431:[function(require,module,exports){
+},{"../util/dom":453,"../util/util":461,"./slide-gesture":434}],434:[function(require,module,exports){
 "use strict";
 var __extends = (this && this.__extends) || function (d, b) {
     for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p];
@@ -73886,7 +76598,7 @@ var SlideGesture = (function (_super) {
 }(drag_gesture_1.DragGesture));
 exports.SlideGesture = SlideGesture;
 
-},{"../util":446,"./drag-gesture":427}],432:[function(require,module,exports){
+},{"../util":449,"./drag-gesture":430}],435:[function(require,module,exports){
 "use strict";
 function __export(m) {
     for (var p in m) if (!exports.hasOwnProperty(p)) exports[p] = m[p];
@@ -73921,7 +76633,7 @@ require('./transitions/transition-ios');
 require('./transitions/transition-md');
 require('./transitions/transition-wp');
 
-},{"./animations/animation":346,"./animations/builtins":347,"./components":348,"./config/bootstrap":422,"./config/config":423,"./config/directives":424,"./config/modes":425,"./decorators/page":426,"./gestures/drag-gesture":427,"./gestures/gesture":428,"./gestures/slide-edge-gesture":430,"./gestures/slide-gesture":431,"./platform/platform":433,"./platform/registry":434,"./platform/storage":435,"./transitions/page-transition":439,"./transitions/transition":443,"./transitions/transition-ios":440,"./transitions/transition-md":441,"./transitions/transition-wp":442,"./translation/translate":444,"./translation/translate_pipe":445,"./util/click-block":447,"./util/events":451,"./util/form":453,"./util/keyboard":455,"./util/util":458}],433:[function(require,module,exports){
+},{"./animations/animation":349,"./animations/builtins":350,"./components":351,"./config/bootstrap":425,"./config/config":426,"./config/directives":427,"./config/modes":428,"./decorators/page":429,"./gestures/drag-gesture":430,"./gestures/gesture":431,"./gestures/slide-edge-gesture":433,"./gestures/slide-gesture":434,"./platform/platform":436,"./platform/registry":437,"./platform/storage":438,"./transitions/page-transition":442,"./transitions/transition":446,"./transitions/transition-ios":443,"./transitions/transition-md":444,"./transitions/transition-wp":445,"./translation/translate":447,"./translation/translate_pipe":448,"./util/click-block":450,"./util/events":454,"./util/form":456,"./util/keyboard":458,"./util/util":461}],436:[function(require,module,exports){
 "use strict";
 var core_1 = require('@angular/core');
 var util_1 = require('../util/util');
@@ -74632,7 +77344,7 @@ var PlatformNode = (function () {
 var platformRegistry = {};
 var platformDefault = null;
 
-},{"../util/dom":450,"../util/util":458,"@angular/core":166}],434:[function(require,module,exports){
+},{"../util/dom":453,"../util/util":461,"@angular/core":167}],437:[function(require,module,exports){
 "use strict";
 var platform_1 = require('./platform');
 var dom_1 = require('../util/dom');
@@ -74821,7 +77533,7 @@ function isIOSDevice(p) {
     return p.testNavigatorPlatform('iphone|ipad|ipod');
 }
 
-},{"../util/dom":450,"./platform":433}],435:[function(require,module,exports){
+},{"../util/dom":453,"./platform":436}],438:[function(require,module,exports){
 "use strict";
 function __export(m) {
     for (var p in m) if (!exports.hasOwnProperty(p)) exports[p] = m[p];
@@ -74830,7 +77542,7 @@ __export(require('./storage/storage'));
 __export(require('./storage/local-storage'));
 __export(require('./storage/sql'));
 
-},{"./storage/local-storage":436,"./storage/sql":437,"./storage/storage":438}],436:[function(require,module,exports){
+},{"./storage/local-storage":439,"./storage/sql":440,"./storage/storage":441}],439:[function(require,module,exports){
 "use strict";
 var __extends = (this && this.__extends) || function (d, b) {
     for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p];
@@ -74941,7 +77653,7 @@ var LocalStorage = (function (_super) {
 }(storage_1.StorageEngine));
 exports.LocalStorage = LocalStorage;
 
-},{"./storage":438}],437:[function(require,module,exports){
+},{"./storage":441}],440:[function(require,module,exports){
 "use strict";
 var __extends = (this && this.__extends) || function (d, b) {
     for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p];
@@ -75090,7 +77802,7 @@ var SqlStorage = (function (_super) {
 }(storage_1.StorageEngine));
 exports.SqlStorage = SqlStorage;
 
-},{"../../util/util":458,"./storage":438}],438:[function(require,module,exports){
+},{"../../util/util":461,"./storage":441}],441:[function(require,module,exports){
 "use strict";
 /**
  * Storage is an easy way to store key/value pairs and other complicated
@@ -75171,7 +77883,7 @@ var StorageEngine = (function () {
 }());
 exports.StorageEngine = StorageEngine;
 
-},{}],439:[function(require,module,exports){
+},{}],442:[function(require,module,exports){
 "use strict";
 var __extends = (this && this.__extends) || function (d, b) {
     for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p];
@@ -75223,7 +77935,7 @@ function parsePxUnit(val) {
     return (val.indexOf('px') > 0) ? parseInt(val, 10) : 0;
 }
 
-},{"../animations/animation":346,"../components/content/content":356,"./transition":443}],440:[function(require,module,exports){
+},{"../animations/animation":349,"../components/content/content":359,"./transition":446}],443:[function(require,module,exports){
 "use strict";
 var __extends = (this && this.__extends) || function (d, b) {
     for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p];
@@ -75393,7 +78105,7 @@ var IOSTransition = (function (_super) {
 }(page_transition_1.PageTransition));
 page_transition_1.PageTransition.register('ios-transition', IOSTransition);
 
-},{"../animations/animation":346,"./page-transition":439}],441:[function(require,module,exports){
+},{"../animations/animation":349,"./page-transition":442}],444:[function(require,module,exports){
 "use strict";
 var __extends = (this && this.__extends) || function (d, b) {
     for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p];
@@ -75450,7 +78162,7 @@ var MDTransition = (function (_super) {
 }(page_transition_1.PageTransition));
 page_transition_1.PageTransition.register('md-transition', MDTransition);
 
-},{"../animations/animation":346,"./page-transition":439}],442:[function(require,module,exports){
+},{"../animations/animation":349,"./page-transition":442}],445:[function(require,module,exports){
 "use strict";
 var __extends = (this && this.__extends) || function (d, b) {
     for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p];
@@ -75505,7 +78217,7 @@ var WPTransition = (function (_super) {
 }(page_transition_1.PageTransition));
 page_transition_1.PageTransition.register('wp-transition', WPTransition);
 
-},{"../animations/animation":346,"./page-transition":439}],443:[function(require,module,exports){
+},{"../animations/animation":349,"./page-transition":442}],446:[function(require,module,exports){
 "use strict";
 var __extends = (this && this.__extends) || function (d, b) {
     for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p];
@@ -75552,7 +78264,7 @@ var Transition = (function (_super) {
 exports.Transition = Transition;
 var TransitionRegistry = {};
 
-},{"../animations/animation":346}],444:[function(require,module,exports){
+},{"../animations/animation":349}],447:[function(require,module,exports){
 "use strict";
 /**
  * @private
@@ -75617,7 +78329,7 @@ var Translate = (function () {
 }());
 exports.Translate = Translate;
 
-},{}],445:[function(require,module,exports){
+},{}],448:[function(require,module,exports){
 "use strict";
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -75663,7 +78375,7 @@ var TranslatePipe = (function () {
 }());
 exports.TranslatePipe = TranslatePipe;
 
-},{"./translate":444,"@angular/core":166}],446:[function(require,module,exports){
+},{"./translate":447,"@angular/core":167}],449:[function(require,module,exports){
 "use strict";
 function __export(m) {
     for (var p in m) if (!exports.hasOwnProperty(p)) exports[p] = m[p];
@@ -75673,7 +78385,7 @@ exports.dom = domUtil;
 __export(require('./util/util'));
 __export(require('./util/datetime-util'));
 
-},{"./util/datetime-util":448,"./util/dom":450,"./util/util":458}],447:[function(require,module,exports){
+},{"./util/datetime-util":451,"./util/dom":453,"./util/util":461}],450:[function(require,module,exports){
 "use strict";
 var dom_1 = require('./dom');
 var CSS_CLICK_BLOCK = 'click-block-active';
@@ -75726,7 +78438,7 @@ function hide() {
     }
 }
 
-},{"./dom":450}],448:[function(require,module,exports){
+},{"./dom":453}],451:[function(require,module,exports){
 "use strict";
 var util_1 = require('./util');
 function renderDateTime(template, value, locale) {
@@ -76152,7 +78864,7 @@ var MONTH_SHORT_NAMES = [
     'Dec',
 ];
 
-},{"./util":458}],449:[function(require,module,exports){
+},{"./util":461}],452:[function(require,module,exports){
 "use strict";
 var Debouncer = (function () {
     function Debouncer(wait) {
@@ -76179,7 +78891,7 @@ var Debouncer = (function () {
 }());
 exports.Debouncer = Debouncer;
 
-},{}],450:[function(require,module,exports){
+},{}],453:[function(require,module,exports){
 "use strict";
 // RequestAnimationFrame Polyfill (Android 4.3 and below)
 /*! @author Paul Irish */
@@ -76446,7 +79158,7 @@ function flushDimensionCache() {
 exports.flushDimensionCache = flushDimensionCache;
 var dimensionCache = {};
 
-},{}],451:[function(require,module,exports){
+},{}],454:[function(require,module,exports){
 "use strict";
 /**
  * @name Events
@@ -76555,7 +79267,7 @@ var Events = (function () {
 }());
 exports.Events = Events;
 
-},{}],452:[function(require,module,exports){
+},{}],455:[function(require,module,exports){
 "use strict";
 var FeatureDetect = (function () {
     function FeatureDetect() {
@@ -76596,7 +79308,7 @@ FeatureDetect.add('hairlines', function (window, document, body) {
     return canDo;
 });
 
-},{}],453:[function(require,module,exports){
+},{}],456:[function(require,module,exports){
 "use strict";
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -76682,7 +79394,7 @@ var Form = (function () {
 }());
 exports.Form = Form;
 
-},{"@angular/core":166}],454:[function(require,module,exports){
+},{"@angular/core":167}],457:[function(require,module,exports){
 "use strict";
 (function (Key) {
     Key[Key["ENTER"] = 13] = "ENTER";
@@ -76692,7 +79404,7 @@ exports.Form = Form;
 var Key = exports.Key;
 ;
 
-},{}],455:[function(require,module,exports){
+},{}],458:[function(require,module,exports){
 "use strict";
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -76877,7 +79589,7 @@ exports.Keyboard = Keyboard;
 var KEYBOARD_CLOSE_POLLING = 150;
 var KEYBOARD_POLLING_CHECKS_MAX = 100;
 
-},{"../config/config":423,"./dom":450,"./form":453,"./key":454,"@angular/core":166}],456:[function(require,module,exports){
+},{"../config/config":426,"./dom":453,"./form":456,"./key":457,"@angular/core":167}],459:[function(require,module,exports){
 "use strict";
 var dom_1 = require('../util/dom');
 var ScrollView = (function () {
@@ -77104,7 +79816,7 @@ var MIN_VELOCITY_CONTINUE_DECELERATION = 0.12;
 var DECELERATION_FRICTION = 0.97;
 var FRAME_MS = (1000 / 60);
 
-},{"../util/dom":450}],457:[function(require,module,exports){
+},{"../util/dom":453}],460:[function(require,module,exports){
 "use strict";
 /**
  * @private
@@ -77252,7 +79964,7 @@ function listenEvent(ele, eventName, zoneWrapped, option, callback) {
     }
 }
 
-},{}],458:[function(require,module,exports){
+},{}],461:[function(require,module,exports){
 "use strict";
 /**
  * Given a min and max, restrict the given number
@@ -77450,7 +80162,7 @@ function reorderArray(array, indexes) {
 }
 exports.reorderArray = reorderArray;
 
-},{}],459:[function(require,module,exports){
+},{}],462:[function(require,module,exports){
 "use strict";
 function __export(m) {
     for (var p in m) if (!exports.hasOwnProperty(p)) exports[p] = m[p];
@@ -77461,6 +80173,8 @@ var actionsheet_1 = require('./plugins/actionsheet');
 exports.ActionSheet = actionsheet_1.ActionSheet;
 var admob_1 = require('./plugins/admob');
 exports.AdMob = admob_1.AdMob;
+var android_fingerprint_auth_1 = require('./plugins/android-fingerprint-auth');
+exports.AndroidFingerprintAuth = android_fingerprint_auth_1.AndroidFingerprintAuth;
 var appavailability_1 = require('./plugins/appavailability');
 exports.AppAvailability = appavailability_1.AppAvailability;
 var apprate_1 = require('./plugins/apprate');
@@ -77470,6 +80184,7 @@ exports.AppVersion = appversion_1.AppVersion;
 var badge_1 = require('./plugins/badge');
 exports.Badge = badge_1.Badge;
 var background_geolocation_1 = require('./plugins/background-geolocation');
+var backgroundmode_1 = require('./plugins/backgroundmode');
 var barcodescanner_1 = require('./plugins/barcodescanner');
 exports.BarcodeScanner = barcodescanner_1.BarcodeScanner;
 var base64togallery_1 = require('./plugins/base64togallery');
@@ -77484,6 +80199,8 @@ var bluetoothserial_1 = require('./plugins/bluetoothserial');
 exports.BluetoothSerial = bluetoothserial_1.BluetoothSerial;
 var calendar_1 = require('./plugins/calendar');
 var camera_1 = require('./plugins/camera');
+var camera_preview_1 = require('./plugins/camera-preview');
+exports.CameraPreview = camera_preview_1.CameraPreview;
 var card_io_1 = require('./plugins/card-io');
 var clipboard_1 = require('./plugins/clipboard');
 exports.Clipboard = clipboard_1.Clipboard;
@@ -77505,7 +80222,6 @@ exports.Dialogs = dialogs_1.Dialogs;
 var emailcomposer_1 = require('./plugins/emailcomposer');
 exports.EmailComposer = emailcomposer_1.EmailComposer;
 var facebook_1 = require('./plugins/facebook');
-exports.Facebook = facebook_1.Facebook;
 var file_1 = require('./plugins/file');
 exports.File = file_1.File;
 var filetransfer_1 = require('./plugins/filetransfer');
@@ -77524,6 +80240,7 @@ exports.GoogleAnalytics = googleanalytics_1.GoogleAnalytics;
 var hotspot_1 = require('./plugins/hotspot');
 exports.Hotspot = hotspot_1.Hotspot;
 var httpd_1 = require('./plugins/httpd');
+var ibeacon_1 = require('./plugins/ibeacon');
 var imagepicker_1 = require('./plugins/imagepicker');
 var inappbrowser_1 = require('./plugins/inappbrowser');
 var insomnia_1 = require('./plugins/insomnia');
@@ -77532,15 +80249,25 @@ var keyboard_1 = require('./plugins/keyboard');
 exports.Keyboard = keyboard_1.Keyboard;
 var launchnavigator_1 = require('./plugins/launchnavigator');
 var localnotifications_1 = require('./plugins/localnotifications');
+var media_capture_1 = require('./plugins/media-capture');
+var nativestorage_1 = require('./plugins/nativestorage');
+exports.NativeStorage = nativestorage_1.NativeStorage;
 var media_1 = require('./plugins/media');
 var network_1 = require('./plugins/network');
 exports.Network = network_1.Network;
-exports.Connection = network_1.Connection;
+var onesignal_1 = require('./plugins/onesignal');
+exports.OneSignal = onesignal_1.OneSignal;
+var pin_dialog_1 = require('./plugins/pin-dialog');
+exports.PinDialog = pin_dialog_1.PinDialog;
 var printer_1 = require('./plugins/printer');
 var push_1 = require('./plugins/push');
 var safari_view_controller_1 = require('./plugins/safari-view-controller');
 var screenshot_1 = require('./plugins/screenshot');
 exports.Screenshot = screenshot_1.Screenshot;
+var securestorage_1 = require('./plugins/securestorage');
+exports.SecureStorage = securestorage_1.SecureStorage;
+var sim_1 = require('./plugins/sim');
+exports.Sim = sim_1.Sim;
 var sms_1 = require('./plugins/sms');
 var socialsharing_1 = require('./plugins/socialsharing');
 exports.SocialSharing = socialsharing_1.SocialSharing;
@@ -77555,6 +80282,7 @@ var _3dtouch_1 = require('./plugins/3dtouch');
 var toast_1 = require('./plugins/toast');
 var touchid_1 = require('./plugins/touchid');
 exports.TouchID = touchid_1.TouchID;
+var twitter_connect_1 = require('./plugins/twitter-connect');
 var vibration_1 = require('./plugins/vibration');
 exports.Vibration = vibration_1.Vibration;
 var webintent_1 = require('./plugins/webintent');
@@ -77571,29 +80299,36 @@ __export(require('./plugins/datepicker'));
 __export(require('./plugins/device'));
 __export(require('./plugins/devicemotion'));
 __export(require('./plugins/deviceorientation'));
+__export(require('./plugins/facebook'));
+__export(require('./plugins/filetransfer'));
 __export(require('./plugins/googlemaps'));
 __export(require('./plugins/httpd'));
+__export(require('./plugins/ibeacon'));
 __export(require('./plugins/imagepicker'));
 __export(require('./plugins/inappbrowser'));
 __export(require('./plugins/launchnavigator'));
 __export(require('./plugins/localnotifications'));
 __export(require('./plugins/media'));
+__export(require('./plugins/media-capture'));
 __export(require('./plugins/printer'));
 __export(require('./plugins/push'));
 __export(require('./plugins/safari-view-controller'));
 __export(require('./plugins/sms'));
 __export(require('./plugins/spinnerdialog'));
 __export(require('./plugins/toast'));
+__export(require('./plugins/twitter-connect'));
 __export(require('./plugins/plugin'));
 // Window export to use outside of a module loading system
 window['IonicNative'] = {
     ActionSheet: actionsheet_1.ActionSheet,
     AdMob: admob_1.AdMob,
+    AndroidFingerprintAuth: android_fingerprint_auth_1.AndroidFingerprintAuth,
     AppAvailability: appavailability_1.AppAvailability,
     AppRate: apprate_1.AppRate,
     AppVersion: appversion_1.AppVersion,
     Badge: badge_1.Badge,
     BackgroundGeolocation: background_geolocation_1.BackgroundGeolocation,
+    BackgroundMode: backgroundmode_1.BackgroundMode,
     BarcodeScanner: barcodescanner_1.BarcodeScanner,
     Base64ToGallery: base64togallery_1.Base64ToGallery,
     BatteryStatus: batterystatus_1.BatteryStatus,
@@ -77602,9 +80337,9 @@ window['IonicNative'] = {
     BluetoothSerial: bluetoothserial_1.BluetoothSerial,
     Calendar: calendar_1.Calendar,
     Camera: camera_1.Camera,
+    CameraPreview: camera_preview_1.CameraPreview,
     CardIO: card_io_1.CardIO,
     Clipboard: clipboard_1.Clipboard,
-    Connection: network_1.Connection,
     Contacts: contacts_1.Contacts,
     DatePicker: datepicker_1.DatePicker,
     DBMeter: dbmeter_1.DBMeter,
@@ -77626,17 +80361,24 @@ window['IonicNative'] = {
     GoogleAnalytics: googleanalytics_1.GoogleAnalytics,
     Hotspot: hotspot_1.Hotspot,
     Httpd: httpd_1.Httpd,
+    IBeacon: ibeacon_1.IBeacon,
     ImagePicker: imagepicker_1.ImagePicker,
     InAppBrowser: inappbrowser_1.InAppBrowser,
     Keyboard: keyboard_1.Keyboard,
     LaunchNavigator: launchnavigator_1.LaunchNavigator,
     LocalNotifications: localnotifications_1.LocalNotifications,
+    MediaCapture: media_capture_1.MediaCapture,
     MediaPlugin: media_1.MediaPlugin,
+    NativeStorage: nativestorage_1.NativeStorage,
     Network: network_1.Network,
     Printer: printer_1.Printer,
     Push: push_1.Push,
+    OneSignal: onesignal_1.OneSignal,
+    PinDialog: pin_dialog_1.PinDialog,
     SafariViewController: safari_view_controller_1.SafariViewController,
     Screenshot: screenshot_1.Screenshot,
+    SecureStorage: securestorage_1.SecureStorage,
+    Sim: sim_1.Sim,
     SMS: sms_1.SMS,
     SocialSharing: socialsharing_1.SocialSharing,
     SpinnerDialog: spinnerdialog_1.SpinnerDialog,
@@ -77647,6 +80389,7 @@ window['IonicNative'] = {
     Toast: toast_1.Toast,
     TouchID: touchid_1.TouchID,
     Transfer: filetransfer_1.Transfer,
+    TwitterConnect: twitter_connect_1.TwitterConnect,
     Vibration: vibration_1.Vibration,
     WebIntent: webintent_1.WebIntent
 };
@@ -77667,7 +80410,7 @@ setTimeout(function () {
     }
 }, DEVICE_READY_TIMEOUT);
 
-},{"./ng1":460,"./plugins/3dtouch":461,"./plugins/actionsheet":462,"./plugins/admob":463,"./plugins/appavailability":464,"./plugins/apprate":465,"./plugins/appversion":466,"./plugins/background-geolocation":467,"./plugins/backgroundmode":468,"./plugins/badge":469,"./plugins/barcodescanner":470,"./plugins/base64togallery":471,"./plugins/batterystatus":472,"./plugins/ble":473,"./plugins/bluetoothserial":474,"./plugins/brightness":475,"./plugins/calendar":476,"./plugins/camera":477,"./plugins/card-io":478,"./plugins/clipboard":479,"./plugins/contacts":480,"./plugins/datepicker":481,"./plugins/dbmeter":482,"./plugins/deeplinks":483,"./plugins/device":484,"./plugins/deviceaccounts":485,"./plugins/devicemotion":486,"./plugins/deviceorientation":487,"./plugins/diagnostic":488,"./plugins/dialogs":489,"./plugins/emailcomposer":490,"./plugins/facebook":491,"./plugins/file":492,"./plugins/filetransfer":493,"./plugins/flashlight":494,"./plugins/geolocation":495,"./plugins/globalization":496,"./plugins/google-plus":497,"./plugins/googleanalytics":498,"./plugins/googlemaps":499,"./plugins/hotspot":500,"./plugins/httpd":501,"./plugins/imagepicker":502,"./plugins/inappbrowser":503,"./plugins/insomnia":504,"./plugins/keyboard":505,"./plugins/launchnavigator":506,"./plugins/localnotifications":507,"./plugins/media":508,"./plugins/network":509,"./plugins/plugin":510,"./plugins/printer":511,"./plugins/push":512,"./plugins/safari-view-controller":513,"./plugins/screenshot":514,"./plugins/sms":515,"./plugins/socialsharing":516,"./plugins/spinnerdialog":517,"./plugins/splashscreen":518,"./plugins/sqlite":519,"./plugins/statusbar":520,"./plugins/toast":521,"./plugins/touchid":522,"./plugins/vibration":523,"./plugins/webintent":524}],460:[function(require,module,exports){
+},{"./ng1":463,"./plugins/3dtouch":464,"./plugins/actionsheet":465,"./plugins/admob":466,"./plugins/android-fingerprint-auth":467,"./plugins/appavailability":468,"./plugins/apprate":469,"./plugins/appversion":470,"./plugins/background-geolocation":471,"./plugins/backgroundmode":472,"./plugins/badge":473,"./plugins/barcodescanner":474,"./plugins/base64togallery":475,"./plugins/batterystatus":476,"./plugins/ble":477,"./plugins/bluetoothserial":478,"./plugins/brightness":479,"./plugins/calendar":480,"./plugins/camera":482,"./plugins/camera-preview":481,"./plugins/card-io":483,"./plugins/clipboard":484,"./plugins/contacts":485,"./plugins/datepicker":486,"./plugins/dbmeter":487,"./plugins/deeplinks":488,"./plugins/device":489,"./plugins/deviceaccounts":490,"./plugins/devicemotion":491,"./plugins/deviceorientation":492,"./plugins/diagnostic":493,"./plugins/dialogs":494,"./plugins/emailcomposer":495,"./plugins/facebook":496,"./plugins/file":497,"./plugins/filetransfer":498,"./plugins/flashlight":499,"./plugins/geolocation":500,"./plugins/globalization":501,"./plugins/google-plus":502,"./plugins/googleanalytics":503,"./plugins/googlemaps":504,"./plugins/hotspot":505,"./plugins/httpd":506,"./plugins/ibeacon":507,"./plugins/imagepicker":508,"./plugins/inappbrowser":509,"./plugins/insomnia":510,"./plugins/keyboard":511,"./plugins/launchnavigator":512,"./plugins/localnotifications":513,"./plugins/media":515,"./plugins/media-capture":514,"./plugins/nativestorage":516,"./plugins/network":517,"./plugins/onesignal":518,"./plugins/pin-dialog":519,"./plugins/plugin":520,"./plugins/printer":521,"./plugins/push":522,"./plugins/safari-view-controller":523,"./plugins/screenshot":524,"./plugins/securestorage":525,"./plugins/sim":526,"./plugins/sms":527,"./plugins/socialsharing":528,"./plugins/spinnerdialog":529,"./plugins/splashscreen":530,"./plugins/sqlite":531,"./plugins/statusbar":532,"./plugins/toast":533,"./plugins/touchid":534,"./plugins/twitter-connect":535,"./plugins/vibration":536,"./plugins/webintent":537}],463:[function(require,module,exports){
 "use strict";
 /**
  * Initialize the ionic.native Angular module if we're running in ng1.
@@ -77695,7 +80438,7 @@ function initAngular1(plugins) {
 }
 exports.initAngular1 = initAngular1;
 
-},{}],461:[function(require,module,exports){
+},{}],464:[function(require,module,exports){
 "use strict";
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -77711,11 +80454,13 @@ var Observable_1 = require('rxjs/Observable');
  * @usage
  * Please do refer to the original plugin's repo for detailed usage. The usage example here might not be sufficient.
  * ```
- * import {ThreeDeeTouch, ThreeDeeTouchQuickAction, ThreeDeeTouchForceTouch} from 'ionic-native';
+ * import { ThreeDeeTouch } from 'ionic-native';
  *
+ * // import for type completion on variables
+ * import { ThreeDeeTouchQuickAction, ThreeDeeTouchForceTouch } from 'ionic-native';
  * ...
  *
- * ThreeDeeTouch.isAvailable().then(isAvailable => console.log("3D Touch available? " + isAvailable)):
+ * ThreeDeeTouch.isAvailable().then(isAvailable => console.log("3D Touch available? " + isAvailable));
  *
  * ThreeDeeTouch.watchForceTouches()
  *   .subscribe(
@@ -77752,6 +80497,15 @@ var Observable_1 = require('rxjs/Observable');
  *   }
  * ];
  * ThreeDeeTouch.configureQuickActions(actions);
+ *
+ * ThreeDeeTouchForceTouch.onHomeIconPressed().subscribe(
+ *  (payload) => {
+ *    // returns an object that is the button you presed
+ *    console.log('Pressed the ${payload.title} button')
+ *    console.log(payload.type)
+ *
+ *  }
+ * )
  * ```
  */
 var ThreeDeeTouch = (function () {
@@ -77767,6 +80521,13 @@ var ThreeDeeTouch = (function () {
      * @returns {Observable<ThreeDeeTouchForceTouch>} Returns an observable that sends a `ThreeDeeTouchForceTouch` object
      */
     ThreeDeeTouch.watchForceTouches = function () { return; };
+    /**
+     * setup the 3D-touch actions, takes an array of objects with the following
+     * @param {string} type (optional) A type that can be used `onHomeIconPressed` callback
+     * @param {string} title Title for your action
+     * @param {string} subtitle (optional) A short description for your action
+     * @param {string} iconType (optional) Choose between Prohibit, Contact, Home, MarkLocation, Favorite, Love, Cloud, Invitation, Confirmation, Mail, Message, Date, Time, CapturePhoto, CaptureVideo, Task, TaskCompleted, Alarm, Bookmark, Shuffle, Audio, Update
+     */
     ThreeDeeTouch.configureQuickActions = function (quickActions) { };
     /**
      * When a home icon is pressed, your app launches and this JS callback is invoked.
@@ -77783,6 +80544,7 @@ var ThreeDeeTouch = (function () {
         });
     };
     /**
+     * Enable Link Preview.
      * UIWebView and WKWebView (the webviews powering Cordova apps) don't allow the fancy new link preview feature of iOS9.
      */
     ThreeDeeTouch.enableLinkPreview = function () { };
@@ -77805,11 +80567,6 @@ var ThreeDeeTouch = (function () {
     ], ThreeDeeTouch, "configureQuickActions", null);
     __decorate([
         plugin_1.Cordova({
-            observable: true
-        })
-    ], ThreeDeeTouch, "onHomeIconPressed", null);
-    __decorate([
-        plugin_1.Cordova({
             sync: true
         })
     ], ThreeDeeTouch, "enableLinkPreview", null);
@@ -77830,7 +80587,7 @@ var ThreeDeeTouch = (function () {
 }());
 exports.ThreeDeeTouch = ThreeDeeTouch;
 
-},{"./plugin":510,"rxjs/Observable":526}],462:[function(require,module,exports){
+},{"./plugin":520,"rxjs/Observable":539}],465:[function(require,module,exports){
 "use strict";
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -77847,8 +80604,9 @@ var plugin_1 = require('./plugin');
  * Requires Cordova plugin: `cordova-plugin-actionsheet`. For more info, please see the [ActionSheet plugin docs](https://github.com/EddyVerbruggen/cordova-plugin-actionsheet).
  *
  * @usage
- * ```ts
- * import {ActionSheet} from 'ionic-native';
+ * ```typescript
+ * import { ActionSheet } from 'ionic-native';
+ *
  *
  * let buttonLabels = ['Share via Facebook', 'Share via Twitter'];
  * ActionSheet.show({
@@ -77856,38 +80614,42 @@ var plugin_1 = require('./plugin');
  *   'buttonLabels': buttonLabels,
  *   'addCancelButtonWithLabel': 'Cancel',
  *   'addDestructiveButtonWithLabel' : 'Delete'
- * }).then(buttonIndex => {
+ * }).then((buttonIndex: number) => {
  *   console.log('Button pressed: ' + buttonLabels[buttonIndex - 1]);
  * });
  * ```
+ *
+ * @advanced
+ * ActionSheet options
+ *
+ * | Option                        | Type      | Description                                  |
+ * |-------------------------------|-----------|----------------------------------------------|
+ * | title                         |`string`   | The title for the actionsheet                |
+ * | buttonLabels                  |`string[]` | the labels for the buttons. Uses the index x |
+ * | androidTheme                  |`number`   | Theme to be used on Android                  |
+ * | androidEnableCancelButton     |`boolean`  | Enable a cancel on Android                   |
+ * | winphoneEnableCancelButton    |`boolean`  | Enable a cancel on Windows Phone             |
+ * | addCancelButtonWithLabel      |`string`   | Add a cancel button with text                |
+ * | addDestructiveButtonWithLabel |`string`   | Add a destructive button with text           |
+ * | position                      |`number[]` | On an iPad, set the X,Y position             |
+ *
  *
  */
 var ActionSheet = (function () {
     function ActionSheet() {
     }
     /**
-     * Show the ActionSheet. The ActionSheet's options is an object with the following propterties.
-     *
-     * | Option                        | Type      | Description                                  |
-     * |-------------------------------|-----------|----------------------------------------------|
-     * | title                         |`string`   | The title for the actionsheet                |
-     * | buttonLabels                  |`string[]` | the labels for the buttons. Uses the index x |
-     * | androidTheme                  |`number`   | Theme to be used on Android                  |
-     * | androidEnableCancelButton     |`boolean`  | Enable a cancel on Android                   |
-     * | winphoneEnableCancelButton    |`boolean`  | Enable a cancel on Windows Phone             |
-     * | addCancelButtonWithLabel      |`string`   | Add a cancel button with text                |
-     * | addDestructiveButtonWithLabel |`string`   | Add a destructive button with text           |
-     * | position                      |`number[]` | On an iPad, set the X,Y position             |
-     *
-     * @param {options} Options See table above
+     * Show a native ActionSheet component. See below for options.
+     * @param {options} Options See table below
      * @returns {Promise} Returns a Promise that resolves with the index of the
      *   button pressed (1 based, so 1, 2, 3, etc.)
      */
     ActionSheet.show = function (options) { return; };
     /**
-     * Hide the ActionSheet.
+     * Progamtically hide the native ActionSheet
+     * @returns {Promise} Returns a Promise that resolves when the actionsheet is closed
      */
-    ActionSheet.hide = function () { return; };
+    ActionSheet.hide = function (options) { return; };
     __decorate([
         plugin_1.Cordova()
     ], ActionSheet, "show", null);
@@ -77906,7 +80668,7 @@ var ActionSheet = (function () {
 }());
 exports.ActionSheet = ActionSheet;
 
-},{"./plugin":510}],463:[function(require,module,exports){
+},{"./plugin":520}],466:[function(require,module,exports){
 "use strict";
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -78112,7 +80874,75 @@ var AdMob = (function () {
 }());
 exports.AdMob = AdMob;
 
-},{"./plugin":510}],464:[function(require,module,exports){
+},{"./plugin":520}],467:[function(require,module,exports){
+"use strict";
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var plugin_1 = require('./plugin');
+/**
+ * @name Android Fingerprint Auth
+ * @description
+ * This plugin will open a native dialog fragment prompting the user to authenticate using their fingerprint. If the device has a secure lockscreen (pattern, PIN, or password), the user may opt to authenticate using that method as a backup.
+ * @usage
+ * ```typescript
+ * import { AndroidFingerprintAuth } from 'ionic-native';
+ *
+ * AndroidFingerprintAuth.isAvailable()
+ *   .then((result)=> {
+ *     if(result.isAvailable){
+ *       // it is available
+ *
+ *       AndroidFingerprintAuth.show({ clientId: "myAppName", clientSecret: "so_encrypted_much_secure_very_secret" })
+ *         .then(result => {
+ *            if(result.withFingerprint) {
+ *              console.log('Successfully authenticated with fingerprint!');
+ *            } else if(result.withPassword) {
+ *              console.log('Successfully authenticated with backup password!');
+ *            } else console.log('Didn\'t authenticate!');
+ *         })
+ *         .catch(error => console.error(error));
+ *
+ *     } else {
+ *       // fingerprint auth isn't available
+ *     }
+ *   })
+ *   .catch(error => console.error(error));
+ * ```
+ */
+var AndroidFingerprintAuth = (function () {
+    function AndroidFingerprintAuth() {
+    }
+    /**
+     * Opens a native dialog fragment to use the device hardware fingerprint scanner to authenticate against fingerprints registered for the device.
+     * @param params {any}
+     */
+    AndroidFingerprintAuth.show = function (params) { return; };
+    /**
+     * Check if service is available
+     */
+    AndroidFingerprintAuth.isAvailable = function () { return; };
+    __decorate([
+        plugin_1.Cordova()
+    ], AndroidFingerprintAuth, "show", null);
+    __decorate([
+        plugin_1.Cordova()
+    ], AndroidFingerprintAuth, "isAvailable", null);
+    AndroidFingerprintAuth = __decorate([
+        plugin_1.Plugin({
+            plugin: 'cordova-plugin-android-fingerprint-auth',
+            pluginRef: 'FingerprintAuth',
+            repo: 'https://github.com/mjwheatley/cordova-plugin-android-fingerprint-auth'
+        })
+    ], AndroidFingerprintAuth);
+    return AndroidFingerprintAuth;
+}());
+exports.AndroidFingerprintAuth = AndroidFingerprintAuth;
+
+},{"./plugin":520}],468:[function(require,module,exports){
 "use strict";
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -78129,22 +80959,22 @@ var plugin_1 = require('./plugin');
  * Requires Cordova plugin: cordova-plugin-appavailability. For more info, please see the [AppAvailability plugin docs](https://github.com/ohh2ahh/AppAvailability).
  *
  * @usage
- * ```js
- * import {AppAvailability} from 'ionic-native';
+ * ```typescript
+ * import { AppAvailability } from 'ionic-native';
  *
  *
- * var app;
+ * let app;
  *
- * if(device.platform === 'iOS') {
+ * if (device.platform === 'iOS') {
  *   app = 'twitter://';
- * }else if(device.platform === 'Android'){
+ * } else if (device.platform === 'Android') {
  *   app = 'com.twitter.android';
  * }
  *
  * AppAvailability.check(app)
  *   .then(
- *     yes => console.log(app + " is available"),
- *     no => console.log(app + " is NOT available")
+ *     (yes: string) => console.log(app + ' is available'),
+ *     (no: string) => console.log(app + ' is NOT available')
  *   );
  * ```
  */
@@ -78153,7 +80983,7 @@ var AppAvailability = (function () {
     }
     /**
      * Checks if an app is available on device
-     * @param app Package name on android, or URI scheme on iOS
+     * @param {string} app Package name on android, or URI scheme on iOS
      * @returns {Promise<boolean>}
      */
     AppAvailability.check = function (app) { return; };
@@ -78172,7 +81002,7 @@ var AppAvailability = (function () {
 }());
 exports.AppAvailability = AppAvailability;
 
-},{"./plugin":510}],465:[function(require,module,exports){
+},{"./plugin":520}],469:[function(require,module,exports){
 "use strict";
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -78189,8 +81019,8 @@ var plugin_1 = require('./plugin');
  * Requires Cordova plugin: cordova-plugin-apprate. For more info, please see the [AppRate plugin docs](https://github.com/pushandplay/cordova-plugin-apprate).
  *
  * @usage
- * ```js
- * import {AppRate} from 'ionic-native';
+ * ```typescript
+ * import { AppRate } from 'ionic-native';
  *
  *
  * AppRate.preferences.storeAppURL.ios = '<my_app_id>';
@@ -78199,30 +81029,35 @@ var plugin_1 = require('./plugin');
  * AppRate.preferences.storeAppURL.windows8 = 'ms-windows-store:Review?name=<the Package Family Name of the application>';
  * AppRate.promptForRating();
  * ```
+ *
+ * @advanced
+ *
+ * Rating dialog preferences
+ *
+ * | Option                       | Type       | Default | Description                                                                            |
+ * |------------------------------|------------|---------|----------------------------------------------------------------------------------------|
+ * | useLanguage                  | `String`   | null    | custom BCP 47 language tag                                                             |
+ * | displayAppName               | `String`   | ''      | custom application title                                                               |
+ * | promptAgainForEachNewVersion | `Boolean`  | true    | show dialog again when application version will be updated                             |
+ * | usesUntilPrompt              | `Integer`  | 3       | count of runs of application before dialog will be displayed                           |
+ * | openStoreInApp               | `Boolean`  | false   | leave app or no when application page opened in app store (now supported only for iOS) |
+ * | useCustomRateDialog          | `Boolean`  | false   | use custom view for rate dialog                                                        |
+ * | callbacks.onButtonClicked    | `Function` | null    | call back function. called when user clicked on rate-dialog buttons                    |
+ * | callbacks.onRateDialogShow   | `Function` | null    | call back function. called when rate-dialog showing                                    |
+ * | storeAppURL.ios              | `String`   | null    | application id in AppStore                                                             |
+ * | storeAppURL.android          | `String`   | null    | application URL in GooglePlay                                                          |
+ * | storeAppURL.blackberry       | `String`   | null    | application URL in AppWorld                                                            |
+ * | storeAppURL.windows8         | `String`   | null    | application URL in WindowsStore                                                        |
+ * | customLocale                 | `Object`   | null    | custom locale object                                                                   |
+
  */
 var AppRate = (function () {
     function AppRate() {
     }
     Object.defineProperty(AppRate, "preferences", {
         /**
-         * Rating dialog preferences
-         *
-         * | Option                       | Type       | Default | Description                                                                            |
-         * |------------------------------|------------|---------|----------------------------------------------------------------------------------------|
-         * | useLanguage                  | `String`   | null    | custom BCP 47 language tag                                                             |
-         * | displayAppName               | `String`   | ''      | custom application title                                                               |
-         * | promptAgainForEachNewVersion | `Boolean`  | true    | show dialog again when application version will be updated                             |
-         * | usesUntilPrompt              | `Integer`  | 3       | count of runs of application before dialog will be displayed                           |
-         * | openStoreInApp               | `Boolean`  | false   | leave app or no when application page opened in app store (now supported only for iOS) |
-         * | useCustomRateDialog          | `Boolean`  | false   | use custom view for rate dialog                                                        |
-         * | callbacks.onButtonClicked    | `Function` | null    | call back function. called when user clicked on rate-dialog buttons                    |
-         * | callbacks.onRateDialogShow   | `Function` | null    | call back function. called when rate-dialog showing                                    |
-         * | storeAppURL.ios              | `String`   | null    | application id in AppStore                                                             |
-         * | storeAppURL.android          | `String`   | null    | application URL in GooglePlay                                                          |
-         * | storeAppURL.blackberry       | `String`   | null    | application URL in AppWorld                                                            |
-         * | storeAppURL.windows8         | `String`   | null    | application URL in WindowsStore                                                        |
-         * | customLocale                 | `Object`   | null    | custom locale object                                                                   |
-         * @type {{}}
+         * Configure various settings for the Rating View.
+         * See table below for options
          */
         get: function () { return window.AppRate.preferences; },
         enumerable: true,
@@ -78230,7 +81065,6 @@ var AppRate = (function () {
     });
     /**
      * Prompts the user for rating
-     *
      * @param {boolean} immediately  Show the rating prompt immediately.
      */
     AppRate.promptForRating = function (immediately) { };
@@ -78253,7 +81087,7 @@ var AppRate = (function () {
 }());
 exports.AppRate = AppRate;
 
-},{"./plugin":510}],466:[function(require,module,exports){
+},{"./plugin":520}],470:[function(require,module,exports){
 "use strict";
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -78270,8 +81104,8 @@ var plugin_1 = require('./plugin');
  * Requires Cordova plugin: `cordova-plugin-app-version`. For more info, please see the [Cordova App Version docs](https://github.com/whiteoctober/cordova-plugin-app-version).
  *
  * @usage
- * ```js
- * import {AppVersion} from 'ionic-native';
+ * ```typescript
+ * import { AppVersion } from 'ionic-native';
  *
  *
  *  AppVersion.getAppName();
@@ -78327,7 +81161,7 @@ var AppVersion = (function () {
 }());
 exports.AppVersion = AppVersion;
 
-},{"./plugin":510}],467:[function(require,module,exports){
+},{"./plugin":520}],471:[function(require,module,exports){
 "use strict";
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -78344,9 +81178,8 @@ var plugin_1 = require('./plugin');
  *
  * @usage
  *
- * ```ts
- * import {BackgroundGeolocation} from 'ionic-native';
- *
+ * ```typescript
+ * import { BackgroundGeolocation } from 'ionic-native';
  *
  *
  * // When device is ready :
@@ -78525,7 +81358,7 @@ var BackgroundGeolocation = (function () {
     BackgroundGeolocation = __decorate([
         plugin_1.Plugin({
             plugin: 'cordova-plugin-mauron85-background-geolocation',
-            pluginRef: 'plugins.backgroundGeoLocation',
+            pluginRef: 'backgroundGeolocation',
             repo: 'https://github.com/mauron85/cordova-plugin-background-geolocation',
             platforms: ['iOS', 'Android', 'Windows Phone 8']
         })
@@ -78534,7 +81367,7 @@ var BackgroundGeolocation = (function () {
 }());
 exports.BackgroundGeolocation = BackgroundGeolocation;
 
-},{"./plugin":510}],468:[function(require,module,exports){
+},{"./plugin":520}],472:[function(require,module,exports){
 "use strict";
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -78549,11 +81382,24 @@ var plugin_1 = require('./plugin');
 * Cordova plugin to prevent the app from going to sleep while in background.
 *  Requires Cordova plugin: cordova-plugin-background-mode. For more info about plugin, vist: https://github.com/katzer/cordova-plugin-background-mode#android-customization
 *@usage
-* ```js
-* import {BackgroundMode} from 'ionic-native';
+* ```typescript
+* import { BackgroundMode } from 'ionic-native';
 *
 * BackgroundMode.enable();
 * ```
+*
+* @advanced
+*
+* Configuration options
+*
+* | Property | Type      | Description                                                                  |
+* |----------|-----------|------------------------------------------------------------------------------|
+* | title    | `string`  | Title of the background task. Optional                                       |
+* | ticker   | `string`  | The text that scrolls itself on the statusbar. Optional                      |
+* | text     | `string`  | Description of the background task. Optional                                 |
+* | silent   | `boolean` | If the plugin will display a notification or not. Default is false. Optional |
+* | resume   | `boolean` | Bring the app into the foreground if the notification is tapped. Optional    |
+*
 */
 var BackgroundMode = (function () {
     function BackgroundMode() {
@@ -78570,20 +81416,24 @@ var BackgroundMode = (function () {
     BackgroundMode.disable = function () { };
     /**
     * Checks if background mode is enabled or not.
+    * @returns {boolean} returns a true of false if the background mode is enabled.
     */
     BackgroundMode.isEnabled = function () { return; };
     /**
     * Can be used to get the information if the background mode is active.
+    * @returns {boolean} returns tru or flase if the background mode is active.
     */
     BackgroundMode.isActive = function () { return; };
     /**
     * Override the default title, ticker and text.
     * Available only for Android platform.
+    * @param {Configure} options List of option to configure. See table below
     */
     BackgroundMode.setDefaults = function (options) { };
     /**
     * Modify the displayed information.
     * Available only for Android platform.
+    * @param {Configure} options Any options you want to update. See table below.
     */
     BackgroundMode.update = function (options) { };
     /**
@@ -78623,7 +81473,7 @@ var BackgroundMode = (function () {
     ], BackgroundMode, "on", null);
     BackgroundMode = __decorate([
         plugin_1.Plugin({
-            plugin: 'de.appplant.cordova.plugin.background-mode',
+            plugin: 'cordova-plugin-background-mode',
             pluginRef: 'cordova.plugins.backgroundMode',
             repo: 'https://github.com/katzer/cordova-plugin-background-mode',
             platforms: ['Android', 'iOS', 'Windows Phone 8']
@@ -78633,7 +81483,7 @@ var BackgroundMode = (function () {
 }());
 exports.BackgroundMode = BackgroundMode;
 
-},{"./plugin":510}],469:[function(require,module,exports){
+},{"./plugin":520}],473:[function(require,module,exports){
 "use strict";
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -78650,8 +81500,8 @@ var plugin_1 = require('./plugin');
  * Requires Cordova plugin: cordova-plugin-badge. For more info, please see the [Badge plugin docs](https://github.com/katzer/cordova-plugin-badge).
  *
  * @usage
- * ```js
- * import {Badge} from 'ionic-native';
+ * ```typescript
+ * import { Badge } from 'ionic-native';
  *
  *
  * Badge.set(10);
@@ -78731,7 +81581,7 @@ var Badge = (function () {
 }());
 exports.Badge = Badge;
 
-},{"./plugin":510}],470:[function(require,module,exports){
+},{"./plugin":520}],474:[function(require,module,exports){
 "use strict";
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -78748,8 +81598,8 @@ var plugin_1 = require('./plugin');
  * Requires Cordova plugin: `phonegap-plugin-barcodescanner`. For more info, please see the [BarcodeScanner plugin docs](https://github.com/phonegap/phonegap-plugin-barcodescanner).
  *
  * @usage
- * ```js
- * import {BarcodeScanner} from 'ionic-native';
+ * ```typescript
+ * import { BarcodeScanner } from 'ionic-native';
  *
  *
  * BarcodeScanner.scan().then((barcodeData) => {
@@ -78774,6 +81624,9 @@ var BarcodeScanner = (function () {
      * @param data
      */
     BarcodeScanner.encode = function (type, data) { return; };
+    /**
+     * @private
+     */
     BarcodeScanner.Encode = {
         TEXT_TYPE: 'TEXT_TYPE',
         EMAIL_TYPE: 'EMAIL_TYPE',
@@ -78800,7 +81653,7 @@ var BarcodeScanner = (function () {
 }());
 exports.BarcodeScanner = BarcodeScanner;
 
-},{"./plugin":510}],471:[function(require,module,exports){
+},{"./plugin":520}],475:[function(require,module,exports){
 "use strict";
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -78813,13 +81666,13 @@ var plugin_1 = require('./plugin');
  * @name Base64 To Gallery
  * @description This plugin allows you to save base64 data as a png image into the device
  * @usage
- * ```ts
- * import {Base64ToGallery} from 'ionic-native';
+ * ```typescript
+ * import { Base64ToGallery } from 'ionic-native';
  *
  *
  * Base64ToGallery.base64ToGallery(base64Data, 'img_').then(
- *   res => console.log("Saved image to gallery ", res),
- *   err => console.log("Error saving image to gallery ", err)
+ *   res => console.log('Saved image to gallery ', res),
+ *   err => console.log('Error saving image to gallery ', err)
  * );
  * ```
  */
@@ -78828,10 +81681,11 @@ var Base64ToGallery = (function () {
     }
     /**
      * Converts a base64 string to an image file in the device gallery
-     * @param data
-     * @param prefix
+     * @param {string} data The actual base64 string that you want to save
+     * @param {any} options (optional) An object with properties: prefix: string, mediaScanner: boolean. Prefix will be prepended to the filename. If true, mediaScanner runs Media Scanner on Android and saves to Camera Roll on iOS; if false, saves to Library folder on iOS.
+     * @returns {Promise} returns a promise that resolves when the image is saved.
      */
-    Base64ToGallery.base64ToGallery = function (data, prefix) {
+    Base64ToGallery.base64ToGallery = function (data, options) {
         return;
     };
     __decorate([
@@ -78849,7 +81703,7 @@ var Base64ToGallery = (function () {
 }());
 exports.Base64ToGallery = Base64ToGallery;
 
-},{"./plugin":510}],472:[function(require,module,exports){
+},{"./plugin":520}],476:[function(require,module,exports){
 "use strict";
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -78864,14 +81718,13 @@ var plugin_1 = require('./plugin');
  * Requires Cordova plugin: cordova-plugin-batterystatus. For more info, please see the [BatteryStatus plugin docs](https://github.com/apache/cordova-plugin-battery-status).
  *
  * @usage
- * ```js
- * import {BatteryStatus} from 'ionic-native';
- *
+ * ```typescript
+ * import { BatteryStatus } from 'ionic-native';
  *
  *
  * // watch change in battery status
  * let subscription = BatteryStatus.onChange().subscribe(
- *  status => {
+ *  (status: StatusObject) => {
  *    console.log(status.level, status.isPlugged);
  *  }
  * );
@@ -78928,7 +81781,7 @@ var BatteryStatus = (function () {
 }());
 exports.BatteryStatus = BatteryStatus;
 
-},{"./plugin":510}],473:[function(require,module,exports){
+},{"./plugin":520}],477:[function(require,module,exports){
 "use strict";
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -78960,7 +81813,7 @@ var plugin_1 = require('./plugin');
  *
  * Peripheral Data is passed to the success callback when scanning and connecting. Limited data is passed when scanning.
  *
- * ```ts
+ * ```typescript
  *   {
  *       "name": "Battery Demo",
  *       "id": "20:FF:D0:FF:D1:C0",
@@ -78970,7 +81823,7 @@ var plugin_1 = require('./plugin');
  * ```
  * After connecting, the peripheral object also includes service, characteristic and descriptor information.
  *
- * ```ts
+ * ```typescript
  *   {
  *       "name": "Battery Demo",
  *       "id": "20:FF:D0:FF:D1:C0",
@@ -79029,7 +81882,7 @@ var plugin_1 = require('./plugin');
  *
  * ### Android
  *
- * ```ts
+ * ```typescript
  *   {
  *       "name": "demo",
  *       "id": "00:1A:7D:DA:71:13",
@@ -79044,7 +81897,7 @@ var plugin_1 = require('./plugin');
  *
  * Note that iOS uses the string value of the constants for the [Advertisement Data Retrieval Keys](https://developer.apple.com/library/ios/documentation/CoreBluetooth/Reference/CBCentralManagerDelegate_Protocol/index.html#//apple_ref/doc/constant_group/Advertisement_Data_Retrieval_Keys). This will likely change in the future.
  *
- * ```ts
+ * ```typescript
  *   {
  *       "name": "demo",
  *       "id": "D8479A4F-7517-BCD3-91B5-3302B2F81802",
@@ -79073,7 +81926,7 @@ var plugin_1 = require('./plugin');
  *
  * This means that you need convert your data to ArrayBuffers before sending and from ArrayBuffers when receiving.
  *
- * ```ts
+ * ```typescript
  *   // ASCII only
  *   function stringToBytes(string) {
  *      var array = new Uint8Array(string.length);
@@ -79352,7 +82205,7 @@ var BLE = (function () {
 }());
 exports.BLE = BLE;
 
-},{"./plugin":510}],474:[function(require,module,exports){
+},{"./plugin":520}],478:[function(require,module,exports){
 "use strict";
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -79365,126 +82218,129 @@ var plugin_1 = require('./plugin');
  * @name Bluetooth Serial
  * @description This plugin enables serial communication over Bluetooth. It was written for communicating between Android or iOS and an Arduino.
  * @usage
+ * ```typescript
+ * import { BluetoothSerial } from 'ionic-native';
+ *
+ *
+ * // Write a string
+ * BluetoothSerial.write("hello world").then(success, failure);
+ *
+ * // Array of int or bytes
+ * BluetoothSerial.write([186, 220, 222]).then(success, failure);
+ *
+ * // Typed Array
+ * var data = new Uint8Array(4);
+ * data[0] = 0x41;
+ * data[1] = 0x42;
+ * data[2] = 0x43;
+ * data[3] = 0x44;
+ * BluetoothSerial.write(data).then(success, failure);
+ *
+ * // Array Buffer
+ * BluetoothSerial.write(data.buffer).then(success, failure);
+ * ```
  */
 var BluetoothSerial = (function () {
     function BluetoothSerial() {
     }
     /**
      * Connect to a Bluetooth device
-     * Returns an Observable. Subscribe to connect, unsubscribe to disconnect.
-     * @param macAddress_or_uuid Identifier of the remote device
+     * @param {string} macAddress_or_uuid Identifier of the remote device
+     * @returns {Observable} Subscribe to connect, unsubscribe to disconnect.
      */
     BluetoothSerial.connect = function (macAddress_or_uuid) { return; };
     /**
      * Connect insecurely to a Bluetooth device
-     * Returns an Observable. Subscribe to connect, unsubscribe to disconnect.
-     * @param macAddress Identifier of the remote device
+     * @param {string} macAddress Identifier of the remote device
+     * @returns {Observable} Subscribe to connect, unsubscribe to disconnect.
      */
     BluetoothSerial.connectInsecure = function (macAddress) { return; };
     /**
      * Writes data to the serial port
-     * @param data ArrayBuffer of data
-     * @usage
-     * ```ts
-     * // Write a string
-     * Bluetooth.write("hello world").then(success, failure);
-     *
-     * // Array of int or bytes
-     * Bluetooth.write([186, 220, 222]).then(success, failure);
-     *
-     * // Typed Array
-     * var data = new Uint8Array(4);
-     * data[0] = 0x41;
-     * data[1] = 0x42;
-     * data[2] = 0x43;
-     * data[3] = 0x44;
-     * Bluetooth.write(data).then(success, failure);
-     *
-     * // Array Buffer
-     * Bluetooth.write(data.buffer).then(success, failure);
-     * ```
+     * @param {any} data ArrayBuffer of data
+     * @returns {Promise} returns a promise when data has been written
      */
     BluetoothSerial.write = function (data) { return; };
     /**
      * Gets the number of bytes of data available
+     * @returns {Promise} returns a promise that contains the available bytes
      */
     BluetoothSerial.available = function () { return; };
     /**
      * Reads data from the buffer
+     * @returns {Promise} returns a promise with data from the buffer
      */
     BluetoothSerial.read = function () { return; };
     /**
      * Reads data from the buffer until it reaches a delimiter
-     * @param delimiter
+     * @param {string} delimiter string that you want to search until
+     * @returns {Promise} returns a promise
      */
     BluetoothSerial.readUntil = function (delimiter) { return; };
     /**
      * Subscribe to be notified when data is received
-     * @param delimiter
+     * @param {string} delimiter the string you want to watch for
+     * @returns {Observable} returns an observable.
      */
     BluetoothSerial.subscribe = function (delimiter) { return; };
     /**
      * Subscribe to be notified when data is received
+     * @returns {Observable} returns an observable
      */
     BluetoothSerial.subscribeRawData = function () { return; };
     /**
      * Clears data in buffer
+     * @returns {Promise} returns a promise when completed
      */
     BluetoothSerial.clear = function () { return; };
     /**
      * Lists bonded devices
+     * @returns {Promise} returns a promise
      */
     BluetoothSerial.list = function () { return; };
     /**
      * Reports if bluetooth is enabled
+     * @returns {Promise} returns a promise
      */
     BluetoothSerial.isEnabled = function () { return; };
     /**
      * Reports the connection status
+     * @returns {Promise} returns a promise
      */
     BluetoothSerial.isConnected = function () { return; };
     /**
      * Reads the RSSI from the connected peripheral
+     * @returns {Promise} returns a promise
      */
     BluetoothSerial.readRSSI = function () { return; };
     /**
      * Show the Bluetooth settings on the device
+     * @returns {Promise} returns a promise
      */
     BluetoothSerial.showBluetoothSettings = function () { return; };
     /**
      * Enable Bluetooth on the device
+     * @returns {Promise} returns a promise
      */
     BluetoothSerial.enable = function () { return; };
     /**
      * Discover unpaired devices
-     * @usage
-     * ```ts
-     * [{
-     *    "class": 276,
-     *    "id": "10:BF:48:CB:00:00",
-     *    "address": "10:BF:48:CB:00:00",
-     *    "name": "Nexus 7"
-     * }, {
-     *    "class": 7936,
-     *    "id": "00:06:66:4D:00:00",
-     *    "address": "00:06:66:4D:00:00",
-     *    "name": "RN42"
-     * }]
-     * ```
+     * @returns {Promise} returns a promise
      */
     BluetoothSerial.discoverUnpaired = function () { return; };
     /**
      * Subscribe to be notified on Bluetooth device discovery. Discovery process must be initiated with the `discoverUnpaired` function.
+     * @returns {Observable} Returns an observable
      */
     BluetoothSerial.setDeviceDiscoveredListener = function () { return; };
     /**
      * Sets the human readable device name that is broadcasted to other devices
-     * @param newName Desired name of device
+     * @param {string} newName Desired name of device
      */
     BluetoothSerial.setName = function (newName) { };
     /**
      * Makes the device discoverable by other devices
-     * @param discoverableDuration Desired number of seconds device should be discoverable for
+     * @param {number} discoverableDuration Desired number of seconds device should be discoverable for
      */
     BluetoothSerial.setDiscoverable = function (discoverableDuration) { };
     __decorate([
@@ -79606,7 +82462,7 @@ var BluetoothSerial = (function () {
 }());
 exports.BluetoothSerial = BluetoothSerial;
 
-},{"./plugin":510}],475:[function(require,module,exports){
+},{"./plugin":520}],479:[function(require,module,exports){
 "use strict";
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -79623,8 +82479,9 @@ var plugin_1 = require('./plugin');
  * Requires Cordova plugin: `cordova-plugin-brightness`. For more info, please see the [Brightness plugin docs](https://github.com/mgcrea/cordova-plugin-brightness).
  *
  * @usage
- * ```ts
- * import {Brightness} from 'ionic-native';
+ * ```typescript
+ * import { Brightness } from 'ionic-native';
+ *
  *
  * let brightnessValue: number = 0.8;
  * Brightness.setBrightness(brightnessValue);
@@ -79673,7 +82530,7 @@ var Brightness = (function () {
 }());
 exports.Brightness = Brightness;
 
-},{"./plugin":510}],476:[function(require,module,exports){
+},{"./plugin":520}],480:[function(require,module,exports){
 "use strict";
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -80035,7 +82892,136 @@ var Calendar = (function () {
 }());
 exports.Calendar = Calendar;
 
-},{"./plugin":510}],477:[function(require,module,exports){
+},{"./plugin":520}],481:[function(require,module,exports){
+"use strict";
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var plugin_1 = require('./plugin');
+/**
+ * @name CameraPreview
+ * @description
+ * Showing camera preview in HTML
+ *
+ * Requires {@link module:driftyco/ionic-native} and the Cordova plugin: `cordova-plugin-camera-preview`. For more info, please see the [Cordova Camera Preview Plugin Docs](https://github.com/cordova-plugin-camera-preview/cordova-plugin-camera-preview).
+ *
+ */
+var CameraPreview = (function () {
+    function CameraPreview() {
+    }
+    /**
+     * Starts the camera preview instance.
+     * @param {CameraPreviewOptions} options for the preview
+     */
+    CameraPreview.startCamera = function (options) { };
+    ;
+    /**
+     * Stops the camera preview instance.
+     */
+    CameraPreview.stopCamera = function () { };
+    ;
+    /**
+     * Take the picture, the parameter size is optional
+     */
+    CameraPreview.takePicture = function (size) { };
+    ;
+    /**
+     * Register a callback function that receives the original picture and the image captured from the preview box.
+     */
+    CameraPreview.setOnPictureTakenHandler = function () { return; };
+    ;
+    /**
+     * Switch from the rear camera and front camera, if available.
+     */
+    CameraPreview.switchCamera = function () { };
+    ;
+    /**
+     * Show the camera preview box.
+     */
+    CameraPreview.show = function () { };
+    ;
+    /**
+     * Hide the camera preview box.
+     */
+    CameraPreview.hide = function () { };
+    ;
+    /**
+     * Set the default mode for the Flash.
+     */
+    // @Cordova({
+    //   sync: true
+    // })
+    // static setFlashMode(mode: number): void { };
+    /**
+     * Set camera color effect.
+     */
+    CameraPreview.setColorEffect = function (effect) { };
+    ;
+    /**
+     * @private
+     * @enum {number}
+     */
+    CameraPreview.FlashMode = {
+        OFF: 0,
+        ON: 1,
+        AUTO: 2
+    };
+    __decorate([
+        plugin_1.Cordova({
+            sync: true
+        })
+    ], CameraPreview, "startCamera", null);
+    __decorate([
+        plugin_1.Cordova({
+            sync: true
+        })
+    ], CameraPreview, "stopCamera", null);
+    __decorate([
+        plugin_1.Cordova({
+            sync: true
+        })
+    ], CameraPreview, "takePicture", null);
+    __decorate([
+        plugin_1.Cordova({
+            observable: true
+        })
+    ], CameraPreview, "setOnPictureTakenHandler", null);
+    __decorate([
+        plugin_1.Cordova({
+            sync: true
+        })
+    ], CameraPreview, "switchCamera", null);
+    __decorate([
+        plugin_1.Cordova({
+            sync: true
+        })
+    ], CameraPreview, "show", null);
+    __decorate([
+        plugin_1.Cordova({
+            sync: true
+        })
+    ], CameraPreview, "hide", null);
+    __decorate([
+        plugin_1.Cordova({
+            sync: true
+        })
+    ], CameraPreview, "setColorEffect", null);
+    CameraPreview = __decorate([
+        plugin_1.Plugin({
+            plugin: 'cordova-plugin-camera-preview',
+            pluginRef: 'cordova.plugins.camerapreview',
+            repo: 'https://github.com/cordova-plugin-camera-preview/cordova-plugin-camera-preview',
+            platforms: ['Android', 'iOS']
+        })
+    ], CameraPreview);
+    return CameraPreview;
+}());
+exports.CameraPreview = CameraPreview;
+
+},{"./plugin":520}],482:[function(require,module,exports){
 "use strict";
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -80052,14 +83038,16 @@ var plugin_1 = require('./plugin');
  * Requires {@link module:driftyco/ionic-native} and the Cordova plugin: `cordova-plugin-camera`. For more info, please see the [Cordova Camera Plugin Docs](https://github.com/apache/cordova-plugin-camera).
  *
  * @usage
- * ```js
- * import {Camera} from 'ionic-native';
+ * ```typescript
+ * import { Camera } from 'ionic-native';
+ *
  *
  * Camera.getPicture(options).then((imageData) => {
  *  // imageData is either a base64 encoded string or a file URI
  *  // If it's base64:
- *  let base64Image = "data:image/jpeg;base64," + imageData;
+ *  let base64Image = 'data:image/jpeg;base64,' + imageData;
  * }, (err) => {
+ *  // Handle error
  * });
  * ```
  */
@@ -80068,8 +83056,8 @@ var Camera = (function () {
     }
     /**
      * Take a picture or video, or load one from the library.
-     * @param {CameraOptions} options
-     * @return Returns a Promise that resolves with Base64 encoding of the image data, or the image file URI, depending on cameraOptions, otherwise rejects with an error.
+     * @param {CameraOptions} options Options that you want to pass to the camera. Encoding type, quality, etc.
+     * @return {Promise} Returns a Promise that resolves with Base64 encoding of the image data, or the image file URI, depending on cameraOptions, otherwise rejects with an error.
      */
     Camera.getPicture = function (options) { return; };
     /**
@@ -80080,6 +83068,7 @@ var Camera = (function () {
     Camera.cleanup = function () { };
     ;
     /**
+     * @private
      * @enum {number}
      */
     Camera.DestinationType = {
@@ -80091,6 +83080,7 @@ var Camera = (function () {
         NATIVE_URI: 2
     };
     /**
+     * @private
      * @enum {number}
      */
     Camera.EncodingType = {
@@ -80100,6 +83090,7 @@ var Camera = (function () {
         PNG: 1
     };
     /**
+     * @private
      * @enum {number}
      */
     Camera.MediaType = {
@@ -80111,6 +83102,7 @@ var Camera = (function () {
         ALLMEDIA: 2
     };
     /**
+     * @private
      * @enum {number}
      */
     Camera.PictureSourceType = {
@@ -80122,6 +83114,7 @@ var Camera = (function () {
         SAVEDPHOTOALBUM: 2
     };
     /**
+     * @private
      * Matches iOS UIPopoverArrowDirection constants to specify arrow location on popover.
      * @enum {number}
      */
@@ -80133,6 +83126,7 @@ var Camera = (function () {
         ARROW_ANY: 15
     };
     /**
+     * @private
      * @enum {number}
      */
     Camera.Direction = {
@@ -80163,7 +83157,7 @@ var Camera = (function () {
 }());
 exports.Camera = Camera;
 
-},{"./plugin":510}],478:[function(require,module,exports){
+},{"./plugin":520}],483:[function(require,module,exports){
 "use strict";
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -80177,9 +83171,8 @@ var plugin_1 = require('./plugin');
  * @description
  * @usage
  * ```
- * import {CardIO} from 'ionic-native';
+ * import { CardIO } from 'ionic-native';
  *
- * ...
  *
  * CardIO.canScan()
  *   .then(
@@ -80207,7 +83200,7 @@ var CardIO = (function () {
     CardIO.canScan = function () { return; };
     /**
      * Scan a credit card with card.io.
-     * @param options
+     * @param {CardIOOptions} options Options for configuring the plugin
      */
     CardIO.scan = function (options) { return; };
     /**
@@ -80235,7 +83228,7 @@ var CardIO = (function () {
 }());
 exports.CardIO = CardIO;
 
-},{"./plugin":510}],479:[function(require,module,exports){
+},{"./plugin":520}],484:[function(require,module,exports){
 "use strict";
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -80253,21 +83246,20 @@ var plugin_1 = require('./plugin');
  * For more info, please see the [Clipboard plugin docs](https://github.com/VersoSolutions/CordovaClipboard.git).
  *
  * @usage
- * ```js
- * import {Clipboard} from 'ionic-native';
+ * ```typescript
+ * import { Clipboard } from 'ionic-native';
  *
  *
- *
- * Clipboard.copy("Hello world");
+ * Clipboard.copy('Hello world');
  *
  * Clipboard.paste().then(
- *    (resolve : string) => {
-  *     alert(resolve);
-*     },
- *     (reject : string) => {
- *     alert("Error: " + reject);
+ *    (resolve: string) => {
+ *     alert(resolve);
+ *     },
+ *     (reject: string) => {
+ *     alert('Error: ' + reject);
  *     }
-*     );
+ *     );
  * );
  * ```
  */
@@ -80276,13 +83268,13 @@ var Clipboard = (function () {
     }
     /**
      * Copies the given text
-     * @param text
-     * @returns {Promise<T>}
+     * @param {string} text Text that gets copied on the system clipboard
+     * @returns {Promise<T>} Returns a promise after the text has been copied
      */
     Clipboard.copy = function (text) { return; };
     /**
      * Pastes the text stored in clipboard
-     * @returns {Promise<T>}
+     * @returns {Promise<T>} Returns a promise after the text has been pasted
      */
     Clipboard.paste = function () { return; };
     __decorate([
@@ -80303,7 +83295,7 @@ var Clipboard = (function () {
 }());
 exports.Clipboard = Clipboard;
 
-},{"./plugin":510}],480:[function(require,module,exports){
+},{"./plugin":520}],485:[function(require,module,exports){
 "use strict";
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -80312,6 +83304,9 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
     return c > 3 && r && Object.defineProperty(target, key, r), r;
 };
 var plugin_1 = require('./plugin');
+/**
+ * @private
+ */
 var Contact = (function () {
     function Contact() {
         this._objectInstance = navigator.contacts.create();
@@ -80322,6 +83317,11 @@ var Contact = (function () {
         configurable: true
     });
     Object.defineProperty(Contact.prototype, "displayName", {
+        get: function () { return; },
+        enumerable: true,
+        configurable: true
+    });
+    Object.defineProperty(Contact.prototype, "name", {
         get: function () { return; },
         enumerable: true,
         configurable: true
@@ -80400,6 +83400,9 @@ var Contact = (function () {
     ], Contact.prototype, "displayName", null);
     __decorate([
         plugin_1.InstanceProperty
+    ], Contact.prototype, "name", null);
+    __decorate([
+        plugin_1.InstanceProperty
     ], Contact.prototype, "nickname", null);
     __decorate([
         plugin_1.InstanceProperty
@@ -80440,6 +83443,9 @@ var Contact = (function () {
     return Contact;
 }());
 exports.Contact = Contact;
+/**
+ * @private
+ */
 var ContactName = (function () {
     function ContactName(formatted, familyName, givenName, middleName, honorificPrefix, honorificSuffix) {
         this._objectInstance = new window.ContactName(formatted, familyName, givenName, middleName, honorificPrefix, honorificSuffix);
@@ -80495,6 +83501,9 @@ var ContactName = (function () {
     return ContactName;
 }());
 exports.ContactName = ContactName;
+/**
+ * @private
+ */
 var ContactField = (function () {
     function ContactField(type, value, pref) {
         this._objectInstance = new window.ContactField(type, value, pref);
@@ -80526,6 +83535,9 @@ var ContactField = (function () {
     return ContactField;
 }());
 exports.ContactField = ContactField;
+/**
+ * @private
+ */
 var ContactAddress = (function () {
     function ContactAddress(pref, type, formatted, streetAddress, locality, region, postalCode, country) {
         this._objectInstance = new window.ContactAddress(pref, type, formatted, streetAddress, locality, region, postalCode, country);
@@ -80597,6 +83609,9 @@ var ContactAddress = (function () {
     return ContactAddress;
 }());
 exports.ContactAddress = ContactAddress;
+/**
+ * @private
+ */
 var ContactOrganization = (function () {
     function ContactOrganization() {
         this._objectInstance = new window.ContactOrganization();
@@ -80644,6 +83659,9 @@ var ContactOrganization = (function () {
     return ContactOrganization;
 }());
 exports.ContactOrganization = ContactOrganization;
+/**
+ * @private
+ */
 var ContactFindOptions = (function () {
     function ContactFindOptions() {
         this._objectInstance = new window.ContactFindOptions();
@@ -80690,16 +83708,15 @@ exports.ContactFindOptions = ContactFindOptions;
  *
  * @usage
  *
- * ```js
- * import {Contact} from 'ionic-native';
- *
+ * ```typescript
+ * import { Contact } from 'ionic-native';
  *
  *
  * let contact = new Contact();
- * contact.displayName = "Mr. Ionitron";
+ * contact.displayName = 'Mr. Ionitron';
  * contact.save().then(
- *   () => console.log("Contact saved!", contact),
- *   (error: any) => console.error("Error saving contact.", error)
+ *   () => console.log('Contact saved!', contact),
+ *   (error: any) => console.error('Error saving contact.', error)
  * );
  * ```
  *
@@ -80713,9 +83730,6 @@ var Contacts = (function () {
     };
     /**
      * Search for contacts in the Contacts list.
-     *
-     * Example: Contacts.find(['*'], { filter: 'Max' }) // will search for a displayName of 'Max'
-     *
      * @param fields {string[]}  Contact fields to be used as a search qualifier.
      *  A zero-length contactFields parameter is invalid and results in ContactError.INVALID_ARGUMENT_ERROR.
      *  A contactFields value of "*" searches all contact fields.
@@ -80754,7 +83768,7 @@ var Contacts = (function () {
 }());
 exports.Contacts = Contacts;
 
-},{"./plugin":510}],481:[function(require,module,exports){
+},{"./plugin":520}],486:[function(require,module,exports){
 "use strict";
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -80773,17 +83787,16 @@ var plugin_1 = require('./plugin');
  * Requires Cordova plugin: `cordova-plugin-datepicker`. For more info, please see the [DatePicker plugin docs](https://github.com/VitaliiBlagodir/cordova-plugin-datepicker).
  *
  * @usage
- * ```js
- * import {DatePicker} from 'ionic-native';
- *
+ * ```typescript
+ * import { DatePicker } from 'ionic-native';
  *
  *
  * DatePicker.show({
  *   date: new Date(),
  *   mode: 'date'
  * }).then(
- *   date => console.log("Got date: ", date),
- *   err => console.log("Error occurred while getting date:", err)
+ *   date => console.log('Got date: ', date),
+ *   err => console.log('Error occurred while getting date: ', err)
  * );
  * ```
  *
@@ -80793,7 +83806,7 @@ var DatePicker = (function () {
     }
     /**
      * Shows the date and/or time picker dialog(s)
-     * @param options
+     * @param {DatePickerOptions} options Options for the date picker.
      * @returns {Promise<Date>} Returns a promise that resolves with the picked date and/or time, or rejects with an error.
      */
     DatePicker.show = function (options) { return; };
@@ -80811,7 +83824,7 @@ var DatePicker = (function () {
 }());
 exports.DatePicker = DatePicker;
 
-},{"./plugin":510}],482:[function(require,module,exports){
+},{"./plugin":520}],487:[function(require,module,exports){
 "use strict";
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -80824,9 +83837,8 @@ var plugin_1 = require('./plugin');
  * @name DB Meter
  * @description This plugin defines a global DBMeter object, which permits to get the decibel values from the microphone.
  * @usage
- * ```ts
- * import {DBMeter} from 'ionic-native';
- *
+ * ```typescript
+ * import { DBMeter } from 'ionic-native';
  *
  *
  * // Start listening
@@ -80836,7 +83848,7 @@ var plugin_1 = require('./plugin');
  *
  * // Check if we are listening
  * DBMeter.isListening().then(
- *   (isListening : boolean) => console.log(isListening)
+ *   (isListening: boolean) => console.log(isListening)
  * );
  *
  * // Stop listening
@@ -80844,8 +83856,8 @@ var plugin_1 = require('./plugin');
  *
  * // Delete DBMeter instance from memory
  * DBMeter.delete().then(
- *   () => console.log("Deleted DB Meter instance"),
- *   error => console.log("Error occurred while deleting DB Meter instance")
+ *   () => console.log('Deleted DB Meter instance'),
+ *   error => console.log('Error occurred while deleting DB Meter instance')
  * );
  * ```
  */
@@ -80899,7 +83911,7 @@ var DBMeter = (function () {
 }());
 exports.DBMeter = DBMeter;
 
-},{"./plugin":510}],483:[function(require,module,exports){
+},{"./plugin":520}],488:[function(require,module,exports){
 "use strict";
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -80914,8 +83926,8 @@ var plugin_1 = require('./plugin');
  * and Universal App Links.
  *
  * @usage
- * ```ts
- * import {IonicDeeplinks} from 'ionic-native';
+ * ```typescript
+ * import { IonicDeeplinks } from 'ionic-native';
  *
  * ```
  */
@@ -80974,7 +83986,7 @@ var Deeplinks = (function () {
 }());
 exports.Deeplinks = Deeplinks;
 
-},{"./plugin":510}],484:[function(require,module,exports){
+},{"./plugin":520}],489:[function(require,module,exports){
 "use strict";
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -80989,9 +84001,8 @@ var plugin_1 = require('./plugin');
  * Access information about the underlying device and platform.
  *
  * @usage
- * ```js
- * import {Device} from 'ionic-native';
- *
+ * ```typescript
+ * import { Device } from 'ionic-native';
  *
  *
  * console.log('Device UUID is: ' + Device.device.uuid);
@@ -81024,7 +84035,7 @@ var Device = (function () {
 }());
 exports.Device = Device;
 
-},{"./plugin":510}],485:[function(require,module,exports){
+},{"./plugin":520}],490:[function(require,module,exports){
 "use strict";
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -81076,7 +84087,7 @@ var DeviceAccounts = (function () {
 }());
 exports.DeviceAccounts = DeviceAccounts;
 
-},{"./plugin":510}],486:[function(require,module,exports){
+},{"./plugin":520}],491:[function(require,module,exports){
 "use strict";
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -81091,19 +84102,18 @@ var plugin_1 = require('./plugin');
  * Requires Cordova plugin: `cordova-plugin-device-motion`. For more info, please see the [Device Motion docs](https://github.com/apache/cordova-plugin-device-motion).
  *
  * @usage
- * ```ts
- * import {DeviceMotion} from 'ionic-native';
- *
+ * ```typescript
+ * import { DeviceMotion } from 'ionic-native';
  *
  *
  * // Get the device current acceleration
  * DeviceMotion.getCurrentAcceleration().then(
- *   acceleration => console.log(acceleration),
- *   error => console.log(error)
+ *   (acceleration: AccelerationData) => console.log(acceleration),
+ *   (error: any) => console.log(error)
  * );
  *
  * // Watch device acceleration
- * var subscription = DeviceMotion.watchAcceleration().subscribe(acceleration => {
+ * var subscription = DeviceMotion.watchAcceleration().subscribe((acceleration: AccelerationData) => {
  *   console.log(acceleration);
  * });
  *
@@ -81117,30 +84127,15 @@ var DeviceMotion = (function () {
     }
     /**
      * Get the current acceleration along the x, y, and z axes.
-     *
      * @returns {Promise<any>} Returns object with x, y, z, and timestamp properties
      */
-    DeviceMotion.getCurrentAcceleration = function () {
-        return;
-    };
+    DeviceMotion.getCurrentAcceleration = function () { return; };
     /**
      * Watch the device acceleration. Clear the watch by unsubscribing from the observable.
-     *
-     * ```ts
-     * // Watch device acceleration
-     * var subscription = DeviceMotion.watchPosition().subscribe(acceleration => {
-     *   console.log(acceleration);
-     * });
-     *
-     * // Stop watch
-     * subscription.unsubscribe();
-     * ```
-     * @param options
-     * @returns {Observable<AccelerationData>}
+     * @param {AccelerometerOptions} options list of options for the accelerometer.
+     * @returns {Observable<AccelerationData>} Observable returns an observable that you can subscribe to
      */
-    DeviceMotion.watchAcceleration = function (options) {
-        return;
-    };
+    DeviceMotion.watchAcceleration = function (options) { return; };
     __decorate([
         plugin_1.Cordova()
     ], DeviceMotion, "getCurrentAcceleration", null);
@@ -81162,7 +84157,7 @@ var DeviceMotion = (function () {
 }());
 exports.DeviceMotion = DeviceMotion;
 
-},{"./plugin":510}],487:[function(require,module,exports){
+},{"./plugin":520}],492:[function(require,module,exports){
 "use strict";
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -81177,20 +84172,19 @@ var plugin_1 = require('./plugin');
  * Requires Cordova plugin: `cordova-plugin-device-orientation`. For more info, please see the [Device Orientation docs](https://github.com/apache/cordova-plugin-device-orientation).
  *
  * @usage
- * ```ts
- * import {DeviceOrientation} from 'ionic-native';
- *
+ * ```typescript
+ * import { DeviceOrientation } from 'ionic-native';
  *
  *
  * // Get the device current compass heading
  * DeviceOrientation.getCurrentHeading().then(
- *   data => console.log(data),
- *   error => console.log(error)
+ *   (data: CompassHeading) => console.log(data),
+ *   (error: any) => console.log(error)
  * );
  *
  * // Watch the device compass heading change
  * var subscription = DeviceOrientation.watchHeading().subscribe(
- *   data => console.log(data)
+ *   (data: CompassHeading) => console.log(data)
  * );
  *
  * // Stop watching heading change
@@ -81209,8 +84203,8 @@ var DeviceOrientation = (function () {
      * Get the device current heading at a regular interval
      *
      * Stop the watch by unsubscribing from the observable
-     * @param options
-     * @returns {Observable<CompassHeading>}
+     * @param {CompassOptions} options Options for compass. Frequency and Filter. Optional
+     * @returns {Observable<CompassHeading>} Returns an observable that contains the compass heading
      */
     DeviceOrientation.watchHeading = function (options) { return; };
     __decorate([
@@ -81234,7 +84228,7 @@ var DeviceOrientation = (function () {
 }());
 exports.DeviceOrientation = DeviceOrientation;
 
-},{"./plugin":510}],488:[function(require,module,exports){
+},{"./plugin":520}],493:[function(require,module,exports){
 "use strict";
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -81359,7 +84353,7 @@ var Diagnostic = (function () {
 }());
 exports.Diagnostic = Diagnostic;
 
-},{"./plugin":510}],489:[function(require,module,exports){
+},{"./plugin":520}],494:[function(require,module,exports){
 "use strict";
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -81376,8 +84370,8 @@ var plugin_1 = require('./plugin');
  * Requires Cordova plugin: `cordova-plugin-dialogs`. For more info, please see the [Dialogs plugin docs](https://github.com/apache/cordova-plugin-dialogs).
  *
  * @usage
- * ```js
- * import {Dialogs} from 'ionic-native';
+ * ```typescript
+ * import { Dialogs } from 'ionic-native';
  *
  *
  *
@@ -81389,9 +84383,9 @@ var Dialogs = (function () {
     }
     /**
      * Shows a custom alert or dialog box.
-     * @param message Dialog message. (String)
-     * @param title Dialog title. (String) (Optional, defaults to Alert)
-     * @param buttonName Button name. (String) (Optional, defaults to OK)
+     * @param {string} message Dialog message.
+     * @param {string} title Dialog title. (Optional, defaults to Alert)
+     * @param {string} buttonName Button name. (Optional, defaults to OK)
      * @returns {Promise<any>} Returns a blank promise once the user has dismissed the alert.
      */
     Dialogs.alert = function (message, title, buttonName) {
@@ -81401,9 +84395,9 @@ var Dialogs = (function () {
     };
     /**
      * Displays a customizable confirmation dialog box.
-     * @param message Dialog message. (String)
-     * @param title Dialog title. (String) (Optional, defaults to Confirm)
-     * @param buttonLabels Array of strings specifying button labels. (Array) (Optional, defaults to [OK,Cancel])
+     * @param {string} message Dialog message.
+     * @param {string} title Dialog title. (Optional, defaults to Confirm)
+     * @param {Array<string>} buttonLabels Array of strings specifying button labels. (Optional, defaults to [OK,Cancel])
      * @returns {Promise<number>} Returns a promise that resolves the button index that was clicked. Note that the index use one-based indexing.
      */
     Dialogs.confirm = function (message, title, buttonLabels) {
@@ -81413,10 +84407,10 @@ var Dialogs = (function () {
     };
     /**
      * Displays a native dialog box that is more customizable than the browser's prompt function.
-     * @param message Dialog message. (String)
-     * @param title Dialog title (String) (Optional, defaults to Prompt)
-     * @param buttonLabels  Array of strings specifying button labels (Array) (Optional, defaults to ["OK","Cancel"])
-     * @param defaultText Default textbox input value (String) (Optional, Default: empty string)
+     * @param {string} message Dialog message.
+     * @param {string} title Dialog title. (Optional, defaults to Prompt)
+     * @param {Array<string>} buttonLabels  Array of strings specifying button labels. (Optional, defaults to ["OK","Cancel"])
+     * @param {string} defaultText Default textbox input value.  (Optional, Default: empty string)
      * @returns {Promise<any>} Returns a promise that resolves an object with the button index clicked and the text entered
      */
     Dialogs.prompt = function (message, title, buttonLabels, defaultText) {
@@ -81427,7 +84421,7 @@ var Dialogs = (function () {
     };
     /**
      * The device plays a beep sound.
-     * @param times The number of times to repeat the beep. (Number)
+     * @param {numbers} times The number of times to repeat the beep.
      */
     Dialogs.beep = function (times) { };
     __decorate([
@@ -81464,7 +84458,7 @@ var Dialogs = (function () {
 }());
 exports.Dialogs = Dialogs;
 
-},{"./plugin":510}],490:[function(require,module,exports){
+},{"./plugin":520}],495:[function(require,module,exports){
 "use strict";
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -81482,11 +84476,11 @@ var plugin_1 = require('./plugin');
  * DISCLAIMER: This plugin is experiencing issues with the latest versions of Cordova. Use at your own risk. Functionality is not guaranteed. Please stay tuned for a more stable version.
  *
  * @usage
- * ```ts
- * import {EmailComposer} from 'ionic-native';
+ * ```typescript
+ * import { EmailComposer } from 'ionic-native';
  *
  *
- * EmailComposer.isAvailable().then((available) =>{
+ * EmailComposer.isAvailable().then((available: boolean) =>{
  *  if(available) {
  *    //Now we know we can send
  *  }
@@ -81571,7 +84565,7 @@ var EmailComposer = (function () {
 }());
 exports.EmailComposer = EmailComposer;
 
-},{"./plugin":510}],491:[function(require,module,exports){
+},{"./plugin":520}],496:[function(require,module,exports){
 "use strict";
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -81649,8 +84643,8 @@ var plugin_1 = require('./plugin');
  * For tracking events, see `logEvent` and `logPurchase`.
  *
  * @usage
- * ```js
- * import {Facebook} from 'ionic-native';
+ * ```typescript
+ * import { Facebook } from 'ionic-native';
  *
  *
  *
@@ -81662,8 +84656,8 @@ var Facebook = (function () {
     }
     /**
      * Browser wrapper
-     * @param appId
-     * @param version
+     * @param {number} appId Your Facebook AppID from their dashboard
+     * @param {string} version The version of API you may want to use. Optional
      */
     Facebook.browserInit = function (appId, version) {
         return;
@@ -81671,7 +84665,7 @@ var Facebook = (function () {
     /**
      * Login to Facebook to authenticate this app.
      *
-     * ```ts
+     * ```typescript
      * {
      *   status: "connected",
      *   authResponse: {
@@ -81686,7 +84680,7 @@ var Facebook = (function () {
      * ```
      *
      * @param {string[]}  permissions List of [permissions](https://developers.facebook.com/docs/facebook-login/permissions) this app has upon logging in.
-     * @return Returns a Promise that resolves with a status object if login succeeds, and rejects if login fails.
+     * @return {Promise<FacebookLoginResponse>} Returns a Promise that resolves with a status object if login succeeds, and rejects if login fails.
      */
     Facebook.login = function (permissions) { return; };
     /**
@@ -81836,7 +84830,7 @@ var Facebook = (function () {
 }());
 exports.Facebook = Facebook;
 
-},{"./plugin":510}],492:[function(require,module,exports){
+},{"./plugin":520}],497:[function(require,module,exports){
 "use strict";
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -82154,9 +85148,9 @@ var File = (function () {
         }
         try {
             var directory = path + file;
-            window.resolveLocalFileSystemURL(directory, function (fileSystem) {
-                if (fileSystem.isFile === true) {
-                    resolveFn(fileSystem);
+            window.resolveLocalFileSystemURL(directory, function (fileEntry) {
+                if (fileEntry.isFile === true) {
+                    resolveFn(fileEntry);
                 }
                 else {
                     rejectFn({ code: 13, message: 'input is not a file' });
@@ -82254,37 +85248,68 @@ var File = (function () {
     /**
      * Read a file as string.
      *
-     * @param {string} path Base FileSystem. Please refer to the iOS and Android filesystems above
-     * @param {string} fileName Name of file to move
+     * @param {string} uri Base FileSystem. Please refer to the iOS and Android filesystems above
      * @return Returns a Promise that resolves or rejects with an error.
      */
-    File.readAsText = function (path, fileName) {
+    File.readAsText = function (file_uri) {
         var resolveFn, rejectFn;
         var promise = new Promise(function (resolve, reject) { resolveFn = resolve; rejectFn = reject; });
-        if ((/^\//.test(fileName))) {
-            rejectFn('file-name cannot start with \/');
-        }
         try {
-            window.resolveLocalFileSystemURL(path, function (fileSystem) {
-                fileSystem.getFile(fileName, { create: false }, function (fileEntry) {
-                    fileEntry.file(function (file) {
-                        var reader = new FileReader();
-                        reader.onloadend = function (e) {
-                            if (this.result !== undefined && this.result !== null) {
-                                resolveFn(this.result);
-                            }
-                            else if (this.error !== undefined && this.error !== null) {
-                                rejectFn(this.error);
-                            }
-                            else {
-                                rejectFn({ code: null, message: 'READER_ONLOADEND_ERR' });
-                            }
-                        };
-                        reader.readAsText(file);
-                    }, function (error) {
-                        error.message = File.cordovaFileError[error.code];
-                        rejectFn(error);
-                    });
+            window.resolveLocalFileSystemURL(file_uri, function (fileEntry) {
+                fileEntry.file(function (file) {
+                    var reader = new FileReader();
+                    reader.onloadend = function (e) {
+                        if (this.result !== undefined && this.result !== null) {
+                            resolveFn(this.result);
+                        }
+                        else if (this.error !== undefined && this.error !== null) {
+                            rejectFn(this.error);
+                        }
+                        else {
+                            rejectFn({ code: null, message: 'READER_ONLOADEND_ERR' });
+                        }
+                    };
+                    reader.readAsText(file);
+                }, function (err) {
+                    err.message = File.cordovaFileError[err.code];
+                    rejectFn(err);
+                });
+            }, function (er) {
+                er.message = File.cordovaFileError[er.code];
+                rejectFn(er);
+            });
+        }
+        catch (e) {
+            e.message = File.cordovaFileError[e.code];
+            rejectFn(e);
+        }
+        return promise;
+    };
+    /**
+     * Read a file as string.
+     *
+     * @param {string} uri Base FileSystem. Please refer to the iOS and Android filesystems above
+     * @return Returns a Promise that resolves or rejects with an error.
+     */
+    File.readAsDataURL = function (file_uri) {
+        var resolveFn, rejectFn;
+        var promise = new Promise(function (resolve, reject) { resolveFn = resolve; rejectFn = reject; });
+        try {
+            window.resolveLocalFileSystemURL(file_uri, function (fileEntry) {
+                fileEntry.file(function (file) {
+                    var reader = new FileReader();
+                    reader.onloadend = function (e) {
+                        if (this.result !== undefined && this.result !== null) {
+                            resolveFn(this.result);
+                        }
+                        else if (this.error !== undefined && this.error !== null) {
+                            rejectFn(this.error);
+                        }
+                        else {
+                            rejectFn({ code: null, message: 'READER_ONLOADEND_ERR' });
+                        }
+                    };
+                    reader.readAsDataURL(file);
                 }, function (err) {
                     err.message = File.cordovaFileError[err.code];
                     rejectFn(err);
@@ -82413,7 +85438,7 @@ var File = (function () {
 }());
 exports.File = File;
 
-},{"./plugin":510}],493:[function(require,module,exports){
+},{"./plugin":520}],498:[function(require,module,exports){
 "use strict";
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -82424,19 +85449,49 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 var plugin_1 = require('./plugin');
 /**
  * @name Transfer
- * @description This plugin allows you to upload and download files.
- * Example:
- * Create instance:
+ *
+ * @description
+ * This plugin allows you to upload and download files.
+ *
+ * @usage
+ * ```typescript
+ * import { Transfer } from 'ionic-native';
+ *
+ *
+ * // Create instance:
  * const fileTransfer = new Transfer();
  *
- * Upload a file:
+ * // Upload a file:
  * fileTransfer.upload(..).then(..).catch(..);
  *
- * Download a file:
+ * // Download a file:
  * fileTransfer.download(..).then(..).catch(..);
  *
- * Abort active transfer:
+ * // Abort active transfer:
  * fileTransfer.abort();
+ *
+ * E.g
+ *
+ * upload(){
+ *   const fileTransfer = new Transfer();
+ *   var options: any;
+ *
+ *   options = {
+ *      fileKey: 'file',
+ *      fileName: 'name.jpg',
+ *      headers: {}
+ *      .....
+ *   }
+ *   fileTransfer.upload("<file path>", "<api endpoint>", options)
+ *    .then((data) => {
+ *      // success
+ *    }, (err) => {
+ *      // error
+ *    })
+ * }
+ *
+ * ```
+ *
  */
 var Transfer = (function () {
     function Transfer() {
@@ -82448,7 +85503,7 @@ var Transfer = (function () {
      * @param {string} fileUrl  Filesystem URL representing the file on the device or a data URI. For backwards compatibility, this can also be the full path of the file on the device.
      * @param {string} url  URL of the server to receive the file, as encoded by encodeURI().
      * @param {FileUploadOptions} options  Optional parameters.
-     * @param {boolean} trustAllHosts: Optional parameter, defaults to false. If set to true, it accepts all security certificates. This is useful since Android rejects self-signed security certificates. Not recommended for production use. Supported on Android and iOS.
+     * @param {boolean} trustAllHosts  Optional parameter, defaults to false. If set to true, it accepts all security certificates. This is useful since Android rejects self-signed security certificates. Not recommended for production use. Supported on Android and iOS.
      * @return Returns a Promise that resolves to a FileUploadResult and rejects with FileTransferError.
      */
     Transfer.prototype.upload = function (fileUrl, url, options, trustAllHosts) {
@@ -82478,11 +85533,23 @@ var Transfer = (function () {
      * object which has an error code of FileTransferError.ABORT_ERR.
      */
     Transfer.prototype.abort = function () { };
-    Transfer.FILE_NOT_FOUND_ERR = 1;
-    Transfer.INVALID_URL_ERR = 2;
-    Transfer.CONNECTION_ERR = 3;
-    Transfer.ABORT_ERR = 4;
-    Transfer.NOT_MODIFIED_ERR = 4;
+    /**
+     * Error code rejected from upload with FileTransferError
+     * Defined in FileTransferError.
+     *      FILE_NOT_FOUND_ERR: 1   Return when file was not found
+     *      INVALID_URL_ERR: 2,     Return when url was invalid
+     *      CONNECTION_ERR: 3,      Return on connection error
+     *      ABORT_ERR: 4,           Return on aborting
+     *      NOT_MODIFIED_ERR: 5     Return on "304 Not Modified" HTTP response
+     * @enum {number}
+     */
+    Transfer.FileTransferErrorCode = {
+        FILE_NOT_FOUND_ERR: 1,
+        INVALID_URL_ERR: 2,
+        CONNECTION_ERR: 3,
+        ABORT_ERR: 4,
+        NOT_MODIFIED_ERR: 5
+    };
     __decorate([
         plugin_1.CordovaInstance({
             successIndex: 2,
@@ -82511,7 +85578,7 @@ var Transfer = (function () {
 }());
 exports.Transfer = Transfer;
 
-},{"./plugin":510}],494:[function(require,module,exports){
+},{"./plugin":520}],499:[function(require,module,exports){
 "use strict";
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -82527,8 +85594,8 @@ var plugin_1 = require('./plugin');
  * Requires Cordova plugin: `cordova-plugin-flashlight`. For more info, please see the [Flashlight plugin docs](https://github.com/EddyVerbruggen/Flashlight-PhoneGap-Plugin).
  *
  * @usage
- * ```js
- * import {Flashlight} from 'ionic-native';
+ * ```typescript
+ * import { Flashlight } from 'ionic-native';
  *
  *
  *
@@ -82590,7 +85657,7 @@ var Flashlight = (function () {
 }());
 exports.Flashlight = Flashlight;
 
-},{"./plugin":510}],495:[function(require,module,exports){
+},{"./plugin":520}],500:[function(require,module,exports){
 "use strict";
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -82609,20 +85676,19 @@ var Observable_1 = require('rxjs/Observable');
  *
  * @usage
  *
- * ```ts
- * import {Geolocation} from 'ionic-native';
- *
+ * ```typescript
+ * import { Geolocation } from 'ionic-native';
  *
  *
  * Geolocation.getCurrentPosition().then((resp) => {
- *  //resp.coords.latitude
- *  //resp.coords.longitude
+ *  // resp.coords.latitude
+ *  // resp.coords.longitude
  * })
  *
  * let watch = Geolocation.watchPosition();
  * watch.subscribe((data) => {
- *  //data.coords.latitude
- *  //data.coords.longitude
+ *  // data.coords.latitude
+ *  // data.coords.longitude
  * })
  * ```
  */
@@ -82640,7 +85706,7 @@ var Geolocation = (function () {
      * Watch the current device's position.  Clear the watch by unsubscribing from
      * Observable changes.
      *
-     * ```ts
+     * ```typescript
      * var subscription = Geolocation.watchPosition().subscribe(position => {
      *   console.log(position.coords.longitude + ' ' + position.coords.latitude);
      * });
@@ -82654,8 +85720,7 @@ var Geolocation = (function () {
      */
     Geolocation.watchPosition = function (options) {
         return new Observable_1.Observable(function (observer) {
-            var cb = function (data) { return observer.next(data); };
-            var watchId = navigator.geolocation.watchPosition(cb, options);
+            var watchId = navigator.geolocation.watchPosition(observer.next.bind(observer), observer.error.bind(observer), options);
             return function () { return navigator.geolocation.clearWatch(watchId); };
         });
     };
@@ -82675,7 +85740,7 @@ var Geolocation = (function () {
 }());
 exports.Geolocation = Geolocation;
 
-},{"./plugin":510,"rxjs/Observable":526}],496:[function(require,module,exports){
+},{"./plugin":520,"rxjs/Observable":539}],501:[function(require,module,exports){
 "use strict";
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -82688,9 +85753,8 @@ var plugin_1 = require('./plugin');
  * @name Globalization
  * @description
  * @usage
- * ```js
- * import {Globalization} from 'ionic-native';
- *
+ * ```typescript
+ * import { Globalization } from 'ionic-native';
  *
  *
  * ```
@@ -82710,55 +85774,63 @@ var Globalization = (function () {
     Globalization.getLocaleName = function () { return; };
     /**
      * Converts date to string
-     * @param date
-     * @param options
-     * @return {Promise<{value: string}>}
+     * @param {Date} date Date you wish to convert
+     * @param options Options for the converted date. Length, selector.
+     * @return {Promise<{value: string}>} Returns a promise when the date has been converted.
      */
     Globalization.dateToString = function (date, options) { return; };
     /**
-     *
-     * @param dateString
-     * @param options
+     * Parses a date formatted as a string, according to the client's user preferences and calendar using the time zone of the client, and returns the corresponding date object.
+     * @param {string} dateString Date as a string to be converted
+     * @param options Options for the converted date. Length, selector.
+     * @return {Promise<{value: string}>} Returns a promise when the date has been converted.
      */
     Globalization.stringToDate = function (dateString, options) { return; };
     /**
-     *
-     * @param options
+     * Returns a pattern string to format and parse dates according to the client's user preferences.
+     * @param options Object with the format length and selector
+     * @return {Promise<{value: string}>} Returns a promise.
      */
     Globalization.getDatePattern = function (options) { return; };
     /**
-     *
-     * @param options
+     * Returns an array of the names of the months or days of the week, depending on the client's user preferences and calendar.
+     * @param options Object with type (narrow or wide) and item (month or days).
+     * @return {Promise<{value: string}>} Returns a promise.
      */
     Globalization.getDateNames = function (options) { return; };
     /**
-     * Check if day light saving is active
-     * @param date
+     * Indicates whether daylight savings time is in effect for a given date using the client's time zone and calendar.
+     * @param {data} date Date to process
+     * @returns {Promise<dst>} reutrns a promise with the value
      */
     Globalization.isDayLightSavingsTime = function (date) { return; };
     /**
-     * Get first day of week
+     * Returns the first day of the week according to the client's user preferences and calendar.
+     * @returns {Promise<value>} reutrns a promise with the value
      */
     Globalization.getFirstDayOfWeek = function () { return; };
     /**
-     *
+     * Returns a number formatted as a string according to the client's user preferences.
      * @param options
      */
     Globalization.numberToString = function (options) { return; };
     /**
      *
-     * @param stringToConvert
-     * @param options
+     * @param {string} stringToConvert String you want to conver to a number
+     * @param options  The type of number you want to return. Can be decimal, percent, or currency.
+     * @returns {Promise} Returns a promise with the value.
      */
     Globalization.stringToNumber = function (stringToConvert, options) { return; };
     /**
-     *
-     * @param options
+     * Returns a pattern string to format and parse numbers according to the client's user preferences.
+     * @param options Can be decimal, percent, or currency.
+     * @returns {Promise} returns a promise with the value.
      */
     Globalization.getNumberPattern = function (options) { return; };
     /**
-     *
-     * @param currencyCode
+     * Returns a pattern string to format and parse currency values according to the client's user preferences and ISO 4217 currency code.
+     * @param {string} currencyCode Currency Code.A
+     * @returns {Promise} returns a promise with the value
      */
     Globalization.getCurrencyPattern = function (currencyCode) { return; };
     __decorate([
@@ -82826,7 +85898,7 @@ var Globalization = (function () {
 }());
 exports.Globalization = Globalization;
 
-},{"./plugin":510}],497:[function(require,module,exports){
+},{"./plugin":520}],502:[function(require,module,exports){
 "use strict";
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -82839,7 +85911,9 @@ var plugin_1 = require('./plugin');
  * @name Google Plus
  * @description
  * @usage
- * ```
+ * ```typescript
+ * import { GooglePlus } from 'ionic-native';
+ *
  *
  * ```
  */
@@ -82889,7 +85963,7 @@ var GooglePlus = (function () {
 }());
 exports.GooglePlus = GooglePlus;
 
-},{"./plugin":510}],498:[function(require,module,exports){
+},{"./plugin":520}],503:[function(require,module,exports){
 "use strict";
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -83036,7 +86110,7 @@ var GoogleAnalytics = (function () {
 }());
 exports.GoogleAnalytics = GoogleAnalytics;
 
-},{"./plugin":510}],499:[function(require,module,exports){
+},{"./plugin":520}],504:[function(require,module,exports){
 "use strict";
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -83082,14 +86156,14 @@ exports.GoogleMapsAnimation = {
  * @description This plugin uses the native Google Maps SDK
  * @usage
  * ```
- * import {GoogleMap, GoogleMapsEvent} from 'ionic-native';
+ * import { GoogleMap, GoogleMapsEvent } from 'ionic-native';
  *
  * ...
  *
  * // somewhere in your component
  * let map = new GoogleMap('elementID');
  *
- * map.on(GoogleMapsEvent.MAP_READY).subscribe(() => console.log("Map is ready!"));
+ * map.on(GoogleMapsEvent.MAP_READY).subscribe(() => console.log('Map is ready!'));
  * ```
  */
 var GoogleMap = (function () {
@@ -83106,8 +86180,7 @@ var GoogleMap = (function () {
     GoogleMap.prototype.on = function (event) {
         var _this = this;
         return new Observable_1.Observable(function (observer) {
-            var cb = function (data) { return observer.next(data); };
-            _this._objectInstance.on(event, cb);
+            _this._objectInstance.on(event, observer.next.bind(observer));
             return function () { return _this._objectInstance.off(event); };
         });
     };
@@ -83224,7 +86297,7 @@ var GoogleMap = (function () {
     GoogleMap.prototype.addGroundOverlay = function (options) {
         var _this = this;
         return new Promise(function (resolve, reject) {
-            _this._objectInstance.addTileOverlay(options, function (groundOverlay) {
+            _this._objectInstance.addGroundOverlay(options, function (groundOverlay) {
                 if (groundOverlay)
                     resolve(new GoogleMapsGroundOverlay(groundOverlay));
                 else
@@ -83235,7 +86308,7 @@ var GoogleMap = (function () {
     GoogleMap.prototype.addKmlOverlay = function (options) {
         var _this = this;
         return new Promise(function (resolve, reject) {
-            _this._objectInstance.addTileOverlay(options, function (kmlOverlay) {
+            _this._objectInstance.addKmlOverlay(options, function (kmlOverlay) {
                 if (kmlOverlay)
                     resolve(new GoogleMapsKmlOverlay(kmlOverlay));
                 else
@@ -83386,11 +86459,8 @@ var GoogleMapsMarker = (function () {
     GoogleMapsMarker.prototype.addEventListener = function (event) {
         var _this = this;
         return new Observable_1.Observable(function (observer) {
-            var cb = function (data) {
-                observer.next(data);
-            };
-            _this._objectInstance.addEventListener(event, cb);
-            return function () { return _this._objectInstance.removeEventListener(event, cb); };
+            _this._objectInstance.addEventListener(event, observer.next.bind(observer));
+            return function () { return _this._objectInstance.removeEventListener(event, observer.next.bind(observer)); };
         });
     };
     GoogleMapsMarker.prototype.isVisible = function () {
@@ -83543,9 +86613,8 @@ var GoogleMapsCircle = (function () {
     GoogleMapsCircle.prototype.addEventListener = function (event) {
         var _this = this;
         return new Observable_1.Observable(function (observer) {
-            var cb = function (data) { return observer.next(data); };
-            _this._objectInstance.addEventListener(event, cb);
-            return function () { return _this._objectInstance.removeEventListener(event, cb); };
+            _this._objectInstance.addEventListener(event, observer.next.bind(observer));
+            return function () { return _this._objectInstance.removeEventListener(event, observer.next.bind(observer)); };
         });
     };
     GoogleMapsCircle.prototype.getCenter = function () {
@@ -83637,9 +86706,8 @@ var GoogleMapsPolyline = (function () {
     GoogleMapsPolyline.prototype.addEventListener = function (event) {
         var _this = this;
         return new Observable_1.Observable(function (observer) {
-            var cb = function (data) { return observer.next(data); };
-            _this._objectInstance.addEventListener(event, cb);
-            return function () { return _this._objectInstance.removeEventListener(event, cb); };
+            _this._objectInstance.addEventListener(event, observer.next.bind(observer));
+            return function () { return _this._objectInstance.removeEventListener(event, observer.next.bind(observer)); };
         });
     };
     GoogleMapsPolyline.prototype.getPoints = function () {
@@ -83726,9 +86794,8 @@ var GoogleMapsPolygon = (function () {
     GoogleMapsPolygon.prototype.addEventListener = function (event) {
         var _this = this;
         return new Observable_1.Observable(function (observer) {
-            var cb = function (data) { return observer.next(data); };
-            _this._objectInstance.addEventListener(event, cb);
-            return function () { return _this._objectInstance.removeEventListener(event, cb); };
+            _this._objectInstance.addEventListener(event, observer.next.bind(observer));
+            return function () { return _this._objectInstance.removeEventListener(event, observer.next.bind(observer)); };
         });
     };
     GoogleMapsPolygon.prototype.getPoints = function () {
@@ -83959,10 +87026,11 @@ exports.GoogleMapsKmlOverlay = GoogleMapsKmlOverlay;
  * @private
  */
 var GoogleMapsLatLngBounds = (function () {
-    function GoogleMapsLatLngBounds(southwest, northeast) {
-        this.southwest = southwest;
+    function GoogleMapsLatLngBounds(southwestOrArrayOfLatLng, northeast) {
+        this.southwestOrArrayOfLatLng = southwestOrArrayOfLatLng;
         this.northeast = northeast;
-        this._objectInstance = new plugin.google.maps.LatLngBounds([southwest, northeast]);
+        var args = !!northeast ? [southwestOrArrayOfLatLng, northeast] : southwestOrArrayOfLatLng;
+        this._objectInstance = new plugin.google.maps.LatLngBounds(args);
     }
     GoogleMapsLatLngBounds.prototype.toString = function () {
         return;
@@ -84021,8 +87089,30 @@ var GoogleMapsLatLng = (function () {
     return GoogleMapsLatLng;
 }());
 exports.GoogleMapsLatLng = GoogleMapsLatLng;
+/**
+ * @private
+ */
+var Geocoder = (function () {
+    function Geocoder() {
+    }
+    /**
+     * Converts position to address and vice versa
+     * @param {GeocoderRequest} request Request object with either an address or a position
+     * @returns {Promise<GeocoderResult[]>}
+     */
+    Geocoder.geocode = function (request) {
+        return new Promise(function (resolve, reject) {
+            if (!plugin || !plugin.google || !plugin.google.maps || !plugin.google.maps.Geocoder)
+                reject({ error: 'plugin_not_installed' });
+            else
+                plugin.google.maps.Geocoder.geocode(request, resolve);
+        });
+    };
+    return Geocoder;
+}());
+exports.Geocoder = Geocoder;
 
-},{"./plugin":510,"rxjs/Observable":526}],500:[function(require,module,exports){
+},{"./plugin":520,"rxjs/Observable":539}],505:[function(require,module,exports){
 "use strict";
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -84035,14 +87125,13 @@ var plugin_1 = require('./plugin');
  * @name Hotspot
  * @description
  * @usage
- * ```js
- * import {Hotspot, Network} from 'ionic-native';
+ * ```typescript
+ * import { Hotspot, Network } from 'ionic-native';
  *
- * ...
- *     Hotspot.scanWifi().then((networks: Array<Network>) => {
- *         console.log(networks);
- *     });
- * ...
+ *
+ * Hotspot.scanWifi().then((networks: Array<Network>) => {
+ *     console.log(networks);
+ * });
  *
  * ```
  */
@@ -84280,7 +87369,7 @@ var Hotspot = (function () {
 }());
 exports.Hotspot = Hotspot;
 
-},{"./plugin":510}],501:[function(require,module,exports){
+},{"./plugin":520}],506:[function(require,module,exports){
 "use strict";
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -84312,7 +87401,7 @@ var Httpd = (function () {
     /**
      * Get the local path of the running webserver
      * @returns {Promise<string>} Returns a promise that resolves with the local path of the web server.
-     */
+      */
     Httpd.getLocalPath = function () { return; };
     __decorate([
         plugin_1.Cordova({
@@ -84338,7 +87427,501 @@ var Httpd = (function () {
 }());
 exports.Httpd = Httpd;
 
-},{"./plugin":510}],502:[function(require,module,exports){
+},{"./plugin":520}],507:[function(require,module,exports){
+"use strict";
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var plugin_1 = require('./plugin');
+var Observable_1 = require('rxjs/Observable');
+/**
+ * @name IBeacon
+ * @description
+ * This plugin provides functions for working with iBeacons.
+ *
+ *  The plugin's API closely mimics the one exposed through the [CLLocationManager](https://developer.apple.com/library/ios/documentation/CoreLocation/Reference/CLLocationManager_Class/index.html) introduced in iOS 7.
+ *
+ * @usage
+ *
+ * ```typescript
+ * import { IBeacon } from 'ionic-native';
+ *
+ *
+ * // Request permission to use location on iOS
+ * IBeacon.requestAlwaysAuthorization();
+ * // create a new delegate and register it with the native layer
+ * let delegate = IBeacon.Delegate();
+ *
+ * // Subscribe to some of the delegate's event handlers
+ * delegate.didRangeBeaconsInRegion()
+ *   .subscribe(
+ *     data => console.log('didRangeBeaconsInRegion: ', data),
+ *     error => console.error();
+ *   );
+ * delegate.didStartMonitoringForRegion()
+ *   .subscribe(
+ *     data => console.log('didStartMonitoringForRegion: ', data),
+ *     error => console.error();
+ *   );
+ * delegate.didEnterRegion()
+ *   .subscribe(
+ *     data => {
+ *       console.log('didEnterRegion: ', data);
+ *     }
+ *   );
+ *
+ * let beaconRegion = IBeacon.BeaconRegion('deskBeacon','F7826DA6-ASDF-ASDF-8024-BC5B71E0893E');
+ *
+ * IBeacon.startMonitoringForRegion(beaconRegion)
+ *   .then(
+ *     () => console.log('Native layer recieved the request to monitoring'),
+ *     error => console.error('Native layer failed to begin monitoring: ', error)
+ *   );
+ * ```
+ */
+var IBeacon = (function () {
+    function IBeacon() {
+    }
+    /**
+     * Instances of this class are delegates between the {@link LocationManager} and
+     * the code that consumes the messages generated on in the native layer.
+     *
+     * @returns {Delegate} An instance of the type {@type Delegate}.
+     */
+    IBeacon.Delegate = function () {
+        var delegate = new cordova.plugins.locationManager.Delegate();
+        delegate.didChangeAuthorizationStatus = function (pluginResult) {
+            return new Observable_1.Observable(function (observer) {
+                var cb = function (data) { return observer.next(data); };
+                return delegate.didChangeAuthorizationStatus = cb;
+            });
+        };
+        delegate.didDetermineStateForRegion = function (pluginResult) {
+            return new Observable_1.Observable(function (observer) {
+                var cb = function (data) { return observer.next(data); };
+                return delegate.didDetermineStateForRegion = cb;
+            });
+        };
+        delegate.didEnterRegion = function (pluginResult) {
+            return new Observable_1.Observable(function (observer) {
+                var cb = function (data) { return observer.next(data); };
+                return delegate.didEnterRegion = cb;
+            });
+        };
+        delegate.didExitRegion = function (pluginResult) {
+            return new Observable_1.Observable(function (observer) {
+                var cb = function (data) { return observer.next(data); };
+                return delegate.didExitRegion = cb;
+            });
+        };
+        delegate.didRangeBeaconsInRegion = function (pluginResult) {
+            return new Observable_1.Observable(function (observer) {
+                var cb = function (data) { return observer.next(data); };
+                return delegate.didRangeBeaconsInRegion = cb;
+            });
+        };
+        delegate.didStartMonitoringForRegion = function (pluginResult) {
+            return new Observable_1.Observable(function (observer) {
+                var cb = function (data) { return observer.next(data); };
+                return delegate.didStartMonitoringForRegion = cb;
+            });
+        };
+        delegate.monitoringDidFailForRegionWithError = function (pluginResult) {
+            return new Observable_1.Observable(function (observer) {
+                var cb = function (data) { return observer.next(data); };
+                return delegate.monitoringDidFailForRegionWithError = cb;
+            });
+        };
+        delegate.peripheralManagerDidStartAdvertising = function (pluginResult) {
+            return new Observable_1.Observable(function (observer) {
+                var cb = function (data) { return observer.next(data); };
+                return delegate.peripheralManagerDidStartAdvertising = cb;
+            });
+        };
+        delegate.peripheralManagerDidUpdateState = function (pluginResult) {
+            return new Observable_1.Observable(function (observer) {
+                var cb = function (data) { return observer.next(data); };
+                return delegate.peripheralManagerDidUpdateState = cb;
+            });
+        };
+        cordova.plugins.locationManager.setDelegate(delegate);
+        return delegate;
+    };
+    /**
+     * Creates a new BeaconRegion
+     *
+     * @param {String} identifier @see {CLRegion}
+     * @param {String} uuid The proximity ID of the beacon being targeted.
+     * This value must not be blank nor invalid as a UUID.
+     * @param {Number} major The major value that you use to identify one or more beacons.
+     * @param {Number} minor The minor value that you use to identify a specific beacon.
+     * @param {BOOL} notifyEntryStateOnDisplay
+     *
+     * @return Returns the BeaconRegion that was created
+     */
+    IBeacon.BeaconRegion = function (identifer, uuid, major, minor, notifyEntryStateOnDisplay) {
+        return new cordova.plugins.locationManager.BeaconRegion(identifer, uuid, major, minor, notifyEntryStateOnDisplay);
+    };
+    /**
+     * @return Returns the Delegate
+     */
+    IBeacon.getDelegate = function () { return; };
+    /**
+     * @param {Delegate} delegate An instance of a delegate to register with the native layer.
+     *
+     * @return Returns the Delegate
+     */
+    IBeacon.setDelegate = function (delegate) { return; };
+    /**
+     * Signals the native layer that the client side is ready to consume messages.
+     * Readiness here means that it has a {Delegate} set by the consumer javascript
+     * code.
+     *
+     * The {LocationManager.setDelegate()} will implicitly call this method as well,
+     * therefore the only case when you have to call this manually is if you don't
+     * wish to specify a {Delegate} of yours.
+     *
+     * The purpose of this signaling mechanism is to make the events work when the
+     * app is being woken up by the Operating System to give it a chance to handle
+     * region monitoring events for example.
+     *
+     * If you don't set a {Delegate} and don't call this method manually, an error
+     * message get emitted in the native runtime and the DOM as well after a certain
+     * period of time.
+     *
+     * @return Returns a promise which is resolved as soon as the
+     * native layer acknowledged the request and started to send events.
+     */
+    IBeacon.onDomDelegateReady = function () { return; };
+    /**
+     * Determines if bluetooth is switched on, according to the native layer.
+     * @returns Returns a promise which is resolved with a {Boolean}
+     * indicating whether bluetooth is active.
+     */
+    IBeacon.isBluetoothEnabled = function () { return; };
+    /**
+     * Enables Bluetooth using the native Layer. (ANDROID ONLY)
+     *
+     * @returns Returns a promise which is resolved when Bluetooth
+     * could be enabled. If not, the promise will be rejected with an error.
+     */
+    IBeacon.enableBluetooth = function () { return; };
+    /**
+     * Disables Bluetooth using the native Layer. (ANDROID ONLY)
+     *
+     * @returns Returns a promise which is resolved when Bluetooth
+     * could be enabled. If not, the promise will be rejected with an error.
+     */
+    IBeacon.disableBluetooth = function () { return; };
+    /**
+     * Start monitoring the specified region.
+     *
+     * If a region of the same type with the same identifier is already being
+     * monitored for this application,
+     * it will be removed from monitoring. For circular regions, the region
+     * monitoring service will prioritize
+     * regions by their size, favoring smaller regions over larger regions.
+     *
+     * This is done asynchronously and may not be immediately reflected in monitoredRegions.
+     *
+     * @param {Region} region An instance of {Region} which will be monitored
+     * by the operating system.
+     *
+     * @return Returns a promise which is resolved as soon as the
+     * native layer acknowledged the dispatch of the monitoring request.
+     */
+    IBeacon.startMonitoringForRegion = function (region) { return; };
+    /**
+     * Stop monitoring the specified region.  It is valid to call
+     * stopMonitoringForRegion: for a region that was registered for monitoring
+     * with a different location manager object, during this or previous
+     * launches of your application.
+     *
+     * This is done asynchronously and may not be immediately reflected in monitoredRegions.
+     *
+     * @param {Region} region An instance of {Region} which will be monitored
+     * by the operating system.
+     *
+     * @return Returns a promise which is resolved as soon as the
+     * native layer acknowledged the dispatch of the request to stop monitoring.
+     */
+    IBeacon.stopMonitoringForRegion = function (region) { return; };
+    /**
+     * Request state the for specified region. When result is ready
+     * didDetermineStateForRegion is triggered. This can be any region,
+     * also those which is not currently monitored.
+     *
+     * This is done asynchronously and may not be immediately reflected in monitoredRegions.
+     *
+     * @param {Region} region An instance of {Region} which will be monitored
+     * by the operating system.
+     *
+     * @return Returns a promise which is resolved as soon as the
+     * native layer acknowledged the dispatch of the request to stop monitoring.
+     */
+    IBeacon.requestStateForRegion = function (region) { return; };
+    /**
+     * Start ranging the specified beacon region.
+     *
+     * If a region of the same type with the same identifier is already being
+     * monitored for this application, it will be removed from monitoring.
+     *
+     * This is done asynchronously and may not be immediately reflected in rangedRegions.
+     *
+     * @param {Region} region An instance of {BeaconRegion} which will be monitored
+     * by the operating system.
+     *
+     * @return Returns a promise which is resolved as soon as the
+     * native layer acknowledged the dispatch of the monitoring request.
+     */
+    IBeacon.startRangingBeaconsInRegion = function (region) { return; };
+    /**
+     * Stop ranging the specified region.  It is valid to call
+     * stopMonitoringForRegion: for a region that was registered for ranging
+     * with a different location manager object, during this or previous
+     * launches of your application.
+     *
+     * This is done asynchronously and may not be immediately reflected in rangedRegions.
+     *
+     * @param {Region} region An instance of {BeaconRegion} which will be monitored
+     * by the operating system.
+     *
+     * @return Returns a promise which is resolved as soon as the
+     * native layer acknowledged the dispatch of the request to stop monitoring.
+     */
+    IBeacon.stopRangingBeaconsInRegion = function (region) { return; };
+    /**
+     * Queries the native layer to determine the current authorization in effect.
+     *
+     * @returns Returns a promise which is resolved with the
+     * requested authorization status.
+     */
+    IBeacon.getAuthorizationStatus = function () { return; };
+    /**
+     * For iOS 8 and above only. The permission model has changed by Apple in iOS 8, making it necessary for apps to
+     * explicitly request permissions via methods like these:
+     * <a href="https://developer.apple.com/library/prerelease/iOS/documentation/CoreLocation/Reference/CLLocationManager_Class/index.html#//apple_ref/occ/instm/CLLocationManager/requestWhenInUseAuthorization">requestWhenInUseAuthorization</a>
+     * <a href="https://developer.apple.com/library/prerelease/iOS/documentation/CoreLocation/Reference/CLLocationManager_Class/index.html#//apple_ref/occ/instm/CLLocationManager/requestAlwaysAuthorization">requestAlwaysAuthorization</a>
+     *
+     * If you are using this plugin on Android devices only, you will never have to use this, nor {@code requestAlwaysAuthorization}
+     * @returns Returns a promise that is resolved when the request dialog is shown.
+     */
+    IBeacon.requestWhenInUseAuthorization = function () { return; };
+    /**
+     * See the docuemntation of {@code requestWhenInUseAuthorization} for further details.
+     *
+     * @returns Returns a promise which is resolved when the native layer
+     * shows the request dialog.
+     */
+    IBeacon.requestAlwaysAuthorization = function () { return; };
+    /**
+     *
+     * @returns Returns a promise which is resolved with an {Array}
+     * of {Region} instances that are being monitored by the native layer.
+     */
+    IBeacon.getMonitoredRegions = function () { return; };
+    /**
+     *
+     * @returns Returns a promise which is resolved with an {Array}
+     * of {Region} instances that are being ranged by the native layer.
+     */
+    IBeacon.getRangedRegions = function () { return; };
+    /**
+     * Determines if ranging is available or not, according to the native layer.
+     * @returns Returns a promise which is resolved with a {Boolean}
+     * indicating whether ranging is available or not.
+     */
+    IBeacon.isRangingAvailable = function () { return; };
+    /**
+     * Determines if region type is supported or not, according to the native layer.
+     *
+     * @param {Region} region An instance of {Region} which will be checked
+     * by the operating system.
+     *
+     * @returns Returns a promise which is resolved with a {Boolean}
+     * indicating whether the region type is supported or not.
+     */
+    IBeacon.isMonitoringAvailableForClass = function (region) { return; };
+    /**
+     * Start advertising the specified region.
+     *
+     * If a region a different identifier is already being advertised for
+     * this application, it will be replaced with the new identifier.
+     *
+     * This call will accept a valid beacon even when no BlueTooth is available,
+     * and will start when BlueTooth is powered on. See {Delegate.}
+     *
+     * @param {Region} region An instance of {Region} which will be advertised
+     * by the operating system.
+     * @param {Integer} measuredPower: Optional parameter, if left empty, the device will
+     * use it's own default value.
+     *
+     * @return Returns a promise which is resolved as soon as the
+     * native layer acknowledged the dispatch of the advertising request.
+     */
+    IBeacon.startAdvertising = function (region, measuredPower) { return; };
+    /**
+     * Stop advertising as a beacon.
+     *
+     * This is done asynchronously and may not be immediately reflected in isAdvertising.
+     *
+     * @return Returns a promise which is resolved as soon as the
+     * native layer acknowledged the dispatch of the request to stop advertising.
+     */
+    IBeacon.stopAdvertising = function (region) { return; };
+    /**
+     * Determines if advertising is available or not, according to the native layer.
+     * @returns Returns a promise which is resolved with a {Boolean}
+     * indicating whether advertising is available or not.
+     */
+    IBeacon.isAdvertisingAvailable = function () { return; };
+    /**
+     * Determines if advertising is currently active, according to the native layer.
+     * @returns Returns a promise which is resolved with a {Boolean}
+     * indicating whether advertising is active.
+     */
+    IBeacon.isAdvertising = function () { return; };
+    /**
+     * Disables debug logging in the native layer. Use this method if you want
+     * to prevent this plugin from writing to the device logs.
+     *
+     * @returns Returns a promise which is resolved as soon as the
+     * native layer has set the logging level accordingly.
+     */
+    IBeacon.disableDebugLogs = function () { return; };
+    /**
+     * Enables the posting of debug notifications in the native layer. Use this method if you want
+     * to allow the plugin the posting local notifications.
+     * This can be very helpful when debugging how to apps behave when launched into the background.
+     *
+     * @returns Returns a promise which is resolved as soon as the
+     * native layer has set the flag to enabled.
+     */
+    IBeacon.enableDebugNotifications = function () { return; };
+    /**
+     * Disables the posting of debug notifications in the native layer. Use this method if you want
+     * to prevent the plugin from posting local notifications.
+     *
+     * @returns Returns a promise which is resolved as soon as the
+     * native layer has set the flag to disabled.
+     */
+    IBeacon.disableDebugNotifications = function () { return; };
+    /**
+     * Enables debug logging in the native layer. Use this method if you want
+     * a debug the inner workings of this plugin.
+     *
+     * @returns Returns a promise which is resolved as soon as the
+     * native layer has set the logging level accordingly.
+     */
+    IBeacon.enableDebugLogs = function () { return; };
+    /**
+     * Appends the provided [message] to the device logs.
+     * Note: If debug logging is turned off, this won't do anything.
+     *
+     * @param {String} message The message to append to the device logs.
+     *
+     * @returns Returns a promise which is resolved with the log
+     * message received by the native layer for appending. The returned message
+     * is expected to be equivalent to the one provided in the original call.
+     */
+    IBeacon.appendToDeviceLog = function (message) { return; };
+    __decorate([
+        plugin_1.Cordova()
+    ], IBeacon, "getDelegate", null);
+    __decorate([
+        plugin_1.Cordova()
+    ], IBeacon, "setDelegate", null);
+    __decorate([
+        plugin_1.Cordova({ sync: true })
+    ], IBeacon, "onDomDelegateReady", null);
+    __decorate([
+        plugin_1.Cordova({ sync: true })
+    ], IBeacon, "isBluetoothEnabled", null);
+    __decorate([
+        plugin_1.Cordova({ sync: true })
+    ], IBeacon, "enableBluetooth", null);
+    __decorate([
+        plugin_1.Cordova({ sync: true })
+    ], IBeacon, "disableBluetooth", null);
+    __decorate([
+        plugin_1.Cordova({ sync: true })
+    ], IBeacon, "startMonitoringForRegion", null);
+    __decorate([
+        plugin_1.Cordova({ sync: true })
+    ], IBeacon, "stopMonitoringForRegion", null);
+    __decorate([
+        plugin_1.Cordova({ sync: true })
+    ], IBeacon, "requestStateForRegion", null);
+    __decorate([
+        plugin_1.Cordova({ sync: true })
+    ], IBeacon, "startRangingBeaconsInRegion", null);
+    __decorate([
+        plugin_1.Cordova({ sync: true })
+    ], IBeacon, "stopRangingBeaconsInRegion", null);
+    __decorate([
+        plugin_1.Cordova({ sync: true })
+    ], IBeacon, "getAuthorizationStatus", null);
+    __decorate([
+        plugin_1.Cordova({ sync: true })
+    ], IBeacon, "requestWhenInUseAuthorization", null);
+    __decorate([
+        plugin_1.Cordova({ sync: true })
+    ], IBeacon, "requestAlwaysAuthorization", null);
+    __decorate([
+        plugin_1.Cordova({ sync: true })
+    ], IBeacon, "getMonitoredRegions", null);
+    __decorate([
+        plugin_1.Cordova({ sync: true })
+    ], IBeacon, "getRangedRegions", null);
+    __decorate([
+        plugin_1.Cordova({ sync: true })
+    ], IBeacon, "isRangingAvailable", null);
+    __decorate([
+        plugin_1.Cordova({ sync: true })
+    ], IBeacon, "isMonitoringAvailableForClass", null);
+    __decorate([
+        plugin_1.Cordova({ sync: true })
+    ], IBeacon, "startAdvertising", null);
+    __decorate([
+        plugin_1.Cordova({ sync: true })
+    ], IBeacon, "stopAdvertising", null);
+    __decorate([
+        plugin_1.Cordova({ sync: true })
+    ], IBeacon, "isAdvertisingAvailable", null);
+    __decorate([
+        plugin_1.Cordova({ sync: true })
+    ], IBeacon, "isAdvertising", null);
+    __decorate([
+        plugin_1.Cordova({ sync: true })
+    ], IBeacon, "disableDebugLogs", null);
+    __decorate([
+        plugin_1.Cordova({ sync: true })
+    ], IBeacon, "enableDebugNotifications", null);
+    __decorate([
+        plugin_1.Cordova({ sync: true })
+    ], IBeacon, "disableDebugNotifications", null);
+    __decorate([
+        plugin_1.Cordova({ sync: true })
+    ], IBeacon, "enableDebugLogs", null);
+    __decorate([
+        plugin_1.Cordova({ sync: true })
+    ], IBeacon, "appendToDeviceLog", null);
+    IBeacon = __decorate([
+        plugin_1.Plugin({
+            plugin: 'cordova-plugin-ibeacon',
+            pluginRef: 'cordova.plugins.locationManager',
+            repo: 'https://github.com/petermetz/cordova-plugin-ibeacon',
+            platforms: ['Android', 'iOS']
+        })
+    ], IBeacon);
+    return IBeacon;
+}());
+exports.IBeacon = IBeacon;
+
+},{"./plugin":520,"rxjs/Observable":539}],508:[function(require,module,exports){
 "use strict";
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -84356,8 +87939,8 @@ var plugin_1 = require('./plugin');
  * For more info, please see the https://github.com/wymsee/cordova-imagePicker
  *
  * @usage
- * ```js
- * import {ImagePicker} from 'ionic-native';
+ * ```typescript
+ * import { ImagePicker } from 'ionic-native';
  *
  *
  *
@@ -84365,8 +87948,7 @@ var plugin_1 = require('./plugin');
  *   for (var i = 0; i < results.length; i++) {
  *       console.log('Image URI: ' + results[i]);
  *   }
- * }, (err) => {
- * });
+ * }, (err) => { });
  * ```
  */
 var ImagePicker = (function () {
@@ -84395,7 +87977,7 @@ var ImagePicker = (function () {
 }());
 exports.ImagePicker = ImagePicker;
 
-},{"./plugin":510}],503:[function(require,module,exports){
+},{"./plugin":520}],509:[function(require,module,exports){
 "use strict";
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -84431,7 +88013,7 @@ var InAppBrowser = (function () {
 }());
 exports.InAppBrowser = InAppBrowser;
 
-},{"./plugin":510}],504:[function(require,module,exports){
+},{"./plugin":520}],510:[function(require,module,exports){
 "use strict";
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -84446,8 +88028,9 @@ var plugin_1 = require('./plugin');
  * Prevent the screen of the mobile device from falling asleep.
  *
  * @usage
- * ```js
- * import {Insomnia} from 'ionic-native';
+ * ```typescript
+ * import { Insomnia } from 'ionic-native';
+ *
  *
  * Insomnia.keepAwake()
  *   .then(
@@ -84494,7 +88077,7 @@ var Insomnia = (function () {
 }());
 exports.Insomnia = Insomnia;
 
-},{"./plugin":510}],505:[function(require,module,exports){
+},{"./plugin":520}],511:[function(require,module,exports){
 "use strict";
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -84507,8 +88090,8 @@ var plugin_1 = require('./plugin');
  * @name Keyboard
  * @description
  * @usage
- * ```js
- * import {Keyboard} from 'ionic-native';
+ * ```typescript
+ * import { Keyboard } from 'ionic-native';
  *
  *
  *
@@ -84588,7 +88171,7 @@ var Keyboard = (function () {
 }());
 exports.Keyboard = Keyboard;
 
-},{"./plugin":510}],506:[function(require,module,exports){
+},{"./plugin":520}],512:[function(require,module,exports){
 "use strict";
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -84603,15 +88186,20 @@ var plugin_1 = require('./plugin');
  * Requires Cordova plugin: uk.co.workingedge.phonegap.plugin.launchnavigator. For more info, please see the [LaunchNavigator plugin docs](https://github.com/dpa99c/phonegap-launch-navigator).
  *
  * @usage
- * ```js
- * import {LaunchNavigator} from 'ionic-native';
+ * Please refer to the plugin's repo for detailed usage. This docs page only explains the Native wrapper.
  *
+ * ```typescript
+ * import { LaunchNavigator, LaunchNavigatorOptions } from 'ionic-native';
  *
+ * let options: LaunchNavigatorOptions = {
+ *   start: 'London, ON',
+ *   app: LaunchNavigator.APPS.UBER
+ * };
  *
- * LaunchNavigator.navigate("Toronto, ON", "London, ON")
+ * LaunchNavigator.navigate('Toronto, ON', options)
  *   .then(
- *     success => console.log("Launched navigator"),
- *     error => console.log("Error launching navigator", error)
+ *     success => console.log('Launched navigator'),
+ *     error => console.log('Error launching navigator', error)
  *   );
  * ```
  */
@@ -84620,21 +88208,119 @@ var LaunchNavigator = (function () {
     }
     /**
      * Launches navigator app
-     * @param destination Location name or coordinates
-     * @param start Location name or coordinates
-     * @param options
+     * @param destination {string|number[]} Location name or coordinates (as string or array)
+     * @param options {LaunchNavigatorOptions}
      * @returns {Promise<any>}
      */
-    LaunchNavigator.navigate = function (destination, start, options) {
-        if (start === void 0) { start = null; }
-        return;
+    LaunchNavigator.navigate = function (destination, options) { return; };
+    /**
+     * Determines if the given app is installed and available on the current device.
+     * @param app {string}
+     */
+    LaunchNavigator.isAppAvailable = function (app) { return; };
+    /**
+     * Returns a list indicating which apps are installed and available on the current device.
+     */
+    LaunchNavigator.availableApps = function () { return; };
+    /**
+     * Returns the display name of the specified app.
+     * @param app {string}
+     */
+    LaunchNavigator.getAppDisplayName = function (app) { return; };
+    /**
+     * Returns list of supported apps on a given platform.
+     * @param platform {string}
+     */
+    LaunchNavigator.getAppsForPlatform = function (platform) { return; };
+    /**
+     * Indicates if an app on a given platform supports specification of transport mode.
+     * @param app {string} specified as a string, you can use one of the constants, e.g `LaunchNavigator.APP.GOOGLE_MAPS`
+     * @param platform {string}
+     */
+    LaunchNavigator.supportsTransportMode = function (app, platform) { return; };
+    /**
+     * Returns the list of transport modes supported by an app on a given platform.
+     * @param app {string}
+     * @param platform {string}
+     */
+    LaunchNavigator.getTransportModes = function (app, platform) { return; };
+    /**
+     * Indicates if an app on a given platform supports specification of launch mode.
+     * Note that currently only Google Maps on Android does.
+     * @param app {string}
+     * @param platform {string}
+     */
+    LaunchNavigator.supportsLaunchMode = function (app, platform) { return; };
+    /**
+     * Indicates if an app on a given platform supports specification of start location.
+     * @param app {string}
+     * @param platform {string}
+     */
+    LaunchNavigator.supportsStart = function (app, platform) { return; };
+    LaunchNavigator.supportsStartName = function (app, platform) { return; };
+    LaunchNavigator.supportsDestName = function (app, platform) { return; };
+    LaunchNavigator.userSelect = function (destination, options) { };
+    LaunchNavigator.APP = {
+        USER_SELECT: 'user_select',
+        APPLE_MAPS: 'apple_maps',
+        GOOGLE_MAPS: 'google_maps',
+        WAZE: 'waze',
+        CITYMAPPER: 'citymapper',
+        NAVIGON: 'navigon',
+        TRANSIT_APP: 'transit_app',
+        YANDEX: 'yandex',
+        UBER: 'uber',
+        TOMTOM: 'tomtom',
+        BING_MAPS: 'bing_maps',
+        SYGIC: 'sygic',
+        HERE_MAPS: 'here_maps',
+        MOOVIT: 'moovit'
+    };
+    LaunchNavigator.TRANSPORT_MODE = {
+        DRIVING: 'driving',
+        WALKING: 'walking',
+        BICYCLING: 'bicycling',
+        TRANSIT: 'transit'
     };
     __decorate([
         plugin_1.Cordova({
-            successIndex: 2,
-            errorIndex: 3
+            successIndex: 1,
+            errorIndex: 2
         })
     ], LaunchNavigator, "navigate", null);
+    __decorate([
+        plugin_1.Cordova()
+    ], LaunchNavigator, "isAppAvailable", null);
+    __decorate([
+        plugin_1.Cordova()
+    ], LaunchNavigator, "availableApps", null);
+    __decorate([
+        plugin_1.Cordova({ sync: true })
+    ], LaunchNavigator, "getAppDisplayName", null);
+    __decorate([
+        plugin_1.Cordova({ sync: true })
+    ], LaunchNavigator, "getAppsForPlatform", null);
+    __decorate([
+        plugin_1.Cordova({ sync: true })
+    ], LaunchNavigator, "supportsTransportMode", null);
+    __decorate([
+        plugin_1.Cordova({ sync: true })
+    ], LaunchNavigator, "getTransportModes", null);
+    __decorate([
+        plugin_1.Cordova({ sync: true })
+    ], LaunchNavigator, "supportsLaunchMode", null);
+    __decorate([
+        plugin_1.Cordova({ sync: true })
+    ], LaunchNavigator, "supportsStart", null);
+    __decorate([
+        plugin_1.Cordova({ sync: true })
+    ], LaunchNavigator, "supportsStartName", null);
+    __decorate([
+        plugin_1.Cordova({ sync: true })
+    ], LaunchNavigator, "supportsDestName", null);
+    __decorate([
+        plugin_1.Cordova({ sync: true })
+    ], LaunchNavigator, "userSelect", null);
     LaunchNavigator = __decorate([
         plugin_1.Plugin({
             plugin: 'uk.co.workingedge.phonegap.plugin.launchnavigator',
@@ -84646,7 +88332,7 @@ var LaunchNavigator = (function () {
 }());
 exports.LaunchNavigator = LaunchNavigator;
 
-},{"./plugin":510}],507:[function(require,module,exports){
+},{"./plugin":520}],513:[function(require,module,exports){
 "use strict";
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -84661,15 +88347,14 @@ var plugin_1 = require('./plugin');
  * This plugin allows you to display local notifications on the device
  *
  * @usage
- * ```ts
- * import {LocalNotifications} from 'ionic-native';
- *
+ * ```typescript
+ * import { LocalNotifications } from 'ionic-native';
  *
  *
  * // Schedule a single notification
  * LocalNotifications.schedule({
  *   id: 1,
- *   text: "Single Notification",
+ *   text: 'Single Notification',
  *   sound: isAndroid? 'file://sound.mp3': 'file://beep.caf'
  *   data: { secret: key }
  * });
@@ -84678,22 +88363,22 @@ var plugin_1 = require('./plugin');
  * // Schedule multiple notifications
  * LocalNotifications.schedule([{
  *    id: 1,
- *    text: "Multi Notification 1",
+ *    text: 'Multi Notification 1',
  *    sound: isAndroid ? 'file://sound.mp3': 'file://beep.caf',
  *    data: { secret:key }
  *   },{
  *    id: 2,
- *    title: "Local Notification Example",
- *    text: "Multi Notification 2",
- *    icon: "http://example.com/icon.png"
+ *    title: 'Local Notification Example',
+ *    text: 'Multi Notification 2',
+ *    icon: 'http://example.com/icon.png'
  * }]);
  *
  *
  * // Schedule delayed notification
  * LocalNotifications.schedule({
- *    text: "Delayed Notification",
+ *    text: 'Delayed Notification',
  *    at: new Date(new Date().getTime() + 3600),
- *    led: "FF0000",
+ *    led: 'FF0000',
  *    sound: null
  * });
  * ```
@@ -84870,7 +88555,139 @@ var LocalNotifications = (function () {
 }());
 exports.LocalNotifications = LocalNotifications;
 
-},{"./plugin":510}],508:[function(require,module,exports){
+},{"./plugin":520}],514:[function(require,module,exports){
+"use strict";
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var plugin_1 = require('./plugin');
+/**
+ * @name Media Capture
+ * @description
+ * @usage
+ * ```typescript
+ * import { MediaCapture } from 'ionic-native';
+ *
+ *
+ * let options: CaptureImageOptions = { limit: 3 };
+ * MediaCapture.captureImage(options)
+ *   .then(
+ *     (data: MediaFile[]) => console.log(data),
+ *     (err: CaptureError) => console.error(err)
+ *   );
+ *
+ * ```
+ */
+var MediaCapture = (function () {
+    function MediaCapture() {
+    }
+    Object.defineProperty(MediaCapture, "supportedImageModes", {
+        /**
+         * The audio recording formats supported by the device.
+         * @returns {ConfigurationData[]}
+         */
+        get: function () {
+            return navigator.device.capture.supportedImageModes;
+        },
+        enumerable: true,
+        configurable: true
+    });
+    Object.defineProperty(MediaCapture, "supportedAudioModes", {
+        /**
+         * The recording image sizes and formats supported by the device.
+         * @returns {ConfigurationData[]}
+         */
+        get: function () {
+            return navigator.device.capture.supportedAudioModes;
+        },
+        enumerable: true,
+        configurable: true
+    });
+    Object.defineProperty(MediaCapture, "supportedVideoModes", {
+        /**
+         * The recording video resolutions and formats supported by the device.
+         * @returns {ConfigurationData[]}
+         */
+        get: function () {
+            return navigator.device.capture.supportedVideoModes;
+        },
+        enumerable: true,
+        configurable: true
+    });
+    /**
+     * Start the audio recorder application and return information about captured audio clip files.
+     * @param options
+     */
+    MediaCapture.captureAudio = function (options) { return; };
+    /**
+     * Start the camera application and return information about captured image files.
+     * @param options
+     */
+    MediaCapture.captureImage = function (options) { return; };
+    /**
+     * Start the video recorder application and return information about captured video clip files.
+     * @param options
+     */
+    MediaCapture.captureVideo = function (options) { return; };
+    /**
+     * is fired if the capture call is successful
+     */
+    MediaCapture.onPendingCaptureResult = function () { return; };
+    /**
+     * is fired if the capture call is unsuccessful
+     */
+    MediaCapture.onPendingCaptureError = function () { return; };
+    __decorate([
+        plugin_1.CordovaProperty
+    ], MediaCapture, "supportedImageModes", null);
+    __decorate([
+        plugin_1.CordovaProperty
+    ], MediaCapture, "supportedAudioModes", null);
+    __decorate([
+        plugin_1.CordovaProperty
+    ], MediaCapture, "supportedVideoModes", null);
+    __decorate([
+        plugin_1.Cordova({
+            callbackOrder: 'reverse'
+        })
+    ], MediaCapture, "captureAudio", null);
+    __decorate([
+        plugin_1.Cordova({
+            callbackOrder: 'reverse'
+        })
+    ], MediaCapture, "captureImage", null);
+    __decorate([
+        plugin_1.Cordova({
+            callbackOrder: 'reverse'
+        })
+    ], MediaCapture, "captureVideo", null);
+    __decorate([
+        plugin_1.Cordova({
+            eventObservable: true,
+            event: 'pendingcaptureresult'
+        })
+    ], MediaCapture, "onPendingCaptureResult", null);
+    __decorate([
+        plugin_1.Cordova({
+            eventObservable: true,
+            event: 'pendingcaptureerror'
+        })
+    ], MediaCapture, "onPendingCaptureError", null);
+    MediaCapture = __decorate([
+        plugin_1.Plugin({
+            plugin: 'cordova-plugin-media-capture',
+            pluginRef: 'navigator.device.capture',
+            repo: 'https://github.com/apache/cordova-plugin-media-capture'
+        })
+    ], MediaCapture);
+    return MediaCapture;
+}());
+exports.MediaCapture = MediaCapture;
+
+},{"./plugin":520}],515:[function(require,module,exports){
 "use strict";
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -84884,22 +88701,22 @@ var Observable_1 = require('rxjs/Observable');
  * @name MediaPlugin
  * @description
  * @usage
- * ```ts
- * import {MediaPlugin} from 'ionic-native';
+ * ```typescript
+ * import { MediaPlugin } from 'ionic-native';
  *
  *
  *
  * // Create a MediaPlugin instance.  Expects path to file or url as argument
- * var file = new MediaPlugin("path/to/file.mp3");
+ * var file = new MediaPlugin('path/to/file.mp3');
  *
  * // Catch the Success & Error Output
  * // Platform Quirks
  * // iOS calls success on completion of playback only
  * // Android calls success on completion of playback AND on release()
  * file.init.then(() => {
- *   console.log("Playback Finished");
+ *   console.log('Playback Finished');
  * }, (err) => {
- *   console.log("somthing went wrong! error code: "+err.code+" message: "+err.message);
+ *   console.log('somthing went wrong! error code: ' + err.code + ' message: ' + err.message);
  * });
  *
  * // play the file
@@ -84931,7 +88748,7 @@ var Observable_1 = require('rxjs/Observable');
  * file.release();
  *
  * // Recording to a file
- * var newFile = new MediaPlugin("path/to/file.mp3");
+ * var newFile = new MediaPlugin('path/to/file.mp3');
  * newFile.startRecord();
  *
  * newFile.stopRecord();
@@ -85094,7 +88911,83 @@ var MediaError = (function () {
 }());
 exports.MediaError = MediaError;
 
-},{"./plugin":510,"rxjs/Observable":526}],509:[function(require,module,exports){
+},{"./plugin":520,"rxjs/Observable":539}],516:[function(require,module,exports){
+"use strict";
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var plugin_1 = require('./plugin');
+/**
+ * @name Native Storage
+ * @description
+ *
+ * @usage
+ * ```typescript
+ * import { NativeStorage } from 'ionic-native';
+ *
+ * NativeStorage.setItem('myitem', {property: 'value', anotherProperty: 'anotherValue'})
+ *   .then(
+ *     () => console.log('Stored item!'),
+ *     error => console.error('Error storing item', error)
+ *   );
+ *
+ * NativeStorage.getItem('myitem')
+ *   .then(
+ *     data => console.log(data),
+ *     error => console.error(error)
+ *   );
+ * ```
+ */
+var NativeStorage = (function () {
+    function NativeStorage() {
+    }
+    /**
+     * Stores a value
+     * @param reference
+     * @param value
+     */
+    NativeStorage.setItem = function (reference, value) { return; };
+    /**
+     * Gets a stored item
+     * @param reference
+     */
+    NativeStorage.getItem = function (reference) { return; };
+    /**
+     * Removes a single stored item
+     * @param reference
+     */
+    NativeStorage.remove = function (reference) { return; };
+    /**
+     * Removes all stored values.
+     */
+    NativeStorage.clear = function () { return; };
+    __decorate([
+        plugin_1.Cordova()
+    ], NativeStorage, "setItem", null);
+    __decorate([
+        plugin_1.Cordova()
+    ], NativeStorage, "getItem", null);
+    __decorate([
+        plugin_1.Cordova()
+    ], NativeStorage, "remove", null);
+    __decorate([
+        plugin_1.Cordova()
+    ], NativeStorage, "clear", null);
+    NativeStorage = __decorate([
+        plugin_1.Plugin({
+            plugin: 'cordova-plugin-nativestorage',
+            pluginRef: 'NativeStorage',
+            repo: 'https://github.com/TheCocoaProject/cordova-plugin-nativestorage'
+        })
+    ], NativeStorage);
+    return NativeStorage;
+}());
+exports.NativeStorage = NativeStorage;
+
+},{"./plugin":520}],517:[function(require,module,exports){
 "use strict";
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -85109,12 +89002,12 @@ var plugin_1 = require('./plugin');
  * Requires Cordova plugin: cordova-plugin-network-information. For more info, please see the [Network plugin docs](https://github.com/apache/cordova-plugin-network-information).
  *
  * @usage
- * ```js
- * import {Network, Connection} from 'ionic-native';
+ * ```typescript
+ * import { Network } from 'ionic-native';
  *
  * // watch network for a disconnect
  * let disconnectSubscription = Network.onDisconnect().subscribe(() => {
- *   console.log('network was disconnected :-( ')
+ *   console.log('network was disconnected :-(');
  * });
  *
  * // stop disconnect watch
@@ -85124,15 +89017,14 @@ var plugin_1 = require('./plugin');
  * // watch network for a connection
  * let connectSubscription = Network.onConnect().subscribe(() => {
  *   console.log('network connected!');
-*
+
  *   // We just got a connection but we need to wait briefly
  *
-// before we determine the connection type.  Might need to wait
+   // before we determine the connection type.  Might need to wait
 
  *   // prior to doing any api requests as well.
  *   setTimeout(() => {
- *     console.log(Network.connection);
- *     if (Network.connection === Connection.WIFI) {
+ *     if (Network.connection === 'wifi') {
  *       console.log('we got a wifi connection, woohoo!');
  *     }
  *   }, 3000);
@@ -85142,6 +89034,8 @@ var plugin_1 = require('./plugin');
  * connectSubscription.unsubscribe();
  *
  * ```
+ * @advanced
+ * The `connection` property will return one of the following connection types: `unknown`, `ethernet`, `wifi`, `2g`, `3g`, `4g`, `cellular`, `none`
  */
 var Network = (function () {
     function Network() {
@@ -85190,54 +89084,275 @@ var Network = (function () {
     return Network;
 }());
 exports.Network = Network;
-var Connection = (function () {
-    function Connection() {
-    }
-    Object.defineProperty(Connection, "UNKNOWN", {
-        get: function () { return 'unknown'; },
-        enumerable: true,
-        configurable: true
-    });
-    Object.defineProperty(Connection, "ETHERNET", {
-        get: function () { return 'ethernet'; },
-        enumerable: true,
-        configurable: true
-    });
-    Object.defineProperty(Connection, "WIFI", {
-        get: function () { return 'wifi'; },
-        enumerable: true,
-        configurable: true
-    });
-    Object.defineProperty(Connection, "CELL_2G", {
-        get: function () { return '2g'; },
-        enumerable: true,
-        configurable: true
-    });
-    Object.defineProperty(Connection, "CELL_3G", {
-        get: function () { return '3g'; },
-        enumerable: true,
-        configurable: true
-    });
-    Object.defineProperty(Connection, "CELL_4G", {
-        get: function () { return '4g'; },
-        enumerable: true,
-        configurable: true
-    });
-    Object.defineProperty(Connection, "CELL", {
-        get: function () { return 'cellular'; },
-        enumerable: true,
-        configurable: true
-    });
-    Object.defineProperty(Connection, "NONE", {
-        get: function () { return 'none'; },
-        enumerable: true,
-        configurable: true
-    });
-    return Connection;
-}());
-exports.Connection = Connection;
 
-},{"./plugin":510}],510:[function(require,module,exports){
+},{"./plugin":520}],518:[function(require,module,exports){
+"use strict";
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var plugin_1 = require('./plugin');
+/**
+ * @name OneSignal
+ * @description
+ * The OneSignal plugin is an client implementation for using the [OneSignal](https://onesignal.com/) Service.
+ * OneSignal is a simple implementation for delivering push notifications.
+ *
+ * Requires Cordova plugin: `onesignal-cordova-plugin`. For more info, please see the [OneSignal Cordova Docs](https://documentation.onesignal.com/docs/phonegap-sdk-installation).
+ *
+ * @usage
+ * ```typescript
+ * import { OneSignal } from 'ionic-native';
+ *
+ * let notificationOpenedCallback(jsonData: any) {
+ *   console.log('didReceiveRemoteNotificationCallBack: ' + JSON.stringify(jsonData));
+ * };
+ *
+ * OneSignal.init('b2f7f966-d8cc-11e4-bed1-df8f05be55ba',
+ *                        {googleProjectNumber: '703322744261'},
+ *                        notificationOpenedCallback);
+ *
+ * OneSignal.enableInAppAlertNotification(true);
+ * ```
+ *
+ */
+var OneSignal = (function () {
+    function OneSignal() {
+    }
+    /**
+     * Only required method you need to call to setup OneSignal to receive push notifications. Call this from the `deviceready` event.
+     *
+     * @param {appId} Your AppId from your OneSignal app
+     * @param {options} The Google Project Number (which you can get from the Google Developer Potal) and the autoRegister option.
+     * @returns {Promise} Returns a Promise that resolves when remote notification was recieved.
+     */
+    OneSignal.init = function (appId, options) { return; };
+    /**
+     * Call this when you would like to prompt an iOS user to accept push notifications with the default system prompt.
+     * Only use if you passed false to autoRegister when calling init.
+     */
+    OneSignal.registerForPushNotifications = function () { };
+    /**
+     * Tag a user based on an app event of your choosing so later you can create segments on [onesignal.com](https://onesignal.com/) to target these users.
+     * Recommend using sendTags over sendTag if you need to set more than one tag on a user at a time.
+     *
+     * @param {key} Key of your choosing to create or update.
+     * @param {value} Value to set on the key. NOTE: Passing in a blank String deletes the key, you can also call deleteTag.
+     */
+    OneSignal.sendTag = function (key, value) { };
+    /**
+   * Tag a user based on an app event of your choosing so later you can create segments on [onesignal.com](https://onesignal.com/) to target these users.
+   * Recommend using sendTags over sendTag if you need to set more than one tag on a user at a time.
+   *
+   * @param {json} Pass a json object with key/value pairs like: {key: "value", key2: "value2"}
+   */
+    OneSignal.sendTags = function (json) { };
+    /**
+    * Retrieve a list of tags that have been set on the user from the OneSignal server.
+    *
+    * @returns {Promise} Returns a Promise that resolves when tags are recieved.
+    */
+    OneSignal.getTags = function () { return; };
+    /**
+    * Deletes a tag that was previously set on a user with `sendTag` or `sendTags`. Use `deleteTags` if you need to delete more than one.
+    *
+    * @param {key} Key to remove.
+    */
+    OneSignal.deleteTag = function (key) { };
+    /**
+    * Deletes tags that were previously set on a user with `sendTag` or `sendTags`.
+    *
+    * @param {keys} Keys to remove.
+    */
+    OneSignal.deleteTags = function (keys) { };
+    /**
+    * Lets you retrieve the OneSignal user id and device token.
+    * Your handler is called after the device is successfully registered with OneSignal.
+    *
+    * @returns {Promise} Returns a Promise that reolves if the device was successfully registered.
+    * It returns a JSON with `userId`and `pushToken`.
+    */
+    OneSignal.getIds = function () { return; };
+    /**
+    * Warning:
+    * Only applies to Android and Amazon. You can call this from your UI from a button press for example to give your user's options for your notifications.
+    *
+    * By default OneSignal always vibrates the device when a notification is displayed unless the device is in a total silent mode.
+    * Passing false means that the device will only vibrate lightly when the device is in it's vibrate only mode.
+    *
+    * @param {enable} false to disable vibrate, true to re-enable it.
+    */
+    OneSignal.enableVibrate = function (enable) { };
+    /**
+    * Warning:
+    * Only applies to Android and Amazon. You can call this from your UI from a button press for example to give your user's options for your notifications.
+    *
+    * By default OneSignal plays the system's default notification sound when the device's notification system volume is turned on.
+    * Passing false means that the device will only vibrate unless the device is set to a total silent mode.
+    *
+    * @param {enable} false to disable sound, true to re-enable it.
+    */
+    OneSignal.enableSound = function (enable) { };
+    /**
+    * Warning:
+    * Only applies to Android and Amazon devices.
+    *
+    * By default this is false and notifications will not be shown when the user is in your app, instead the notificationOpenedCallback is fired.
+    * If set to true notifications will always show in the notification area and notificationOpenedCallback will not fire until the user taps on the notification.
+    *
+    * @param {enable} enable
+    */
+    OneSignal.enableNotificationsWhenActive = function (enable) { };
+    /**
+    * By default this is false and notifications will not be shown when the user is in your app, instead the notificationOpenedCallback is fired.
+    * If set to true notifications will be shown as native alert boxes if a notification is received when the user is in your app.
+    * The notificationOpenedCallback is then fired after the alert box is closed.
+    *
+    * @param {enable} enable
+    */
+    OneSignal.enableInAppAlertNotification = function (enable) { };
+    /**
+    * You can call this method with false to opt users out of receiving all notifications through OneSignal.
+    * You can pass true later to opt users back into notifications.
+    *
+    * @param {enable} enable
+    */
+    OneSignal.setSubscription = function (enable) { };
+    /**
+    *
+    * @param {notificationObj} Parameters see POST [documentation](https://documentation.onesignal.com/v2.0/docs/notifications-create-notification)
+    * @returns {Promise} Returns a Promise that resolves if the notification was send successfully.
+    */
+    OneSignal.postNotification = function (notificationObj) { return; };
+    /**
+    * Prompts the user for location permission to allow geotagging based on the "Location radius" filter on the OneSignal dashboard.
+    */
+    OneSignal.promptLocation = function () { };
+    /**
+    * Enable logging to help debug if you run into an issue setting up OneSignal.
+    * The logging levels are as follows: 0 = None, 1= Fatal, 2 = Errors, 3 = Warnings, 4 = Info, 5 = Debug, 6 = Verbose
+  
+    * The higher the value the more information is shown.
+    *
+    * @param {loglevel} contains two properties: logLevel (for console logging) and visualLevel (for dialog messages)
+    */
+    OneSignal.setLogLevel = function (logLevel) { };
+    __decorate([
+        plugin_1.Cordova()
+    ], OneSignal, "init", null);
+    __decorate([
+        plugin_1.Cordova({ sync: true })
+    ], OneSignal, "registerForPushNotifications", null);
+    __decorate([
+        plugin_1.Cordova({ sync: true })
+    ], OneSignal, "sendTag", null);
+    __decorate([
+        plugin_1.Cordova({ sync: true })
+    ], OneSignal, "sendTags", null);
+    __decorate([
+        plugin_1.Cordova()
+    ], OneSignal, "getTags", null);
+    __decorate([
+        plugin_1.Cordova({ sync: true })
+    ], OneSignal, "deleteTag", null);
+    __decorate([
+        plugin_1.Cordova({ sync: true })
+    ], OneSignal, "deleteTags", null);
+    __decorate([
+        plugin_1.Cordova()
+    ], OneSignal, "getIds", null);
+    __decorate([
+        plugin_1.Cordova({ sync: true })
+    ], OneSignal, "enableVibrate", null);
+    __decorate([
+        plugin_1.Cordova({ sync: true })
+    ], OneSignal, "enableSound", null);
+    __decorate([
+        plugin_1.Cordova({ sync: true })
+    ], OneSignal, "enableNotificationsWhenActive", null);
+    __decorate([
+        plugin_1.Cordova({ sync: true })
+    ], OneSignal, "enableInAppAlertNotification", null);
+    __decorate([
+        plugin_1.Cordova({ sync: true })
+    ], OneSignal, "setSubscription", null);
+    __decorate([
+        plugin_1.Cordova()
+    ], OneSignal, "postNotification", null);
+    __decorate([
+        plugin_1.Cordova({ sync: true })
+    ], OneSignal, "promptLocation", null);
+    __decorate([
+        plugin_1.Cordova({ sync: true })
+    ], OneSignal, "setLogLevel", null);
+    OneSignal = __decorate([
+        plugin_1.Plugin({
+            plugin: 'onesignal-cordova-plugin',
+            pluginRef: 'plugins.OneSignal',
+            repo: 'https://github.com/OneSignal/OneSignal-Cordova-SDK',
+            platforms: ['Android', 'iOS', 'Windows Phone 8']
+        })
+    ], OneSignal);
+    return OneSignal;
+}());
+exports.OneSignal = OneSignal;
+
+},{"./plugin":520}],519:[function(require,module,exports){
+"use strict";
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var plugin_1 = require('./plugin');
+/**
+ * @name Pin Dialog
+ * @description
+ *
+ * @usage
+ * ```typescript
+ * import { PinDialog } from 'ionic-native';
+ *
+ *
+ * PinDialog.prompt('Enter your PIN', 'Verify PIN', ['OK', 'Cancel'])
+ *   .then(
+ *     (result: any) => {
+ *       if (result.buttonIndex == 1) console.log('User clicked OK, value is: ', result.input1);
+ *       else if(result.buttonIndex == 2) console.log('User cancelled');
+ *     }
+ *   );
+ * ```
+ */
+var PinDialog = (function () {
+    function PinDialog() {
+    }
+    /**
+     * Show pin dialog
+     * @param {string} message Message to show the user
+     * @param {string} title Title of the dialog
+     * @param {string[]} buttons Buttons to show
+     */
+    PinDialog.prompt = function (message, title, buttons) { return; };
+    __decorate([
+        plugin_1.Cordova({
+            successIndex: 1
+        })
+    ], PinDialog, "prompt", null);
+    PinDialog = __decorate([
+        plugin_1.Plugin({
+            plugin: 'cordova-plugin-pin-dialog',
+            pluginRef: 'plugins.pinDialog',
+            repo: 'https://github.com/Paldom/PinDialog'
+        })
+    ], PinDialog);
+    return PinDialog;
+}());
+exports.PinDialog = PinDialog;
+
+},{"./plugin":520}],520:[function(require,module,exports){
 "use strict";
 var util_1 = require('../util');
 var Observable_1 = require('rxjs/Observable');
@@ -85256,10 +89371,12 @@ exports.getPlugin = function (pluginRef) {
  */
 exports.pluginWarn = function (pluginObj, method) {
     var pluginName = pluginObj.name, plugin = pluginObj.plugin;
-    if (method)
+    if (method) {
         console.warn('Native: tried calling ' + pluginName + '.' + method + ', but the ' + pluginName + ' plugin is not installed.');
-    else
+    }
+    else {
         console.warn('Native: tried accessing the ' + pluginName + ' plugin but it\'s not installed.');
+    }
     console.warn('Install the ' + pluginName + ' plugin: \'ionic plugin add ' + plugin + '\'');
 };
 /**
@@ -85268,10 +89385,12 @@ exports.pluginWarn = function (pluginObj, method) {
  * @param method
  */
 exports.cordovaWarn = function (pluginName, method) {
-    if (method)
+    if (method) {
         console.warn('Native: tried calling ' + pluginName + '.' + method + ', but Cordova is not available. Make sure to include cordova.js or run in a device/simulator');
-    else
+    }
+    else {
         console.warn('Native: tried accessing the ' + pluginName + ' plugin but Cordova is not available. Make sure to include cordova.js or run in a device/simulator');
+    }
 };
 function setIndex(args, opts, resolve, reject) {
     if (opts === void 0) { opts = {}; }
@@ -85348,6 +89467,16 @@ function wrapPromise(pluginObj, methodName, args, opts) {
     }
     return p;
 }
+function wrapOtherPromise(pluginObj, methodName, args, opts) {
+    if (opts === void 0) { opts = {}; }
+    return getPromise(function (resolve, reject) {
+        var pluginResult = callCordovaPlugin(pluginObj, methodName, args, opts);
+        if (pluginResult && pluginResult.error) {
+            reject(pluginResult.error);
+        }
+        pluginResult.then(resolve).catch(reject);
+    });
+}
 function wrapObservable(pluginObj, methodName, args, opts) {
     if (opts === void 0) { opts = {}; }
     return new Observable_1.Observable(function (observer) {
@@ -85384,6 +89513,7 @@ function wrapInstance(pluginObj, methodName, opts) {
             args[_i - 0] = arguments[_i];
         }
         if (opts.sync) {
+            // Sync doesn't wrap the plugin with a promise or observable, it returns the result as-is
             return callInstance(pluginObj, methodName, args, opts);
         }
         else if (opts.observable) {
@@ -85403,6 +89533,12 @@ function wrapInstance(pluginObj, methodName, opts) {
                 };
             });
         }
+        else if (opts.otherPromise) {
+            return getPromise(function (resolve, reject) {
+                var result = callInstance(pluginObj, methodName, args, opts, resolve, reject);
+                result.then(resolve, reject);
+            });
+        }
         else {
             return getPromise(function (resolve, reject) {
                 callInstance(pluginObj, methodName, args, opts, resolve, reject);
@@ -85417,9 +89553,8 @@ function wrapInstance(pluginObj, methodName, opts) {
  */
 function wrapEventObservable(event) {
     return new Observable_1.Observable(function (observer) {
-        var callback = function (status) { return observer.next(status); };
-        window.addEventListener(event, callback, false);
-        return function () { return window.removeEventListener(event, callback, false); };
+        window.addEventListener(event, observer.next.bind(observer), false);
+        return function () { return window.removeEventListener(event, observer.next.bind(observer), false); };
     });
 }
 /**
@@ -85436,14 +89571,22 @@ exports.wrap = function (pluginObj, methodName, opts) {
         for (var _i = 0; _i < arguments.length; _i++) {
             args[_i - 0] = arguments[_i];
         }
-        if (opts.sync)
+        if (opts.sync) {
+            // Sync doesn't wrap the plugin with a promise or observable, it returns the result as-is
             return callCordovaPlugin(pluginObj, methodName, args, opts);
-        else if (opts.observable)
+        }
+        else if (opts.observable) {
             return wrapObservable(pluginObj, methodName, args, opts);
-        else if (opts.eventObservable && opts.event)
+        }
+        else if (opts.eventObservable && opts.event) {
             return wrapEventObservable(opts.event);
-        else
+        }
+        else if (opts.otherPromise) {
+            return wrapOtherPromise(pluginObj, methodName, args, opts);
+        }
+        else {
             return wrapPromise(pluginObj, methodName, args, opts);
+        }
     };
 };
 /**
@@ -85452,7 +89595,7 @@ exports.wrap = function (pluginObj, methodName, opts) {
  * Class decorator specifying Plugin metadata. Required for all plugins.
  *
  * @usage
- * ```ts
+ * ```typescript
  * @Plugin({
  *  name: 'MyPlugin',
  *  plugin: 'cordova-plugin-myplugin',
@@ -85569,7 +89712,7 @@ function InstanceProperty(target, key, descriptor) {
 }
 exports.InstanceProperty = InstanceProperty;
 
-},{"../util":525,"rxjs/Observable":526}],511:[function(require,module,exports){
+},{"../util":538,"rxjs/Observable":539}],521:[function(require,module,exports){
 "use strict";
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -85609,7 +89752,7 @@ var Printer = (function () {
 }());
 exports.Printer = Printer;
 
-},{"./plugin":510}],512:[function(require,module,exports){
+},{"./plugin":520}],522:[function(require,module,exports){
 "use strict";
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -85628,11 +89771,8 @@ var plugin_1 = require('./plugin');
  * For TypeScript users, see the [Push plugin docs about using TypeScript for custom notifications](https://github.com/phonegap/phonegap-plugin-push/blob/master/docs/TYPESCRIPT.md).
  *
  * @usage
- * ```js
- * import {Push} from 'ionic-native';
- *
- *
- *
+ * ```typescript
+ * import { Push } from 'ionic-native';
  * ```
  */
 var Push = (function () {
@@ -85644,10 +89784,10 @@ var Push = (function () {
      * ```
      * var push = Push.init({
      *    android: {
-     *        senderID: "12345679"
+     *        senderID: '12345679'
      *    },
      *    ios: {
-     *        alert: "true",
+     *        alert: 'true',
      *        badge: true,
      *        sound: 'false'
      *    },
@@ -85683,7 +89823,7 @@ var Push = (function () {
 }());
 exports.Push = Push;
 
-},{"./plugin":510}],513:[function(require,module,exports){
+},{"./plugin":520}],523:[function(require,module,exports){
 "use strict";
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -85697,13 +89837,12 @@ var plugin_1 = require('./plugin');
  * @description
  * @usage
  * ```
- * import {SafariViewController} from 'ionic-native';
+ * import { SafariViewController } from 'ionic-native';
  *
- * ...
  *
  * SafariViewController.isAvailable()
  *   .then(
- *     (available) => {
+ *     (available: boolean) => {
  *       if(available){
  *
  *         SafariViewController.show({
@@ -85716,9 +89855,9 @@ var plugin_1 = require('./plugin');
  *         })
  *         .then(
  *           (result: any) => {
- *             if(result.event === 'opened') console.log("Opened");
- *             else if(result.event === 'loaded') console.log("Loaded");
- *             else if(result.event === 'closed') console.log("Closed");
+ *             if(result.event === 'opened') console.log('Opened');
+ *             else if(result.event === 'loaded') console.log('Loaded');
+ *             else if(result.event === 'closed') console.log('Closed');
  *           },
  *           (error: any) => console.error(error)
  *         );
@@ -85763,14 +89902,10 @@ var SafariViewController = (function () {
         plugin_1.Cordova()
     ], SafariViewController, "isAvailable", null);
     __decorate([
-        plugin_1.Cordova({
-            callbackOrder: 'reverse'
-        })
+        plugin_1.Cordova()
     ], SafariViewController, "show", null);
     __decorate([
-        plugin_1.Cordova({
-            sync: true
-        })
+        plugin_1.Cordova()
     ], SafariViewController, "hide", null);
     __decorate([
         plugin_1.Cordova()
@@ -85785,7 +89920,7 @@ var SafariViewController = (function () {
         plugin_1.Plugin({
             plugin: 'cordova-plugin-safariviewcontroller',
             pluginRef: 'SafariViewController',
-            platforms: ['iOS'],
+            platforms: ['iOS', 'Android'],
             repo: 'https://github.com/EddyVerbruggen/cordova-plugin-safariviewcontroller'
         })
     ], SafariViewController);
@@ -85793,7 +89928,7 @@ var SafariViewController = (function () {
 }());
 exports.SafariViewController = SafariViewController;
 
-},{"./plugin":510}],514:[function(require,module,exports){
+},{"./plugin":520}],524:[function(require,module,exports){
 "use strict";
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -85855,7 +89990,160 @@ var Screenshot = (function () {
 }());
 exports.Screenshot = Screenshot;
 
-},{"./plugin":510}],515:[function(require,module,exports){
+},{"./plugin":520}],525:[function(require,module,exports){
+"use strict";
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var plugin_1 = require('./plugin');
+/**
+ * @name Secure Storage
+ * @description
+ * This plugin gets, sets and removes key,value pairs from a device's secure storage.
+ *
+ * Requires Cordova plugin: `cordova-plugin-secure-storage`. For more info, please see the [Cordova Secure Storage docs](https://github.com/Crypho/cordova-plugin-secure-storage).
+ *
+ * @usage
+ *
+ * ```typescript
+ * import { SecureStorage } from 'ionic-native';
+ *
+ * let secureStorage: SecureStorage = new SecureStorage();
+ * secureStorage.create('my_store_name')
+ *  .then(
+ *    () => console.log('Storage is ready!'),
+ *    error => console.log(error);
+ * );
+ *
+ * secureStorage.get('myitem')
+ *  .then(
+ *    data => console.log(data),
+ *    error => console.log(error)
+ * );
+ *
+ * secureStorage.set('myitem', 'myvalue')
+ *  .then(
+ *    data => console.log(data),
+ *    error => console.log(error)
+ * );
+ *
+ * secureStorage.remove('myitem')
+ * .then(
+ *    data => console.log(data),
+ *    error => console.log(error)
+ * );
+ * ```
+ */
+var SecureStorage = (function () {
+    function SecureStorage() {
+    }
+    /**
+     * Creates a namespaced storage.
+     * @param store {string}
+     */
+    SecureStorage.prototype.create = function (store) {
+        var _this = this;
+        return new Promise(function (res, rej) {
+            _this._objectInstance = new cordova.plugins.SecureStorage(res, rej, store);
+        });
+    };
+    /**
+     * Gets a stored item
+     * @param reference {string}
+     */
+    SecureStorage.prototype.get = function (reference) { return; };
+    /**
+     * Stores a value
+     * @param reference {string}
+     * @param value {string}
+     */
+    SecureStorage.prototype.set = function (reference, value) { return; };
+    /**
+     * Removes a single stored item
+     * @param reference {string}
+     */
+    SecureStorage.prototype.remove = function (reference) { return; };
+    __decorate([
+        plugin_1.CordovaInstance({
+            callbackOrder: 'reverse'
+        })
+    ], SecureStorage.prototype, "get", null);
+    __decorate([
+        plugin_1.CordovaInstance({
+            callbackOrder: 'reverse'
+        })
+    ], SecureStorage.prototype, "set", null);
+    __decorate([
+        plugin_1.CordovaInstance({
+            callbackOrder: 'reverse'
+        })
+    ], SecureStorage.prototype, "remove", null);
+    SecureStorage = __decorate([
+        plugin_1.Plugin({
+            plugin: 'cordova-plugin-secure-storage',
+            pluginRef: 'plugins.securestorage',
+            repo: 'https://github.com/Crypho/cordova-plugin-secure-storage',
+            platforms: ['Android', 'iOS', 'Windows Phone', 'Browser']
+        })
+    ], SecureStorage);
+    return SecureStorage;
+}());
+exports.SecureStorage = SecureStorage;
+
+},{"./plugin":520}],526:[function(require,module,exports){
+"use strict";
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var plugin_1 = require('./plugin');
+/**
+ * @name Sim
+ * @description
+ * Gets info from the Sim card like the carrier name, mcc, mnc and country code and other system dependent info.
+ *
+ * Requires Cordova plugin: `cordova-plugin-sim`. For more info, please see the [Cordova Sim docs](https://github.com/pbakondy/cordova-plugin-sim).
+ *
+ * @usage
+ * ```typescript
+ * import { Sim } from 'ionic-native';
+ *
+ *
+ * Sim.getSimInfo().then(
+ *   (info) => console.log('Sim info: ', info),
+ *   (err) => console.log('Unable to get sim info: ', err)
+ * );
+ * ```
+ */
+var Sim = (function () {
+    function Sim() {
+    }
+    /**
+     * Returns info from the SIM card.
+     * @returns {Promise}
+     */
+    Sim.getSimInfo = function () { return; };
+    __decorate([
+        plugin_1.Cordova()
+    ], Sim, "getSimInfo", null);
+    Sim = __decorate([
+        plugin_1.Plugin({
+            plugin: 'cordova-plugin-sim',
+            pluginRef: 'plugins.sim',
+            repo: 'https://github.com/pbakondy/cordova-plugin-sim',
+            platforms: ['Android', 'iOS', 'Windows Phone']
+        })
+    ], Sim);
+    return Sim;
+}());
+exports.Sim = Sim;
+
+},{"./plugin":520}],527:[function(require,module,exports){
 "use strict";
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -85871,14 +90159,12 @@ var plugin_1 = require('./plugin');
  * Requires Cordova plugin: cordova-plugin-sms. For more info, please see the [SMS plugin docs](https://github.com/cordova-sms/cordova-sms-plugin).
  *
  * @usage
- * ```ts
- * import {SMS} from 'ionic-native';
- *
+ * ```typescript
+ * import { SMS } from 'ionic-native';
  *
  *
  * // Send a text message using default options
- * SMS.send('416123456','Hello world!');
- *
+ * SMS.send('416123456', 'Hello world!');
  * ```
  */
 var SMS = (function () {
@@ -85907,7 +90193,7 @@ var SMS = (function () {
 }());
 exports.SMS = SMS;
 
-},{"./plugin":510}],516:[function(require,module,exports){
+},{"./plugin":520}],528:[function(require,module,exports){
 "use strict";
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -85921,11 +90207,22 @@ var plugin_1 = require('./plugin');
  * @description
  * Share text, files, images, and links via social networks, sms, and email.
  * @usage
- * ```js
- * import {SocialSharing} from 'ionic-native';
+ * ```typescript
+ * import { SocialSharing } from 'ionic-native';
  *
- * ...
- * // TODO add usage info
+ * // Check if sharing via email is supported
+ * SocialSharing.canShareViaEmail().then(() => {
+ *   // Sharing via email is possible
+ * }).catch(() => {
+ *   // Sharing via email is not possible
+ * });
+ *
+ * // Share via email
+ * SocialSharing.shareViaEmail('Body', 'Subject', 'recipient@example.org').then(() => {
+ *   // Success!
+ * }).catch(() => {
+ *   // Error!
+ * });
  * ```
  */
 var SocialSharing = (function () {
@@ -85935,10 +90232,10 @@ var SocialSharing = (function () {
      * Shares using the share sheet
      * @param message {string} The message you would like to share.
      * @param subject {string} The subject
-     * @param file {string|Array<string>} URL(s) to file(s) or image(s), local path(s) to file(s) or image(s), or base64 data of an image. Only the first file/image will be used on Windows Phone.
+     * @param file {string|string[]} URL(s) to file(s) or image(s), local path(s) to file(s) or image(s), or base64 data of an image. Only the first file/image will be used on Windows Phone.
      * @param url {string} A URL to share
      */
-    SocialSharing.share = function (message, subject, file, url) { };
+    SocialSharing.share = function (message, subject, file, url) { return; };
     /**
      * Shares using the share sheet with additional options and returns a result object or an error message (requires plugin version 5.1.0+)
      * @param options {object} The options object with the message, subject, files, url and chooserTitle properties.
@@ -85955,7 +90252,7 @@ var SocialSharing = (function () {
      * @param image
      * @param url
      */
-    SocialSharing.shareViaTwitter = function (message, image, url) { };
+    SocialSharing.shareViaTwitter = function (message, image, url) { return; };
     /**
      * Shares directly to Facebook
      * @param message {string}
@@ -85999,19 +90296,26 @@ var SocialSharing = (function () {
      */
     SocialSharing.shareViaSMS = function (messge, phoneNumber) { return; };
     /**
+     * Checks if you can share via email
+     */
+    SocialSharing.canShareViaEmail = function () { return; };
+    /**
      * Share via Email
      * @param message {string}
      * @param subject {string}
-     * @param to {Array<string>}
-     * @param cc {Array<string>}
-     * @param bcc {Array<string>}
-     * @param files {string|Array<string>} URL or local path to file(s) to attach
+     * @param to {string[]}
+     * @param cc {string[]}
+     * @param bcc {string[]}
+     * @param files {string|string[]} URL or local path to file(s) to attach
      */
-    SocialSharing.shareViaEmail = function (message, subject, to, cc, bcc, files) { return; };
+    SocialSharing.shareViaEmail = function (message, subject, to, cc, bcc, files) {
+        if (cc === void 0) { cc = []; }
+        if (bcc === void 0) { bcc = []; }
+        if (files === void 0) { files = []; }
+        return;
+    };
     __decorate([
-        plugin_1.Cordova({
-            sync: true
-        })
+        plugin_1.Cordova()
     ], SocialSharing, "share", null);
     __decorate([
         plugin_1.Cordova({
@@ -86025,7 +90329,6 @@ var SocialSharing = (function () {
     ], SocialSharing, "canShareVia", null);
     __decorate([
         plugin_1.Cordova({
-            sync: true,
             platforms: ['iOS', 'Android']
         })
     ], SocialSharing, "shareViaTwitter", null);
@@ -86063,11 +90366,16 @@ var SocialSharing = (function () {
         plugin_1.Cordova({
             platforms: ['iOS', 'Android']
         })
+    ], SocialSharing, "canShareViaEmail", null);
+    __decorate([
+        plugin_1.Cordova({
+            platforms: ['iOS', 'Android']
+        })
     ], SocialSharing, "shareViaEmail", null);
     SocialSharing = __decorate([
         plugin_1.Plugin({
             plugin: 'cordova-plugin-x-socialsharing',
-            pluginRef: 'window.plugins.socialsharing',
+            pluginRef: 'plugins.socialsharing',
             repo: 'https://github.com/EddyVerbruggen/SocialSharing-PhoneGap-Plugin',
             platforms: ['iOS', 'Android', 'Windows Phone']
         })
@@ -86076,7 +90384,7 @@ var SocialSharing = (function () {
 }());
 exports.SocialSharing = SocialSharing;
 
-},{"./plugin":510}],517:[function(require,module,exports){
+},{"./plugin":520}],529:[function(require,module,exports){
 "use strict";
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -86089,9 +90397,8 @@ var plugin_1 = require('./plugin');
  * @name Spinner Dialog
  * @description
  * @usage
- * ```js
- * import {SpinnerDialog} from 'ionic-native';
- *
+ * ```typescript
+ * import { SpinnerDialog } from 'ionic-native';
  *
  *
  * SpinnerDialog.show();
@@ -86106,7 +90413,7 @@ var SpinnerDialog = (function () {
      * Shows the spinner dialog
      * @param title {string} Spinner title (shows on Android only)
      * @param message {string} Spinner message
-     * @param cancelCallback {boolean|function} Set to false to set spinner not cancelable. Or provide a function to call when the user cancels the spinner.
+     * @param cancelCallback {boolean|function} Set to true to set spinner not cancelable. Or provide a function to call when the user cancels the spinner.
      * @param iOSOptions {object} Options for iOS only
      */
     SpinnerDialog.show = function (title, message, cancelCallback, iOSOptions) { };
@@ -86136,7 +90443,7 @@ var SpinnerDialog = (function () {
 }());
 exports.SpinnerDialog = SpinnerDialog;
 
-},{"./plugin":510}],518:[function(require,module,exports){
+},{"./plugin":520}],530:[function(require,module,exports){
 "use strict";
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -86149,9 +90456,8 @@ var plugin_1 = require('./plugin');
  * @name Splashscreen
  * @description This plugin displays and hides a splash screen during application launch. The methods below allows showing and hiding the splashscreen after the app has loaded.
  * @usage
- * ```ts
- * import {Splashscreen} from 'ionic-native';
- *
+ * ```typescript
+ * import { Splashscreen } from 'ionic-native';
  *
  *
  * Splashscreen.show();
@@ -86191,7 +90497,7 @@ var Splashscreen = (function () {
 }());
 exports.Splashscreen = Splashscreen;
 
-},{"./plugin":510}],519:[function(require,module,exports){
+},{"./plugin":520}],531:[function(require,module,exports){
 "use strict";
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -86208,7 +90514,7 @@ var plugin_1 = require('./plugin');
  *
  * @usage
  *
- * ```ts
+ * ```typescript
  * import { SQLite } from 'ionic-native';
  *
  * let db = new SQLite();
@@ -86219,10 +90525,10 @@ var plugin_1 = require('./plugin');
  *   db.executeSql('create table danceMoves(name VARCHAR(32))', {}).then(() => {
  *
  *   }, (err) => {
- *     console.error('Unable to execute sql', err);
- *   })
+ *     console.error('Unable to execute sql: ', err);
+ *   });
  * }, (err) => {
- *   console.error('Unable to open database', err);
+ *   console.error('Unable to open database: ', err);
  * });
  * ```
  *
@@ -86245,11 +90551,11 @@ var SQLite = (function () {
      * @param config the config for opening the database.
      * @usage
      *
-     * ```ts
+     * ```typescript
      * import { SQLite } from 'ionic-native';
      *
      * let db = new SQLite();
-     * db.openDatabse({
+     * db.openDatabase({
      *   name: 'data.db',
      *   location: 'default' // the location field is required
      * }).then(() => {
@@ -86287,7 +90593,7 @@ var SQLite = (function () {
      *
      * @usage
      *
-     * ```ts
+     * ```typescript
      * db.executeSql('SELECT FROM puppies WHERE type = ?', ['cavalier']).then((resultSet) => {
      *   // Access the items through resultSet.rows
      *   // resultSet.rows.item(i)
@@ -86295,7 +90601,7 @@ var SQLite = (function () {
      * ```
      */
     SQLite.prototype.executeSql = function (statement, params) { return; };
-    SQLite.prototype.addSatement = function (sql, values) { return; };
+    SQLite.prototype.addStatement = function (sql, values) { return; };
     SQLite.prototype.sqlBatch = function (sqlStatements) { return; };
     SQLite.prototype.abortallPendingTransactions = function () { };
     SQLite.prototype.handleStatementSuccess = function (handler, response) { };
@@ -86335,7 +90641,7 @@ var SQLite = (function () {
     ], SQLite.prototype, "executeSql", null);
     __decorate([
         plugin_1.CordovaInstance()
-    ], SQLite.prototype, "addSatement", null);
+    ], SQLite.prototype, "addStatement", null);
     __decorate([
         plugin_1.CordovaInstance()
     ], SQLite.prototype, "sqlBatch", null);
@@ -86391,7 +90697,7 @@ var SQLite = (function () {
 }());
 exports.SQLite = SQLite;
 
-},{"./plugin":510}],520:[function(require,module,exports){
+},{"./plugin":520}],532:[function(require,module,exports){
 "use strict";
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -86408,10 +90714,9 @@ var plugin_1 = require('./plugin');
  * Requires Cordova plugin: `cordova-plugin-statusbar`. For more info, please see the [StatusBar plugin docs](https://github.com/apache/cordova-plugin-statusbar).
  *
  * @usage
- * ```ts
- * import {StatusBar} from 'ionic-native';
+ * ```typescript
+ * import { StatusBar } from 'ionic-native';
  *
- * ...
  *
  * StatuBar.overlaysWebView(true); // let status var overlay webview
  *
@@ -86547,7 +90852,7 @@ var StatusBar = (function () {
 }());
 exports.StatusBar = StatusBar;
 
-},{"./plugin":510}],521:[function(require,module,exports){
+},{"./plugin":520}],533:[function(require,module,exports){
 "use strict";
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -86564,12 +90869,11 @@ var plugin_1 = require('./plugin');
  * Requires Cordova plugin: `cordova-plugin-x-toast`. For more info, please see the [Toast plugin docs](https://github.com/EddyVerbruggen/Toast-PhoneGap-Plugin).
  *
  * @usage
- * ```ts
- * import {Toast} from 'ionic-native';
+ * ```typescript
+ * import { Toast } from 'ionic-native';
  *
  *
- *
- * Toast.show("I'm a toast", "5000", "center").subscribe(
+ * Toast.show("I'm a toast", '5000', 'center').subscribe(
  *   toast => {
  *     console.log(toast);
  *   }
@@ -86698,7 +91002,7 @@ var Toast = (function () {
 }());
 exports.Toast = Toast;
 
-},{"./plugin":510}],522:[function(require,module,exports){
+},{"./plugin":520}],534:[function(require,module,exports){
 "use strict";
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -86727,23 +91031,21 @@ var plugin_1 = require('./plugin');
  *  -  `-6` - TouchID is not Available
  *  -  `-8` - TouchID is locked out from too many tries
  * @usage
- * ```js
- * import {TouchID} from 'ionic-native';
+ * ```typescript
+ * import { TouchID } from 'ionic-native';
  *
- * ...
  *
  * TouchID.isAvailable()
  *   .then(
- *     res => console.log("TouchID is available!"),
- *     err => console.error("TouchID isn't available", err)
+ *     res => console.log('TouchID is available!'),
+ *     err => console.error('TouchID isn't available', err)
  *   );
  *
  * TouchID.verifyFingerprint('Scan your fingerprint please')
  *   .then(
- *     res => console.log("Ok", res),
- *     err => console.error("Error", err)
+ *     res => console.log('Ok', res),
+ *     err => console.error('Error', err)
  *   );
- *
  * ```
  */
 var TouchID = (function () {
@@ -86754,7 +91056,7 @@ var TouchID = (function () {
      *
      * @return {Promise} Returns a Promise that resolves if yes, rejects if no.
      */
-    TouchID.prototype.isAvailable = function () { return; };
+    TouchID.isAvailable = function () { return; };
     /**
      * Show TouchID dialog and wait for a fingerprint scan. If user taps 'Enter Password' button, brings up standard system passcode screen.
      *
@@ -86779,7 +91081,7 @@ var TouchID = (function () {
     TouchID.verifyFingerprintWithCustomPasswordFallbackAndEnterPasswordLabel = function (message, enterPasswordLabel) { return; };
     __decorate([
         plugin_1.Cordova()
-    ], TouchID.prototype, "isAvailable", null);
+    ], TouchID, "isAvailable", null);
     __decorate([
         plugin_1.Cordova()
     ], TouchID, "verifyFingerprint", null);
@@ -86801,7 +91103,53 @@ var TouchID = (function () {
 }());
 exports.TouchID = TouchID;
 
-},{"./plugin":510}],523:[function(require,module,exports){
+},{"./plugin":520}],535:[function(require,module,exports){
+"use strict";
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var plugin_1 = require('./plugin');
+/**
+ * @name Twitter Connect
+ * @description
+ * Plugin to use Twitter Single Sign On
+ * Uses Twitter's Fabric SDK
+ */
+var TwitterConnect = (function () {
+    function TwitterConnect() {
+    }
+    /**
+     * Logs in
+     * @return {Promise<TwitterConnectResponse>} returns a promise that resolves if logged in and rejects if failed to login
+     */
+    TwitterConnect.login = function () { return; };
+    /**
+     * Logs out
+     * @return {Promise<any>} returns a promise that resolves if logged out and rejects if failed to logout
+     */
+    TwitterConnect.logout = function () { return; };
+    __decorate([
+        plugin_1.Cordova()
+    ], TwitterConnect, "login", null);
+    __decorate([
+        plugin_1.Cordova()
+    ], TwitterConnect, "logout", null);
+    TwitterConnect = __decorate([
+        plugin_1.Plugin({
+            plugin: 'twitter-connect-plugin',
+            pluginRef: 'TwitterConnect',
+            repo: '',
+            install: 'ionic plugin add twitter-connect-plugin --variable FABRIC_KEY=<Fabric API Key>'
+        })
+    ], TwitterConnect);
+    return TwitterConnect;
+}());
+exports.TwitterConnect = TwitterConnect;
+
+},{"./plugin":520}],536:[function(require,module,exports){
 "use strict";
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -86814,9 +91162,8 @@ var plugin_1 = require('./plugin');
  * @name Vibration
  * @description Vibrates the device
  * @usage
- * ```ts
- * import {Vibration} from 'ionic-native';
- *
+ * ```typescript
+ * import { Vibration } from 'ionic-native';
  *
  *
  * // Vibrate the device for a second
@@ -86858,7 +91205,7 @@ var Vibration = (function () {
 }());
 exports.Vibration = Vibration;
 
-},{"./plugin":510}],524:[function(require,module,exports){
+},{"./plugin":520}],537:[function(require,module,exports){
 "use strict";
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -86934,7 +91281,7 @@ var WebIntent = (function () {
 }());
 exports.WebIntent = WebIntent;
 
-},{"./plugin":510}],525:[function(require,module,exports){
+},{"./plugin":520}],538:[function(require,module,exports){
 "use strict";
 function get(obj, path) {
     for (var i = 0, path = path.split('.'), len = path.length; i < len; i++) {
@@ -86948,7 +91295,7 @@ function get(obj, path) {
 exports.get = get;
 ;
 
-},{}],526:[function(require,module,exports){
+},{}],539:[function(require,module,exports){
 "use strict";
 var root_1 = require('./util/root');
 var observable_1 = require('./symbol/observable');
@@ -87084,7 +91431,7 @@ var Observable = (function () {
 }());
 exports.Observable = Observable;
 
-},{"./symbol/observable":534,"./util/root":542,"./util/toSubscriber":544}],527:[function(require,module,exports){
+},{"./symbol/observable":547,"./util/root":555,"./util/toSubscriber":557}],540:[function(require,module,exports){
 "use strict";
 exports.empty = {
     isUnsubscribed: true,
@@ -87093,7 +91440,7 @@ exports.empty = {
     complete: function () { }
 };
 
-},{}],528:[function(require,module,exports){
+},{}],541:[function(require,module,exports){
 "use strict";
 var __extends = (this && this.__extends) || function (d, b) {
     for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p];
@@ -87300,7 +91647,7 @@ var SubjectObservable = (function (_super) {
     return SubjectObservable;
 }(Observable_1.Observable));
 
-},{"./Observable":526,"./SubjectSubscription":529,"./Subscriber":530,"./Subscription":531,"./symbol/rxSubscriber":535,"./util/ObjectUnsubscribedError":536,"./util/throwError":543}],529:[function(require,module,exports){
+},{"./Observable":539,"./SubjectSubscription":542,"./Subscriber":543,"./Subscription":544,"./symbol/rxSubscriber":548,"./util/ObjectUnsubscribedError":549,"./util/throwError":556}],542:[function(require,module,exports){
 "use strict";
 var __extends = (this && this.__extends) || function (d, b) {
     for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p];
@@ -87341,7 +91688,7 @@ var SubjectSubscription = (function (_super) {
 }(Subscription_1.Subscription));
 exports.SubjectSubscription = SubjectSubscription;
 
-},{"./Subscription":531}],530:[function(require,module,exports){
+},{"./Subscription":544}],543:[function(require,module,exports){
 "use strict";
 var __extends = (this && this.__extends) || function (d, b) {
     for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p];
@@ -87593,7 +91940,7 @@ var SafeSubscriber = (function (_super) {
     return SafeSubscriber;
 }(Subscriber));
 
-},{"./Observer":527,"./Subscription":531,"./symbol/rxSubscriber":535,"./util/isFunction":540}],531:[function(require,module,exports){
+},{"./Observer":540,"./Subscription":544,"./symbol/rxSubscriber":548,"./util/isFunction":553}],544:[function(require,module,exports){
 "use strict";
 var isArray_1 = require('./util/isArray');
 var isObject_1 = require('./util/isObject');
@@ -87744,7 +92091,7 @@ var Subscription = (function () {
 }());
 exports.Subscription = Subscription;
 
-},{"./util/UnsubscriptionError":537,"./util/errorObject":538,"./util/isArray":539,"./util/isFunction":540,"./util/isObject":541,"./util/tryCatch":545}],532:[function(require,module,exports){
+},{"./util/UnsubscriptionError":550,"./util/errorObject":551,"./util/isArray":552,"./util/isFunction":553,"./util/isObject":554,"./util/tryCatch":558}],545:[function(require,module,exports){
 "use strict";
 var __extends = (this && this.__extends) || function (d, b) {
     for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p];
@@ -87850,7 +92197,7 @@ function dispatchError(arg) {
     }
 }
 
-},{"../Observable":526,"../util/root":542}],533:[function(require,module,exports){
+},{"../Observable":539,"../util/root":555}],546:[function(require,module,exports){
 "use strict";
 var root_1 = require('../util/root');
 /**
@@ -87879,7 +92226,7 @@ function toPromise(PromiseCtor) {
 }
 exports.toPromise = toPromise;
 
-},{"../util/root":542}],534:[function(require,module,exports){
+},{"../util/root":555}],547:[function(require,module,exports){
 "use strict";
 var root_1 = require('../util/root');
 var Symbol = root_1.root.Symbol;
@@ -87901,14 +92248,14 @@ else {
     exports.$$observable = '@@observable';
 }
 
-},{"../util/root":542}],535:[function(require,module,exports){
+},{"../util/root":555}],548:[function(require,module,exports){
 "use strict";
 var root_1 = require('../util/root');
 var Symbol = root_1.root.Symbol;
 exports.$$rxSubscriber = (typeof Symbol === 'function' && typeof Symbol.for === 'function') ?
     Symbol.for('rxSubscriber') : '@@rxSubscriber';
 
-},{"../util/root":542}],536:[function(require,module,exports){
+},{"../util/root":555}],549:[function(require,module,exports){
 "use strict";
 var __extends = (this && this.__extends) || function (d, b) {
     for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p];
@@ -87934,7 +92281,7 @@ var ObjectUnsubscribedError = (function (_super) {
 }(Error));
 exports.ObjectUnsubscribedError = ObjectUnsubscribedError;
 
-},{}],537:[function(require,module,exports){
+},{}],550:[function(require,module,exports){
 "use strict";
 var __extends = (this && this.__extends) || function (d, b) {
     for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p];
@@ -87957,30 +92304,30 @@ var UnsubscriptionError = (function (_super) {
 }(Error));
 exports.UnsubscriptionError = UnsubscriptionError;
 
-},{}],538:[function(require,module,exports){
+},{}],551:[function(require,module,exports){
 "use strict";
 // typeof any so that it we don't have to cast when comparing a result to the error object
 exports.errorObject = { e: {} };
 
-},{}],539:[function(require,module,exports){
+},{}],552:[function(require,module,exports){
 "use strict";
 exports.isArray = Array.isArray || (function (x) { return x && typeof x.length === 'number'; });
 
-},{}],540:[function(require,module,exports){
+},{}],553:[function(require,module,exports){
 "use strict";
 function isFunction(x) {
     return typeof x === 'function';
 }
 exports.isFunction = isFunction;
 
-},{}],541:[function(require,module,exports){
+},{}],554:[function(require,module,exports){
 "use strict";
 function isObject(x) {
     return x != null && typeof x === 'object';
 }
 exports.isObject = isObject;
 
-},{}],542:[function(require,module,exports){
+},{}],555:[function(require,module,exports){
 (function (global){
 "use strict";
 var objectTypes = {
@@ -88002,12 +92349,12 @@ if (freeGlobal && (freeGlobal.global === freeGlobal || freeGlobal.window === fre
 
 }).call(this,typeof global !== "undefined" ? global : typeof self !== "undefined" ? self : typeof window !== "undefined" ? window : {})
 
-},{}],543:[function(require,module,exports){
+},{}],556:[function(require,module,exports){
 "use strict";
 function throwError(e) { throw e; }
 exports.throwError = throwError;
 
-},{}],544:[function(require,module,exports){
+},{}],557:[function(require,module,exports){
 "use strict";
 var Subscriber_1 = require('../Subscriber');
 var rxSubscriber_1 = require('../symbol/rxSubscriber');
@@ -88024,7 +92371,7 @@ function toSubscriber(nextOrObserver, error, complete) {
 }
 exports.toSubscriber = toSubscriber;
 
-},{"../Subscriber":530,"../symbol/rxSubscriber":535}],545:[function(require,module,exports){
+},{"../Subscriber":543,"../symbol/rxSubscriber":548}],558:[function(require,module,exports){
 "use strict";
 var errorObject_1 = require('./errorObject');
 var tryCatchTarget;
@@ -88044,9 +92391,9 @@ function tryCatch(fn) {
 exports.tryCatch = tryCatch;
 ;
 
-},{"./errorObject":538}],546:[function(require,module,exports){
+},{"./errorObject":551}],559:[function(require,module,exports){
 
-},{}]},{},[1,546])
+},{}]},{},[1,559])
 
 
 //# sourceMappingURL=app.bundle.js.map
