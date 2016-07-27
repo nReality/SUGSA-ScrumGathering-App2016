@@ -39,12 +39,27 @@
           "time": "9:20 am",
           "sessions": [
             {
-              "name": "A Learning Continent - unlocking African opportunities",
+              "name": "WeThinkCode_: A Learning Continent - unlocking African opportunities",
+              "location": "Ballroom",
+              "description": "codeX and WeThinkCode strive to give back to the community. Come join us to see what they have in-store for software in Africa.",
+              "speakerNames": [
+                "Arlene Mulder",
+                "Tanaka Malaba",
+                "Tumelo Motaung"
+              ],
+              "timeStart": "9:20 am",
+              "timeEnd": "10:00 am",
+              "tracks": [
+                "People and organisational culture"
+              ]
+            },
+            {
+              "name": "codeX: A Learning Continent - unlocking African opportunities",
               "location": "Ballroom",
               "description": "codeX and WeThinkCode strive to give back to the community. Come join us to see what they have in-store for software in  Africa.",
               "speakerNames": [
-                "codeX",
-                "WeThinkCode"
+                "Cara Turner",
+                "Onwaba Mrhwetyana"
               ],
               "timeStart": "9:20 am",
               "timeEnd": "10:00 am",
@@ -1204,6 +1219,42 @@
       "profilePic": "img/speakers/derek-head.jpg",
       "twitter": "@AgileAfricaConf",
       "about": "Information Technology professional with over 25 years of experience gained in South Africa and Montenegro predominantly in Financial Services and Software Consultancy.\n\nAgile and DevOps Evangelist.\n\nCurrent position:  Head Engineering, IT Transformation Office, Standard Bank "
+    },
+    {
+      "name": "Arlene Mulder",
+      "profilePic": "img/speakers/Arlene-head.jpg",
+      "twitter": "@ArleneMulder",
+      "about": "Arlene Mulder is the co-founder of WeThinkCode_\n\nPrior to joining the tech start-up world, Arlene spent 7 years at Rand Merchant Bank. She joined the graduate programme at RMB and spent two years in credit risk. Thereafter she joined the Corporate Finance team as a dealmaker where she worked for 5 years advising on mergers & acquisitions, and general corporate finance transactions in Sub-Saharan Africa.\n\nArlene left the finance world to start WeThinkCode_, a tech start-up that is revolutionising education for software engineers. Firstly WeThinkCode_ is democratising education, by making it free and accessible to any young talent, regardless of financial means or previous education. Secondly, WeThinkCode_ is challenging the traditional model of teachers and classes by focusing on peer-to-peer, problem solving learning principles.\n\nArlene holds a masters degree in Business, Mathematics and Informatics."
+    },
+    {
+      "name": "Tanaka Malaba",
+      "profilePic": "img/speakers/Tanaka-head.jpg",
+      "twitter": "@AgileAfricaConf",
+      "about": "Tanaka Malaba is a Software Engineering student at WeThinkCode_.\n\nHe holds a Bachelors in Accounting Sciences (WITS). As co-founder of I Am Africa Films (Pty) Ltd he has spent the last two years leveraging existing technologies to lower barriers to entry in the film and media industry.\n\nThis exposure to a rapidly expanding industry, from the perspective of a young entrepreneur, shed light on the massive skills shortage in computer programming nationwide.\n\nTanaka has made it a mission to lower the barriers to entry inherent in Software Engineering."
+    },
+    {
+      "name": "Tumelo Motaung",
+      "profilePic": "img/speakers/Tumelo-head.jpg",
+      "twitter": "@AgileAfricaConf",
+      "about": "Tumelo Motaung is a Software Engineering student at WeThinkCode_.\n\nTumelo spent eight years in administration at the University of Pretoria and has worked with various civil service organisations and been part of youth-based movements such as the Organization of African Youth, the Ahmed Kathrada Foundation, the Young African Leaders Initiative, and Activate! Leadership prior to studying at the school.\n\nThe Founder of NERDAFRICA (Network of Entrepreneurs, Readers, and Designers in Africa) is an enthusiast of the contributions made by Africans to business, literature, and technology.\n\nTumelo hopes to change the face of Africa by creating innovative spaces that maximize the access to these industries."
+    },
+    {
+      "name": "Cara Turner",
+      "profilePic": "img/speakers/cara-head.jpg",
+      "twitter": "@Cara_Faye",
+      "about": "#createthefuture\n\nAgile practices have given us the tools we need to respond to change in an unpredictable world. With this foundation in place, where better to focus than on creating the future?\n\nThrough codeX we’re creating a breakthrough education program to train talented apprentices to be passionate developers, using agile thinking at every level of the program.\n\nAs a coach I help ordinary software teams tap the creativity they need to create their own breakthrough changes. Combining elements from such thinking as complexity, creativity and neuroscience with the practical skills of software development, it’s amazing how many solutions we find to some pretty boring problems.\n\nI love sharing agile knowledge, and as the Cape Town chair of the Scrum User Group South Africa, I take an active role in growing the CPT and South African communities."
+    },
+    {
+      "name": "Onwaba Mrhwetyana",
+      "profilePic": "img/speakers/Onwaba-head.jpg",
+      "twitter": "@AgileAfricaConf",
+      "about": "Student mentor at Code X\n\nI help training software developers."
+    },
+    {
+      "name": "Hitesh Sanghavi",
+      "profilePic": "img/speakers/Hitesh-head.jpg",
+      "twitter": "@SanghaviHitesh",
+      "about": "Mr. Hitesh Sanghavi, Managing Director of CUNIX Infotech (SEI Partner for CMMI® SCAMPI(SM)), is an SEI Authorized High Maturity Lead Appraiser, SEI authorized SCAMPI Lead Appraiser and SEI authorized Lead Instructor with a rich experience of 19 years and 4000 man days in SPI Consulting, Software measurements, High Maturity organization practices using CMM / CMMI / Competency models and Training.\n\nProvided services and consulted for business domains like:\nE-learning, real time, Maintenance , Task based, application software, client server and web development, Higher Education Institute(for MBA), ERP implementation, Application management services(help desk), financial application and banking software.\n\nUnder Hitesh’s leadership, CUNIX received the “Best Partner Award” in Nov 2005 from Datamatics Ltd (CMM5, CMMI 5, PCMM 5) – for its consistent and profitable consulting performance.\n\nSpecialties:CMMI appraisal, ISO audits, ISMS audits, ITIL training, consulting services for IT industry.\n\nPresenter and keynote speaker at several events.\n\nActive contributor to Mumbai SPIN(Software process Improvement network) and CSI (computer Society of India) and other academic and management institutions.\n\n"
     }
   ],
   "map": [
