@@ -15,7 +15,8 @@
 <ion-searchbar primary
                [(ngModel)]="queryText"
                (ionInput)="updateSchedule()"
-               placeholder="Search program schedule">
+               placeholder="Search program schedule"
+               >
 </ion-searchbar>
     <ion-buttons end>
       <button (click)="presentFilter()">
@@ -28,7 +29,7 @@
 </ion-header>
 
 
-<ion-content class="schedule" >
+<ion-content class="schedule">
   <ion-item class="toggletoolbar">
     <ion-toolbar light>
 
