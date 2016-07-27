@@ -13699,21 +13699,8 @@ ion-toolbar {
   padding-bottom: 2px;
   min-height: 3px !important; }
 
-.toolbar-background {
-  border-top-width: 0px; }
-
-.hairlines .toolbar-background {
-  border-top-width: 0px;
-  border-bottom-width: 0px; }
-
-.hairlines ion-searchbar {
-  border-bottom-width: 0px; }
-
-ion-label {
-  margin: 0px; }
-
-.toolbar {
-  padding: 0px; }
+ion-header ion-toolbar .toolbar-background {
+  background-color: white; }
 
 ion-footer {
   padding: 10px;
