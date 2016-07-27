@@ -1220,16 +1220,16 @@
     {
       "name": "Cara Turner",
       "priority": 5,
-      "profilePic": "img/speakers/cara-head.jpg",
+      "profilePic": "img/speakers/cara-head.jpeg",
       "twitter": "@Cara_Faye",
-      "about": "#createthefuture\n\nAgile practices have given us the tools we need to respond to change in an unpredictable world. With this foundation in place, where better to focus than on creating the future?\n\nThrough codeX we’re creating a breakthrough education program to train talented apprentices to be passionate developers, using agile thinking at every level of the program.\n\nAs a coach I help ordinary software teams tap the creativity they need to create their own breakthrough changes. Combining elements from such thinking as complexity, creativity and neuroscience with the practical skills of software development, it’s amazing how many solutions we find to some pretty boring problems.\n\nI love sharing agile knowledge, and as the Cape Town chair of the Scrum User Group South Africa, I take an active role in growing the CPT and South African communities."
+      "about": "Cara is the COO and Agile Coach at Project codeX, a disruptive education initiative that equips aspiring coders with high quality skills and experience, while bridging the digital divide.\n\nHer ultimate goal is for us all to find the work we love doing, and build a better future doing it. Having spent years helping teams adopt agile practices that reduce risk and increase workplace happiness, she now helps aspiring coders to discover and follow their tech passions, on their journey to become agile software developers.\n\nShe has an insatiable love of learning, and cares deeply about sharing knowledge to build stronger communities and foster greater diversity in the software world."
     },
     {
       "name": "Onwaba Mrhwetyana",
       "priority": 5,
-      "profilePic": "img/speakers/Onwaba-head.jpg",
+      "profilePic": "img/speakers/Onwaba-headshot.jpg",
       "twitter": "@AgileAfricaConf",
-      "about": "Student mentor at Code X\n\nI help training software developers."
+      "about": "Onwaba Mrhwetyana is a code mentor at codeX. After a brief stint studying Pharmacy at UWC, she found her love for coding at Brothers for All in Langa and later enrolled in codeX to become a full stack developer. She continues her learning journey by mentoring new young coders and discovering how much more powerful self-led learning can be."
     },
     {
       "name": "Hitesh Sanghavi",
