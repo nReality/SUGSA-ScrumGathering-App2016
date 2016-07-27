@@ -15,9 +15,6 @@
         },
         "cordova-plugin-x-socialsharing": {
             "PACKAGE_NAME": "com.nreality.agileafricaconf"
-        },
-        "cordova-plugin-ignore-lint-translation": {
-            "PACKAGE_NAME": "com.nreality.agileafricaconf"
         }
     },
     "dependent_plugins": {
