@@ -15,23 +15,10 @@
         },
         "cordova-plugin-x-socialsharing": {
             "PACKAGE_NAME": "com.nreality.agileafricaconf"
-        }
-    },
-    "dependent_plugins": {
-        "cordova-plugin-console": {
-            "PACKAGE_NAME": "com.nreality.agileafricaconf"
         },
         "cordova-plugin-crosswalk-webview": {
             "PACKAGE_NAME": "com.nreality.agileafricaconf"
-        },
-        "cordova-plugin-device": {
-            "PACKAGE_NAME": "com.nreality.agileafricaconf"
-        },
-        "cordova-plugin-statusbar": {
-            "PACKAGE_NAME": "com.nreality.agileafricaconf"
-        },
-        "ionic-plugin-keyboard": {
-            "PACKAGE_NAME": "com.nreality.agileafricaconf"
         }
-    }
+    },
+    "dependent_plugins": {}
 }
