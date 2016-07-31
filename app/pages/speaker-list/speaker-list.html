@@ -6,8 +6,8 @@
 
 <ion-content center class="outer-content speaker-list">
 
-  <ion-list no-lines center [virtualScroll]="speakers">
-  <ion-item class="speaker" center wrap *virtualItem="let speaker">
+  <ion-list no-lines center>
+  <ion-item class="speaker" center wrap *ngFor="let speaker of speakers">
 
 
     <ion-item-content >

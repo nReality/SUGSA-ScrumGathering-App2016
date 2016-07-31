@@ -42,8 +42,8 @@
 
 <ion-content class="schedule">
 
-  <ion-list #scheduleList [virtualScroll]="flatGroups">
-        <ion-item no-lines *virtualItem="let group" [hidden]="group.hide">
+  <ion-list #scheduleList>
+        <ion-item no-lines *ngFor="let group of flatGroups" [hidden]="group.hide">
         <ion-item-content class="time-group">
 <!--
         <ion-item-divider sticky class="date-group">
