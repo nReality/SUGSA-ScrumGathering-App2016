@@ -923,8 +923,6 @@ var SpeakerListPage = (function () {
         this.speakers = [];
         this.tweetShare = tweetShare;
         confData.getSpeakers().then(function (speakers) {
-            var emptyObjectAtEndToHelpWithiOSScrollIssue = {};
-            speakers.push(emptyObjectAtEndToHelpWithiOSScrollIssue);
             _this.speakers = speakers;
         });
     }
@@ -1131,11 +1129,6 @@ var ConferenceData = (function () {
                 });
                 days.push(day);
             });
-            var emptyObjectAtEndToHelpWithiOSScrollIssue = {};
-            flatGroups.push(emptyObjectAtEndToHelpWithiOSScrollIssue);
-            flatGroups.push(emptyObjectAtEndToHelpWithiOSScrollIssue);
-            flatGroups.push(emptyObjectAtEndToHelpWithiOSScrollIssue);
-            flatGroups.push(emptyObjectAtEndToHelpWithiOSScrollIssue);
             return flatGroups;
         });
     };

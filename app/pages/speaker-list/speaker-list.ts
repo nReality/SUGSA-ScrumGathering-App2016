@@ -14,12 +14,8 @@ export class SpeakerListPage {
   speakers = [];
 
   constructor(private nav: NavController, confData: ConferenceData, private tweetShare: TweetShare) {
-        this.tweetShare = tweetShare;
+    this.tweetShare = tweetShare;
     confData.getSpeakers().then(speakers => {
-      var emptyObjectAtEndToHelpWithiOSScrollIssue : any = {};
-
-      speakers.push(emptyObjectAtEndToHelpWithiOSScrollIssue);
-
       this.speakers = speakers;
     });
   }
@@ -33,7 +29,7 @@ export class SpeakerListPage {
   }
 
   goToSpeakerTwitter(speaker) {
-    this.tweetShare.shareViaTwitter("."+speaker.twitter+" #AgileAfrica",null,null);
+    this.tweetShare.shareViaTwitter("." + speaker.twitter + " #AgileAfrica", null, null);
   }
 
   openSpeakerShare(speaker) {

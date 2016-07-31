@@ -7,7 +7,7 @@ import {UserData} from './user-data';
 export class ConferenceData {
   data: any;
 
-  constructor(private http: Http, private user: UserData) {}
+  constructor(private http: Http, private user: UserData) { }
 
   load() {
     if (this.data) {
@@ -77,7 +77,7 @@ export class ConferenceData {
       });
     }
 
-    if (session.location){
+    if (session.location) {
       if (data.locations.indexOf(session.location) < 0) {
         data.locations.push(session.location);
       }
@@ -91,40 +91,35 @@ export class ConferenceData {
       let flatGroups = [];
 
       data.schedule.forEach(day => {
-        var groupForDay : any = {};
+        var groupForDay: any = {};
         groupForDay.time = day.date
         flatGroups.push(groupForDay);
-      day.shownSessions = 0;
-      queryText = queryText.toLowerCase().replace(/,|\.|-/g, ' ');
-      let queryWords = queryText.split(' ').filter(w => !!w.trim().length);
+        day.shownSessions = 0;
+        queryText = queryText.toLowerCase().replace(/,|\.|-/g, ' ');
+        let queryWords = queryText.split(' ').filter(w => !!w.trim().length);
 
-      day.groups.forEach(group => {
-        group.hide = true;
+        day.groups.forEach(group => {
+          group.hide = true;
 
-        group.sessions.forEach(session => {
-          // check if this session should show or not
-          this.filterSession(session, queryWords, excludeTracks, excludeLocations, excludeDays, segment);
+          group.sessions.forEach(session => {
+            // check if this session should show or not
+            this.filterSession(session, queryWords, excludeTracks, excludeLocations, excludeDays, segment);
 
-          if (!session.hide) {
-            // if this session is not hidden then this group should show
-            group.hide = false;
-            if(flatGroups.indexOf(group)==-1){
+            if (!session.hide) {
+              // if this session is not hidden then this group should show
+              group.hide = false;
+              if (flatGroups.indexOf(group) == -1) {
 
 
-              flatGroups.push(group);
-              day.shownSessions++;
+                flatGroups.push(group);
+                day.shownSessions++;
+              }
             }
-          }
+          });
         });
+        days.push(day);
       });
-      days.push(day);
-    });
-    var emptyObjectAtEndToHelpWithiOSScrollIssue : any = {};
 
-    flatGroups.push(emptyObjectAtEndToHelpWithiOSScrollIssue);
-        flatGroups.push(emptyObjectAtEndToHelpWithiOSScrollIssue);
-        flatGroups.push(emptyObjectAtEndToHelpWithiOSScrollIssue);
-        flatGroups.push(emptyObjectAtEndToHelpWithiOSScrollIssue);
       return flatGroups;
     });
   }
@@ -170,12 +165,12 @@ export class ConferenceData {
     });
 
     let matchesLocation = false;
-    if (session.location != null && excludeLocations.indexOf(session.location) ===-1){
+    if (session.location != null && excludeLocations.indexOf(session.location) === -1) {
       matchesLocation = true;
     }
 
     let matchesDay = false;
-    if (session.date != null && excludeDays.indexOf(session.date) ===-1){
+    if (session.date != null && excludeDays.indexOf(session.date) === -1) {
       matchesDay = true;
     }
 
@@ -199,15 +194,15 @@ export class ConferenceData {
     return this.load().then(data => {
       return data.speakers.sort((a, b) => {
         var aPriority = 9999;
-        if (a.priority != null){
+        if (a.priority != null) {
           aPriority = a.priority;
         }
         var bPriority = 9999;
-        if (b.priority != null){
+        if (b.priority != null) {
           bPriority = b.priority;
         }
 
-        if (aPriority != bPriority){
+        if (aPriority != bPriority) {
           return aPriority - bPriority;
         }
 
