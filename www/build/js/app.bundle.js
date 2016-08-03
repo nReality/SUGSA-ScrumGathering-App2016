@@ -124,6 +124,7 @@ ionic_angular_1.ionicBootstrap(ConferenceApp, [conference_data_1.ConferenceData,
     tabbarPlacement: 'bottom',
     prodMode: true
 });
+
 },{"./pages/account/account":3,"./pages/login/login":4,"./pages/signup/signup":11,"./pages/speaker-list-web/speaker-list-web":14,"./pages/tabs/tabs":16,"./providers/conference-data":17,"./providers/tweet-share":18,"./providers/user-data":19,"@angular/core":167,"firebase":347,"ionic-angular":435,"ionic-native":462}],2:[function(require,module,exports){
 "use strict";
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
@@ -170,6 +171,7 @@ var AboutPage = (function () {
     return AboutPage;
 }());
 exports.AboutPage = AboutPage;
+
 },{"@angular/core":167,"ionic-angular":435}],3:[function(require,module,exports){
 "use strict";
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
@@ -243,6 +245,7 @@ var AccountPage = (function () {
     return AccountPage;
 }());
 exports.AccountPage = AccountPage;
+
 },{"../../providers/user-data":19,"../login/login":4,"@angular/core":167,"ionic-angular":435}],4:[function(require,module,exports){
 "use strict";
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
@@ -285,6 +288,7 @@ var LoginPage = (function () {
     return LoginPage;
 }());
 exports.LoginPage = LoginPage;
+
 },{"../../providers/user-data":19,"../signup/signup":11,"../tabs/tabs":16,"@angular/core":167,"ionic-angular":435}],5:[function(require,module,exports){
 "use strict";
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
@@ -336,6 +340,7 @@ var MapPage = (function () {
     return MapPage;
 }());
 exports.MapPage = MapPage;
+
 },{"../../providers/conference-data":17,"@angular/core":167}],6:[function(require,module,exports){
 "use strict";
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
@@ -404,6 +409,7 @@ var ScheduleFilterPage = (function () {
     return ScheduleFilterPage;
 }());
 exports.ScheduleFilterPage = ScheduleFilterPage;
+
 },{"../../providers/conference-data":17,"@angular/core":167,"ionic-angular":435}],7:[function(require,module,exports){
 "use strict";
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
@@ -568,6 +574,7 @@ var SchedulePage = (function () {
     return SchedulePage;
 }());
 exports.SchedulePage = SchedulePage;
+
 },{"../../providers/conference-data":17,"../../providers/user-data":19,"../schedule-filter/schedule-filter":6,"../session-detail/session-detail":9,"@angular/core":167,"ionic-angular":435}],8:[function(require,module,exports){
 "use strict";
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
@@ -599,6 +606,7 @@ var SessionDetailWebPage = (function () {
     return SessionDetailWebPage;
 }());
 exports.SessionDetailWebPage = SessionDetailWebPage;
+
 },{"@angular/core":167,"ionic-angular":435}],9:[function(require,module,exports){
 "use strict";
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
@@ -694,6 +702,7 @@ var SessionDetailPage = (function () {
     return SessionDetailPage;
 }());
 exports.SessionDetailPage = SessionDetailPage;
+
 },{"../../providers/tweet-share":18,"../speaker-detail/speaker-detail":13,"./star":10,"@angular/core":167,"firebase":347,"ionic-angular":435,"ionic-native":462}],10:[function(require,module,exports){
 "use strict";
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
@@ -736,6 +745,7 @@ var Star = (function () {
     return Star;
 }());
 exports.Star = Star;
+
 },{"@angular/core":167}],11:[function(require,module,exports){
 "use strict";
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
@@ -774,6 +784,7 @@ var SignupPage = (function () {
     return SignupPage;
 }());
 exports.SignupPage = SignupPage;
+
 },{"../../providers/user-data":19,"../tabs/tabs":16,"@angular/core":167,"ionic-angular":435}],12:[function(require,module,exports){
 "use strict";
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
@@ -813,6 +824,7 @@ var SpeakerDetailWebPage = (function () {
     return SpeakerDetailWebPage;
 }());
 exports.SpeakerDetailWebPage = SpeakerDetailWebPage;
+
 },{"../session-detail/session-detail":9,"@angular/core":167,"ionic-angular":435}],13:[function(require,module,exports){
 "use strict";
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
@@ -852,6 +864,7 @@ var SpeakerDetailPage = (function () {
     return SpeakerDetailPage;
 }());
 exports.SpeakerDetailPage = SpeakerDetailPage;
+
 },{"../../providers/tweet-share":18,"../session-detail/session-detail":9,"@angular/core":167,"ionic-angular":435}],14:[function(require,module,exports){
 "use strict";
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
@@ -898,6 +911,7 @@ var SpeakerListWebPage = (function () {
     return SpeakerListWebPage;
 }());
 exports.SpeakerListWebPage = SpeakerListWebPage;
+
 },{"../../providers/conference-data":17,"../session-detail-web/session-detail":8,"../speaker-detail-web/speaker-detail":12,"@angular/core":167,"ionic-angular":435}],15:[function(require,module,exports){
 "use strict";
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
@@ -974,6 +988,7 @@ var SpeakerListPage = (function () {
     return SpeakerListPage;
 }());
 exports.SpeakerListPage = SpeakerListPage;
+
 },{"../../providers/conference-data":17,"../../providers/tweet-share":18,"../session-detail/session-detail":9,"../speaker-detail/speaker-detail":13,"@angular/core":167,"ionic-angular":435}],16:[function(require,module,exports){
 "use strict";
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
@@ -1009,6 +1024,7 @@ var TabsPage = (function () {
     return TabsPage;
 }());
 exports.TabsPage = TabsPage;
+
 },{"../about/about":2,"../map/map":5,"../schedule/schedule":7,"../speaker-list/speaker-list":15,"@angular/core":167,"ionic-angular":435}],17:[function(require,module,exports){
 "use strict";
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
@@ -1229,6 +1245,7 @@ var ConferenceData = (function () {
     return ConferenceData;
 }());
 exports.ConferenceData = ConferenceData;
+
 },{"./user-data":19,"@angular/core":167,"@angular/http":257}],18:[function(require,module,exports){
 "use strict";
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
@@ -1273,6 +1290,7 @@ var TweetShare = (function () {
     return TweetShare;
 }());
 exports.TweetShare = TweetShare;
+
 },{"@angular/core":167,"ionic-angular":435}],19:[function(require,module,exports){
 "use strict";
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
@@ -1341,6 +1359,7 @@ var UserData = (function () {
     return UserData;
 }());
 exports.UserData = UserData;
+
 },{"@angular/core":167,"ionic-angular":435}],20:[function(require,module,exports){
 /**
  * @license
@@ -2424,7 +2443,7 @@ var EventEmitter = (function (_super) {
 }(Subject_1.Subject));
 exports.EventEmitter = EventEmitter;
 
-},{"./lang":37,"./promise":38,"rxjs/Observable":539,"rxjs/Subject":541,"rxjs/observable/PromiseObservable":545,"rxjs/operator/toPromise":546}],32:[function(require,module,exports){
+},{"./lang":37,"./promise":38,"rxjs/Observable":542,"rxjs/Subject":544,"rxjs/observable/PromiseObservable":548,"rxjs/operator/toPromise":549}],32:[function(require,module,exports){
 /**
  * @license
  * Copyright Google Inc. All Rights Reserved.
@@ -11970,7 +11989,7 @@ var SimpleExpressionChecker = (function () {
 
 },{"../chars":93,"../facade/collection":105,"../facade/exceptions":107,"../facade/lang":108,"../interpolation_config":122,"./ast":100,"./lexer":101,"@angular/core":167}],103:[function(require,module,exports){
 arguments[4][31][0].apply(exports,arguments)
-},{"./lang":108,"./promise":110,"dup":31,"rxjs/Observable":539,"rxjs/Subject":541,"rxjs/observable/PromiseObservable":545,"rxjs/operator/toPromise":546}],104:[function(require,module,exports){
+},{"./lang":108,"./promise":110,"dup":31,"rxjs/Observable":542,"rxjs/Subject":544,"rxjs/observable/PromiseObservable":548,"rxjs/operator/toPromise":549}],104:[function(require,module,exports){
 arguments[4][32][0].apply(exports,arguments)
 },{"dup":32}],105:[function(require,module,exports){
 arguments[4][33][0].apply(exports,arguments)
@@ -31109,7 +31128,7 @@ function _createDependency(token /** TODO #9100 */, optional /** TODO #9100 */, 
 
 },{"../facade/collection":208,"../facade/lang":211,"../reflection/reflection":243,"./forward_ref":196,"./metadata":198,"./provider":200,"./provider_util":201,"./reflective_exceptions":202,"./reflective_key":204}],206:[function(require,module,exports){
 arguments[4][31][0].apply(exports,arguments)
-},{"./lang":211,"./promise":213,"dup":31,"rxjs/Observable":539,"rxjs/Subject":541,"rxjs/observable/PromiseObservable":545,"rxjs/operator/toPromise":546}],207:[function(require,module,exports){
+},{"./lang":211,"./promise":213,"dup":31,"rxjs/Observable":542,"rxjs/Subject":544,"rxjs/observable/PromiseObservable":548,"rxjs/operator/toPromise":549}],207:[function(require,module,exports){
 arguments[4][32][0].apply(exports,arguments)
 },{"dup":32}],208:[function(require,module,exports){
 arguments[4][33][0].apply(exports,arguments)
@@ -39043,7 +39062,7 @@ var JSONPBackend_ = (function (_super) {
 }(JSONPBackend));
 exports.JSONPBackend_ = JSONPBackend_;
 
-},{"../base_response_options":263,"../enums":264,"../facade/exceptions":268,"../facade/lang":269,"../interfaces":273,"../static_response":275,"./browser_jsonp":258,"@angular/core":167,"rxjs/Observable":539}],261:[function(require,module,exports){
+},{"../base_response_options":263,"../enums":264,"../facade/exceptions":268,"../facade/lang":269,"../interfaces":273,"../static_response":275,"./browser_jsonp":258,"@angular/core":167,"rxjs/Observable":542}],261:[function(require,module,exports){
 /**
  * @license
  * Copyright Google Inc. All Rights Reserved.
@@ -39225,7 +39244,7 @@ var XHRBackend = (function () {
 }());
 exports.XHRBackend = XHRBackend;
 
-},{"../base_response_options":263,"../enums":264,"../facade/lang":269,"../headers":270,"../http_utils":272,"../interfaces":273,"../static_response":275,"./browser_xhr":259,"@angular/core":167,"@angular/platform-browser":289,"rxjs/Observable":539}],262:[function(require,module,exports){
+},{"../base_response_options":263,"../enums":264,"../facade/lang":269,"../headers":270,"../http_utils":272,"../interfaces":273,"../static_response":275,"./browser_xhr":259,"@angular/core":167,"@angular/platform-browser":289,"rxjs/Observable":542}],262:[function(require,module,exports){
 /**
  * @license
  * Copyright Google Inc. All Rights Reserved.
@@ -41002,7 +41021,7 @@ exports.bootstrapWorkerApp = bootstrapWorkerApp;
 
 },{"./core_private":277,"./src/facade/async":279,"./src/facade/lang":284,"./src/xhr/xhr_cache":286,"./src/xhr/xhr_impl":287,"@angular/common":20,"@angular/compiler":86,"@angular/core":167,"@angular/platform-browser":289}],279:[function(require,module,exports){
 arguments[4][31][0].apply(exports,arguments)
-},{"./lang":284,"./promise":285,"dup":31,"rxjs/Observable":539,"rxjs/Subject":541,"rxjs/observable/PromiseObservable":545,"rxjs/operator/toPromise":546}],280:[function(require,module,exports){
+},{"./lang":284,"./promise":285,"dup":31,"rxjs/Observable":542,"rxjs/Subject":544,"rxjs/observable/PromiseObservable":548,"rxjs/operator/toPromise":549}],280:[function(require,module,exports){
 arguments[4][32][0].apply(exports,arguments)
 },{"dup":32}],281:[function(require,module,exports){
 arguments[4][33][0].apply(exports,arguments)
@@ -43838,7 +43857,7 @@ exports.WebAnimationsPlayer = WebAnimationsPlayer;
 
 },{"../facade/lang":320}],314:[function(require,module,exports){
 arguments[4][31][0].apply(exports,arguments)
-},{"./lang":320,"./promise":321,"dup":31,"rxjs/Observable":539,"rxjs/Subject":541,"rxjs/observable/PromiseObservable":545,"rxjs/operator/toPromise":546}],315:[function(require,module,exports){
+},{"./lang":320,"./promise":321,"dup":31,"rxjs/Observable":542,"rxjs/Subject":544,"rxjs/observable/PromiseObservable":548,"rxjs/operator/toPromise":549}],315:[function(require,module,exports){
 arguments[4][32][0].apply(exports,arguments)
 },{"dup":32}],316:[function(require,module,exports){
 /**
@@ -80198,6 +80217,8 @@ var card_io_1 = require('./plugins/card-io');
 var clipboard_1 = require('./plugins/clipboard');
 exports.Clipboard = clipboard_1.Clipboard;
 var contacts_1 = require('./plugins/contacts');
+var crop_1 = require('./plugins/crop');
+exports.Crop = crop_1.Crop;
 var datepicker_1 = require('./plugins/datepicker');
 var dbmeter_1 = require('./plugins/dbmeter');
 exports.DBMeter = dbmeter_1.DBMeter;
@@ -80235,6 +80256,7 @@ exports.Hotspot = hotspot_1.Hotspot;
 var httpd_1 = require('./plugins/httpd');
 var ibeacon_1 = require('./plugins/ibeacon');
 var imagepicker_1 = require('./plugins/imagepicker');
+var imageresizer_1 = require('./plugins/imageresizer');
 var inappbrowser_1 = require('./plugins/inappbrowser');
 var insomnia_1 = require('./plugins/insomnia');
 exports.Insomnia = insomnia_1.Insomnia;
@@ -80250,6 +80272,8 @@ var network_1 = require('./plugins/network');
 exports.Network = network_1.Network;
 var onesignal_1 = require('./plugins/onesignal');
 exports.OneSignal = onesignal_1.OneSignal;
+var screen_orientation_1 = require('./plugins/screen-orientation');
+exports.ScreenOrientation = screen_orientation_1.ScreenOrientation;
 var pin_dialog_1 = require('./plugins/pin-dialog');
 exports.PinDialog = pin_dialog_1.PinDialog;
 var printer_1 = require('./plugins/printer');
@@ -80298,6 +80322,7 @@ __export(require('./plugins/googlemaps'));
 __export(require('./plugins/httpd'));
 __export(require('./plugins/ibeacon'));
 __export(require('./plugins/imagepicker'));
+__export(require('./plugins/imageresizer'));
 __export(require('./plugins/inappbrowser'));
 __export(require('./plugins/launchnavigator'));
 __export(require('./plugins/localnotifications'));
@@ -80334,6 +80359,7 @@ window['IonicNative'] = {
     CardIO: card_io_1.CardIO,
     Clipboard: clipboard_1.Clipboard,
     Contacts: contacts_1.Contacts,
+    Crop: crop_1.Crop,
     DatePicker: datepicker_1.DatePicker,
     DBMeter: dbmeter_1.DBMeter,
     Deeplinks: deeplinks_1.Deeplinks,
@@ -80356,6 +80382,7 @@ window['IonicNative'] = {
     Httpd: httpd_1.Httpd,
     IBeacon: ibeacon_1.IBeacon,
     ImagePicker: imagepicker_1.ImagePicker,
+    ImageResizer: imageresizer_1.ImageResizer,
     InAppBrowser: inappbrowser_1.InAppBrowser,
     Keyboard: keyboard_1.Keyboard,
     LaunchNavigator: launchnavigator_1.LaunchNavigator,
@@ -80367,6 +80394,7 @@ window['IonicNative'] = {
     Printer: printer_1.Printer,
     Push: push_1.Push,
     OneSignal: onesignal_1.OneSignal,
+    ScreenOrientation: screen_orientation_1.ScreenOrientation,
     PinDialog: pin_dialog_1.PinDialog,
     SafariViewController: safari_view_controller_1.SafariViewController,
     Screenshot: screenshot_1.Screenshot,
@@ -80403,7 +80431,7 @@ setTimeout(function () {
     }
 }, DEVICE_READY_TIMEOUT);
 
-},{"./ng1":463,"./plugins/3dtouch":464,"./plugins/actionsheet":465,"./plugins/admob":466,"./plugins/android-fingerprint-auth":467,"./plugins/appavailability":468,"./plugins/apprate":469,"./plugins/appversion":470,"./plugins/background-geolocation":471,"./plugins/backgroundmode":472,"./plugins/badge":473,"./plugins/barcodescanner":474,"./plugins/base64togallery":475,"./plugins/batterystatus":476,"./plugins/ble":477,"./plugins/bluetoothserial":478,"./plugins/brightness":479,"./plugins/calendar":480,"./plugins/camera":482,"./plugins/camera-preview":481,"./plugins/card-io":483,"./plugins/clipboard":484,"./plugins/contacts":485,"./plugins/datepicker":486,"./plugins/dbmeter":487,"./plugins/deeplinks":488,"./plugins/device":489,"./plugins/deviceaccounts":490,"./plugins/devicemotion":491,"./plugins/deviceorientation":492,"./plugins/diagnostic":493,"./plugins/dialogs":494,"./plugins/emailcomposer":495,"./plugins/facebook":496,"./plugins/file":497,"./plugins/filetransfer":498,"./plugins/flashlight":499,"./plugins/geolocation":500,"./plugins/globalization":501,"./plugins/google-plus":502,"./plugins/googleanalytics":503,"./plugins/googlemaps":504,"./plugins/hotspot":505,"./plugins/httpd":506,"./plugins/ibeacon":507,"./plugins/imagepicker":508,"./plugins/inappbrowser":509,"./plugins/insomnia":510,"./plugins/keyboard":511,"./plugins/launchnavigator":512,"./plugins/localnotifications":513,"./plugins/media":515,"./plugins/media-capture":514,"./plugins/nativestorage":516,"./plugins/network":517,"./plugins/onesignal":518,"./plugins/pin-dialog":519,"./plugins/plugin":520,"./plugins/printer":521,"./plugins/push":522,"./plugins/safari-view-controller":523,"./plugins/screenshot":524,"./plugins/securestorage":525,"./plugins/sim":526,"./plugins/sms":527,"./plugins/socialsharing":528,"./plugins/spinnerdialog":529,"./plugins/splashscreen":530,"./plugins/sqlite":531,"./plugins/statusbar":532,"./plugins/toast":533,"./plugins/touchid":534,"./plugins/twitter-connect":535,"./plugins/vibration":536,"./plugins/webintent":537}],463:[function(require,module,exports){
+},{"./ng1":463,"./plugins/3dtouch":464,"./plugins/actionsheet":465,"./plugins/admob":466,"./plugins/android-fingerprint-auth":467,"./plugins/appavailability":468,"./plugins/apprate":469,"./plugins/appversion":470,"./plugins/background-geolocation":471,"./plugins/backgroundmode":472,"./plugins/badge":473,"./plugins/barcodescanner":474,"./plugins/base64togallery":475,"./plugins/batterystatus":476,"./plugins/ble":477,"./plugins/bluetoothserial":478,"./plugins/brightness":479,"./plugins/calendar":480,"./plugins/camera":482,"./plugins/camera-preview":481,"./plugins/card-io":483,"./plugins/clipboard":484,"./plugins/contacts":485,"./plugins/crop":486,"./plugins/datepicker":487,"./plugins/dbmeter":488,"./plugins/deeplinks":489,"./plugins/device":490,"./plugins/deviceaccounts":491,"./plugins/devicemotion":492,"./plugins/deviceorientation":493,"./plugins/diagnostic":494,"./plugins/dialogs":495,"./plugins/emailcomposer":496,"./plugins/facebook":497,"./plugins/file":498,"./plugins/filetransfer":499,"./plugins/flashlight":500,"./plugins/geolocation":501,"./plugins/globalization":502,"./plugins/google-plus":503,"./plugins/googleanalytics":504,"./plugins/googlemaps":505,"./plugins/hotspot":506,"./plugins/httpd":507,"./plugins/ibeacon":508,"./plugins/imagepicker":509,"./plugins/imageresizer":510,"./plugins/inappbrowser":511,"./plugins/insomnia":512,"./plugins/keyboard":513,"./plugins/launchnavigator":514,"./plugins/localnotifications":515,"./plugins/media":517,"./plugins/media-capture":516,"./plugins/nativestorage":518,"./plugins/network":519,"./plugins/onesignal":520,"./plugins/pin-dialog":521,"./plugins/plugin":522,"./plugins/printer":523,"./plugins/push":524,"./plugins/safari-view-controller":525,"./plugins/screen-orientation":526,"./plugins/screenshot":527,"./plugins/securestorage":528,"./plugins/sim":529,"./plugins/sms":530,"./plugins/socialsharing":531,"./plugins/spinnerdialog":532,"./plugins/splashscreen":533,"./plugins/sqlite":534,"./plugins/statusbar":535,"./plugins/toast":536,"./plugins/touchid":537,"./plugins/twitter-connect":538,"./plugins/vibration":539,"./plugins/webintent":540}],463:[function(require,module,exports){
 "use strict";
 /**
  * Initialize the ionic.native Angular module if we're running in ng1.
@@ -80580,7 +80608,7 @@ var ThreeDeeTouch = (function () {
 }());
 exports.ThreeDeeTouch = ThreeDeeTouch;
 
-},{"./plugin":520,"rxjs/Observable":539}],465:[function(require,module,exports){
+},{"./plugin":522,"rxjs/Observable":542}],465:[function(require,module,exports){
 "use strict";
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -80661,7 +80689,7 @@ var ActionSheet = (function () {
 }());
 exports.ActionSheet = ActionSheet;
 
-},{"./plugin":520}],466:[function(require,module,exports){
+},{"./plugin":522}],466:[function(require,module,exports){
 "use strict";
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -80867,7 +80895,7 @@ var AdMob = (function () {
 }());
 exports.AdMob = AdMob;
 
-},{"./plugin":520}],467:[function(require,module,exports){
+},{"./plugin":522}],467:[function(require,module,exports){
 "use strict";
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -80935,7 +80963,7 @@ var AndroidFingerprintAuth = (function () {
 }());
 exports.AndroidFingerprintAuth = AndroidFingerprintAuth;
 
-},{"./plugin":520}],468:[function(require,module,exports){
+},{"./plugin":522}],468:[function(require,module,exports){
 "use strict";
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -80995,7 +81023,7 @@ var AppAvailability = (function () {
 }());
 exports.AppAvailability = AppAvailability;
 
-},{"./plugin":520}],469:[function(require,module,exports){
+},{"./plugin":522}],469:[function(require,module,exports){
 "use strict";
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -81080,7 +81108,7 @@ var AppRate = (function () {
 }());
 exports.AppRate = AppRate;
 
-},{"./plugin":520}],470:[function(require,module,exports){
+},{"./plugin":522}],470:[function(require,module,exports){
 "use strict";
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -81154,7 +81182,7 @@ var AppVersion = (function () {
 }());
 exports.AppVersion = AppVersion;
 
-},{"./plugin":520}],471:[function(require,module,exports){
+},{"./plugin":522}],471:[function(require,module,exports){
 "use strict";
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -81360,7 +81388,7 @@ var BackgroundGeolocation = (function () {
 }());
 exports.BackgroundGeolocation = BackgroundGeolocation;
 
-},{"./plugin":520}],472:[function(require,module,exports){
+},{"./plugin":522}],472:[function(require,module,exports){
 "use strict";
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -81476,7 +81504,7 @@ var BackgroundMode = (function () {
 }());
 exports.BackgroundMode = BackgroundMode;
 
-},{"./plugin":520}],473:[function(require,module,exports){
+},{"./plugin":522}],473:[function(require,module,exports){
 "use strict";
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -81574,7 +81602,7 @@ var Badge = (function () {
 }());
 exports.Badge = Badge;
 
-},{"./plugin":520}],474:[function(require,module,exports){
+},{"./plugin":522}],474:[function(require,module,exports){
 "use strict";
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -81646,7 +81674,7 @@ var BarcodeScanner = (function () {
 }());
 exports.BarcodeScanner = BarcodeScanner;
 
-},{"./plugin":520}],475:[function(require,module,exports){
+},{"./plugin":522}],475:[function(require,module,exports){
 "use strict";
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -81696,7 +81724,7 @@ var Base64ToGallery = (function () {
 }());
 exports.Base64ToGallery = Base64ToGallery;
 
-},{"./plugin":520}],476:[function(require,module,exports){
+},{"./plugin":522}],476:[function(require,module,exports){
 "use strict";
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -81774,7 +81802,7 @@ var BatteryStatus = (function () {
 }());
 exports.BatteryStatus = BatteryStatus;
 
-},{"./plugin":520}],477:[function(require,module,exports){
+},{"./plugin":522}],477:[function(require,module,exports){
 "use strict";
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -82198,7 +82226,7 @@ var BLE = (function () {
 }());
 exports.BLE = BLE;
 
-},{"./plugin":520}],478:[function(require,module,exports){
+},{"./plugin":522}],478:[function(require,module,exports){
 "use strict";
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -82455,7 +82483,7 @@ var BluetoothSerial = (function () {
 }());
 exports.BluetoothSerial = BluetoothSerial;
 
-},{"./plugin":520}],479:[function(require,module,exports){
+},{"./plugin":522}],479:[function(require,module,exports){
 "use strict";
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -82514,7 +82542,7 @@ var Brightness = (function () {
     Brightness = __decorate([
         plugin_1.Plugin({
             plugin: 'cordova-plugin-brightness',
-            pluginRef: 'plugins.brightness',
+            pluginRef: 'cordova.plugins.brightness',
             repo: 'https://github.com/mgcrea/cordova-plugin-brightness',
             platforms: ['Android', 'iOS']
         })
@@ -82523,7 +82551,7 @@ var Brightness = (function () {
 }());
 exports.Brightness = Brightness;
 
-},{"./plugin":520}],480:[function(require,module,exports){
+},{"./plugin":522}],480:[function(require,module,exports){
 "use strict";
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -82885,7 +82913,7 @@ var Calendar = (function () {
 }());
 exports.Calendar = Calendar;
 
-},{"./plugin":520}],481:[function(require,module,exports){
+},{"./plugin":522}],481:[function(require,module,exports){
 "use strict";
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -83014,7 +83042,7 @@ var CameraPreview = (function () {
 }());
 exports.CameraPreview = CameraPreview;
 
-},{"./plugin":520}],482:[function(require,module,exports){
+},{"./plugin":522}],482:[function(require,module,exports){
 "use strict";
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -83150,7 +83178,7 @@ var Camera = (function () {
 }());
 exports.Camera = Camera;
 
-},{"./plugin":520}],483:[function(require,module,exports){
+},{"./plugin":522}],483:[function(require,module,exports){
 "use strict";
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -83221,7 +83249,7 @@ var CardIO = (function () {
 }());
 exports.CardIO = CardIO;
 
-},{"./plugin":520}],484:[function(require,module,exports){
+},{"./plugin":522}],484:[function(require,module,exports){
 "use strict";
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -83288,7 +83316,7 @@ var Clipboard = (function () {
 }());
 exports.Clipboard = Clipboard;
 
-},{"./plugin":520}],485:[function(require,module,exports){
+},{"./plugin":522}],485:[function(require,module,exports){
 "use strict";
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -83761,7 +83789,58 @@ var Contacts = (function () {
 }());
 exports.Contacts = Contacts;
 
-},{"./plugin":520}],486:[function(require,module,exports){
+},{"./plugin":522}],486:[function(require,module,exports){
+"use strict";
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var plugin_1 = require('./plugin');
+/**
+ * @name Crop
+ * @description Crops images
+ * @usage
+ * ```
+ * import {Crop} from 'ionic-native';
+ *
+ * ...
+ *
+ * Crop.crop('path/to/image.jpg', {quality: 75})
+ *   .then(
+ *     newImage => console.log("new image path is: " + newImage),
+ *     error => console.error("Error cropping image", error)
+ *   );
+ * ```
+ */
+var Crop = (function () {
+    function Crop() {
+    }
+    /**
+     * Crops an image
+     * @param pathToImage
+     * @param options
+     * @return {Promise<string>} Returns a promise that resolves with the new image path, or rejects if failed to crop.
+     */
+    Crop.crop = function (pathToImage, options) { return; };
+    __decorate([
+        plugin_1.Cordova({
+            callbackOrder: 'reverse'
+        })
+    ], Crop, "crop", null);
+    Crop = __decorate([
+        plugin_1.Plugin({
+            plugin: 'cordova-plugin-crop',
+            pluginRef: 'plugins',
+            repo: 'https://github.com/jeduan/cordova-plugin-crop'
+        })
+    ], Crop);
+    return Crop;
+}());
+exports.Crop = Crop;
+
+},{"./plugin":522}],487:[function(require,module,exports){
 "use strict";
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -83817,7 +83896,7 @@ var DatePicker = (function () {
 }());
 exports.DatePicker = DatePicker;
 
-},{"./plugin":520}],487:[function(require,module,exports){
+},{"./plugin":522}],488:[function(require,module,exports){
 "use strict";
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -83904,7 +83983,7 @@ var DBMeter = (function () {
 }());
 exports.DBMeter = DBMeter;
 
-},{"./plugin":520}],488:[function(require,module,exports){
+},{"./plugin":522}],489:[function(require,module,exports){
 "use strict";
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -83979,7 +84058,7 @@ var Deeplinks = (function () {
 }());
 exports.Deeplinks = Deeplinks;
 
-},{"./plugin":520}],489:[function(require,module,exports){
+},{"./plugin":522}],490:[function(require,module,exports){
 "use strict";
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -84028,7 +84107,7 @@ var Device = (function () {
 }());
 exports.Device = Device;
 
-},{"./plugin":520}],490:[function(require,module,exports){
+},{"./plugin":522}],491:[function(require,module,exports){
 "use strict";
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -84080,7 +84159,7 @@ var DeviceAccounts = (function () {
 }());
 exports.DeviceAccounts = DeviceAccounts;
 
-},{"./plugin":520}],491:[function(require,module,exports){
+},{"./plugin":522}],492:[function(require,module,exports){
 "use strict";
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -84150,7 +84229,7 @@ var DeviceMotion = (function () {
 }());
 exports.DeviceMotion = DeviceMotion;
 
-},{"./plugin":520}],492:[function(require,module,exports){
+},{"./plugin":522}],493:[function(require,module,exports){
 "use strict";
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -84221,7 +84300,7 @@ var DeviceOrientation = (function () {
 }());
 exports.DeviceOrientation = DeviceOrientation;
 
-},{"./plugin":520}],493:[function(require,module,exports){
+},{"./plugin":522}],494:[function(require,module,exports){
 "use strict";
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -84230,28 +84309,38 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
     return c > 3 && r && Object.defineProperty(target, key, r), r;
 };
 var plugin_1 = require('./plugin');
+/**
+ * @name Diagnostic
+ * @description
+ * Checks whether device hardware features are enabled or available to the app, e.g. camera, GPS, wifi
+ *
+ * @usage
+ * ```typescript
+ * import { Diagnostic } from 'ionic-native';
+ * ```
+ */
 var Diagnostic = (function () {
     function Diagnostic() {
     }
     /**
      * Checks if app is able to access device location.
      */
-    Diagnostic.isLocationEnabled = function () { return; };
+    Diagnostic.isLocationAvailable = function () { return; };
     /**
      * Checks if Wifi is connected/enabled. On iOS this returns true if the device is connected to a network by WiFi. On Android and Windows 10 Mobile this returns true if the WiFi setting is set to enabled.
      * On Android this requires permission. `<uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />`
      */
-    Diagnostic.isWifiEnabled = function () { return; };
+    Diagnostic.isWifiAvailable = function () { return; };
     /**
      * Checks if the device has a camera. On Android this returns true if the device has a camera. On iOS this returns true if both the device has a camera AND the application is authorized to use it. On Windows 10 Mobile this returns true if both the device has a rear-facing camera AND the
      * application is authorized to use it.
      */
-    Diagnostic.isCameraEnabled = function () { return; };
+    Diagnostic.isCameraAvailable = function () { return; };
     /**
      * Checks if the device has Bluetooth capabilities and if so that Bluetooth is switched on (same on Android, iOS and Windows 10 Mobile)
      * On Android this requires permission <uses-permission android:name="android.permission.BLUETOOTH" />
      */
-    Diagnostic.isBluetoothEnabled = function () { return; };
+    Diagnostic.isBluetoothAvailable = function () { return; };
     /**
      * Returns the location authorization status for the application.
      * Note for Android: this is intended for Android 6 / API 23 and above. Calling on Android 5 / API 22 and below will always return GRANTED status as permissions are already granted at installation time.
@@ -84301,16 +84390,16 @@ var Diagnostic = (function () {
     Diagnostic.isRegisteredForRemoteNotifications = function () { return; };
     __decorate([
         plugin_1.Cordova()
-    ], Diagnostic, "isLocationEnabled", null);
+    ], Diagnostic, "isLocationAvailable", null);
     __decorate([
         plugin_1.Cordova()
-    ], Diagnostic, "isWifiEnabled", null);
+    ], Diagnostic, "isWifiAvailable", null);
     __decorate([
         plugin_1.Cordova()
-    ], Diagnostic, "isCameraEnabled", null);
+    ], Diagnostic, "isCameraAvailable", null);
     __decorate([
         plugin_1.Cordova()
-    ], Diagnostic, "isBluetoothEnabled", null);
+    ], Diagnostic, "isBluetoothAvailable", null);
     __decorate([
         plugin_1.Cordova()
     ], Diagnostic, "requestLocationAuthorization", null);
@@ -84346,7 +84435,7 @@ var Diagnostic = (function () {
 }());
 exports.Diagnostic = Diagnostic;
 
-},{"./plugin":520}],494:[function(require,module,exports){
+},{"./plugin":522}],495:[function(require,module,exports){
 "use strict";
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -84451,7 +84540,7 @@ var Dialogs = (function () {
 }());
 exports.Dialogs = Dialogs;
 
-},{"./plugin":520}],495:[function(require,module,exports){
+},{"./plugin":522}],496:[function(require,module,exports){
 "use strict";
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -84558,7 +84647,7 @@ var EmailComposer = (function () {
 }());
 exports.EmailComposer = EmailComposer;
 
-},{"./plugin":520}],496:[function(require,module,exports){
+},{"./plugin":522}],497:[function(require,module,exports){
 "use strict";
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -84823,7 +84912,7 @@ var Facebook = (function () {
 }());
 exports.Facebook = Facebook;
 
-},{"./plugin":520}],497:[function(require,module,exports){
+},{"./plugin":522}],498:[function(require,module,exports){
 "use strict";
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -85431,7 +85520,7 @@ var File = (function () {
 }());
 exports.File = File;
 
-},{"./plugin":520}],498:[function(require,module,exports){
+},{"./plugin":522}],499:[function(require,module,exports){
 "use strict";
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -85571,7 +85660,7 @@ var Transfer = (function () {
 }());
 exports.Transfer = Transfer;
 
-},{"./plugin":520}],499:[function(require,module,exports){
+},{"./plugin":522}],500:[function(require,module,exports){
 "use strict";
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -85650,7 +85739,7 @@ var Flashlight = (function () {
 }());
 exports.Flashlight = Flashlight;
 
-},{"./plugin":520}],500:[function(require,module,exports){
+},{"./plugin":522}],501:[function(require,module,exports){
 "use strict";
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -85733,7 +85822,7 @@ var Geolocation = (function () {
 }());
 exports.Geolocation = Geolocation;
 
-},{"./plugin":520,"rxjs/Observable":539}],501:[function(require,module,exports){
+},{"./plugin":522,"rxjs/Observable":542}],502:[function(require,module,exports){
 "use strict";
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -85891,7 +85980,7 @@ var Globalization = (function () {
 }());
 exports.Globalization = Globalization;
 
-},{"./plugin":520}],502:[function(require,module,exports){
+},{"./plugin":522}],503:[function(require,module,exports){
 "use strict";
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -85956,7 +86045,7 @@ var GooglePlus = (function () {
 }());
 exports.GooglePlus = GooglePlus;
 
-},{"./plugin":520}],503:[function(require,module,exports){
+},{"./plugin":522}],504:[function(require,module,exports){
 "use strict";
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -86103,7 +86192,7 @@ var GoogleAnalytics = (function () {
 }());
 exports.GoogleAnalytics = GoogleAnalytics;
 
-},{"./plugin":520}],504:[function(require,module,exports){
+},{"./plugin":522}],505:[function(require,module,exports){
 "use strict";
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -87105,7 +87194,7 @@ var Geocoder = (function () {
 }());
 exports.Geocoder = Geocoder;
 
-},{"./plugin":520,"rxjs/Observable":539}],505:[function(require,module,exports){
+},{"./plugin":522,"rxjs/Observable":542}],506:[function(require,module,exports){
 "use strict";
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -87362,7 +87451,7 @@ var Hotspot = (function () {
 }());
 exports.Hotspot = Hotspot;
 
-},{"./plugin":520}],506:[function(require,module,exports){
+},{"./plugin":522}],507:[function(require,module,exports){
 "use strict";
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -87420,7 +87509,7 @@ var Httpd = (function () {
 }());
 exports.Httpd = Httpd;
 
-},{"./plugin":520}],507:[function(require,module,exports){
+},{"./plugin":522}],508:[function(require,module,exports){
 "use strict";
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -87914,7 +88003,7 @@ var IBeacon = (function () {
 }());
 exports.IBeacon = IBeacon;
 
-},{"./plugin":520,"rxjs/Observable":539}],508:[function(require,module,exports){
+},{"./plugin":522,"rxjs/Observable":542}],509:[function(require,module,exports){
 "use strict";
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -87970,7 +88059,64 @@ var ImagePicker = (function () {
 }());
 exports.ImagePicker = ImagePicker;
 
-},{"./plugin":520}],509:[function(require,module,exports){
+},{"./plugin":522}],510:[function(require,module,exports){
+"use strict";
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var plugin_1 = require('./plugin');
+/**
+ * @name ImageResizer
+ * @description
+ * Cordova Plugin For Image Resize
+ *
+ * Requires plugin `info.protonet.imageresizer` - use the Ionic CLI and type in the following command:
+ * `ionic plugin add https://github.com/protonet/cordova-plugin-image-resizer.git`
+ *
+ * For more info, please see the https://github.com/protonet/cordova-plugin-image-resizer
+ *
+ * @usage
+ * ```typescript
+ * import { ImageResizer, ImageResizerOptions } from 'ionic-native';
+ *
+ * let options = {
+ *  uri: uri,
+ *  folderName: 'Protonet',
+ *  quality: 90,
+ *  width: 1280,
+ *  height: 1280
+ * } as ImageResizerOptions;
+ *
+ * ImageResizer
+ * .resize(options)
+ * .then(
+ *  (filePath: string) => { console.log('FilePath', filePath); },
+ *  () => { console.log('Error occured'); }
+ * )
+ * ```
+ */
+var ImageResizer = (function () {
+    function ImageResizer() {
+    }
+    ImageResizer.resize = function (options) { return; };
+    __decorate([
+        plugin_1.Cordova()
+    ], ImageResizer, "resize", null);
+    ImageResizer = __decorate([
+        plugin_1.Plugin({
+            plugin: 'https://github.com/protonet/cordova-plugin-image-resizer.git',
+            pluginRef: 'ImageResizer',
+            repo: 'https://github.com/protonet/cordova-plugin-image-resizer'
+        })
+    ], ImageResizer);
+    return ImageResizer;
+}());
+exports.ImageResizer = ImageResizer;
+
+},{"./plugin":522}],511:[function(require,module,exports){
 "use strict";
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -87990,6 +88136,20 @@ var InAppBrowser = (function () {
      *                 The options string must not contain any blank space, and each feature's
      *                 name/value pairs must be separated by a comma. Feature names are case insensitive.
      */
+    /**
+  * @name InAppBrowser
+  * @description
+  * @usage
+  * ```typescript
+  * import { InAppBrowser } from 'ionic-native';
+  *
+  *
+  *
+  *  InAppBrowser.open(url, target, options);
+  *
+  *
+  * ```
+  */
     InAppBrowser.open = function (url, target, options) { return; };
     __decorate([
         plugin_1.Cordova({
@@ -88006,7 +88166,7 @@ var InAppBrowser = (function () {
 }());
 exports.InAppBrowser = InAppBrowser;
 
-},{"./plugin":520}],510:[function(require,module,exports){
+},{"./plugin":522}],512:[function(require,module,exports){
 "use strict";
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -88070,7 +88230,7 @@ var Insomnia = (function () {
 }());
 exports.Insomnia = Insomnia;
 
-},{"./plugin":520}],511:[function(require,module,exports){
+},{"./plugin":522}],513:[function(require,module,exports){
 "use strict";
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -88164,7 +88324,7 @@ var Keyboard = (function () {
 }());
 exports.Keyboard = Keyboard;
 
-},{"./plugin":520}],512:[function(require,module,exports){
+},{"./plugin":522}],514:[function(require,module,exports){
 "use strict";
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -88325,7 +88485,7 @@ var LaunchNavigator = (function () {
 }());
 exports.LaunchNavigator = LaunchNavigator;
 
-},{"./plugin":520}],513:[function(require,module,exports){
+},{"./plugin":522}],515:[function(require,module,exports){
 "use strict";
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -88548,7 +88708,7 @@ var LocalNotifications = (function () {
 }());
 exports.LocalNotifications = LocalNotifications;
 
-},{"./plugin":520}],514:[function(require,module,exports){
+},{"./plugin":522}],516:[function(require,module,exports){
 "use strict";
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -88680,7 +88840,7 @@ var MediaCapture = (function () {
 }());
 exports.MediaCapture = MediaCapture;
 
-},{"./plugin":520}],515:[function(require,module,exports){
+},{"./plugin":522}],517:[function(require,module,exports){
 "use strict";
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -88904,7 +89064,7 @@ var MediaError = (function () {
 }());
 exports.MediaError = MediaError;
 
-},{"./plugin":520,"rxjs/Observable":539}],516:[function(require,module,exports){
+},{"./plugin":522,"rxjs/Observable":542}],518:[function(require,module,exports){
 "use strict";
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -88980,7 +89140,7 @@ var NativeStorage = (function () {
 }());
 exports.NativeStorage = NativeStorage;
 
-},{"./plugin":520}],517:[function(require,module,exports){
+},{"./plugin":522}],519:[function(require,module,exports){
 "use strict";
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -89078,7 +89238,7 @@ var Network = (function () {
 }());
 exports.Network = Network;
 
-},{"./plugin":520}],518:[function(require,module,exports){
+},{"./plugin":522}],520:[function(require,module,exports){
 "use strict";
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -89119,7 +89279,7 @@ var OneSignal = (function () {
      *
      * @param {appId} Your AppId from your OneSignal app
      * @param {options} The Google Project Number (which you can get from the Google Developer Potal) and the autoRegister option.
-     * @returns {Promise} Returns a Promise that resolves when remote notification was recieved.
+     * @returns {Observable} when a notification is received. Handle your notification action here.
      */
     OneSignal.init = function (appId, options) { return; };
     /**
@@ -89233,7 +89393,7 @@ var OneSignal = (function () {
     */
     OneSignal.setLogLevel = function (logLevel) { };
     __decorate([
-        plugin_1.Cordova()
+        plugin_1.Cordova({ observable: true })
     ], OneSignal, "init", null);
     __decorate([
         plugin_1.Cordova({ sync: true })
@@ -89284,15 +89444,14 @@ var OneSignal = (function () {
         plugin_1.Plugin({
             plugin: 'onesignal-cordova-plugin',
             pluginRef: 'plugins.OneSignal',
-            repo: 'https://github.com/OneSignal/OneSignal-Cordova-SDK',
-            platforms: ['Android', 'iOS', 'Windows Phone 8']
+            repo: 'https://github.com/OneSignal/OneSignal-Cordova-SDK'
         })
     ], OneSignal);
     return OneSignal;
 }());
 exports.OneSignal = OneSignal;
 
-},{"./plugin":520}],519:[function(require,module,exports){
+},{"./plugin":522}],521:[function(require,module,exports){
 "use strict";
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -89345,7 +89504,7 @@ var PinDialog = (function () {
 }());
 exports.PinDialog = PinDialog;
 
-},{"./plugin":520}],520:[function(require,module,exports){
+},{"./plugin":522}],522:[function(require,module,exports){
 "use strict";
 var util_1 = require('../util');
 var Observable_1 = require('rxjs/Observable');
@@ -89429,14 +89588,14 @@ function callCordovaPlugin(pluginObj, methodName, args, opts, resolve, reject) {
     return util_1.get(window, pluginObj.pluginRef)[methodName].apply(pluginInstance, args);
 }
 function getPromise(cb) {
-    if (window.Promise) {
-        return new Promise(function (resolve, reject) {
+    if (window.angular) {
+        var $q_1 = window.angular.injector(['ng']).get('$q');
+        return $q_1(function (resolve, reject) {
             cb(resolve, reject);
         });
     }
-    else if (window.angular) {
-        var $q_1 = window.angular.injector(['ng']).get('$q');
-        return $q_1(function (resolve, reject) {
+    else if (window.Promise) {
+        return new Promise(function (resolve, reject) {
             cb(resolve, reject);
         });
     }
@@ -89705,7 +89864,7 @@ function InstanceProperty(target, key, descriptor) {
 }
 exports.InstanceProperty = InstanceProperty;
 
-},{"../util":538,"rxjs/Observable":539}],521:[function(require,module,exports){
+},{"../util":541,"rxjs/Observable":542}],523:[function(require,module,exports){
 "use strict";
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -89745,7 +89904,7 @@ var Printer = (function () {
 }());
 exports.Printer = Printer;
 
-},{"./plugin":520}],522:[function(require,module,exports){
+},{"./plugin":522}],524:[function(require,module,exports){
 "use strict";
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -89816,7 +89975,7 @@ var Push = (function () {
 }());
 exports.Push = Push;
 
-},{"./plugin":520}],523:[function(require,module,exports){
+},{"./plugin":522}],525:[function(require,module,exports){
 "use strict";
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -89921,7 +90080,91 @@ var SafariViewController = (function () {
 }());
 exports.SafariViewController = SafariViewController;
 
-},{"./plugin":520}],524:[function(require,module,exports){
+},{"./plugin":522}],526:[function(require,module,exports){
+"use strict";
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var plugin_1 = require('./plugin');
+/**
+ * @name Screen Orientation
+ * @description
+ * Cordova plugin to set/lock the screen orientation in a common way for iOS, Android, WP8 and Blackberry 10.
+ * This plugin is based on an early version of Screen Orientation API so the api does not currently match the current spec.
+ *
+ * Requires Cordova plugin: `cordova-plugin-screen-orientation`. For more info, please see the [Screen Orientation plugin docs](https://github.com/apache/cordova-plugin-screen-orientation).
+ *
+ * @usage
+ * ```typescript
+ * import { ScreenOrientation } from 'ionic-native';
+ *
+ *
+ * // set to either landscape
+ * ScreenOrientation.lockOrientation('landscape');
+ *
+ * // allow user rotate
+ * ScreenOrientation.unlockOrientation();
+ * ```
+ *
+ */
+var ScreenOrientation = (function () {
+    function ScreenOrientation() {
+    }
+    /**
+     * Lock the orientation to the passed value.
+     *
+     * Accepted orientation values:
+     * | Value                         | Description                                                                  |
+     * |-------------------------------|------------------------------------------------------------------------------|
+     * | portrait-primary              | The orientation is in the primary portrait mode.                             |
+     * | portrait-secondary            | The orientation is in the secondary portrait mode.                           |
+     * | landscape-primary             | The orientation is in the primary landscape mode.                            |
+     * | landscape-secondary           | The orientation is in the secondary landscape mode.                          |
+     * | portrait                      | The orientation is either portrait-primary or portrait-secondary (sensor).   |
+     * | landscape                     | The orientation is either landscape-primary or landscape-secondary (sensor). |
+     *
+     * @param {orientation} The orientation which should be locked. Accepted values see table above.
+     */
+    ScreenOrientation.lockOrientation = function (orientation) { };
+    /**
+     * Unlock and allow all orientations.
+     */
+    ScreenOrientation.unlockOrientation = function () { };
+    Object.defineProperty(ScreenOrientation, "orientation", {
+        /*
+         * Get the current orientation of the device.
+         */
+        get: function () {
+            return window.screen.orientation;
+        },
+        enumerable: true,
+        configurable: true
+    });
+    __decorate([
+        plugin_1.Cordova({ sync: true })
+    ], ScreenOrientation, "lockOrientation", null);
+    __decorate([
+        plugin_1.Cordova({ sync: true })
+    ], ScreenOrientation, "unlockOrientation", null);
+    __decorate([
+        plugin_1.CordovaProperty
+    ], ScreenOrientation, "orientation", null);
+    ScreenOrientation = __decorate([
+        plugin_1.Plugin({
+            plugin: 'cordova-plugin-screen-orientation',
+            pluginRef: 'window.screen',
+            repo: 'https://github.com/apache/cordova-plugin-screen-orientation',
+            platforms: ['Android', 'iOS', 'Windows Phone 8']
+        })
+    ], ScreenOrientation);
+    return ScreenOrientation;
+}());
+exports.ScreenOrientation = ScreenOrientation;
+
+},{"./plugin":522}],527:[function(require,module,exports){
 "use strict";
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -89983,7 +90226,7 @@ var Screenshot = (function () {
 }());
 exports.Screenshot = Screenshot;
 
-},{"./plugin":520}],525:[function(require,module,exports){
+},{"./plugin":522}],528:[function(require,module,exports){
 "use strict";
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -90086,7 +90329,7 @@ var SecureStorage = (function () {
 }());
 exports.SecureStorage = SecureStorage;
 
-},{"./plugin":520}],526:[function(require,module,exports){
+},{"./plugin":522}],529:[function(require,module,exports){
 "use strict";
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -90136,7 +90379,7 @@ var Sim = (function () {
 }());
 exports.Sim = Sim;
 
-},{"./plugin":520}],527:[function(require,module,exports){
+},{"./plugin":522}],530:[function(require,module,exports){
 "use strict";
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -90186,7 +90429,7 @@ var SMS = (function () {
 }());
 exports.SMS = SMS;
 
-},{"./plugin":520}],528:[function(require,module,exports){
+},{"./plugin":522}],531:[function(require,module,exports){
 "use strict";
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -90377,7 +90620,7 @@ var SocialSharing = (function () {
 }());
 exports.SocialSharing = SocialSharing;
 
-},{"./plugin":520}],529:[function(require,module,exports){
+},{"./plugin":522}],532:[function(require,module,exports){
 "use strict";
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -90436,7 +90679,7 @@ var SpinnerDialog = (function () {
 }());
 exports.SpinnerDialog = SpinnerDialog;
 
-},{"./plugin":520}],530:[function(require,module,exports){
+},{"./plugin":522}],533:[function(require,module,exports){
 "use strict";
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -90490,7 +90733,7 @@ var Splashscreen = (function () {
 }());
 exports.Splashscreen = Splashscreen;
 
-},{"./plugin":520}],531:[function(require,module,exports){
+},{"./plugin":522}],534:[function(require,module,exports){
 "use strict";
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -90511,7 +90754,7 @@ var plugin_1 = require('./plugin');
  * import { SQLite } from 'ionic-native';
  *
  * let db = new SQLite();
- * db.openDatabse({
+ * db.openDatabase({
  *   name: 'data.db',
  *   location: 'default' // the location field is required
  * }).then(() => {
@@ -90690,7 +90933,7 @@ var SQLite = (function () {
 }());
 exports.SQLite = SQLite;
 
-},{"./plugin":520}],532:[function(require,module,exports){
+},{"./plugin":522}],535:[function(require,module,exports){
 "use strict";
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -90711,7 +90954,7 @@ var plugin_1 = require('./plugin');
  * import { StatusBar } from 'ionic-native';
  *
  *
- * StatuBar.overlaysWebView(true); // let status var overlay webview
+ * StatusBar.overlaysWebView(true); // let status var overlay webview
  *
  * StatusBar.backgroundColorByHexString('#ffffff'); // set status bar to white
  * ```
@@ -90845,7 +91088,7 @@ var StatusBar = (function () {
 }());
 exports.StatusBar = StatusBar;
 
-},{"./plugin":520}],533:[function(require,module,exports){
+},{"./plugin":522}],536:[function(require,module,exports){
 "use strict";
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -90995,7 +91238,7 @@ var Toast = (function () {
 }());
 exports.Toast = Toast;
 
-},{"./plugin":520}],534:[function(require,module,exports){
+},{"./plugin":522}],537:[function(require,module,exports){
 "use strict";
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -91031,7 +91274,7 @@ var plugin_1 = require('./plugin');
  * TouchID.isAvailable()
  *   .then(
  *     res => console.log('TouchID is available!'),
- *     err => console.error('TouchID isn't available', err)
+ *     err => console.error("TouchID isn't available", err)
  *   );
  *
  * TouchID.verifyFingerprint('Scan your fingerprint please')
@@ -91096,7 +91339,7 @@ var TouchID = (function () {
 }());
 exports.TouchID = TouchID;
 
-},{"./plugin":520}],535:[function(require,module,exports){
+},{"./plugin":522}],538:[function(require,module,exports){
 "use strict";
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -91135,14 +91378,14 @@ var TwitterConnect = (function () {
             plugin: 'twitter-connect-plugin',
             pluginRef: 'TwitterConnect',
             repo: '',
-            install: 'ionic plugin add twitter-connect-plugin --variable FABRIC_KEY=<Fabric API Key>'
+            install: 'ionic plugin add twitter-connect-plugin --variable FABRIC_KEY=fabric_API_key'
         })
     ], TwitterConnect);
     return TwitterConnect;
 }());
 exports.TwitterConnect = TwitterConnect;
 
-},{"./plugin":520}],536:[function(require,module,exports){
+},{"./plugin":522}],539:[function(require,module,exports){
 "use strict";
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -91198,7 +91441,7 @@ var Vibration = (function () {
 }());
 exports.Vibration = Vibration;
 
-},{"./plugin":520}],537:[function(require,module,exports){
+},{"./plugin":522}],540:[function(require,module,exports){
 "use strict";
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -91274,7 +91517,7 @@ var WebIntent = (function () {
 }());
 exports.WebIntent = WebIntent;
 
-},{"./plugin":520}],538:[function(require,module,exports){
+},{"./plugin":522}],541:[function(require,module,exports){
 "use strict";
 function get(obj, path) {
     for (var i = 0, path = path.split('.'), len = path.length; i < len; i++) {
@@ -91288,7 +91531,7 @@ function get(obj, path) {
 exports.get = get;
 ;
 
-},{}],539:[function(require,module,exports){
+},{}],542:[function(require,module,exports){
 "use strict";
 var root_1 = require('./util/root');
 var observable_1 = require('./symbol/observable');
@@ -91424,7 +91667,7 @@ var Observable = (function () {
 }());
 exports.Observable = Observable;
 
-},{"./symbol/observable":547,"./util/root":555,"./util/toSubscriber":557}],540:[function(require,module,exports){
+},{"./symbol/observable":550,"./util/root":558,"./util/toSubscriber":560}],543:[function(require,module,exports){
 "use strict";
 exports.empty = {
     isUnsubscribed: true,
@@ -91433,7 +91676,7 @@ exports.empty = {
     complete: function () { }
 };
 
-},{}],541:[function(require,module,exports){
+},{}],544:[function(require,module,exports){
 "use strict";
 var __extends = (this && this.__extends) || function (d, b) {
     for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p];
@@ -91640,7 +91883,7 @@ var SubjectObservable = (function (_super) {
     return SubjectObservable;
 }(Observable_1.Observable));
 
-},{"./Observable":539,"./SubjectSubscription":542,"./Subscriber":543,"./Subscription":544,"./symbol/rxSubscriber":548,"./util/ObjectUnsubscribedError":549,"./util/throwError":556}],542:[function(require,module,exports){
+},{"./Observable":542,"./SubjectSubscription":545,"./Subscriber":546,"./Subscription":547,"./symbol/rxSubscriber":551,"./util/ObjectUnsubscribedError":552,"./util/throwError":559}],545:[function(require,module,exports){
 "use strict";
 var __extends = (this && this.__extends) || function (d, b) {
     for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p];
@@ -91681,7 +91924,7 @@ var SubjectSubscription = (function (_super) {
 }(Subscription_1.Subscription));
 exports.SubjectSubscription = SubjectSubscription;
 
-},{"./Subscription":544}],543:[function(require,module,exports){
+},{"./Subscription":547}],546:[function(require,module,exports){
 "use strict";
 var __extends = (this && this.__extends) || function (d, b) {
     for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p];
@@ -91933,7 +92176,7 @@ var SafeSubscriber = (function (_super) {
     return SafeSubscriber;
 }(Subscriber));
 
-},{"./Observer":540,"./Subscription":544,"./symbol/rxSubscriber":548,"./util/isFunction":553}],544:[function(require,module,exports){
+},{"./Observer":543,"./Subscription":547,"./symbol/rxSubscriber":551,"./util/isFunction":556}],547:[function(require,module,exports){
 "use strict";
 var isArray_1 = require('./util/isArray');
 var isObject_1 = require('./util/isObject');
@@ -92084,7 +92327,7 @@ var Subscription = (function () {
 }());
 exports.Subscription = Subscription;
 
-},{"./util/UnsubscriptionError":550,"./util/errorObject":551,"./util/isArray":552,"./util/isFunction":553,"./util/isObject":554,"./util/tryCatch":558}],545:[function(require,module,exports){
+},{"./util/UnsubscriptionError":553,"./util/errorObject":554,"./util/isArray":555,"./util/isFunction":556,"./util/isObject":557,"./util/tryCatch":561}],548:[function(require,module,exports){
 "use strict";
 var __extends = (this && this.__extends) || function (d, b) {
     for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p];
@@ -92190,7 +92433,7 @@ function dispatchError(arg) {
     }
 }
 
-},{"../Observable":539,"../util/root":555}],546:[function(require,module,exports){
+},{"../Observable":542,"../util/root":558}],549:[function(require,module,exports){
 "use strict";
 var root_1 = require('../util/root');
 /**
@@ -92219,7 +92462,7 @@ function toPromise(PromiseCtor) {
 }
 exports.toPromise = toPromise;
 
-},{"../util/root":555}],547:[function(require,module,exports){
+},{"../util/root":558}],550:[function(require,module,exports){
 "use strict";
 var root_1 = require('../util/root');
 var Symbol = root_1.root.Symbol;
@@ -92241,14 +92484,14 @@ else {
     exports.$$observable = '@@observable';
 }
 
-},{"../util/root":555}],548:[function(require,module,exports){
+},{"../util/root":558}],551:[function(require,module,exports){
 "use strict";
 var root_1 = require('../util/root');
 var Symbol = root_1.root.Symbol;
 exports.$$rxSubscriber = (typeof Symbol === 'function' && typeof Symbol.for === 'function') ?
     Symbol.for('rxSubscriber') : '@@rxSubscriber';
 
-},{"../util/root":555}],549:[function(require,module,exports){
+},{"../util/root":558}],552:[function(require,module,exports){
 "use strict";
 var __extends = (this && this.__extends) || function (d, b) {
     for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p];
@@ -92274,7 +92517,7 @@ var ObjectUnsubscribedError = (function (_super) {
 }(Error));
 exports.ObjectUnsubscribedError = ObjectUnsubscribedError;
 
-},{}],550:[function(require,module,exports){
+},{}],553:[function(require,module,exports){
 "use strict";
 var __extends = (this && this.__extends) || function (d, b) {
     for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p];
@@ -92297,30 +92540,30 @@ var UnsubscriptionError = (function (_super) {
 }(Error));
 exports.UnsubscriptionError = UnsubscriptionError;
 
-},{}],551:[function(require,module,exports){
+},{}],554:[function(require,module,exports){
 "use strict";
 // typeof any so that it we don't have to cast when comparing a result to the error object
 exports.errorObject = { e: {} };
 
-},{}],552:[function(require,module,exports){
+},{}],555:[function(require,module,exports){
 "use strict";
 exports.isArray = Array.isArray || (function (x) { return x && typeof x.length === 'number'; });
 
-},{}],553:[function(require,module,exports){
+},{}],556:[function(require,module,exports){
 "use strict";
 function isFunction(x) {
     return typeof x === 'function';
 }
 exports.isFunction = isFunction;
 
-},{}],554:[function(require,module,exports){
+},{}],557:[function(require,module,exports){
 "use strict";
 function isObject(x) {
     return x != null && typeof x === 'object';
 }
 exports.isObject = isObject;
 
-},{}],555:[function(require,module,exports){
+},{}],558:[function(require,module,exports){
 (function (global){
 "use strict";
 var objectTypes = {
@@ -92342,12 +92585,12 @@ if (freeGlobal && (freeGlobal.global === freeGlobal || freeGlobal.window === fre
 
 }).call(this,typeof global !== "undefined" ? global : typeof self !== "undefined" ? self : typeof window !== "undefined" ? window : {})
 
-},{}],556:[function(require,module,exports){
+},{}],559:[function(require,module,exports){
 "use strict";
 function throwError(e) { throw e; }
 exports.throwError = throwError;
 
-},{}],557:[function(require,module,exports){
+},{}],560:[function(require,module,exports){
 "use strict";
 var Subscriber_1 = require('../Subscriber');
 var rxSubscriber_1 = require('../symbol/rxSubscriber');
@@ -92364,7 +92607,7 @@ function toSubscriber(nextOrObserver, error, complete) {
 }
 exports.toSubscriber = toSubscriber;
 
-},{"../Subscriber":543,"../symbol/rxSubscriber":548}],558:[function(require,module,exports){
+},{"../Subscriber":546,"../symbol/rxSubscriber":551}],561:[function(require,module,exports){
 "use strict";
 var errorObject_1 = require('./errorObject');
 var tryCatchTarget;
@@ -92384,9 +92627,9 @@ function tryCatch(fn) {
 exports.tryCatch = tryCatch;
 ;
 
-},{"./errorObject":551}],559:[function(require,module,exports){
+},{"./errorObject":554}],562:[function(require,module,exports){
 
-},{}]},{},[1,559])
+},{}]},{},[1,562])
 
 
 //# sourceMappingURL=app.bundle.js.map
