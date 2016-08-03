@@ -30,9 +30,9 @@
   <h5 text-center>{{session.date}}</h5>
   <h6 text-center>{{session.timeStart}} - {{session.timeEnd}}</h6>
 
-  <ion-card class="session-description">
-  <button clear twitter (click)="goToTwitter(session.speakers)"><ion-icon name="logo-twitter"></ion-icon>Tweet</button>
+  <ion-card>
+    <button clear twitter (click)="goToTwitter(session.speakers)"><ion-icon name="logo-twitter"></ion-icon>Tweet</button>
     <ion-card-header>{{session.location}}</ion-card-header>
-    <ion-card-content>{{session.description}}</ion-card-content>
+    <ion-card-content class="session-description">{{session.description}}</ion-card-content>
   </ion-card>
 </ion-content>
