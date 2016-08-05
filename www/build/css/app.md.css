@@ -184,14 +184,8 @@ ion-tabs {
 ion-tab scroll-cotent {
   display: none; }
 
-ion-tab {
-  -webkit-transform: translateY(-200%);
-  transform: translateY(-200%);
-  z-index: -1; }
-
 ion-tab.show-tab {
-  -webkit-transform: translateY(0);
-  transform: translateY(0); }
+  z-index: 1; }
 
 ion-tab.show-tab scroll-cotent {
   display: block; }
