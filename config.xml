@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget id="com.nreality.agileafricaconf" version="0.1.10" android-versionCode="2001" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
-    <name>Agile Africa Conference</name>
-    <description>Information for the Agile Africa conference, held on 22-23 August.</description>
+<widget id="com.nreality.ScrumGatheringSAConf" version="0.1.01" android-versionCode="2001" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <name>Scrum Gathering South Africa 2016 Conference</name>
+    <description>Information for the Regional Scrum Gathering South Africa 2016.</description>
     <author email="info@nreality.com" href="http://nreality.com/">nReality</author>
     <content src="index.html" />
     <access origin="*" />
