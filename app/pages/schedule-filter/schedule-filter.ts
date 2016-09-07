@@ -1,6 +1,8 @@
-import {Component} from '@angular/core';
-import {NavParams, ViewController} from 'ionic-angular';
-import {ConferenceData} from '../../providers/conference-data';
+import { Component } from '@angular/core';
+
+import { NavParams, ViewController } from 'ionic-angular';
+
+import { ConferenceData } from '../../providers/conference-data';
 
 
 @Component({
@@ -11,9 +13,9 @@ export class ScheduleFilterPage {
   locations: Array<{name: string}> = [];
 
   constructor(
-    private confData: ConferenceData,
-    private navParams: NavParams,
-    private viewCtrl: ViewController
+    public confData: ConferenceData,
+    public navParams: NavParams,
+    public viewCtrl: ViewController
   ) {
     // passed in array of track names that should be excluded (unchecked)
     let excludedTrackNames = this.navParams.data;

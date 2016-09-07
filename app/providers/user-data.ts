@@ -1,5 +1,6 @@
-import {Injectable} from '@angular/core';
-import {Storage, LocalStorage, Events} from 'ionic-angular';
+import { Injectable } from '@angular/core';
+
+import { Events, LocalStorage, Storage } from 'ionic-angular';
 
 
 @Injectable()
@@ -8,7 +9,7 @@ export class UserData {
   HAS_LOGGED_IN = 'hasLoggedIn';
   storage = new Storage(LocalStorage);
 
-  constructor(private events: Events) {}
+  constructor(public events: Events) {}
 
   hasFavorite(sessionName) {
     return (this._favorites.indexOf(sessionName) > -1);

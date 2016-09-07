@@ -1,7 +1,8 @@
-import {Component} from '@angular/core';
-import {NavController, MenuController} from 'ionic-angular';
-import {TabsPage} from '../tabs/tabs';
-import {SignupPage} from '../signup/signup';
+import { Component } from '@angular/core';
+
+import { MenuController, NavController } from 'ionic-angular';
+
+import { TabsPage } from '../tabs/tabs';
 
 
 interface Slide {
@@ -17,7 +18,7 @@ export class TutorialPage {
   slides: Slide[];
   showSkip = true;
 
-  constructor(private nav: NavController, private menu: MenuController) {
+  constructor(public navCtrl: NavController, public menu: MenuController) {
     this.slides = [
       {
         title: 'Welcome to <b>ICA</b>',
@@ -38,7 +39,7 @@ export class TutorialPage {
   }
 
   startApp() {
-    this.nav.push(TabsPage);
+    this.navCtrl.push(TabsPage);
   }
 
   onSlideChangeStart(slider) {

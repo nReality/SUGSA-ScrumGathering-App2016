@@ -1,9 +1,11 @@
-import {Component, ViewChild} from '@angular/core';
-import {App, Page, Modal, Alert, NavController, ItemSliding, List} from 'ionic-angular';
-import {ConferenceData} from '../../providers/conference-data';
-import {UserData} from '../../providers/user-data';
-import {ScheduleFilterPage} from '../schedule-filter/schedule-filter';
-import {SessionDetailPage} from '../session-detail/session-detail';
+import { Component, ViewChild } from '@angular/core';
+
+import { AlertController, App, ItemSliding, List, ModalController, NavController } from 'ionic-angular';
+
+import { ConferenceData } from '../../providers/conference-data';
+import { ScheduleFilterPage } from '../schedule-filter/schedule-filter';
+import { SessionDetailPage } from '../session-detail/session-detail';
+import { UserData } from '../../providers/user-data';
 
 
 @Component({
@@ -27,10 +29,12 @@ export class SchedulePage {
   flatGroups = [];
 
   constructor(
-    private app: App,
-    private nav: NavController,
-    private confData: ConferenceData,
-    private user: UserData
+    public alertCtrl: AlertController,
+    public app: App,
+    public modalCtrl: ModalController,
+    public navCtrl: NavController,
+    public confData: ConferenceData,
+    public user: UserData
   ) {
 
     this.confData.data.locations.forEach(locationName => {
@@ -86,10 +90,10 @@ export class SchedulePage {
   }
 
   presentFilter() {
-    let modal = Modal.create(ScheduleFilterPage, this.excludeTracks);
-    this.nav.present(modal);
+    let modal = this.modalCtrl.create(ScheduleFilterPage, this.excludeTracks);
+    modal.present();
 
-    modal.onDismiss((data: any[]) => {
+    modal.onDidDismiss((data: any[]) => {
       if (data) {
         this.excludeTracks = data;
         this.updateSchedule();
@@ -101,7 +105,7 @@ export class SchedulePage {
   goToSessionDetail(sessionData) {
     // go to the session detail page
     // and pass in the session data
-    this.nav.push(SessionDetailPage, sessionData);
+    this.navCtrl.push(SessionDetailPage, sessionData);
   }
 
   addFavorite(slidingItem: ItemSliding, sessionData) {
@@ -115,7 +119,7 @@ export class SchedulePage {
       this.user.addFavorite(sessionData.name);
 
       // create an alert instance
-      let alert = Alert.create({
+      let alert = this.alertCtrl.create({
         title: 'Favorite Added',
         buttons: [{
           text: 'OK',
@@ -126,13 +130,13 @@ export class SchedulePage {
         }]
       });
       // now present the alert on top of all other content
-      this.nav.present(alert);
+      alert.present();
     }
 
   }
 
   removeFavorite(slidingItem: ItemSliding, sessionData, title) {
-    let alert = Alert.create({
+    let alert = this.alertCtrl.create({
       title: title,
       message: 'Would you like to remove this session from your favorites?',
       buttons: [
@@ -158,7 +162,7 @@ export class SchedulePage {
       ]
     });
     // now present the alert on top of all other content
-    this.nav.present(alert);
+    alert.present();
   }
 
   locationNoSpaces(location){
