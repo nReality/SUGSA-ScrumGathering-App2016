@@ -1,7 +1,9 @@
-import {Component} from '@angular/core';
-import {NavController} from 'ionic-angular';
-import {TabsPage} from '../tabs/tabs';
-import {UserData} from '../../providers/user-data';
+import { Component } from '@angular/core';
+
+import { NavController } from 'ionic-angular';
+
+import { TabsPage } from '../tabs/tabs';
+import { UserData } from '../../providers/user-data';
 
 
 @Component({
@@ -11,14 +13,14 @@ export class SignupPage {
   signup: {username?: string, password?: string} = {};
   submitted = false;
 
-  constructor(private nav: NavController, private userData: UserData) {}
+  constructor(public navCtrl: NavController, public userData: UserData) {}
 
   onSignup(form) {
     this.submitted = true;
 
     if (form.valid) {
       this.userData.signup(this.signup.username);
-      this.nav.push(TabsPage);
+      this.navCtrl.push(TabsPage);
     }
   }
 }

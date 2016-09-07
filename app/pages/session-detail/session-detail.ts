@@ -1,5 +1,5 @@
 import {Component, Input, Output, OnInit, EventEmitter} from '@angular/core';
-import {NavParams, Storage, LocalStorage, Alert, NavController} from 'ionic-angular';
+import {NavParams, Storage, LocalStorage, Alert, NavController, AlertController} from 'ionic-angular';
 import {SpeakerDetailPage} from '../speaker-detail/speaker-detail';
 import {Device} from 'ionic-native';
 import { Star } from './star';
@@ -12,6 +12,7 @@ import * as firebase from 'firebase';
   directives: [Star]
 })
 export class SessionDetailPage {
+  alert: Alert;
   session: any;
   stars: number[] = [1,2,3,4,5];
   comment: string = "";
@@ -23,7 +24,7 @@ export class SessionDetailPage {
   @Output() rate = new EventEmitter();
   _rating = this.rating;
 
-  constructor(private navParams: NavParams, nav: NavController, private tweetShare: TweetShare) {
+  constructor(public alertCtrl: AlertController, private navParams: NavParams, nav: NavController, private tweetShare: TweetShare) {
     this.tweetShare = tweetShare;
     this.session = navParams.data;
     this.nav = nav;
@@ -61,13 +62,13 @@ export class SessionDetailPage {
   }
 
   showSuccess(){
-    let postMessage = Alert.create({
+    let alert = this.alertCtrl.create({
       title: 'Thank you!',
       message: 'Your feedback has been received.',
       buttons: ['OK']
     });
 
-    this.nav.present(postMessage);
+    alert.present();
   }
 
   goToSpeakerDetail(speakerName: string) {
