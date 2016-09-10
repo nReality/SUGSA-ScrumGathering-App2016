@@ -29,21 +29,10 @@ class ConferenceApp {
   @ViewChild(Nav) nav: Nav;
 
   // List of pages that can be navigated to from the left menu
-  // the left menu only works after login
-  // the login page disables the left menu
   appPages: PageObj[] = [
     { title: 'Schedule', component: TabsPage, icon: 'calendar' },
     { title: 'Speakers', component: TabsPage, index: 1, icon: 'contacts' },
     { title: 'About', component: TabsPage, index: 2, icon: 'information-circle' },
-    { title: 'About', component: TabsPage, index: 3, icon: 'information-circle' },
-  ];
-  loggedInPages: PageObj[] = [
-    { title: 'Account', component: AccountPage, icon: 'person' },
-    { title: 'Logout', component: TabsPage, icon: 'log-out' }
-  ];
-  loggedOutPages: PageObj[] = [
-    { title: 'Login', component: LoginPage, icon: 'log-in' },
-    { title: 'Signup', component: SignupPage, icon: 'person-add' }
   ];
   rootPage: any = TabsPage;
 
@@ -72,12 +61,9 @@ class ConferenceApp {
     // load the conference data
     confData.load();
 
-    // decide which menu items should be hidden by current login status stored in local storage
-    this.userData.hasLoggedIn().then((hasLoggedIn) => {
-      this.enableMenu(hasLoggedIn === 'true');
-    });
 
-    this.listenToLoginEvents();
+    this.menu.enable(true, 'mainmenu');
+
   }
 
   openPage(page: PageObj) {
@@ -91,32 +77,8 @@ class ConferenceApp {
       this.nav.setRoot(page.component);
     }
 
-    if (page.title === 'Logout') {
-      // Give the menu time to close before changing to logged out
-      setTimeout(() => {
-        this.userData.logout();
-      }, 1000);
-    }
   }
 
-  listenToLoginEvents() {
-    this.events.subscribe('user:login', () => {
-      this.enableMenu(true);
-    });
-
-    this.events.subscribe('user:signup', () => {
-      this.enableMenu(true);
-    });
-
-    this.events.subscribe('user:logout', () => {
-      this.enableMenu(false);
-    });
-  }
-
-  enableMenu(loggedIn) {
-    this.menu.enable(loggedIn, 'loggedInMenu');
-    this.menu.enable(!loggedIn, 'loggedOutMenu');
-  }
 }
 
 
