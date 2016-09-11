@@ -1,17 +1,5 @@
 <ion-header>
   <ion-navbar class="nav-no-border">
-
-    <!--
-    <ion-segment [(ngModel)]="segment" (ionChange)="updateSchedule()">
-      <ion-segment-button value="all">
-        All
-      </ion-segment-button>
-      <ion-segment-button value="favorites">
-        Favorites
-      </ion-segment-button>
-    </ion-segment>
--->
-
     <button menuToggle>
     <ion-icon name="menu"></ion-icon>
   </button>
@@ -19,11 +7,13 @@
     <ion-searchbar primary [(ngModel)]="queryText" (ionInput)="updateSchedule()" placeholder="Search program schedule">
     </ion-searchbar>
     <ion-buttons end>
-      <!--These filters were not really used
-      <button (click)="presentFilter()">
-        <ion-icon ios="ios-options-outline" md="md-options"></ion-icon>
+
+      <button (click)="toggleFavourites()" *ngIf="segment === 'all'">
+        <ion-icon name="star-outline"></ion-icon>
       </button>
-    -->
+      <button (click)="toggleFavourites()" *ngIf="segment !== 'all'">
+        <ion-icon name="star"></ion-icon>
+      </button>
     </ion-buttons>
   </ion-navbar>
 
@@ -65,11 +55,11 @@
               <ion-row style="padding:0">
                 <ion-col style="padding:0;max-width: 1%;" width-10>
                   <button *ngIf="isFavourite(session)" [color]="session.location" style="height:35px; width:35px" favorite (click)="removeFavorite(session)">
-        <ion-icon  name="star" ></ion-icon>
-      </button>
+                    <ion-icon  name="star" ></ion-icon>
+                  </button>
                   <button *ngIf="!isFavourite(session)" [color]="session.location" style="height:35px; width:35px" favorite (click)="addFavorite(session)">
-<ion-icon  name="star-outline" ></ion-icon>
-</button>
+                    <ion-icon  name="star-outline" ></ion-icon>
+                  </button>
 
 
 

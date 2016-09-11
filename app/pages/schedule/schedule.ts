@@ -46,6 +46,15 @@ export class SchedulePage {
     });
 
   }
+
+  toggleFavourites(){
+    if (this.segment == "all")
+      this.segment= "favorites";
+    else
+      this.segment = "all"
+    this.updateSchedule();
+  }
+
   toggleLocation(locationName){
     this.excludeLocations = [];
     this.locations.forEach(location => {
