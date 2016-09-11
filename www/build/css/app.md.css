@@ -14313,24 +14313,24 @@ button.scheduletogglebutton {
   margin: 0; }
 
 .schedule ion-item-sliding[location=ionic] ion-label {
-  border-left: 4px solid #1a8fae;
-  padding-left: 10px; }
+  border-left: 0px solid #1a8fae;
+  padding-left: 0px; }
 
 .schedule ion-item-sliding[location=room1] ion-label {
-  border-left: 4px solid #1a8fae;
-  padding-left: 10px; }
+  border-left: 0px solid #1a8fae;
+  padding-left: 0px; }
 
 .schedule ion-item-sliding[location=socialarea] ion-label {
-  border-left: 4px solid #ef7978;
-  padding-left: 10px; }
+  border-left: 0px solid #ef7978;
+  padding-left: 0px; }
 
 .schedule ion-item-sliding[location=room2] ion-label {
-  border-left: 4px solid #ffb366;
-  padding-left: 10px; }
+  border-left: 0px solid #ffb366;
+  padding-left: 0px; }
 
 .schedule ion-item-sliding[location=room3] ion-label {
-  border-left: 4px solid #84e184;
-  padding-left: 10px; }
+  border-left: 0px solid #84e184;
+  padding-left: 0px; }
 
 .schedule ion-item {
   padding: 0px; }
