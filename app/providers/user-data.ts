@@ -16,7 +16,9 @@ export class UserData {
   }
 
   addFavorite(sessionName) {
-    this._favorites.push(sessionName);
+    if (!this.hasFavorite(sessionName)){
+        this._favorites.push(sessionName);
+    }
   }
 
   removeFavorite(sessionName) {

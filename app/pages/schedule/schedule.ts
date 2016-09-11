@@ -108,13 +108,15 @@ export class SchedulePage {
     this.navCtrl.push(SessionDetailPage, sessionData);
   }
 
-  markAsFavorite(sessionData) {
-
-    sessionData.isFavourite = true;
+  isFavourite(sessionData){
+    return this.user.hasFavorite(sessionData.name);
+  }
+  addFavorite(sessionData) {
+    this.user.addFavorite(sessionData.name);
   }
 
-  markAsNotFavorite(sessionData) {
-    sessionData.isFavourite = false;
+  removeFavorite(sessionData) {
+    this.user.removeFavorite(sessionData.name);
   }
 
   locationNoSpaces(location){

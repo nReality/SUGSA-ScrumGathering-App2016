@@ -64,10 +64,10 @@
             <ion-grid style="padding:0">
               <ion-row style="padding:0">
                 <ion-col style="padding:0;max-width: 1%;" width-10>
-                  <button *ngIf="session.isFavourite != true" [color]="session.location" style="height:35px; width:35px" favorite (click)="markAsFavorite(session)">
+                  <button *ngIf="isFavourite(session)" [color]="session.location" style="height:35px; width:35px" favorite (click)="removeFavorite(session)">
         <ion-icon  name="star" ></ion-icon>
       </button>
-                  <button *ngIf="session.isFavourite == true" [color]="session.location" style="height:35px; width:35px" favorite (click)="markAsNotFavorite(session)">
+                  <button *ngIf="!isFavourite(session)" [color]="session.location" style="height:35px; width:35px" favorite (click)="addFavorite(session)">
 <ion-icon  name="star-outline" ></ion-icon>
 </button>
 
