@@ -1,7 +1,7 @@
 <ion-header>
   <ion-navbar class="nav-no-border">
 
-<!--
+    <!--
     <ion-segment [(ngModel)]="segment" (ionChange)="updateSchedule()">
       <ion-segment-button value="all">
         All
@@ -12,16 +12,12 @@
     </ion-segment>
 -->
 
-  <button menuToggle>
+    <button menuToggle>
     <ion-icon name="menu"></ion-icon>
   </button>
 
-<ion-searchbar primary
-               [(ngModel)]="queryText"
-               (ionInput)="updateSchedule()"
-               placeholder="Search program schedule"
-               >
-</ion-searchbar>
+    <ion-searchbar primary [(ngModel)]="queryText" (ionInput)="updateSchedule()" placeholder="Search program schedule">
+    </ion-searchbar>
     <ion-buttons end>
       <!--These filters were not really used
       <button (click)="presentFilter()">
@@ -49,9 +45,9 @@
 <ion-content class="schedule">
 
   <ion-list #scheduleList>
-        <ion-item no-lines *ngFor="let group of flatGroups" [hidden]="group.hide">
-        <ion-item-content class="time-group">
-<!--
+    <ion-item no-lines *ngFor="let group of flatGroups" [hidden]="group.hide">
+      <ion-item-content class="time-group">
+        <!--
         <ion-item-divider sticky class="date-group">
           {{group.scheduleHeader}}
         </ion-item-divider>
@@ -66,14 +62,22 @@
           <ion-item>
 
             <ion-grid style="padding:0">
-    <ion-row style="padding:0">
-      <ion-col style="padding:0;max-width: 1%;" width-10>
-        <button [color]="session.location" style="height:35px; width:35px" favorite (click)="addFavorite(slidingItem, session)" >
+              <ion-row style="padding:0">
+                <ion-col style="padding:0;max-width: 1%;" width-10>
+                  <button *ngIf="session.isFavourite != true" [color]="session.location" style="height:35px; width:35px" favorite (click)="markAsFavorite(session)">
         <ion-icon  name="star" ></ion-icon>
       </button>
-    </ion-col>
-        <ion-col  style="padding:0;padding-left:25px;" width-90>
-          <button text-wrap ion-item (click)="goToSessionDetail(session)">
+                  <button *ngIf="session.isFavourite == true" [color]="session.location" style="height:35px; width:35px" favorite (click)="markAsNotFavorite(session)">
+<ion-icon  name="star-outline" ></ion-icon>
+</button>
+
+
+
+
+
+                </ion-col>
+                <ion-col style="padding:0;padding-left:25px;" width-90>
+                  <button text-wrap ion-item (click)="goToSessionDetail(session)">
 
                     <h3>{{session.name}}</h3>
                     <p>
@@ -82,24 +86,15 @@
                     </p>
                   </button>
                 </ion-col>
-    </ion-row>
-  </ion-grid>
+              </ion-row>
+            </ion-grid>
 
 
-
-          <ion-item-options>
-            <button favorite (click)="addFavorite(slidingItem, session)" *ngIf="segment === 'all'">
-              Favorite
-            </button>
-            <button danger (click)="removeFavorite(slidingItem, session, 'Remove Favorite')" *ngIf="segment === 'favorites'">
-              Remove
-            </button>
-          </ion-item-options>
-        </ion-item>
+          </ion-item>
         </ion-item-sliding>
-</ion-item-content>
-      </ion-item>
-<!--
+      </ion-item-content>
+    </ion-item>
+    <!--
     <ion-list-header [hidden]="day.shownSessions > 0">
         No Sessions Found.
     </ion-list-header>
