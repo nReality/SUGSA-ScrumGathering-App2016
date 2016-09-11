@@ -61,13 +61,29 @@
 
         <ion-item-sliding *ngFor="let session of group.sessions" #slidingItem [attr.location]="locationNoSpaces(session.location) | lowercase" [hidden]="session.hide">
 
-          <button text-wrap  ion-item (click)="goToSessionDetail(session)">
-            <h3>{{session.name}}</h3>
-            <p>
-              <span  *ngIf="session.speakerNames">{{session.speakerNames}} in</span>
-              {{session.location}}
-            </p>
-          </button>
+          <ion-item>
+
+            <ion-grid style="padding:0">
+    <ion-row style="padding:0">
+      <ion-col style="padding:0;max-width: 1%;" width-10>
+        <button style="height:35px; width:35px" favorite (click)="addFavorite(slidingItem, session)" >
+        <ion-icon  name="star" ></ion-icon>
+      </button>
+    </ion-col>
+        <ion-col  style="padding:0;padding-left:25px;" width-90>
+          <button text-wrap ion-item (click)="goToSessionDetail(session)">
+
+                    <h3>{{session.name}}</h3>
+                    <p>
+                      <span  *ngIf="session.speakerNames">{{session.speakerNames}} in</span>
+                      {{session.location}}
+                    </p>
+                  </button>
+                </ion-col>
+    </ion-row>
+  </ion-grid>
+
+
 
           <ion-item-options>
             <button favorite (click)="addFavorite(slidingItem, session)" *ngIf="segment === 'all'">
@@ -77,7 +93,7 @@
               Remove
             </button>
           </ion-item-options>
-
+        </ion-item>
         </ion-item-sliding>
 </ion-item-content>
       </ion-item>

@@ -52,8 +52,8 @@ $categories: (
 .schedule {
   @each $location, $value in auxiliary-categories() {
    ion-item-sliding[location=#{$location}] ion-label {
-     border-left: 4px solid $value;
-     padding-left: 10px;
+     border-left: 0px solid $value;
+     padding-left: 0px;
    }
   }
 
