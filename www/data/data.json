@@ -8,7 +8,7 @@
           "sessions": [
             {
               "name": "Lean Coffee",
-              "location": "Indaba Tree",
+              "location": "Social Area",
               "timeStart": "7:30 am",
               "timeEnd": "8:30 am",
               "tracks": [
@@ -22,7 +22,7 @@
           "sessions": [
             {
               "name": "Registration",
-              "location": "Indaba Tree",
+              "location": "Social Area",
               "timeStart": "8:00 am",
               "timeEnd": "9:00 am",
               "tracks": [
@@ -36,7 +36,7 @@
           "sessions": [
             {
               "name": "Welcome to Scrum Gathering 2016",
-              "location": "Ballroom",
+              "location": "Room1",
               "description": "For more information about the Scrum Gathering conference and our sponsors, please see the about page.",
               "speakerNames": [
                 "Justin Kotze"
@@ -54,7 +54,7 @@
           "sessions": [
             {
               "name": "Goldilocks at work – getting it just right",
-              "location": "Ballroom",
+              "location": "Room1",
               "description": "Goldilocks at work – getting it just right",
               "speakerNames": [
                 "Danie Roux"
@@ -72,7 +72,7 @@
           "sessions": [
             {
               "name": "Tea and move",
-              "location": "Indaba Tree",
+              "location": "Social Area",
               "description": "Remember to visit our sponsors' webpages.",
               "timeStart": "10:30 am",
               "timeEnd": "10:45 am",
@@ -88,7 +88,7 @@
             {
               "name": "Agile Economics: Budgets, Contracts, Capitalization",
               "description": "How much does one story point cost? Is Sprint 0 an expense or an asset? Can you run an Agile project with a fixed-cost contract? Agile challenges the existing approach to financial aspects of running projects: i.e. budgeting, forecasting, financial planning and vendor contracts.\nApplying new financial models becomes increasingly important for larger organizations adopting Agile. These organizations need to maintain transparent financial governance and reporting while they are going through an Agile transformation. Shareholders would not be too excited about messy annual financial statements.\nJoin me if you would like to know more about Agile economics. No financial degree is required and all the content explained in plain English with plenty of pictures!",
-              "location": "Room 1",
+              "location": "Room1",
               "speakerNames": [
                 "Pavel Dabrytski"
               ],
@@ -101,7 +101,7 @@
             {
               "name": "Taming the Beast – Continuous Evolution keeps products and teams alive",
               "description": "Why do we care that our 10 year old code base is a large monolith? Team Structure, Release Planning and system architecture are fundamentally coupled. The monolith results in feature teams tripping over each other and forces us to synchronise our releases. Technical Debt grows like mushrooms in a forest as team members struggle to understand where to put things and separation of concerns is violated on a daily basis.\nIn this talk I want to take the audience through a journey we are currently on to put in practice the “Theory of Holes” (when youre in a hole, stop digging). By incrementally breaking pieces of the system into their own separately deployable services, we are improving quality and productivity of our dev teams while also making the architecture flexible in ways that give our business interesting opportunities for structuring the product offering.",
-              "location": "Room 2",
+              "location": "Room2",
               "speakerNames": [
                 "Nigel Basel"
               ],
@@ -114,7 +114,7 @@
             {
               "name": "The four bears in their Agile Home",
               "description": "Once upon a time, there were four bears living in their home who decided to take the Agile principles home and make it their own. With the use of a simple Kanban board, the five and three-year old, along with the parents started running with this.  We are now at a place where the children have started to grasp the concepts of pair programming, limiting work in progress as well the very basics of lean.  The aim is to share how we started, where we are now, three years later as an Agile family in our journey, and the improvements we constantly try to implement. Through this, other people joining will be able to see how to get started with Agile in their homes. My kids will show (though not present, but with video clips) how they solve their common problems using retrospectives and how they use Kanban specifically for homework tasks and assignments.",
-              "location": "Room 3",
+              "location": "Room3",
               "speakerNames": [
                 "Eloise Pelser"
               ],
@@ -131,7 +131,7 @@
           "sessions": [
             {
               "name": "Tea and move",
-              "location": "Indaba Tree",
+              "location": "Social Area",
               "description": "Remember to visit our sponsors' webpages.",
               "timeStart": "11:30 am",
               "timeEnd": "11:45 am",
@@ -146,7 +146,7 @@
           "sessions": [
             {
               "name": "How I lost my job by implementing Agile",
-              "location": "Room 1",
+              "location": "Room1",
               "description": "It is often said that organizations that implemented agile need less management. In this personal story (former) manager Jan Jaap Cannegieter tells why and how he implemented Agile, how his role got smaller and smaller along the way and how it affected him. At the end he choose to resign and he left the organization.\nJan Jaap used to be Vice President of SYSQA B.V., a consultancy organization specialized in requirements, Quality Assurance, Testing and Process Improvement in The Netherlands. He was manager of a team of senior consultants, they were responsible for product development, coaching, training and knowledge management. And everything was fine. Until Jan Jaap got a wakeup call and since that moment Jan Jaap understood things had to change; Agile practices like self-management and less upfront planning, had to be implemented. Jan Jaap’s struggle to convince his team and the organization and he will describe their search for a new, more agile way of working and leadership in self-management. But along the way Jan Jaap’s function became unnecessary and he also lost the connection with the rest of the organization. In the end Jan Jaap resigned and left the organization. So by implementing agile Jan Jaap killed his own job.",
               "speakerNames": [
                 "Jan Jaap Cannegieter"
@@ -159,7 +159,7 @@
             },
             {
               "name": "DevOps… Avoid Stupid… Unleash Awesome",
-              "location": "Room 2",
+              "location": "Room2",
               "description": "In a world filled with Three Letter Acronyms (TLA) and Extended TLA, people hear the word DevOps and either slink away in fear or shout that this is madness. DevOps, the unification of culture, process and tools has been used for many years to give software engineering teams and their organisations the needed tools, practices and unwritten rules that help them Avoid Stupid while Making Awesome. This talk will unpack the 'dark art' of DevOps (without going into in-depth technical details). \nThe key message from this talk is to highlight that DevOps and Agile are indeed aligned, that accepted frameworks (i.e. Scrum) are absolutely vital in delivering work from a DevOps team and that we desperately need to adopt new ways of working (and not just say we are).",
               "speakerNames": [
                 "Renesh Moodley"
@@ -172,7 +172,7 @@
             },
             {
               "name": "We are all software designers!",
-              "location": "Room 3",
+              "location": "Room3",
               "description": "Although software engineering has become crucial to our modern society, it is still a new and often misunderstood discipline.\n\nOne of the most harmful misconceptions is that programming and testing are similar activities to construction in mature engineering disciplines, performed after the design has been completed.\n\nIn this talk I will give the audience a fresh look at software engineering, inspired by a 1992 article by Jack W. Reeves: “What is design?” I will show how software product development is a creative, collaborative process involving the creative energy of all the role players in a team (including UX, BA, Dev, Test, Ops).\n\nFinally I will revisit ideas from XP (Extreme Programming) and just show how cool software design can be when we do it together as a team.",
               "speakerNames": [
                 "Jacques de Vos"
@@ -190,7 +190,7 @@
           "sessions": [
             {
               "name": "Lunch and Discussions (ends at 1:45 pm)",
-              "location": "Indaba Tree",
+              "location": "Social Area",
               "description": "Remember to visit our sponsors' webpages.",
               "timeStart": "12:30 pm",
               "timeEnd": "1:45 pm",
@@ -205,7 +205,7 @@
           "sessions": [
             {
               "name": "Write your first Agile Contract",
-              "location": "Room 1",
+              "location": "Room1",
               "description": "Many of us are familiar with the Agile value from the manifesto \"Customer Collaboration over Contract Negotiation\", yet many agile teams and organizations still struggle with their traditional contracts and for them, contracts put a drag on their path towards agility.\nThis workshop will take you through a journey which starts by digging deep in the issues and pains that we have in traditional contracts, and then takes you to explore different solutions to finally, fully understand and put those solutions to practice using a real case study.",
               "speakerNames": [
                 "Mohamed Amr Abdelkader Abdelfattah"
@@ -218,7 +218,7 @@
             },
             {
               "name": "See what you mean: Visual thinking for Agile teams",
-              "location": "Room 2",
+              "location": "Room2",
               "description": "We’ve all heard the quote “A picture is worth a thousand words.” What if we told you that expressing your ideas visually, as well as verbally, improves the likelihood that your team will be able to understand and recall your message? A picture is important because it has a way of showing ideas that would have remained hidden if you hadn’t picked up a pen. But a good picture doesn’t eliminate the need for words – it just reduces the number of words we use, so that the remaining ones are the most important… \n\nWhy should you and your teams care about visual thinking? Visual thinking: \n- Helps teams to see the big picture\n- Helps teams to learn faster and more effectively\n- Helps teams tell stories and make sure that everyone is on the same page\n- Uses all four learning modalities: visual, auditory, kinesthetic and tactile (read/ write)\n- Increases individual engagement in conversations because people engage with their whole body, not just their minds \n- Helps teams think at a creative, strategic and tactical level\n- Reduces meeting times by 24% because people are focused on the same conversation\n- Serves as a visual record of a conversation (perfect to supplement user stories and acceptance criteria)\n\nThis session is for anyone who needs to imagine, invent, analyze, come up with solutions, ideate, solve problems and build up their confidence to pick up a pen. \n\nLuckily, you don’t have to be an artist to think visually! Join us as we create a visual vocabulary that you can practically apply at work during facilitation sessions, whiteboard discussions, retrospectives, or in meetings!",
               "speakerNames": [
                 "Angie Doyle",
@@ -232,7 +232,7 @@
             },
             {
               "name": "The Collaborative Team",
-              "location": "Room 3",
+              "location": "Room3",
               "description": "We hear about Self-Organizing teams all the time, but I wonder how many teams are self-organizing? Is yours? Is collaborative team work just a concept? In this talk will will explain just what a self-organizing team is and how to help your team get there. From team agreements, to team disagreements this talk will walk you through exercises to use to build trust and collaboration on any team.",
               "speakerNames": [
                 "Karen Greaves",
@@ -251,7 +251,7 @@
           "sessions": [
             {
               "name": "Tea and move",
-              "location": "Indaba Tree",
+              "location": "Social Area",
               "description": "Remember to visit our sponsors' webpages.",
               "timeStart": "3:15 pm",
               "timeEnd": "3:30 pm",
@@ -266,7 +266,7 @@
           "sessions": [
             {
               "name": "Let’s talk… Testability!",
-              "location": "Room 1",
+              "location": "Room1",
               "description": "‘Inspect and adapt’ are words I have heard frequently from coaches and aficionados, describing agile. \nAn interpretation of this is that there is implied feedback in the system. But what feedback is important, when is it important, how is it important and what can we do that might inhibit / enhance that feedback? How can testability play a role? \n\nIn this interactive workshop, we will play, build and test! \nThrough the use of 2 models – ‘Heuristics of Testability’ (Bach) and ‘Context-drivers that influence testability’ (Kedemo and Kelly), we will gain an understanding of the things we can do to improve feedback loops, through the enablement of testers and testing.",
               "speakerNames": [
                 "Louise Perold"
@@ -279,7 +279,7 @@
             },
             {
               "name": "Playing the Game of Thrones with PopcornFlow",
-              "location": "Room 2",
+              "location": "Room2",
               "description": "PopcornFlow enables teams and organisations to converge to success through options thinking and rapid experimentation.\nThis workshop will introduce the participants to the principles behind PopcornFlow and give them practical experience in using it to ascend to the Iron Throne that rules over the Seven Kingdoms of Westeros.",
               "speakerNames": [
                 "Austin Fagan",
@@ -293,7 +293,7 @@
             },
             {
               "name": "Take Responsibility and Live with Freedom, Power & Choice",
-              "location": "Room 3",
+              "location": "Room3",
               "description": "Are you stuck?  Have a problem you just don’t know how to resolve? Need to find some clarity?  We all go through the same process when beset by problems.  Most of us just aren’t aware of it and so don’t know how to get out of it.  Let’s have a conversation about taking ownership of your problem and finding real solutions. Come learn about the built-in process going on in your head and how you can leverage that to owning what you want, living with freedom, power and choice.",
               "speakerNames": [
                 "Mike Kaufman",
@@ -335,7 +335,7 @@
           "sessions": [
             {
               "name": "Lean Coffee",
-              "location": "Indaba Tree",
+              "location": "Social Area",
               "timeStart": "7:30 am",
               "timeEnd": "8:30 am",
               "tracks": [
@@ -349,7 +349,7 @@
           "sessions": [
             {
               "name": "T.B.A",
-              "location": "Ballroom",
+              "location": "Room1",
               "description": "T.B.A",
               "speakerNames": [
                 "James Benson (Jim)"
@@ -367,7 +367,7 @@
           "sessions": [
             {
               "name": "Tea and move",
-              "location": "Indaba Tree",
+              "location": "Social Area",
               "description": "Remember to visit our sponsors' webpages.",
               "timeStart": "10:00 am",
               "timeEnd": "10:15 am",
@@ -383,7 +383,7 @@
             {
               "name": "Creative ways to resolve conflicts and increase understanding",
               "description": "Conflicts are an inevitable part of human existence. We can easily see them in our personal life, when we step into our offices on Monday morning and when we leave them on Friday evening, when we argue with our partners, watch political debates and when we try to understand news about global issues between social ideas, religions and nations. \n\nSome of those conflicts are extremely complex, hard to solve, lasting for years and causing tremendous issues for people involved. Majority of conflicts symptoms, that we encounter in our lives are extremely obvious, others aren't. Some easy to spot indicators include loud voices, angry words, hard feelings. You probably facilitate a meeting with all the above at least once a week. But conflicts can also be much more subtle - like a difference of opinion on the same subject, or two different parties, both with equal rights, competing for the same resources (money, time, developers, QA, business priorities). \n\nThere are a few methods to resolve a conflict situation that we usually apply. The most “famous” and widely used is a \"compromise\". Apparently we have to make compromises to live, pay taxes, move forward and deliver projects. I will try to prove using Theory of Constraints that in reality, compromise is a lose-lose situation and does not bring happiness to neither side of the conflict. The simplest case includes 2 people sharing a cake. One of them wants the whole cake the other wants to share it equally...you all know the feeling...\n\nFortunately, we don't have to compromise and we don't have to be constantly unhappy, even in the face of potentially impossible to solve situations that we face in our everyday lives. We can change the way we think about conflicts, from disruptive and unwanted to creative an welcome. \n\nIn this session I will consider multiple practical methods for conflict resolution. We will concentrate on the Theory of Constraints, Evaporating Clouds and Thinking \nProcesses. We will consider some real life examples, visualize both sides of the conflict and try to find a better overall solution than compromise. Our goal is to show that every situation can have a win-win solution. \n\nAs a result, the session should practically help the participants to look at conflict as an opportunity to find a creative win-win output that was impossible to see earlier. We will consider conflicts in multiple domains: work-life balance, agile teams and customer-agency scenarios. Real life examples, theory behind the solution and practical use of techniques should provide real value and useful knowledge that can be used in real life. ",
-              "location": "Room 1",
+              "location": "Room1",
               "speakerNames": [
                 "Pawel Kaminski"
               ],
@@ -396,7 +396,7 @@
             {
               "name": "Standup Poker: How We Hacked Our Daily Stand-Up & Our Teams Mindset!",
               "description": "An experiment that turned into Standup Poker revolutionized our teams daily standups and every aspect of their agile journey and took our team to next level of Awesome!",
-              "location": "Room 2",
+              "location": "Room2",
               "speakerNames": [
                 "Kalpesh Shah"
               ],
@@ -409,7 +409,7 @@
             {
               "name": "Limitless Agility (or how to blow your organisation’s frontal cortex in a good way!)",
               "description": "More and more organisations are moving towards agile frameworks, looking to increase speed of delivery, become more responsive to change and attain a higher level of quality.  All of these reasons are sound on the surface but without an underlying shift in mindset their experience of what agility can offer will be quite limited.  This capped and mostly mechanical implementation of agile methods will get us from Point-A to Point-B quicker, but true agility will have us looking for a better Point-B.  \n\nTo transform into an organisation that is relentless in finding that better Point-B we need to think differently, lead differently, build differently and learn differently.\n\nLimitless Agility is an examination of how to maximise our chances of a successful agile adoption through changing how we lead, learn, unlearn and relearn, and how we go about reorganising our organisations to support and augment that adoption.",
-              "location": "Room 3",
+              "location": "Room3",
               "speakerNames": [
                 "Stephen de Villiers Graaff"
               ],
@@ -427,7 +427,7 @@
             {
               "name": "Tea and move",
               "description": "Remember to visit our sponsors' webpages.",
-              "location": "Indaba Tree",
+              "location": "Social Area",
               "timeStart": "11:00 am",
               "timeEnd": "11:30 am",
               "tracks": [
@@ -437,7 +437,7 @@
             {
               "name": "Agile Transformation from a traditional banking environment to mirror that of a modern day tech company",
               "description": "This is a story from a crazy goal that exco had \"become agile' to what we did. Becoming agile is not as simple as 1,2,3 and we are unique because most of our teams are not software development teams. Parts worked very well and others that really did not pan out. Following agile sprite of transparency. We want o share our journey.",
-              "location": "Room 1",
+              "location": "Room1",
               "speakerNames": [
                 "Seshyn Munsamy",
                 "Elizabeth-Anne Marinakis"
@@ -451,7 +451,7 @@
             {
               "name": "How to sell hamburgers @ 3 % and make huge profits",
               "description": "Selling Hamburgers at 3 % and Still make a huge profit - is about making SCRUM work in every day life. \nAn alternative approach in re-itterating SCRUM values in a FUN way to get TRUE business value.",
-              "location": "Room 2",
+              "location": "Room2",
               "speakerNames": [
                 "Henk Viljoen"
               ],
@@ -464,7 +464,7 @@
             {
               "name": "*T.B.A*",
               "description": "*T.B.A*",
-              "location": "Room 3",
+              "location": "Room3",
               "speakerNames": [
                 "*T.B.A*"
               ],
@@ -481,7 +481,7 @@
           "sessions": [
             {
               "name": "Productive new team members: a possibility?",
-              "location": "Room 1",
+              "location": "Room1",
               "description": "The team has settled down and is consistently producing good quality work and meeting their commitment, then you receive a message from HR that a new staff member is starting and is joining your team. We will cover various techniques that you can use to make the integration of this new team member as smooth as possible for the existing team and the new member. A case study will also be included to show how we have integrated team members for several years.",
               "speakerNames": [
                 "Alain King"
@@ -494,7 +494,7 @@
             },
             {
               "name": "Technical Debt Counselling",
-              "location": "Room 2",
+              "location": "Room2",
               "description": "Do your software systems take longer and longer to change as they age? Do these changes seem to introduce more and more bugs and business disruptions? Do your developers perpetually want to rewrite your applications, even though you've already funded a rewrite or two? \n\nTechnical debt is a poorly-understood concept that can have major impacts on business continuity, customer satisfaction, and developer happiness. However if it is managed correctly, it can become a competitive advantage which allows you to release products faster, and start earning a higher return on investment quicker. \n\nCome join me a on guided tour through the lifecycle of a software system, during which we'll learn about what causes technical debt, and how we can manage it effectively to make changes quicker and less risky, delight our customers more, and keep our developers happy.",
               "speakerNames": [
                 "Joshua Lewis"
@@ -507,7 +507,7 @@
             },
             {
               "name": "Embracing Diversity… with a little help from Agility",
-              "location": "Room 3",
+              "location": "Room3",
               "description": "Diversity is much-praised for fostering healthier and more innovative workplaces. But whichever way you slice 'diversity', the majority of our teams reflect one demographic, and simply adding 'a diverse hire' does not magically produce these results. So are the claims true? If so, what else do we need to do?\n\nHaving spent time training and placing coders from a fascinating variety of backgrounds, our company has had to get to grips with the realities of integrating teams.\nThis talk looks at different kinds of diversity, and explores the link with quality and innovation. We also investigate some of the unconscious biases and infrastructure challenges that reinforce exclusion.\nWith collaboration at their heart, agile teams are best placed to promote inclusion. How can we extend agile practices to place conscious attention on creating connections and to build truly healthy, demographically representative teams?",
               "speakerNames": [
                 "Cara Turner"
@@ -525,7 +525,7 @@
           "sessions": [
             {
               "name": "Lunch and Discussions (ends at 1:45 pm)",
-              "location": "Indaba Tree",
+              "location": "Social Area",
               "description": "Remember to visit our sponsors' webpages.",
               "timeStart": "12:30 pm",
               "timeEnd": "1:45 pm",
@@ -540,7 +540,7 @@
           "sessions": [
             {
               "name": "All models are wrong, some are useful!",
-              "location": "Room 1",
+              "location": "Room1",
               "description": "The only true model of the Universe is the Universe itself, so any time you create an abstraction of that, the abstraction must be wrong! The true value of models is NOT to get it exactly, statistically, scientifically correct. The idea is to create an abstraction from which you can think better about the world or about a specific problem. \n\nIn this interactive workshop we will spend some time introducing models and then demonstrate how a model can be useful when trying to solve common problems experienced as individuals and in teams and organisations.",
               "speakerNames": [
                 "Barry Tandy",
@@ -554,7 +554,7 @@
             },
             {
               "name": "Facing challenging conversations with ease",
-              "location": "Room 2",
+              "location": "Room2",
               "description": "Put two or more human beings together and sooner or later at least one person will be unhappy about something. Perhaps it is a little thing like an irritating cellphone ringtone or a much bigger issue of a person who isn’t pulling their weight. A few people will confront the issue aggressively head on often creating a big upset, many will avoid the issue altogether allowing resentment to grow and spread, and just a few know how to have the challenging conversation that results in a mutual understanding and an agreed way forward. Where do you sit?\n\nCommunicating and clearing the air is a key element of building trust and respect which is fundamental to effective Agile environments. Once you have the tools for tackling difficult conversations they become much easier. Join us for this experiential workshop to learn and practise these tools in a safe and fun way.",
               "speakerNames": [
                 "Alison Gitelson"
@@ -567,7 +567,7 @@
             },
             {
               "name": "From Kickoff to Liftoff: Don’t Forget Context!",
-              "location": "Room 3",
+              "location": "Room3",
               "description": "Although a good Agile Charter has three components – Purpose, Alignment, and Context – we most often fail at building an awareness of context in our teams. Perhaps it's because we've taken the time to teach Product Owners a little bit about purpose, and Scrum Masters a little bit about alignment, and then we threw out all the Project Managers who understand context. (Ok, kidding about that. Don't throw out your Project Managers! Invite them to use those skills.)\n\nYour team needs to understand their context so that they recognize that they are one part of a complex adaptive system. Contextual awareness helps the team to make better product decisions as they will understand how their work fits into the greater whole.\n\nIn this very hands-on workshop we'll give you three concrete tools you can take home and use with your team to facilitate awareness of their context. You will use these tools to:\n\n* understand team boundaries and interactions with stakeholders and product partners\n* identify dependencies and seek commitment for them\n* identify opportunities, risks, and benefits through prospective analysis",
               "speakerNames": [
                 "Steve Holyer"
@@ -585,7 +585,7 @@
           "sessions": [
             {
               "name": "Tea and move",
-              "location": "Indaba Tree",
+              "location": "Social Area",
               "description": "Remember to visit our sponsors' webpages.",
               "timeStart": "3:15 pm",
               "timeEnd": "3:30 pm",
@@ -600,7 +600,7 @@
           "sessions": [
             {
               "name": "Do you have the courage to be agile?",
-              "location": "Ballroom",
+              "location": "Room1",
               "description": "Do you have the courage to be agile?",
               "speakerNames": [
                 "Gitte Klitgaard"
