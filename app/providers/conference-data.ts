@@ -78,6 +78,7 @@ export class ConferenceData {
     }
 
     if (session.location) {
+      session.locationNoSpaces = session.location.replace(/ /g, '');
       if (data.locations.indexOf(session.location) < 0) {
         data.locations.push(session.location);
       }
