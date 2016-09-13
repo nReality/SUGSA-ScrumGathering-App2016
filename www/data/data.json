@@ -36,7 +36,7 @@
           "sessions": [
             {
               "name": "Welcome to Scrum Gathering 2016",
-              "location": "room1",
+              "location": "room 1",
               "description": "For more information about the Scrum Gathering conference and our sponsors, please see the about page.",
               "speakerNames": [
                 "Justin Kotze"
@@ -54,7 +54,7 @@
           "sessions": [
             {
               "name": "Goldilocks at work – getting it just right",
-              "location": "room1",
+              "location": "room 1",
               "description": "Goldilocks at work – getting it just right",
               "speakerNames": [
                 "Danie Roux"
@@ -88,7 +88,7 @@
             {
               "name": "Agile Economics: Budgets, Contracts, Capitalization",
               "description": "How much does one story point cost? Is Sprint 0 an expense or an asset? Can you run an Agile project with a fixed-cost contract? Agile challenges the existing approach to financial aspects of running projects: i.e. budgeting, forecasting, financial planning and vendor contracts.\nApplying new financial models becomes increasingly important for larger organizations adopting Agile. These organizations need to maintain transparent financial governance and reporting while they are going through an Agile transformation. Shareholders would not be too excited about messy annual financial statements.\nJoin me if you would like to know more about Agile economics. No financial degree is required and all the content explained in plain English with plenty of pictures!",
-              "location": "room1",
+              "location": "room 1",
               "speakerNames": [
                 "Pavel Dabrytski"
               ],
@@ -146,7 +146,7 @@
           "sessions": [
             {
               "name": "How I lost my job by implementing Agile",
-              "location": "room1",
+              "location": "room 1",
               "description": "It is often said that organizations that implemented agile need less management. In this personal story (former) manager Jan Jaap Cannegieter tells why and how he implemented Agile, how his role got smaller and smaller along the way and how it affected him. At the end he choose to resign and he left the organization.\nJan Jaap used to be Vice President of SYSQA B.V., a consultancy organization specialized in requirements, Quality Assurance, Testing and Process Improvement in The Netherlands. He was manager of a team of senior consultants, they were responsible for product development, coaching, training and knowledge management. And everything was fine. Until Jan Jaap got a wakeup call and since that moment Jan Jaap understood things had to change; Agile practices like self-management and less upfront planning, had to be implemented. Jan Jaap’s struggle to convince his team and the organization and he will describe their search for a new, more agile way of working and leadership in self-management. But along the way Jan Jaap’s function became unnecessary and he also lost the connection with the rest of the organization. In the end Jan Jaap resigned and left the organization. So by implementing agile Jan Jaap killed his own job.",
               "speakerNames": [
                 "Jan Jaap Cannegieter"
@@ -205,7 +205,7 @@
           "sessions": [
             {
               "name": "Write your first Agile Contract",
-              "location": "room1",
+              "location": "room 1",
               "description": "Many of us are familiar with the Agile value from the manifesto \"Customer Collaboration over Contract Negotiation\", yet many agile teams and organizations still struggle with their traditional contracts and for them, contracts put a drag on their path towards agility.\nThis workshop will take you through a journey which starts by digging deep in the issues and pains that we have in traditional contracts, and then takes you to explore different solutions to finally, fully understand and put those solutions to practice using a real case study.",
               "speakerNames": [
                 "Mohamed Amr Abdelkader Abdelfattah"
@@ -266,7 +266,7 @@
           "sessions": [
             {
               "name": "Let’s talk… Testability!",
-              "location": "room1",
+              "location": "room 1",
               "description": "‘Inspect and adapt’ are words I have heard frequently from coaches and aficionados, describing agile. \nAn interpretation of this is that there is implied feedback in the system. But what feedback is important, when is it important, how is it important and what can we do that might inhibit / enhance that feedback? How can testability play a role? \n\nIn this interactive workshop, we will play, build and test! \nThrough the use of 2 models – ‘Heuristics of Testability’ (Bach) and ‘Context-drivers that influence testability’ (Kedemo and Kelly), we will gain an understanding of the things we can do to improve feedback loops, through the enablement of testers and testing.",
               "speakerNames": [
                 "Louise Perold"
@@ -349,7 +349,7 @@
           "sessions": [
             {
               "name": "T.B.A",
-              "location": "room1",
+              "location": "room 1",
               "description": "T.B.A",
               "speakerNames": [
                 "James Benson (Jim)"
@@ -383,7 +383,7 @@
             {
               "name": "Creative ways to resolve conflicts and increase understanding",
               "description": "Conflicts are an inevitable part of human existence. We can easily see them in our personal life, when we step into our offices on Monday morning and when we leave them on Friday evening, when we argue with our partners, watch political debates and when we try to understand news about global issues between social ideas, religions and nations. \n\nSome of those conflicts are extremely complex, hard to solve, lasting for years and causing tremendous issues for people involved. Majority of conflicts symptoms, that we encounter in our lives are extremely obvious, others aren't. Some easy to spot indicators include loud voices, angry words, hard feelings. You probably facilitate a meeting with all the above at least once a week. But conflicts can also be much more subtle - like a difference of opinion on the same subject, or two different parties, both with equal rights, competing for the same resources (money, time, developers, QA, business priorities). \n\nThere are a few methods to resolve a conflict situation that we usually apply. The most “famous” and widely used is a \"compromise\". Apparently we have to make compromises to live, pay taxes, move forward and deliver projects. I will try to prove using Theory of Constraints that in reality, compromise is a lose-lose situation and does not bring happiness to neither side of the conflict. The simplest case includes 2 people sharing a cake. One of them wants the whole cake the other wants to share it equally...you all know the feeling...\n\nFortunately, we don't have to compromise and we don't have to be constantly unhappy, even in the face of potentially impossible to solve situations that we face in our everyday lives. We can change the way we think about conflicts, from disruptive and unwanted to creative an welcome. \n\nIn this session I will consider multiple practical methods for conflict resolution. We will concentrate on the Theory of Constraints, Evaporating Clouds and Thinking \nProcesses. We will consider some real life examples, visualize both sides of the conflict and try to find a better overall solution than compromise. Our goal is to show that every situation can have a win-win solution. \n\nAs a result, the session should practically help the participants to look at conflict as an opportunity to find a creative win-win output that was impossible to see earlier. We will consider conflicts in multiple domains: work-life balance, agile teams and customer-agency scenarios. Real life examples, theory behind the solution and practical use of techniques should provide real value and useful knowledge that can be used in real life. ",
-              "location": "room1",
+              "location": "room 1",
               "speakerNames": [
                 "Pawel Kaminski"
               ],
@@ -437,7 +437,7 @@
             {
               "name": "Agile Transformation from a traditional banking environment to mirror that of a modern day tech company",
               "description": "This is a story from a crazy goal that exco had \"become agile' to what we did. Becoming agile is not as simple as 1,2,3 and we are unique because most of our teams are not software development teams. Parts worked very well and others that really did not pan out. Following agile sprite of transparency. We want o share our journey.",
-              "location": "room1",
+              "location": "room 1",
               "speakerNames": [
                 "Seshyn Munsamy",
                 "Elizabeth-Anne Marinakis"
@@ -481,7 +481,7 @@
           "sessions": [
             {
               "name": "Productive new team members: a possibility?",
-              "location": "room1",
+              "location": "room 1",
               "description": "The team has settled down and is consistently producing good quality work and meeting their commitment, then you receive a message from HR that a new staff member is starting and is joining your team. We will cover various techniques that you can use to make the integration of this new team member as smooth as possible for the existing team and the new member. A case study will also be included to show how we have integrated team members for several years.",
               "speakerNames": [
                 "Alain King"
@@ -540,7 +540,7 @@
           "sessions": [
             {
               "name": "All models are wrong, some are useful!",
-              "location": "room1",
+              "location": "room 1",
               "description": "The only true model of the Universe is the Universe itself, so any time you create an abstraction of that, the abstraction must be wrong! The true value of models is NOT to get it exactly, statistically, scientifically correct. The idea is to create an abstraction from which you can think better about the world or about a specific problem. \n\nIn this interactive workshop we will spend some time introducing models and then demonstrate how a model can be useful when trying to solve common problems experienced as individuals and in teams and organisations.",
               "speakerNames": [
                 "Barry Tandy",
@@ -600,7 +600,7 @@
           "sessions": [
             {
               "name": "Do you have the courage to be agile?",
-              "location": "room1",
+              "location": "room 1",
               "description": "Do you have the courage to be agile?",
               "speakerNames": [
                 "Gitte Klitgaard"
