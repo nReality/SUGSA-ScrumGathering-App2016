@@ -14355,6 +14355,10 @@ ion-footer {
 .virtual-position {
   width: 100%; }
 
+.group-passed {
+  background-color: #f7f7f7;
+  text-decoration: line-through; }
+
 .session-description {
   white-space: pre-wrap; }
 

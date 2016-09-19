@@ -26,7 +26,7 @@ export class SchedulePage {
   excludeLocations = [];
   locations: Array<{name: string,hide: boolean}> = [];
   excludeDays = [];
-  flatGroups = [];
+  days = [];
 
   constructor(
     public alertCtrl: AlertController,
@@ -94,7 +94,7 @@ export class SchedulePage {
     this.scheduleList && this.scheduleList.closeSlidingItems();
 
     this.confData.getTimeline(this.dayIndex, this.queryText, this.excludeTracks, this.excludeLocations, this.excludeDays, this.segment).then(data => {
-      this.flatGroups = data;
+      this.days = data;
     });
   }
 
@@ -130,5 +130,15 @@ export class SchedulePage {
 
   locationNoSpaces(location){
     return (!location) ? '' : location.replace(/ /g, '');
+  }
+
+  checkIfTimeHasPassed(day, groupTime){
+    let index = day.indexOf("-") + 1;
+    let dayString = day.substring(index, day.length);
+    let dateTimeString = "2016" + dayString + groupTime;    
+    if(Date.now() > Date.parse(dateTimeString))
+      return "group-passed";
+
+    return "time-group";
   }
 }

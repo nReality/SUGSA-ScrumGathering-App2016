@@ -89,12 +89,9 @@ export class ConferenceData {
     return this.load().then(data => {
 
       let days = [];
-      let flatGroups = [];
+      let daySessions = [];
 
       data.schedule.forEach(day => {
-        var groupForDay: any = {};
-        groupForDay.time = day.date
-        flatGroups.push(groupForDay);
         day.shownSessions = 0;
         queryText = queryText.toLowerCase().replace(/,|\.|-/g, ' ');
         let queryWords = queryText.split(' ').filter(w => !!w.trim().length);
@@ -109,10 +106,8 @@ export class ConferenceData {
             if (!session.hide) {
               // if this session is not hidden then this group should show
               group.hide = false;
-              if (flatGroups.indexOf(group) == -1) {
-
-
-                flatGroups.push(group);
+              if (daySessions.indexOf(group) == -1) {
+                daySessions.push(group);
                 day.shownSessions++;
               }
             }
@@ -121,7 +116,8 @@ export class ConferenceData {
         days.push(day);
       });
 
-      return flatGroups;
+      console.log(days);
+      return days;
     });
   }
 
