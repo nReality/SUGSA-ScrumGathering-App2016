@@ -35,14 +35,14 @@
 <ion-content class="schedule">
 
   <ion-list #scheduleList>
-    <ion-item no-lines *ngFor="let day of days" [hidden]="day.hide">
+    <ion-item-group no-lines *ngFor="let day of days" [hidden]="day.hide">
       <ion-item-content class="time-group">
 
         <ion-item-divider sticky class="time-group">
           {{day.date}}
         </ion-item-divider>
 
-        <ion-item *ngFor="let group of day.groups" [hidden]="group.hide">
+        <ion-item-group *ngFor="let group of day.groups" [hidden]="group.hide">
           <ion-item-divider sticky [class]="checkIfTimeHasPassed(day.date, group.time)">
             {{group.time}}
           </ion-item-divider>
@@ -78,9 +78,9 @@
 
             </ion-item>
           </ion-item-sliding>
-        </ion-item>
+        </ion-item-group>
       </ion-item-content>
-    </ion-item>
+    </ion-item-group>
 
   </ion-list>
 
