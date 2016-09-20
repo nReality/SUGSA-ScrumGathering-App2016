@@ -1,7 +1,7 @@
 #!/bin/bash
 set -e
 
-alias=AgileAfrica2016
+alias=SUGSA-conference-app
 APK=platforms/android/build/outputs/apk/android-release-unsigned.apk
 OUT=android-release.apk
 
