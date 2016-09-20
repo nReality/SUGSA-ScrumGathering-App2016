@@ -86,6 +86,7 @@ export class ConferenceData {
   }
 
   getTimeline(dayIndex, queryText = '', excludeTracks = [], excludeLocations = [], excludeDays = [], segment = 'all') {
+
     return this.load().then(data => {
 
       let days = [];
@@ -93,6 +94,7 @@ export class ConferenceData {
 
       data.schedule.forEach(day => {
         day.shownSessions = 0;
+        day.hide = false;
         queryText = queryText.toLowerCase().replace(/,|\.|-/g, ' ');
         let queryWords = queryText.split(' ').filter(w => !!w.trim().length);
 
@@ -113,10 +115,11 @@ export class ConferenceData {
             }
           });
         });
-        days.push(day);
+
+        if(day.shownSessions !== 0)
+          days.push(day);
       });
 
-      console.log(days);
       return days;
     });
   }

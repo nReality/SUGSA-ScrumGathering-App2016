@@ -35,7 +35,11 @@
 <ion-content class="schedule">
 
   <ion-list #scheduleList>
-    <ion-item-group no-lines *ngFor="let day of days" [hidden]="day.hide">
+    <ion-list-header text-center class="time-group" [hidden]="days.length > 0">
+      No sessions were found.
+    </ion-list-header>
+
+    <ion-item-group no-lines *ngFor="let day of days">
       <ion-item-content class="time-group">
 
         <ion-item-divider sticky class="time-group">
@@ -74,14 +78,10 @@
                   </ion-col>
                 </ion-row>
               </ion-grid>
-
-
             </ion-item>
           </ion-item-sliding>
         </ion-item-group>
       </ion-item-content>
     </ion-item-group>
-
   </ion-list>
-
 </ion-content>

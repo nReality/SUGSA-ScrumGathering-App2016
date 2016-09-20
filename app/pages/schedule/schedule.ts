@@ -135,7 +135,7 @@ export class SchedulePage {
   checkIfTimeHasPassed(day, groupTime){
     let index = day.indexOf("-") + 1;
     let dayString = day.substring(index, day.length);
-    let dateTimeString = "2016" + dayString + groupTime;    
+    let dateTimeString = "2016" + dayString + groupTime;
     if(Date.now() > Date.parse(dateTimeString))
       return "group-passed";
 
