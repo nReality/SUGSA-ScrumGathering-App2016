@@ -95,7 +95,7 @@ export class SchedulePage {
 
     self.storage.get("scrollTop").then((scrollTop) => {
       if (scrollTop){
-        this.content.scrollTo(0, scrollTop, 1000)
+        this.content.scrollTo(0, scrollTop, 2000)
       }
     });
 
