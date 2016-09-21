@@ -54,6 +54,9 @@ export class ConferenceData {
     return data;
   }
   processSession(data, session, date) {
+
+    this.user.checkIfLocalfavourite(session.name);
+
     session.date = date
     // loop through each speaker and load the speaker data
     // using the speaker name as the key

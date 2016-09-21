@@ -11,6 +11,13 @@ export class UserData {
 
   constructor(public events: Events) {}
 
+  checkIfLocalfavourite(sessionName){
+    this.storage.get(sessionName).then((found) => {
+      if(found)
+        this.addFavorite(sessionName);
+    });
+  }
+
   hasFavorite(sessionName) {
     return (this._favorites.indexOf(sessionName) > -1);
   }
@@ -18,6 +25,7 @@ export class UserData {
   addFavorite(sessionName) {
     if (!this.hasFavorite(sessionName)){
         this._favorites.push(sessionName);
+        this.storage.set(sessionName, true);
     }
   }
 
@@ -25,6 +33,7 @@ export class UserData {
     let index = this._favorites.indexOf(sessionName);
     if (index > -1) {
       this._favorites.splice(index, 1);
+      this.storage.remove(sessionName);
     }
   }
 
