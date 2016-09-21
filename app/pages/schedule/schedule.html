@@ -32,7 +32,7 @@
 </ion-header>
 
 
-<ion-content class="schedule">
+<ion-content class="schedule" on-scroll="onPageScroll()">
 
   <ion-list #scheduleList>
     <ion-list-header text-center class="time-group" [hidden]="days.length > 0">

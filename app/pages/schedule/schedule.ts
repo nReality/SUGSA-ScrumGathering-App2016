@@ -1,6 +1,6 @@
 import { Component, ViewChild } from '@angular/core';
 
-import { AlertController, App, ItemSliding, List, ModalController, NavController } from 'ionic-angular';
+import { Content, AlertController, App, ItemSliding, List, ModalController, LocalStorage, Storage, NavController } from 'ionic-angular';
 
 import { ConferenceData } from '../../providers/conference-data';
 import { ScheduleFilterPage } from '../schedule-filter/schedule-filter';
@@ -17,6 +17,7 @@ export class SchedulePage {
   // with the variable #scheduleList, `read: List` tells it to return
   // the List and not a reference to the element
   @ViewChild('scheduleList', {read: List}) scheduleList: List;
+  @ViewChild(Content) content: Content;
 
   dayIndex = 0;
 
@@ -27,6 +28,7 @@ export class SchedulePage {
   locations: Array<{name: string,hide: boolean}> = [];
   excludeDays = [];
   days = [];
+  storage : Storage;
 
   constructor(
     public alertCtrl: AlertController,
@@ -44,7 +46,7 @@ export class SchedulePage {
             hide: false
           });
     });
-
+   this.storage = new Storage(LocalStorage);
   }
 
   toggleFavourites(){
@@ -53,6 +55,7 @@ export class SchedulePage {
     else
       this.segment = "all"
     this.updateSchedule();
+
   }
 
   toggleLocation(locationName){
@@ -61,12 +64,14 @@ export class SchedulePage {
       if (location.name == locationName){
         location.hide = !location.hide;
       }
+
       if (location.hide){
         this.excludeLocations.push(location.name);
       }
     });
     this.updateSchedule();
   }
+
 
   toggleDay(dateString){
     this.excludeDays = [];
@@ -86,6 +91,18 @@ export class SchedulePage {
 
   ngAfterViewInit() {
     this.updateSchedule();
+    let self = this;
+
+    self.storage.get("scrollTop").then((scrollTop) => {
+      if (scrollTop){
+        this.content.scrollTo(0, scrollTop, 1000)
+      }
+    });
+
+    this.content.addScrollListener(function(event) {
+      console.log(event.target.scrollTop);
+      self.storage.set("scrollTop", event.target.scrollTop);
+    });
   }
 
 
