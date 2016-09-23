@@ -32,13 +32,11 @@ export class ScheduleFilterPage {
     });
 
     this.confData.getLocations().then((locationNames: string[]) => {
-
       locationNames.forEach(locationName => {
           this.locations.push({
             name: locationName
           });
       });
-
     });
   }
 
@@ -61,7 +59,7 @@ export class ScheduleFilterPage {
     this.viewCtrl.dismiss(data);
   }
 
-  locationNoSpaces(location){    
+  locationNoSpaces(location){
     return (!location) ? '' : location.replace(/ /g, '');
   }
 }
