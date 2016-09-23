@@ -40,14 +40,14 @@
     </ion-list-header>
 
     <ion-item-group no-lines *ngFor="let day of days">
+      <ion-item-divider sticky class="time-group">
+        {{day.date}}
+      </ion-item-divider>
+
       <ion-item-content class="time-group">
 
-        <ion-item-divider sticky class="time-group">
-          {{day.date}}
-        </ion-item-divider>
-
         <ion-item-group *ngFor="let group of day.groups" [hidden]="group.hide">
-          <ion-item-divider sticky [class]="checkIfTimeHasPassed(day.date, group.time)">
+          <ion-item-divider [class]="checkIfTimeHasPassed(day.date, group.time)">
             {{group.time}}
           </ion-item-divider>
 
