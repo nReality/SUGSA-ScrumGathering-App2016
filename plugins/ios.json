@@ -18,6 +18,9 @@
         },
         "cordova-plugin-x-socialsharing": {
             "PACKAGE_NAME": "com.nreality.agileafricaconf"
+        },
+        "cordova-plugin-device": {
+            "PACKAGE_NAME": "com.nreality.ScrumGatheringSAConf"
         }
     },
     "dependent_plugins": {}

@@ -15,7 +15,7 @@ export class SessionDetailPage {
   alert: Alert;
   session: any;
   stars: number[] = [1,2,3,4,5];
-  comment: string = "";
+  comment: string;
   local: any;
   ratingsRef: any;
   nav: NavController = null;
@@ -34,7 +34,6 @@ export class SessionDetailPage {
   }
 
   initializeStorage(){
-    this.ratingsRef = firebase.database().ref('Ratings');
     this.local = new Storage(LocalStorage);
   }
 
@@ -55,7 +54,8 @@ export class SessionDetailPage {
   }
 
   postRating(session){
-    this.ratingsRef.push({session:session.name, deviceID: Device.device.uuid || "Web", value: this._rating, comment:this.comment});
+    var deviceId = Device.device.uuid || "Web";
+    firebase.database().ref(session.name + '/' + deviceId).set({value: this._rating, comment:(this.comment || "")});
     this.local.set(session.name, JSON.stringify({value: this._rating, comment: this.comment}));
 
     this.showSuccess();
