@@ -59,6 +59,10 @@ export class ConferenceData {
 
     this.user.checkIfLocalfavourite(session.name);
 
+    var locationArray = data.locationMappings.filter(function(obj) {return obj.id == session.locationId});
+    session.locationName = locationArray? locationArray[0].name : null;
+
+
     session.date = date
     // loop through each speaker and load the speaker data
     // using the speaker name as the key
