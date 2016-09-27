@@ -824,15 +824,15 @@
   ],
   "locationMappings": [
     {
-      "name": "Room 1",
+      "name": "Central 1",
       "id": "room1"
     },
     {
-      "name": "Room 2",
+      "name": "Central 2",
       "id": "room2"
     },
     {
-      "name": "Room 3",
+      "name": "Central 3",
       "id": "room3"
     },
     {
