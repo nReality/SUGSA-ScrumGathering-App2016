@@ -42,13 +42,15 @@ export class ConferenceData {
       day.groups.forEach(group => {
         data.flatGroups.push(group);
 
-
         // loop through each session in the timeline group
         group.sessions.forEach(session => {
-
           this.processSession(data, session, day.date);
         });
       });
+    });
+
+    data.locationMappings.forEach(location => {
+      data.locations.push(location);
     });
 
     return data;
@@ -79,19 +81,11 @@ export class ConferenceData {
         }
       });
     }
-
-    if (session.location) {
-      session.locationNoSpaces = session.location.replace(/ /g, '');
-      if (data.locations.indexOf(session.location) < 0) {
-        data.locations.push(session.location);
-      }
-    }
   }
 
   getTimeline(dayIndex, queryText = '', excludeTracks = [], excludeLocations = [], excludeDays = [], segment = 'all') {
 
     return this.load().then(data => {
-
       let days = [];
       let daySessions = [];
 
@@ -107,7 +101,6 @@ export class ConferenceData {
           group.sessions.forEach(session => {
             // check if this session should show or not
             this.filterSession(session, queryWords, excludeTracks, excludeLocations, excludeDays, segment);
-
             if (!session.hide) {
               // if this session is not hidden then this group should show
               group.hide = false;
@@ -118,7 +111,6 @@ export class ConferenceData {
             }
           });
         });
-
         if(day.shownSessions !== 0)
           days.push(day);
       });
@@ -127,8 +119,13 @@ export class ConferenceData {
     });
   }
 
-  filterSession(session, queryWords, excludeTracks, excludeLocations, excludeDays, segment) {
+  getLocationName(locationId){
+    var locationArray = this.data.locationMappings.filter(function(obj) {return obj.id == locationId});
+    return locationArray? locationArray[0].name : null;
+  }
 
+
+  filterSession(session, queryWords, excludeTracks, excludeLocations, excludeDays, segment) {
     let matchesQueryText = false;
     if (queryWords.length) {
       // of any query word is in the session name than it passes the query test
@@ -137,7 +134,7 @@ export class ConferenceData {
           matchesQueryText = true;
         }
 
-        if (session.location != null && session.location.toLowerCase().indexOf(queryWord) > -1) {
+        if (session.locationId != null && this.getLocationName(session.locationId).toLowerCase().indexOf(queryWord) > -1) {
           matchesQueryText = true;
         }
 
@@ -168,7 +165,7 @@ export class ConferenceData {
     });
 
     let matchesLocation = false;
-    if (session.location != null && excludeLocations.indexOf(session.location) === -1) {
+    if (session.locationId != null && excludeLocations.indexOf(session.locationId) === -1) {
       matchesLocation = true;
     }
 
@@ -225,7 +222,7 @@ export class ConferenceData {
 
   getLocations() {
     return this.load().then(data => {
-      return data.locations;
+      return data.locationMappings;
     });
   }
 

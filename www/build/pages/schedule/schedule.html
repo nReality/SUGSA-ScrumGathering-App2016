@@ -21,10 +21,10 @@
 
     <table width="100%">
       <tr>
-        <td class="scheduletoggle" width="25%"><button (click)="toggleLocation('room1')" [outline]="locations[1].hide" class="scheduletogglebutton" small block [color]="'room1'">Room1</button></td>
-        <td class="scheduletoggle" width="25%"><button (click)="toggleLocation('room2')" [outline]="locations[2].hide" outline class="scheduletogglebutton" small block [color]="'room2'">Room2</button></td>
-        <td class="scheduletoggle" width="25%"><button (click)="toggleLocation('room3')" [outline]="locations[3].hide" class="scheduletogglebutton" small block [color]="'room3'">Room3</button></td>
-        <td class="scheduletoggle" width="25%"><button (click)="toggleLocation('socialarea')" [outline]="locations[0].hide" outline class="scheduletogglebutton" small block [color]="'socialarea'">Socialarea</button></td>
+        <td class="scheduletoggle" width="25%"><button (click)="toggleLocation('room1')" [outline]="locations[0].hide" class="scheduletogglebutton" small block [color]="'room1'">Room1</button></td>
+        <td class="scheduletoggle" width="25%"><button (click)="toggleLocation('room2')" [outline]="locations[1].hide" outline class="scheduletogglebutton" small block [color]="'room2'">Room2</button></td>
+        <td class="scheduletoggle" width="25%"><button (click)="toggleLocation('room3')" [outline]="locations[2].hide" class="scheduletogglebutton" small block [color]="'room3'">Room3</button></td>
+        <td class="scheduletoggle" width="25%"><button (click)="toggleLocation('socialarea')" [outline]="locations[3].hide" outline class="scheduletogglebutton" small block [color]="'socialarea'">Socialarea</button></td>
       </tr>
     </table>
   </ion-toolbar>
@@ -51,17 +51,17 @@
             {{group.time}}
           </ion-item-divider>
 
-          <ion-item-sliding *ngFor="let session of group.sessions" #slidingItem [attr.location]="locationNoSpaces(session.location) | lowercase" [hidden]="session.hide">
+          <ion-item-sliding *ngFor="let session of group.sessions" #slidingItem [attr.location]="locationNoSpaces(session.locationId) | lowercase" [hidden]="session.hide">
 
             <ion-item>
 
               <ion-grid style="padding:0">
                 <ion-row style="padding:0">
                   <ion-col style="padding:0;max-width: 1%;" width-10>
-                    <button *ngIf="isFavourite(session)" [color]="session.locationNoSpaces" style="height:35px; width:35px" favorite (click)="removeFavorite(session)">
+                    <button *ngIf="isFavourite(session)" [color]="session.locationId" style="height:35px; width:35px" favorite (click)="removeFavorite(session)">
                       <ion-icon  name="star" ></ion-icon>
                     </button>
-                    <button *ngIf="!isFavourite(session)" [color]="session.locationNoSpaces" style="height:35px; width:35px" favorite (click)="addFavorite(session)">
+                    <button *ngIf="!isFavourite(session)" [color]="session.locationId" style="height:35px; width:35px" favorite (click)="addFavorite(session)">
                       <ion-icon  name="star-outline" ></ion-icon>
                     </button>
 
@@ -72,7 +72,7 @@
                       <h3>{{session.name}}</h3>
                       <p>
                         <span  *ngIf="session.speakerNames">{{session.speakerNames}} in</span>
-                        {{session.location}}
+                        {{session.locationId}}
                       </p>
                     </button>
                   </ion-col>

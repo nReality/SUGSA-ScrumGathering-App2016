@@ -25,7 +25,7 @@ export class SchedulePage {
   segment = 'all';
   excludeTracks = [];
   excludeLocations = [];
-  locations: Array<{name: string,hide: boolean}> = [];
+  locations: Array<{name: string, id: string, hide: boolean}> = [];
   excludeDays = [];
   days = [];
   storage : Storage;
@@ -39,10 +39,10 @@ export class SchedulePage {
     public user: UserData
   ) {
 
-    this.confData.data.locations.forEach(locationName => {
-
+    this.confData.data.locations.forEach(location => {
           this.locations.push({
-            name: locationName,
+            name: location.name,
+            id: location.id,
             hide: false
           });
     });
@@ -58,15 +58,14 @@ export class SchedulePage {
 
   }
 
-  toggleLocation(locationName){
+  toggleLocation(locationId){
     this.excludeLocations = [];
     this.locations.forEach(location => {
-      if (location.name == locationName){
+      if (location.id == locationId){
         location.hide = !location.hide;
       }
-
       if (location.hide){
-        this.excludeLocations.push(location.name);
+        this.excludeLocations.push(location.id);
       }
     });
     this.updateSchedule();
@@ -100,7 +99,6 @@ export class SchedulePage {
     });
 
     this.content.addScrollListener(function(event) {
-      console.log(event.target.scrollTop);
       self.storage.set("scrollTop", event.target.scrollTop);
     });
   }
@@ -157,5 +155,9 @@ export class SchedulePage {
       return "group-passed";
 
     return "time-group";
+  }
+
+  getLocationName(locationId){
+    return this.confData.getLocationName(locationId);
   }
 }
