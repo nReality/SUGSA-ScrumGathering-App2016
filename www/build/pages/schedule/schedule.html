@@ -21,10 +21,6 @@
 
     <table width="100%">
       <tr>
-        <td class="scheduletoggle" width="25%"><button (click)="toggleLocation('room1')" [outline]="locations[0].hide" class="scheduletogglebutton" small block [color]="'room1'">Room1</button></td>
-        <td class="scheduletoggle" width="25%"><button (click)="toggleLocation('room2')" [outline]="locations[1].hide" outline class="scheduletogglebutton" small block [color]="'room2'">Room2</button></td>
-        <td class="scheduletoggle" width="25%"><button (click)="toggleLocation('room3')" [outline]="locations[2].hide" class="scheduletogglebutton" small block [color]="'room3'">Room3</button></td>
-        <td class="scheduletoggle" width="25%"><button (click)="toggleLocation('socialarea')" [outline]="locations[3].hide" outline class="scheduletogglebutton" small block [color]="'socialarea'">Socialarea</button></td>
         <td *ngFor="let location of locations" class="scheduletoggle"><button (click)="toggleLocation(location.id)" [outline]="location.hide" class="scheduletogglebutton" small block [color]="location.id">{{location.name}}</button></td>
       </tr>
     </table>
