@@ -622,7 +622,7 @@
       "priority": 1,
       "profilePic": "img/speakers/danie-head.jpg",
       "twitter": "@danieroux",
-      "about": ""
+      "about": "Helping awesome people make sense of human work systems. Believing that all people are awesome, in all ways and always #changeTheSystem"
     },
     {
       "name": "James Benson (Jim)",
@@ -804,8 +804,8 @@
     {
       "name": "Seshyn Munsamy",
       "profilePic": "img/speakers/seshyn-head.jpg",
-      "twitter": "",
-      "about": ""
+      "twitter": "@Obs3shyn",
+      "about": "Seshyn Munsamy is currently the Product owner within technology division of a large South African bank.  He holds a degree in business as well as extensive experience in traditional project management.  Seshyn has been instrumental in the transformation of a non-technology business unit  from its traditional functional silo based operating model to product aligned high performance teams based on the foundations of agile, lean and employee engagement."
     },
     {
       "name": "Elizabeth-Anne Marinakis",
@@ -822,7 +822,7 @@
       "center": true
     }
   ],
-  "locationMappings":[
+  "locationMappings": [
     {
       "name": "Room 1",
       "id": "room1"
