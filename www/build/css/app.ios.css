@@ -10068,7 +10068,8 @@ td.daytoggle {
   padding-top: 0px; }
 
 button.scheduletogglebutton {
-  margin: 0; }
+  margin: 0;
+  font-size: 12px; }
 
 .schedule ion-item-sliding[location=ionic] ion-label {
   border-left: 0px solid #1a8fae;
