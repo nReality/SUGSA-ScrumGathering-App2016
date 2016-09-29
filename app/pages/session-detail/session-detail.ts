@@ -56,6 +56,8 @@ export class SessionDetailPage {
 
   postRating(session){
     this.ratingsRef.push({session:session.name, deviceID: Device.device.uuid || "Web", value: this._rating, comment:this.comment});
+    var deviceId = Device.device.uuid || "Web";
+    firebase.database().ref(session.name + '/' + deviceId).set({value: this._rating, comment:(this.comment || "")});
     this.local.set(session.name, JSON.stringify({value: this._rating, comment: this.comment}));
 
     this.showSuccess();
