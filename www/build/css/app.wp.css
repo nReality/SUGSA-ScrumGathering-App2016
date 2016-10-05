@@ -13769,6 +13769,9 @@ ion-label {
 .item-inner {
   padding: 0; }
 
+.item .item-inner {
+  padding: 0; }
+
 date-group {
   text-align: center;
   font-size: 20px;
