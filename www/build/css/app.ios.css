@@ -10217,3 +10217,7 @@ ion-item[location=room3] .dot {
   color: #60646B; }
   .tutorial-page p b {
     color: #000000; }
+
+.sponsor-info p {
+  color: #697072;
+  text-align: center; }
