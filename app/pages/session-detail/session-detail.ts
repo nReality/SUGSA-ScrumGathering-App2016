@@ -16,7 +16,7 @@ export class SessionDetailPage {
   session: any;
   stars: number[] = [1,2,3,4,5];
   comment: string = "";
-  local: any;  
+  local: any;
   nav: NavController = null;
 
   @Input() rating: number = 0;
@@ -80,7 +80,7 @@ export class SessionDetailPage {
         speakerstring += speaker.twitter + " "
     }
     //window.open(`https://twitter.com/share?text=` + sessionName);
-      this.tweetShare.shareViaTwitter("." + speakerstring+" #AgileAfrica",null,null)
+      this.tweetShare.shareViaTwitter("." + speakerstring+" @SUGSA",null,null)
   }
 
 
