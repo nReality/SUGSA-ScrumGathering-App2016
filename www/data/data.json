@@ -8,7 +8,7 @@
           "sessions": [
             {
               "name": "Lean Coffee",
-              "locationId": "socialarea",
+              "locationId": "room1",
               "timeStart": "7:30 am",
               "timeEnd": "8:30 am",
               "tracks": [
@@ -217,12 +217,12 @@
               ]
             },
             {
-              "name": "See what you mean: Visual thinking for Agile teams",
+              "name": "The Collaborative Team",
               "locationId": "room2",
-              "description": "We’ve all heard the quote “A picture is worth a thousand words.” What if we told you that expressing your ideas visually, as well as verbally, improves the likelihood that your team will be able to understand and recall your message? A picture is important because it has a way of showing ideas that would have remained hidden if you hadn’t picked up a pen. But a good picture doesn’t eliminate the need for words – it just reduces the number of words we use, so that the remaining ones are the most important… \n\nWhy should you and your teams care about visual thinking? Visual thinking: \n- Helps teams to see the big picture\n- Helps teams to learn faster and more effectively\n- Helps teams tell stories and make sure that everyone is on the same page\n- Uses all four learning modalities: visual, auditory, kinesthetic and tactile (read/ write)\n- Increases individual engagement in conversations because people engage with their whole body, not just their minds \n- Helps teams think at a creative, strategic and tactical level\n- Reduces meeting times by 24% because people are focused on the same conversation\n- Serves as a visual record of a conversation (perfect to supplement user stories and acceptance criteria)\n\nThis session is for anyone who needs to imagine, invent, analyze, come up with solutions, ideate, solve problems and build up their confidence to pick up a pen. \n\nLuckily, you don’t have to be an artist to think visually! Join us as we create a visual vocabulary that you can practically apply at work during facilitation sessions, whiteboard discussions, retrospectives, or in meetings!",
+              "description": "We hear about Self-Organizing teams all the time, but I wonder how many teams are self-organizing? Is yours? Is collaborative team work just a concept? In this talk will will explain just what a self-organizing team is and how to help your team get there. From team agreements, to team disagreements this talk will walk you through exercises to use to build trust and collaboration on any team.",
               "speakerNames": [
-                "Angie Doyle",
-                "Talia Lancaster"
+                "Karen Greaves",
+                "Samantha Laing"
               ],
               "timeStart": "1:45 pm",
               "timeEnd": "3:15 pm",
@@ -231,12 +231,12 @@
               ]
             },
             {
-              "name": "The Collaborative Team",
+              "name": "See what you mean: Visual thinking for Agile teams",
               "locationId": "room3",
-              "description": "We hear about Self-Organizing teams all the time, but I wonder how many teams are self-organizing? Is yours? Is collaborative team work just a concept? In this talk will will explain just what a self-organizing team is and how to help your team get there. From team agreements, to team disagreements this talk will walk you through exercises to use to build trust and collaboration on any team.",
+              "description": "We’ve all heard the quote “A picture is worth a thousand words.” What if we told you that expressing your ideas visually, as well as verbally, improves the likelihood that your team will be able to understand and recall your message? A picture is important because it has a way of showing ideas that would have remained hidden if you hadn’t picked up a pen. But a good picture doesn’t eliminate the need for words – it just reduces the number of words we use, so that the remaining ones are the most important… \n\nWhy should you and your teams care about visual thinking? Visual thinking: \n- Helps teams to see the big picture\n- Helps teams to learn faster and more effectively\n- Helps teams tell stories and make sure that everyone is on the same page\n- Uses all four learning modalities: visual, auditory, kinesthetic and tactile (read/ write)\n- Increases individual engagement in conversations because people engage with their whole body, not just their minds \n- Helps teams think at a creative, strategic and tactical level\n- Reduces meeting times by 24% because people are focused on the same conversation\n- Serves as a visual record of a conversation (perfect to supplement user stories and acceptance criteria)\n\nThis session is for anyone who needs to imagine, invent, analyze, come up with solutions, ideate, solve problems and build up their confidence to pick up a pen. \n\nLuckily, you don’t have to be an artist to think visually! Join us as we create a visual vocabulary that you can practically apply at work during facilitation sessions, whiteboard discussions, retrospectives, or in meetings!",
               "speakerNames": [
-                "Karen Greaves",
-                "Samantha Laing"
+                "Angie Doyle",
+                "Talia Lancaster"
               ],
               "timeStart": "1:45 pm",
               "timeEnd": "3:15 pm",
@@ -265,11 +265,12 @@
           "time": "3:30 pm",
           "sessions": [
             {
-              "name": "Let’s talk… Testability!",
+              "name": "Take Responsibility and Live with Freedom, Power & Choice",
               "locationId": "room1",
-              "description": "‘Inspect and adapt’ are words I have heard frequently from coaches and aficionados, describing agile. \nAn interpretation of this is that there is implied feedback in the system. But what feedback is important, when is it important, how is it important and what can we do that might inhibit / enhance that feedback? How can testability play a role? \n\nIn this interactive workshop, we will play, build and test! \nThrough the use of 2 models – ‘Heuristics of Testability’ (Bach) and ‘Context-drivers that influence testability’ (Kedemo and Kelly), we will gain an understanding of the things we can do to improve feedback loops, through the enablement of testers and testing.",
+              "description": "Are you stuck?  Have a problem you just don’t know how to resolve? Need to find some clarity?  We all go through the same process when beset by problems.  Most of us just aren’t aware of it and so don’t know how to get out of it.  Let’s have a conversation about taking ownership of your problem and finding real solutions. Come learn about the built-in process going on in your head and how you can leverage that to owning what you want, living with freedom, power and choice.",
               "speakerNames": [
-                "Louise Perold"
+                "Mike Kaufman",
+                "Gitte Klitgaard"
               ],
               "timeStart": "3:30 pm",
               "timeEnd": "5:00 pm",
@@ -292,12 +293,11 @@
               ]
             },
             {
-              "name": "Take Responsibility and Live with Freedom, Power & Choice",
+              "name": "Let’s talk… Testability!",
               "locationId": "room3",
-              "description": "Are you stuck?  Have a problem you just don’t know how to resolve? Need to find some clarity?  We all go through the same process when beset by problems.  Most of us just aren’t aware of it and so don’t know how to get out of it.  Let’s have a conversation about taking ownership of your problem and finding real solutions. Come learn about the built-in process going on in your head and how you can leverage that to owning what you want, living with freedom, power and choice.",
+              "description": "‘Inspect and adapt’ are words I have heard frequently from coaches and aficionados, describing agile. \nAn interpretation of this is that there is implied feedback in the system. But what feedback is important, when is it important, how is it important and what can we do that might inhibit / enhance that feedback? How can testability play a role? \n\nIn this interactive workshop, we will play, build and test! \nThrough the use of 2 models – ‘Heuristics of Testability’ (Bach) and ‘Context-drivers that influence testability’ (Kedemo and Kelly), we will gain an understanding of the things we can do to improve feedback loops, through the enablement of testers and testing.",
               "speakerNames": [
-                "Mike Kaufman",
-                "Gitte Klitgaard"
+                "Louise Perold"
               ],
               "timeStart": "3:30 pm",
               "timeEnd": "5:00 pm",
@@ -335,7 +335,7 @@
           "sessions": [
             {
               "name": "Lean Coffee",
-              "locationId": "socialarea",
+              "locationId": "room1",
               "timeStart": "7:30 am",
               "timeEnd": "8:30 am",
               "tracks": [
@@ -381,14 +381,14 @@
           "time": "10:15 am",
           "sessions": [
             {
-              "name": "Creative ways to resolve conflicts and increase understanding",
-              "description": "Conflicts are an inevitable part of human existence. We can easily see them in our personal life, when we step into our offices on Monday morning and when we leave them on Friday evening, when we argue with our partners, watch political debates and when we try to understand news about global issues between social ideas, religions and nations. \n\nSome of those conflicts are extremely complex, hard to solve, lasting for years and causing tremendous issues for people involved. Majority of conflicts symptoms, that we encounter in our lives are extremely obvious, others aren't. Some easy to spot indicators include loud voices, angry words, hard feelings. You probably facilitate a meeting with all the above at least once a week. But conflicts can also be much more subtle - like a difference of opinion on the same subject, or two different parties, both with equal rights, competing for the same resources (money, time, developers, QA, business priorities). \n\nThere are a few methods to resolve a conflict situation that we usually apply. The most “famous” and widely used is a \"compromise\". Apparently we have to make compromises to live, pay taxes, move forward and deliver projects. I will try to prove using Theory of Constraints that in reality, compromise is a lose-lose situation and does not bring happiness to neither side of the conflict. The simplest case includes 2 people sharing a cake. One of them wants the whole cake the other wants to share it equally...you all know the feeling...\n\nFortunately, we don't have to compromise and we don't have to be constantly unhappy, even in the face of potentially impossible to solve situations that we face in our everyday lives. We can change the way we think about conflicts, from disruptive and unwanted to creative an welcome. \n\nIn this session I will consider multiple practical methods for conflict resolution. We will concentrate on the Theory of Constraints, Evaporating Clouds and Thinking \nProcesses. We will consider some real life examples, visualize both sides of the conflict and try to find a better overall solution than compromise. Our goal is to show that every situation can have a win-win solution. \n\nAs a result, the session should practically help the participants to look at conflict as an opportunity to find a creative win-win output that was impossible to see earlier. We will consider conflicts in multiple domains: work-life balance, agile teams and customer-agency scenarios. Real life examples, theory behind the solution and practical use of techniques should provide real value and useful knowledge that can be used in real life. ",
+              "name": "Limitless Agility (or how to blow your organisation’s frontal cortex in a good way!)",
+              "description": "More and more organisations are moving towards agile frameworks, looking to increase speed of delivery, become more responsive to change and attain a higher level of quality.  All of these reasons are sound on the surface but without an underlying shift in mindset their experience of what agility can offer will be quite limited.  This capped and mostly mechanical implementation of agile methods will get us from Point-A to Point-B quicker, but true agility will have us looking for a better Point-B.  \n\nTo transform into an organisation that is relentless in finding that better Point-B we need to think differently, lead differently, build differently and learn differently.\n\nLimitless Agility is an examination of how to maximise our chances of a successful agile adoption through changing how we lead, learn, unlearn and relearn, and how we go about reorganising our organisations to support and augment that adoption.",
               "locationId": "room1",
               "speakerNames": [
-                "Pawel Kaminski"
+                "Stephen de Villiers Graaff"
               ],
               "timeStart": "10:15 am",
-              "timeEnd": "11:00 pm",
+              "timeEnd": "11:00 am",
               "tracks": [
                 "45 Minute Talk"
               ]
@@ -407,14 +407,14 @@
               ]
             },
             {
-              "name": "Limitless Agility (or how to blow your organisation’s frontal cortex in a good way!)",
-              "description": "More and more organisations are moving towards agile frameworks, looking to increase speed of delivery, become more responsive to change and attain a higher level of quality.  All of these reasons are sound on the surface but without an underlying shift in mindset their experience of what agility can offer will be quite limited.  This capped and mostly mechanical implementation of agile methods will get us from Point-A to Point-B quicker, but true agility will have us looking for a better Point-B.  \n\nTo transform into an organisation that is relentless in finding that better Point-B we need to think differently, lead differently, build differently and learn differently.\n\nLimitless Agility is an examination of how to maximise our chances of a successful agile adoption through changing how we lead, learn, unlearn and relearn, and how we go about reorganising our organisations to support and augment that adoption.",
+              "name": "Creative ways to resolve conflicts and increase understanding",
+              "description": "Conflicts are an inevitable part of human existence. We can easily see them in our personal life, when we step into our offices on Monday morning and when we leave them on Friday evening, when we argue with our partners, watch political debates and when we try to understand news about global issues between social ideas, religions and nations. \n\nSome of those conflicts are extremely complex, hard to solve, lasting for years and causing tremendous issues for people involved. Majority of conflicts symptoms, that we encounter in our lives are extremely obvious, others aren't. Some easy to spot indicators include loud voices, angry words, hard feelings. You probably facilitate a meeting with all the above at least once a week. But conflicts can also be much more subtle - like a difference of opinion on the same subject, or two different parties, both with equal rights, competing for the same resources (money, time, developers, QA, business priorities). \n\nThere are a few methods to resolve a conflict situation that we usually apply. The most “famous” and widely used is a \"compromise\". Apparently we have to make compromises to live, pay taxes, move forward and deliver projects. I will try to prove using Theory of Constraints that in reality, compromise is a lose-lose situation and does not bring happiness to neither side of the conflict. The simplest case includes 2 people sharing a cake. One of them wants the whole cake the other wants to share it equally...you all know the feeling...\n\nFortunately, we don't have to compromise and we don't have to be constantly unhappy, even in the face of potentially impossible to solve situations that we face in our everyday lives. We can change the way we think about conflicts, from disruptive and unwanted to creative an welcome. \n\nIn this session I will consider multiple practical methods for conflict resolution. We will concentrate on the Theory of Constraints, Evaporating Clouds and Thinking \nProcesses. We will consider some real life examples, visualize both sides of the conflict and try to find a better overall solution than compromise. Our goal is to show that every situation can have a win-win solution. \n\nAs a result, the session should practically help the participants to look at conflict as an opportunity to find a creative win-win output that was impossible to see earlier. We will consider conflicts in multiple domains: work-life balance, agile teams and customer-agency scenarios. Real life examples, theory behind the solution and practical use of techniques should provide real value and useful knowledge that can be used in real life. ",
               "locationId": "room3",
               "speakerNames": [
-                "Stephen de Villiers Graaff"
+                "Pawel Kaminski"
               ],
               "timeStart": "10:15 am",
-              "timeEnd": "11:00 am",
+              "timeEnd": "11:00 pm",
               "tracks": [
                 "45 Minute Talk"
               ]
@@ -435,12 +435,11 @@
               ]
             },
             {
-              "name": "Agile Transformation from a traditional banking environment to mirror that of a modern day tech company",
-              "description": "This is a story from a crazy goal that exco had \"become agile' to what we did. Becoming agile is not as simple as 1,2,3 and we are unique because most of our teams are not software development teams. Parts worked very well and others that really did not pan out. Following agile sprite of transparency. We want o share our journey.",
+              "name": "Unlocking ScrumMastery",
+              "description": "How do you go about creating good to great ScrumMasters in a large financial services organisation beyond sending them on a 2-day certification course?\n\nIn the beginning of 2015, I was provided the opportunity to assist a large financial institution with their Agile adoption. I was contracted directly to the Agile Adoption team that was formed to drive out training, coaching, change management, team mobilisation and other services.\n\nI remember the one conversation vividly with the head of the Agile adoption team, 3 months into my engagement. He was looking at creating the opportunity for 500 ScrumMasters in the organisation.\n\nThis talk focuses on how we solved this problem by creating a sustainable learning opportunity for internal staff to become great ScrumMasters through a focused, 13 - and then a 10 -  week programme called the ScrumMaster Academy. We used the pilot programme as an experiment by providing training, coaching and mentoring 16 ScrumMaster apprentices through a Coaching Collective. ",
               "locationId": "room1",
               "speakerNames": [
-                "Seshyn Munsamy",
-                "Elizabeth-Anne Marinakis"
+                "Biase De Gregorio"
               ],
               "timeStart": "11:00 am",
               "timeEnd": "11:30 am",
@@ -462,11 +461,12 @@
               ]
             },
             {
-              "name": "*T.B.A*",
-              "description": "*T.B.A*",
+              "name": "Agile Transformation from a traditional banking environment to mirror that of a modern day tech company",
+              "description": "This is a story from a crazy goal that exco had \"become agile' to what we did. Becoming agile is not as simple as 1,2,3 and we are unique because most of our teams are not software development teams. Parts worked very well and others that really did not pan out. Following agile sprite of transparency. We want o share our journey.",
               "locationId": "room3",
               "speakerNames": [
-                "*T.B.A*"
+                "Seshyn Munsamy",
+                "Elizabeth-Anne Marinakis"
               ],
               "timeStart": "11:00 am",
               "timeEnd": "11:30 am",
@@ -539,12 +539,11 @@
           "time": "1:45 pm",
           "sessions": [
             {
-              "name": "All models are wrong, some are useful!",
+              "name": "From Kickoff to Liftoff: Don’t Forget Context!",
               "locationId": "room1",
-              "description": "The only true model of the Universe is the Universe itself, so any time you create an abstraction of that, the abstraction must be wrong! The true value of models is NOT to get it exactly, statistically, scientifically correct. The idea is to create an abstraction from which you can think better about the world or about a specific problem. \n\nIn this interactive workshop we will spend some time introducing models and then demonstrate how a model can be useful when trying to solve common problems experienced as individuals and in teams and organisations.",
+              "description": "Although a good Agile Charter has three components – Purpose, Alignment, and Context – we most often fail at building an awareness of context in our teams. Perhaps it's because we've taken the time to teach Product Owners a little bit about purpose, and Scrum Masters a little bit about alignment, and then we threw out all the Project Managers who understand context. (Ok, kidding about that. Don't throw out your Project Managers! Invite them to use those skills.)\n\nYour team needs to understand their context so that they recognize that they are one part of a complex adaptive system. Contextual awareness helps the team to make better product decisions as they will understand how their work fits into the greater whole.\n\nIn this very hands-on workshop we'll give you three concrete tools you can take home and use with your team to facilitate awareness of their context. You will use these tools to:\n\n* understand team boundaries and interactions with stakeholders and product partners\n* identify dependencies and seek commitment for them\n* identify opportunities, risks, and benefits through prospective analysis",
               "speakerNames": [
-                "Barry Tandy",
-                "Theo Bohnen"
+                "Steve Holyer"
               ],
               "timeStart": "1:45 pm",
               "timeEnd": "3:15 pm",
@@ -566,11 +565,12 @@
               ]
             },
             {
-              "name": "From Kickoff to Liftoff: Don’t Forget Context!",
+              "name": "All models are wrong, some are useful!",
               "locationId": "room3",
-              "description": "Although a good Agile Charter has three components – Purpose, Alignment, and Context – we most often fail at building an awareness of context in our teams. Perhaps it's because we've taken the time to teach Product Owners a little bit about purpose, and Scrum Masters a little bit about alignment, and then we threw out all the Project Managers who understand context. (Ok, kidding about that. Don't throw out your Project Managers! Invite them to use those skills.)\n\nYour team needs to understand their context so that they recognize that they are one part of a complex adaptive system. Contextual awareness helps the team to make better product decisions as they will understand how their work fits into the greater whole.\n\nIn this very hands-on workshop we'll give you three concrete tools you can take home and use with your team to facilitate awareness of their context. You will use these tools to:\n\n* understand team boundaries and interactions with stakeholders and product partners\n* identify dependencies and seek commitment for them\n* identify opportunities, risks, and benefits through prospective analysis",
+              "description": "The only true model of the Universe is the Universe itself, so any time you create an abstraction of that, the abstraction must be wrong! The true value of models is NOT to get it exactly, statistically, scientifically correct. The idea is to create an abstraction from which you can think better about the world or about a specific problem. \n\nIn this interactive workshop we will spend some time introducing models and then demonstrate how a model can be useful when trying to solve common problems experienced as individuals and in teams and organisations.",
               "speakerNames": [
-                "Steve Holyer"
+                "Barry Tandy",
+                "Theo Bohnen"
               ],
               "timeStart": "1:45 pm",
               "timeEnd": "3:15 pm",
@@ -811,7 +811,13 @@
       "name": "Elizabeth-Anne Marinakis",
       "profilePic": "img/speakers/elizabeth-head.jpg",
       "twitter": "@EAMarinakis",
-      "about": ""
+      "about": "Elizabeth is passionate in finding new ways in doing work and being in a project delivery environment, she needs to assist this organization to stay ahead in terms of project delivery methodologies. Agile has allowed Elizabeth to renew her passion of teaching by providing her with a platform to learn new ways of working which enables her to provide better leadership to product teams."
+    },
+    {
+      "name": "Biase De Gregorio",
+      "profilePic": "img/speakers/biase-head.jpg",
+      "twitter": "@Biased77",
+      "about": "I am currently an Associate Partner at IQ Business leading the Agile service offering called agility@IQ that provides Agile training, coaching and consulting.\n\nSince 2002, I have been involved in project and programme management with a focus on project delivery and processes implementing software solutions for our customers.\n\nSince 2010, I have been building our Agile offering and personally trained over 2000 delegates on Agile.\n\nI have also been involved in both large and smaller scale agile transformations.\n\nI have also had the opportunity to present both locally and internationally on relevant Agile topics that I am passionate about."
     }
   ],
   "map": [
@@ -824,15 +830,15 @@
   ],
   "locationMappings": [
     {
-      "name": "Central 1",
+      "name": "Central",
       "id": "room1"
     },
     {
-      "name": "Central 2",
+      "name": "Queens",
       "id": "room2"
     },
     {
-      "name": "Central 3",
+      "name": "Harlem",
       "id": "room3"
     },
     {
