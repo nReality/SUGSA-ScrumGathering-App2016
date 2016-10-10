@@ -348,9 +348,9 @@
           "time": "9:00 am",
           "sessions": [
             {
-              "name": "T.B.A",
+              "name": "Your Rituals Are My Prisons: Process Improvement is boring",
               "locationId": "room1",
-              "description": "T.B.A",
+              "description": "You've seen it: Agile Fatigue, Lean Lethargy, SAFe Cracked, DAD Deadbeaten, Kanban Corrupted. We've been ritualed, frameworked, and holocracized until we're blind. \n\nAll to the point that people sit around and say, \"Is my shirt Agile?\" \"Can I document anything anymore?\" \"Am I allowed to have work that isn't on a board?\" \"Where do I fit in that gigantic diagram?”\n\nWe've all forgotten that process is not a product, it's a means to an end. We want to build stuff, we want to make money, we want success.\nJim Benson, who may be responsible for a process or two, will lament the Process for Profit mill we've created, tell some funny stories of people stuck in these anti-systems, discuss the social and psychological reasons why this has happened, and offer some concrete suggestions of how we can evolve into better ways of working.",
               "speakerNames": [
                 "James Benson (Jim)"
               ],
@@ -629,7 +629,7 @@
       "priority": 2,
       "profilePic": "img/speakers/james-head.jpg",
       "twitter": "@ourfounder",
-      "about": "Jim Benson is the creator of Personal Kanban and Lean Coffee. He is an award winning author and expert in Lean and Agile innovation."
+      "about": "A pioneer in applying Lean and Kanban to knowledge work, and an internationally recognized speaker and author, Jim Benson is CEO of the collaborative management consultancy Modus Cooperandi and founding partner of Modus Institute.  \n\nHe is a fellow in the Lean Systems Society and recipient of the Brickell Key Award for Excellence in Lean Thinking. He is the creator of Personal Kanban and co-author of Personal Kanban: Mapping Work | Navigating Life, winner of the Shingo Research and Publication Award. \n\nHis other books include Why Plans Fail, Why Limit WIP, and Beyond Agile."
     },
     {
       "name": "Gitte Klitgaard",
