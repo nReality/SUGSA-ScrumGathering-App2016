@@ -1,9 +1,23 @@
 import { Component } from '@angular/core';
-import {NavController} from 'ionic-angular';
+import { PopoverController, ViewController } from 'ionic-angular';
+
+class PopoverPage {
+
+  constructor(public viewCtrl: ViewController) { }
+
+  close() {
+    this.viewCtrl.dismiss();
+  }
+}
 
 @Component({
   templateUrl: 'build/pages/sponsors/sponsors.html'
 })
 export class SponsorsPage {
-  constructor(public navCtrl: NavController){};  
+  constructor(public popoverCtrl: PopoverController) { }
+
+  presentPopover(event) {
+    let popover = this.popoverCtrl.create(PopoverPage);
+    popover.present({ ev: event });
+  }
 }
