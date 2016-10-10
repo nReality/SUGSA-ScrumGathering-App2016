@@ -313,9 +313,9 @@
             {
               "name": "Sponsored Drinks",
               "locationId": "socialarea",
-              "description": "*Note from the sponsors*",
+              "description": "Join us for some drinks and a few words from the sponsor.",
               "speakerNames": [
-                "*Sponsor*"
+                "SUGSA"
               ],
               "timeStart": "5:00 pm",
               "timeEnd": "7:00 pm",
@@ -643,7 +643,7 @@
       "priority": 4,
       "profilePic": "img/speakers/justin-head.jpg",
       "twitter": "@the_jus",
-      "about": ""
+      "about": "Justin Kotze is an Agile coach at Spotify in Stockholm.\n\nJustin wants to live in a world with innovative businesses, happy team and dancing squirrels. As an Agile person he often inspect, adapts and recite the Agile manifesto in the shower.\n\nHe is a friendly guy so go up to him and talk to him about SUGSA, coaching circles, Agile tourism and mob programming."
     },
     {
       "name": "Pavel Dabrytski",
@@ -721,7 +721,7 @@
       "name": "Steve Holyer",
       "profilePic": "img/speakers/steveholyer-head.jpg",
       "twitter": "@zurcherart",
-      "about": ""
+      "about": "Steve Holyer works all over the world helping diverse and connected businesses unleash the value they produce through Agile practice, leadership and collaboration."
     },
     {
       "name": "Mike Kaufman",
