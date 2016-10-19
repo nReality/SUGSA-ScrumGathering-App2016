@@ -5,7 +5,7 @@
 </ion-header>
 
 <ion-content padding>
-  <h1>{{session.name}}</h1>
+  <h3 class="session-header">{{session.name}}</h3>
 
   <ion-divider>
     <ion-item no-lines>
@@ -22,17 +22,20 @@
   </ion-divider>
   <br>
 
-  <center>
-    <button light outline class="speaker-button" *ngFor="let speaker of session.speakers" (click)="goToSpeakerDetail(speaker)">
-      {{speaker.name}}
-    </button>
-  </center>
-
-  <h5 text-center>{{session.date}}</h5>
-  <h6 text-center>{{session.timeStart}} - {{session.timeEnd}}</h6>
-
   <ion-card>
-    <button clear twitter (click)="goToTwitter(session.speakers)"><ion-icon name="logo-twitter"></ion-icon>Tweet</button>
+    <center>
+      <button margin-top light outline class="speaker-button" *ngFor="let speaker of session.speakers" (click)="goToSpeakerDetail(speaker)">
+        <ion-avatar item-left>
+          <img [src]="speaker.profilePic">
+        </ion-avatar>
+        {{speaker.name}}
+      </button>
+      <br/>
+      <button clear twitter (click)="goToTwitter(session.speakers)"><ion-icon name="logo-twitter"></ion-icon>Tweet</button>
+    </center>
+
+    <h2 text-center>{{session.date}}</h2>
+    <h5 text-center>{{session.timeStart}} - {{session.timeEnd}}</h5>
     <ion-card-header>{{session.locationName}}</ion-card-header>
     <ion-card-content class="session-description">{{session.description}}</ion-card-content>
   </ion-card>

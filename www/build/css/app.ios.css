@@ -10138,6 +10138,9 @@ ion-footer {
 .star.active {
   color: #FFD600; }
 
+.session-header {
+  text-align: center; }
+
 .reset-filters {
   color: #f53d3d; }
 
