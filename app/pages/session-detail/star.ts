@@ -4,17 +4,6 @@ import { Component, Input, Output, EventEmitter } from '@angular/core';
 @Component({
   selector: 'star',
   template: `<span class="star" [class.active]="active" (click)="handleRate($event)"><ion-icon name="star-outline"></ion-icon></span>`,
-  styles: [`
-    .star {
-      color: #efefef;
-      cursor: pointer;
-      font-size: 2rem;
-      transition: color .4s ease-in-out;
-    }
-    .star.active {
-      color: #FFD600;
-    }
-  `]
 })
 export class Star {
   @Input() active: boolean;

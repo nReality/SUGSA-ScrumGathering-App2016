@@ -15,9 +15,10 @@
       </div>
     </ion-item>
     <ion-item>
-      <ion-input type="text" placeholder="Write a comment..." [(ngModel)]="comment"></ion-input>
-      <button item-right outline (click)="postRating(session)" [disabled]="_rating === 0 && comment === ''">Rate</button>
+      <ion-label floating>Write a comment...</ion-label>
+      <ion-textarea type="text" [(ngModel)]="comment"></ion-textarea>\
     </ion-item>
+    <button padding start margin ion-button small light (click)="postRating(session)" [disabled]="_rating === 0 && comment === ''">Submit Rating</button>
   </ion-divider>
   <br>
 

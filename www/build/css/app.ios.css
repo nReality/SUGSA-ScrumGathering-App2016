@@ -10127,6 +10127,17 @@ ion-footer {
 .speaker-button {
   color: Black; }
 
+.stars {
+  color: #989898;
+  cursor: pointer;
+  font-size: 4rem;
+  -webkit-transition: color .4s ease-in-out;
+  transition: color .4s ease-in-out;
+  text-align: center; }
+
+.star.active {
+  color: #FFD600; }
+
 .reset-filters {
   color: #f53d3d; }
 
