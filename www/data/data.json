@@ -208,7 +208,7 @@
               "locationId": "room1",
               "description": "Many of us are familiar with the Agile value from the manifesto \"Customer Collaboration over Contract Negotiation\", yet many agile teams and organizations still struggle with their traditional contracts and for them, contracts put a drag on their path towards agility.\nThis workshop will take you through a journey which starts by digging deep in the issues and pains that we have in traditional contracts, and then takes you to explore different solutions to finally, fully understand and put those solutions to practice using a real case study.",
               "speakerNames": [
-                "Mohamed Abdelfattah"
+                "Mohamed Amr Abdelkader Abdelfattah"
               ],
               "timeStart": "1:45 pm",
               "timeEnd": "3:15 pm",
@@ -321,6 +321,24 @@
               "timeEnd": "7:00 pm",
               "tracks": [
                 "Food & Other"
+              ]
+            }
+          ]
+        },
+        {
+          "time": "6:00 pm",
+          "sessions": [
+            {
+              "name": "Fishbowl",
+              "locationId": "room1",
+              "description": "After the first day of the Scrum Gathering 2016, SUGSA will be hosting a Fishbowl that's open to everyone in the Community (whether you've attended the Gathering or not). Please join us as we get together to have interesting & thought-provoking conversations with speakers & attendees from the conference. \n\n\nWhat is a Fishbowl? \n\nThe Fishbowl activity is great for keeping a focused conversation. At any time, only a few people have a conversation (the fish in the fishbowl) – there are 5 chairs in the middle facing each other, of which 4 have people sitting in them & one remains empty. The remaining people are listeners (the ones watching the fishbowl). The caveat is that the listeners can join the discussion at any moment. When they do, they fill the one open chair & someone else (typically who has been there long or is less involved in the current conversation) has to leave so there is always one vacant chair for one of the listeners to join the circle.",
+              "speakerNames": [
+                "Justin Kotze"
+              ],
+              "timeStart": "6:00 pm",
+              "timeEnd": "7:00 pm",
+              "tracks": [
+                "Fishbowl"
               ]
             }
           ]
