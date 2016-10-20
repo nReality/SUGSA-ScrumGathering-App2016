@@ -13,7 +13,7 @@ export class TweetShare {
   shareViaTwitter(message, image, link) {
     var pl = (<any>window).plugins
     if (pl == null){
-       window.open(`https://twitter.com/`);
+       window.open(`https://twitter.com/intent/tweet?text=` + message);
       return;
     }
       this.platform.ready().then(() => {
