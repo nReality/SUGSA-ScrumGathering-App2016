@@ -455,7 +455,7 @@
               ]
             },
             {
-              "name": "Unlocking ScrumMastery (Lightning Talk)",
+              "name": "Unlocking ScrumMastery (Lightning Talk - 15 Minutes))",
               "description": "How do you go about creating good to great ScrumMasters in a large financial services organisation beyond sending them on a 2-day certification course?\n\nIn the beginning of 2015, I was provided the opportunity to assist a large financial institution with their Agile adoption. I was contracted directly to the Agile Adoption team that was formed to drive out training, coaching, change management, team mobilisation and other services.\n\nI remember the one conversation vividly with the head of the Agile adoption team, 3 months into my engagement. He was looking at creating the opportunity for 500 ScrumMasters in the organisation.\n\nThis talk focuses on how we solved this problem by creating a sustainable learning opportunity for internal staff to become great ScrumMasters through a focused, 13 - and then a 10 -  week programme called the ScrumMaster Academy. We used the pilot programme as an experiment by providing training, coaching and mentoring 16 ScrumMaster apprentices through a Coaching Collective. ",
               "locationId": "room1",
               "speakerNames": [
@@ -468,11 +468,11 @@
               ]
             },
             {
-              "name": "How to sell hamburgers @ 3 % and make huge profits (Lightning Talk)",
-              "description": "Selling Hamburgers at 3 % and Still make a huge profit - is about making SCRUM work in every day life. \nAn alternative approach in re-itterating SCRUM values in a FUN way to get TRUE business value.\n\nLearning Outcomes:\n\nhow \"focus\" can improve your business bottom line how to make \"focus\" happen in 3 easy steps",
+              "name": "What Affects Sustainability of Agile Transformations?",
+              "description": "This is an era when a lot of organisations are going for Agile Transformations, of course because of the value this way of working, brings to the business.\n\nAre these transformations easily sustainable? As an organization, are we supporting our people well enough so that they can be agile? Its a general trend then if we want to go agile, we have to hire Scrum Masters/Agile Coaches, is it just enough? We want to change, but only in what we are comfortable with, we are not brave enough to unlearn old ways. This talk is all about our journey of attempt to be agile and challenges we are facing and what we are trying to do to overcome these challenges\n\n\n\nLearning Outcomes:\n\nSetup of Working Environment For Agile Teams\n\nWhy just having Scrum Masters and Agile Coach is not sufficient\n\nHow Organisational Structural changes becomes a bottleneck sometimes\n\nWhat is difficult? Finding new people or retaining old ones?\n\nWhy knowing how you can give your best to an Org, is not sufficient?\n\nWhy half cooked processes are not healthy for an Organisation\n\nWhat we need to win in the battle of Agile Transformation?",
               "locationId": "room2",
               "speakerNames": [
-                "Henk Viljoen"
+                "Rahul Sharma"
               ],
               "timeStart": "11:00 am",
               "timeEnd": "11:30 am",
@@ -481,7 +481,7 @@
               ]
             },
             {
-              "name": "Agile Transformation from a traditional banking environment to mirror that of a modern day tech company (Lightning Talk)",
+              "name": "Agile Transformation from a traditional banking environment to mirror that of a modern day tech company (Lightning Talk - 15 Minutes))",
               "description": "This is a story from a crazy goal that exco had \"become agile' to what we did. Becoming agile is not as simple as 1,2,3 and we are unique because most of our teams are not software development teams. Parts worked very well and others that really did not pan out. Following agile sprite of transparency. We want o share our journey.\n\nLearning Outcomes:\n\nHow to design space to fail experiments\nWays to Enablement empowerment early\nHow to do BAU with Agile\nDelbert learning from a new way of working",
               "locationId": "room3",
               "speakerNames": [
@@ -816,10 +816,10 @@
       "about": "Steve has been making things on the web for the last decade and making mistakes for a lot longer. He helps people build better websites."
     },
     {
-      "name": "Henk Viljoen",
-      "profilePic": "img/speakers/henk-head.jpg",
-      "twitter": "@w_henk",
-      "about": "From pathology to education, and back at corporates – with the self-proclaimed title as Chief Happiness Officer at MMI Holdings, Henk serves as coach and mentor.\n\nAn ambassador for Agile transformation, Henk assists organisations in being better through people.\n\nHe lives in Centurion with his wife Elmare; their four kids; two dogs; two cats; five Rhode Island hens; and their African Gray... Fielies.”"
+      "name": "Rahul Sharma",
+      "profilePic": "img/speakers/rahul-head.jpg",
+      "twitter": "@RahulSh13",
+      "about": "After getting a Master’s Degree in Computers Applications, I learned Software Programming for 2 years, Software Testing for 7 years and trying to be agile for last 5 years. My genuine agile journey started in 2011 when he joined Investec Bank Mauritius IT team, which was following Scrums and then Kanban. Right now serving people at MultiChoice, Johannesburg"
     },
     {
       "name": "Seshyn Munsamy",
