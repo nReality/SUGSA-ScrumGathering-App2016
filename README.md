@@ -9,6 +9,7 @@
 
 
 ## Getting Started
+This repo only works with ionic 2.0.0, to run install: `npm install ionic@2.0.0 -g`
 
 * Clone this repository.
 * Want to use TypeScript? Both the `master` branch and the `typescript` branch now use TypeScript.
